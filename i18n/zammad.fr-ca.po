@@ -1688,7 +1688,7 @@ msgstr "Agent"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 "La limite de l'agent est dépassée, veuillez vérifier les paramètres de votre "
@@ -1944,6 +1944,12 @@ msgstr ""
 #| msgid "Recipient"
 msgid "Any recipient"
 msgstr "Receveur"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2260,7 +2266,7 @@ msgstr ""
 "Délai d'affectation en minutes si l'agent assigné ne travaille pas dessus. "
 "Le billet sera présenté comme non assigné."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2274,7 +2280,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -6748,7 +6754,7 @@ msgstr "Notification par courriel"
 msgid "Email address"
 msgstr "Adresse Courriel"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -9591,7 +9597,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -11223,7 +11229,7 @@ msgstr "MOOD"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -14978,7 +14984,7 @@ msgstr "Recherche…"
 msgid "Secondary organizations"
 msgstr "Organisation partagée"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -16019,10 +16025,6 @@ msgstr ""
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
-msgstr ""
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
 msgstr ""
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
@@ -17262,6 +17264,10 @@ msgstr "Les modifications suivantes ont été apportées:"
 msgid "The following changes will be made:"
 msgstr "Les modifications suivantes sont apportées:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -17495,7 +17501,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 #, fuzzy
 #| msgid "Unable to verify email. Please contact your administrator."
 msgid "The password could not be set. Please contact your administrator."
@@ -17525,7 +17531,7 @@ msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 #, fuzzy
 #| msgid "%s Object(s) are updated."
 msgid "The private PGP key could not be found."
@@ -17615,7 +17621,7 @@ msgstr ""
 msgid "The provided token is invalid."
 msgstr ""
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 #, fuzzy
 #| msgid "%s Object(s) are updated."
 msgid "The public PGP key could not be found."
@@ -21114,7 +21120,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Bravo ! Votre adresse courriel a été vérifiée !"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Bravo ! Votre mot de passe a été changé !"
@@ -21175,7 +21181,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr ""
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -22580,7 +22586,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr ""
 

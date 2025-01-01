@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-29 09:00+0000\n"
+"PO-Revision-Date: 2024-12-17 22:00+0000\n"
 "Last-Translator: Anael Mobilia <contrib@anael.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/fr/>\n"
@@ -1685,7 +1685,7 @@ msgstr "Chat avec l'agent"
 msgid "Agent idle timeout"
 msgstr "Temps d'inactivité maximum de l'agent"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Limites de l'agent atteintes, vérifiez les paramètres de votre compte."
 
@@ -1948,6 +1948,14 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "N'importe quel destinataire"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
+"Désolé, nous ne sommes pas en mesure de traiter ce type de message en raison "
+"de restrictions au sein de WhatsApp Business."
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2248,7 +2256,7 @@ msgstr ""
 "travailler sur ce sujet. A la fin du délai, l'affectation du ticket sera "
 "supprimée."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2264,7 +2272,7 @@ msgstr "Au moins une règle est requise, mais aucune n'a été fournie."
 msgid "At least one object must be selected."
 msgstr "Au moins un objet doit être sélectionné."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 "Au moins un utilisateur doit disposer des permissions d'administration."
@@ -3507,7 +3515,7 @@ msgstr "Fermer"
 
 #: db/seeds/macros.rb:4
 msgid "Close & Tag as Spam"
-msgstr "Fermer et marquer en tant que spam"
+msgstr "Clore et marquer en tant que spam"
 
 #: lib/excel_sheet/ticket.rb:62
 msgid "Close Diff In Min"
@@ -3549,7 +3557,7 @@ msgstr "Fermer l'onglet"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:16
 #: db/seeds/settings.rb:2914
 msgid "Close tab on ticket close"
-msgstr "Fermer l'onglet à la fermeture du ticket"
+msgstr "Fermer l'onglet lorsque le ticket est clos"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:51
 msgid "Close the time picker"
@@ -6555,7 +6563,7 @@ msgstr "Vérification de l'e-mail"
 msgid "Email address"
 msgstr "Adresse e-mail"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "L'adresse e-mail '%{email}' est déjà utilisée pour un autre utilisateur."
@@ -9012,7 +9020,7 @@ msgstr "Y compris la clé privée."
 #: app/assets/javascripts/app/controllers/ticket_zoom/checklist_modal.coffee:10
 #: app/frontend/apps/desktop/pages/ticket/views/TicketDetailView.vue:347
 msgid "Incomplete Ticket Checklist"
-msgstr "Checklist des tickets incomplets"
+msgstr "Checklist des tickets incomplète"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklist.vue:29
 msgid "Incomplete checklist items"
@@ -9241,7 +9249,7 @@ msgstr "client_id invalide dans la boucle de réception !"
 msgid "Invalid client_id received!"
 msgstr "client_id reçu invalide !"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Email invalide '%{email}'"
 
@@ -10038,7 +10046,7 @@ msgstr "Gérer"
 
 #: db/seeds/permissions.rb:228
 msgid "Manage API of your system."
-msgstr "Gérez l'API de votre système."
+msgstr "Gérer l'API de votre système."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:30
 msgid "Manage Checklist Template"
@@ -10050,23 +10058,23 @@ msgstr "Gérer les modèles de checklist"
 
 #: db/seeds/permissions.rb:168
 msgid "Manage Facebook channel of your system."
-msgstr "Gérez le canal Facebook de votre système."
+msgstr "Gérer le canal Facebook de votre système."
 
 #: db/seeds/permissions.rb:150
 msgid "Manage Google mail channel of your system."
-msgstr "Gérez le canal email Google de votre système."
+msgstr "Gérer le canal e-mail Google de votre système."
 
 #: db/seeds/permissions.rb:156
 msgid "Manage Microsoft 365 mail channel of your system."
-msgstr "Gérez le canal email Microsoft 365 de votre système."
+msgstr "Gérer le canal e-mail Microsoft 365 de votre système."
 
 #: db/seeds/permissions.rb:138
 msgid "Manage SMS channel of your system."
-msgstr "Gérez le canal SMS de votre système."
+msgstr "Gérer le canal SMS de votre système."
 
 #: db/seeds/permissions.rb:72
 msgid "Manage Service Level Agreements of your system."
-msgstr "Gérez les Service Level Agreements de votre système."
+msgstr "Gérer les Service Level Agreements de votre système."
 
 #: app/assets/javascripts/app/views/tag/index.jst.eco:20
 msgid "Manage Tags"
@@ -10074,11 +10082,11 @@ msgstr "Gérer les étiquettes"
 
 #: db/seeds/permissions.rb:174
 msgid "Manage Telegram channel of your system."
-msgstr "Gérez le canal Telegram de votre système."
+msgstr "Gérer le canal Telegram de votre système."
 
 #: db/seeds/permissions.rb:162
 msgid "Manage Twitter channel of your system."
-msgstr "Gérez le canal Twitter de votre système."
+msgstr "Gérer le canal Twitter de votre système."
 
 #: app/assets/javascripts/app/controllers/user.coffee:162
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:4
@@ -10087,19 +10095,19 @@ msgstr "Gérer l’authentification à deux facteurs"
 
 #: db/seeds/permissions.rb:180
 msgid "Manage WhatsApp channel of your system."
-msgstr "Gérez le canal WhatsApp de votre système."
+msgstr "Gérer le canal WhatsApp de votre système."
 
 #: db/seeds/permissions.rb:288
 msgid "Manage active user sessions of your system."
-msgstr "Gérez les sessions utilisateur actives de votre système."
+msgstr "Gérer les sessions utilisateur actives de votre système."
 
 #: db/seeds/permissions.rb:30
 msgid "Manage all organizations of your system."
-msgstr "Gérez toutes les organisations de votre système."
+msgstr "Gérer toutes les organisations de votre système."
 
 #: db/seeds/permissions.rb:12
 msgid "Manage all users of your system."
-msgstr "Gérez tous les utilisateurs de votre système."
+msgstr "Gérer tous les utilisateurs de votre système."
 
 #: app/assets/javascripts/app/views/api.jst.eco:48
 msgid ""
@@ -10112,67 +10120,67 @@ msgstr ""
 
 #: db/seeds/permissions.rb:186
 msgid "Manage branding settings of your system."
-msgstr "Gérez les paramètres de marque de votre système."
+msgstr "Gérer les paramètres de marque de votre système."
 
 #: db/seeds/permissions.rb:66
 msgid "Manage calendars of your system."
-msgstr "Gérez les calendriers de votre système."
+msgstr "Gérer les calendriers de votre système."
 
 #: db/seeds/permissions.rb:144
 msgid "Manage chat channel of your system."
-msgstr "Gérez le canal de chat de votre système."
+msgstr "Gérer le canal de chat de votre système."
 
 #: db/seeds/permissions.rb:192
 msgid "Manage core system settings."
-msgstr "Gérez les paramètres de base du système."
+msgstr "Gérer les paramètres de base du système."
 
 #: db/seeds/permissions.rb:252
 msgid "Manage core workflows of your system."
-msgstr "Gérez les flux de travail de base de votre système."
+msgstr "Gérer les flux de travail de base de votre système."
 
 #: db/seeds/permissions.rb:132
 msgid "Manage email channel of your system."
-msgstr "Gérez le canal de messagerie de votre système."
+msgstr "Gérer le canal de messagerie de votre système."
 
 #: db/seeds/permissions.rb:126
 msgid "Manage form channel of your system."
-msgstr "Gérez le canal de formulaire de votre système."
+msgstr "Gérer le canal de formulaire de votre système."
 
 #: db/seeds/permissions.rb:18
 msgid "Manage groups of your system."
-msgstr "Gérez les groupes de votre système."
+msgstr "Gérer les groupes de votre système."
 
 #: db/seeds/permissions.rb:222
 msgid "Manage integrations of your system."
-msgstr "Gérez les intégrations de votre système."
+msgstr "Gérer les intégrations de votre système."
 
 #: db/seeds/permissions.rb:270
 msgid "Manage maintenance mode of your system."
-msgstr "Gérez le mode de maintenance de votre système."
+msgstr "Gérer le mode de maintenance de votre système."
 
 #: db/seeds/permissions.rb:276
 msgid "Manage monitoring of your system."
-msgstr "Gérez la surveillance de votre système."
+msgstr "Gérer la surveillance de votre système."
 
 #: db/seeds/permissions.rb:234
 msgid "Manage object attributes of your system."
-msgstr "Gérez les attributs des objets de votre système."
+msgstr "Gérer les attributs des objets de votre système."
 
 #: db/seeds/permissions.rb:282
 msgid "Manage packages of your system."
-msgstr "Gérez les packages de votre système."
+msgstr "Gérer les packages de votre système."
 
 #: db/seeds/permissions.rb:448
 msgid "Manage personal API tokens."
-msgstr "Gérez les jetons API personnels."
+msgstr "Gérer les jetons API personnels."
 
 #: db/seeds/permissions.rb:396
 msgid "Manage personal appearance settings."
-msgstr "Gérez les paramètres d’apparence personnelle."
+msgstr "Gérer les paramètres d’apparence personnelle."
 
 #: db/seeds/permissions.rb:410
 msgid "Manage personal avatar settings."
-msgstr "Gérez les paramètres de votre avatar personnel."
+msgstr "Gérer les paramètres de votre avatar personnel."
 
 #: db/seeds/permissions.rb:482
 msgid "Manage personal calendar."
@@ -10180,27 +10188,27 @@ msgstr "Gérer le calendrier personnel."
 
 #: db/seeds/permissions.rb:441
 msgid "Manage personal devices and sessions."
-msgstr "Gérez les appareils et les sessions personnels."
+msgstr "Gérer les appareils et les sessions personnels."
 
 #: db/seeds/permissions.rb:403
 msgid "Manage personal language settings."
-msgstr "Gérez les paramètres de langue personnels."
+msgstr "Gérer les paramètres de langue personnels."
 
 #: db/seeds/permissions.rb:455
 msgid "Manage personal linked accounts."
-msgstr "Gérez les comptes personnels liés."
+msgstr "Gérer les comptes personnels liés."
 
 #: db/seeds/permissions.rb:462
 msgid "Manage personal notifications settings."
-msgstr "Gérez les paramètres de notifications personnelles."
+msgstr "Gérer les paramètres de notifications personnelles."
 
 #: db/seeds/permissions.rb:417
 msgid "Manage personal out of office settings."
-msgstr "Gérez les paramètres personnels d'absence du bureau."
+msgstr "Gérer les paramètres personnels d'absence du bureau."
 
 #: db/seeds/permissions.rb:472
 msgid "Manage personal overviews."
-msgstr "Gérez vos aperçus personnels."
+msgstr "Gérer vos aperçus personnels."
 
 #: db/seeds/permissions.rb:389
 msgid "Manage personal settings."
@@ -10208,97 +10216,97 @@ msgstr "Gérer les paramètres personnels."
 
 #: db/seeds/permissions.rb:434
 msgid "Manage personal two-factor authentication methods."
-msgstr "Gérez les méthodes personnelles d’authentification à deux facteurs."
+msgstr "Gérer les méthodes personnelles d’authentification à deux facteurs."
 
 #: db/seeds/permissions.rb:84
 msgid "Manage public links of your system."
-msgstr "Gérez les liens publics de votre système."
+msgstr "Gérer les liens publics de votre système."
 
 #: db/seeds/permissions.rb:102
 msgid "Manage report profiles of your system."
-msgstr "Gérez les profils de rapport de votre système."
+msgstr "Gérer les profils de rapport de votre système."
 
 #: db/seeds/permissions.rb:24
 msgid "Manage roles of your system."
-msgstr "Gérez les rôles de votre système."
+msgstr "Gérer les rôles de votre système."
 
 #: db/seeds/permissions.rb:96
 msgid "Manage schedulers of your system."
-msgstr "Gérez les planificateurs de votre système."
+msgstr "Gérer les planificateurs de votre système."
 
 #: db/seeds/permissions.rb:198
 msgid "Manage security settings of your system."
-msgstr "Gérez les paramètres de sécurité de votre système."
+msgstr "Gérer les paramètres de sécurité de votre système."
 
 #: db/seeds/permissions.rb:294
 msgid "Manage system report of your system."
-msgstr "Gérez le rapport système de votre système."
+msgstr "Gérer le rapport système de votre système."
 
 #: db/seeds/permissions.rb:42
 msgid "Manage text modules of your system."
-msgstr "Gérez les modules de texte de votre système."
+msgstr "Gérer les modèles de texte de votre système."
 
 #: db/seeds/permissions.rb:210
 msgid "Manage ticket auto assignment settings of your system."
 msgstr ""
-"Gérez les paramètres d'attribution automatique des tickets de votre système."
+"Gérer les paramètres d'attribution automatique des tickets de votre système."
 
 #: db/seeds/permissions.rb:300
 msgid "Manage ticket checklists of your system."
-msgstr "Gérez les checklist des tickets de votre système."
+msgstr "Gérer les checklists des tickets de votre système."
 
 #: db/seeds/permissions.rb:216
 msgid "Manage ticket duplicate detection settings of your system."
 msgstr ""
-"Gérez les paramètres de détection de doublons de tickets de votre système."
+"Gérer les paramètres de détection de doublons de tickets de votre système."
 
 #: db/seeds/permissions.rb:48
 msgid "Manage ticket macros of your system."
-msgstr "Gérez les macros de tickets de votre système."
+msgstr "Gérer les macros de tickets de votre système."
 
 #: db/seeds/permissions.rb:36
 msgid "Manage ticket overviews of your system."
-msgstr "Gérez les aperçus des tickets de votre système."
+msgstr "Gérer les aperçus des tickets de votre système."
 
 #: db/seeds/permissions.rb:246
 msgid "Manage ticket priorities of your system."
-msgstr "Gérez les priorités des tickets de votre système."
+msgstr "Gérer les priorités des tickets de votre système."
 
 #: db/seeds/permissions.rb:204
 msgid "Manage ticket settings of your system."
-msgstr "Gérez les paramètres de ticket de votre système."
+msgstr "Gérer les paramètres de ticket de votre système."
 
 #: db/seeds/permissions.rb:240
 msgid "Manage ticket states of your system."
-msgstr "Gérez les états des tickets de votre système."
+msgstr "Gérer les états des tickets de votre système."
 
 #: db/seeds/permissions.rb:60
 msgid "Manage ticket tags of your system."
-msgstr "Gérez les étiquettes de ticket de votre système."
+msgstr "Gérer les étiquettes de ticket de votre système."
 
 #: db/seeds/permissions.rb:54
 msgid "Manage ticket templates of your system."
-msgstr "Gérez les modèles de tickets de votre système."
+msgstr "Gérer les modèles de tickets de votre système."
 
 #: db/seeds/permissions.rb:108
 msgid "Manage time accounting settings of your system."
-msgstr "Gérez les paramètres de décompte du temps de votre système."
+msgstr "Gérer les paramètres de décompte du temps de votre système."
 
 #: db/seeds/permissions.rb:258
 msgid "Manage translations of your system."
-msgstr "Gérez les traductions de votre système."
+msgstr "Gérer les traductions de votre système."
 
 #: db/seeds/permissions.rb:78
 msgid "Manage triggers of your system."
-msgstr "Gérez les déclencheurs de votre système."
+msgstr "Gérer les déclencheurs de votre système."
 
 #: db/seeds/permissions.rb:120
 msgid "Manage web channel of your system."
-msgstr "Gérez le canal web de votre système."
+msgstr "Gérer le canal web de votre système."
 
 #: db/seeds/permissions.rb:90
 msgid "Manage webhooks of your system."
-msgstr "Gérez les webhooks de votre système."
+msgstr "Gérer les webhooks de votre système."
 
 #: app/views/mailer/application.html.erb:47
 msgid "Manage your notification settings"
@@ -10673,7 +10681,7 @@ msgstr "Mode"
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:268
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:66
 msgid "Module"
-msgstr "Module"
+msgstr "Modèle"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:157
 msgid "Mon"
@@ -10721,7 +10729,7 @@ msgstr "Humeur"
 msgid "More information can be found here."
 msgstr "Plus d'informations peuvent être trouvées ici."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Il ne peut pas y avoir plus de 250 organisations secondaires."
 
@@ -10744,7 +10752,7 @@ msgstr "Descendre"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:341
 msgid "Move left and right"
-msgstr "Se déplacer à gauche et à droit"
+msgstr "Se déplacer à gauche et à droite"
 
 #: app/frontend/shared/form/i18n/locales.ts:50
 msgid "Move up"
@@ -11519,7 +11527,7 @@ msgstr "\"x-zammad-session-user-id\" absent, aucun expéditeur défini !"
 #: app/assets/javascripts/app/controllers/ticket_zoom/checklist_modal.coffee:8
 #: app/frontend/apps/desktop/pages/ticket/views/TicketDetailView.vue:350
 msgid "No, just close the ticket"
-msgstr "Non, fermer simplement le ticket"
+msgstr "Non, juste clore le ticket"
 
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:54
 msgid "No, thanks"
@@ -14196,7 +14204,7 @@ msgstr "Recherche…"
 msgid "Secondary organizations"
 msgstr "Organisations secondaires"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14377,7 +14385,7 @@ msgstr "Sélecteur"
 
 #: app/assets/javascripts/app/views/settings/ticket_number.jst.eco:4
 msgid "Selects the ticket number generator module."
-msgstr "Sélectionner le module de génération du numéro de ticket."
+msgstr "Sélectionner le modèle de génération du numéro de ticket."
 
 #: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:472
 #: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:484
@@ -15146,10 +15154,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Un problème est survenu."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Un problème est survenu. Veuillez contacter votre administrateur."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16290,6 +16294,10 @@ msgstr "Les modifications suivantes ont été faites :"
 msgid "The following changes will be made:"
 msgstr "Les modifications suivantes seront faites :"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr "Le contenu suivant est fourni par le rapport système :"
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16491,7 +16499,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Le paramètre 'mentionable_type' est invalide."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Le mot de passe n'a pas pu être défini. Veuillez contacter votre "
@@ -16516,7 +16524,7 @@ msgstr ""
 "L'aperçu ne peut pas être généré. Le format est corrompu ou n'est pas pris "
 "en charge."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "La clé privée PGP est introuvable."
 
@@ -16608,7 +16616,7 @@ msgstr ""
 msgid "The provided token is invalid."
 msgstr "Le token fourni est invalide."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "La clé publique PGP est introuvable."
 
@@ -17547,8 +17555,8 @@ msgid ""
 "It was blocked, but you can download the original formatting here."
 msgstr ""
 "Ce message contient des images ou tout autre contenu hébergé par une source "
-"externe. Il a été bloqué, mais vous pouvez télécharger le formatage original "
-"ici."
+"externe. Ce dernier a été bloqué, mais vous pouvez le télécharger en "
+"cliquant ici."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBlockedContentWarning.vue:34
 msgid ""
@@ -17556,7 +17564,8 @@ msgid ""
 "It was blocked, but you can download the original formatting."
 msgstr ""
 "Ce message contient des images ou tout autre contenu hébergé par une source "
-"externe. Il a été bloqué, mais vous pouvez télécharger le formatage original."
+"externe. Ce dernier a été bloqué, mais vous pouvez le télécharger en "
+"cliquant ici."
 
 #: lib/secure_mailing/smime/incoming.rb:86
 msgid "This message was not signed by its sender."
@@ -20012,7 +20021,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Wahoo ! Votre adresse email a été vérifiée !"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Wahoo ! Votre mot de passe a été modifié !"
@@ -20071,7 +20080,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Vous recevez ceci parce que vous êtes membre du groupe de ce ticket."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -20362,7 +20371,7 @@ msgid ""
 "closing this ticket?"
 msgstr ""
 "Vous avez des éléments non cochés dans la checklist. Voulez-vous les traiter "
-"avant de fermer ce ticket ?"
+"avant de clore ce ticket ?"
 
 #: app/assets/javascripts/app/views/after_auth/two_factor_configuration.jst.eco:4
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:42
@@ -21407,7 +21416,7 @@ msgstr "n'est pas de la bonne longueur (devrait avoir %{count} caractères)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "n'est pas de la bonne longueur (devrait être 1 caractère)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "est trop long"
 
@@ -22156,6 +22165,9 @@ msgstr "... de toute la zone de texte"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Temps d'attente aujourd'hui"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Un problème est survenu. Veuillez contacter votre administrateur."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Autoriser les utilisateurs à créer de nouvelles checklists."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-06 22:00+0000\n"
-"Last-Translator: Random <random_r@users.noreply.translations.zammad.org>\n"
+"PO-Revision-Date: 2024-12-27 13:00+0000\n"
+"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/it/>\n"
 "Language: it-it\n"
@@ -1682,7 +1682,7 @@ msgstr "Chat dell'operatore"
 msgid "Agent idle timeout"
 msgstr "Tempo di inattività operatore"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Limite agente superato, verifica le impostazioni del tuo account."
 
@@ -1944,6 +1944,14 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Qualsiasi destinatario"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
+"Spiacenti, non siamo in grado di elaborare questo tipo di messaggio a causa "
+"delle restrizioni di WhatsApp Business."
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2245,7 +2253,7 @@ msgstr ""
 "Scadenza assegnazione in minuti quando l'agente assegnatario non ci sta "
 "lavorando. Il ticket sarà indicato come non assegnato."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2262,7 +2270,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "È necessario selezionare almeno un oggetto."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Dev'esserci almeno un utente con privilegi di amministratore."
 
@@ -6523,7 +6531,7 @@ msgstr "Verifica dell'email"
 msgid "Email address"
 msgstr "Indirizzo email"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "L'indirizzo email '%{email}' è usato da un altro utente."
 
@@ -8649,16 +8657,12 @@ msgstr ""
 "nuovi. Questa azione renderà inutilizzabili i precedenti."
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:12
-#, fuzzy
-#| msgid ""
-#| "If you want to move already stored attachments from one backend to "
-#| "another, you need to execute the following via console."
 msgid ""
 "If you want to move already stored attachments from one backend to another, "
 "you need to execute the following rails/rake task."
 msgstr ""
 "Se vuoi spostare allegati già archiviatida un backend all'altro, è "
-"necessario eseguire il seguente comando da console."
+"necessario eseguire il seguente task di rails/rake."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:162
 msgid ""
@@ -9185,7 +9189,7 @@ msgstr "Client_id non valido nel ciclo di ricezione!"
 msgid "Invalid client_id received!"
 msgstr "Ricevuto un client_id non valido!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Email '%{email}' non valida"
 
@@ -10661,7 +10665,7 @@ msgstr "Stato d'animo"
 msgid "More information can be found here."
 msgstr "Ulteriori informazioni sono disponibili qui."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Non sono ammesse più di 250 organizzazioni secondarie."
 
@@ -14117,7 +14121,7 @@ msgstr "Cerca…"
 msgid "Secondary organizations"
 msgstr "Organizzazioni secondarie"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15057,10 +15061,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Qualcosa è andato storto."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Qualcosa è andato storto. Per favore contatta il tuo amministratore."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16193,6 +16193,10 @@ msgstr "Sono state apportate le seguenti modifiche:"
 msgid "The following changes will be made:"
 msgstr "Verranno apportate le seguenti modifiche:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr "Il resoconto di sistema contiene i seguenti contenuti:"
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16395,7 +16399,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Il parametro 'mentionable_type' non è valido."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Impossibile impostare la password. Per favore, contatta il tuo "
@@ -16420,7 +16424,7 @@ msgstr ""
 "Non è stato possibile creare l'anteprima. Il formato è corrotto o non "
 "supportato."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "Impossibile trovare la chiave PGP privata."
 
@@ -16509,7 +16513,7 @@ msgstr "Il payload fornito non è valido. Verifica la sintassi."
 msgid "The provided token is invalid."
 msgstr "Il token fornito non è valido."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Impossibile trovare la chiave PGP pubblica."
 
@@ -18835,7 +18839,7 @@ msgstr ""
 #: app/frontend/apps/desktop/components/CommonFlyout/CommonFlyoutActionFooter.vue:13
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailBottomBar/TicketDetailBottomBar.vue:147
 msgid "Update"
-msgstr "Aggiorna"
+msgstr "Aggiornamento"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:38
 msgid "Update Database"
@@ -19888,7 +19892,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Bene! la tua email è stata verificata!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Bene! la tua password è stata modificata!"
@@ -19946,7 +19950,7 @@ msgid ""
 msgstr ""
 "Stai ricevendo questo perché sei un membro del gruppo di questo ticket."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21273,7 +21277,7 @@ msgstr "è della lunghezza sbagliata (dovrebbe essere %{count} caratteri)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "è della lunghezza sbagliata (dovrebbe essere 1 carattere)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "è troppo lungo"
 
@@ -22023,6 +22027,10 @@ msgstr "…dell'intera area di testo"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Tempi di attesa - Oggi"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr ""
+#~ "Qualcosa è andato storto. Per favore contatta il tuo amministratore."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Consenti agli utenti di creare nuove checklist."

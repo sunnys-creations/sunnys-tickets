@@ -1657,7 +1657,7 @@ msgstr "Chat agenta"
 msgid "Agent idle timeout"
 msgstr "Prekoračenje vremena mirovanja agenta"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Limit broja agenata prekoračen, provjerite postavke računa."
 
@@ -1913,6 +1913,12 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Bilo koji primatelj"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2213,7 +2219,7 @@ msgstr ""
 "Prekoračenje vremena dodjele za nekoliko minuta ako dodijeljeni agent ne "
 "radi na tome. Ticket će biti prikazan kao nedodijeljen."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2230,7 +2236,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Mora biti odabran barem jedan objekt."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Barem jedan agent mora imati administratorske dozvole."
 
@@ -6436,7 +6442,7 @@ msgstr "Provjera e-poštom"
 msgid "Email address"
 msgstr "E-mail adresa"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "E-adresa '%{email}' se već koristi kod drugog korisnika."
 
@@ -9066,7 +9072,7 @@ msgstr "Neispravan client_id u prijemnoj petlji!"
 msgid "Invalid client_id received!"
 msgstr "Zaprimljen neispravan client_id!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "neispravan e-mail '%{email}'"
 
@@ -10532,7 +10538,7 @@ msgstr "Raspoloženje"
 msgid "More information can be found here."
 msgstr "Više informacija možete pronaći ovdje."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Nije moguće imati više od 250 sekundarnih organizacija."
 
@@ -13966,7 +13972,7 @@ msgstr "Traži…"
 msgid "Secondary organizations"
 msgstr "Sekundarne organizacije"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14899,10 +14905,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Žao nam je, ali nešto je pošlo po zlu."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Nešto je pošlo po zlu. Molimo, obratite se administratoru."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16021,6 +16023,10 @@ msgstr "Napravljene su sljedeće promjene:"
 msgid "The following changes will be made:"
 msgstr "Izvršiti će se sljedeće promjene:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16216,7 +16222,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Parametar 'mentionable_type' nije valjan."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr "Lozinku nije moguće postaviti. Obratite se administratoru."
 
@@ -16237,7 +16243,7 @@ msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr "Pretpregled se ne može generirati. Oblik nije valjan ili nije podržan."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "Privatni PGP ključ nije moguće pronaći."
 
@@ -16323,7 +16329,7 @@ msgstr "Navedeni payload nije valjan. Molimo, provjerite sintaksu."
 msgid "The provided token is invalid."
 msgstr "Navedeni token nije valjan."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Javni PGP ključ nije moguće pronaći."
 
@@ -19658,7 +19664,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Woo hoo! Vaša e-mail adresa je potvrđena!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Woo hoo! Vaša lozinka je promijenjena!"
@@ -19715,7 +19721,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Primate ovo jer ste član grupe ovog ticketa."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21033,7 +21039,7 @@ msgstr "ima pogrešnu duljinu (treba imati %{count}znakova)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "ima pogrešnu duljinu (treba imati 1 znak)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "je predugačak"
 
@@ -21780,6 +21786,9 @@ msgstr "... cijelog tekstnog polja"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ vrijeme čekanja danas"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Nešto je pošlo po zlu. Molimo, obratite se administratoru."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Dopusti korisnicima stvaranje novih lista zadataka."

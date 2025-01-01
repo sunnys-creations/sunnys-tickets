@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-28 08:12+0000\n"
+"PO-Revision-Date: 2024-12-09 14:00+0000\n"
 "Last-Translator: JPB <JPB@users.noreply.translations.zammad.org>\n"
 "Language-Team: Dutch <https://translations.zammad.org/projects/zammad/zammad-"
 "stable/nl/>\n"
@@ -1671,7 +1671,7 @@ msgstr "Chat met behandelaar"
 msgid "Agent idle timeout"
 msgstr "Behandelaar idle time-out"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Maximum Behandelaren overschreden, controleer je accountinstellingen."
 
@@ -1931,6 +1931,12 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Iedere ontvanger"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2231,7 +2237,7 @@ msgstr ""
 "Toewijzing time-out in minuten wanneer toegewezen behandelaar er niet aan "
 "werkt. Ticket wordt getoond als niet toegewezen."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2247,7 +2253,7 @@ msgstr "Minimaal één regel is verplicht, maar er is er geen aangeboden."
 msgid "At least one object must be selected."
 msgstr "Minimaal één object moet geselecteerd worden."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Minimaal één gebruiker moet administrator rechten hebben."
 
@@ -6479,7 +6485,7 @@ msgstr "E-mail verificatie"
 msgid "Email address"
 msgstr "Email adres"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "E-mailadres '%{email}' is al in gebruik voor een andere gebruiker."
 
@@ -8604,16 +8610,12 @@ msgstr ""
 "Deze actie maakt eerdere herstelcodes ongeldig."
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:12
-#, fuzzy
-#| msgid ""
-#| "If you want to move already stored attachments from one backend to "
-#| "another, you need to execute the following via console."
 msgid ""
 "If you want to move already stored attachments from one backend to another, "
 "you need to execute the following rails/rake task."
 msgstr ""
 "Als je reeds opgeslagen bijlagen van de ene backend naar de andere wilt "
-"verplaatsen, moet je het volgende via de console uitvoeren."
+"verplaatsen, moet je het volgende via rails/rake taak uitvoeren."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:162
 msgid ""
@@ -9140,7 +9142,7 @@ msgstr "Ongeldig client_id in ontvangstlus!"
 msgid "Invalid client_id received!"
 msgstr "Ongeldig client_id ontvangen!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Ongeldig e-mailadres '%{email}'"
 
@@ -10613,7 +10615,7 @@ msgstr "Stemming"
 msgid "More information can be found here."
 msgstr "Meer informatie is hier te vinden."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Meer dan 250 secundaire organisaties zijn niet toegestaan."
 
@@ -14061,7 +14063,7 @@ msgstr "Zoeken…"
 msgid "Secondary organizations"
 msgstr "Secundaire organisaties"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15001,10 +15003,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Er ging iets mis."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Er is iets fout gegaan. Neem contact op met de beheerder."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16131,6 +16129,10 @@ msgstr "De volgende wijzigingen zijn gemaakt:"
 msgid "The following changes will be made:"
 msgstr "De volgende wijzigingen worden uitgevoerd:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16329,7 +16331,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "De parameter 'mentionable_type' is ongeldig."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Het wachtwoord kon niet worden opgeslagen. Neem contact op met de beheerder."
@@ -16353,7 +16355,7 @@ msgstr ""
 "Het voorbeeld kan niet worden gegenereerd. Het formaat is beschadigd of "
 "wordt niet ondersteund."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "De privé PGP-key kon niet worden gevonden."
 
@@ -16441,7 +16443,7 @@ msgstr "De opgegeven payload is ongeldig. Controleer uw syntaxis."
 msgid "The provided token is invalid."
 msgstr "Het verstrekte token is ongeldig."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "De publieke PGP-sleutel kon niet worden gevonden."
 
@@ -19813,7 +19815,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Joo hoo! Je emailadres is geverifieerd!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Gelukt! Je wachtwoord is veranderd!"
@@ -19870,7 +19872,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Je ontvangt dit omdat je lid bent van de groep van dit ticket."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21197,7 +21199,7 @@ msgstr "is de verkeerde lengte (moet %{count} tekens zijn)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "is de verkeerde lengte (moet 1 teken zijn)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "is te lang"
 
@@ -21948,6 +21950,9 @@ msgstr "…van geheel tekstvak"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Wachttijd vandaag"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Er is iets fout gegaan. Neem contact op met de beheerder."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Gebruikers toestaan om nieuwe checklists te maken."

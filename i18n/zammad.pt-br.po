@@ -1676,7 +1676,7 @@ msgstr "Chat do agente"
 msgid "Agent idle timeout"
 msgstr "Tempo de inatividade do Atendente"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Agent limit exceeded, please check your account settings."
 
@@ -1937,6 +1937,12 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Qualquer destinatário"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2236,7 +2242,7 @@ msgstr ""
 "Tempo limite de atribuição se o agente não está trabalhando nele. O Ticket "
 "será exibido como não atribuído."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2253,7 +2259,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Pelo menos um objeto precisa ser selecionado."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Pelo menos um usuário precisa ter permissões de admin."
 
@@ -6488,7 +6494,7 @@ msgstr "Verificação de Email"
 msgid "Email address"
 msgstr "Endereço de email"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "O endereço de e-mail '%{email}' já está sendo usado por outro usuário."
 
@@ -9154,7 +9160,7 @@ msgstr "Client_id inválido no loop de recebimento!"
 msgid "Invalid client_id received!"
 msgstr "Client_id inválido recebido!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "E-mail inválido '%{email}'"
 
@@ -10627,7 +10633,7 @@ msgstr "estado de espírito"
 msgid "More information can be found here."
 msgstr "Mais informações podem ser encontradas aqui."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Mais de 250 organizações secundárias não são permitidas."
 
@@ -14092,7 +14098,7 @@ msgstr "Procurar…"
 msgid "Secondary organizations"
 msgstr "Organizações secundárias"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15043,10 +15049,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Algo deu errado."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Algo deu errado. Entre em contato com seu administrador."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16176,6 +16178,10 @@ msgstr "As seguintes alterações foram feitas:"
 msgid "The following changes will be made:"
 msgstr "As seguintes alterações serão feitas:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16375,7 +16381,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "O parâmetro 'mentionable_type' é inválido."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr "Não foi possível alterar a senha. Por favor contate um administrador."
 
@@ -16398,7 +16404,7 @@ msgstr ""
 "A visualização não pode ser gerada. O formato está corrompido ou não é "
 "suportado."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "A chave privada PGP não pôde ser encontrada."
 
@@ -16486,7 +16492,7 @@ msgstr "The provided payload is invalid. Please check your syntax."
 msgid "The provided token is invalid."
 msgstr "O token fornecido é inválido."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "A chave pública PGP não pôde ser encontrada."
 
@@ -19879,7 +19885,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Agora sim! Seu e-mail está verificado!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Agora sim! Sua senha foi modificada!"
@@ -19936,7 +19942,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Você está recebendo isso porque é membro do grupo deste ticket."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21262,7 +21268,7 @@ msgstr "o comprimento está incorreto (deve ser %{count} caracteres)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "o comprimento está incorreto (deve ser de 1 caracter)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "é muito longo"
 
@@ -22012,6 +22018,9 @@ msgstr "...da area de texto"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ tempo de espera hoje"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Algo deu errado. Entre em contato com seu administrador."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Permitir que os usuários criem novas listas de verificação."

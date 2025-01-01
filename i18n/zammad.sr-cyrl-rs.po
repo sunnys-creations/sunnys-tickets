@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-29 09:01+0000\n"
+"PO-Revision-Date: 2024-12-12 22:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (Cyrillic script) <https://translations.zammad.org/"
 "projects/zammad/zammad-stable/sr_Cyrl/>\n"
@@ -1655,7 +1655,7 @@ msgstr "Ћаскање оператера"
 msgid "Agent idle timeout"
 msgstr "Време након кога се оператер сматра неактивним"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Број оператера је прекорачен, молимо проверите подешавање налога."
 
@@ -1912,6 +1912,14 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Било који прималац"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
+"Нажалост, нисмо успели да обрадимо овај тип поруке услед ограничења WhatsApp "
+"Business платформе."
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2210,7 +2218,7 @@ msgstr ""
 "Време истека доделе у минутима уколико одговорни оператер не ради на тикету. "
 "Тикет ће бити приказан као недодељен."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2227,7 +2235,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Неопходно је одабрати бар један објекат."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Неопходно је да бар један корисник има администраторске дозволе."
 
@@ -6418,7 +6426,7 @@ msgstr "Провера имејл адресе"
 msgid "Email address"
 msgstr "Имејл адреса"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "Други корисник већ користи ’%{email}’ имејл адресу."
 
@@ -9046,7 +9054,7 @@ msgstr "Неисправан client_id у пријемној петљи!"
 msgid "Invalid client_id received!"
 msgstr "Примљен неисправан client_id!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Неважећи имејл ’%{email}’"
 
@@ -10512,7 +10520,7 @@ msgstr "Расположење"
 msgid "More information can be found here."
 msgstr "Више информација можете пронаћи овде."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Није дозвољено више од 250 додатних организација."
 
@@ -13943,7 +13951,7 @@ msgstr "Тражи…"
 msgid "Secondary organizations"
 msgstr "Додатне организације"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14878,10 +14886,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Нешто је пошло наопако."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Нешто је кренуло наопако. Молимо контактирајте администратора."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -15999,6 +16003,10 @@ msgstr "Направљене су следеће измене:"
 msgid "The following changes will be made:"
 msgstr "Следеће измене ће бити направљене:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr "Следећи садржај ће бити укључен у системски извештај:"
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16196,7 +16204,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Параметар ‘mentionable_type’ је неисправан."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Није било могуће подесити лозинку. Молимо контактирајте администратора."
@@ -16219,7 +16227,7 @@ msgid ""
 msgstr ""
 "Није било могуће генерисати приказ. Формат је оштећен или није подржан."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "Тајни PGP кључ није пронађен."
 
@@ -16305,7 +16313,7 @@ msgstr "Достављени подаци су неисправни. Молим�
 msgid "The provided token is invalid."
 msgstr "Наведени кључ је неисправан."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Јавни PGP кључ није пронађен."
 
@@ -19630,7 +19638,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Јуху! Ваша имејл адреса је потврђена!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Јуху! Ваша лозинка је промењена!"
@@ -19687,7 +19695,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Добијате ово зато што сте члан групе овог тикета."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21009,7 +21017,7 @@ msgstr "је погрешне дужине (мора бити %{count} знак/
 msgid "is the wrong length (should be 1 character)"
 msgstr "је погрешне дужине (мора бити један знак)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "је предугачко"
 
@@ -21755,6 +21763,9 @@ msgstr "…целог текстуалног поља"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Време чекања данас"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Нешто је кренуло наопако. Молимо контактирајте администратора."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Дозволи корисницима да додају нове спискове задатака."

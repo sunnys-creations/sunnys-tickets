@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-04 22:16+0000\n"
+"PO-Revision-Date: 2024-12-16 12:00+0000\n"
 "Last-Translator: sigurbjartur <github@sigurbjartur.com>\n"
 "Language-Team: Icelandic <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/is/>\n"
@@ -903,7 +903,7 @@ msgstr "Litaspjald sem notar ljósa liti á dökkan bakgrunn."
 
 #: db/seeds/settings.rb:3886
 msgid "A list of active import backends that gets scheduled automatically."
-msgstr ""
+msgstr "Listi yfir virka innflutningsbakenda sem verður virkjaður sjálfkrafa."
 
 #: lib/validations/mention_validator.rb:7
 msgid "A mentioned user has no agent access to this ticket"
@@ -977,6 +977,8 @@ msgid ""
 "A webhook can be fired by triggers and schedulers, don't forget to define "
 "them!"
 msgstr ""
+"Hleypt getur verið af vefkrók með gikk eða verkstjóra, ekki gleyma að "
+"skilgreina þá!"
 
 #: app/assets/javascripts/app/controllers/api.coffee:3
 #: app/assets/javascripts/app/views/api.jst.eco:2 db/seeds/permissions.rb:227
@@ -985,19 +987,19 @@ msgstr "API"
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:64
 msgid "API Key"
-msgstr ""
+msgstr "API Lykill"
 
 #: db/seeds/settings.rb:3408
 msgid "API Password Access"
-msgstr ""
+msgstr "Aðgangur að API með lykilorði"
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:32
 msgid "API Token"
-msgstr ""
+msgstr "API tóki"
 
 #: db/seeds/settings.rb:3383
 msgid "API Token Access"
-msgstr ""
+msgstr "Aðgangur að API með tóka"
 
 #: lib/whatsapp/webhook/payload.rb:22
 msgid "API error."
@@ -1020,26 +1022,24 @@ msgstr "Samþykkja Persónuverndarstefnu & Notkunarskilmála"
 
 #: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:18
-#, fuzzy
-#| msgid "Access token"
 msgid "Access denied"
-msgstr "Aðgangstóki"
+msgstr "Aðgengi hafnað"
 
 #: db/seeds/permissions.rb:315
 msgid "Access the agent chat features."
-msgstr ""
+msgstr "Aðgangur að spjalli þjónustufulltrúa."
 
 #: db/seeds/permissions.rb:330
 msgid "Access the agent phone features."
-msgstr ""
+msgstr "Aðgangur að símaviðmóti þjónustufulltrúa."
 
 #: db/seeds/permissions.rb:345
 msgid "Access the knowledge base editor features."
-msgstr ""
+msgstr "Aðgangur að þekkingarbrunnsritli."
 
 #: db/seeds/permissions.rb:351
 msgid "Access the knowledge base reader features."
-msgstr ""
+msgstr "Aðgangur að þekkingarbrunnslesara."
 
 #: db/seeds/permissions.rb:373
 msgid "Access the tickets as agent based on group access."
@@ -1063,7 +1063,7 @@ msgstr "Aðgangur að símtalaviðmóti."
 
 #: db/seeds/permissions.rb:358
 msgid "Access to the report interface."
-msgstr ""
+msgstr "Aðgangur að skýrsluviðmóti."
 
 #: db/seeds/permissions.rb:364
 msgid "Access to the ticket interface."
@@ -1076,6 +1076,8 @@ msgstr "Aðgangstóki"
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:157
 msgid "Accessing your camera is forbidden. Please check your settings."
 msgstr ""
+"Ekki fékkst leyfi til að tengjast myndavélinni þinni. Vinsamlega athugaðu "
+"stillingarnar."
 
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:45
 #: app/frontend/apps/mobile/pages/account/routes.ts:8
@@ -1167,10 +1169,8 @@ msgid "Action menu button for authenticator app"
 msgstr "Aðgerðavalmyndarhnappur fyrir auðkenningar smáforrit"
 
 #: app/frontend/apps/desktop/entities/two-factor-configuration/plugins/security-keys.ts:14
-#, fuzzy
-#| msgid "Bulk action executed!"
 msgid "Action menu button for security keys"
-msgstr "Action menu button for security keys"
+msgstr "Hnappur fyrir öryggislykla á aðgerðavalmynd"
 
 #: app/assets/javascripts/app/models/macro.coffee:7
 #: app/assets/javascripts/app/models/template.coffee:7
@@ -1183,7 +1183,7 @@ msgstr "Aðgerðir"
 
 #: db/seeds/settings.rb:2743
 msgid "Activate the recursive processing of ticket triggers."
-msgstr ""
+msgstr "Virkja endurkvæma vinnslu á beiðnagikkjum."
 
 #: app/assets/javascripts/app/models/trigger.coffee:7
 msgid "Activated by"
@@ -1194,6 +1194,8 @@ msgid ""
 "Activates lost password feature for users. This setting is only effective if "
 "the password login is enabled."
 msgstr ""
+"Virkja endurheimtun glataðra lykilorða fyrir notendur. Þessi stilling gerir "
+"ekkert nema að innskráning með lykilorði sé virk."
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:320
 #: app/assets/javascripts/app/models/chat.coffee:257
@@ -1313,19 +1315,15 @@ msgstr "Bæta við skilríki"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent.vue:406
 msgid "Add Empty Checklist"
-msgstr ""
+msgstr "Bæta tómum gátlista við"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistTemplates.vue:42
-#, fuzzy
-#| msgid "Templates"
 msgid "Add From a Template"
-msgstr "Skapalón"
+msgstr "Bæta við samvæmt sniðmáti"
 
 #: app/assets/javascripts/app/views/integration/pgp.jst.eco:5
-#, fuzzy
-#| msgid "reply"
 msgid "Add Key"
-msgstr "svara"
+msgstr "Stofna lykil"
 
 #: app/assets/javascripts/app/views/link/ticket/list.jst.eco:9
 msgid "Add Link"
@@ -1341,14 +1339,12 @@ msgid "Add Public or Private Key"
 msgstr ""
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/web.ts:13
-#, fuzzy
-#| msgid "reply"
 msgid "Add Reply"
-msgstr "svara"
+msgstr "Stofna svar"
 
 #: app/assets/javascripts/app/views/ssl_certificates.jst.eco:5
 msgid "Add SSL Certificate"
-msgstr ""
+msgstr "Stofna SSL Skilríki"
 
 #: app/assets/javascripts/app/views/knowledge_base/sidebar/tags.jst.eco:19
 #: app/assets/javascripts/app/views/widget/tag.jst.eco:14
@@ -1435,10 +1431,8 @@ msgid "Add first level heading"
 msgstr ""
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:11
-#, fuzzy
-#| msgid "Save as template"
 msgid "Add from a template"
-msgstr "Vista sem skapalón"
+msgstr "Vista sem sniðmát"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:185
 #, fuzzy
@@ -1680,7 +1674,7 @@ msgstr "Spjall við þjónustufulltrúa"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 #, fuzzy
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
@@ -1920,6 +1914,12 @@ msgstr ""
 msgid "Any recipient"
 msgstr "Allir viðtakendur"
 
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
+
 #: db/seeds/settings.rb:1426
 msgid "App ID"
 msgstr "Kenni forrits"
@@ -1999,10 +1999,8 @@ msgid "Apply Shared Draft"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/ApplyTemplate.vue:40
-#, fuzzy
-#| msgid "Templates"
 msgid "Apply Template"
-msgstr "Skapalón"
+msgstr "Fella að sniðmáti"
 
 #: app/assets/javascripts/app/views/settings/ticket_notifications.jst.eco:10
 msgid "Apply current defaults to all agents"
@@ -2229,7 +2227,7 @@ msgid ""
 "will be shown as unassigend."
 msgstr ""
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2243,7 +2241,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -2728,7 +2726,7 @@ msgstr "Meginefnis er krafist"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:41
 msgid "Boolean field"
-msgstr ""
+msgstr "Booleískur reitur"
 
 #: app/assets/javascripts/app/views/telegram/index.jst.eco:3
 msgid "Bots"
@@ -3260,10 +3258,8 @@ msgid "Checklist Item Label"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:29
-#, fuzzy
-#| msgid "Select Template"
 msgid "Checklist Template"
-msgstr "Veldu skapalón"
+msgstr "Sniðmát gátlista"
 
 #: app/models/checklist_template.rb:16
 msgid "Checklist Template items are limited to 100 items per checklist."
@@ -6506,7 +6502,7 @@ msgstr "Staðfesting með tölvupósti"
 msgid "Email address"
 msgstr "Netfang"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -8900,7 +8896,7 @@ msgstr "óvirkt"
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:16
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:45
 msgid "Inbound"
-msgstr "Innvær"
+msgstr "Innkomandi"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:131
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:140
@@ -9138,7 +9134,7 @@ msgstr "Uppsett"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:45
 msgid "Integer field"
-msgstr ""
+msgstr "Heiltölureitur"
 
 #: app/assets/javascripts/app/controllers/integrations.coffee:3
 #: db/seeds/permissions.rb:221
@@ -9213,7 +9209,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -9772,10 +9768,8 @@ msgid "Link issue"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:267
-#, fuzzy
-#| msgid "Templates"
 msgid "Link template"
-msgstr "Skapalón"
+msgstr "Sniðmát vefslóðar"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:3
 #: app/assets/javascripts/app/views/popover/user.jst.eco:5
@@ -10012,16 +10006,12 @@ msgid "Manage API of your system."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:30
-#, fuzzy
-#| msgid "Select Template"
 msgid "Manage Checklist Template"
-msgstr "Veldu skapalón"
+msgstr "Sýsla með sniðmát gátlista"
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:31
-#, fuzzy
-#| msgid "Select Template"
 msgid "Manage Checklist Templates"
-msgstr "Veldu skapalón"
+msgstr "Sýsla með sniðmát gátlista"
 
 #: db/seeds/permissions.rb:168
 msgid "Manage Facebook channel of your system."
@@ -10383,7 +10373,7 @@ msgstr ""
 
 #: app/models/object_manager/attribute/data_option_validator.rb:35
 msgid "Max length must be an integer."
-msgstr ""
+msgstr "Hámarkslengd verður að vera heiltala."
 
 #: app/assets/javascripts/app/models/chat.coffee:253
 #: app/assets/javascripts/app/views/channel/topics.jst.eco:7
@@ -10412,7 +10402,7 @@ msgstr ""
 
 #: app/models/object_manager/attribute/data_option_validator.rb:109
 msgid "Maximal value must be an integer"
-msgstr ""
+msgstr "Hámarksgildi verður að vera heiltala"
 
 #: app/models/object_manager/attribute/data_option_validator.rb:114
 msgid "Maximal value must be higher than -2147483648"
@@ -10654,7 +10644,7 @@ msgstr ""
 
 #: app/models/object_manager/attribute/data_option_validator.rb:87
 msgid "Minimal value must be an integer"
-msgstr ""
+msgstr "Lágmarksgildi verður að vera heiltala"
 
 #: app/models/object_manager/attribute/data_option_validator.rb:93
 msgid "Minimal value must be higher than -2147483648"
@@ -10744,7 +10734,7 @@ msgstr "Stemming"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -11042,10 +11032,8 @@ msgid "New Category"
 msgstr "Flokkur"
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:38
-#, fuzzy
-#| msgid "Templates"
 msgid "New Checklist Template"
-msgstr "Skapalón"
+msgstr "Nýtt gátlistasniðmát"
 
 #: app/assets/javascripts/app/views/data_privacy/index.jst.eco:8
 msgid "New Deletion Task"
@@ -11120,10 +11108,8 @@ msgid "New Tags"
 msgstr "Ný merkispjöld"
 
 #: app/assets/javascripts/app/controllers/template.coffee:22
-#, fuzzy
-#| msgid "Templates"
 msgid "New Template"
-msgstr "Skapalón"
+msgstr "Nýtt sniðmát"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:190
 #: app/assets/javascripts/app/controllers/_profile/notification.coffee:65
@@ -11385,10 +11371,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:14
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistEmptyTemplates.vue:15
-#, fuzzy
-#| msgid "No template created yet."
 msgid "No checklist templates have been created yet."
-msgstr "Ekkert skapalón hefur verið stofnað."
+msgstr "Enn hafa engin gátlistasniðmát hafa verið búin til."
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:5
 msgid "No configuration set."
@@ -11534,14 +11518,12 @@ msgid "No source data submitted!"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketTags.vue:194
-#, fuzzy
-#| msgid "No template created yet."
 msgid "No tags added yet."
-msgstr "Ekkert skapalón hefur verið stofnað."
+msgstr "Enn hefur engum merkispjöldum hefur bætt við."
 
 #: app/assets/javascripts/app/views/widget/template.jst.eco:14
 msgid "No template created yet."
-msgstr "Ekkert skapalón hefur verið stofnað."
+msgstr "Enn hefur ekkert sniðmát hefur verið stofnað."
 
 #: app/controllers/users_controller.rb:326
 msgid "No token!"
@@ -14386,7 +14368,7 @@ msgstr "Leita…"
 msgid "Secondary organizations"
 msgstr "Samnýtt stofnun"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14519,7 +14501,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
-msgstr "Veldu skapalón"
+msgstr "Veldu sniðmát"
 
 #: db/seeds/settings.rb:866
 msgid "Select default ticket type"
@@ -15397,10 +15379,6 @@ msgstr ""
 msgid "Something went wrong."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr ""
-
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
 msgstr ""
@@ -15914,10 +15892,8 @@ msgid "Telegram Account"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/template.coffee:3
-#, fuzzy
-#| msgid "Templates"
 msgid "Template"
-msgstr "Skapalón"
+msgstr "Sniðmát"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create/sidebar_template.coffee:8
 #: app/assets/javascripts/app/controllers/template.coffee:3
@@ -16000,10 +15976,8 @@ msgid "Text editing"
 msgstr "Textaumsýsla"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:33
-#, fuzzy
-#| msgid "Text editing"
 msgid "Text field"
-msgstr "Textaumsýsla"
+msgstr "Innsláttarreitur"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
@@ -16041,17 +16015,15 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:12
 msgid "Text with disabled inline translations looks like"
-msgstr "Texti með innværar þýðingar óvirkar lýta svona út"
+msgstr "Texti með innfelldar þýðingar óvirkar lítur svona út"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:13
 msgid "Text with enabled inline translations looks like"
-msgstr "Texti með innværar þýðingar virkar lýtur svona út"
+msgstr "Texti með innfelldar þýðingar virkar, lítur svona út"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:37
-#, fuzzy
-#| msgid "Text"
 msgid "Textarea field"
-msgstr "Texti"
+msgstr "Innsláttarsvæði"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:50
 msgid ""
@@ -16567,6 +16539,10 @@ msgstr "Eftirfarandi færslur voru framkvæmdar:"
 msgid "The following changes will be made:"
 msgstr "Eftirfarandi færslur voru framkvæmdar:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16773,7 +16749,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Ekki tókst að setja lykilorð. Vinsamlegast hafðu samband við kerfisstjórann "
@@ -16802,7 +16778,7 @@ msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "PGP einkalykilinn fannst ekki."
 
@@ -16888,7 +16864,7 @@ msgstr ""
 msgid "The provided token is invalid."
 msgstr ""
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Almenni PHP lykillinn fannst ekki."
 
@@ -20199,7 +20175,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Jibbí! Netfangið þitt hefur verið staðfest!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Jibbý! Lykilorðinu þínu hefur verið breytt!"
@@ -20260,7 +20236,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr ""
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21602,7 +21578,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr ""
 
@@ -21723,7 +21699,7 @@ msgid "must be accepted"
 msgstr ""
 
 msgid "must be an integer"
-msgstr ""
+msgstr "verður að vera heiltala"
 
 msgid "must be blank"
 msgstr ""

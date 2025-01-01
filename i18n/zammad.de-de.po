@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-29 09:00+0000\n"
-"Last-Translator: Martin Gruner <mg@zammad.com>\n"
+"PO-Revision-Date: 2024-12-27 13:00+0000\n"
+"Last-Translator: Florin Buffet <suppiflo@yahoo.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/de/>\n"
 "Language: de-de\n"
@@ -1680,7 +1680,7 @@ msgstr "Agenten-Chat"
 msgid "Agent idle timeout"
 msgstr "Zeitüberschreitung bei Leerlauf des Agenten"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 "Agenten-Limit überschritten, überprüfen Sie bitte Ihre Kontoeinstellungen."
@@ -1943,6 +1943,14 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Beliebiger Empfänger"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
+"Entschuldigung, durch Einschränkungen von WhatsApp Business, können wir "
+"diesen Nachrichtentyp nicht verarbeiten."
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2249,7 +2257,7 @@ msgstr ""
 "nicht am Ticket arbeitet. Das Ticket wird danach als nicht zugeordnet "
 "angezeigt."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2267,7 +2275,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Wählen Sie mindestens ein Objekt aus."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Mindestens ein Benutzer muss administrative Berechtigungen besitzen."
 
@@ -6544,7 +6552,7 @@ msgstr "E-Mail-Prüfung"
 msgid "Email address"
 msgstr "E-Mail-Adresse"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "Die E-Mail-Adresse '%{email}' wird bereits für einen anderen Benutzer "
@@ -9234,7 +9242,7 @@ msgstr "Ungültige client_id in Empfangsschleife!"
 msgid "Invalid client_id received!"
 msgstr "Ungültige client_id empfangen!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Falsche E-Mail '%{email}'"
 
@@ -10713,7 +10721,7 @@ msgstr "Stimmung"
 msgid "More information can be found here."
 msgstr "Weitere Informationen finden Sie hier."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Mehr als 250 sekundäre Organisationen sind nicht zulässig."
 
@@ -14190,7 +14198,7 @@ msgstr "Suchen…"
 msgid "Secondary organizations"
 msgstr "Sekundäre Organisationen"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15136,10 +15144,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Etwas ist schiefgegangen."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Etwas ist schiefgelaufen. Bitte kontaktieren Sie Ihren Administrator."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16278,6 +16282,10 @@ msgstr "Folgende Änderungen wurden vorgenommen:"
 msgid "The following changes will be made:"
 msgstr "Folgende Änderungen werden vorgenommen:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr "Der Report enthält die folgenden Inhalte:"
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16483,7 +16491,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Der Parameter 'mentionable_type' ist ungültig."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Das Passwort konnte nicht gesetzt werden. Bitte kontaktieren Sie Ihren "
@@ -16508,7 +16516,7 @@ msgstr ""
 "Die Vorschau kann nicht erzeugt werden. Das Format ist ungültig oder wird "
 "nicht unterstützt."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "Der private PGP-Schlüssel konnte nicht gefunden werden."
 
@@ -16598,7 +16606,7 @@ msgstr "Die angegebene Nutzlast ist ungültig. Bitte überprüfen Sie die Syntax
 msgid "The provided token is invalid."
 msgstr "Das angegebene Token ist ungültig."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Der öffentliche PGP-Schlüssel konnte nicht gefunden werden."
 
@@ -20012,7 +20020,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Prima! Ihre E-Mail Adresse wurde erfolgreich verifiziert!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Woo hoo! Ihr Passwort wurde erfolgreich geändert!"
@@ -20069,7 +20077,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Sie erhalten dies, weil Sie Mitglied der Gruppe dieses Tickets sind."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -21408,7 +21416,7 @@ msgstr "hat die falsche Länge (sollte %{count} Zeichen haben)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "hat die falsche Länge (sollte 1 Zeichen haben)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "ist zu lang"
 
@@ -22157,6 +22165,10 @@ msgstr "…des gesamten Textfelds"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Wartezeit heute"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr ""
+#~ "Etwas ist schiefgelaufen. Bitte kontaktieren Sie Ihren Administrator."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Benutzern die Erstellung neuer Checklisten erlauben."

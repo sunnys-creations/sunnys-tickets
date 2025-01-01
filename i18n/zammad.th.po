@@ -1757,7 +1757,7 @@ msgstr "ชื่อเจ้าหน้าที่"
 msgid "Agent idle timeout"
 msgstr "ระยะหมดเวลาของ เจ้าหน้าที่"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "เกินขีดจำกัดเจ้าหน้าที่ โปรดตรวจสอบการตั้งค่าบัญชีของคุณ"
 
@@ -2012,6 +2012,12 @@ msgstr "แอนติคอน"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "ผู้รับ ทั้งหมด"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2334,7 +2340,7 @@ msgstr ""
 "หมดเวลาการมอบหมายเป็นนาทีหากตัวแทนที่ได้รับมอบหมายไม่ทำงาน Ticket จะแสดงเป็น "
 "ไม่ได้รับมอบหมาย"
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2352,7 +2358,7 @@ msgstr "ต้องมีกฎการจับคู่อย่างน้
 msgid "At least one object must be selected."
 msgstr "ต้องเลือกวัตถุอย่างน้อยหนึ่งรายการ"
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "ผู้ใช้อย่างน้อยหนึ่งรายต้องมีสิทธิ์ของผู้ดูแลระบบ."
 
@@ -6719,7 +6725,7 @@ msgstr "การแจ้งเตือนทางอีเมล"
 msgid "Email address"
 msgstr "ที่อยู่อีเมล"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -9442,7 +9448,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -11057,7 +11063,7 @@ msgstr "อารมณ์"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "ไม่อนุญาตให้มีองค์กรรองมากกว่า 250 แห่ง"
 
@@ -14776,7 +14782,7 @@ msgstr ""
 msgid "Secondary organizations"
 msgstr "องค์กรที่ 2"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 #, fuzzy
 #| msgid ""
 #| "Secondary organizations are only allowed when the primary organization is "
@@ -15781,10 +15787,6 @@ msgstr ""
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
-msgstr ""
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
 msgstr ""
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
@@ -16991,6 +16993,10 @@ msgstr ""
 msgid "The following changes will be made:"
 msgstr ""
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -17216,7 +17222,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr "ไม่สามารถตั้งรหัสผ่านได้ โปรดติดต่อผู้ดูแลระบบของคุณ"
 
@@ -17243,7 +17249,7 @@ msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 #, fuzzy
 #| msgid "Avatar could not be found."
 msgid "The private PGP key could not be found."
@@ -17337,7 +17343,7 @@ msgstr ""
 msgid "The provided token is invalid."
 msgstr "โทเค็นที่ระบุไม่ถูกต้อง"
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 #, fuzzy
 #| msgid "Locale could not be found."
 msgid "The public PGP key could not be found."
@@ -20835,7 +20841,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "วู้ฮู! อีเมลของคุณได้รับการยืนยันแล้ว!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "วู้ฮู! รหัสผ่านของคุณถูกเปลี่ยน!"
@@ -20896,7 +20902,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr ""
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -22271,7 +22277,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr ""
 

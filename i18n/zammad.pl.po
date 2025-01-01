@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-06 22:00+0000\n"
+"PO-Revision-Date: 2024-12-16 12:00+0000\n"
 "Last-Translator: Szkolarz <lukasz.szkolarz@gmail.com>\n"
 "Language-Team: Polish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/pl/>\n"
@@ -708,10 +708,8 @@ msgid "(state: %s)"
 msgstr "(stan: %s)"
 
 #: app/frontend/apps/desktop/components/CommonTicketStateIndicatorIcon/CommonTicketStateIndicatorIcon.vue:58
-#, fuzzy
-#| msgid "(state: %s)"
 msgid "(ticket status: %s)"
-msgstr "(stan: %s)"
+msgstr "(stan zgłoszenia: %s)"
 
 #: app/assets/javascripts/app/models/ticket_time_accounting_type.coffee
 msgid ""
@@ -1109,7 +1107,7 @@ msgstr "SID konta"
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_accounting_modal.coffee:6
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:113
 msgid "Account Time"
-msgstr "Zliczaj czas"
+msgstr "Zapisz czas"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:582
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:198
@@ -1419,10 +1417,8 @@ msgid "Add bullet list"
 msgstr "Dodaj listę punktową"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/facebook.ts:49
-#, fuzzy
-#| msgid "Add Account"
 msgid "Add comment"
-msgstr "Dodaj konto"
+msgstr "Dodaj komentarz"
 
 #: app/assets/javascripts/app/views/generic/application_selector_row.jst.eco:32
 #: app/assets/javascripts/app/views/generic/application_selector_subclause.jst.eco:18
@@ -1430,10 +1426,8 @@ msgid "Add condition"
 msgstr "Dodaj warunek"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/email.ts:168
-#, fuzzy
-#| msgid "email"
 msgid "Add email"
-msgstr "e-mail"
+msgstr "Dodaj e-mail"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:5
 msgid "Add empty checklist"
@@ -1456,10 +1450,8 @@ msgid "Add image"
 msgstr "Dodaj obraz"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
-#, fuzzy
-#| msgid "Add a Note"
 msgid "Add internal note"
-msgstr "Dodaj notatkę"
+msgstr "Dodaj notatkę wenętrzną"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:152
 msgid "Add link"
@@ -1474,10 +1466,8 @@ msgid "Add message"
 msgstr "Dodaj wiadomość"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
-#, fuzzy
-#| msgid "Add Bot"
 msgid "Add note"
-msgstr "Dodaj bota"
+msgstr "Dodaj notatkę"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:257
 msgid "Add ordered list"
@@ -1506,10 +1496,8 @@ msgid "Add sender initials to end of a tweet."
 msgstr "Dodaj inicjały nadawcy na końcu tweeta."
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/sms.ts:49
-#, fuzzy
-#| msgid "Add image"
 msgid "Add sms"
-msgstr "Dodaj obraz"
+msgstr "Dodaj sms"
 
 #: app/assets/javascripts/app/views/generic/application_selector_row.jst.eco:35
 #: app/assets/javascripts/app/views/generic/application_selector_subclause.jst.eco:21
@@ -1692,7 +1680,7 @@ msgstr "Imię agenta"
 msgid "Agent idle timeout"
 msgstr "Limit czasu bezczynności agenta"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Przekroczono limit agentów, sprawdź ustawienia konta."
 
@@ -1955,6 +1943,14 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Dowolny odbiorca"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
+"Przepraszamy, nie jesteśmy w stanie przetworzyć tego rodzaju wiadomości z "
+"powodu ograniczeń WhatsApp Business."
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2262,7 +2258,7 @@ msgstr ""
 "Czas przypisania w minutach w przypadku bezczynności agenta. Zgłoszenie "
 "będzie oznaczone jako nieprzypisane."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2283,7 +2279,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Musisz wybrać co najmniej jeden obiekt."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Przynajmniej jeden użytkownik musi mieć uprawnienia administratora."
 
@@ -6709,7 +6705,7 @@ msgstr "Weryfikacja e-mail"
 msgid "Email address"
 msgstr "Adres e-mail"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "Adres e-mail '%{email}' jest już używany przez innego użytkownika."
 
@@ -9431,7 +9427,7 @@ msgstr "Nieprawidłowy identyfikator klienta w pętli odbioru!"
 msgid "Invalid client_id received!"
 msgstr "Otrzymano nieprawidłowy identyfikator klienta!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Nieprawidłowy e-mail '%{email}'"
 
@@ -9871,6 +9867,8 @@ msgstr "Ostatni kontakt (klient)"
 msgid ""
 "Last created at of database objects (e.g. when was the last trigger created)"
 msgstr ""
+"Ostatnio utworzone obiekty bazy danych (np. kiedy został utworzony ostatni "
+"wyzwalacz)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:224
 msgid "Last login"
@@ -11028,7 +11026,7 @@ msgstr "Nastrój"
 msgid "More information can be found here."
 msgstr "Więcej informacji można znaleźć tutaj."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Więcej niż 250 drugorzędnych organizacji jest niedozwolonych."
 
@@ -13646,7 +13644,7 @@ msgstr "Zarejestrować"
 
 #: app/assets/javascripts/app/views/login.jst.eco:115
 msgid "Register as a new customer"
-msgstr "Zarejestruj nowego klienta"
+msgstr "Zarejestruj jako nowy klient"
 
 #: app/assets/javascripts/app/views/signup/verify.jst.eco:4
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:48
@@ -14659,7 +14657,7 @@ msgstr "Szukaj…"
 msgid "Secondary organizations"
 msgstr "Drugorzędna organizacja"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15649,10 +15647,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Coś poszło nie tak."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Coś poszło nie tak. Skontaktuj się z administratorem."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -16800,6 +16794,10 @@ msgstr "Zostały wykonane następujące zmiany:"
 msgid "The following changes will be made:"
 msgstr "Wprowadzone zostaną następujące zmiany:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -17023,7 +17021,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Parametr „mentionable_type” jest nieprawidłowy."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr "Nie można ustawić hasła. Skontaktuj się z administratorem."
 
@@ -17049,7 +17047,7 @@ msgid ""
 msgstr ""
 "Nie można wygenerować podglądu. Format jest uszkodzony lub nieobsługiwany."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "Prywatny klucz PGP nie mógł być znaleziony."
 
@@ -17139,7 +17137,7 @@ msgstr "Podany ładunek jest nieprawidłowy. Sprawdź swoją składnię."
 msgid "The provided token is invalid."
 msgstr "Podany token jest nieprawidłowy."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Klucz publiczny PGP nie może być znaleziony."
 
@@ -20593,7 +20591,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Hura! Twój adres e-mail został zweryfikowany!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Hura! Twoje hasło zostało zmienione!"
@@ -20654,7 +20652,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Otrzymujesz to, ponieważ jesteś członkiem grupy tego zgłoszenia."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -20824,7 +20822,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/login.jst.eco:98
 msgid "You can request your password"
-msgstr "Możesz poprosić o swoje hasło"
+msgstr "Możesz ustawić swoje hasło"
 
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:175
 msgid "You can request your password here."
@@ -21511,7 +21509,7 @@ msgstr "nie zawiera jednej z"
 #: app/assets/javascripts/app/views/integration/ldap_summary.jst.eco:4
 #: app/assets/javascripts/app/views/ticket_zoom/meta.jst.eco:6
 msgid "created"
-msgstr "utworzone"
+msgstr "utworzony"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketDetailViewHeader.vue:70
 msgid "created %s"
@@ -21755,7 +21753,7 @@ msgstr "aby agent odpowiedział"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:61
 msgid "forward"
-msgstr "naprzód"
+msgstr "przekaż dalej"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:158
 msgid "from"
@@ -22019,7 +22017,7 @@ msgstr "ma nieprawidłową długość (powinna wynosić %{count} znaków)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "ma nieprawidłową długość (powinna wynosić 1 znak)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "jest za długie"
 
@@ -22785,6 +22783,9 @@ msgstr "...całego pola tekstowego"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ dzisiejszy czas oczekiwania"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Coś poszło nie tak. Skontaktuj się z administratorem."
 
 #, fuzzy
 #~| msgid "Allow users to create new tags."

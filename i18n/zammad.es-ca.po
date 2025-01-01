@@ -1737,7 +1737,7 @@ msgstr "Agent"
 msgid "Agent idle timeout"
 msgstr "Agent idle timeout"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 "Límit de l'agent excedit, si us plau, comprova les configuracions del teu "
@@ -2019,6 +2019,12 @@ msgstr "Anticon"
 #| msgid "Any Recipient"
 msgid "Any recipient"
 msgstr "Qualsevol recipient"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2362,7 +2368,7 @@ msgstr ""
 "Temps assignat en minuts si l'agent no està treballant amb aquesta tasca. El "
 "tiquet es mostrarà com sense assignar"
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2378,7 +2384,7 @@ msgstr "At least one match rule is required, but none was provided."
 msgid "At least one object must be selected."
 msgstr "At least one object must be selected."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 #, fuzzy
 msgid "At least one user needs to have admin permissions."
 msgstr "At least one user needs to have admin permissions."
@@ -3544,7 +3550,8 @@ msgstr "Checklist items are limited to 100 items per checklist."
 #: app/models/checklist.rb:100
 #, fuzzy
 msgid "Checklist template must be active to use as a checklist starting point."
-msgstr "Checklist template must be active to use as a checklist starting point."
+msgstr ""
+"Checklist template must be active to use as a checklist starting point."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
@@ -7139,7 +7146,7 @@ msgstr "Notificació d'email"
 msgid "Email address"
 msgstr "Adreça de correu"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 #, fuzzy
 msgid "Email address '%{email}' is already used for another user."
 msgstr "Email address '%{email}' is already used for another user."
@@ -7703,7 +7710,8 @@ msgstr "Introdueix el teu usuari o correu electrònic."
 #: app/models/system_report/plugin/entities/counts.rb:4
 #, fuzzy
 msgid "Entity counts of database objects (e.g. ticket count, user count, etc.)"
-msgstr "Entity counts of database objects (e.g. ticket count, user count, etc.)"
+msgstr ""
+"Entity counts of database objects (e.g. ticket count, user count, etc.)"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_error_modal.coffee:6
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:165
@@ -9808,7 +9816,8 @@ msgstr ""
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:22
 #, fuzzy
 msgid "In order for Zammad to access %s, the %s API token must be stored here:"
-msgstr "In order for Zammad to access %s, the %s API token must be stored here:"
+msgstr ""
+"In order for Zammad to access %s, the %s API token must be stored here:"
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:7
 msgid ""
@@ -10185,7 +10194,7 @@ msgstr "Invalid client_id in receive loop!"
 msgid "Invalid client_id received!"
 msgstr "Invalid client_id received!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 #, fuzzy
 msgid "Invalid email '%{email}'"
 msgstr "Invalid email '%{email}'"
@@ -11936,7 +11945,7 @@ msgstr "Ànim"
 msgid "More information can be found here."
 msgstr "More information can be found here."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 #, fuzzy
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "More than 250 secondary organizations are not allowed."
@@ -15917,7 +15926,7 @@ msgstr "Buscar"
 msgid "Secondary organizations"
 msgstr "Organització compartida"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -17013,11 +17022,6 @@ msgstr ""
 #, fuzzy
 msgid "Something went wrong."
 msgstr "Something went wrong."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-#, fuzzy
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Something went wrong. Please contact your administrator."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 #, fuzzy
@@ -18339,6 +18343,10 @@ msgstr "Els següents canvis han estat fets:"
 msgid "The following changes will be made:"
 msgstr "Els següents canvis han siguts fets:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -18586,7 +18594,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "The parameter 'mentionable_type' is invalid."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 #, fuzzy
 #| msgid "Unable to verify email. Please contact your administrator."
 msgid "The password could not be set. Please contact your administrator."
@@ -18617,7 +18625,7 @@ msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 #, fuzzy
 #| msgid "%s Object(s) are updated."
 msgid "The private PGP key could not be found."
@@ -18716,7 +18724,7 @@ msgstr "The provided payload is invalid. Please check your syntax."
 msgid "The provided token is invalid."
 msgstr "The provided token is invalid."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 #, fuzzy
 #| msgid "%s Object(s) are updated."
 msgid "The public PGP key could not be found."
@@ -18977,7 +18985,8 @@ msgstr "The required value 'group_id' is missing."
 #: app/controllers/channels_twitter_controller.rb:54
 #, fuzzy
 msgid "The required value external_credential could not be found in the cache."
-msgstr "The required value external_credential could not be found in the cache."
+msgstr ""
+"The required value external_credential could not be found in the cache."
 
 #: app/controllers/ticket_articles_controller.rb:263
 #, fuzzy
@@ -19237,7 +19246,8 @@ msgstr "Objecte %s han sigut creats."
 #: lib/external_credential/microsoft365.rb:51
 #, fuzzy
 msgid "The user's 'preferred_username' could not be extracted from 'id_token'."
-msgstr "The user's 'preferred_username' could not be extracted from 'id_token'."
+msgstr ""
+"The user's 'preferred_username' could not be extracted from 'id_token'."
 
 #: app/controllers/sessions_controller.rb:235
 #: app/graphql/gql/mutations/two_factor_method_initiate_authentication.rb:29
@@ -19280,7 +19290,8 @@ msgstr ""
 #: lib/telegram_helper.rb:35
 #, fuzzy
 msgid "The webhook could not be saved by Telegram, seems to be an invalid URL."
-msgstr "The webhook could not be saved by Telegram, seems to be an invalid URL."
+msgstr ""
+"The webhook could not be saved by Telegram, seems to be an invalid URL."
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:98
 #, fuzzy
@@ -19469,7 +19480,8 @@ msgstr "trobats"
 #: lib/secure_mailing/pgp/security_options.rb:76
 #, fuzzy
 msgid "There were PGP keys found for %s, but at least one of them has expired."
-msgstr "There were PGP keys found for %s, but at least one of them has expired."
+msgstr ""
+"There were PGP keys found for %s, but at least one of them has expired."
 
 #: lib/secure_mailing/smime/security_options.rb:66
 #, fuzzy
@@ -22446,7 +22458,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Woo hoo! El teu correu electrònic ha sigut verificat!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Woo hoo! La teva contrasenya ha sigut modificada!"
@@ -22510,7 +22522,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr ""
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -24005,7 +24017,7 @@ msgstr "is the wrong length (should be %{count} characters)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "is the wrong length (should be 1 character)"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 #, fuzzy
 msgid "is too long"
 msgstr "is too long"
@@ -24909,6 +24921,10 @@ msgstr "...de tota la zona de text"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ temps d'espera avui"
+
+#, fuzzy
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Something went wrong. Please contact your administrator."
 
 #, fuzzy
 #~| msgid "Allow users to add new tags."

@@ -1655,7 +1655,7 @@ msgstr "Agento pokalbiai"
 msgid "Agent idle timeout"
 msgstr "Agento laikas be veiksmų"
 
-#: app/models/role.rb:153 app/models/user.rb:696
+#: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Išnaudotas agentų limitas. Patikrinkite savo paskyros nustatymus."
 
@@ -1912,6 +1912,12 @@ msgstr "Anticon"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
 msgid "Any recipient"
 msgstr "Bet kuris gavėjas"
+
+#: lib/whatsapp/webhook/concerns/handles_error.rb:49
+msgid ""
+"Apologies, we're unable to process this kind of message due to restrictions "
+"within WhatsApp Business."
+msgstr ""
 
 #: db/seeds/settings.rb:1426
 msgid "App ID"
@@ -2208,7 +2214,7 @@ msgstr ""
 "Priskyrimo laiko limitas minutėmis. Jei priskirtas agentas nedirba su "
 "triktimi, ji bus rodoma kaip nepriskirta."
 
-#: app/models/user.rb:599
+#: app/models/user.rb:617
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2224,7 +2230,7 @@ msgstr "Privaloma bent viena atitikties taisyklė. Tačiau ji nebuvo pateikta."
 msgid "At least one object must be selected."
 msgstr "Pasirinkite bent vieną triktį."
 
-#: app/models/role.rb:125 app/models/user.rb:670
+#: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
 msgstr "Bent vienas naudotojas turi likti su administratoriaus teisėmis."
 
@@ -6380,7 +6386,7 @@ msgstr "El. pašto patvirtinimas"
 msgid "Email address"
 msgstr "El. pašto adresas"
 
-#: app/models/user.rb:609
+#: app/models/user.rb:627
 msgid "Email address '%{email}' is already used for another user."
 msgstr "El. pašto adresas „%{email}“ jau naudojamas."
 
@@ -8028,7 +8034,8 @@ msgstr "Vykdo duomenų privatumo užduotis."
 
 #: app/models/system_report/plugin/hardware.rb:4
 msgid "Hardware (e.g. CPU cores, memory, disk space)"
-msgstr "Techninė įranga (pvz., procesoriaus branduoliai, atmintis, disko vieta)"
+msgstr ""
+"Techninė įranga (pvz., procesoriaus branduoliai, atmintis, disko vieta)"
 
 #: app/assets/javascripts/app/models/job.coffee:18
 msgid "Has processed"
@@ -8728,7 +8735,8 @@ msgstr "Įtraukti nepriskirtas triktis į eskaluotų trikčių prenumeratą."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:112
 msgid "Include unassigned tickets in subscription for new & open tickets."
-msgstr "Įtraukti nepriskirtas triktis į naujų ir atidarytų trikčių prenumeratą."
+msgstr ""
+"Įtraukti nepriskirtas triktis į naujų ir atidarytų trikčių prenumeratą."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:140
 msgid "Include unassigned tickets in subscription for pending tickets."
@@ -8991,7 +8999,7 @@ msgstr "Netinkamas client_id gavimo cikle!"
 msgid "Invalid client_id received!"
 msgstr "Gautas netinkamas client_id!"
 
-#: app/models/user.rb:554
+#: app/models/user.rb:572
 msgid "Invalid email '%{email}'"
 msgstr "Netinkamas el. pašto adresas „%{email}“"
 
@@ -10460,7 +10468,7 @@ msgstr "Nuotaika"
 msgid "More information can be found here."
 msgstr "Daugiau informacijos rasite čia."
 
-#: app/models/user.rb:622
+#: app/models/user.rb:640
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Galima pridėti iki 250 papildomų organizacijų."
 
@@ -13882,7 +13890,7 @@ msgstr "Ieškoti…"
 msgid "Secondary organizations"
 msgstr "Papildomos organizacijos"
 
-#: app/models/user.rb:616
+#: app/models/user.rb:634
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14813,10 +14821,6 @@ msgstr ""
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
 msgstr "Kažkas negerai."
-
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:129
-msgid "Something went wrong. Please contact your administrator."
-msgstr "Kažkas negerai. Susisiekite su administratoriumi."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong. Received message: %s"
@@ -15929,6 +15933,10 @@ msgstr "Atlikti šie pakeitimai:"
 msgid "The following changes will be made:"
 msgstr "Bus atlikti šie pakeitimai:"
 
+#: app/assets/javascripts/app/views/system_report.jst.eco:13
+msgid "The following contents are provided in the system report:"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
 "The form content has been changed. Do you want to close it and lose your "
@@ -16125,7 +16133,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Parametras „mentionable_type“ yra netinkamas."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:143
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
 msgid "The password could not be set. Please contact your administrator."
 msgstr "Nepavyko pakeisti slaptažodžio. Susisiekite su savo administratoriumi."
 
@@ -16146,7 +16154,7 @@ msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr "Nepavyko sugeneruoti peržiūros. Formatas sugadintas arba nepalaikomas."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The private PGP key could not be found."
 msgstr "Privatus PGP raktas nerastas."
 
@@ -16235,7 +16243,7 @@ msgstr "Pateikti duomenys yra netinkami. Patikrinkite sintaksę."
 msgid "The provided token is invalid."
 msgstr "Pateiktas žetonas yra netinkamas."
 
-#: lib/secure_mailing/pgp/incoming.rb:305
+#: lib/secure_mailing/pgp/incoming.rb:302
 msgid "The public PGP key could not be found."
 msgstr "Viešas PGP raktas nerastas."
 
@@ -16655,7 +16663,8 @@ msgstr ""
 
 #: app/models/authorization/provider.rb:47
 msgid "The user account does not exist. Please contact your administrator."
-msgstr "Naudotojoi paskyra neegzistuoja. Susisiekite su savo administratoriumi."
+msgstr ""
+"Naudotojoi paskyra neegzistuoja. Susisiekite su savo administratoriumi."
 
 #: app/services/service/auth/send_admin_token.rb:33
 msgid "The user token could not be generated."
@@ -19494,13 +19503,15 @@ msgstr ""
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:15
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistEmptyTemplates.vue:18
 msgid "With checklist templates you can pre-fill your checklists."
-msgstr "Su kontrolinių sąrašų šablonais galite turėti išankstinius paruoštukus."
+msgstr ""
+"Su kontrolinių sąrašų šablonais galite turėti išankstinius paruoštukus."
 
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:12
 msgid ""
 "With checklists you can keep track of the progress of your ticket related "
 "tasks."
-msgstr "Su kontroliniais sąrašais galite sekti su triktimi susijusias užduotis."
+msgstr ""
+"Su kontroliniais sąrašais galite sekti su triktimi susijusias užduotis."
 
 #: app/assets/javascripts/app/controllers/_channel/_email_filter.coffee:14
 msgid ""
@@ -19545,7 +19556,7 @@ msgstr ""
 msgid "Woo hoo! Your email address has been verified!"
 msgstr "Jūsų el. pašto adresas patvirtintas!"
 
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:116
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:106
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:129
 msgid "Woo hoo! Your password has been changed!"
 msgstr "Jūsų slaptažodis pakeistas!"
@@ -19602,7 +19613,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Gaunate šį pranešimą, nes esate šios trikties grupės narys."
 
-#: app/models/transaction/notification.rb:281
+#: app/models/transaction/notification.rb:287
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
@@ -20913,7 +20924,7 @@ msgstr "turi būti %{count} ilgio"
 msgid "is the wrong length (should be 1 character)"
 msgstr "turi būti 1 ženklas"
 
-#: app/models/user.rb:820
+#: app/models/user.rb:838
 msgid "is too long"
 msgstr "per ilgas"
 
@@ -20948,8 +20959,8 @@ msgstr "kairė"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/linkedAccounts.ts:27
 msgid "linked accounts,facebook,github,gitlab,google,linkedin,microsoft,saml"
 msgstr ""
-"susietos "
-"paskyros,accounts,facebook,github,gitlab,google,linkedin,microsoft,saml"
+"susietos paskyros,accounts,facebook,github,gitlab,google,linkedin,microsoft,"
+"saml"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSeparatorMore.vue:18
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketList.vue:140
@@ -21664,6 +21675,9 @@ msgstr "...viso teksto laukelio"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Laukimo laikas šiandien"
+
+#~ msgid "Something went wrong. Please contact your administrator."
+#~ msgstr "Kažkas negerai. Susisiekite su administratoriumi."
 
 #~ msgid "Allow users to create new checklists."
 #~ msgstr "Leisti naudotojas kurti naujus kontrolinius sąrašus."
