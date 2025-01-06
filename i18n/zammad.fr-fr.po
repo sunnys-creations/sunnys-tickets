@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-12-17 22:00+0000\n"
+"PO-Revision-Date: 2025-01-06 06:33+0000\n"
 "Last-Translator: Anael Mobilia <contrib@anael.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/fr/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -767,11 +767,11 @@ msgid ""
 "displayed in a separate view in your overviews. You can also configure "
 "**email notifications**."
 msgstr ""
-"**Service Level Agreements** (Accords de Niveau de Service), abrégés "
-"**SLAs**, vous aide à répondre aux demandes de vos clients dans le temps "
-"imparti. Vous pouvez de cette façon définir des objectifs tels que répondre "
-"à toutes les demandes dans les huit heures. Si vous risquez de ne pas "
-"atteindre cet objectif, Zammad vous alertera.\n"
+"**Service Level Agreements** (Accords de Niveau de Service), abrégés **SLAs**"
+", vous aide à répondre aux demandes de vos clients dans le temps imparti. "
+"Vous pouvez de cette façon définir des objectifs tels que répondre à toutes "
+"les demandes dans les huit heures. Si vous risquez de ne pas atteindre cet "
+"objectif, Zammad vous alertera.\n"
 "\n"
 "Vous pouvez définir les objectifs avec trois métriques différentes : **temps "
 "de réponse** (durée entre la création d'un ticket et la première "
@@ -781,7 +781,7 @@ msgstr ""
 "\n"
 "Tout les tickets escaladés (par ex : les tickets n'ayant pas atteint un "
 "objectif défini) sont affichés dans une vue séparée de vos aperçus. Vous "
-"pouvez aussi configurer des **notifications par e-mail**."
+"pouvez aussi configurer des **notifications par email**."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleFooter.vue:30
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:223
@@ -1846,7 +1846,7 @@ msgid ""
 "An email was sent to _%s_. Click the link in the email to verify your "
 "account."
 msgstr ""
-"Un email a été envoyé à _%s_. Cliquez sur le lien dans l'e-mail pour "
+"Un e-mail a été envoyé à _%s_. Cliquez sur le lien dans l'e-mail pour "
 "vérifier votre compte."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_calendar_view.coffee:50
@@ -2108,7 +2108,7 @@ msgstr "Êtes-vous sûr(e) de ne plus vouloir mettre \"%s\" par défaut ?"
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:234
 #: app/assets/javascripts/app/controllers/_profile/token_access.coffee:66
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:130
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:199
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:191
 #: app/assets/javascripts/app/controllers/maintenance.coffee:55
 #: app/assets/javascripts/app/controllers/ssl_certificate.coffee:61
 #: app/assets/javascripts/app/controllers/ticket_shared_draft_modal.coffee:123
@@ -3735,12 +3735,12 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"#{user.firstname} #{user.lastname}, confirmez votre compte #{config."
-"product_name}\n"
+"#{user.firstname} #{user.lastname}, confirmez votre compte "
+"#{config.product_name}\n"
 "\n"
 "<div>Bonjour #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Merci de confirmer votre adresse email pour compléter la création de "
+"<div>Merci de confirmer votre adresse e-mail pour compléter la création de "
 "votre compte sur #{config.product_name}. C'est très simple, il vous suffit "
 "de cliquer sur le lien ci-dessous.</div>\n"
 "<br>\n"
@@ -4058,7 +4058,7 @@ msgstr "Compte"
 
 #: app/models/system_report/plugin/failed_emails.rb:4
 msgid "Count of failed emails"
-msgstr "Nombre d'e-mails ayant échoué"
+msgstr "Nombre d'e-mails ayant échoués"
 
 #: app/assets/javascripts/app/views/integration/exchange_last_import.jst.eco:24
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:182
@@ -4535,11 +4535,11 @@ msgstr ""
 "Les tâches de confidentialité des données permettent uniquement la "
 "suppression d'un utilisateur ou d'un ticket."
 
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:96
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:14
 msgid "DataPrivacyTask"
 msgstr "DataPrivacyTask"
 
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:97
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:89
 msgid "DataPrivacyTasks"
 msgstr "DataPrivacyTasks"
 
@@ -5675,7 +5675,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_confirm_delete.coffee:4
 #: app/assets/javascripts/app/controllers/_application_controller/table.coffee:674
 #: app/assets/javascripts/app/controllers/_manage/knowledge_base.coffee:118
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:196
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:188
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:9
 #: app/assets/javascripts/app/controllers/package.coffee:54
 #: app/assets/javascripts/app/controllers/user.coffee:177
@@ -5793,7 +5793,7 @@ msgstr "Supprimer les anciennes entrées de jetons."
 msgid "Delete old upload cache entries."
 msgstr "Supprimer les anciennes entrées du cache d'envoi."
 
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:196
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:188
 msgid "Delete organization?"
 msgstr "Supprimer l'organisation ?"
 
@@ -5842,7 +5842,7 @@ msgstr ""
 "vérification supplémentaire. Pour continuer, saisissez son nom ci-dessous "
 "(\"%s\"). CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE."
 
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:94
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:86
 msgid "Deletion Task"
 msgstr "Tâche de suppression"
 
@@ -6511,11 +6511,11 @@ msgstr "Email - champ sujet"
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:72
 #: app/frontend/apps/desktop/pages/guided-setup/routes.ts:129
 msgid "Email Account"
-msgstr "Compte email"
+msgstr "Compte e-mail"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:17
 msgid "Email Accounts"
-msgstr "Comptes email"
+msgstr "Comptes e-mail"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:201
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:241
@@ -6783,7 +6783,7 @@ msgid ""
 "Enables sending of an email notification to a user when they link their "
 "account with a third-party application."
 msgstr ""
-"Autorise l'envoi d'une notification par email à un utilisateur lorsqu'il se "
+"Autorise l'envoi d'une notification par e-mail à un utilisateur lorsqu'il se "
 "connecte à son compte avec une application tierce."
 
 #: db/seeds/settings.rb:1251
@@ -14288,7 +14288,7 @@ msgstr "Regardez HTTPLog pour les détails."
 
 #: app/assets/javascripts/app/controllers/_ui_element/ticket_duplicate_detection.coffee:71
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:447
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:119
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:111
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBody.vue:118
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:280
 msgid "See less"
@@ -14296,7 +14296,7 @@ msgstr "Voir moins"
 
 #: app/assets/javascripts/app/controllers/_ui_element/ticket_duplicate_detection.coffee:68
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:443
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:116
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:108
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:41
 #: app/assets/javascripts/app/views/generic/ticket_duplicate_detection/warning.jst.eco:21
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:134
@@ -16450,7 +16450,7 @@ msgstr "La notification n'a pas pu être supprimée."
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:93
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:801
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:193
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:280
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:272
 #: app/assets/javascripts/app/controllers/object_manager.coffee:261
 #: app/assets/javascripts/app/lib/app_post/user_organization_autocompletion.coffee:94
 msgid "The object could not be created."
@@ -16574,7 +16574,7 @@ msgstr "Les informations d'identification fournies ne sont pas valides."
 
 #: lib/validations/channel_email_account_uniqueness_validator.rb:16
 msgid "The provided email account is already in use."
-msgstr "Le compte de messagerie fourni est déjà utilisé."
+msgstr "Le compte de e-mail fourni est déjà utilisé."
 
 #: app/models/webhook.rb:34
 msgid "The provided endpoint is invalid, no hostname was specified."
@@ -20508,7 +20508,7 @@ msgid ""
 "verification email."
 msgstr ""
 "Votre compte n'a pas encore été vérifié. Merci de cliquer sur le lien "
-"présent dans l'email de vérification."
+"présent dans l'e-mail de vérification."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:182
 msgid "Your avatar"
@@ -20979,7 +20979,7 @@ msgid "default"
 msgstr "défaut"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_destroy_confirm.coffee:4
-#: app/assets/javascripts/app/controllers/data_privacy.coffee:199
+#: app/assets/javascripts/app/controllers/data_privacy.coffee:191
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/delete.coffee:8
 #: app/assets/javascripts/app/views/data_privacy/preview.jst.eco:17
 msgid "delete"
@@ -21946,7 +21946,7 @@ msgstr "abonnement,calendriers,ticket,ical"
 
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:16
 msgid "support@example.com"
-msgstr "support@exemple.com"
+msgstr "support@example.com"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:280
 msgid "system"
