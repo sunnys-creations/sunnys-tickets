@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-12-27 13:00+0000\n"
-"Last-Translator: Florin Buffet <suppiflo@yahoo.de>\n"
+"PO-Revision-Date: 2025-01-09 12:00+0000\n"
+"Last-Translator: Martin Gruner <mg@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/de/>\n"
 "Language: de-de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -1949,7 +1949,7 @@ msgid ""
 "Apologies, we're unable to process this kind of message due to restrictions "
 "within WhatsApp Business."
 msgstr ""
-"Entschuldigung, durch Einschränkungen von WhatsApp Business, können wir "
+"Entschuldigung, aufgrund von Einschränkungen in WhatsApp Business können wir "
 "diesen Nachrichtentyp nicht verarbeiten."
 
 #: db/seeds/settings.rb:1426
@@ -16284,7 +16284,7 @@ msgstr "Folgende Änderungen werden vorgenommen:"
 
 #: app/assets/javascripts/app/views/system_report.jst.eco:13
 msgid "The following contents are provided in the system report:"
-msgstr "Der Report enthält die folgenden Inhalte:"
+msgstr "Der System-Bericht enthält die folgenden Inhalte:"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""

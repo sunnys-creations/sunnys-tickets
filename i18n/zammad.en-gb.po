@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-12-30 20:00+0000\n"
+"PO-Revision-Date: 2025-01-09 12:00+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translations.zammad.org/"
 "projects/zammad/zammad-stable/en_GB/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -1351,88 +1351,88 @@ msgstr "Add SSL Certificate"
 #: app/assets/javascripts/app/views/knowledge_base/sidebar/tags.jst.eco:19
 #: app/assets/javascripts/app/views/widget/tag.jst.eco:14
 msgid "Add Tag"
-msgstr ""
+msgstr "Add Tag"
 
 #: app/assets/javascripts/app/controllers/_channel/telegram.coffee:108
 msgid "Add Telegram Bot"
-msgstr ""
+msgstr "Add Telegram Bot"
 
 #: app/assets/javascripts/app/views/organization_profile/object.jst.eco:7
 #: app/assets/javascripts/app/views/user_profile/object.jst.eco:6
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:20
 #: app/assets/javascripts/app/views/widget/user.jst.eco:27
 msgid "Add a Note"
-msgstr ""
+msgstr "Add a Note"
 
 #: app/assets/javascripts/app/controllers/_profile/token_access.coffee:80
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:6
 msgid "Add a Personal Access Token"
-msgstr ""
+msgstr "Add a Personal Access Token"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:105
 msgid "Add a data privacy deletion task"
-msgstr ""
+msgstr "Add a data privacy deletion task"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:276
 msgid "Add a message"
-msgstr ""
+msgstr "Add a message"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:123
 msgid "Add agreement text before submit."
-msgstr ""
+msgstr "Add agreement text before submit."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:315
 msgid "Add alarm to pending reminder and escalated tickets"
-msgstr ""
+msgstr "Add alarm to pending reminder and escalated tickets"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:34
 msgid "Add alarm to pending reminder and escalated tickets."
-msgstr ""
+msgstr "Add alarm to pending reminders and escalated tickets."
 
 #: app/frontend/shared/form/i18n/locales.ts:74
 msgid "Add all values"
-msgstr ""
+msgstr "Add all values"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:112
 msgid "Add attachment option to upload."
-msgstr ""
+msgstr "Add attachment option to upload."
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:270
 msgid "Add bullet list"
-msgstr ""
+msgstr "Add bullet list"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/facebook.ts:49
 msgid "Add comment"
-msgstr ""
+msgstr "Add comment"
 
 #: app/assets/javascripts/app/views/generic/application_selector_row.jst.eco:32
 #: app/assets/javascripts/app/views/generic/application_selector_subclause.jst.eco:18
 msgid "Add condition"
-msgstr ""
+msgstr "Add condition"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/email.ts:168
 msgid "Add email"
-msgstr ""
+msgstr "Add email"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:5
 msgid "Add empty checklist"
-msgstr ""
+msgstr "Add empty checklist"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:192
 msgid "Add first level heading"
-msgstr ""
+msgstr "Add first-level heading"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:11
 msgid "Add from a template"
-msgstr ""
+msgstr "Add from a template"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:185
 msgid "Add heading"
-msgstr ""
+msgstr "Add heading"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:130
 msgid "Add image"
-msgstr ""
+msgstr "Add image"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
 msgid "Add internal note"
