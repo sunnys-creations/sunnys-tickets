@@ -2041,7 +2041,7 @@ msgid "Apply filter…"
 msgstr "Применить фильтр…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "Апр"
@@ -2384,7 +2384,7 @@ msgid "Audio file"
 msgstr "Аудиофайл"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "Авг"
@@ -2934,7 +2934,7 @@ msgstr "Фильтр журнала звонков"
 msgid "Caller log"
 msgstr "Журнал звонков"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4341,7 +4341,7 @@ msgstr "Создание каналов"
 msgid "Creation mask"
 msgstr "Маска создания"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "Обрезать изображение"
@@ -4563,7 +4563,7 @@ msgid "Days"
 msgstr "Дни"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "Дек"
@@ -6000,7 +6000,7 @@ msgstr ""
 "Вместо этого, чтобы отключить уведомления, воспользуйтесь приведенными выше "
 "настройками."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "Отмена"
 
@@ -7467,7 +7467,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr "Функция не настроена, пожалуйста, свяжитесь с Вашим администратором!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "Фев"
@@ -9409,7 +9409,7 @@ msgid "Items per page"
 msgstr "Элементов на странице"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "Янв"
@@ -9433,7 +9433,7 @@ msgid "Join %s"
 msgstr "Присоединиться к"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "Июл"
@@ -9443,7 +9443,7 @@ msgid "July"
 msgstr "Июль"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "Июн"
@@ -10314,7 +10314,7 @@ msgid "Mapping"
 msgstr "Cопоставление"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "Мар"
@@ -10428,7 +10428,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr "Максимальное количество заявок, отображаемых в представлениях"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "Май"
@@ -11293,7 +11293,7 @@ msgstr "Нет ответов"
 msgid "No attached files"
 msgstr "Нет прикрепленных файлов"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr "Камера не обнаружена."
 
@@ -11445,7 +11445,7 @@ msgstr "Пока нет общих черновиков"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr "Исходные данные не представлены!"
 
@@ -11698,7 +11698,7 @@ msgid "Notifications"
 msgstr "Уведомления"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "Ноя"
@@ -11786,7 +11786,7 @@ msgid "Objects"
 msgstr "Объекты"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "Окт"
@@ -13439,11 +13439,11 @@ msgstr "Запросить пароль для авторизации здесь
 msgid "Requesting the Grant"
 msgstr "Запрос подтверждения выдачи прав"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr "Отсутствует обязательный параметр «downloadBackendSelected»."
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr "Отсутствует обязательный параметр «профиль» (profile)."
 
@@ -13891,7 +13891,7 @@ msgstr "Сбт"
 msgid "Saturday"
 msgstr "Суббота"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -14446,7 +14446,7 @@ msgid "Sent successfully!"
 msgstr "Успешно отправлено!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "Сен"
@@ -14703,7 +14703,7 @@ msgstr "Общий доступ"
 msgid "Sharing draft…"
 msgstr "Совместное использование черновика…"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "Сделать снимок"
 
@@ -15879,7 +15879,7 @@ msgstr "Не удалось создать токен доступа."
 msgid "The account link was successfully removed!"
 msgstr "Ссылка на учетную запись была успешно удалена!"
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 msgid "The active reporting profile could not be found."
 msgstr "Не удалось найти активный профиль отчетности."
 
@@ -16551,7 +16551,7 @@ msgstr "Указанный ключ недействителен."
 msgid "The public PGP key could not be found."
 msgstr "Не удалось найти открытый ключ PGP."
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 msgid "The report could not be generated"
 msgstr "Не удалось сформировать отчет"
 
@@ -16576,7 +16576,7 @@ msgstr ""
 msgid "The required PGP passphrase is missing."
 msgstr "Отсутствует обязательная парольная фраза (passphrase) PGP."
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr "Отсутствует обязательный атрибут «email»."
@@ -16752,7 +16752,7 @@ msgstr "Отсутствует обязательный параметр «ра�
 msgid "The required parameter 'request_token' is missing."
 msgstr "Отсутствует обязательный параметр «request_token»."
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr "Отсутствует обязательный параметр «регистрация» (signup)."
 
@@ -17073,6 +17073,12 @@ msgstr "Их заявки"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "Тема"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There are no business hours configured."
+msgid "There are currently no report profiles configured."
+msgstr "Не настроены рабочие часы."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 msgid ""
@@ -20277,7 +20283,7 @@ msgstr "У Вас нет непрочитанных сообщений"
 msgid "You have not created a ticket yet."
 msgstr "Вы ещё не создавали заявок."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr "Вы должны разрешить доступ к Вашей веб-камере."
 

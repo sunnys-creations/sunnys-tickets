@@ -2021,7 +2021,7 @@ msgid "Apply filter…"
 msgstr "saba"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "Mata"
@@ -2386,7 +2386,7 @@ msgid "Audio file"
 msgstr "nta muyunguruzi"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "kanama"
@@ -2981,7 +2981,7 @@ msgstr "abahamagaye"
 msgid "Caller log"
 msgstr "abahamagaye"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4511,7 +4511,7 @@ msgstr "ihuza muyoboro"
 msgid "Creation mask"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr ""
@@ -4740,7 +4740,7 @@ msgid "Days"
 msgstr "iminsi"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "Ukuboza"
@@ -6135,7 +6135,7 @@ msgid ""
 "Instead, to disable the notifications use the settings above."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "guta"
 
@@ -7718,7 +7718,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "Gashyantare"
@@ -9765,7 +9765,7 @@ msgid "Items per page"
 msgstr "ibintu ukurikije ipaji"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "Mutarama"
@@ -9791,7 +9791,7 @@ msgid "Join %s"
 msgstr "isunge %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "Nyakanga"
@@ -9801,7 +9801,7 @@ msgid "July"
 msgstr "nyakanga"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "kamena"
@@ -10804,7 +10804,7 @@ msgid "Mapping"
 msgstr "Kugaragaza aho ikintu kiri"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "Werurwe"
@@ -10925,7 +10925,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "Gicurasi"
@@ -11862,7 +11862,7 @@ msgstr ""
 msgid "No attached files"
 msgstr "inyandiko zometseho"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr ""
 
@@ -12045,7 +12045,7 @@ msgstr "Bisangiwe"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr ""
 
@@ -12316,7 +12316,7 @@ msgid "Notifications"
 msgstr "imenyesha"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "Ugushyingo"
@@ -12418,7 +12418,7 @@ msgid "Objects"
 msgstr "ibintu"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "Ukwakira"
@@ -14263,11 +14263,11 @@ msgstr ""
 msgid "Requesting the Grant"
 msgstr "Gusaba umutekano w'ikintu"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr ""
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr ""
 
@@ -14699,7 +14699,7 @@ msgstr "Ku wagatandatu"
 msgid "Saturday"
 msgstr "kuwa gatandatu"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -15313,7 +15313,7 @@ msgid "Sent successfully!"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "nzeli"
@@ -15616,7 +15616,7 @@ msgstr "ikigo gihuriweho"
 msgid "Sharing draft…"
 msgstr "Bisangiwe"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "gufata ishusho/kurasa/kohereza"
 
@@ -16894,7 +16894,7 @@ msgstr " ikintu %s cyakozwe  (ibintu %s byakozwe)"
 msgid "The account link was successfully removed!"
 msgstr "Igeragezwa ryagenze neza"
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 #, fuzzy
 #| msgid "When notification is being sent."
 msgid "The active reporting profile could not be found."
@@ -17640,7 +17640,7 @@ msgstr ""
 msgid "The public PGP key could not be found."
 msgstr " ikintu %s cyashyizwe ku gihe  (ibintu %s byashyizwe ku gihe)"
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 #, fuzzy
 #| msgid "%s Object(s) are created."
 msgid "The report could not be generated"
@@ -17666,7 +17666,7 @@ msgstr ""
 msgid "The required PGP passphrase is missing."
 msgstr ""
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr ""
@@ -17820,7 +17820,7 @@ msgstr ""
 msgid "The required parameter 'request_token' is missing."
 msgstr ""
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr ""
 
@@ -18151,6 +18151,12 @@ msgstr "amatike"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "ingingo"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There is no agent online."
+msgid "There are currently no report profiles configured."
+msgstr "nta mukozi uri ku murongo"
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 #, fuzzy
@@ -21470,7 +21476,7 @@ msgstr ""
 msgid "You have not created a ticket yet."
 msgstr "Ntabwo urakora itike kugeza ubu"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr ""
 

@@ -1987,7 +1987,7 @@ msgid "Apply filter…"
 msgstr "应用过滤器…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "四月"
@@ -2309,7 +2309,7 @@ msgid "Audio file"
 msgstr "音频文件"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "八月"
@@ -2839,7 +2839,7 @@ msgstr "通话记录过滤"
 msgid "Caller log"
 msgstr "通聯記錄"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4241,7 +4241,7 @@ msgstr "创建渠道"
 msgid "Creation mask"
 msgstr "创建掩码"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "裁剪图像"
@@ -4454,7 +4454,7 @@ msgid "Days"
 msgstr "日"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "十二月"
@@ -5735,7 +5735,7 @@ msgid ""
 "Instead, to disable the notifications use the settings above."
 msgstr "禁用所有群组的通知将取消此限制。相反，若要禁用通知，请使用上面的设置。"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "放弃"
 
@@ -7167,7 +7167,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr "功能未配置，请联系你的管理员！"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "二月"
@@ -9028,7 +9028,7 @@ msgid "Items per page"
 msgstr "每頁項目"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "一月"
@@ -9052,7 +9052,7 @@ msgid "Join %s"
 msgstr "加入%s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "七月"
@@ -9062,7 +9062,7 @@ msgid "July"
 msgstr "七月"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "六月"
@@ -10016,7 +10016,7 @@ msgid "Mapping"
 msgstr "對映"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "三月"
@@ -10135,7 +10135,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr "概述中显示的最大门票数量"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "五月"
@@ -11088,7 +11088,7 @@ msgstr "没有答案"
 msgid "No attached files"
 msgstr "%s 个附件"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr "找不到相机。"
 
@@ -11273,7 +11273,7 @@ msgstr "已分享"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr "没有提交的源数据！"
 
@@ -11552,7 +11552,7 @@ msgid "Notifications"
 msgstr "通知"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "十一月"
@@ -11650,7 +11650,7 @@ msgid "Objects"
 msgstr "对象"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "十月"
@@ -13365,11 +13365,11 @@ msgstr "在此处请求密码登录。"
 msgid "Requesting the Grant"
 msgstr "要求權限"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr "缺少必需的参数“下载backendselectected”。"
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr "缺少必需的参数“配置文件”。"
 
@@ -13814,7 +13814,7 @@ msgstr "六"
 msgid "Saturday"
 msgstr "星期六"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -14358,7 +14358,7 @@ msgid "Sent successfully!"
 msgstr "发送成功！"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "九月"
@@ -14630,7 +14630,7 @@ msgstr "是否为共享的机构"
 msgid "Sharing draft…"
 msgstr "分享草稿…"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "拍摄"
 
@@ -15801,7 +15801,7 @@ msgstr "％s 对象已创建。"
 msgid "The account link was successfully removed!"
 msgstr "測試運行成功"
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 msgid "The active reporting profile could not be found."
 msgstr "找不到活动的报告配置文件。"
 
@@ -16449,7 +16449,7 @@ msgstr "提供的令牌无效。"
 msgid "The public PGP key could not be found."
 msgstr "找不到公共 PGP 密钥。"
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 msgid "The report could not be generated"
 msgstr "无法生成报告"
 
@@ -16473,7 +16473,7 @@ msgstr "找不到所需的“外部判据”“ Twitter”。"
 msgid "The required PGP passphrase is missing."
 msgstr "缺少所需的PGP密码。"
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr "缺少所需的属性“电子邮件”。"
@@ -16627,7 +16627,7 @@ msgstr "缺少所需的参数“权限”。"
 msgid "The required parameter 'request_token' is missing."
 msgstr "所需的参数“ request_token”丢失。"
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr "缺少所需的参数“注册”。"
 
@@ -16941,6 +16941,12 @@ msgstr "工单"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "主題"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There are no business hours configured."
+msgid "There are currently no report profiles configured."
+msgstr "没有任何工作时间配置。"
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 #, fuzzy
@@ -20511,7 +20517,7 @@ msgstr "您没有未读的消息"
 msgid "You have not created a ticket yet."
 msgstr "您还没有创建工单"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr "您必须允许访问网络摄像头。"
 

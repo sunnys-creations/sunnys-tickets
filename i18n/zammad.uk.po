@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-01-16 22:00+0000\n"
+"PO-Revision-Date: 2025-01-17 21:10+0000\n"
 "Last-Translator: Mantikor <nhyuga.r@gmail.com>\n"
 "Language-Team: Ukrainian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/uk/>\n"
@@ -78,9 +78,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Створено #{current_user.longname} о "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Створено #{current_user.longname} о #{ticket."
+"updated_at}_\n"
 "* Група: #{ticket.group.name}\n"
 "* Власник: #{ticket.owner.fullname}\n"
 "* Стан: #{t(ticket.state.name)}\n"
@@ -104,9 +104,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Ескальовано о #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Ескальовано о #{ticket.escalation_at}_\n"
 "Заявку (#{ticket.title}) від \"#{ticket.customer.longname}\" було "
 "ескальовано з \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -130,9 +129,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Останнє оновлення о "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Останнє оновлення о #{ticket.updated_at}_\n"
 "* Група: #{ticket.group.name}\n"
 "* Власник: #{ticket.owner.fullname}\n"
 "* Стан: #{t(ticket.state.name)}\n"
@@ -184,9 +182,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Оновлено #{current_user.longname} о "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Оновлено #{current_user.longname} о #{ticket."
+"updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -212,11 +210,10 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Буде ескальовано о "
-"#{ticket.escalation_at}_\n"
-"Заявка (#{ticket.title}) від\"#{ticket.customer.longname}"
-"\" буде ескальована о \"#{ticket.escalation_at}\"!\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Буде ескальовано о #{ticket.escalation_at}_\n"
+"Заявка (#{ticket.title}) від\"#{ticket.customer.longname}\" буде ескальована "
+"о \"#{ticket.escalation_at}\"!\n"
 "\n"
 "<% if @objects[:article] %>\n"
 "#{article.body_as_text}\n"
@@ -315,8 +312,8 @@ msgstr ""
 "<div>Ваш пристрій додано до списку відомих пристроїв, який ви можете "
 "переглянути тут:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>IfЯкщо це не ви, вилучіть пристрій, змініть пароль до облікового запису "
 "та зверніться до свого адміністратора. Можливо, хтось отримав "
@@ -850,6 +847,15 @@ msgid ""
 "If you have customers with different business hours, you can create multiple "
 "calendars. Tickets are linked to calendars using **SLAs**."
 msgstr ""
+"**Календар** потрібен для розрахунку ескалацій на основі робочого часу та "
+"надсилання сповіщень про ескалацію.\n"
+"\n"
+"Визначте **\"стандартний\"** календар, дійсний для всієї системи. Сповіщення "
+"про ескалацію надсилатимуться вашим агентам лише протягом визначених робочих "
+"годин.\n"
+"\n"
+"Якщо у вас є клієнти з різним графіком роботи, ви можете створити кілька "
+"календарів. Заявки пов’язані з календарями за допомогою **SLA**."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:47
 msgid "A color scheme that uses dark-colored elements on a light background."
@@ -888,7 +894,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:156
 msgid "A powerful service to get more information about your customers."
-msgstr "Потужний сервіс для отримання додаткової інформації про ваших клієнтів."
+msgstr ""
+"Потужний сервіс для отримання додаткової інформації про ваших клієнтів."
 
 #: app/assets/javascripts/app/controllers/_integration/cti.coffee:208
 msgid "A queue is required!"
@@ -1549,11 +1556,11 @@ msgstr ""
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
-"<div>За цим посиланням ви перейдете на сторінку, де зможете увійти в "
-"систему.</div>\n"
+"<div>За цим посиланням ви перейдете на сторінку, де зможете увійти в систему."
+"</div>\n"
 "<br>\n"
-"<div>Якщо ви не хочете входити в систему, проігноруйте це повідомлення.</div>"
-"\n"
+"<div>Якщо ви не хочете входити в систему, проігноруйте це повідомлення.</"
+"div>\n"
 "<br>\n"
 "<div>Команда #{config.product_name}</div>\n"
 
@@ -1961,7 +1968,7 @@ msgid "Apply filter…"
 msgstr "Застосувати фільтр…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "Квіт."
@@ -2085,7 +2092,7 @@ msgstr "Ви впевнені? Ваші налаштування сповіще�
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:10
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:10
 msgid "Article"
-msgstr "Нотатка"
+msgstr "Стаття"
 
 #: db/seeds/settings.rb:658
 msgid "Article - visibility confirmation dialog"
@@ -2300,7 +2307,7 @@ msgid "Audio file"
 msgstr "Аудіофайл"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "Серп."
@@ -2880,7 +2887,7 @@ msgstr "Журнал абонентів"
 msgid "Caller log"
 msgstr "Журнал абонентів"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -3659,8 +3666,8 @@ msgstr ""
 "<div>Привіт #{user.firstname},</div>\n"
 "<br>\n"
 "<div>Підтвердіть свою електронну адресу, щоб завершити створення облікового "
-"запису #{config.product_name}. Це легко, просто натисніть на посилання "
-"нижче.</div>\n"
+"запису #{config.product_name}. Це легко, просто натисніть на посилання нижче."
+"</div>\n"
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
@@ -4078,8 +4085,8 @@ msgstr ""
 "\n"
 "Доступні об'єкти:\n"
 "* ticket (e.g. ticket.state, ticket.group)\n"
-"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer.lastname)"
-"\n"
+"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer."
+"lastname)\n"
 "* ticket.owner (e.g. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (e.g. ticket.organization.name)\n"
 "* user (e.g. user.firstname, user.email)\n"
@@ -4283,7 +4290,7 @@ msgstr "Канали створення"
 msgid "Creation mask"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "Обрізати зображення"
@@ -4341,7 +4348,7 @@ msgstr "Власний переклад"
 #: app/assets/javascripts/app/controllers/_manage/knowledge_base.coffee:127
 #: app/assets/javascripts/app/models/knowledge_base.coffee:290
 msgid "Custom URL"
-msgstr ""
+msgstr "Власна URL-адреса"
 
 #: lib/knowledge_base/server_snippet.rb:10
 msgid "Custom address is not set"
@@ -4502,7 +4509,7 @@ msgid "Days"
 msgstr "Дні"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "Груд."
@@ -5190,16 +5197,12 @@ msgid "Defines the agent limit."
 msgstr "Визначає ліміт агента."
 
 #: db/seeds/settings.rb:402
-#, fuzzy
-#| msgid ""
-#| "Defines the backend for geo IP lookups. Shows also location of an IP "
-#| "address if an IP address is shown."
 msgid ""
 "Defines the backend for geo IP lookups. Also shows location of an IP address "
 "if it is traceable."
 msgstr ""
-"Визначає модуль для гео-IP пошуку. Також показує геолокацію для ІР-адреси, "
-"якщо ІР-адреса відображається."
+"Визначає серверну частину для пошуку гео-IP. Також показує розташування IP-"
+"адреси, якщо її можна відстежити."
 
 #: db/seeds/settings.rb:456
 msgid ""
@@ -5644,6 +5647,8 @@ msgid ""
 "Deleting your knowledge base requires an additional verification step. To "
 "proceed, enter its name below (\"%s\"). THIS ACTION CANNOT BE UNDONE."
 msgstr ""
+"Видалення бази знань вимагає додаткової перевірки. Щоб продовжити, введіть "
+"його назву нижче (\"%s\"). ЦЮ ДІЮ НЕ МОЖНА СКАСУВАТИ."
 
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:86
 msgid "Deletion Task"
@@ -5824,7 +5829,7 @@ msgid ""
 "Instead, to disable the notifications use the settings above."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "Відхилити"
 
@@ -5893,10 +5898,8 @@ msgid "Do not update any tickets."
 msgstr "Не оновлювати жодну заявку."
 
 #: app/assets/javascripts/app/views/settings/proxy.jst.eco:21
-#, fuzzy
-#| msgid "No proxy for the following hosts."
 msgid "Do not use the proxy for the following hosts."
-msgstr "Відсутній проксі-сервер для зазначених нижче хостів."
+msgstr "Не використовувати проксі для наступних хостів."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
 #: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
@@ -6141,7 +6144,7 @@ msgstr "Редагувати"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:173
 msgid "Edit Answer"
-msgstr "Редагувати Відповідь"
+msgstr "Редагувати відповідь"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:175
 msgid "Edit Category"
@@ -7330,7 +7333,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "Лют."
@@ -7503,7 +7506,7 @@ msgstr "Розмір шрифту"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_manager.coffee:34
 msgid "Footer Menu"
-msgstr ""
+msgstr "Меню нижнього колонтитула"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:171
 msgid "Footer Note"
@@ -8019,10 +8022,8 @@ msgstr ""
 #: app/assets/javascripts/app/models/role.coffee:8
 #: app/assets/javascripts/app/models/user.coffee:13
 #: db/seeds/object_manager_attributes.rb:1425
-#, fuzzy
-#| msgid "Permissions"
 msgid "Group permissions"
-msgstr "Дозволи"
+msgstr "Групові дозволи"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:18
 #: db/seeds/settings.rb:2876
@@ -9025,19 +9026,15 @@ msgstr "Вставляє горизонтальну лінійку"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:546
 msgid "Inserts a mention for a user"
-msgstr ""
+msgstr "Вставити згадування користувача"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:540
-#, fuzzy
-#| msgid "Delete Knowledge Base"
 msgid "Inserts knowledge base answer"
-msgstr "Видалити Базу Знань"
+msgstr "Вставити відповідь бази знань"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
-#, fuzzy
-#| msgid "New text module"
 msgid "Inserts text module"
-msgstr "Новий текстовий модуль"
+msgstr "Вставити текстовий модуль"
 
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:136
 #, fuzzy
@@ -9301,14 +9298,14 @@ msgstr ""
 #: app/assets/javascripts/app/models/checklist.coffee:8
 #: app/assets/javascripts/app/models/checklist_template.coffee:8
 msgid "Items"
-msgstr ""
+msgstr "Елементи"
 
 #: app/assets/javascripts/app/controllers/ticket_overview/settings.coffee:15
 msgid "Items per page"
 msgstr "Елементів на сторінку"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "Січ."
@@ -9332,7 +9329,7 @@ msgid "Join %s"
 msgstr "Приєднатися до %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "Лип."
@@ -9342,7 +9339,7 @@ msgid "July"
 msgstr "Липень"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "Черв."
@@ -9888,6 +9885,11 @@ msgid ""
 "(and nerves). This allows a combined sequence of actions on the ticket to be "
 "executed with just one click."
 msgstr ""
+"Макроси полегшують автоматизацію звичайних багатоетапних завдань у Zammad.\n"
+"\n"
+"Ви можете використовувати макроси в Zammad для автоматизації повторюваних "
+"послідовностей, заощаджуючи час (і нерви). Це дозволяє виконати комбіновану "
+"послідовність дій на заявці одним клацанням миші."
 
 #: app/frontend/apps/desktop/components/layout/LayoutPage.vue:38
 msgid "Main sidebar"
@@ -10261,7 +10263,7 @@ msgid "Mapping"
 msgstr "Перетворення даних"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "Бер."
@@ -10355,7 +10357,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:3166
 msgid "Maximum Email Size"
-msgstr "Максимальний розмір повідомлення електронної пошти\t"
+msgstr "Максимальний розмір повідомлення електронної пошти"
 
 #: db/seeds/settings.rb:2804
 msgid "Maximum Recursive Ticket Triggers Depth"
@@ -10378,7 +10380,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "Трав."
@@ -10728,7 +10730,7 @@ msgstr ""
 
 #: db/seeds/overviews.rb:5
 msgid "My Assigned Tickets"
-msgstr "Мої призначені заявки"
+msgstr "Призначені мені заявки"
 
 #: db/seeds/overviews.rb:239
 msgid "My Organization Tickets"
@@ -10915,8 +10917,8 @@ msgid ""
 "Neither an SSO environment variable 'REMOTE_USER' nor a 'X-Forwarded-User' "
 "header could be found."
 msgstr ""
-"Не вдалося знайти ні змінну середовища SSO 'REMOTE_USER', ні заголовок 'X"
-"-Forwarded-User'."
+"Не вдалося знайти ні змінну середовища SSO 'REMOTE_USER', ні заголовок 'X-"
+"Forwarded-User'."
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:15
 msgid "Network"
@@ -11117,7 +11119,7 @@ msgstr "Новий пароль"
 
 #: app/assets/javascripts/app/views/knowledge_base/public_menu_form_item_row.jst.eco:12
 msgid "New tab"
-msgstr ""
+msgstr "Нова вкладка"
 
 #: app/assets/javascripts/app/controllers/text_module.coffee:32
 msgid "New text module"
@@ -11291,7 +11293,7 @@ msgstr "Немає відповідей"
 msgid "No attached files"
 msgstr "Немає вкладених файлів"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr ""
 
@@ -11462,7 +11464,7 @@ msgstr "Спільний"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr ""
 
@@ -11522,7 +11524,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:65
 #: app/graphql/gql/types/ticket_type.rb:101 db/seeds/settings.rb:1957
 msgid "None"
-msgstr ""
+msgstr "Немає"
 
 #: app/assets/javascripts/app/controllers/widget/link/ticket.coffee:66
 msgid "Normal"
@@ -11729,7 +11731,7 @@ msgid "Notifications"
 msgstr "Сповіщення"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "Лист."
@@ -11831,7 +11833,7 @@ msgid "Objects"
 msgstr "Об’єкти"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "Жовт."
@@ -11909,7 +11911,8 @@ msgstr "Увійти до системи"
 #: app/assets/javascripts/app/models/overview.coffee:11
 msgid ""
 "Only available for users which are absence replacements for other users."
-msgstr "Лише доступно користувачам, які замінюють інших відсутніх користувачів."
+msgstr ""
+"Лише доступно користувачам, які замінюють інших відсутніх користувачів."
 
 #: app/assets/javascripts/app/models/overview.coffee:10
 msgid "Only available for users with shared organizations"
@@ -12453,10 +12456,8 @@ msgid "Password Access"
 msgstr "Доступ за паролем"
 
 #: db/seeds/settings.rb:1027
-#, fuzzy
-#| msgid "Password"
 msgid "Password Login"
-msgstr "Пароль"
+msgstr "Вхід по паролю"
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:125
 msgid "Password changed successfully!"
@@ -12486,15 +12487,11 @@ msgstr "Пароль для з’єднання з проксі-сервером
 
 #: db/seeds/settings.rb:532
 msgid "Password for proxy connection."
-msgstr "Пароль для з’єднання з проксі-сервером."
+msgstr "Пароль для підключення через проксі."
 
 #: db/seeds/settings.rb:2051
-#, fuzzy
-#| msgid "Password needs to contain 2 lower and 2 upper characters."
 msgid "Password needs to contain 2 lower case and 2 upper case characters."
-msgstr ""
-"Пароль повинен містити 2 знаки в нижньому регістрі та 2 знаки у верхньому "
-"регістрі."
+msgstr "Пароль повинен містити 2 символи нижнього регістру та 2 верхнього."
 
 #: db/seeds/settings.rb:2077
 msgid "Password needs to contain at least one digit."
@@ -12502,7 +12499,7 @@ msgstr "Пароль повинен містити щонайменше одну
 
 #: db/seeds/settings.rb:2103
 msgid "Password needs to contain at least one special character."
-msgstr ""
+msgstr "Пароль повинен містити хоча б один спеціальний символ."
 
 #: db/seeds/settings.rb:2011
 msgid "Password needs to have at least a minimal number of characters."
@@ -12576,7 +12573,7 @@ msgstr "Виконати дії"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete.coffee:49
 msgid "Permanently Delete Knowledge Base"
-msgstr ""
+msgstr "Видалити базу знань назавжди"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:37
 #: db/seeds/settings.rb:2679
@@ -13088,10 +13085,8 @@ msgid "Proxy User"
 msgstr ""
 
 #: app/assets/javascripts/app/views/settings/proxy.jst.eco:3
-#, fuzzy
-#| msgid "Proxy address."
 msgid "Proxy address"
-msgstr "Адреса проксі-сервера."
+msgstr "Адреса проксі-сервера"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:109
 #: app/frontend/shared/entities/ticket/composables/useTicketEditForm.ts:160
@@ -13173,7 +13168,7 @@ msgstr ""
 #: app/assets/javascripts/app/models/group.coffee:44
 #: app/frontend/apps/desktop/components/Form/fields/FieldGroupPermissions/FieldGroupPermissionsInput.vue:40
 msgid "Read"
-msgstr ""
+msgstr "Читати"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/permissions_dialog.coffee:9
 msgid "Reader"
@@ -13406,16 +13401,12 @@ msgstr "Автентифікація"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist.coffee:21
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent.vue:365
-#, fuzzy
-#| msgid "Remove"
 msgid "Remove checklist"
-msgstr "Вилучити"
+msgstr "Вилучити список"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:283
-#, fuzzy
-#| msgid "Removes the formatting"
 msgid "Remove formatting"
-msgstr "Видаляє форматування"
+msgstr "Видалити форматування"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldImageUpload/FieldImageUploadInput.vue:124
 #, fuzzy
@@ -13458,7 +13449,7 @@ msgstr "Автентифікація"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
 msgid "Removes any hyperlink"
-msgstr "Видаляє будь-які гіперпосилання"
+msgstr "Видалити будь-які гіперпосилання"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:601
 msgid "Removes the formatting"
@@ -13471,7 +13462,7 @@ msgstr "Видаляє тіні для плаского вигляду."
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist.coffee:16
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent.vue:358
 msgid "Rename checklist"
-msgstr ""
+msgstr "Перейменувати список"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/feed_dialog.coffee:9
 #, fuzzy
@@ -13593,11 +13584,11 @@ msgstr ""
 msgid "Requesting the Grant"
 msgstr "Запит доступу"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr ""
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr ""
 
@@ -13890,7 +13881,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/smime.coffee:253
 msgid "S/MIME enables you to send digitally signed and encrypted messages."
-msgstr "S/MIME дозволяє надсилати зашифровані повідомлення з цифровим підписом."
+msgstr ""
+"S/MIME дозволяє надсилати зашифровані повідомлення з цифровим підписом."
 
 #: db/seeds/settings.rb:5493
 msgid "S/MIME integration"
@@ -14013,7 +14005,7 @@ msgstr "Сб."
 msgid "Saturday"
 msgstr "Субота"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -14436,7 +14428,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:345
 msgid "Select item"
-msgstr "Виберіть елемент\t"
+msgstr "Вибрати елемент"
 
 #: app/assets/javascripts/app/lib/app_post/multi_locales_row.coffee:38
 msgid "Select locale…"
@@ -14595,7 +14587,7 @@ msgid "Sent successfully!"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "Вер."
@@ -14898,7 +14890,7 @@ msgstr "Спільна організація"
 msgid "Sharing draft…"
 msgstr "Спільний доступ до чернетки…"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "Активувати"
 
@@ -15647,10 +15639,8 @@ msgid "Subscribed tickets"
 msgstr "Мої призначені заявки"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:215
-#, fuzzy
-#| msgid "My assigned Tickets"
 msgid "Subscribers"
-msgstr "Мої призначені заявки"
+msgstr "Підписники"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:24
 msgid "Subscription Settings"
@@ -16140,7 +16130,7 @@ msgstr "%s об’єкт(ів) створено."
 msgid "The account link was successfully removed!"
 msgstr "Тестовий запуск виконано вдало."
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 #, fuzzy
 #| msgid "When notification is being sent."
 msgid "The active reporting profile could not be found."
@@ -16418,6 +16408,11 @@ msgid ""
 "g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
 "the directions under \"Web Server Configuration\" to complete the process."
 msgstr ""
+"URL-адреса за умовчанням для вашої бази знань, напр. example.com або example."
+"com/help. Щоб обслуговувати його зі спеціальної URL-адреси, введіть цільову "
+"адресу нижче (наприклад, \"/support\", \"example.com\" або \"example.com/"
+"support\"). Потім виконайте вказівки в розділі «Конфігурація вебсервера», "
+"щоб завершити процес."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -16890,7 +16885,7 @@ msgstr ""
 msgid "The public PGP key could not be found."
 msgstr "%s об’єкт(ів) оновлено."
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 #, fuzzy
 #| msgid "%s Object(s) are created."
 msgid "The report could not be generated"
@@ -16916,7 +16911,7 @@ msgstr ""
 msgid "The required PGP passphrase is missing."
 msgstr ""
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr ""
@@ -17070,7 +17065,7 @@ msgstr ""
 msgid "The required parameter 'request_token' is missing."
 msgstr ""
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr ""
 
@@ -17399,6 +17394,12 @@ msgstr "Заявки"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "Тема"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There is no agent online."
+msgid "There are currently no report profiles configured."
+msgstr "Немає агентів онлайн."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 #, fuzzy
@@ -17841,7 +17842,7 @@ msgstr "%s об’єкт(ів) створено."
 #: app/assets/javascripts/app/views/version.jst.eco:6
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:175
 msgid "This is Zammad version %s"
-msgstr "Це – система Zammad версії %s\t"
+msgstr "Це Zammad версії %s"
 
 #: db/seeds/settings.rb:66
 msgid "This is a default maintenance message. Click here to change."
@@ -18243,7 +18244,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:3072
 msgid "Ticket Subject Reply"
-msgstr "Відповідь за темою заявки\t"
+msgstr "Відповідь за темою заявки"
 
 #: db/seeds/settings.rb:3051
 msgid "Ticket Subject Size"
@@ -18512,7 +18513,8 @@ msgstr "Заявки"
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:13
 msgid ""
 "Tickets are only assigned automatically if they do not already have an owner."
-msgstr "Заявки призначаються автоматично, лише якщо щодо них відсутній власник."
+msgstr ""
+"Заявки призначаються автоматично, лише якщо щодо них відсутній власник."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketOrderBySelector.vue:34
 msgid "Tickets are ordered by \"%s\" column (%s)."
@@ -19246,10 +19248,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row.jst.eco:26
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItem.vue:60
-#, fuzzy
-#| msgid "Select item"
 msgid "Uncheck item"
-msgstr "Виберіть елемент\t"
+msgstr "Зняти галочку"
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:12
 msgid "Unit"
@@ -19441,11 +19441,11 @@ msgstr "%s об’єкт(ів) оновлено."
 #: app/assets/javascripts/app/models/trigger.coffee:16
 #: app/assets/javascripts/app/models/webhook.coffee:16
 msgid "Updated"
-msgstr ""
+msgstr "Оновлено"
 
 #: lib/excel_sheet/ticket.rb:57
 msgid "Updated At"
-msgstr ""
+msgstr "Оновлено о"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:244
 #: app/assets/javascripts/app/models/checklist.coffee:10
@@ -19458,7 +19458,7 @@ msgstr ""
 #: app/assets/javascripts/app/models/user.coffee:17
 #: app/graphql/gql/types/overview_type.rb:82
 msgid "Updated at"
-msgstr "Оновлено о\t"
+msgstr "Оновлено о"
 
 #: app/assets/javascripts/app/models/calendar.coffee:14
 #: app/assets/javascripts/app/models/chat.coffee:260
@@ -19477,7 +19477,7 @@ msgstr "Оновлено о\t"
 #: app/assets/javascripts/app/models/user.coffee:16
 #: app/graphql/gql/types/overview_type.rb:81
 msgid "Updated by"
-msgstr "Ким оновлено\t"
+msgstr "Ким оновлено"
 
 #. This is the template file app/views/mailer/ticket_update/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -19516,6 +19516,37 @@ msgid ""
 "this in #{config.product_name}</a>\n"
 "</div>\n"
 msgstr ""
+"Заявку оновлено (#{ticket.title})\n"
+"\n"
+"<div>Привіт #{recipient.firstname},</div>\n"
+"<br>\n"
+"<div>\n"
+"Заявку (#{ticket.title}) було оновлено \"<b>#{current_user.longname}</b>\".\n"
+"</div>\n"
+"<br>\n"
+"<% if @objects[:changes].present? %>\n"
+"  <div>\n"
+"  Зміни:<br>\n"
+"  <% @objects[:changes].each do |key, value| %>\n"
+"    <%= t key %>: <%= h value[0] %> -&gt; <%= h value[1] %><br>\n"
+"  <% end %>\n"
+"  </div>\n"
+"<% end %>\n"
+"<br>\n"
+"<% if @objects[:article] %>\n"
+"  <div>\n"
+"  Інформація:\n"
+"  <blockquote type=\"cite\">\n"
+"  #{article.body_as_html}\n"
+"  </blockquote>\n"
+"  </div>\n"
+"<% end %>\n"
+"<br>\n"
+"<div>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}<% "
+"if @objects[:article] %>/#{article.id}<% end %>\" target=\"zammad_app\">View "
+"this in #{config.product_name}</a>\n"
+"</div>\n"
 
 #. This is the template file app/views/mailer/ticket_article_update_reaction/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -19545,6 +19576,29 @@ msgid ""
 "a>\n"
 "</div>\n"
 msgstr ""
+"Оновлено текст заявки (#{ticket.title})\n"
+"\n"
+"<div>Привіт #{recipient.firstname},</div>\n"
+"<br>\n"
+"<div>\n"
+"<%= @objects[:article].preferences.dig('whatsapp', 'reaction', 'author') %> "
+"відреагував <%= @objects[:article].preferences.dig('whatsapp', 'reaction', "
+"'emoji') %> на повідомлення від #{article.created_by.fullname}:\n"
+"</div>\n"
+"<br>\n"
+"<% if @objects[:article] %>\n"
+"  <div>\n"
+"    <blockquote type=\"cite\">\n"
+"    #{article.body_as_html}\n"
+"    </blockquote>\n"
+"  </div>\n"
+"<% end %>\n"
+"<br>\n"
+"<div>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">View this in #{config.product_name}</"
+"a>\n"
+"</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
 msgid "Updating Database"
@@ -20095,6 +20149,13 @@ msgid ""
 "an HTTP(S) endpoint and relevant security settings, then configure a trigger "
 "to perform it."
 msgstr ""
+"Веб-хуки дозволяють легко надсилати інформацію про події в Zammad стороннім "
+"системам через HTTP(S).\n"
+"\n"
+"Ви можете використовувати веб-хуки в Zammad, щоб надсилати дані про заявки, "
+"статті та вкладення щоразу, коли виконується тригер. Просто створіть і "
+"налаштуйте веб-хук із кінцевою точкою HTTP(S) і відповідними параметрами "
+"безпеки, а потім налаштуйте тригер для його виконання."
 
 #: app/assets/javascripts/app/controllers/_ui_element/richtext_additions/link_button.coffee:4
 msgid "Weblink"
@@ -20237,8 +20298,8 @@ msgid ""
 "When you turn on debugging by setting the option §debug§ to §true§ the "
 "reason gets printed to the javascript console."
 msgstr ""
-"Коли Ви вмикаєте відладку, встановивши для параметра §debug§ значення §true§"
-", причина відображається на консолі javascript."
+"Коли Ви вмикаєте відладку, встановивши для параметра §debug§ значення "
+"§true§, причина відображається на консолі javascript."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:674
 msgid "Where"
@@ -20307,6 +20368,8 @@ msgid ""
 "With checklists you can keep track of the progress of your ticket related "
 "tasks."
 msgstr ""
+"За допомогою списків ви можете відстежувати хід виконання завдань, "
+"пов’язаних із заявками."
 
 #: app/assets/javascripts/app/controllers/_channel/_email_filter.coffee:14
 msgid ""
@@ -20326,7 +20389,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/template.coffee
 msgid "With templates it is possible to pre-fill tickets quickly and easily."
-msgstr "За допомогою шаблонів можна швидко і легко попередньо заповнити заявки."
+msgstr ""
+"За допомогою шаблонів можна швидко і легко попередньо заповнити заявки."
 
 #: app/assets/javascripts/app/views/widget/template.jst.eco:15
 msgid "With templates you can pre-fill ticket attributes."
@@ -20664,7 +20728,7 @@ msgstr ""
 msgid "You have not created a ticket yet."
 msgstr "Ви ще не створили заявки."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr ""
 
@@ -20742,8 +20806,8 @@ msgstr ""
 "\n"
 "<p>Привіт #{user.firstname},</p>\n"
 "<br>\n"
-"<p>Пароль для вашого облікового запису #{config.product_name} "
-"<b>#{user.login}</b> нещодавно було змінено.</p>\n"
+"<p>Пароль для вашого облікового запису #{config.product_name} <b>#{user."
+"login}</b> нещодавно було змінено.</p>\n"
 "<br>\n"
 "<p>Ця активність вам не відома? Якщо ні, зверніться до системного "
 "адміністратора.</p>\n"
@@ -22195,10 +22259,8 @@ msgstr "відповісти"
 
 #: app/assets/javascripts/app/views/generic/attachment.jst.eco:9
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:101
-#, fuzzy
-#| msgid "select attachment..."
 msgid "select attachment…"
-msgstr "виберіть вкладення..."
+msgstr "виберіть вкладення…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:478
 #, fuzzy

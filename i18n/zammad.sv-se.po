@@ -2008,7 +2008,7 @@ msgid "Apply filter…"
 msgstr "Tillämpa filter…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "apr"
@@ -2350,7 +2350,7 @@ msgid "Audio file"
 msgstr "Ljudfil"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "aug"
@@ -2892,7 +2892,7 @@ msgstr "Filter för samtalslogg"
 msgid "Caller log"
 msgstr "Samtalslogg"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4287,7 +4287,7 @@ msgstr "Kanaler"
 msgid "Creation mask"
 msgstr "Skapa mask"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "Beskär bild"
@@ -4509,7 +4509,7 @@ msgid "Days"
 msgstr "Dagar"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "dec"
@@ -5915,7 +5915,7 @@ msgstr ""
 "Inaktivering av notifieringar från alla grupper kommer att stänga av "
 "gränsen. för att inaktivera notifieringar använd inställningen ovanför."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "Avbryt"
 
@@ -7360,7 +7360,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr "Funktionen är inte konfigurerad, kontakta din administratör!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "feb"
@@ -9272,7 +9272,7 @@ msgid "Items per page"
 msgstr "Antal per sida"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "jan"
@@ -9296,7 +9296,7 @@ msgid "Join %s"
 msgstr "Gå med %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "jul"
@@ -9306,7 +9306,7 @@ msgid "July"
 msgstr "juli"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "jun"
@@ -10169,7 +10169,7 @@ msgid "Mapping"
 msgstr "Kartläggning"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "mar"
@@ -10283,7 +10283,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr "Maximalt antal ärenden som visas i översikter"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "maj"
@@ -11146,7 +11146,7 @@ msgstr "Inga svar"
 msgid "No attached files"
 msgstr "Inga bifogade filer"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr "Ingen kamera hittades."
 
@@ -11298,7 +11298,7 @@ msgstr "Inga delade utkast ännu"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr "Källdata har inte skickats!"
 
@@ -11551,7 +11551,7 @@ msgid "Notifications"
 msgstr "Notifieringar"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "nov"
@@ -11639,7 +11639,7 @@ msgid "Objects"
 msgstr "Objekt"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "okt"
@@ -13280,11 +13280,11 @@ msgstr "Begär lösenordsinloggning här."
 msgid "Requesting the Grant"
 msgstr "Begär bidraget"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr "Den obligatoriska parametern \"downloadBackendSelected\" saknas."
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr "Den obligatoriska parametern \"profil\" saknas."
 
@@ -13725,7 +13725,7 @@ msgstr "lör"
 msgid "Saturday"
 msgstr "Lördag"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -14273,7 +14273,7 @@ msgid "Sent successfully!"
 msgstr "Skickat!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "sep"
@@ -14529,7 +14529,7 @@ msgstr "Delad organisation"
 msgid "Sharing draft…"
 msgstr "Dela utkast …"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "Sätt igång"
 
@@ -15692,7 +15692,7 @@ msgstr "Det gick inte att skapa en access-token."
 msgid "The account link was successfully removed!"
 msgstr "Länken till kontot har tagits bort!"
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 msgid "The active reporting profile could not be found."
 msgstr "Den aktiva rapportprofilen kunde inte hittas."
 
@@ -16349,7 +16349,7 @@ msgstr "Den angivna token är ogiltig."
 msgid "The public PGP key could not be found."
 msgstr "Publika PGP nyckeln kunde inte hittas."
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 msgid "The report could not be generated"
 msgstr "Rapporten kunde inte genereras"
 
@@ -16373,7 +16373,7 @@ msgstr "Den nödvändiga 'ExternalCredential' 'twitter' kunde inte hittas."
 msgid "The required PGP passphrase is missing."
 msgstr "Obligatorisk PGP lösenord saknas."
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr "Den obligatoriska parametern 'email' saknas."
@@ -16529,7 +16529,7 @@ msgstr "Den obligatoriska parametern 'permission' saknas."
 msgid "The required parameter 'request_token' is missing."
 msgstr "Den obligatoriska parametern 'request_token' saknas."
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr "Den obligatoriska parametern 'signup' saknas."
 
@@ -16837,6 +16837,12 @@ msgstr "Egna ärenden"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "Tema"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There are no business hours configured."
+msgid "There are currently no report profiles configured."
+msgstr "Inga öppettider har konfigurerats."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 msgid ""
@@ -20014,7 +20020,7 @@ msgstr "Du har inga olästa meddelanden"
 msgid "You have not created a ticket yet."
 msgstr "Du har inte skapat ett ärende ännu."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr "Du måste tillåta åtkomst till din webbkamera."
 

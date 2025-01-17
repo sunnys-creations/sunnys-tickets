@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2025-01-06 06:33+0000\n"
 "Last-Translator: Dominikmarek88 <marek47@uniba.sk>\n"
-"Language-Team: Czech <https://translations.zammad.org/projects/zammad/"
-"zammad-stable/cs/>\n"
+"Language-Team: Czech <https://translations.zammad.org/projects/zammad/zammad-"
+"stable/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2131,7 +2131,7 @@ msgid "Apply filter…"
 msgstr "Použít koncept"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "Dub"
@@ -2488,7 +2488,7 @@ msgid "Audio file"
 msgstr "Žádný filtr."
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "Srp"
@@ -3048,7 +3048,7 @@ msgstr "Filtr výpisu volání"
 msgid "Caller log"
 msgstr "Výpis volání"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4563,7 +4563,7 @@ msgstr "Kanály pro vytváření"
 msgid "Creation mask"
 msgstr "Maska vytváření"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "Oříznout obrázek"
@@ -4788,7 +4788,7 @@ msgid "Days"
 msgstr "Dnů"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "Pro"
@@ -6246,7 +6246,7 @@ msgstr ""
 "Vypnutí oznámení pro všechny skupiny vypne limit. Místo toho, pro vypnutí "
 "oznámení použijte nastavení nahoře."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "Zrušit"
 
@@ -7821,7 +7821,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr "Funkce není nastavena, kontaktujte prosím svého správce!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "Úno"
@@ -9824,7 +9824,7 @@ msgid "Items per page"
 msgstr "Položek na stránku"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "Led"
@@ -9848,7 +9848,7 @@ msgid "Join %s"
 msgstr "Připojit se k %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "Čvc"
@@ -9858,7 +9858,7 @@ msgid "July"
 msgstr "Červenec"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "Čer"
@@ -10857,7 +10857,7 @@ msgid "Mapping"
 msgstr "Mapování"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "Bře"
@@ -10978,7 +10978,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr "Maximální počet ticketů zobrazovaných v přehledech"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "Kvě"
@@ -11893,7 +11893,7 @@ msgstr "Bez odpovědí"
 msgid "No attached files"
 msgstr "%s přiložených souborů"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr "Nenalezena žádná kamera."
 
@@ -12062,7 +12062,7 @@ msgstr "Sdílené koncepty"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr "Nebyla odeslána žádná zdrojová data!"
 
@@ -12332,7 +12332,7 @@ msgid "Notifications"
 msgstr "Oznámení"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "Lis"
@@ -12432,7 +12432,7 @@ msgid "Objects"
 msgstr "Objekty"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "Říj"
@@ -14214,11 +14214,11 @@ msgstr "Zde vyžádejte přihlášení heslem."
 msgid "Requesting the Grant"
 msgstr "Zažádání o autorizaci (Grant Request)"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr "Chybí požadovaný parametr 'downloadBackendSelected'."
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr "Chybí požadovaný parametr'profile'."
 
@@ -14725,7 +14725,7 @@ msgstr "So"
 msgid "Saturday"
 msgstr "Sobota"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -15319,7 +15319,7 @@ msgid "Sent successfully!"
 msgstr "Úspěšně odesláno!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "Zář"
@@ -15601,7 +15601,7 @@ msgstr "Sdílená organizace"
 msgid "Sharing draft…"
 msgstr "Sdílení konceptu…"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "Vyfotit"
 
@@ -16873,7 +16873,7 @@ msgstr "Report se nepodařilo vygenerovat"
 msgid "The account link was successfully removed!"
 msgstr "Podpis byl úspěšně ověřen."
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 msgid "The active reporting profile could not be found."
 msgstr "Aktivní profil reportování nebyl nalezen."
 
@@ -17616,7 +17616,7 @@ msgstr "Poskytnutý token je neplatný."
 msgid "The public PGP key could not be found."
 msgstr "Národní prostředí se nepodařilo najít."
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 msgid "The report could not be generated"
 msgstr "Report se nepodařilo vygenerovat"
 
@@ -17642,7 +17642,7 @@ msgstr "Požadovaný 'ExternalCredential' 'twitter' nebyl nalezen."
 msgid "The required PGP passphrase is missing."
 msgstr "Požadovaná hodnota shody chybí."
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
@@ -17812,7 +17812,7 @@ msgstr "Chybí požadovaný parametr \"permission'."
 msgid "The required parameter 'request_token' is missing."
 msgstr "Chybí požadovaný parametr \"request_token'."
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr "Chybí požadovaný parametr \"signup'."
 
@@ -18157,6 +18157,12 @@ msgstr "Jejich tickety"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "Téma"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There are no business hours configured."
+msgid "There are currently no report profiles configured."
+msgstr "Není nakonfigurována pracovní doba."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 #, fuzzy
@@ -21531,7 +21537,7 @@ msgstr "Nemáte žádné nepřečtené zprávy"
 msgid "You have not created a ticket yet."
 msgstr "Ještě jste nevytvořil ticket."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr "Musíte povolit přístup k vaší webkameře."
 

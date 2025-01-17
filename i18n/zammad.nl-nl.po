@@ -2025,7 +2025,7 @@ msgid "Apply filter…"
 msgstr "Filter toepassen…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "Apr"
@@ -2366,7 +2366,7 @@ msgid "Audio file"
 msgstr "Audiobestand"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "aug"
@@ -2910,7 +2910,7 @@ msgstr "Gesprekslogboek"
 msgid "Caller log"
 msgstr "Oproeplogboek"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4312,7 +4312,7 @@ msgstr "Aanmaakkanaal"
 msgid "Creation mask"
 msgstr "Creatie masker"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "Bijsnijden afbeelding"
@@ -4537,7 +4537,7 @@ msgid "Days"
 msgstr "Dagen"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "dec"
@@ -5954,7 +5954,7 @@ msgstr ""
 "uitgeschakeld. Gebruik in plaats daarvan de bovenstaande instellingen om de "
 "meldingen uit te schakelen."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "Annuleren"
 
@@ -7410,7 +7410,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr "Functie niet geconfigureerd, neem contact op met de beheerder!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "feb"
@@ -9338,7 +9338,7 @@ msgid "Items per page"
 msgstr "Notities per pagina"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "jan"
@@ -9362,7 +9362,7 @@ msgid "Join %s"
 msgstr "Aanmelden bij %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "jul"
@@ -9372,7 +9372,7 @@ msgid "July"
 msgstr "juli"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "jun"
@@ -10237,7 +10237,7 @@ msgid "Mapping"
 msgstr "Mapping"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "mrt"
@@ -10350,7 +10350,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr "Maximaal aantal getoonde tickets in overzichten"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "mei"
@@ -11213,7 +11213,7 @@ msgstr "Geen antwoorden"
 msgid "No attached files"
 msgstr "Geen bijlagen"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr "Geen camera gevonden."
 
@@ -11364,7 +11364,7 @@ msgstr "Nog geen gedeelde concepten"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr "Geen brongegevens verstuurd!"
 
@@ -11618,7 +11618,7 @@ msgid "Notifications"
 msgstr "Notificaties"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "nov"
@@ -11706,7 +11706,7 @@ msgid "Objects"
 msgstr "Objects"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "okt"
@@ -13352,11 +13352,11 @@ msgstr "Vraag de wachtwoord login hier aan."
 msgid "Requesting the Grant"
 msgstr "Toegang aanvragen"
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr "Vereiste parameter 'downloadBackendSelected' ontbreekt."
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr "Vereiste parameter 'profiel' ontbreekt."
 
@@ -13802,7 +13802,7 @@ msgstr "za"
 msgid "Saturday"
 msgstr "zaterdag"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -14354,7 +14354,7 @@ msgid "Sent successfully!"
 msgstr "Succesvol verzonden!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "sep"
@@ -14611,7 +14611,7 @@ msgstr "Gedeelde organisatie"
 msgid "Sharing draft…"
 msgstr "Bezig met delen van concept…"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "Schieten"
 
@@ -15785,7 +15785,7 @@ msgstr "Het toegangstoken kon niet worden aangemaakt."
 msgid "The account link was successfully removed!"
 msgstr "De link naar het account is verwijderd!"
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 msgid "The active reporting profile could not be found."
 msgstr "Het actieve rapportageprofiel kon niet worden gevonden."
 
@@ -16447,7 +16447,7 @@ msgstr "Het verstrekte token is ongeldig."
 msgid "The public PGP key could not be found."
 msgstr "De publieke PGP-sleutel kon niet worden gevonden."
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 msgid "The report could not be generated"
 msgstr "Het rapport kon niet worden gegenereert"
 
@@ -16471,7 +16471,7 @@ msgstr "De vereiste 'ExternalCredential' 'twitter' kon niet worden gevonden."
 msgid "The required PGP passphrase is missing."
 msgstr "De vereiste PGP-passphrase ontbreekt."
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr "Het verplichte kenmerk 'e-mail' ontbreekt."
@@ -16626,7 +16626,7 @@ msgstr "De vereiste parameter 'permission' ontbreekt."
 msgid "The required parameter 'request_token' is missing."
 msgstr "De vereiste parameter 'request_token' ontbreekt."
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr "De vereiste parameter 'signup' ontbreekt."
 
@@ -16944,6 +16944,12 @@ msgstr "Hun tickets"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "Thema"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There are no business hours configured."
+msgid "There are currently no report profiles configured."
+msgstr "Er zijn geen kantooruren geconfigureerd."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 msgid ""
@@ -20145,7 +20151,7 @@ msgstr "Je hebt geen ongelezen berichten"
 msgid "You have not created a ticket yet."
 msgstr "Je hebt nog geen ticket gemaakt."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr "Je moet toegang tot de webcam toestaan."
 

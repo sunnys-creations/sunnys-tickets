@@ -1879,7 +1879,7 @@ msgid "Apply filter…"
 msgstr "اعمال صافی…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Apr"
 msgstr "آوریل"
@@ -2207,7 +2207,7 @@ msgid "Audio file"
 msgstr "پرونده صوتی"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Aug"
 msgstr "آگوست"
@@ -2729,7 +2729,7 @@ msgstr ""
 msgid "Caller log"
 msgstr "گزارش تماس"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:240
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:119
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:392
@@ -4115,7 +4115,7 @@ msgstr "ایجاد کانال‌ها"
 msgid "Creation mask"
 msgstr "ایجاد ماسک"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:154
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
 msgid "Crop Image"
 msgstr "برش تصویر"
@@ -4336,7 +4336,7 @@ msgid "Days"
 msgstr "روز"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Dec"
 msgstr "دسامبر"
@@ -5606,7 +5606,7 @@ msgid ""
 "Instead, to disable the notifications use the settings above."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:279
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:281
 msgid "Discard"
 msgstr "نادیده گرفتن"
 
@@ -7021,7 +7021,7 @@ msgid "Feature not configured, please contact your admin!"
 msgstr "تنظیمات ویژگی انجام نشده است٬ لطفا با ادمین خود تماس بگیرید!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Feb"
 msgstr "فوریه"
@@ -8875,7 +8875,7 @@ msgid "Items per page"
 msgstr "اقلام هر صفحه"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jan"
 msgstr "ژانویه"
@@ -8899,7 +8899,7 @@ msgid "Join %s"
 msgstr "پیوستن به %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jul"
 msgstr "جولای"
@@ -8909,7 +8909,7 @@ msgid "July"
 msgstr "جولای"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Jun"
 msgstr "ژوئن"
@@ -9871,7 +9871,7 @@ msgid "Mapping"
 msgstr "Mapping"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Mar"
 msgstr "مارس"
@@ -9984,7 +9984,7 @@ msgid "Maximum number of ticket shown in overviews"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "May"
 msgstr "می"
@@ -10873,7 +10873,7 @@ msgstr "بدون پاسخ"
 msgid "No attached files"
 msgstr "%s پرونده پیوست شده"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:325
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:327
 msgid "No camera found."
 msgstr "دوربین یافت نشد."
 
@@ -11034,7 +11034,7 @@ msgstr "پیش‌نویس‌های اشتراکی"
 #: app/controllers/text_modules_controller.rb:71
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:609
-#: app/controllers/users_controller.rb:650
+#: app/controllers/users_controller.rb:651
 msgid "No source data submitted!"
 msgstr ""
 
@@ -11301,7 +11301,7 @@ msgid "Notifications"
 msgstr "اعلان ها"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Nov"
 msgstr "نوامبر"
@@ -11387,7 +11387,7 @@ msgid "Objects"
 msgstr "آبجکت‌ها"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Oct"
 msgstr "اکتبر"
@@ -13079,11 +13079,11 @@ msgstr ""
 msgid "Requesting the Grant"
 msgstr ""
 
-#: app/controllers/reports_controller.rb:57
+#: app/controllers/reports_controller.rb:66
 msgid "Required parameter 'downloadBackendSelected' is missing."
 msgstr ""
 
-#: app/controllers/reports_controller.rb:117
+#: app/controllers/reports_controller.rb:126
 msgid "Required parameter 'profile' is missing."
 msgstr ""
 
@@ -13493,7 +13493,7 @@ msgstr "شنبه"
 msgid "Saturday"
 msgstr "شنبه"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:153
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:155
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:73
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:127
 #: app/assets/javascripts/app/views/integration/github.jst.eco:21
@@ -14047,7 +14047,7 @@ msgid "Sent successfully!"
 msgstr "ارسال موفقیت‌آمیز بود!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
-#: app/assets/javascripts/app/controllers/report.coffee:204
+#: app/assets/javascripts/app/controllers/report.coffee:220
 #: app/assets/javascripts/app/controllers/time_accounting_accounted_time.coffee:26
 msgid "Sep"
 msgstr "سپتامبر"
@@ -14317,7 +14317,7 @@ msgstr "سازمان به اشتراک گذاشته شده"
 msgid "Sharing draft…"
 msgstr "درحال به اشتراک‌گذاری پیش‌نویس…"
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:236
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
 msgstr "عکس برداری"
 
@@ -15466,7 +15466,7 @@ msgstr "امکان ایجاد گزارش وجود ندارد"
 msgid "The account link was successfully removed!"
 msgstr "اجرای آزمایشی موفقیت‌آمیز بود."
 
-#: app/controllers/reports_controller.rb:130
+#: app/controllers/reports_controller.rb:139
 msgid "The active reporting profile could not be found."
 msgstr "نمایه گزارش گیری فعال یافت نشد."
 
@@ -16112,7 +16112,7 @@ msgstr ""
 msgid "The public PGP key could not be found."
 msgstr "کلید عمومی PGP یافت نشد."
 
-#: app/assets/javascripts/app/controllers/report.coffee:178
+#: app/assets/javascripts/app/controllers/report.coffee:194
 msgid "The report could not be generated"
 msgstr "امکان ایجاد گزارش وجود ندارد"
 
@@ -16136,7 +16136,7 @@ msgstr ""
 msgid "The required PGP passphrase is missing."
 msgstr "عبارت عبور مورد نیاز PGP وارد نشده است."
 
-#: app/controllers/users_controller.rb:749
+#: app/controllers/users_controller.rb:750
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr "مقدار الزامی «ایمیل» وارد نشده است."
@@ -16290,7 +16290,7 @@ msgstr "مولفه الزامی «دسترسی» وارد نشده است."
 msgid "The required parameter 'request_token' is missing."
 msgstr "مولفه الزامی «توکن درخواست» وارد نشده است."
 
-#: app/controllers/users_controller.rb:742
+#: app/controllers/users_controller.rb:743
 msgid "The required parameter 'signup' is missing."
 msgstr ""
 
@@ -16592,6 +16592,12 @@ msgstr "تیکت‌های آن‌ها"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:69
 msgid "Theme"
 msgstr "تم"
+
+#: app/controllers/reports_controller.rb:17
+#, fuzzy
+#| msgid "There is no Google app configured."
+msgid "There are currently no report profiles configured."
+msgstr "هیچ برنامه گوگل پیکربندی نشده است."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 msgid ""
@@ -19635,7 +19641,7 @@ msgstr "شما هیچ پیام خوانده نشده‌ای ندارید"
 msgid "You have not created a ticket yet."
 msgstr "شما هنوز هیچ تیکتی ایجاد نکردید."
 
-#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:324
+#: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
 msgstr ""
 
