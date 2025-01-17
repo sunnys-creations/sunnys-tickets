@@ -3,6 +3,8 @@
 class Report::Profile < ApplicationModel
   self.table_name = 'report_profiles'
   include ChecksConditionValidation
+  include ChecksClientNotification
+
   validates :name, presence: true
   store     :condition
 
