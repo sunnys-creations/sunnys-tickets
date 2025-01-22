@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-06-17 06:24+0000\n"
-"Last-Translator: Martin Gruner <mg@zammad.com>\n"
+"PO-Revision-Date: 2025-01-22 23:49+0000\n"
+"Last-Translator: Suat VARLIKLI <suatvarlikli89@gmail.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
-"zammad-development/tr/>\n"
+"zammad-stable/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -2815,10 +2815,8 @@ msgid "Body - Search for follow-up also in mail body."
 msgstr "Gövde - Posta gövdesinde de takip için arama yapın."
 
 #: lib/validations/ticket_article_validator/sms_twilio.rb:14
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Body text is required"
-msgstr "Kullanıcı gerekli!"
+msgstr "Gövde metni gereklidir"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:41
 msgid "Boolean field"
@@ -3212,10 +3210,8 @@ msgid "Change order"
 msgstr "Sıralamayı değiştir"
 
 #: db/seeds/permissions.rb:427
-#, fuzzy
-#| msgid "Change Your Password"
 msgid "Change personal account password."
-msgstr "Şifrenizi Değiştirin"
+msgstr "Kişisel hesap şifrenizi değiştirin."
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:227
 #, fuzzy
@@ -3363,9 +3359,8 @@ msgid "Checklist Template items are limited to 100 items per checklist."
 msgstr ""
 
 #: app/models/checklist/item.rb:108
-#, fuzzy
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr "True"
+msgstr "Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
 
 #: app/models/checklist.rb:100
 msgid "Checklist template must be active to use as a checklist starting point."
@@ -4150,10 +4145,8 @@ msgstr "İki faktörlü kimlik doğrulama yöntemi kaldırılamadı"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:124
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:107
-#, fuzzy
-#| msgid "Could not remove two-factor authentication method"
 msgid "Could not remove two-factor authentication method."
-msgstr "İki faktörlü kimlik doğrulama yöntemi kaldırılamadı"
+msgstr "İki faktörlü kimlik doğrulama yöntemi kaldırılamadı."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:227
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:77
@@ -4321,10 +4314,8 @@ msgid "Create account"
 msgstr "Hesap oluştur"
 
 #: db/seeds/permissions.rb:114
-#, fuzzy
-#| msgid "Create Knowledge Base"
 msgid "Create and set up Knowledge Base."
-msgstr "Bilgi Bankası Oluştur"
+msgstr "Bilgi Bankası'nı oluşturun ve ayarlayın."
 
 #: app/assets/javascripts/app/views/signup.jst.eco:8
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:151
@@ -5991,10 +5982,8 @@ msgstr "Teslimat başarısız oldu:"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/DeliveryMessage.vue:13
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleDeliveryMessage.vue:33
-#, fuzzy
-#| msgid "Delivery failed:"
 msgid "Delivery failed: \"%s\""
-msgstr "Teslimat başarısız oldu:"
+msgstr "Teslimat başarısız oldu: \"%s\""
 
 #: db/seeds/object_manager_attributes.rb:1009
 msgid "Department"
@@ -6068,9 +6057,8 @@ msgid "Device"
 msgstr "Cihaz"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingDevices.vue:89
-#, fuzzy
 msgid "Device has been revoked."
-msgstr "True"
+msgstr "Cihaz iptal edildi."
 
 #: app/assets/javascripts/app/controllers/_profile/devices.coffee:3
 #: app/assets/javascripts/app/views/profile/devices.jst.eco:2
@@ -6413,10 +6401,8 @@ msgid "Drag and drop to reorder ticket overview list items."
 msgstr ""
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabs.vue:234
-#, fuzzy
-#| msgid "Drag to reorder"
 msgid "Drag and drop to reorder your tabs."
-msgstr "Drag to reorder"
+msgstr "Sekmelerinizi yeniden sıralamak için sürükleyip bırakın."
 
 #: app/assets/javascripts/app/controllers/_application_controller/reorder_modal.coffee:2
 msgid "Drag to reorder"
@@ -6859,10 +6845,8 @@ msgid "Enable automatic assignment the first time an agent opens a ticket."
 msgstr "Enable automatic assignment the first time an agent opens a ticket."
 
 #: db/seeds/settings.rb:5793
-#, fuzzy
-#| msgid "Enable Chat"
 msgid "Enable checklists."
-msgstr "Enable Chat"
+msgstr "Kontrol listelerini etkinleştirin."
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:72
 msgid "Enable debugging for implementation."
@@ -7171,16 +7155,16 @@ msgid ""
 "Enter the link provided by the plugin at the end of the installation to link "
 "the two systems"
 msgstr ""
-"Enter the link provided by the plugin at the end of the installation to link "
-"the two systems"
+"İki sistemi birbirine bağlamak için kurulumun sonunda eklenti tarafından "
+"sağlanan bağlantıyı girin"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceOTRS.vue:58
 msgid ""
 "Enter the link provided by the plugin at the end of the installation to link "
 "the two systems."
 msgstr ""
-"İki sistemi birbirine bağlamak için kurulumun sonunda eklenti tarafından "
-"sağlanan bağlantıyı girin."
+"İki sistemi birbirine bağlamak için kurulumun sonunda eklentinin verdiği "
+"bağlantıyı girin."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:28
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:263

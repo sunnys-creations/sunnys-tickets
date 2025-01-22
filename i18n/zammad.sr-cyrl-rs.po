@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-12-12 22:00+0000\n"
+"PO-Revision-Date: 2025-01-20 10:13+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (Cyrillic script) <https://translations.zammad.org/"
 "projects/zammad/zammad-stable/sr_Cyrl/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -16807,10 +16807,8 @@ msgid "Theme"
 msgstr "Тема"
 
 #: app/controllers/reports_controller.rb:17
-#, fuzzy
-#| msgid "There are no business hours configured."
 msgid "There are currently no report profiles configured."
-msgstr "Нема подешеног радног времена."
+msgstr "Нема подешених профила извештаја."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 msgid ""
