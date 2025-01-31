@@ -704,11 +704,11 @@ msgstr "%s% újra meg lett nyitva"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} teljes vagy részletes hozzáféréssel rendelkezhet a csoporthoz"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} már létezik"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr "%{name} egy foglalt szó"
 
@@ -21321,7 +21321,7 @@ msgstr "jegyek hozzárendelése"
 msgid "at"
 msgstr "ekkor"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
 msgstr "legalább egy betű szükséges"
 
@@ -21330,7 +21330,7 @@ msgstr "legalább egy betű szükséges"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr "a tulajdonság nem szerkeszthető"
 
@@ -21364,11 +21364,11 @@ msgstr "elfoglalt"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21382,7 +21382,7 @@ msgstr "nem lehet üres"
 msgid "can't be empty"
 msgstr "nem lehet üres"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "nem használható, mert *_id és *_ids nem engedélyezettek"
 
@@ -22246,7 +22246,7 @@ msgstr "Értesítések"
 msgid "now"
 msgstr "most"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "csak kisbetűk, számok és '_' engedélyezettek"
 
@@ -22511,7 +22511,7 @@ msgstr "kihagyott"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr "szóközök nem engedélyezettek"
 

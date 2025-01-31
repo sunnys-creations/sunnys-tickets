@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-01-17 21:10+0000\n"
-"Last-Translator: Dominikmarek88 <marek47@uniba.sk>\n"
+"PO-Revision-Date: 2025-01-31 10:21+0000\n"
+"Last-Translator: Jano Suchal <jan.suchal@gmail.com>\n"
 "Language-Team: Slovak <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/sk/>\n"
 "Language: sk\n"
@@ -54,9 +54,9 @@ msgid ""
 "system that is already in production without any loss of data."
 msgstr ""
 "\"Databáza\" ukladá všetky prílohy do databázy (neodporúča sa na ukladanie "
-"veľkého množstva dát). \"Súborový systém\" ukladá dáta na disk. \"Simple "
-"Storage (S3)\" ukladá dáta na vzdialený S3 kompatibilný súborový systém. "
-"Medzi modulmi môžete prepínať aj v systéme, ktorý už je na produkčnom "
+"veľkého množstva dát). \"Súborový systém\" ukladá dáta na disk. "
+"\"Simple Storage (S3)\" ukladá dáta na vzdialený S3 kompatibilný súborový "
+"systém. Medzi modulmi môžete prepínať aj v systéme, ktorý už je v produkčnom "
 "prostredí, a to bez straty dát."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
@@ -690,11 +690,11 @@ msgstr "%s% bolo znovu otvorených"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} môže mať plný, alebo čiastočný prístup do skupiny"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} už existuje"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr "%{name} je rezervované slovo"
 
@@ -20456,7 +20456,7 @@ msgstr "priradiť tikety"
 msgid "at"
 msgstr "na"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
 msgstr "vyžaduje sa aspoň jedno písmeno"
 
@@ -20465,7 +20465,7 @@ msgstr "vyžaduje sa aspoň jedno písmeno"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "príloha, pripojené, uzavreté, priehradka"
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr "atribút nie je možné upravovať"
 
@@ -20499,11 +20499,11 @@ msgstr "zaneprázdnený"
 msgid "camera,image,photo,picture"
 msgstr "fotoaparát,obrázok,fotografia,obraz"
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -20517,7 +20517,7 @@ msgstr "nemôže byť prázdne"
 msgid "can't be empty"
 msgstr "nemôže byť prázdne"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -21356,7 +21356,7 @@ msgstr "Upozornenia,tikety"
 msgid "now"
 msgstr "teraz"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "povolené sú iba malé písmená, číslice a '_'"
 
@@ -21608,7 +21608,7 @@ msgstr "preskočené"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr "medzery nie sú povolené"
 

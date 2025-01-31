@@ -606,13 +606,13 @@ msgstr "%s% han sido reabiertos"
 msgid "%{model} can have full or granular access to group"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 #, fuzzy
 #| msgid "Queue already exists!"
 msgid "%{name} already exists"
 msgstr "¡La cola ya existe!"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr ""
 
@@ -22509,7 +22509,7 @@ msgstr "asignar tickets"
 msgid "at"
 msgstr "a"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 #, fuzzy
 #| msgid "At least one letter is required"
 msgid "at least one letter is required"
@@ -22520,7 +22520,7 @@ msgstr "Se requiere al menos una letra"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 #, fuzzy
 #| msgid "Attribute not editable!"
 msgid "attribute is not editable"
@@ -22556,11 +22556,11 @@ msgstr "ocupado"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22574,7 +22574,7 @@ msgstr "El grupo no puede estar en blanco"
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -23509,7 +23509,7 @@ msgstr "Notificaciones"
 msgid "now"
 msgstr "ahora"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 #, fuzzy
 #| msgid "Only lowercase letters, numbers, and '_' are allowed"
 msgid "only lowercase letters, numbers, and '_' are allowed"
@@ -23790,7 +23790,7 @@ msgstr "omitido"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 #, fuzzy
 #| msgid "Feature not enabled!"
 msgid "spaces are not allowed"

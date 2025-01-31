@@ -702,11 +702,11 @@ msgstr "%s% yeniden açıldı"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} gruba tam veya ayrıntılı erişime sahip olabilir"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} zaten mevcut"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr "%{name} ayrılmış bir sözcüktür"
 
@@ -3360,7 +3360,8 @@ msgstr ""
 
 #: app/models/checklist/item.rb:108
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr "Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
+msgstr ""
+"Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
 
 #: app/models/checklist.rb:100
 msgid "Checklist template must be active to use as a checklist starting point."
@@ -22755,7 +22756,7 @@ msgstr "assign tickets"
 msgid "at"
 msgstr "at"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 #, fuzzy
 #| msgid "At least one letter is required"
 msgid "at least one letter is required"
@@ -22766,7 +22767,7 @@ msgstr "En az bir harf gereklidir"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 #, fuzzy
 #| msgid "Attribute not editable!"
 msgid "attribute is not editable"
@@ -22803,11 +22804,11 @@ msgstr "busy"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr "yalnızca postgresql veritabanlarında oluşturulabilir"
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22823,7 +22824,7 @@ msgstr "True"
 msgid "can't be empty"
 msgstr "True"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "kullanılamaz çünkü *_id ve *_ids'ye izin verilmez"
 
@@ -23785,7 +23786,7 @@ msgstr "Bildirimler"
 msgid "now"
 msgstr "hayır"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 #, fuzzy
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "True"
@@ -24077,7 +24078,7 @@ msgstr "skipped"
 msgid "sms"
 msgstr "kısa mesaj"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 #, fuzzy
 msgid "spaces are not allowed"
 msgstr "True"

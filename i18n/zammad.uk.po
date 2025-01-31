@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-01-22 23:49+0000\n"
+"PO-Revision-Date: 2025-01-31 10:21+0000\n"
 "Last-Translator: Mantikor <nhyuga.r@gmail.com>\n"
 "Language-Team: Ukrainian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/uk/>\n"
@@ -655,11 +655,11 @@ msgstr "Було повторно відкрито: %s%"
 msgid "%{model} can have full or granular access to group"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} вже існує"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr ""
 
@@ -871,7 +871,7 @@ msgstr ""
 
 #: lib/validations/mention_validator.rb:7
 msgid "A mentioned user has no agent access to this ticket"
-msgstr ""
+msgstr "Згаданий користувач не має агентського доступу до цієї заявки"
 
 #: app/assets/javascripts/app/controllers/_plugin/session_taken_over.coffee:26
 msgid ""
@@ -923,12 +923,16 @@ msgid ""
 "A ticket's priority is simply a ranking of how urgent or important it is. "
 "Different priorities allow you to see the importance of your tickets better."
 msgstr ""
+"Пріоритет заявки – це просто рейтинг того, наскільки вона термінова або "
+"важлива. Різні пріоритети дозволяють краще бачити важливість ваших заявок."
 
 #: app/assets/javascripts/app/models/ticket_state.coffee
 msgid ""
 "A ticket's state is used to categorize and manage the lifecycle of a ticket "
 "or customer inquiry."
 msgstr ""
+"Стан заявки використовується для категоризації та керування життєвим циклом "
+"заявки або запиту клієнта."
 
 #: app/assets/javascripts/app/controllers/_integration/cti.coffee:215
 msgid "A user is required!"
@@ -979,6 +983,7 @@ msgstr "Маркер API"
 #: app/assets/javascripts/app/views/channel/form.jst.eco:127
 msgid "Accept Data Privacy Policy & Acceptable Use Policy"
 msgstr ""
+"Прийняти Політику конфіденційності даних та Політику прийнятного використання"
 
 #: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:18
@@ -1018,10 +1023,8 @@ msgid "Access to the knowledge base interface."
 msgstr "Доступ до інтерфейсу бази знань."
 
 #: db/seeds/permissions.rb:321
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access to the phone interface."
-msgstr "Нещодавні заявки клієнтів"
+msgstr "Доступ до інтерфейсу телефону."
 
 #: db/seeds/permissions.rb:358
 msgid "Access to the report interface."
@@ -1059,7 +1062,7 @@ msgstr "Час активності облікового запису"
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:198
 #: app/controllers/channels_email_controller.rb:204
 msgid "Account already exists!"
-msgstr ""
+msgstr "Обліковий запис вже існує!"
 
 #: app/assets/javascripts/app/controllers/_plugin/user_signup_check.coffee:34
 msgid "Account not verified"
@@ -1307,7 +1310,7 @@ msgstr "Додати відповідь"
 
 #: app/assets/javascripts/app/views/ssl_certificates.jst.eco:5
 msgid "Add SSL Certificate"
-msgstr ""
+msgstr "Додати SSL-сертифікат"
 
 #: app/assets/javascripts/app/views/knowledge_base/sidebar/tags.jst.eco:19
 #: app/assets/javascripts/app/views/widget/tag.jst.eco:14
@@ -1423,7 +1426,7 @@ msgstr "Додати впорядкований список"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/phone.ts:13
 msgid "Add phone call"
-msgstr ""
+msgstr "Додати телефонний дзвінок"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleReply.vue:64
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleReplyDialog.vue:37
@@ -1570,7 +1573,7 @@ msgstr "Обліковий запис адміністратора"
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 msgid "Advance to next ticket from overview"
-msgstr ""
+msgstr "Перейти до наступної заявки з огляду"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:62
 msgid "Affects only notifications for not assigned and all tickets."
@@ -1600,7 +1603,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/session.jst.eco:11
 msgid "Age"
-msgstr "Відкрита"
+msgstr "Вік"
 
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
@@ -1624,7 +1627,7 @@ msgstr "Чат з агентом"
 
 #: db/seeds/settings.rb:3483
 msgid "Agent idle timeout"
-msgstr ""
+msgstr "Час простою агента"
 
 #: app/models/role.rb:153 app/models/user.rb:714
 msgid "Agent limit exceeded, please check your account settings."
@@ -1680,7 +1683,7 @@ msgstr "Всі агенти"
 
 #: public/assets/chat/views/waiting.eco:7
 msgid "All colleagues are busy."
-msgstr ""
+msgstr "Всі колеги зайняті."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingDevices.vue:144
 msgid ""
@@ -1735,10 +1738,11 @@ msgstr "Дозволити користувачам створювати нов�
 #: db/seeds/settings.rb:1163
 msgid "Allow using one email address for multiple users."
 msgstr ""
+"Дозволити використовувати одну електронну адресу для кількох користувачів."
 
 #: app/assets/javascripts/app/models/chat.coffee:255
 msgid "Allow websites (separated by ;)"
-msgstr ""
+msgstr "Дозволити вебсайти (розділені знаком ;)"
 
 #: app/assets/javascripts/app/views/generic/notification_matrix.jst.eco:9
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:64
@@ -1772,6 +1776,8 @@ msgid ""
 "An email was sent to _%s_. Click the link in the email to verify your "
 "account."
 msgstr ""
+"Електронний лист надіслано на _%s_. Натисніть посилання в електронному "
+"листі, щоб підтвердити свій обліковий запис."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_calendar_view.coffee:50
 msgid "An error has occurred"
@@ -1845,7 +1851,7 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\" "
-"target=\"zammad_app\">View this in #{config.product_name}</a>\n"
+"target=\"zammad_app\">Переглянути на #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/models/ticket.coffee:121
@@ -1900,10 +1906,8 @@ msgstr "Версія програми"
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:441
 #: app/assets/javascripts/app/controllers/_channel/twitter.coffee:193
 #: app/assets/javascripts/app/controllers/_integration/exchange.coffee:721
-#, fuzzy
-#| msgid "Account not verified"
 msgid "App could not be verified."
-msgstr "Обліковий запис не підтверджено"
+msgstr "Не вдалося перевірити додаток."
 
 #: db/seeds/settings.rb:1422
 msgid "App credentials for Facebook."
@@ -1953,7 +1957,7 @@ msgstr "Застосувати чернетку"
 #: app/assets/javascripts/app/controllers/ticket_shared_draft_modal.coffee:2
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSharedDraftFlyout.vue:168
 msgid "Apply Shared Draft"
-msgstr ""
+msgstr "Застосувати спільну чернетку"
 
 #: app/frontend/apps/desktop/pages/ticket/components/ApplyTemplate.vue:40
 msgid "Apply Template"
@@ -1961,7 +1965,7 @@ msgstr "Застосувати шаблон"
 
 #: app/assets/javascripts/app/views/settings/ticket_notifications.jst.eco:10
 msgid "Apply current defaults to all agents"
-msgstr ""
+msgstr "Застосувати поточні стандартні значення до всіх агентів"
 
 #: app/frontend/apps/desktop/components/NavigationMenu/NavigationMenuFilter.vue:76
 msgid "Apply filter…"
@@ -2003,7 +2007,7 @@ msgstr "Ви впевнені, що хочете видалити цей об’
 
 #: app/frontend/apps/mobile/pages/ticket/composable/useTicketsMerge.ts:67
 msgid "Are you sure you want to merge this ticket (#%s) into #%s?"
-msgstr ""
+msgstr "Ви впевнені, що хочете об'єднати цю заявку (#%s) в #%s?"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:78
 msgid ""
@@ -2192,7 +2196,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/widget/ticket_bulk_form.coffee:155
 msgid "At least one object must be selected."
-msgstr ""
+msgstr "Принаймні один об'єкт має бути обраний."
 
 #: app/models/role.rb:125 app/models/user.rb:688
 msgid "At least one user needs to have admin permissions."
@@ -2440,7 +2444,7 @@ msgstr "Сповіщення про автоматичне прив’язува
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:181
 msgid "Automatic reminders"
-msgstr ""
+msgstr "Автоматичні нагадування"
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:6
 msgid ""
@@ -2460,7 +2464,7 @@ msgstr ""
 
 #: app/frontend/shared/components/Form/Form.vue:1288
 msgid "Autosave in progress…"
-msgstr ""
+msgstr "Триває автозбереження…"
 
 #: app/frontend/shared/components/Form/Form.vue:1297
 msgid "Autosaving is taking longer than expected…"
@@ -2472,10 +2476,8 @@ msgid "Available for the following roles"
 msgstr "Доступно для наступних ролей"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:191
-#, fuzzy
-#| msgid "Remove"
 msgid "Available methods"
-msgstr "Вилучити"
+msgstr "Доступні методи"
 
 #: db/seeds/settings.rb:891
 msgid "Available types for a new ticket"
@@ -2832,10 +2834,8 @@ msgstr "Календарі"
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:22
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:38
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:25
-#, fuzzy
-#| msgid "Settings"
 msgid "Call Settings"
-msgstr "Параметри"
+msgstr "Налаштування виклику"
 
 #: app/models/cti/driver/base.rb:152
 #, fuzzy
@@ -2907,6 +2907,7 @@ msgstr ""
 msgid ""
 "Can't update password, your entered passwords do not match. Please try again."
 msgstr ""
+"Не вдається оновити пароль, введені паролі не збігаються. Спробуйте ще раз."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
@@ -3021,14 +3022,12 @@ msgid "Caution!"
 msgstr "Обережно!"
 
 #: db/seeds/settings.rb:1964
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "Certificate (PEM)"
-msgstr "Звук сповіщення"
+msgstr "Сертифікат (PEM)"
 
 #: app/assets/javascripts/app/views/integration/smime.jst.eco:2
 msgid "Certificates & Private Keys"
-msgstr ""
+msgstr "Сертифікати та закриті ключі"
 
 #: app/assets/javascripts/app/models/group.coffee:46
 #: app/assets/javascripts/app/views/generic/login_preview.jst.eco:26
@@ -3198,10 +3197,8 @@ msgid "Checklist"
 msgstr "Список"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:60
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklist Item"
-msgstr "Контрольна сума\t"
+msgstr "Елемент списку"
 
 #: app/assets/javascripts/app/views/generic/checklist_item.jst.eco:10
 msgid "Checklist Item Label"
@@ -3305,6 +3302,7 @@ msgstr "Оберіть новий пароль."
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:46
 msgid "Choose your preferred two-factor authentication method to set it up."
 msgstr ""
+"Виберіть бажаний метод двофакторної автентифікації, щоб налаштувати його."
 
 #: app/assets/javascripts/app/models/user.coffee:332
 msgid "Christmas holiday"
@@ -3344,7 +3342,7 @@ msgstr "Очистити мертві сесії."
 
 #: db/seeds/schedulers.rb:61
 msgid "Clean up expired sessions."
-msgstr ""
+msgstr "Очистити прострочені сесії."
 
 #: db/seeds/schedulers.rb:268
 msgid "Clean up mobile taskbars."
@@ -3569,7 +3567,7 @@ msgstr "Конфігурування"
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:92
 msgid "Config has changed"
-msgstr ""
+msgstr "Конфігурація змінена"
 
 #: app/assets/javascripts/app/views/exchange/token_information.jst.eco:23
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:52
@@ -3651,18 +3649,18 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"Підтвердіть ваш обіковий запис #{config.product_name}, #{user.firstname} "
+"Підтвердіть ваш обліковий запис #{config.product_name}, #{user.firstname} "
 "#{user.lastname}\n"
 "\n"
 "<div>Привіт #{user.firstname},</div>\n"
 "<br>\n"
 "<div>Підтвердіть свою електронну адресу, щоб завершити створення облікового "
-"запису #{config.product_name}. Це легко, просто натисніть на посилання нижче."
-"</div>\n"
+"запису #{config.product_name}. Це легко, просто натисніть на посилання "
+"нижче.</div>\n"
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
-"<div>Your #{config.product_name} Team</div>\n"
+"<div>Команда #{config.product_name}</div>\n"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:302
 msgid "Confirm/submit dialog"
@@ -3832,7 +3830,7 @@ msgstr "Продовжити сесію"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:4
 msgid "Contributing Translations"
-msgstr ""
+msgstr "Вклад в переклади"
 
 #: lib/sessions/event/chat_transfer.rb:30
 msgid "Conversation is transferred into another chat. Please stay tuned."
@@ -3844,7 +3842,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_application_controller/_base.coffee:123
 msgid "Copied!"
-msgstr ""
+msgstr "Скопійовано!"
 
 #: app/frontend/shared/composables/useCopyToClipboard.ts:21
 msgid "Copied."
@@ -3853,7 +3851,7 @@ msgstr "Скопійовано."
 #: app/assets/javascripts/app/controllers/_plugin/electron_events.coffee:30
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/recovery_codes.coffee:11
 msgid "Copy"
-msgstr ""
+msgstr "Копіювати"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationRecoveryCodes.vue:115
 #, fuzzy
@@ -3905,7 +3903,7 @@ msgstr "Основний робочий процес в режимі Ajax"
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:3
 #: db/seeds/permissions.rb:251
 msgid "Core Workflows"
-msgstr ""
+msgstr "Основні робочі процеси"
 
 #: app/assets/javascripts/app/models/core_workflow.coffee:24
 msgid ""
@@ -3913,6 +3911,9 @@ msgid ""
 "on an action, it is possible to hide or restrict fields or to change the "
 "obligation to fill them in."
 msgstr ""
+"Основні робочі процеси – це дії або обмеження щодо вибору у формах. Залежно "
+"від дії можна приховати або обмежити поля або змінити обов’язковість їх "
+"заповнення."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
@@ -4563,7 +4564,7 @@ msgstr "За замовчуванням"
 #: app/assets/javascripts/app/views/integration/pgp.jst.eco:9
 #: app/assets/javascripts/app/views/integration/smime.jst.eco:10
 msgid "Default Behavior"
-msgstr ""
+msgstr "Стандартна поведінка"
 
 #: app/assets/javascripts/app/views/settings/ticket_notifications.jst.eco:3
 msgid "Default Notifications"
@@ -4854,7 +4855,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:4736
 msgid "Defines if LDAP is enabled or not."
-msgstr ""
+msgstr "Визначає, чи LDAP увімкнено чи ні."
 
 #: db/seeds/settings.rb:4635
 msgid "Defines if Monit (https://mmonit.com/monit/) is enabled or not."
@@ -7667,7 +7668,7 @@ msgstr "П'ятниця"
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleMetadataDialog.vue:80
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/forward.ts:35
 msgid "From"
-msgstr "Відправник"
+msgstr "Від"
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:16
 msgid "Frontend"
@@ -8241,6 +8242,10 @@ msgid ""
 "new translation in order to identify the source string and provide its new "
 "translation for the target language."
 msgstr ""
+"Тут ви можете замінити будь-який рядок перекладу для більш індивідуального "
+"вигляду та відчуття. Підтримуються як розпізнані системні, так і власні "
+"рядки, просто додайте новий переклад, щоб ідентифікувати вихідний рядок і "
+"надати його новий переклад для цільової мови."
 
 #: app/assets/javascripts/app/controllers/clues/first_steps_clues.coffee:14
 msgid ""
@@ -8937,7 +8942,7 @@ msgstr "Ваші заявки в роботі\t"
 #: app/assets/javascripts/app/views/integration/exchange_last_import.jst.eco:7
 #: app/assets/javascripts/app/views/integration/ldap_last_import.jst.eco:7
 msgid "Info: %s"
-msgstr ""
+msgstr "Інформація: %s"
 
 #: app/views/mailer/ticket_create/fr.html.erb:15
 #: app/views/mailer/ticket_create/it.html.erb:15
@@ -8955,7 +8960,7 @@ msgstr ""
 #: app/views/mailer/ticket_update/zh-cn.html.erb:20
 #: app/views/mailer/ticket_update/zh-tw.html.erb:20
 msgid "Information"
-msgstr ""
+msgstr "Інформація"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStart.vue:68
 msgid ""
@@ -9244,6 +9249,22 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"Запрошення до #{config.product_name} на #{config.fqdn}\n"
+"\n"
+"<div>Привіт #{user.firstname},</div>\n"
+"<br>\n"
+"<div>I (#{current_user.firstname} #{current_user.lastname}) запрошує тебе до "
+"#{config.product_name} - нашої платформи з підтримки клієнтів.</div>\n"
+"<br>\n"
+"<div>Натисніть <a href=\"#{config.http_type}://#{config.fqdn}/"
+"#password_reset_verify/#{token.token}\">тут</a> та встановіть свій "
+"пароль.</div>\n"
+"<br>\n"
+"<div>Насолоджуйтесь</div>\n"
+"<br>\n"
+"<div>#{current_user.firstname} #{current_user.lastname}</div>\n"
+"<br>\n"
+"<div>Ваша команда #{config.product_name}</div>\n"
 
 #: app/assets/javascripts/app/views/getting_started/agent.jst.eco:5
 #: app/assets/javascripts/app/views/widget/invite_user.jst.eco:20
@@ -9349,12 +9370,11 @@ msgid "June"
 msgstr "Червень"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:14
-#, fuzzy
-#| msgid ""
-#| "Just click into the marker and update the words just in place. Enjoy!"
 msgid ""
 "Just click into the highlighted area and update the words right there. Enjoy!"
-msgstr "Просто клацніть маркер і оновлюйте слова на місці. Насолоджуйтесь!"
+msgstr ""
+"Просто натисніть на виділену область і оновіть слова прямо там. "
+"Насолоджуйтесь!"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/plugins/kayako.ts:11
 msgid "Kayako"
@@ -9732,10 +9752,8 @@ msgid "Load"
 msgstr "Завантажити"
 
 #: app/frontend/shared/form/i18n/locales.ts:62
-#, fuzzy
-#| msgid "See more"
 msgid "Load more"
-msgstr "Бачити більше"
+msgstr "Завантажити більше"
 
 #: app/frontend/apps/mobile/components/CommonLoader/CommonLoader.vue:38
 #: app/frontend/apps/mobile/components/CommonRefetch/CommonRefetch.vue:45
@@ -10211,8 +10229,6 @@ msgid "Manage webhooks of your system."
 msgstr "Введіть URL Вашої системи %s"
 
 #: app/views/mailer/application.html.erb:47
-#, fuzzy
-#| msgid "Manage your notifications settings"
 msgid "Manage your notification settings"
 msgstr "Керувати параметрами сповіщень"
 
@@ -11104,7 +11120,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:24
 msgid "New Workflow"
-msgstr ""
+msgstr "Новий робочий процес"
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:66
 msgid "New organizations are shared."
@@ -11161,13 +11177,37 @@ msgid ""
 "target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 "</div>\n"
 msgstr ""
+"Нова заявка (#{ticket.title})\n"
+"\n"
+"<div>Привіт #{recipient.firstname},</div>\n"
+"<br>\n"
+"<div>Нову заявку (#{ticket.title}) створив "
+"\"<b>#{current_user.longname}</b>\".</div>\n"
+"<br>\n"
+"<div>\n"
+"Група: #{ticket.group.name}<br>\n"
+"Власник: #{ticket.owner.fullname}<br>\n"
+"Стан: #{t(ticket.state.name)}<br>\n"
+"</div>\n"
+"<br>\n"
+"<% if @objects[:article] %>\n"
+"  <div>\n"
+"  Інформація:\n"
+"  <blockquote type=\"cite\">\n"
+"  #{article.body_as_html}\n"
+"  </blockquote>\n"
+"  </div>\n"
+"<% end %>\n"
+"<br>\n"
+"<div>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\" "
+"target=\"zammad_app\">Переглянути в #{config.product_name}</a>\n"
+"</div>\n"
 
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:202
 #: app/frontend/apps/mobile/pages/authentication/components/LoginCredentialsForm.vue:140
-#, fuzzy
-#| msgid "New User"
 msgid "New user?"
-msgstr "Новий користувач"
+msgstr "Новий користувач?"
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:113
 #: app/assets/javascripts/app/controllers/webhook.coffee:124
@@ -11196,16 +11236,12 @@ msgid "Next in overview"
 msgstr "Наступний в огляді"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:88
-#, fuzzy
-#| msgid "State"
 msgid "Next month"
-msgstr "Статус"
+msgstr "Наступний місяць"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:90
-#, fuzzy
-#| msgid "State"
 msgid "Next year"
-msgstr "Статус"
+msgstr "Наступний рік"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:59
 #: app/assets/javascripts/app/views/ssl_certificates_list.jst.eco:6
@@ -11508,14 +11544,12 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/checklist_modal.coffee:8
 #: app/frontend/apps/desktop/pages/ticket/views/TicketDetailView.vue:350
-#, fuzzy
-#| msgid "You have closed a ticket"
 msgid "No, just close the ticket"
-msgstr "Ви закрили заявку\t"
+msgstr "Ні, просто закрити заявку"
 
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:54
 msgid "No, thanks"
-msgstr ""
+msgstr "Ні, дякую"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/permissions_dialog.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_unit.coffee:55
@@ -11549,7 +11583,7 @@ msgstr ""
 
 #: app/policies/controllers/taskbar_controller_policy.rb:31
 msgid "Not allowed to access this task."
-msgstr ""
+msgstr "Немає доступу до цієї заявки."
 
 #: app/assets/javascripts/app/views/object_manager/screens.jst.eco:29
 msgid ""
@@ -11569,7 +11603,7 @@ msgstr "Не призначено"
 #: app/controllers/application_controller/handles_errors.rb:61
 #: app/services/service/ticket/article/create.rb:122
 msgid "Not authorized"
-msgstr ""
+msgstr "Не авторизовано"
 
 #: app/controllers/settings_controller.rb:21
 msgid "Not authorized (feature not possible)"
@@ -11588,10 +11622,8 @@ msgid "Not configured"
 msgstr "Не сконфігуровано"
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabNotFound.vue:18
-#, fuzzy
-#| msgid "matches"
 msgid "Not found"
-msgstr "збігається"
+msgstr "Не знайдено"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:71
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:51
@@ -11634,6 +11666,10 @@ msgid ""
 "after downloading the file to avoid leaking personal data which could be "
 "included in comments or notes."
 msgstr ""
+"Примітка: Zammad ніколи не надсилає ці дані автоматично, і ці дані не "
+"містять імен особистих облікових записів або паролів. Проте перегляньте файл "
+"після завантаження, щоб уникнути витоку особистих даних, які можуть бути "
+"включені в коментарі чи примітки."
 
 #: app/assets/javascripts/app/models/email_address.coffee:35
 #: app/assets/javascripts/app/models/group.coffee:14
@@ -11852,10 +11888,8 @@ msgid "On %s, %s wrote:"
 msgstr ""
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:10
-#, fuzzy
-#| msgid "Create a translation"
 msgid "On-screen Translation"
-msgstr "Створити переклад"
+msgstr "Переклад на екрані"
 
 #: app/assets/javascripts/app/models/macro.coffee:8
 msgid "Once completed…"
@@ -12365,7 +12399,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:73
 #: app/frontend/shared/entities/ticket-article/composables/translateArticleSecurity.ts:8
 msgid "PGP"
-msgstr ""
+msgstr "PGP"
 
 #: db/seeds/settings.rb:5577
 msgid "PGP Recipient Alias Configuration"
@@ -12385,7 +12419,7 @@ msgstr "Інтеграції"
 
 #: lib/email_helper.rb:12
 msgid "POP3"
-msgstr ""
+msgstr "POP3"
 
 #: app/assets/javascripts/app/views/package.jst.eco:2
 msgid "Package"
@@ -12625,10 +12659,8 @@ msgid "Phone Extension to Agent Mapping"
 msgstr ""
 
 #: app/assets/javascripts/app/views/whatsapp/account_phone_number.jst.eco:14
-#, fuzzy
-#| msgid "November"
 msgid "Phone number"
-msgstr "Листопад"
+msgstr "Номер телефону"
 
 #: app/models/channel/area/whatsapp.rb:18
 msgid "Phone number is already in use by another WhatsApp account."
@@ -12709,7 +12741,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:146
 msgid "Please contact your administrator."
-msgstr ""
+msgstr "Будь ласка, зверніться до адміністратора."
 
 #: lib/selector/sql.rb:181
 msgid ""
@@ -12770,21 +12802,17 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
-msgstr ""
+msgstr "Будь ласка, вкажіть одержувача в \"TO\" або \"CC\"."
 
 #: app/controllers/users_controller.rb:458
-#, fuzzy
-#| msgid "Choose your new password."
 msgid "Please provide your current password."
-msgstr "Оберіть новий пароль.\t"
+msgstr "Введіть свій поточний пароль."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:105
 #: app/assets/javascripts/app/controllers/password_reset_verify.coffee:87
 #: app/controllers/users_controller.rb:463
-#, fuzzy
-#| msgid "Choose your new password."
 msgid "Please provide your new password."
-msgstr "Оберіть новий пароль.\t"
+msgstr "Введіть свій новий пароль."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/recovery_codes.jst.eco:2
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationRecoveryCodes.vue:88
@@ -12835,7 +12863,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:594
 msgid "Please wait…"
-msgstr ""
+msgstr "Зачекайте…"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:417
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:85
@@ -13123,7 +13151,7 @@ msgstr "Опубліковано %s"
 
 #: app/assets/javascripts/app/views/popover/kb_generic.jst.eco:15
 msgid "Published at"
-msgstr ""
+msgstr "Опубліковано"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/highlighter.coffee:28
 msgid "Purple"
@@ -13218,7 +13246,7 @@ msgstr "Нещодавно переглянуті"
 #: app/assets/javascripts/app/controllers/_channel/sms.coffee:397
 #: app/assets/javascripts/app/views/generic/ticket_perform_action/notification.jst.eco:9
 msgid "Recipient"
-msgstr ""
+msgstr "Одержувач"
 
 #: app/assets/javascripts/app/views/generic/object_import/index.jst.eco:12
 msgid ""
@@ -13255,10 +13283,8 @@ msgid "Recursive Ticket Triggers"
 msgstr ""
 
 #: app/models/system_report/plugin/redis.rb:4
-#, fuzzy
-#| msgid "New Version"
 msgid "Redis version"
-msgstr "Нова версія"
+msgstr "Версія Redis"
 
 #: db/seeds/settings.rb:3228
 msgid ""
@@ -13289,7 +13315,7 @@ msgstr "Зареєструвати як нового клієнта"
 #: app/assets/javascripts/app/views/signup/verify.jst.eco:4
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:48
 msgid "Registration successful!"
-msgstr ""
+msgstr "Реєстрація успішна!"
 
 #: app/assets/javascripts/app/views/link/kb_answer.jst.eco:1
 msgid "Related Answers"
@@ -13681,6 +13707,25 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"Скиньте свій пароль #{config.product_name}\n"
+"\n"
+"<div>Привіт #{user.firstname},</div>\n"
+"<br>\n"
+"<div>Ми отримали запит на скидання пароля для вашого облікового "
+"запису<b>#{user.login}</b> в #{config.product_name} .</div>\n"
+"<br>\n"
+"<div>Якщо ви хочете скинути свій пароль, натисніть посилання нижче (або "
+"скопіюйте та вставте URL-адресу у свій браузер):</div>\n"
+"<br>\n"
+"<div><a href=\"#{url}\">#{url}</a></div>\n"
+"<br>\n"
+"<div>Це посилання приведе вас на сторінку, де ви можете змінити свій "
+"пароль.</div>\n"
+"<br>\n"
+"<div>Якщо ви не хочете скидати свій пароль, проігноруйте це повідомлення. "
+"Ваш пароль не буде скинуто.</div>\n"
+"<br>\n"
+"<div>Ваша команда #{config.product_name}</div>\n"
 
 #. This is the template file app/views/mailer/signup_taken_reset/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -13706,6 +13751,25 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"Скиньте свій пароль #{config.product_name}\n"
+"\n"
+"<div>Привіт #{user.firstname},</div>\n"
+"<br>\n"
+"<div>Ви чи хтось інший намагався зареєструватися за допомогою цієї "
+"електронної адреси. Однак ця електронна адреса вже використовується.</div>\n"
+"<br>\n"
+"<div>Якщо ви хочете скинути свій пароль, натисніть посилання нижче (або "
+"скопіюйте та вставте URL-адресу у свій браузер):</div>\n"
+"<br>\n"
+"<div><a href=\"#{url}\">#{url}</a></div>\n"
+"<br>\n"
+"<div>Це посилання приведе вас на сторінку, де ви можете змінити свій "
+"пароль.</div>\n"
+"<br>\n"
+"<div>Якщо ви не хочете скидати свій пароль, проігноруйте це повідомлення. "
+"Ваш пароль не буде скинуто.</div>\n"
+"<br>\n"
+"<div>Ваша команда #{config.product_name}</div>\n"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingOverviews.vue:101
 msgid "Resetting the order of your ticket overviews failed."
@@ -13747,7 +13811,7 @@ msgstr "Обмежити доступ лише для наступних кор�
 
 #: app/assets/javascripts/app/views/generic/object_import/result.jst.eco:2
 msgid "Result:"
-msgstr ""
+msgstr "Результат:"
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/security_keys.coffee:146
 #: app/assets/javascripts/app/views/widget/two_factor_login/security_keys.jst.eco:16
@@ -13757,7 +13821,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/authentication/views/AdminPasswordAuth.vue:140
 #: app/frontend/apps/mobile/pages/authentication/components/LoginTwoFactor.vue:177
 msgid "Retry"
-msgstr ""
+msgstr "Повторити"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleMediaError.vue:43
 msgid "Retry Attachment Download"
@@ -14084,7 +14148,7 @@ msgstr "Зберегти конфігурацію"
 
 #: app/assets/javascripts/app/models/core_workflow.coffee:10
 msgid "Saved conditions"
-msgstr ""
+msgstr "Збережені умови"
 
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
@@ -14367,7 +14431,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBody.vue:118
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:280
 msgid "See less"
-msgstr "Бачити менше"
+msgstr "Показати менше"
 
 #: app/assets/javascripts/app/controllers/_ui_element/ticket_duplicate_detection.coffee:68
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:443
@@ -14379,7 +14443,7 @@ msgstr "Бачити менше"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMore.vue:17
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:280
 msgid "See more"
-msgstr "Бачити більше"
+msgstr "Показати більше"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:9
 msgid ""
@@ -14446,7 +14510,7 @@ msgstr "Видалити Користувача"
 
 #: app/assets/javascripts/app/models/core_workflow.coffee:9
 msgid "Selected conditions"
-msgstr ""
+msgstr "Вибрані умови"
 
 #: lib/validations/data_privacy_task_validator.rb:57
 msgid "Selected object is already queued for deletion."
@@ -14572,10 +14636,8 @@ msgid "Sending an email without a valid recipient is not possible."
 msgstr ""
 
 #: app/assets/javascripts/app/views/widget/invite_user.jst.eco:35
-#, fuzzy
-#| msgid "pending"
 msgid "Sending…"
-msgstr "активні"
+msgstr "Надсилання…"
 
 #: app/assets/javascripts/app/controllers/maintenance.coffee:87
 msgid "Sent successfully!"
@@ -14679,10 +14741,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/table.coffee:687
 #: app/assets/javascripts/app/views/profile/password.jst.eco:62
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:169
-#, fuzzy
-#| msgid "Restore Defaults"
 msgid "Set as default"
-msgstr "Відновити значення за замовчуванням"
+msgstr "Встановити за замовчуванням"
 
 #: app/frontend/apps/desktop/entities/two-factor-configuration/plugins/authenticator-app.ts:18
 #, fuzzy
@@ -14949,7 +15009,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/generic/ticket_list.jst.eco:41
 msgid "Show less"
-msgstr ""
+msgstr "Показати менше"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:36
 msgid "Show matching ticket(s) in the warning"
@@ -15529,7 +15589,7 @@ msgstr "Оновлення заявки\t"
 
 #: app/assets/javascripts/app/models/core_workflow.coffee:12
 msgid "Stop after match"
-msgstr ""
+msgstr "Зупинити після збігу"
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:13
 msgid "Storage"
@@ -15737,6 +15797,9 @@ msgid ""
 "public platform %l. It sports a very convenient user interface based on "
 "Weblate, give it a try!"
 msgstr ""
+"Системні переклади можна робити та ділитися зі спільнотою на нашій публічній "
+"платформі %l. Вона має дуже зручний інтерфейс користувача на основі Weblate, "
+"спробуйте!"
 
 #: db/seeds/settings.rb:238
 msgid "SystemID"
@@ -15792,10 +15855,8 @@ msgid "Target"
 msgstr "Ціль"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:83
-#, fuzzy
-#| msgid "Language"
 msgid "Target Language"
-msgstr "Мова"
+msgstr "Цільова мова"
 
 #: app/assets/javascripts/app/controllers/_channel/telegram.coffee:163
 #: app/assets/javascripts/app/views/telegram/index.jst.eco:3
@@ -15810,10 +15871,8 @@ msgid "Telegram Account"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/template.coffee:3
-#, fuzzy
-#| msgid "Templates"
 msgid "Template"
-msgstr "Шаблони"
+msgstr "Шаблон"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create/sidebar_template.coffee:8
 #: app/assets/javascripts/app/controllers/template.coffee:3
@@ -15829,15 +15888,15 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_channel/sms.coffee:143
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 #: app/assets/javascripts/app/controllers/_default_navbar.coffee:17
 msgid "Test 1"
-msgstr ""
+msgstr "Тест 1"
 
 #: app/assets/javascripts/app/controllers/_default_navbar.coffee:18
 msgid "Test 2"
-msgstr ""
+msgstr "Тест 2"
 
 #: app/assets/javascripts/app/views/settings/proxy.jst.eco:28
 msgid "Test Connection"
@@ -15849,7 +15908,7 @@ msgstr "Тестувати SMS провайдера"
 
 #: app/assets/javascripts/app/controllers/_dashboard/first_steps.coffee:85
 msgid "Test Ticket"
-msgstr ""
+msgstr "Тестова заявка"
 
 #. This is the template file app/views/mailer/test_ticket/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -15866,10 +15925,19 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"Тестова заявка!\n"
+"\n"
+"<div>Шановний #{agent.firstname},</div>\n"
+"<br>\n"
+"<div>Це <b>тестова заявка</b>. Я клієнт і мені потрібна допомога! :)</div>\n"
+"<br>\n"
+"<div>#{customer.fullname}</div>\n"
+"<br>\n"
+"<div>Ваша команда #{config.product_name}</div>\n"
 
 #: app/assets/javascripts/app/controllers/_channel/sms.coffee:398
 msgid "Test message from Zammad"
-msgstr ""
+msgstr "Тестове повідомлення від Zammad"
 
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:36
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:13
@@ -15889,17 +15957,15 @@ msgstr "Текст"
 
 #: app/assets/javascripts/app/views/widget/text_module.jst.eco:3
 msgid "Text Modules"
-msgstr ""
+msgstr "Текстові модулі"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:555
 msgid "Text editing"
 msgstr "Редагування тексту"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:33
-#, fuzzy
-#| msgid "Text editing"
 msgid "Text field"
-msgstr "Редагування тексту"
+msgstr "Текстове поле"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
@@ -15908,10 +15974,8 @@ msgid "Text missing"
 msgstr "Текст відсутній"
 
 #: app/assets/javascripts/app/controllers/text_module.coffee:3
-#, fuzzy
-#| msgid "Text modules"
 msgid "Text module"
-msgstr "Текстові модулі"
+msgstr "Текстовий модуль"
 
 #: app/assets/javascripts/app/controllers/text_module.coffee:3
 #: db/seeds/permissions.rb:41
@@ -16359,7 +16423,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:93
 msgid "The configuration of Zammad has changed, please reload your browser."
-msgstr ""
+msgstr "Конфігурація Zammad змінилася, перезавантажте сторінку браузера."
 
 #: app/frontend/shared/composables/useAppMaintenanceCheck.ts:102
 #, fuzzy
@@ -16515,7 +16579,7 @@ msgstr "Зроблено такі зміни:"
 
 #: app/assets/javascripts/app/views/system_report.jst.eco:13
 msgid "The following contents are provided in the system report:"
-msgstr ""
+msgstr "У системному звіті представлено наступний вміст:"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal.coffee:196
 msgid ""
@@ -16652,10 +16716,8 @@ msgid "The linked account could not be found."
 msgstr "%s об’єкт(ів) оновлено."
 
 #: app/services/service/auth/verify_admin_token.rb:17
-#, fuzzy
-#| msgid "Time Accounting"
 msgid "The login is not possible."
-msgstr "Облік часу\t"
+msgstr "Вхід неможливий."
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:104
 #, fuzzy
@@ -17198,6 +17260,11 @@ msgid ""
 "you can see in the preview below. If you get in touch with the Zammad "
 "support, this JSON file is helpful identifying your issue."
 msgstr ""
+"Системний звіт містить узагальнену версію стану та конфігурації системи для "
+"цілей підтримки та аналізу. Ви можете завантажити звіт, натиснувши кнопку "
+"Завантажити. Потім Zammad надає файл JSON, як ви бачите на попередньому "
+"перегляді нижче. Якщо ви зв’яжетеся зі службою підтримки Zammad, цей файл "
+"JSON допоможе визначити вашу проблему."
 
 #: app/services/service/system/check_setup.rb:18
 msgid ""
@@ -18095,6 +18162,19 @@ msgid ""
 "target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 "</div>\n"
 msgstr ""
+"Заявку (#{ticket.title}) об'єднано з іншою заявкою\n"
+"\n"
+"<div>Привіт #{recipient.firstname},</div>\n"
+"<br>\n"
+"<div>\n"
+"Заявку (#{ticket.title}) було об'єднано з іншою заявкою користувачем "
+"\"<b>#{current_user.longname}</b>\".\n"
+"</div>\n"
+"<br>\n"
+"<div>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\" "
+"target=\"zammad_app\">Переглянути в #{config.product_name}</a>\n"
+"</div>\n"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:24
 #, fuzzy
@@ -18350,6 +18430,26 @@ msgid ""
 "target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 "</div>\n"
 msgstr ""
+"Досягнуто час нагадування про (#{ticket.title})\n"
+"\n"
+"<div>Привіт #{recipient.firstname},</div>\n"
+"<br>\n"
+"<div>Заявка потребує уваги: прийшов час нагадування про (#{ticket.title}) "
+"від клієнта \"<b>#{ticket.customer.longname}</b>\".</div>\n"
+"<br>\n"
+"<% if @objects[:article] %>\n"
+"  <div>\n"
+"  Інформація:\n"
+"  <blockquote type=\"cite\">\n"
+"  #{article.body_as_html}\n"
+"  </blockquote>\n"
+"  </div>\n"
+"<% end %>\n"
+"<br>\n"
+"<div>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\" "
+"target=\"zammad_app\">Переглянути на #{config.product_name}</a>\n"
+"</div>\n"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/TicketScreenBehavior.vue:56
 msgid "Ticket screen behavior updated successfully"
@@ -18417,10 +18517,8 @@ msgstr "Не вдалося оновити заявку."
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/useTicketEditTitle.ts:27
 #: app/frontend/apps/desktop/pages/ticket/views/TicketDetailView.vue:444
 #: app/frontend/apps/mobile/pages/ticket/views/TicketDetailView.vue:174
-#, fuzzy
-#| msgid "The test run was successful."
 msgid "Ticket updated successfully."
-msgstr "Тестовий запуск виконано вдало."
+msgstr "Заявку успішно оновлено."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketViewersDialog.vue:29
 #, fuzzy
@@ -18453,6 +18551,26 @@ msgid ""
 "target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 "</div>\n"
 msgstr ""
+"Заявку буде ескальовано (#{ticket.title})\n"
+"\n"
+"<div>Привіт #{recipient.firstname},</div>\n"
+"<br>\n"
+"<div>Заявку (#{ticket.title}) від \"<b>#{ticket.customer.longname}</b>\" "
+"буде ескальовано о \"#{ticket.escalation_at}\"!</div>\n"
+"<br>\n"
+"<% if @objects[:article] %>\n"
+"  <div>\n"
+"  Інформація:\n"
+"  <blockquote type=\"cite\">\n"
+"  #{article.body_as_html}\n"
+"  </blockquote>\n"
+"  </div>\n"
+"<% end %>\n"
+"<br>\n"
+"<div>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\" "
+"target=\"zammad_app\">Переглянути на #{config.product_name}</a>\n"
+"</div>\n"
 
 #: app/frontend/apps/desktop/pages/ticket/composables/useTicketInformation.ts:38
 #: app/frontend/apps/mobile/pages/ticket/views/TicketDetailView.vue:74
@@ -18534,10 +18652,8 @@ msgid "Tickets of User"
 msgstr "Заявки користувача"
 
 #: app/frontend/apps/mobile/pages/search/plugins/ticket.ts:10
-#, fuzzy
-#| msgid "Tickets of User"
 msgid "Tickets with \"%s\""
-msgstr "Заявки користувача\t"
+msgstr "Заявки з \"%s\""
 
 #: db/seeds/settings.rb:2641
 msgid "Tickets with the same attributes were found."
@@ -18547,7 +18663,7 @@ msgstr "Знайдено заявки з однаковими атрибутам
 #: app/assets/javascripts/app/views/generic/calender_preview.jst.eco:15
 #: app/assets/javascripts/app/views/profile/out_of_office.jst.eco:22
 msgid "Till"
-msgstr "Доки"
+msgstr "До"
 
 #: app/assets/javascripts/app/views/cti/caller_log.jst.eco:39
 #: app/assets/javascripts/app/views/generic/sla_times.jst.eco:6
@@ -18633,7 +18749,7 @@ msgstr "Необхідно вказати часовий пояс."
 
 #: app/assets/javascripts/app/views/generic/sla_times.jst.eco:33
 msgid "Timeframe between agent updates or for an agent to respond."
-msgstr ""
+msgstr "Час між оновленнями агента або відповіддю агента."
 
 #: app/assets/javascripts/app/views/generic/sla_times.jst.eco:72
 msgid "Timeframe for solving the problem."
@@ -18733,16 +18849,12 @@ msgid ""
 msgstr ""
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:11
-#, fuzzy
-#| msgid ""
-#| "To make translations easier you can enable and disable the inline "
-#| "translation feature by pressing \"%s\"."
 msgid ""
 "To make translations easier you can enable and disable the inline "
 "translation feature by pressing \"%s\" at any time."
 msgstr ""
-"Щоб полегшити переклад, Ви можете вмикати та вимикати функцію вбудованого "
-"перекладу, натискаючи «%s».\t"
+"Щоб полегшити переклад, ви можете вмикати та вимикати функцію вбудованого "
+"перекладу, натискаючи «%s»."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/security_keys/index.jst.eco:3
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:354
@@ -18880,17 +18992,15 @@ msgstr "Інструменти"
 
 #: app/assets/javascripts/app/views/customer_chat/setting.jst.eco:35
 msgid "Topic"
-msgstr ""
+msgstr "Тема"
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:13
 msgid "Topics"
 msgstr "Теми"
 
 #: app/assets/javascripts/app/views/ticket_zoom/time_unit.jst.eco:5
-#, fuzzy
-#| msgid "Total: %s"
 msgid "Total"
-msgstr "Разом: %s\t"
+msgstr "Всього"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketObjectAttributes.vue:67
 #, fuzzy
@@ -18928,10 +19038,8 @@ msgid "Translate field contents"
 msgstr "Переклади"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:3
-#, fuzzy
-#| msgid "Translations"
 msgid "Translation"
-msgstr "Переклади"
+msgstr "Переклад"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:80
 #, fuzzy
@@ -18971,10 +19079,8 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordReset.vue:132
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:130
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleWhatsappMediaBadge.vue:28
-#, fuzzy
-#| msgid "again"
 msgid "Try again"
-msgstr "знову"
+msgstr "Спробувати знову"
 
 #: app/assets/javascripts/app/views/widget/two_factor_login/help_text.jst.eco:4
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:261
@@ -19344,7 +19450,7 @@ msgstr "Оновити"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:38
 msgid "Update Database"
-msgstr "Оновити базу даних\t"
+msgstr "Оновити базу даних"
 
 #: lib/excel_sheet/ticket.rb:69
 msgid "Update Diff In Min"
@@ -19369,7 +19475,7 @@ msgstr "Спільний"
 #: app/assets/javascripts/app/views/sla/index.jst.eco:41
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:193
 msgid "Update Time"
-msgstr "Час оновлення\t"
+msgstr "Час оновлення"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:512
 msgid "Update as closed"
@@ -19516,7 +19622,8 @@ msgstr ""
 "<div>Привіт #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Заявку (#{ticket.title}) було оновлено \"<b>#{current_user.longname}</b>\".\n"
+"Заявку (#{ticket.title}) було оновлено користувачем "
+"\"<b>#{current_user.longname}</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:changes].present? %>\n"
@@ -19539,8 +19646,8 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}<% "
-"if @objects[:article] %>/#{article.id}<% end %>\" target=\"zammad_app\">View "
-"this in #{config.product_name}</a>\n"
+"if @objects[:article] %>/#{article.id}<% end %>\" target=\"zammad_app\""
+">Переглянути на #{config.product_name}</a>\n"
 "</div>\n"
 
 #. This is the template file app/views/mailer/ticket_article_update_reaction/en.html.erb in ERB/HTML format.
@@ -19590,9 +19697,9 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
-"#{article.id}\" target=\"zammad_app\">View this in #{config.product_name}</"
-"a>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}/#{article.id}\" target=\"zammad_app\">Переглянути на "
+"#{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
@@ -19628,10 +19735,8 @@ msgid "Upload Private Key"
 msgstr ""
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldImageUpload/FieldImageUploadInput.vue:137
-#, fuzzy
-#| msgid "Uploading"
 msgid "Upload image"
-msgstr "Виконується завантаження\t"
+msgstr "Завантажити зображення"
 
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:99
 #, fuzzy
@@ -19843,10 +19948,8 @@ msgstr "Ім’я користувача"
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:99
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordReset.vue:45
 #: app/frontend/apps/mobile/pages/authentication/components/LoginCredentialsForm.vue:40
-#, fuzzy
-#| msgid "Username / email"
 msgid "Username / Email"
-msgstr "Ім’я користувача / електронна пошта"
+msgstr "Ім’я користувача / Електронна пошта"
 
 #: app/assets/javascripts/app/views/generic/login_preview.jst.eco:33
 #: app/assets/javascripts/app/views/login.jst.eco:28
@@ -19881,11 +19984,11 @@ msgstr "Користувачі"
 
 #: app/frontend/apps/mobile/pages/search/plugins/user.ts:10
 msgid "Users with \"%s\""
-msgstr ""
+msgstr "Користувачі з \"%s\""
 
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:230
 msgid "Users without assigned LDAP groups"
-msgstr ""
+msgstr "Користувачі без призначених груп LDAP"
 
 #: app/assets/javascripts/app/views/integration/exchange_last_import.jst.eco:36
 #: app/assets/javascripts/app/views/integration/exchange_summary.jst.eco:4
@@ -19905,6 +20008,14 @@ msgid ""
 "created** and modify their tickets (if your organization is set to "
 "\"shared\", which can be defined per organization)."
 msgstr ""
+"Використовуючи **організації**, ви можете **групувати** клієнтів. Це має дві "
+"основні переваги:\n"
+"\n"
+"1. Як **агент** ви маєте не лише огляд відкритих заявок від однієї особи, а "
+"й **огляд усієї організації**.\n"
+"2. Як **клієнт** ви також можете перевіряти **заявки, створені вашими "
+"колегами**, і змінювати їхні заявки (якщо для вашої організації встановлено "
+"\"спільний доступ\", який можна визначити для кожної організації)."
 
 #: app/frontend/shared/components/CommonUserAvatar/CommonUserAvatar.vue:124
 #: db/seeds/object_manager_attributes.rb:1293
@@ -19940,7 +20051,7 @@ msgstr "Змінні"
 
 #: app/assets/javascripts/app/views/package.jst.eco:49
 msgid "Vendor"
-msgstr "Виготовлювач"
+msgstr "Постачальник"
 
 #: lib/email_helper/verify.rb:54
 msgid "Verification Email not found in mailbox."
@@ -20184,10 +20295,8 @@ msgid "Week"
 msgstr "Тиждень"
 
 #: app/assets/javascripts/app/controllers/_ui_element/time_range.coffee:8
-#, fuzzy
-#| msgid "Week"
 msgid "Week(s)"
-msgstr "Тиждень"
+msgstr "Тиждень(ні)"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:101
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:68
@@ -20422,7 +20531,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:17
 msgid "Workflows"
-msgstr ""
+msgstr "Робочі процеси"
 
 #: app/assets/javascripts/app/views/report/time_range_picker.jst.eco:2
 msgid "Year"
@@ -20469,6 +20578,7 @@ msgstr ""
 msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr ""
+"Ви отримуєте ці повідомлення, оскільки ви є учасником групи цієї заявки."
 
 #: app/models/transaction/notification.rb:287
 msgid ""
@@ -20516,6 +20626,11 @@ msgid ""
 "You can also create overviews and limit them to specific agents or to groups "
 "of agents."
 msgstr ""
+"Ви можете створювати **огляди** для своїх агентів і клієнтів. Вони мають "
+"багато цілей, наприклад, служать списком справ для ваших агентів.\n"
+"\n"
+"Ви також можете створювати огляди та обмежувати їх окремими агентами або "
+"групами агентів."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:11
 msgid ""
@@ -20537,6 +20652,11 @@ msgid ""
 "Once you created a signature here, you will also need to edit the groups "
 "which should use it."
 msgstr ""
+"Ви можете встановити окремий підпис для кожної групи, щоб використовувати "
+"різні підписи для кожного відділу.\n"
+"\n"
+"Після створення підпису тут також потрібно буде відредагувати групи, які "
+"мають його використовувати."
 
 #: app/assets/javascripts/app/models/public_link.coffee
 msgid ""
@@ -20581,7 +20701,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:38
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:167
 msgid "You can help translating Zammad."
-msgstr ""
+msgstr "Ви можете допомогти з перекладом Zammad."
 
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:19
 msgid "You can no longer see the data privacy task."
@@ -20648,7 +20768,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:16
 msgid "You currently don't have any tickets."
-msgstr ""
+msgstr "Наразі у вас немає заявок."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:40
 msgid ""
@@ -20664,7 +20784,7 @@ msgstr ""
 
 #: app/frontend/shared/router/guards/before/permission.ts:39
 msgid "You don't have the necessary permissions to access this page."
-msgstr ""
+msgstr "Ви не маєте необхідних дозволів для доступу до цієї сторінки."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/channel.coffee:29
 #: app/frontend/shared/entities/ticket/channel/plugins/whatsapp.ts:40
@@ -20675,7 +20795,7 @@ msgstr ""
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/FieldEditorFooter.vue:49
 msgid "You have exceeded the character limit by %s"
-msgstr ""
+msgstr "Ви перевищили ліміт символів на %s"
 
 #: app/policies/ticket_policy.rb:65
 msgid "You have insufficient permissions to mention other users."
@@ -20683,7 +20803,7 @@ msgstr ""
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:15
 msgid "You have insufficient rights to open this tab."
-msgstr ""
+msgstr "У вас недостатньо прав, щоб відкрити цю вкладку."
 
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:32
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationOrganization.vue:28
@@ -20694,7 +20814,7 @@ msgstr ""
 #: app/frontend/apps/mobile/pages/ticket/views/TicketDetailView.vue:76
 #: app/frontend/shared/entities/ticket-article/composables/useTicketDataHandler.ts:24
 msgid "You have insufficient rights to view this ticket."
-msgstr ""
+msgstr "У вас недостатньо прав для перегляду цієї заявки."
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationCustomer.vue:34
 #: app/frontend/apps/mobile/pages/user/views/UserDetailView.vue:34
@@ -20713,11 +20833,11 @@ msgstr "Наразі Ви не маєте сконфігурованих %s."
 
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:7
 msgid "You have no tickets to display in this overview."
-msgstr ""
+msgstr "У вас немає заявок для відображення в цьому огляді."
 
 #: app/assets/javascripts/app/controllers/_plugin/electron_events.coffee:84
 msgid "You have no unread messages"
-msgstr ""
+msgstr "У вас немає непрочитаних повідомлень"
 
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:10
 msgid "You have not created a ticket yet."
@@ -20732,12 +20852,12 @@ msgid "You have unchecked items in the checklist."
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/views/TicketDetailView.vue:344
-#, fuzzy
-#| msgid "Sure to delete this object?"
 msgid ""
 "You have unchecked items in the checklist. Do you want to handle them before "
 "closing this ticket?"
-msgstr "Ви впевнені, що бажаєте видалити цей об’єкт?\t"
+msgstr ""
+"У списку є непозначені пункти. Ви хочете обробити їх, перш ніж закрити цю "
+"заявку?"
 
 #: app/assets/javascripts/app/views/after_auth/two_factor_configuration.jst.eco:4
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:42
@@ -20779,7 +20899,7 @@ msgstr "Ви вже зареєстровані, якщо ви зв'язувал�
 
 #: app/assets/javascripts/app/controllers/_ui_element/richtext_additions/embed_video_button.coffee:13
 msgid "YouTube or Vimeo address"
-msgstr ""
+msgstr "Адреса YouTube або Vimeo"
 
 #. This is the template file app/views/mailer/password_change/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -20814,10 +20934,8 @@ msgid "Your API key."
 msgstr ""
 
 #: public/assets/form/form.js:37
-#, fuzzy
-#| msgid "Email"
 msgid "Your Email"
-msgstr "Email"
+msgstr "Ваша електронна пошта"
 
 #: app/controllers/first_steps_controller.rb:59
 msgid "Your Email Configuration"
@@ -20833,10 +20951,8 @@ msgid "Your Message…"
 msgstr "Ваше повідомлення…"
 
 #: public/assets/form/form.js:28
-#, fuzzy
-#| msgid "Full Name"
 msgid "Your Name"
-msgstr "Повне ім’я"
+msgstr "Ваше ім'я"
 
 #: app/assets/javascripts/app/controllers/_profile/token_access.coffee:144
 msgid "Your New Personal Access Token"
@@ -20940,7 +21056,7 @@ msgstr ""
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:84
 #: app/frontend/apps/mobile/pages/authentication/components/LoginFooter.vue:33
 msgid "Zammad"
-msgstr ""
+msgstr "Zammad"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:327
 msgid "Zammad Features"
@@ -21035,6 +21151,21 @@ msgid ""
 "\n"
 "Postmaster of #{config.fqdn}\n"
 msgstr ""
+"[undeliverable] Повідомлення завелике\n"
+"Шановий(а) #{mail.from_display_name},\n"
+"\n"
+"На жаль, ваш електронний лист із назвою \"#{mail.subject}\" не вдалося "
+"доставити одному чи кільком одержувачам.\n"
+"\n"
+"Розмір вашого повідомлення #{mail.msg_size} МБ, але ми приймаємо лише "
+"повідомлення розміром до #{config.postmaster_max_size} МБ.\n"
+"\n"
+"Будь ласка, зменшіть розмір повідомлення та повторіть спробу. Дякуємо за "
+"розуміння.\n"
+"\n"
+"Щиро ваш,\n"
+"\n"
+"Постмастер #{config.fqdn}\n"
 
 #: db/seeds/settings.rb:217
 msgid "absolute - e. g. \"Monday 09:30\" or \"Tuesday 23. Feb 14:20\""
@@ -21046,10 +21177,8 @@ msgid "active"
 msgstr "активний"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
-#, fuzzy
-#| msgid "Add"
 msgid "add"
-msgstr "Додати"
+msgstr "додати"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldAutoComplete/useAddUnknownValueAction.ts:28
 #: app/frontend/apps/desktop/components/Form/fields/FieldRecipient/FieldRecipientWrapper.vue:27
@@ -21128,16 +21257,16 @@ msgstr "призначити заявки"
 msgid "at"
 msgstr "в"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
-msgstr ""
+msgstr "принаймні одна літера потрібна"
 
 #: app/assets/javascripts/app/lib/app_post/utils.coffee:1054
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:9
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr ""
 
@@ -21172,23 +21301,23 @@ msgstr "зайнятий"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
 msgstr ""
 
 msgid "can't be blank"
-msgstr ""
+msgstr "не може бути пустим"
 
 msgid "can't be empty"
-msgstr ""
+msgstr "не може бути порожнім"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -21319,7 +21448,7 @@ msgstr "автор"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:76
 msgid "d"
-msgstr ""
+msgstr "д"
 
 #: app/models/concerns/can_be_published.rb:101
 msgid "date must be no earlier than internal date"
@@ -21385,7 +21514,7 @@ msgstr ""
 #: app/assets/javascripts/app/models/group.coffee:9
 #: db/seeds/object_manager_attributes.rb:1929
 msgid "do not reopen ticket but create new ticket"
-msgstr ""
+msgstr "не відкривати заявку повторно, а створити нову заявку"
 
 #: lib/validations/object_manager/attribute_validator/future_past.rb:30
 msgid "does not allow future dates"
@@ -21431,23 +21560,23 @@ msgstr "перетягніть сюди, щоб скасувати"
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:140
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:124
 msgid "e. g. user@example.com"
-msgstr ""
+msgstr "напр. user@example.com"
 
 #: app/assets/javascripts/app/views/profile/out_of_office.jst.eco:14
 msgid "e.g."
-msgstr "наприклад,"
+msgstr "напр."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingOutOfOffice.vue:47
 msgid "e.g. Easter holiday"
-msgstr ""
+msgstr "напр. свято Великодня"
 
 #: app/assets/javascripts/app/views/generic/drox.jst.eco:7
 msgid "edit"
-msgstr ""
+msgstr "редагувати"
 
 #: app/frontend/apps/mobile/composables/useEditedBy.ts:41
 msgid "edited %s"
-msgstr ""
+msgstr "змінено %s"
 
 #: app/frontend/apps/mobile/composables/useEditedBy.ts:44
 msgid "edited %s by %s"
@@ -21463,7 +21592,7 @@ msgstr "Email"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:99
 msgid "email sent to '%s'"
-msgstr ""
+msgstr "електронний лист надіслано до '%s'"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:186
 msgid "ends with"
@@ -21482,7 +21611,7 @@ msgstr "передано на вищий рівень"
 #: app/assets/javascripts/app/controllers/_profile/calendar_subscriptions.coffee:19
 #: app/assets/javascripts/app/views/ticket_zoom/meta.jst.eco:9
 msgid "escalation"
-msgstr "передача на вищий рівень"
+msgstr "ескалація"
 
 #: app/frontend/apps/desktop/components/CommonTicketEscalationIndicator/CommonTicketEscalationIndicator.vue:31
 #: app/frontend/apps/mobile/components/CommonTicketEscalationIndicator/CommonTicketEscalationIndicator.vue:38
@@ -21534,7 +21663,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:61
 msgid "forward"
-msgstr ""
+msgstr "переслати"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:158
 msgid "from"
@@ -21553,7 +21682,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:98
 msgid "h"
-msgstr ""
+msgstr "г"
 
 msgid "has already been taken"
 msgstr ""
@@ -21584,7 +21713,7 @@ msgstr "тут"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
 msgid "hide"
-msgstr ""
+msgstr "приховати"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:98
 msgid "hour"
@@ -21593,10 +21722,8 @@ msgstr "година"
 #: app/assets/javascripts/app/lib/mixins/time_accounting_unit.coffee:9
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:42
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketObjectAttributes.vue:26
-#, fuzzy
-#| msgid "Hour(s)"
 msgid "hour(s)"
-msgstr "Година(ни)"
+msgstr "година(и)"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:98
 #: app/assets/javascripts/app/views/sla/index.jst.eco:37
@@ -21870,7 +21997,7 @@ msgstr "Бачити більше"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:120
 msgid "m"
-msgstr ""
+msgstr "х"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:273
 msgid "match all modules"
@@ -21919,7 +22046,7 @@ msgstr "об'єднаний"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:617
 msgid "message"
-msgstr ""
+msgstr "повідомлення"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:120
 msgid "minute"
@@ -21928,10 +22055,8 @@ msgstr "хвилина"
 #: app/assets/javascripts/app/lib/mixins/time_accounting_unit.coffee:17
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:46
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketObjectAttributes.vue:30
-#, fuzzy
-#| msgid "Minute(s)"
 msgid "minute(s)"
-msgstr "Хвилина(ин)"
+msgstr "хвилина(и)"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:120
 msgid "minutes"
@@ -21945,10 +22070,10 @@ msgid "must be accepted"
 msgstr ""
 
 msgid "must be an integer"
-msgstr ""
+msgstr "має бути цифрою"
 
 msgid "must be blank"
-msgstr ""
+msgstr "має бути порожнім"
 
 msgid "must be equal to %{count}"
 msgstr ""
@@ -22077,7 +22202,7 @@ msgstr "сповіщення, заявки"
 msgid "now"
 msgstr "зараз"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "дозволені тільки малі літери, цифри та '_'"
 
@@ -22189,7 +22314,7 @@ msgstr "відносний - наприклад, «2 години тому» а�
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
 #: app/assets/javascripts/app/views/profile/linked_accounts.jst.eco:17
 msgid "remove"
-msgstr ""
+msgstr "видалити"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:170
 msgid "remove option"
@@ -22215,10 +22340,8 @@ msgid "reply all"
 msgstr "відповісти всім"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:111
-#, fuzzy
-#| msgid "%s required!"
 msgid "required"
-msgstr "%s необхідно!"
+msgstr "необхідно"
 
 #: db/seeds/settings.rb:2230
 msgid "right"
@@ -22307,7 +22430,7 @@ msgstr "показати"
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:32
 #: app/assets/javascripts/app/views/widget/user.jst.eco:18
 msgid "show more"
-msgstr ""
+msgstr "показати більше"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:110
 msgid "shown"
@@ -22340,7 +22463,7 @@ msgstr "Пропущено"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr "пробіли не дозволені"
 
@@ -22403,7 +22526,7 @@ msgstr ""
 #: app/frontend/apps/mobile/components/Organization/OrganizationItem.vue:56
 #: app/frontend/apps/mobile/components/User/UserItem.vue:32
 msgid "ticket"
-msgstr ""
+msgstr "заявка"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:116
 msgid "ticket %s was merged into this ticket"
@@ -22517,7 +22640,7 @@ msgstr ""
 
 #: db/seeds/ticket_article_types.rb:13
 msgid "web"
-msgstr ""
+msgstr "веб"
 
 #: app/assets/javascripts/app/views/telegram/bot_edit.jst.eco:15
 msgid "welcome message"
@@ -22543,14 +22666,14 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:71
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:52
 msgid "within last (relative)"
-msgstr "упродовж останнього (відносне)\t"
+msgstr "упродовж останнього (відносне)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:477
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:25
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:70
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:52
 msgid "within next (relative)"
-msgstr "упродовж наступного (відносне)\t"
+msgstr "упродовж наступного (відносне)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/boolean.coffee:9
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:22

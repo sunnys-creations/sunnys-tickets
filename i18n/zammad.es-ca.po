@@ -650,13 +650,13 @@ msgstr "%s% han sigut reobertes"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} can have full or granular access to group"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 #, fuzzy
 #| msgid "%s Object(s) are deleted."
 msgid "%{name} already exists"
 msgstr "Objecte(s) %s s'han eliminat."
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 #, fuzzy
 msgid "%{name} is a reserved word"
 msgstr "%{name} is a reserved word"
@@ -23256,7 +23256,7 @@ msgstr "asigna tiquets"
 msgid "at"
 msgstr "a"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 #, fuzzy
 msgid "at least one letter is required"
 msgstr "at least one letter is required"
@@ -23267,7 +23267,7 @@ msgstr "at least one letter is required"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "attachment,attached,enclosed,enclosure"
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 #, fuzzy
 msgid "attribute is not editable"
 msgstr "attribute is not editable"
@@ -23305,12 +23305,12 @@ msgstr "ocupat"
 msgid "camera,image,photo,picture"
 msgstr "camera,image,photo,picture"
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 #, fuzzy
 msgid "can only be created on postgresql databases"
 msgstr "can only be created on postgresql databases"
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -23324,7 +23324,7 @@ msgstr "can't be blank"
 msgid "can't be empty"
 msgstr "can't be empty"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 #, fuzzy
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "can't be used because *_id and *_ids are not allowed"
@@ -24317,7 +24317,7 @@ msgstr "Notificacions"
 msgid "now"
 msgstr "no"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 #, fuzzy
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "only lowercase letters, numbers, and '_' are allowed"
@@ -24620,7 +24620,7 @@ msgstr "saltat"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 #, fuzzy
 msgid "spaces are not allowed"
 msgstr "spaces are not allowed"

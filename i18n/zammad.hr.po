@@ -690,11 +690,11 @@ msgstr "%s% su ponovo otvoreni"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} može imati potpuna ili djelomična prava u grupi"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} već postoji"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr "%{name} je rezervirana riječ"
 
@@ -20393,7 +20393,7 @@ msgstr "dodijeli tickete"
 msgid "at"
 msgstr "u"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
 msgstr "Potrebno je barem jedno slovo"
 
@@ -20402,7 +20402,7 @@ msgstr "Potrebno je barem jedno slovo"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "Privitak, priloženo, u prilogu, prikvačeno"
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr "atribut se ne može uređivati"
 
@@ -20436,11 +20436,11 @@ msgstr "zauzet(a)"
 msgid "camera,image,photo,picture"
 msgstr "kamera, slika, fotografija"
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr "može se stvoriti samo u postgreSQL bazama podataka"
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -20454,7 +20454,7 @@ msgstr "ne smije biti prazno"
 msgid "can't be empty"
 msgstr "ne smije biti prazno"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "ne može se koristiti jer *_id i *_ids nisu dozvoljeni"
 
@@ -21286,7 +21286,7 @@ msgstr "obavijesti, ticketi"
 msgid "now"
 msgstr "sad"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "dopuštena su samo mala slova, brojevi i '_'"
 
@@ -21537,7 +21537,7 @@ msgstr "preskočeno"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr "razmaci nisu dopušteni"
 

@@ -692,11 +692,11 @@ msgstr "%s% estão sendo reabertos"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} pode ter acesso total ou granular ao grupo"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} já existe"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr "%{name} é uma palavra reservada"
 
@@ -20622,7 +20622,7 @@ msgstr "tickets assinados"
 msgid "at"
 msgstr "no"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
 msgstr "pelo menos uma letra é necessária"
 
@@ -20631,7 +20631,7 @@ msgstr "pelo menos uma letra é necessária"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "anexo,anexado,incluso,inclusão"
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr "atributo não é editável"
 
@@ -20665,11 +20665,11 @@ msgstr "ocupado"
 msgid "camera,image,photo,picture"
 msgstr "câmera,imagem,foto,imagem"
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr "só pode ser criado em bancos de dados postgresql"
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -20683,7 +20683,7 @@ msgstr "não pode estar em branco"
 msgid "can't be empty"
 msgstr "não pode estar vazio"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "não pode ser usado porque *_id e *_ids não são permitidos"
 
@@ -21516,7 +21516,7 @@ msgstr "notificações, tíquetes"
 msgid "now"
 msgstr "agora"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "apenas letras minúsculas, números e '_' são permitidos"
 
@@ -21768,7 +21768,7 @@ msgstr "Pulado"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr "espaços não são permitidos"
 

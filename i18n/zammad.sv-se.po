@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-12-17 22:00+0000\n"
+"PO-Revision-Date: 2025-01-29 22:00+0000\n"
 "Last-Translator: chrand818 <can@telenabler.com>\n"
 "Language-Team: Swedish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/sv/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -685,11 +685,11 @@ msgstr "%s% har återöppnats"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} kan ha full eller delvis åtkomst till grupp"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "%{name} finns redan"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr "%{name} är ett reserverat ord"
 
@@ -16839,10 +16839,8 @@ msgid "Theme"
 msgstr "Tema"
 
 #: app/controllers/reports_controller.rb:17
-#, fuzzy
-#| msgid "There are no business hours configured."
 msgid "There are currently no report profiles configured."
-msgstr "Inga öppettider har konfigurerats."
+msgstr "Det finns för närvarande inga rapportprofiler konfigurerade."
 
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:64
 msgid ""
@@ -18818,8 +18816,8 @@ msgstr ""
 "<div>Hej #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Ärende (#{ticket.title}) har uppdatrats av \"<b>#{current_user.longname}</"
-"b>\".\n"
+"Ärende (#{ticket.title}) har uppdaterats av "
+"\"<b>#{current_user.longname}</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:changes].present? %>\n"
@@ -20418,7 +20416,7 @@ msgstr "tilldela ärenden"
 msgid "at"
 msgstr "kl"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
 msgstr "åtminstone en bokstav krävs"
 
@@ -20427,7 +20425,7 @@ msgstr "åtminstone en bokstav krävs"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "Bifogad fil,bifogad,bifogad,bifogad"
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr "Attributet är inte redigerbart"
 
@@ -20461,11 +20459,11 @@ msgstr "upptagen"
 msgid "camera,image,photo,picture"
 msgstr "kamera,bild,foto,bild"
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr "kan endast skapas på postgresql-databaser"
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -20479,7 +20477,7 @@ msgstr "kan inte vara blank"
 msgid "can't be empty"
 msgstr "kan inte vara tom"
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "kan inte användas eftersom *_id och *_ids inte är tillåtna"
 
@@ -21311,7 +21309,7 @@ msgstr "notifieringar,ärenden"
 msgid "now"
 msgstr "nu"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "endast små bokstäver, siffror och '_' är tillåtna"
 
@@ -21564,7 +21562,7 @@ msgstr "skippad"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr "mellanslag är inte tillåtna"
 

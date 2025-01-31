@@ -726,11 +726,11 @@ msgstr "%s% έχουν ανοίξει ξανά"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} μπορεί να έχει πλήρη ή πιο διαβαθμισμένη πρόσβαση στην ομάδα"
 
-#: app/models/object_manager/attribute.rb:567
+#: app/models/object_manager/attribute.rb:610
 msgid "%{name} already exists"
 msgstr "Το %{name} υπάρχει ήδη"
 
-#: app/models/object_manager/attribute.rb:556
+#: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
 msgstr ""
 
@@ -21867,7 +21867,7 @@ msgstr "assign tickets"
 msgid "at"
 msgstr "στις"
 
-#: app/models/object_manager/attribute.rb:551
+#: app/models/object_manager/attribute.rb:590
 msgid "at least one letter is required"
 msgstr ""
 
@@ -21876,7 +21876,7 @@ msgstr ""
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:580
+#: app/models/object_manager/attribute.rb:623
 msgid "attribute is not editable"
 msgstr ""
 
@@ -21911,11 +21911,11 @@ msgstr "απασχολημένος"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:629
+#: app/models/object_manager/attribute.rb:672
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:622
+#: app/models/object_manager/attribute.rb:665
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21927,7 +21927,7 @@ msgstr ""
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:542
+#: app/models/object_manager/attribute.rb:581
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -22822,7 +22822,7 @@ msgstr "Ειδοποιήσεις"
 msgid "now"
 msgstr "οχι"
 
-#: app/models/object_manager/attribute.rb:548
+#: app/models/object_manager/attribute.rb:587
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr ""
 
@@ -23101,7 +23101,7 @@ msgstr "skipped"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:545
+#: app/models/object_manager/attribute.rb:584
 msgid "spaces are not allowed"
 msgstr ""
 
