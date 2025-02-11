@@ -517,7 +517,13 @@ returns
         header:  response.each_header.to_h,
       )
     when Net::HTTPRedirection
-      raise __('Too many redirections for the original URL, halting.') if count <= 0
+      if options[:do_not_follow_redirects]
+        raise __('The server returned a redirect response, but the current operation does not allow redirects.')
+      end
+
+      if count <= 0
+        raise __('Too many redirections for the original URL, halting.')
+      end
 
       url = response['location']
       return get(url, params, options, count - 1)

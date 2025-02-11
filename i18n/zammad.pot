@@ -5034,7 +5034,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr ""
 
@@ -11118,7 +11118,7 @@ msgstr ""
 msgid "Pre-defined Webhook"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:242
+#: app/assets/javascripts/app/controllers/webhook.coffee:248
 msgid "Pre-defined webhook for %s."
 msgstr ""
 
@@ -14085,7 +14085,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr ""
 
@@ -14722,6 +14722,10 @@ msgstr ""
 
 #: app/services/service/system/import/apply_configuration_base.rb:38
 msgid "The server presented a certificate that could not be verified."
+msgstr ""
+
+#: lib/user_agent.rb:360
+msgid "The server returned a redirect response, but the current operation does not allow redirects."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:585
@@ -16063,7 +16067,7 @@ msgstr ""
 msgid "Token is invalid!"
 msgstr ""
 
-#: lib/user_agent.rb:359
+#: lib/user_agent.rb:364
 msgid "Too many redirections for the original URL, halting."
 msgstr ""
 
@@ -16182,7 +16186,7 @@ msgstr ""
 msgid "Turn chat into ticket"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:231
+#: app/assets/javascripts/app/controllers/webhook.coffee:237
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71
