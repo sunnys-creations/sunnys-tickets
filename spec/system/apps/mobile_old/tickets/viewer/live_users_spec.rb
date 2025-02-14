@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Mobile > Ticket > Viewers > Live Users', app: :mobile, authenticated_as: :agent, type: :system do
+RSpec.describe 'Mobile > Ticket > Viewers > Live Users', app: :mobile, authenticated_as: :agent, performs_jobs: true, type: :system do
   let(:group)         { Group.find_by(name: 'Users') }
   let(:agent)         { create(:agent, groups: [group]) }
   let(:another_agent) { create(:agent, groups: [group]) }
@@ -32,151 +32,161 @@ RSpec.describe 'Mobile > Ticket > Viewers > Live Users', app: :mobile, authentic
 
   context 'when opening viewers', authenticated_as: :agent do
     it 'shows the users currently looking at the ticket' do
-      taskbar_item = create(:taskbar, user_id: another_agent.id, key: "Ticket-#{ticket.id}", app: 'mobile')
-      open_viewers_dialog
+      perform_enqueued_jobs do
+        taskbar_item = create(:taskbar, user_id: another_agent.id, key: "Ticket-#{ticket.id}", app: 'mobile')
+        open_viewers_dialog
 
-      # No idle viewers.
-      expect(page).to have_no_text('Opened in tabs')
+        # No idle viewers.
+        expect(page).to have_no_text('Opened in tabs')
 
-      # One active viewer, without editing.
-      expect(page)
-        .to have_text('Viewing ticket')
-        .and have_no_text(agent.fullname)
-        .and have_text(another_agent.fullname)
-        .and have_no_css('.icon.icon-edit')
+        # One active viewer, without editing.
+        expect(page)
+          .to have_text('Viewing ticket')
+          .and have_no_text(agent.fullname)
+          .and have_text(another_agent.fullname)
+          .and have_no_css('.icon.icon-edit')
 
-      # Checking pencil icon.
-      update_taskbar_item(taskbar_item, { editing: true }, another_agent.id, 2)
+        # Checking pencil icon.
+        update_taskbar_item(taskbar_item, { editing: true }, another_agent.id, 2)
 
-      expect(page).to have_css('.icon.icon-edit')
+        expect(page).to have_css('.icon.icon-edit')
 
-      # Checking idle.
-      travel_to 10.minutes.ago
-      update_taskbar_item(taskbar_item, { editing: false }, another_agent.id, 3)
-      travel_back
+        # Checking idle.
+        travel_to 10.minutes.ago
+        update_taskbar_item(taskbar_item, { editing: false }, another_agent.id, 3)
+        travel_back
 
-      expect(page)
-        .to have_text('Opened in tabs')
-        .and have_no_text(agent.fullname)
-        .and have_no_text('Viewing ticket')
-        .and have_text(another_agent.fullname)
-        .and have_no_css('.icon.icon-edit')
+        expect(page)
+          .to have_text('Opened in tabs')
+          .and have_no_text(agent.fullname)
+          .and have_no_text('Viewing ticket')
+          .and have_text(another_agent.fullname)
+          .and have_no_css('.icon.icon-edit')
+      end
     end
 
     it 'shows the users that start looking at the ticket' do
-      visit "/tickets/#{ticket.id}"
+      perform_enqueued_jobs do
+        visit "/tickets/#{ticket.id}"
 
-      expect(page).to have_no_button('Show ticket viewers')
+        expect(page).to have_no_button('Show ticket viewers')
 
-      taskbar_item = create(:taskbar, user_id: third_agent.id, key: "Ticket-#{ticket.id}", app: 'mobile')
-      update_taskbar_item(taskbar_item, { editing: true }, third_agent.id, 1)
-      open_viewers_dialog
+        taskbar_item = create(:taskbar, user_id: third_agent.id, key: "Ticket-#{ticket.id}", app: 'mobile')
+        update_taskbar_item(taskbar_item, { editing: true }, third_agent.id, 1)
+        open_viewers_dialog
 
-      expect(page)
-        .to have_text('Viewing ticket')
-        .and have_text(third_agent.fullname)
-        .and have_css('.icon.icon-edit')
+        expect(page)
+          .to have_text('Viewing ticket')
+          .and have_text(third_agent.fullname)
+          .and have_css('.icon.icon-edit')
+      end
     end
 
     context 'when editing is started on mobile' do
       it 'updates the other session' do
-        visit "/tickets/#{ticket.id}"
-
-        using_session(:customer) do
-          login(
-            username: another_agent.login,
-            password: 'test',
-          )
-
+        perform_enqueued_jobs do
           visit "/tickets/#{ticket.id}"
-        end
 
-        open_viewers_dialog
+          using_session(:customer) do
+            login(
+              username: another_agent.login,
+              password: 'test',
+            )
 
-        expect(page)
-          .to have_text(another_agent.fullname)
-          .and have_no_css('.icon.icon-edit')
-
-        using_session(:customer) do
-          visit "/tickets/#{ticket.id}/information"
-
-          wait_for_form_to_settle('form-ticket-edit')
-
-          within_form(form_updater_gql_number: 1) do
-            find_input('Ticket title').type('New Title')
+            visit "/tickets/#{ticket.id}"
           end
+
+          open_viewers_dialog
+
+          expect(page)
+            .to have_text(another_agent.fullname)
+            .and have_no_css('.icon.icon-edit')
+
+          using_session(:customer) do
+            visit "/tickets/#{ticket.id}/information"
+
+            wait_for_form_to_settle('form-ticket-edit')
+
+            within_form(form_updater_gql_number: 1) do
+              find_input('Ticket title').type('New Title')
+            end
+          end
+
+          wait_for_viewers_subscription(number: 2)
+
+          expect(page)
+            .to have_text('Viewing ticket')
+            .and have_text(another_agent.fullname)
+            .and have_css('.icon.icon-edit')
         end
-
-        wait_for_viewers_subscription(number: 2)
-
-        expect(page)
-          .to have_text('Viewing ticket')
-          .and have_text(another_agent.fullname)
-          .and have_css('.icon.icon-edit')
       end
     end
 
     context 'when editing is started on desktop' do
       it 'updates the other session' do
-        visit "/tickets/#{ticket.id}"
+        perform_enqueued_jobs do
+          visit "/tickets/#{ticket.id}"
 
-        using_session(:customer) do
-          login(
-            username:    another_agent.login,
-            password:    'test',
-            remember_me: false,
-            app:         :desktop,
-          )
+          using_session(:customer) do
+            login(
+              username:    another_agent.login,
+              password:    'test',
+              remember_me: false,
+              app:         :desktop,
+            )
 
-          visit "/#ticket/zoom/#{ticket.id}", app: :desktop
-        end
-
-        open_viewers_dialog
-
-        expect(page)
-          .to have_text(another_agent.fullname)
-          .and have_no_css('.icon.icon-desktop-edit')
-
-        using_session(:customer) do
-          within :active_content, '.tabsSidebar' do
-            select 'closed', from: 'State'
+            visit "/#ticket/zoom/#{ticket.id}", app: :desktop
           end
+
+          open_viewers_dialog
+
+          expect(page)
+            .to have_text(another_agent.fullname)
+            .and have_no_css('.icon.icon-desktop-edit')
+
+          using_session(:customer) do
+            within :active_content, '.tabsSidebar' do
+              select 'closed', from: 'State'
+            end
+          end
+
+          wait_for_viewers_subscription(number: 2)
+
+          expect(page)
+            .to have_text('Viewing ticket')
+            .and have_text(another_agent.fullname)
+            .and have_css('.icon.icon-desktop-edit')
         end
-
-        wait_for_viewers_subscription(number: 2)
-
-        expect(page)
-          .to have_text('Viewing ticket')
-          .and have_text(another_agent.fullname)
-          .and have_css('.icon.icon-desktop-edit')
       end
     end
 
     context 'when current user is using both desktop and mobile' do
       it 'shows correct icons' do
-        visit "/tickets/#{ticket.id}"
+        perform_enqueued_jobs do
+          visit "/tickets/#{ticket.id}"
 
-        using_session(:customer) do
-          login(
-            username:    agent.login,
-            password:    'test',
-            remember_me: false,
-            app:         :desktop,
-          )
+          using_session(:customer) do
+            login(
+              username:    agent.login,
+              password:    'test',
+              remember_me: false,
+              app:         :desktop,
+            )
 
-          visit "/#ticket/zoom/#{ticket.id}", app: :desktop
+            visit "/#ticket/zoom/#{ticket.id}", app: :desktop
 
-          within :active_content, '.tabsSidebar' do
-            select 'closed', from: 'State'
+            within :active_content, '.tabsSidebar' do
+              select 'closed', from: 'State'
+            end
           end
+
+          open_viewers_dialog
+
+          expect(page)
+            .to have_text('Viewing ticket')
+            .and have_text(agent.fullname)
+            .and have_css('.icon.icon-desktop-edit')
         end
-
-        open_viewers_dialog
-
-        expect(page)
-          .to have_text('Viewing ticket')
-          .and have_text(agent.fullname)
-          .and have_css('.icon.icon-desktop-edit')
       end
     end
   end

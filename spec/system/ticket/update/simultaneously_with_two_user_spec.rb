@@ -2,10 +2,12 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Ticket > Update > Simultaneously with two different user', type: :system do
+RSpec.describe 'Ticket > Update > Simultaneously with two different user', performs_jobs: true, type: :system do
   let(:group)  { Group.find_by(name: 'Users') }
   let(:ticket) { create(:ticket, group: group) }
   let(:agent)  { User.find_by(login: 'agent1@example.com') }
+
+  around { |example| perform_enqueued_jobs { example.run } }
 
   # rubocop:disable RSpec/InstanceVariable
   define :have_avatar do |expected|
@@ -95,135 +97,143 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
     end
 
     it 'avatar from other user should be visible in ticket zoom' do
-      expect(page).to have_avatar('AT')
+      perform_enqueued_jobs do
+        expect(page).to have_avatar('AT')
 
-      using_session(:second_browser) do
-        expect(page).to have_avatar('TA')
+        using_session(:second_browser) do
+          expect(page).to have_avatar('TA')
+        end
       end
     end
 
     it 'check changes from the first user and added changes from the second user' do
-      within(:active_content) do
-        find('.js-textarea').send_keys('some note')
-
-        expect(page).to have_css('.js-reset')
-      end
-
-      expect(page).to have_avatar('AT')
-
-      using_session(:second_browser) do
-        expect(page).to have_avatar('TA').changed!
-
+      perform_enqueued_jobs do
         within(:active_content) do
-          find('.js-textarea').send_keys('some other note')
+          find('.js-textarea').send_keys('some note')
 
           expect(page).to have_css('.js-reset')
         end
-      end
 
-      expect(page).to have_avatar('AT').changed!
+        expect(page).to have_avatar('AT')
 
-      using_session(:second_browser) do
+        using_session(:second_browser) do
+          expect(page).to have_avatar('TA').changed!
+
+          within(:active_content) do
+            find('.js-textarea').send_keys('some other note')
+
+            expect(page).to have_css('.js-reset')
+          end
+        end
+
+        expect(page).to have_avatar('AT').changed!
+
+        using_session(:second_browser) do
+          within(:active_content) do
+            click '.js-attributeBar .js-submit'
+
+            expect(page).to have_no_css('.js-reset')
+            expect(page).to have_css('.article-content', text: 'some other note')
+          end
+
+          expect(page).to have_avatar('TA').changed!
+        end
+
+        expect(page).to have_avatar('AT')
+        check_taskbar_tab(ticket.id, title: ticket.title, modified: true)
+
         within(:active_content) do
+          expect(page).to have_css('.article-content', text: 'some other note')
+
           click '.js-attributeBar .js-submit'
 
           expect(page).to have_no_css('.js-reset')
-          expect(page).to have_css('.article-content', text: 'some other note')
+          expect(page).to have_css('.article-content', text: 'some note')
         end
 
-        expect(page).to have_avatar('TA').changed!
-      end
+        using_session(:second_browser) do
+          expect(page).to have_avatar('TA')
 
-      expect(page).to have_avatar('AT')
-      check_taskbar_tab(ticket.id, title: ticket.title, modified: true)
+          expect(page).to have_css('.article-content', text: 'some note')
+          check_taskbar_tab(ticket.id, title: ticket.title, modified: true)
+        end
 
-      within(:active_content) do
-        expect(page).to have_css('.article-content', text: 'some other note')
-
-        click '.js-attributeBar .js-submit'
-
-        expect(page).to have_no_css('.js-reset')
-        expect(page).to have_css('.article-content', text: 'some note')
-      end
-
-      using_session(:second_browser) do
-        expect(page).to have_avatar('TA')
-
-        expect(page).to have_css('.article-content', text: 'some note')
-        check_taskbar_tab(ticket.id, title: ticket.title, modified: true)
-      end
-
-      # Reload browsers and check if state is correct.
-      refresh
-
-      using_session(:second_browser) do
+        # Reload browsers and check if state is correct.
         refresh
 
-        expect(page).to have_avatar('TA')
+        using_session(:second_browser) do
+          refresh
+
+          expect(page).to have_avatar('TA')
+          expect(page).to have_no_css('.js-reset')
+        end
+
+        expect(page).to have_avatar('AT')
         expect(page).to have_no_css('.js-reset')
       end
-
-      expect(page).to have_avatar('AT')
-      expect(page).to have_no_css('.js-reset')
     end
 
     it 'check refresh for unsaved changes and reset after refresh' do
-      using_session(:second_browser) do
-        within(:active_content) do
-          find('.js-textarea').send_keys('some other note')
+      perform_enqueued_jobs do
+        using_session(:second_browser) do
+          within(:active_content) do
+            find('.js-textarea').send_keys('some other note')
 
-          expect(page).to have_css('.js-reset')
+            expect(page).to have_css('.js-reset')
+          end
+
+          expect(page).to have_avatar('TA')
+
+          # We need to wait for the auto save feature.
+          wait.until do
+            Taskbar.find_by(key: "Ticket-#{ticket.id}", user_id: agent.id).state_changed?
+          end
+
+          refresh
         end
 
-        expect(page).to have_avatar('TA')
+        expect(page).to have_avatar('AT').changed!
 
-        # We need to wait for the auto save feature.
-        wait.until do
-          Taskbar.find_by(key: "Ticket-#{ticket.id}", user_id: agent.id).state_changed?
+        using_session(:second_browser) do
+          refresh
+
+          within(:active_content) do
+            click '.js-reset'
+            expect(page).to have_css('.js-textarea', text: '')
+          end
         end
 
-        refresh
+        expect(page).to have_avatar('AT')
       end
-
-      expect(page).to have_avatar('AT').changed!
-
-      using_session(:second_browser) do
-        refresh
-
-        within(:active_content) do
-          click '.js-reset'
-          expect(page).to have_css('.js-textarea', text: '')
-        end
-      end
-
-      expect(page).to have_avatar('AT')
     end
 
     it 'change title with second user' do
-      find('.js-textarea').send_keys('some note')
+      perform_enqueued_jobs do
+        find('.js-textarea').send_keys('some note')
 
-      using_session(:second_browser) do
-        find('.js-textarea').send_keys('some other note')
-        find('.ticketZoom-header .js-objectTitle').set('TTTsome level 2 <b>subject</b> 123äöü')
+        using_session(:second_browser) do
+          find('.js-textarea').send_keys('some other note')
+          find('.ticketZoom-header .js-objectTitle').set('TTTsome level 2 <b>subject</b> 123äöü')
 
-        # Click in the body field, to trigger the title update.
-        find('.js-textarea').send_keys('trigger title')
+          # Click in the body field, to trigger the title update.
+          find('.js-textarea').send_keys('trigger title')
+
+          expect(page).to have_css('.js-objectTitle', text: 'TTTsome level 2 <b>subject</b> 123äöü')
+
+          check_taskbar_tab(ticket.id, title: 'TTTsome level 2 <b>subject</b> 123äöü')
+
+          expect(page).to have_css('.js-textarea', text: 'some other note')
+        end
 
         expect(page).to have_css('.js-objectTitle', text: 'TTTsome level 2 <b>subject</b> 123äöü')
+        expect(page).to have_css('.js-textarea', text: 'some note')
 
-        check_taskbar_tab(ticket.id, title: 'TTTsome level 2 <b>subject</b> 123äöü')
+        check_taskbar_tab(ticket.id, title: 'TTTsome level 2 <b>subject</b> 123äöü', modified: true)
 
-        expect(page).to have_css('.js-textarea', text: 'some other note')
+        # Refresh and check that modified flag is gone
+        refresh
+        check_taskbar_tab(ticket.id, title: 'TTTsome level 2 <b>subject</b> 123äöü', modified: false)
       end
-
-      expect(page).to have_css('.js-objectTitle', text: 'TTTsome level 2 <b>subject</b> 123äöü')
-      expect(page).to have_css('.js-textarea', text: 'some note')
-
-      check_taskbar_tab(ticket.id, title: 'TTTsome level 2 <b>subject</b> 123äöü', modified: true)
-
-      # Refresh and check that modified flag is gone
-      refresh
-      check_taskbar_tab(ticket.id, title: 'TTTsome level 2 <b>subject</b> 123äöü', modified: false)
     end
   end
 
@@ -248,7 +258,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'does not show current user' do
-        expect(page).not_to have_avatar(user)
+        perform_enqueued_jobs do
+          expect(page).not_to have_avatar(user)
+        end
       end
     end
 
@@ -261,7 +273,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows another user' do
-        expect(page).to have_avatar(another_user).with_no_icon!
+        perform_enqueued_jobs do
+          expect(page).to have_avatar(another_user).with_no_icon!
+        end
       end
     end
 
@@ -274,7 +288,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows another user' do
-        expect(page).to have_avatar(another_user).with_icon(:mobile)
+        perform_enqueued_jobs do
+          expect(page).to have_avatar(another_user).with_icon(:mobile)
+        end
       end
     end
 
@@ -288,7 +304,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows another user' do
-        expect(page).to have_avatar(another_user).with_no_icon!
+        perform_enqueued_jobs do
+          expect(page).to have_avatar(another_user).with_no_icon!
+        end
       end
     end
 
@@ -301,7 +319,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows another user' do
-        expect(page).to have_avatar(another_user).with_icon(:pen).changed!
+        perform_enqueued_jobs do
+          expect(page).to have_avatar(another_user).with_icon(:pen).changed!
+        end
       end
     end
 
@@ -314,7 +334,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows another user' do
-        expect(page).to have_avatar(another_user).with_icon(:pen).changed!
+        perform_enqueued_jobs do
+          expect(page).to have_avatar(another_user).with_icon(:pen).changed!
+        end
       end
     end
 
@@ -327,7 +349,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows same user' do
-        expect(page).not_to have_avatar(user)
+        perform_enqueued_jobs do
+          expect(page).not_to have_avatar(user)
+        end
       end
     end
 
@@ -339,7 +363,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'do not show same user' do
-        expect(page).not_to have_avatar(user)
+        perform_enqueued_jobs do
+          expect(page).not_to have_avatar(user)
+        end
       end
     end
 
@@ -352,7 +378,9 @@ RSpec.describe 'Ticket > Update > Simultaneously with two different user', type:
       end
 
       it 'shows same user' do
-        expect(page).to have_avatar(user).with_icon(:'mobile-edit').changed!
+        perform_enqueued_jobs do
+          expect(page).to have_avatar(user).with_icon(:'mobile-edit').changed!
+        end
       end
     end
   end
