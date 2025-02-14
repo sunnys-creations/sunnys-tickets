@@ -47,6 +47,7 @@ const headerTitle = computed(() => {
 
 const state = ref<TwoFactorConfigurationType>('password_check')
 const componentOptions = ref<ObjectLike>()
+const token = ref()
 
 const { twoFactorMethodLookup } = useTwoFactorPlugins()
 
@@ -69,6 +70,7 @@ const handleActionPayload = (payload: TwoFactorConfigurationActionPayload) => {
   }
 
   state.value = payload.nextState
+  token.value = payload.token
   componentOptions.value = payload.options
 }
 
@@ -94,6 +96,7 @@ const onFooterButtonAction = () => {
       :is="activeComponent"
       ref="active-component"
       :type="type"
+      :token="token"
       :options="componentOptions"
       :form-submit-callback="handleActionPayload"
       :success-callback="successCallback"
