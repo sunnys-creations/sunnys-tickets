@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-12-06 12:55+0000\n"
+"PO-Revision-Date: 2025-02-19 08:55+0000\n"
 "Last-Translator: Martin Gruner <mg@zammad.com>\n"
 "Language-Team: Spanish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/es_CA/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -2680,9 +2680,8 @@ msgid ""
 "Automatically enrich your customers and organizations with fresh, up-to-date "
 "intel. Map data directly to object fields."
 msgstr ""
-"Automàticament enriqueix els teus clients i organitzacions amb "
-"intel·ligència fresca i actualitzada. Mapeja directament dades a camps "
-"objecte."
+"Automàticament enriqueix els teus clients i organitzacions amb intel·"
+"ligència fresca i actualitzada. Mapeja directament dades a camps objecte."
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:97
 msgid ""
@@ -3550,8 +3549,7 @@ msgstr "Checklist items are limited to 100 items per checklist."
 #: app/models/checklist.rb:100
 #, fuzzy
 msgid "Checklist template must be active to use as a checklist starting point."
-msgstr ""
-"Checklist template must be active to use as a checklist starting point."
+msgstr "Checklist template must be active to use as a checklist starting point."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
@@ -7710,8 +7708,7 @@ msgstr "Introdueix el teu usuari o correu electrònic."
 #: app/models/system_report/plugin/entities/counts.rb:4
 #, fuzzy
 msgid "Entity counts of database objects (e.g. ticket count, user count, etc.)"
-msgstr ""
-"Entity counts of database objects (e.g. ticket count, user count, etc.)"
+msgstr "Entity counts of database objects (e.g. ticket count, user count, etc.)"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_error_modal.coffee:6
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:165
@@ -9388,8 +9385,8 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"Quants dels teus tiquets provenen de l'email, teléfon, Twitter o Facebook? "
-"(Mostra els percentatges dels tiquets d'entrada i sortida)."
+"Quants dels teus tiquets provenen de l'email, teléfon, Twitter o Facebook? ("
+"Mostra els percentatges dels tiquets d'entrada i sortida)."
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
@@ -9816,8 +9813,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:22
 #, fuzzy
 msgid "In order for Zammad to access %s, the %s API token must be stored here:"
-msgstr ""
-"In order for Zammad to access %s, the %s API token must be stored here:"
+msgstr "In order for Zammad to access %s, the %s API token must be stored here:"
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:7
 msgid ""
@@ -18225,11 +18221,11 @@ msgid ""
 "g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
 "the directions under \"Web Server Configuration\" to complete the process."
 msgstr ""
-"L'URL per defecte de la teva Base de coneixement és, per exemple, example."
-"com o bé example.com/help. Per servir-ho a través d'una URL personalitzada, "
-"introdueix la destinació avall (p. ex. \"/soporte\", \"example.com\" o "
-"\"example.com/soporte\"). Posteriorment segueix les direccions sota \"Ẃeb "
-"Server Configuration\" per completar el procés"
+"L'URL per defecte de la teva Base de coneixement és, per exemple, "
+"example.com o bé example.com/help. Per servir-ho a través d'una URL "
+"personalitzada, introdueix la destinació avall (p. ex. \"/soporte\", "
+"\"example.com\" o \"example.com/soporte\"). Posteriorment segueix les "
+"direccions sota \"Ẃeb Server Configuration\" per completar el procés"
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -18985,8 +18981,7 @@ msgstr "The required value 'group_id' is missing."
 #: app/controllers/channels_twitter_controller.rb:54
 #, fuzzy
 msgid "The required value external_credential could not be found in the cache."
-msgstr ""
-"The required value external_credential could not be found in the cache."
+msgstr "The required value external_credential could not be found in the cache."
 
 #: app/controllers/ticket_articles_controller.rb:263
 #, fuzzy
@@ -19140,8 +19135,8 @@ msgid ""
 "The text at the beginning of the subject in an email reply, e.g. RE, AW, or "
 "AS."
 msgstr ""
-"El text al començament de l'assumpte en una respota de correu electrònic,  e."
-"g. RE, AW, or AS."
+"El text al començament de l'assumpte en una respota de correu electrònic,  "
+"e.g. RE, AW, or AS."
 
 #: app/services/service/ticket/update/validator/checklist_completed.rb:16
 #, fuzzy
@@ -19246,8 +19241,7 @@ msgstr "Objecte %s han sigut creats."
 #: lib/external_credential/microsoft365.rb:51
 #, fuzzy
 msgid "The user's 'preferred_username' could not be extracted from 'id_token'."
-msgstr ""
-"The user's 'preferred_username' could not be extracted from 'id_token'."
+msgstr "The user's 'preferred_username' could not be extracted from 'id_token'."
 
 #: app/controllers/sessions_controller.rb:235
 #: app/graphql/gql/mutations/two_factor_method_initiate_authentication.rb:29
@@ -19290,8 +19284,7 @@ msgstr ""
 #: lib/telegram_helper.rb:35
 #, fuzzy
 msgid "The webhook could not be saved by Telegram, seems to be an invalid URL."
-msgstr ""
-"The webhook could not be saved by Telegram, seems to be an invalid URL."
+msgstr "The webhook could not be saved by Telegram, seems to be an invalid URL."
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:98
 #, fuzzy
@@ -19486,8 +19479,7 @@ msgstr "trobats"
 #: lib/secure_mailing/pgp/security_options.rb:76
 #, fuzzy
 msgid "There were PGP keys found for %s, but at least one of them has expired."
-msgstr ""
-"There were PGP keys found for %s, but at least one of them has expired."
+msgstr "There were PGP keys found for %s, but at least one of them has expired."
 
 #: lib/secure_mailing/smime/security_options.rb:66
 #, fuzzy
@@ -20748,8 +20740,8 @@ msgstr ""
 #: app/assets/javascripts/app/models/text_module.coffee:25
 msgid "To select placeholders from a list, just enter \"::\"."
 msgstr ""
-"Per seleccionar marcadors de posició d'una llista, solament introdueix \"::"
-"\"."
+"Per seleccionar marcadors de posició d'una llista, solament introdueix \"::\""
+"."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:2
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:194
@@ -22456,8 +22448,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Amb |Data| els números de tiquet seran generats amb l'actual data, el "
-"SystemID i un comptador. El format s'assemba a \"Year.Month.Day.SystemID."
-"Counter\" (p. e. 201206231010138, 201206231010139)."
+"SystemID i un comptador. El format s'assemba a "
+"\"Year.Month.Day.SystemID.Counter\" (p. e. 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47

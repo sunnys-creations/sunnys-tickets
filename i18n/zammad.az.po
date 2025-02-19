@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-04-16 09:28+0000\n"
+"PO-Revision-Date: 2025-02-19 08:59+0000\n"
 "Last-Translator: IT SMBDA <it@smb.gov.az>\n"
 "Language-Team: Azerbaijani <https://translations.zammad.org/projects/zammad/"
-"zammad-development/az/>\n"
+"zammad-stable/az/>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -609,8 +609,8 @@ msgid ""
 "the **Accounted Time** tab."
 msgstr ""
 "**Əməliyyat növləri** biletlərdə müxtəlif vaxt qeydlərini birlikdə "
-"qruplaşdırmaq üçün istifadə edilə bilər.Məsələn, \"Qəbzin təqdim edilməsi "
-"\"tipinə aid qeydlər.\n"
+"qruplaşdırmaq üçün istifadə edilə bilər.Məsələn, \"Qəbzin təqdim edilməsi \""
+"tipinə aid qeydlər.\n"
 "\n"
 "Fəaliyyət növü girişini aktivləşdirdiyiniz zaman istifadəçilər həmin "
 "siyahıdan növü seçə biləcəklər.Bundan əlavə, müvafiq fəaliyyət növü olan bir "
@@ -805,8 +805,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:156
 msgid "A powerful service to get more information about your customers."
-msgstr ""
-"Müştərilər barədə haqqında daha ətraflı məlumatın alınması üçün xidmət."
+msgstr "Müştərilər barədə haqqında daha ətraflı məlumatın alınması üçün xidmət."
 
 #: app/assets/javascripts/app/controllers/_integration/cti.coffee:208
 #, fuzzy
@@ -1504,8 +1503,8 @@ msgstr ""
 "\n"
 "<div>Salam #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Sizin üçün inzibati giriş daxil etmək üçün bir sorğu aldıq #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>Sizin üçün inzibati giriş daxil etmək üçün bir sorğu aldıq "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Davam etmək üçün aşağıdakı linki klikləyin(və ya URL-i brauzerinizə "
 "kopyalayın əlavə edin):</div>\n"
@@ -1638,9 +1637,9 @@ msgid ""
 "history entry preserved. There is no rollback of this deletion possible."
 msgstr ""
 "Bu tapşırığın başlaması ilə, təsirə məruz qalan bütün biletlər silinmək üçün "
-"qeyd ediləcəkdir.Məlumat gizliliyi təminatı tapşırığı yerinə yetirildikdə,"
-"biletlər silinəcək və tarix qeyd olunacaq. Bu silmənin geri qaytarılması "
-"mümkün deyil."
+"qeyd ediləcəkdir.Məlumat gizliliyi təminatı tapşırığı yerinə "
+"yetirildikdə,biletlər silinəcək və tarix qeyd olunacaq. Bu silmənin geri "
+"qaytarılması mümkün deyil."
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:129
 msgid ""
@@ -1715,8 +1714,7 @@ msgstr "İstifadəçilərə yeni teglər yaratmağa icazə ver."
 
 #: db/seeds/settings.rb:1163
 msgid "Allow using one email address for multiple users."
-msgstr ""
-"Birdən çox istifadəçi üçün bir e-poçt ünvanının istifadəsinə icazə ver."
+msgstr "Birdən çox istifadəçi üçün bir e-poçt ünvanının istifadəsinə icazə ver."
 
 #: app/assets/javascripts/app/models/chat.coffee:255
 msgid "Allow websites (separated by ;)"
@@ -2979,8 +2977,7 @@ msgstr "Xarici məlumat mənbəyini emal etmək mümkün deyil %s. %s"
 
 #: app/frontend/apps/mobile/pages/online-notification/views/NotificationsList.vue:71
 msgid "Cannot set online notifications as seen"
-msgstr ""
-"Şəkildə göstərildiyi kimi onlayn bildirişlər konfiqurasiya edilə bilməz"
+msgstr "Şəkildə göstərildiyi kimi onlayn bildirişlər konfiqurasiya edilə bilməz"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
 msgid "Cannot upload file"
@@ -3311,8 +3308,7 @@ msgstr "Yeni şifrənizi seçin."
 #: app/assets/javascripts/app/views/after_auth/two_factor_configuration.jst.eco:7
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:46
 msgid "Choose your preferred two-factor authentication method to set it up."
-msgstr ""
-"İki faktorlu identifikasiya üçün üstünlük verdiyiniz metodu təyin edin."
+msgstr "İki faktorlu identifikasiya üçün üstünlük verdiyiniz metodu təyin edin."
 
 #: app/assets/javascripts/app/models/user.coffee:332
 msgid "Christmas holiday"
@@ -3681,13 +3677,13 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"Hesabınızı təsdiq edin #{config.product_name} , #{user.firstname} #{user."
-"lastname}\n"
+"Hesabınızı təsdiq edin #{config.product_name} , #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Salam #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Qeydiyyatı tamamlamaq üçün e-poçt adresinizi təsdiqləyin #{config."
-"product_name} hesab.Sadəcə aşağıdakı linkə klikləyin.</div>\n"
+"<div>Qeydiyyatı tamamlamaq üçün e-poçt adresinizi təsdiqləyin "
+"#{config.product_name} hesab.Sadəcə aşağıdakı linkə klikləyin.</div>\n"
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
@@ -4137,13 +4133,13 @@ msgstr ""
 "* Salam #{ticket.customer.firstname},\n"
 "* Mənim adım #{user.firstname},\n"
 "\n"
-"Təbii ki, çoxsətrli fraqmentləri mətn hissələrindən istifadə edə "
-"bilərsiniz.\n"
+"Təbii ki, çoxsətrli fraqmentləri mətn hissələrindən istifadə edə bilərsiniz."
+"\n"
 "\n"
 "Mövcud obyektlər:\n"
 "* ticket (məsələn, ticket.state, ticket.group)\n"
-"* ticket.customer (məsələn, ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (məsələn, ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (məsələn, ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (məsələn, ticket.organization.name)\n"
 "* user (məsələn, user.firstname, user.email)\n"
@@ -4996,8 +4992,7 @@ msgstr "Slack (http://www.slack.org) aktiv olub olmadığını müəyyənləşdi
 
 #: db/seeds/settings.rb:2852
 msgid "Defines if a customer can create tickets via the web interface."
-msgstr ""
-"Veb interfeys vasitəsilə sorğuların yaradılma imkanını müəyyənləşdirir."
+msgstr "Veb interfeys vasitəsilə sorğuların yaradılma imkanını müəyyənləşdirir."
 
 #: db/seeds/settings.rb:20
 #, fuzzy
@@ -5019,8 +5014,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:5100
 msgid "Defines if generic CTI integration is enabled or not."
-msgstr ""
-"CTI ilə universal inteqrasiyanın aktiv olub olmadığını müəyyənləşdirir."
+msgstr "CTI ilə universal inteqrasiyanın aktiv olub olmadığını müəyyənləşdirir."
 
 #: db/seeds/settings.rb:5713
 #, fuzzy
@@ -5622,8 +5616,7 @@ msgstr ""
 #: db/seeds/settings.rb:2631
 msgid ""
 "Defines the warning message that is shown when a matching ticket is present."
-msgstr ""
-"Uyğun müraciət olduğu halda göstərilən xəbərdarlıq mesajını təyin edir."
+msgstr "Uyğun müraciət olduğu halda göstərilən xəbərdarlıq mesajını təyin edir."
 
 #: db/seeds/settings.rb:2614
 msgid ""
@@ -6295,8 +6288,7 @@ msgstr "Şəkil faylı buraya sürüşdürün"
 
 #: app/assets/javascripts/app/controllers/login.coffee:26
 msgid "Due to inactivity, you have been automatically logged out."
-msgstr ""
-"Fəaliyyətsizlik səbəbinə görə, avtomatik olaraq sistemdən çıxarıldınız."
+msgstr "Fəaliyyətsizlik səbəbinə görə, avtomatik olaraq sistemdən çıxarıldınız."
 
 #: app/assets/javascripts/app/controllers/_plugin/session_timeout.coffee:99
 msgid ""
@@ -6888,8 +6880,7 @@ msgstr "LinkedIn vasitəsilə istifadəçinin autentifikasiyasını aktivləşdi
 
 #: db/seeds/settings.rb:1749
 msgid "Enables user authentication via Microsoft 365."
-msgstr ""
-"Microsoft 365 vasitəsilə istifadəçinin autentifikasiyasını aktivləşdir."
+msgstr "Microsoft 365 vasitəsilə istifadəçinin autentifikasiyasını aktivləşdir."
 
 #: db/seeds/settings.rb:1882
 msgid "Enables user authentication via SAML."
@@ -8505,8 +8496,8 @@ msgid ""
 msgstr ""
 "Bu bölmədə müraciətləri, müştəriləri və təşkilatları axtara bilərsiniz. "
 "Məsələn, §*§ simvolunu istifadə edin §smi*§ və ya §rosent*l§ tapmaq üçün. "
-"Həmçinin, ifadə axtarmaq üçün ||dırnaq|| istifadə edə bilərsiniz: §\"hər "
-"hansı ifadə\"§."
+"Həmçinin, ifadə axtarmaq üçün ||dırnaq|| istifadə edə bilərsiniz: §"
+"\"hər hansı ifadə\"§."
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -8671,8 +8662,8 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"Biletlərinizin neçəsi e-poçt, telefon, Twitter və ya Facebook-dan gəlir? "
-"(Gələn və gedən sorğuların faiz dərəcəsini göstərir.)"
+"Biletlərinizin neçəsi e-poçt, telefon, Twitter və ya Facebook-dan gəlir? ("
+"Gələn və gedən sorğuların faiz dərəcəsini göstərir.)"
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
@@ -9025,8 +9016,8 @@ msgid ""
 "Import as regular: |Notifications are sent| and the |tickets are open| - you "
 "can find the tickets in the overview of open tickets."
 msgstr ""
-"Həmişə olduğu kimi idxal edin: |Bildirişlər göndərildi| və |biletlər "
-"açıqdır| - açıq biletləri baxış bölməsində tapa bilərsiniz."
+"Həmişə olduğu kimi idxal edin: |Bildirişlər göndərildi| və |biletlər açıqdır|"
+" - açıq biletləri baxış bölməsində tapa bilərsiniz."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:216
 msgid "Import finished successfully!"
@@ -11517,8 +11508,8 @@ msgstr ""
 "\n"
 "<div > Salam #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>yeni bilet  (#{ticket.title}) istifadəçi tərəfindən "
-"yaradılmışdır\"<b>#{current_user.longname}</b>\".</div>\n"
+"<div>yeni bilet  (#{ticket.title}) istifadəçi tərəfindən yaradılmışdır\""
+"<b>#{current_user.longname}</b>\".</div>\n"
 "<br>\n"
 "<div>\n"
 "Qrup: #{ticket.group.name}<br>\n"
@@ -11866,8 +11857,8 @@ msgid ""
 "No webhook available, please create a new one or activate an existing one at "
 "\"Manage > Webhook\""
 msgstr ""
-"Əlçatan webhook yoxdur, lütfən yenisini yaradın və ya mövcud olanı \"Manage "
-"> Webhook\" bölməsində aktivləşdirin."
+"Əlçatan webhook yoxdur, lütfən yenisini yaradın və ya mövcud olanı "
+"\"Manage > Webhook\" bölməsində aktivləşdirin."
 
 #: app/models/channel/email_parser.rb:119
 msgid "No x-zammad-session-user-id, no sender set!"
@@ -13091,8 +13082,8 @@ msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
 msgstr ""
-"Zəhmət olmasa istifadə etmək üçün execution_time funksiyasını aktivləşdirin "
-"(hazırda yalnız tətikləyicilər və planlaşdırıcılar üçün icazə verilir)."
+"Zəhmət olmasa istifadə etmək üçün execution_time funksiyasını aktivləşdirin ("
+"hazırda yalnız tətikləyicilər və planlaşdırıcılar üçün icazə verilir)."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 msgid "Please enter a text."
@@ -16689,8 +16680,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Choose your preferred two-factor authentication method to set it up."
 msgid "The given two-factor authentication method is not configured."
-msgstr ""
-"İki faktorlu identifikasiya üçün üstünlük verdiyiniz metodu təyin edin."
+msgstr "İki faktorlu identifikasiya üçün üstünlük verdiyiniz metodu təyin edin."
 
 #: app/services/service/user/two_factor/set_default_method.rb:14
 #, fuzzy

@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-02-19 08:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Kinyarwanda <https://translations.zammad.org/projects/zammad/"
+"zammad-stable/rw/>\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -883,8 +886,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/dashboard/first_steps_test_ticket_finish.jst.eco:1
 msgid ""
 "A test ticket has been created, you can find it in your overview \"%s\" %l."
-msgstr ""
-"itike yo kugerageza yakozwe. Ushobora kuyibona mu ncamake yawe \"%s\"%|"
+msgstr "itike yo kugerageza yakozwe. Ushobora kuyibona mu ncamake yawe \"%s\"%|"
 
 #: app/models/ticket.rb:276
 #, fuzzy
@@ -7399,8 +7401,8 @@ msgstr ""
 "Buri kiciro cyose mu bubiko bwúbumenyi kigombwa guhabwa ishushondanga "
 "kihariye kugira ngo kigaragare neza. Buri gice gikurikira gitanga urutonde "
 "runini rw’amashushondanga kugira ngo uhitemo, ariko witondere-ntushobora "
-"kuvanga no guhuza amashushondanga atandukanye uhereye kuyagenwe "
-"atandukanye-. Hitamo witonze !"
+"kuvanga no guhuza amashushondanga atandukanye uhereye kuyagenwe atandukanye-"
+". Hitamo witonze !"
 
 #: app/assets/javascripts/app/models/trigger.coffee
 msgid ""
@@ -8838,8 +8840,8 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"ni amatike angahe yawe yaturutse kuri imeri, telefoni, twittwe, Facebook?"
-"(Garagaza amajanisha ku matike yaturutse imbere no hanze)"
+"ni amatike angahe yawe yaturutse kuri imeri, telefoni, twittwe, Facebook?("
+"Garagaza amajanisha ku matike yaturutse imbere no hanze)"
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
@@ -21139,9 +21141,9 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Hamwe n’itariki, nomero z’amatike zizakorwa ku uhereye ku itariki y’ubu, "
-"umwirondoro w'ihuzanzira na mubazi. Imiterere isa na “ Umwaka.ukwezi.umunsi."
-"umwirondoro w'ihuzanzira y’ikirango.mubazi” (urugero: 201206231010138, "
-"201206231010139)"
+"umwirondoro w'ihuzanzira na mubazi. Imiterere isa na “ "
+"Umwaka.ukwezi.umunsi.umwirondoro w'ihuzanzira y’ikirango.mubazi” (urugero: "
+"201206231010138, 201206231010139)"
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -23388,8 +23390,8 @@ msgid ""
 "used with \"SystemID.Counter\" format (e.g. 1010138, 1010139)."
 msgstr ""
 "[Kongera]: Yongera numero y'itike. Ikiranga umwirondora w'ihuzanzira na "
-"mubazi bikoreshwa mu mwirondoro w'ihuzanzira .uko mubazi iteye "
-"mubazi\"(Urugero: 1010138,1010139)"
+"mubazi bikoreshwa mu mwirondoro w'ihuzanzira .uko mubazi iteye mubazi\""
+"(Urugero: 1010138,1010139)"
 
 #: app/assets/javascripts/app/views/settings/ticket_hook_position.jst.eco:6
 msgid "|Left| means |[Ticket#12345] Some Subject|"

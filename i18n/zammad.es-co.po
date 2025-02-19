@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-04 03:30+0000\n"
+"PO-Revision-Date: 2025-02-19 08:55+0000\n"
 "Last-Translator: Spiteful Grog <kev_2108@outlook.com>\n"
 "Language-Team: Spanish (Colombia) <https://translations.zammad.org/projects/"
-"zammad/zammad-development/es_CO/>\n"
+"zammad/zammad-stable/es_CO/>\n"
 "Language: es-co\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -59,11 +59,11 @@ msgid ""
 "compatible object filesystem. You can switch between the modules even on a "
 "system that is already in production without any loss of data."
 msgstr ""
-"\"Base de datos\" almacena todos los archivos adjuntos en la base de datos "
-"(no recomendado para almacenar grandes cantidades de datos). \"Sistema de "
-"archivos\" almacena los datos en el sistema de archivos. Puede cambiar entre "
-"los módulos incluso en un sistema que ya está en producción sin pérdida de "
-"datos."
+"\"Base de datos\" almacena todos los archivos adjuntos en la base de datos ("
+"no recomendado para almacenar grandes cantidades de datos). "
+"\"Sistema de archivos\" almacena los datos en el sistema de archivos. Puede "
+"cambiar entre los módulos incluso en un sistema que ya está en producción "
+"sin pérdida de datos."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -328,8 +328,8 @@ msgstr "Archivos adjuntos"
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:39
 msgid "%s completed data privacy task to delete user ID |%s|"
 msgstr ""
-"%s tarea de privacidad de datos completada para eliminar la ID de usuario |"
-"%s|"
+"%s tarea de privacidad de datos completada para eliminar la ID de usuario "
+"|%s|"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:49
 #: app/frontend/shared/components/ActivityMessage/builders/ticket-article.ts:26
@@ -2967,8 +2967,7 @@ msgstr "CC"
 
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:112
 msgid "CMDB to document complex relations of your network components."
-msgstr ""
-"CMDB para documentar relaciones complejas de los componentes de su red."
+msgstr "CMDB para documentar relaciones complejas de los componentes de su red."
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:73
 msgid ""
@@ -4164,8 +4163,7 @@ msgstr "Artículo"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:356
 msgid "Copy current object number (e. g. Ticket#) to clipboard"
-msgstr ""
-"Copie el número de objeto actual (por ejemplo, Ticket#) al portapapeles"
+msgstr "Copie el número de objeto actual (por ejemplo, Ticket#) al portapapeles"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader.vue:66
 #, fuzzy
@@ -4387,10 +4385,10 @@ msgstr ""
 "\n"
 "Los objetos disponibles son:\n"
 "* ticket (por ejemplo, ticket.state, ticket.group)\n"
-"* ticket.cliente (por ejemplo, ticket.customer.firstname, ticket.customer."
-"lastname)\n"
-"* ticket.propietario (por ejemplo, ticket.propietario.nombre, ticket."
-"propietario.apellido)\n"
+"* ticket.cliente (por ejemplo, ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
+"* ticket.propietario (por ejemplo, ticket.propietario.nombre, "
+"ticket.propietario.apellido)\n"
 "* ticket.organización (por ejemplo, ticket.organization.name)\n"
 "* usuario (por ejemplo, usuario.nombre, usuario.correo electrónico)\n"
 "\n"
@@ -5804,8 +5802,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:120
 msgid "Defines the logo of the application, shown in the web interface."
-msgstr ""
-"Define el logotipo de la aplicación, que se muestra en la interfaz web."
+msgstr "Define el logotipo de la aplicación, que se muestra en la interfaz web."
 
 #: db/seeds/settings.rb:3169
 msgid "Defines the maximum accepted email size in MB."
@@ -5899,8 +5896,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:2904
 msgid "Defines the tab behaviour after a ticket action."
-msgstr ""
-"Define el comportamiento de la pestaña después de una acción de ticket."
+msgstr "Define el comportamiento de la pestaña después de una acción de ticket."
 
 #: db/seeds/settings.rb:2699
 #, fuzzy
@@ -5955,8 +5951,8 @@ msgid ""
 "Defines the transaction backend which posts messages to Slack (http://www."
 "slack.com)."
 msgstr ""
-"Define el backend de transacciones que publica mensajes en Slack (http://www."
-"slack.com)."
+"Define el backend de transacciones que publica mensajes en Slack "
+"(http://www.slack.com)."
 
 #: db/seeds/settings.rb:5277
 msgid ""
@@ -8955,8 +8951,8 @@ msgid ""
 "quotation marks|| for searching phrases: §\"some phrase\"§."
 msgstr ""
 "Aquí puede buscar entradas, clientes y organizaciones. Use el asterisco §*§ "
-"para encontrar cualquier cosa, p. §smi*§ o §rosent*l§. También puede usar ||"
-"comillas|| para buscar frases: §\"alguna frase\"§."
+"para encontrar cualquier cosa, p. §smi*§ o §rosent*l§. También puede usar "
+"||comillas|| para buscar frases: §\"alguna frase\"§."
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -9302,8 +9298,8 @@ msgid ""
 "If you want to open the chat by clicking a button, set the option §show§ to "
 "§false§ and add the class §open-zammad-chat§ to the button."
 msgstr ""
-"Si desea abrir el chat haciendo clic en un botón, establezca la opción "
-"§show§ en §false§ y agregue la clase §open-zammad-chat§ al botón."
+"Si desea abrir el chat haciendo clic en un botón, establezca la opción §show§"
+" en §false§ y agregue la clase §open-zammad-chat§ al botón."
 
 #: app/assets/javascripts/app/views/getting_started/email_pre_configured.jst.eco:13
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmailPreConfigured.vue:73
@@ -10550,8 +10546,7 @@ msgstr "Cargando…"
 
 #: lib/email_helper.rb:26
 msgid "Local MTA (Sendmail/Postfix/Exim/…) - use server setup"
-msgstr ""
-"MTA local (Sendmail/Postfix/Exim/…) - use la configuración del servidor"
+msgstr "MTA local (Sendmail/Postfix/Exim/…) - use la configuración del servidor"
 
 #: app/assets/javascripts/app/models/job.coffee:13
 #: app/assets/javascripts/app/models/trigger.coffee:12 db/seeds/settings.rb:163
@@ -14246,8 +14241,8 @@ msgid ""
 "Records that exist in the import data (but not in Zammad) will always be "
 "created."
 msgstr ""
-"Siempre se crearán los registros que existen en los datos de importación "
-"(pero no en Zammad)."
+"Siempre se crearán los registros que existen en los datos de importación ("
+"pero no en Zammad)."
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_login/method/recovery_codes.coffee:2
 #: app/frontend/apps/desktop/pages/authentication/components/LoginRecoveryCode.vue:33
@@ -15858,8 +15853,7 @@ msgstr "Seguridad"
 #: app/assets/javascripts/app/views/getting_started/channel.jst.eco:7
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannels.vue:32
 msgid "Set up the communication channels you want to use with your Zammad."
-msgstr ""
-"Configure los canales de comunicación que desea utilizar con su Zammad."
+msgstr "Configure los canales de comunicación que desea utilizar con su Zammad."
 
 #: app/assets/javascripts/app/controllers/after_auth/two_factor_configuration.coffee:2
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal.coffee:6
@@ -16083,8 +16077,7 @@ msgstr "Descripciones"
 #, fuzzy
 #| msgid "Enable time accounting for following matching tickets."
 msgid "Show time accounting dialog when updating matching tickets."
-msgstr ""
-"Habilitar el conteo de tiempo para los siguientes tickets coincidentes."
+msgstr "Habilitar el conteo de tiempo para los siguientes tickets coincidentes."
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:82
 msgid "Show title in form."
@@ -17577,8 +17570,8 @@ msgstr ""
 "La URL predeterminada para su base de conocimientos es, p. ejemplo.com o "
 "ejemplo.com/ayuda. Para publicarlo desde una URL personalizada, ingrese el "
 "destino a continuación (por ejemplo, \"/support\", \"example.com\" o "
-"\"example.com/support\"). Luego, siga las instrucciones en \"Configuración "
-"del servidor web\" para completar el proceso."
+"\"example.com/support\"). Luego, siga las instrucciones en "
+"\"Configuración del servidor web\" para completar el proceso."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -20009,8 +20002,8 @@ msgid ""
 "To enable %s for sending HTTP requests to %s, you need to create a "
 "designated \"notification rule\" in %s."
 msgstr ""
-"Para habilitar %s para enviar solicitudes HTTP a %s, debe crear una \"regla "
-"de notificación\" designada en %s."
+"Para habilitar %s para enviar solicitudes HTTP a %s, debe crear una "
+"\"regla de notificación\" designada en %s."
 
 #: app/assets/javascripts/app/views/whatsapp/account_phone_number.jst.eco:41
 msgid "To find out more about the 24-hour customer service window see %l."
@@ -21711,8 +21704,9 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Con |Fecha| los números de boleto serán generados por la fecha actual, el "
-"SystemID y el mostrador. El formato será \"Año.Mes.Día.ID del sistema."
-"Contador\" (por ejemplo, 201206231010138, 201206231010139)."
+"SystemID y el mostrador. El formato será "
+"\"Año.Mes.Día.ID del sistema.Contador\" (por ejemplo, 201206231010138, "
+"201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -22138,8 +22132,8 @@ msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
 msgstr ""
-"Usó %s en el texto pero no se pudo encontrar ningún archivo adjunto. "
-"¿Quieres continuar?"
+"Usó %s en el texto pero no se pudo encontrar ningún archivo adjunto. ¿"
+"Quieres continuar?"
 
 #: app/assets/javascripts/app/views/login.jst.eco:96
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:170

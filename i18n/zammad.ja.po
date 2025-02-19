@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-02-19 08:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Japanese <https://translations.zammad.org/projects/zammad/"
+"zammad-stable/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -388,9 +391,8 @@ msgstr "%s 前"
 msgid ""
 "%s email(s) were found in your mailbox. They will all be moved from your "
 "mailbox into Zammad."
-msgstr ""
-"あなたのメールボックスには、すでに %s 通のメールがあります。 Zammad は全てあ"
-"なたのメールボックスから、Zammad に移動します。"
+msgstr "あなたのメールボックスには、すでに %s 通のメールがあります。 Zammad "
+"は全てあなたのメールボックスから、Zammad に移動します。"
 
 #: app/assets/javascripts/app/models/user.coffee:222
 #: app/frontend/shared/components/ActivityMessage/builders/user.ts:33
@@ -847,9 +849,8 @@ msgstr ""
 msgid ""
 "A new session was created with your account. This session will be stopped to "
 "prevent a conflict."
-msgstr ""
-"あなたのアカウントで、新規セッションが作成されました。 このセッションは、衝突"
-"をさけるために停止されます。"
+msgstr "あなたのアカウントで、新規セッションが作成されました。 "
+"このセッションは、衝突をさけるために停止されます。"
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:116
 msgid "A new version of Zammad is available, please reload your browser."
@@ -879,8 +880,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/dashboard/first_steps_test_ticket_finish.jst.eco:1
 msgid ""
 "A test ticket has been created, you can find it in your overview \"%s\" %l."
-msgstr ""
-"テストチケットが生成されました。概要の\"%s\" %lでこれを見ることができます。"
+msgstr "テストチケットが生成されました。概要の\"%s\" %lでこれを見ることができます。"
 
 #: app/models/ticket.rb:276
 #, fuzzy
@@ -1715,14 +1715,12 @@ msgstr ""
 #| "All computers and browsers that have access to your Zammad appear here."
 msgid ""
 "All computers and browsers from which you logged in to Zammad appear here."
-msgstr ""
-"あなたのZammadにアクセスできる全てのコンピューターとブラウザーが、ここに表示"
+msgstr "あなたのZammadにアクセスできる全てのコンピューターとブラウザーが、ここに表示"
 "されます。"
 
 #: app/assets/javascripts/app/views/profile/devices.jst.eco:7
 msgid "All computers and browsers that have access to your Zammad appear here."
-msgstr ""
-"あなたのZammadにアクセスできる全てのコンピューターとブラウザーが、ここに表示"
+msgstr "あなたのZammadにアクセスできる全てのコンピューターとブラウザーが、ここに表示"
 "されます。"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:38
@@ -2233,8 +2231,7 @@ msgstr "割当てのタイムアウト"
 msgid ""
 "Assignment timeout in minutes if assigned agent is not working on it. Ticket "
 "will be shown as unassigend."
-msgstr ""
-"割り当てたエージェントが対応していない場合は、割当てが数分でタイムアウトしま"
+msgstr "割り当てたエージェントが対応していない場合は、割当てが数分でタイムアウトしま"
 "す。 チケットは未割り当てとして表示されます。"
 
 #: app/models/user.rb:617
@@ -2523,17 +2520,15 @@ msgstr ""
 msgid ""
 "Automatically enrich your customers and organizations with fresh, up-to-date "
 "intel. Map data directly to object fields."
-msgstr ""
-"新鮮で最新の情報で顧客や組織を自動的に豊かにします。データをオブジェクト"
-"フィールドに直接マッピングします。"
+msgstr "新鮮で最新の情報で顧客や組織を自動的に豊かにします。データをオブジェクトフィ"
+"ールドに直接マッピングします。"
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:97
 msgid ""
 "Automatically loads the chat.css file. If you want to use your own css, just "
 "set it to false."
-msgstr ""
-"自動的にchat.cssファイルを読み込みます。 独自のCSSを使用する場合は、falseに設"
-"定します。"
+msgstr "自動的にchat.cssファイルを読み込みます。 "
+"独自のCSSを使用する場合は、falseに設定します。"
 
 #: app/frontend/shared/components/Form/Form.vue:1288
 msgid "Autosave in progress…"
@@ -2798,8 +2793,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/generic/object_import/index.jst.eco:5
 msgid "Bulk import allows you to create and update many records at once."
-msgstr ""
-"一括インポートを使用すると、多数のレコードを一度に作成および更新できます。"
+msgstr "一括インポートを使用すると、多数のレコードを一度に作成および更新できます。"
 
 #: app/assets/javascripts/app/models/calendar.coffee:9
 #: app/assets/javascripts/app/views/calendar/index.jst.eco:41
@@ -2821,9 +2815,9 @@ msgid ""
 "setting lets you add more fields for which the follow-up check will be "
 "executed."
 msgstr ""
-"初期設定としてメールタイトルからのフォローアップチェックが有効になっていま"
-"す。この設定によって追加のフォローアップチェックをどの項目で有効にするのか設"
-"定することができます。"
+"初期設定としてメールタイトルからのフォローアップチェックが有効になっています"
+"。この設定によって追加のフォローアップチェックをどの項目で有効にするのか設定"
+"することができます。"
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:121
 msgid ""
@@ -2860,8 +2854,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:112
 msgid "CMDB to document complex relations of your network components."
-msgstr ""
-"ネットワークコンポーネントの複雑な関係を情報管理できるようにする構成管理デー"
+msgstr "ネットワークコンポーネントの複雑な関係を情報管理できるようにする構成管理デー"
 "タベース(CMDB)"
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:73
@@ -2872,9 +2865,8 @@ msgstr ""
 msgid ""
 "CSS font-size with a unit like 12px, 1.5em. If left undefined it inherits "
 "the font-size of the website."
-msgstr ""
-"12px、1.5emのような単位のCSSフォントサイズ。 定義されていない場合は、ウェブサ"
-"イトのフォントサイズを継承します。"
+msgstr "12px、1.5emのような単位のCSSフォントサイズ。 "
+"定義されていない場合は、ウェブサイトのフォントサイズを継承します。"
 
 #: app/assets/javascripts/app/controllers/cti.coffee:134
 msgid "CTI"
@@ -4359,8 +4351,7 @@ msgstr ""
 #: app/assets/javascripts/app/models/sla.coffee:7
 msgid ""
 "Create rules that single out the tickets for the Service Level Agreement."
-msgstr ""
-"サービス内容契約（SLA）についてのチケットを選び出すルールを生成します。"
+msgstr "サービス内容契約（SLA）についてのチケットを選び出すルールを生成します。"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldTags/FieldTagsDialog.vue:156
 #, fuzzy
@@ -4856,8 +4847,7 @@ msgstr "デフォルトの呼出しID。"
 msgid ""
 "Define an exception of \"automatic assignment\" for certain users (e.g. "
 "executives)."
-msgstr ""
-"特定のユーザー（例：エグゼクティブ）の「自動割り当て」の例外を定義します。"
+msgstr "特定のユーザー（例：エグゼクティブ）の「自動割り当て」の例外を定義します。"
 
 #: db/seeds/settings.rb:3572
 msgid "Define max. attachment size for Elasticsearch."
@@ -5040,9 +5030,8 @@ msgstr ""
 msgid ""
 "Defines groups for which a customer can create tickets via web interface. No "
 "selection means all groups are available."
-msgstr ""
-"ウェブ画面で、チケット作成を許可するグループを指定します。 \"-\" はすべてのグ"
-"ループに対して許可します。"
+msgstr "ウェブ画面で、チケット作成を許可するグループを指定します。 \"-\" "
+"はすべてのグループに対して許可します。"
 
 #: db/seeds/settings.rb:3119
 msgid ""
@@ -5240,8 +5229,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:4378
 msgid "Defines if tickets should be closed if service is recovered."
-msgstr ""
-"サービスが復旧した場合、チケットがクローズされるべきかどうかを定義します。"
+msgstr "サービスが復旧した場合、チケットがクローズされるべきかどうかを定義します。"
 
 #: db/seeds/settings.rb:4248
 msgid "Defines postmaster filter for filters managed via admin interface."
@@ -5437,8 +5425,7 @@ msgstr "日付の形式を定義します。"
 msgid ""
 "Defines the backend for geo IP lookups. Also shows location of an IP address "
 "if it is traceable."
-msgstr ""
-"ジオロケーション検索用のバックエンドを定義して、ジオロケーションアドレスを保"
+msgstr "ジオロケーション検索用のバックエンドを定義して、ジオロケーションアドレスを保"
 "存します。"
 
 #: db/seeds/settings.rb:456
@@ -5451,8 +5438,7 @@ msgstr ""
 msgid ""
 "Defines the backend for geo location lookups to store geo locations for "
 "addresses."
-msgstr ""
-"ジオロケーション検索用のバックエンドを定義して、ジオロケーションアドレスを保"
+msgstr "ジオロケーション検索用のバックエンドを定義して、ジオロケーションアドレスを保"
 "存します。"
 
 #: db/seeds/settings.rb:375
@@ -5520,9 +5506,9 @@ msgid ""
 "as a variable, #{setting.fqdn} which is found in all forms of messaging used "
 "by the application, to build links to the tickets within your system."
 msgstr ""
-"システムのFQDN(完全修飾ドメイン名)を定義します。この設定は変数として使用さ"
-"れ、#{setting.fqdn}はアプリケーションで使用されるすべてのメッセージ入力フォー"
-"ムで使用され、システム内のチケットへのリンクを埋め込みます。"
+"システムのFQDN(完全修飾ドメイン名)を定義します。この設定は変数として使用され"
+"、#{setting.fqdn}はアプリケーションで使用されるすべてのメッセージ入力フォーム"
+"で使用され、システム内のチケットへのリンクを埋め込みます。"
 
 #: db/seeds/settings.rb:4551
 msgid "Defines the group of created tickets."
@@ -5562,8 +5548,7 @@ msgstr ""
 msgid ""
 "Defines the name of the application, shown in the web interface, tabs, and "
 "title bar of the web browser."
-msgstr ""
-"ウェブインターフェイス、ウェブブラウザーのタブ、タイトルバーに表示されるアプ"
+msgstr "ウェブインターフェイス、ウェブブラウザーのタブ、タイトルバーに表示されるアプ"
 "リケーション名を定義します。"
 
 #: db/seeds/settings.rb:2682
@@ -5600,8 +5585,7 @@ msgstr "通知メール送信者の定義"
 msgid ""
 "Defines the separator between the agent's real name and the given group "
 "email address."
-msgstr ""
-"エージェントの実名と与えられたグループメールアドレスの間に区切り文字を定義し"
+msgstr "エージェントの実名と与えられたグループメールアドレスの間に区切り文字を定義し"
 "ます。"
 
 #: db/seeds/settings.rb:1111
@@ -6258,9 +6242,8 @@ msgstr "ドメインベースの割当て"
 #: app/assets/javascripts/app/views/channel/form.jst.eco:102
 msgid ""
 "Don't load CSS for form. You need to generate your own CSS for the form."
-msgstr ""
-"フォームにCSSをロードしないでください。 フォームにはご自身のCSSを生成する必要"
-"があります。"
+msgstr "フォームにCSSをロードしないでください。 "
+"フォームにはご自身のCSSを生成する必要があります。"
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:592
 msgid "Don't synchronize"
@@ -6313,9 +6296,8 @@ msgstr ""
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:8
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceOTRS.vue:104
 msgid "Download and install the %s Migration Plugin on your %s instance."
-msgstr ""
-"%s インスタンスに%s移行プラグインをダウンロードして、インストールしてくださ"
-"い。"
+msgstr "%s "
+"インスタンスに%s移行プラグインをダウンロードして、インストールしてください。"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/email.ts:123
 msgid "Download original email"
@@ -6420,10 +6402,11 @@ msgid ""
 "your ticket attributes/tags compared to your current use of dynamic fields "
 "in OTRS."
 msgstr ""
-"チケット属性への別のアプローチに従ううち、Zammadには通常無いダイナミックな"
-"フィールドを多く発見しました。 Zammadは、チケット分類のためにカスタムフィール"
-"ドの他にタグも用います。 この差異は、OTRS内のあなたの現在のダイナミックフィー"
-"ルドに比べて、あなたのチケット属性/タグに新たな考えを創り出します。"
+"チケット属性への別のアプローチに従ううち、Zammadには通常無いダイナミックなフ"
+"ィールドを多く発見しました。 "
+"Zammadは、チケット分類のためにカスタムフィールドの他にタグも用います。 "
+"この差異は、OTRS内のあなたの現在のダイナミックフィールドに比べて、あなたのチ"
+"ケット属性/タグに新たな考えを創り出します。"
 
 #: app/assets/javascripts/app/models/user.coffee:334
 msgid "Easter holiday"
@@ -6773,9 +6756,8 @@ msgstr "チャットをオン"
 msgid ""
 "Enable REST API access using the username/email address and password for the "
 "authentication user."
-msgstr ""
-"ユーザー名/メールアドレスとパスワードを用いて承認ユーザーに対して、REST APIア"
-"クセスを有効にしてください。"
+msgstr "ユーザー名/メールアドレスとパスワードを用いて承認ユーザーに対して、REST "
+"APIアクセスを有効にしてください。"
 
 #: app/assets/javascripts/app/views/api.jst.eco:15
 #, fuzzy
@@ -6786,9 +6768,10 @@ msgid ""
 "Enable REST API using tokens (not username/email address and password). All "
 "users need to create their own access tokens in the user profile."
 msgstr ""
-"トークン（ユーザー名/メールアドレスやパスワードではなく）を用いて、REST APIを"
-"有効にしてください。 各ユーザーは、ユーザープロファイルに自分自身のアクセス"
-"トークンを作成する必要があります。"
+"トークン（ユーザー名/メールアドレスやパスワードではなく）を用いて、REST "
+"APIを有効にしてください。 "
+"各ユーザーは、ユーザープロファイルに自分自身のアクセストークンを作成する必要"
+"があります。"
 
 #: db/seeds/settings.rb:3386
 msgid ""
@@ -6850,9 +6833,9 @@ msgid ""
 "Enable or disable the maintenance mode of Zammad. If enabled, _all non-"
 "administrators get logged out_ and _only administrators can start a new "
 "session_."
-msgstr ""
-"Zammadのメンテナンスモードをオンまたはオフ オンの場合は管理者以外は全てログア"
-"ウトされ、管理者のみが新規セッションを開始できます。"
+msgstr "Zammadのメンテナンスモードをオンまたはオフ "
+"オンの場合は管理者以外は全てログアウトされ、管理者のみが新規セッションを開始"
+"できます。"
 
 #: db/seeds/settings.rb:40
 msgid ""
@@ -6931,16 +6914,14 @@ msgstr ""
 #: db/seeds/settings.rb:1329
 msgid ""
 "Enables user authentication via %s. Register your app first at [%s](%s)."
-msgstr ""
-"%sでユーザー認証を有効化します。 まず[%s](%s)で、アプリを登録してください。"
+msgstr "%sでユーザー認証を有効化します。 まず[%s](%s)で、アプリを登録してください。"
 
 #: db/seeds/settings.rb:1614
 #, fuzzy
 #| msgid ""
 #| "Enables user authentication via %s. Register your app first at [%s](%s)."
 msgid "Enables user authentication via GitHub."
-msgstr ""
-"%sでユーザー認証を有効化します。 まず[%s](%s)で、アプリを登録してください。"
+msgstr "%sでユーザー認証を有効化します。 まず[%s](%s)で、アプリを登録してください。"
 
 #: db/seeds/settings.rb:1678
 msgid "Enables user authentication via GitLab."
@@ -6959,8 +6940,7 @@ msgstr ""
 #| msgid ""
 #| "Enables user authentication via %s. Register your app first at [%s](%s)."
 msgid "Enables user authentication via Microsoft 365."
-msgstr ""
-"%sでユーザー認証を有効化します。 まず[%s](%s)で、アプリを登録してください。"
+msgstr "%sでユーザー認証を有効化します。 まず[%s](%s)で、アプリを登録してください。"
 
 #: db/seeds/settings.rb:1882
 msgid "Enables user authentication via SAML."
@@ -6976,8 +6956,7 @@ msgstr ""
 msgid ""
 "Enables users to create their own account via web interface. This setting is "
 "only effective if the password login is enabled."
-msgstr ""
-"ウェブインターフェイスで、ユーザーが自分でアカウント作成できるようにします。"
+msgstr "ウェブインターフェイスで、ユーザーが自分でアカウント作成できるようにします。"
 
 #: app/assets/javascripts/app/views/agent_ticket_create.jst.eco:41
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:77
@@ -7134,8 +7113,7 @@ msgstr ""
 msgid ""
 "Enter the link provided by the plugin at the end of the installation to link "
 "the two systems"
-msgstr ""
-"インストールの最後のプラグインに与えられたリンクを入力して、2つのシステムをリ"
+msgstr "インストールの最後のプラグインに与えられたリンクを入力して、2つのシステムをリ"
 "ンクしてください。"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceOTRS.vue:58
@@ -7146,8 +7124,7 @@ msgstr ""
 msgid ""
 "Enter the link provided by the plugin at the end of the installation to link "
 "the two systems."
-msgstr ""
-"インストールの最後のプラグインに与えられたリンクを入力して、2つのシステムをリ"
+msgstr "インストールの最後のプラグインに与えられたリンクを入力して、2つのシステムをリ"
 "ンクしてください。"
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:28
@@ -7187,9 +7164,8 @@ msgstr ""
 #| "interface."
 msgid ""
 "Enter your Freshdesk API token gained from your account profile settings."
-msgstr ""
-"お使いのメールアドレスと、管理者インターフェイスから得た%s APIトークンを入力"
-"してください。"
+msgstr "お使いのメールアドレスと、管理者インターフェイスから得た%s "
+"APIトークンを入力してください。"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceZendesk.vue:67
 #, fuzzy
@@ -7197,9 +7173,8 @@ msgstr ""
 #| "Enter your email address and the %s API token gained from your admin "
 #| "interface."
 msgid "Enter your Zendesk API token gained from your admin interface."
-msgstr ""
-"お使いのメールアドレスと、管理者インターフェイスから得た%s APIトークンを入力"
-"してください。"
+msgstr "お使いのメールアドレスと、管理者インターフェイスから得た%s "
+"APIトークンを入力してください。"
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:9
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingPassword.vue:116
@@ -7216,9 +7191,8 @@ msgstr ""
 msgid ""
 "Enter your email address and the %s API token gained from your admin "
 "interface."
-msgstr ""
-"お使いのメールアドレスと、管理者インターフェイスから得た%s APIトークンを入力"
-"してください。"
+msgstr "お使いのメールアドレスと、管理者インターフェイスから得た%s "
+"APIトークンを入力してください。"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceKayako.vue:43
 msgid ""
@@ -7883,9 +7857,8 @@ msgstr ""
 msgid ""
 "For security reasons, the API token is shown only once. You'll need to save "
 "it somewhere secure before continuing."
-msgstr ""
-"セキュリティーのため、APIトークンは一度のみ表示されます。 継続する前にどこか"
-"安全なところにコピーする必要があります。"
+msgstr "セキュリティーのため、APIトークンは一度のみ表示されます。 "
+"継続する前にどこか安全なところにコピーする必要があります。"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:459
 #: app/frontend/shared/errors/useErrorHandler.ts:29
@@ -8621,9 +8594,9 @@ msgid ""
 "asterisk §*§ to find anything, e.g. §smi*§ or §rosent*l§. You also can use ||"
 "quotation marks|| for searching phrases: §\"some phrase\"§."
 msgstr ""
-"ここでチケット、顧客、組織を検索できます。 ワイルドカード §*§ を用いて、全て"
-"検索してください。 例. §smi*§ または §rosent*l§。 また、||二重引用符|| を用い"
-"て、フレーズ§\"フレーズ\"§を検索できます。"
+"ここでチケット、顧客、組織を検索できます。 ワイルドカード §*§ "
+"を用いて、全て検索してください。 例. §smi*§ または §rosent*l§。 "
+"また、||二重引用符|| を用いて、フレーズ§\"フレーズ\"§を検索できます。"
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -8639,8 +8612,7 @@ msgstr ""
 msgid ""
 "Here you can sign out, change the frontend language, and see your last "
 "viewed items."
-msgstr ""
-"ここでサインアウト、フロントエンド言語の変更、最新閲覧したアイテムを表示でき"
+msgstr "ここでサインアウト、フロントエンド言語の変更、最新閲覧したアイテムを表示でき"
 "ます。"
 
 #: app/assets/javascripts/app/views/object_manager/attribute.jst.eco:4
@@ -8659,8 +8631,7 @@ msgstr "ここでは対応中、割当て済、エスカレートしたチケッ
 
 #: app/assets/javascripts/app/controllers/clues/first_steps_clues.coffee:6
 msgid "Here you see a quick overview of your and other agents' performance."
-msgstr ""
-"ここではご自身の、また他のエージェントの実績をす早く見ることができます。"
+msgstr "ここではご自身の、また他のエージェントの実績をす早く見ることができます。"
 
 #: app/assets/javascripts/app/views/dashboard.jst.eco:12
 msgid "Here you will find the latest activities of your system."
@@ -8889,8 +8860,7 @@ msgstr ""
 msgid ""
 "If the sender is an agent, set the first user in the recipient list as the "
 "customer."
-msgstr ""
-"送信者がエージェントだったら、受信リストの先頭ユーザーを顧客として登録する"
+msgstr "送信者がエージェントだったら、受信リストの先頭ユーザーを顧客として登録する"
 
 #: db/seeds/settings.rb:3352
 msgid "If this regex matches, no notification will be sent by the sender."
@@ -8903,9 +8873,8 @@ msgstr "正規表現にマッチした場合、通知されません。"
 #| "include it like this:"
 msgid ""
 "If you don't already use jQuery on your website, you can add it like this:"
-msgstr ""
-"Zammad チャットには、jQueryが必要です。 ご自分のウェブサイトで既にご使用でな"
-"い場合、次のように含めてください:"
+msgstr "Zammad チャットには、jQueryが必要です。 "
+"ご自分のウェブサイトで既にご使用でない場合、次のように含めてください:"
 
 #: app/assets/javascripts/app/views/admin_password_auth/request_sent.jst.eco:5
 #: app/assets/javascripts/app/views/password/reset_sent.jst.eco:5
@@ -8914,9 +8883,8 @@ msgstr ""
 msgid ""
 "If you don't receive instructions within a minute or two, check your email's "
 "spam and junk filters, or try resending your request."
-msgstr ""
-"1、2分以内にやり方が届かない場合は、メールの迷惑メールフォルダーを確認する"
-"か、再度リクエストをお送りください。"
+msgstr "1、2分以内にやり方が届かない場合は、メールの迷惑メールフォルダーを確認するか"
+"、再度リクエストをお送りください。"
 
 #: app/assets/javascripts/app/controllers/_plugin/user_signup_check.coffee:48
 #: app/assets/javascripts/app/views/signup/verify.jst.eco:6
@@ -8948,8 +8916,7 @@ msgstr ""
 msgid ""
 "If you want to move already stored attachments from one backend to another, "
 "you need to execute the following rails/rake task."
-msgstr ""
-"バックエンドから別のバックエンドにすでに保存された添付物を移動するには、次を"
+msgstr "バックエンドから別のバックエンドにすでに保存された添付物を移動するには、次を"
 "コンソールから実行してください。"
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:162
@@ -8961,8 +8928,8 @@ msgid ""
 "If you want to open the chat by clicking a button, set the option §show§ to "
 "§false§ and add the class §open-zammad-chat§ to the button."
 msgstr ""
-"ボタンを押してチャットを開くようにするには、オプション§表示§を§偽§に設定し"
-"て、クラス§open-zammad-chat§をボタンに追加します。"
+"ボタンを押してチャットを開くようにするには、オプション§表示§を§偽§に設定して"
+"、クラス§open-zammad-chat§をボタンに追加します。"
 
 #: app/assets/javascripts/app/views/getting_started/email_pre_configured.jst.eco:13
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmailPreConfigured.vue:73
@@ -9739,8 +9706,7 @@ msgstr "6月"
 #| "Just click into the marker and update the words just in place. Enjoy!"
 msgid ""
 "Just click into the highlighted area and update the words right there. Enjoy!"
-msgstr ""
-"マーカー内をクリックして、単語をアップデートしてください。 お楽しみください！"
+msgstr "マーカー内をクリックして、単語をアップデートしてください。 お楽しみください！"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/plugins/kayako.ts:11
 msgid "Kayako"
@@ -10410,8 +10376,7 @@ msgstr "お使いの%sシステムのURLを入力"
 msgid ""
 "Manage applications that can use Zammad as an OAuth provider and "
 "applications that you've authorized to use your account."
-msgstr ""
-"ZammadをOAuthプロバイダーとして使用するアプリケーションと、あなたのアカウント"
+msgstr "ZammadをOAuthプロバイダーとして使用するアプリケーションと、あなたのアカウント"
 "での使用を承認したアプリケーションを管理してください。"
 
 #: db/seeds/permissions.rb:186
@@ -10711,10 +10676,11 @@ msgid ""
 "a new philosophy of your ticket attributes / tags compared to your current "
 "use of dynamic fields in OTRS."
 msgstr ""
-"チケット属性への別のアプローチに従ううち、Zammadには通常無いダイナミックな"
-"フィールドを多く発見しました。 Zammadは、チケット分類のためにカスタムフィール"
-"ドの他にタグも用います。 この差異は、OTRS内のあなたの現在のダイナミックフィー"
-"ルドに比べて、あなたのチケット属性/タグに新たな考えを創り出します。"
+"チケット属性への別のアプローチに従ううち、Zammadには通常無いダイナミックなフ"
+"ィールドを多く発見しました。 "
+"Zammadは、チケット分類のためにカスタムフィールドの他にタグも用います。 "
+"この差異は、OTRS内のあなたの現在のダイナミックフィールドに比べて、あなたのチ"
+"ケット属性/タグに新たな考えを創り出します。"
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:22
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:57
@@ -12302,9 +12268,8 @@ msgstr ""
 msgid ""
 "OTRS BPM processes can't get imported into Zammad since it currently doesn't "
 "support this kind of workflows."
-msgstr ""
-"ZammadにインポートできないOTRS BPMプロセスを検出しました。こうしたワークフ"
-"ローは現在サポートしていません。"
+msgstr "ZammadにインポートできないOTRS "
+"BPMプロセスを検出しました。こうしたワークフローは現在サポートしていません。"
 
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:96
 #, fuzzy
@@ -12314,9 +12279,8 @@ msgstr ""
 msgid ""
 "OTRS BPM processes were found. They cannot be imported into Zammad as these "
 "kind of workflows are currently not supported."
-msgstr ""
-"ZammadにインポートできないOTRS BPMプロセスを検出しました。こうしたワークフ"
-"ローは現在サポートしていません。"
+msgstr "ZammadにインポートできないOTRS "
+"BPMプロセスを検出しました。こうしたワークフローは現在サポートしていません。"
 
 #: app/assets/javascripts/app/models/core_workflow.coffee:7
 #: app/assets/javascripts/app/models/job.coffee:8
@@ -13187,8 +13151,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:182
 msgid "Pick a name for the application, and we'll give you a unique token."
-msgstr ""
-"アプリケーションに名称を付けていただくと、一意のトークンを差し上げます。"
+msgstr "アプリケーションに名称を付けていただくと、一意のトークンを差し上げます。"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleReply.vue:246
 msgid "Pin this panel"
@@ -13707,9 +13670,9 @@ msgstr "紫"
 msgid ""
 "Put a message on the login page. To change it, click on the text area below "
 "and change it in-line."
-msgstr ""
-"ログインページにメッセージを入れて下さい。 変更するには、下のテキストエリアを"
-"クリックして、インラインで変更してください。"
+msgstr "ログインページにメッセージを入れて下さい。 "
+"変更するには、下のテキストエリアをクリックして、インラインで変更してください"
+"。"
 
 #: db/seeds/settings.rb:3609
 msgid "Puts Zammad into import mode (disables some triggers)."
@@ -13731,9 +13694,8 @@ msgstr ""
 msgid ""
 "REST API access using the username/email address and password is currently "
 "disabled. Please contact your administrator."
-msgstr ""
-"ユーザー名/メールアドレスとパスワードを用いて承認ユーザーに対して、REST APIア"
-"クセスを有効にしてください。"
+msgstr "ユーザー名/メールアドレスとパスワードを用いて承認ユーザーに対して、REST "
+"APIアクセスを有効にしてください。"
 
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:71
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleMetadataDialog.vue:40
@@ -15017,9 +14979,8 @@ msgstr "もっと見る"
 msgid ""
 "See your tickets from within your favorite calendar by adding the following "
 "URL to your calendar app."
-msgstr ""
-"お使いになりたいカレンダーアプリに次のURLを追加して、カレンダーでご自身のチ"
-"ケットを見て下さい。"
+msgstr "お使いになりたいカレンダーアプリに次のURLを追加して、カレンダーでご自身のチケ"
+"ットを見て下さい。"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:299
 #, fuzzy
@@ -15029,9 +14990,8 @@ msgstr ""
 msgid ""
 "See your tickets from within your favorite calendar by adding the "
 "subscription URL to your calendar app."
-msgstr ""
-"お使いになりたいカレンダーアプリに次のURLを追加して、カレンダーでご自身のチ"
-"ケットを見て下さい。"
+msgstr "お使いになりたいカレンダーアプリに次のURLを追加して、カレンダーでご自身のチケ"
+"ットを見て下さい。"
 
 #: app/assets/javascripts/app/controllers/_plugin/electron_events.coffee:38
 msgid "Select All"
@@ -15345,8 +15305,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Set caller id of outbound calls based on destination caller id."
 msgid "Set caller ID of outbound calls based on destination caller ID."
-msgstr ""
-"デスティネーション呼出しIDに基づいて、外部呼び出しの呼出しIDを設定します。"
+msgstr "デスティネーション呼出しIDに基づいて、外部呼び出しの呼出しIDを設定します。"
 
 #: app/assets/javascripts/app/controllers/ticket_state.coffee:37
 msgid "Set default for follow-ups"
@@ -16884,9 +16843,8 @@ msgstr "%s オブジェクトを作成。"
 msgid ""
 "The browser is outdated. It does not support WebSocket - the technology we "
 "use for the chat."
-msgstr ""
-"ブラウザーが古すぎます。 チャットに使用する WebSocket テクノロジーに対応して"
-"いません。"
+msgstr "ブラウザーが古すぎます。 チャットに使用する WebSocket "
+"テクノロジーに対応していません。"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:93
 #, fuzzy
@@ -17011,8 +16969,7 @@ msgstr "チャットはオフです。"
 msgid ""
 "The chat will show up once the connection to the server got established and "
 "if there is an operator online to chat with."
-msgstr ""
-"チャットは、サーバーへの接続が確立され、オンラインでのチャット相手がいる場合"
+msgstr "チャットは、サーバーへの接続が確立され、オンラインでのチャット相手がいる場合"
 "に表示されます。"
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:33
@@ -17239,9 +17196,8 @@ msgstr "メモボックスを開く"
 msgid ""
 "The identifier for a ticket, e.g. Ticket#, Call#, MyTicket#. The default is "
 "Ticket#."
-msgstr ""
-"チケットに対する識別子。Ticket#、Call#、MyTicket#など。 デフォルトはTicket#で"
-"す。"
+msgstr "チケットに対する識別子。Ticket#、Call#、MyTicket#など。 "
+"デフォルトはTicket#です。"
 
 #: app/services/service/avatar/image_validate.rb:10
 msgid "The image is invalid."
@@ -18591,9 +18547,8 @@ msgstr "このサービスは、あなたの %sチャネルに通知を送信し
 msgid ""
 "This service shows you contacts of incoming calls and a caller list in "
 "realtime."
-msgstr ""
-"このサービスは、受け取り通話の連絡先と呼出し者リストをリアルタイム表示しま"
-"す。"
+msgstr "このサービスは、受け取り通話の連絡先と呼出し者リストをリアルタイム表示します"
+"。"
 
 #: app/services/service/concerns/handles_setting.rb:22
 #, fuzzy
@@ -19357,8 +19312,7 @@ msgstr ""
 msgid ""
 "To make translations easier you can enable and disable the inline "
 "translation feature by pressing \"%s\" at any time."
-msgstr ""
-"翻訳を容易にするため、\"%s\"を押してインライン翻訳をオン、オフできます。"
+msgstr "翻訳を容易にするため、\"%s\"を押してインライン翻訳をオン、オフできます。"
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/security_keys/index.jst.eco:3
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:354
@@ -19390,8 +19344,8 @@ msgid ""
 "To set up this service you need to create a new |\"Incoming webhook\"| in "
 "your %s integration panel and enter the webhook URL below."
 msgstr ""
-"このサービスを設定するには、新規の |\"Incoming webhook\"| をあなたの %s 統合"
-"パネルに作成し、下のウェブフックURLを入力してください。"
+"このサービスを設定するには、新規の |\"Incoming webhook\"| をあなたの %s "
+"統合パネルに作成し、下のウェブフックURLを入力してください。"
 
 #: app/assets/javascripts/app/views/object_manager/attribute/autocompletion_ajax_external_data_source.jst.eco:21
 msgid "To trigger the preview, please enter some search term(s) above."
@@ -20243,8 +20197,7 @@ msgstr ""
 msgid ""
 "Use subject field for emails. If disabled, the ticket title will be used as "
 "subject."
-msgstr ""
-"件名欄をメールに使用します。いいえの場合はチケットのタイトルを件名として使用"
+msgstr "件名欄をメールに使用します。いいえの場合はチケットのタイトルを件名として使用"
 "します。"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:149
@@ -20868,9 +20821,8 @@ msgstr "いつジョブを実行しますか？"
 msgid ""
 "When you turn on debugging by setting the option §debug§ to §true§ the "
 "reason gets printed to the javascript console."
-msgstr ""
-"オプション§デバッグ§を§真§にしてデバッグをオンにすると、理由が javascriptコン"
-"ソールに印刷されます。"
+msgstr "オプション§デバッグ§を§真§にしてデバッグをオンにすると、理由が "
+"javascriptコンソールに印刷されます。"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:674
 msgid "Where"
@@ -20915,8 +20867,7 @@ msgstr "処理します"
 msgid ""
 "With Checksum, a checksum will be appended to the counter. The format looks "
 "like \"%s\" (e. g. %s)."
-msgstr ""
-"Checksumを使うと、カウンターにチェックサムが追加されます。 フォーマットは %s "
+msgstr "Checksumを使うと、カウンターにチェックサムが追加されます。 フォーマットは %s "
 "(%sなど) のように見えます。"
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:35
@@ -20945,17 +20896,15 @@ msgstr ""
 msgid ""
 "With filters you can e. g. dispatch new tickets into certain groups or set a "
 "certain priority for tickets of a VIP customer."
-msgstr ""
-"フィルターを用いると、新規チケットを特定のグループに出す、またはVIP顧客のチ"
-"ケットに一定の優先順位を設定できます。"
+msgstr "フィルターを用いると、新規チケットを特定のグループに出す、またはVIP顧客のチケ"
+"ットに一定の優先順位を設定できます。"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:11
 msgid ""
 "With form you can add a form to your web page which directly generates a "
 "ticket for you."
-msgstr ""
-"フォームを使うと、ウェブページにフォームを追加でき、これでご自身のためにチ"
-"ケットを直接生成できます。"
+msgstr "フォームを使うと、ウェブページにフォームを追加でき、これでご自身のためにチケ"
+"ットを直接生成できます。"
 
 #: app/assets/javascripts/app/models/template.coffee
 #, fuzzy
@@ -20983,8 +20932,9 @@ msgid ""
 "SystemID, and the counter. The format will be \"Year.Month.Day.SystemID."
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
-"|日付| では、チケット数は現在の日付、SystemID、カウンターによって作成されま"
-"す。 フォーマットは \"年.月.日.SystemID.カウンター\" (例. 201206231010138, "
+"|日付| "
+"では、チケット数は現在の日付、SystemID、カウンターによって作成されます。 "
+"フォーマットは \"年.月.日.SystemID.カウンター\" (例. 201206231010138, "
 "201206231010139) のようになります。"
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
@@ -21083,9 +21033,8 @@ msgstr ""
 msgid ""
 "You can connect %s with Zammad. But first, you will have to connect your "
 "Zammad with %s."
-msgstr ""
-"%sとZammadを接続することができます。 あなたは最初にZammadと%sを接続する必要が"
-"あります。"
+msgstr "%sとZammadを接続することができます。 "
+"あなたは最初にZammadと%sを接続する必要があります。"
 
 #: app/assets/javascripts/app/views/whatsapp/index.jst.eco:14
 msgid "You can connect WhatsApp Business Accounts with Zammad."
@@ -21104,8 +21053,7 @@ msgstr ""
 msgid ""
 "You can create chat widgets for your web pages to allow visitors to chat "
 "with you."
-msgstr ""
-"ご自身のウェブページにウィジェットを作成し、訪問者があなたとチャットできるよ"
+msgstr "ご自身のウェブページにウィジェットを作成し、訪問者があなたとチャットできるよ"
 "うにできます。"
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:14
@@ -21153,9 +21101,9 @@ msgstr ""
 msgid ""
 "You can generate a personal access token for each application you use that "
 "needs access to the Zammad API."
-msgstr ""
-"Zammad APIへのアクセスを要する、使用アプリケーションに対するパーソナルアクセ"
-"ストークンを作成できます。"
+msgstr "Zammad "
+"APIへのアクセスを要する、使用アプリケーションに対するパーソナルアクセストーク"
+"ンを作成できます。"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:38
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:167
@@ -21222,8 +21170,7 @@ msgstr "パスワードをリクエスト可能"
 msgid ""
 "You can switch between the following backends for new attachments even on a "
 "system that is already in production without any loss of data."
-msgstr ""
-"すでに生産されているシステムについても、データを失うことなく、新規添付物に対"
+msgstr "すでに生産されているシステムについても、データを失うことなく、新規添付物に対"
 "してバックエンドを切り替えられます。"
 
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:29
@@ -21333,8 +21280,7 @@ msgstr ""
 #| msgid ""
 #| "You need to add the following Javascript code snippet to your web page"
 msgid "You need to add the following Javascript code snippet to your web page:"
-msgstr ""
-"次のJavascriptコードスニペットを、ウェブページに追加する必要があります。"
+msgstr "次のJavascriptコードスニペットを、ウェブページに追加する必要があります。"
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:5
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:5
@@ -21353,8 +21299,7 @@ msgstr ""
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
-msgstr ""
-"あなたはテキストに%sを使用していますが、添付物がありません。 継続しますか？"
+msgstr "あなたはテキストに%sを使用していますが、添付物がありません。 継続しますか？"
 
 #: app/assets/javascripts/app/views/login.jst.eco:96
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:170
@@ -21365,8 +21310,7 @@ msgstr ""
 msgid ""
 "You're already registered with your email address if you've been in touch "
 "with our Support team."
-msgstr ""
-"サポートチームからメールでご連絡させていただいた場合、あなたのメールアドレス"
+msgstr "サポートチームからメールでご連絡させていただいた場合、あなたのメールアドレス"
 "はすでに登録されています。"
 
 #: app/assets/javascripts/app/controllers/_ui_element/richtext_additions/embed_video_button.coffee:13
@@ -21458,8 +21402,7 @@ msgstr ""
 msgid ""
 "Your account has not been verified. Please click on the link in the "
 "verification email."
-msgstr ""
-"アカウントが確認されていません。 確認メール中のリンクをクリックして下さい。"
+msgstr "アカウントが確認されていません。 確認メール中のリンクをクリックして下さい。"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:182
 #, fuzzy
@@ -21548,9 +21491,8 @@ msgstr "お使いのZammadのバージョンは%sです。"
 msgid ""
 "Zammad Forms requires jQuery. If you don't already use it on your website, "
 "you can add it like this:"
-msgstr ""
-"Zammad チャットには、jQueryが必要です。 ご自分のウェブサイトで既にご使用でな"
-"い場合、次のように含めてください:"
+msgstr "Zammad チャットには、jQueryが必要です。 "
+"ご自分のウェブサイトで既にご使用でない場合、次のように含めてください:"
 
 #: db/seeds/community_user_resources.rb:5
 msgid "Zammad Foundation"
@@ -21575,9 +21517,8 @@ msgstr ""
 msgid ""
 "Zammad is currently in maintenance mode. Only administrators can log in. "
 "Please wait until the maintenance window is over."
-msgstr ""
-"Zammadは、現在メンテナンスモードです。 管理者のみがログインできます。 メンテ"
-"ナンスウィンドウが終了するまで待って下さい。"
+msgstr "Zammadは、現在メンテナンスモードです。 管理者のみがログインできます。 "
+"メンテナンスウィンドウが終了するまで待って下さい。"
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:55
 msgid "Zammad is restarting…"
@@ -23216,8 +23157,8 @@ msgid ""
 "|Increment| increases the ticket number. The SystemID and the counter are "
 "used with \"SystemID.Counter\" format (e.g. 1010138, 1010139)."
 msgstr ""
-"|増加| はチケット番号を増加させ、SystemIDとカウンターは\"SystemID.Counter\"の"
-"フォーマットで使います (例. 1010138, 1010139)。"
+"|増加| はチケット番号を増加させ、SystemIDとカウンターは\"SystemID."
+"Counter\"のフォーマットで使います (例. 1010138, 1010139)。"
 
 #: app/assets/javascripts/app/views/settings/ticket_hook_position.jst.eco:6
 msgid "|Left| means |[Ticket#12345] Some Subject|"
@@ -23233,9 +23174,10 @@ msgid ""
 "|None| means |Some Subject| (without ticket number), in which case it "
 "recognizes follow-ups based on email headers."
 msgstr ""
-"|なし| は、 |何らかの件名| (チケット番号なし) という意味です。 最後の例で"
-"は、\"postmaster___follow___up___search___in\" を有効化して、メールのヘッダー"
-"や本文に基づいてフォローアップを認識してください。"
+"|なし| は、 |何らかの件名| (チケット番号なし) という意味です。 最後の例では、"
+"\"postmaster___follow___up___search___in\" "
+"を有効化して、メールのヘッダーや本文に基づいてフォローアップを認識してくださ"
+"い。"
 
 #: app/assets/javascripts/app/views/settings/ticket_hook_position.jst.eco:5
 msgid "|Right| means |Some Subject [Ticket#12345]|"
