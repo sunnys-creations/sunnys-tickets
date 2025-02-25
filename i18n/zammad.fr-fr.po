@@ -54,11 +54,11 @@ msgid ""
 "system that is already in production without any loss of data."
 msgstr ""
 "\"Base de données\" stocke toutes les pièces jointes dans la base de données "
-"(non recommandé pour stocker de grandes quantités de données). "
-"\"Système de fichiers\" stocke les données sur le système de fichiers. "
-"\"Simple Storage (S3)\" stocke les données dans un système de fichiers objet "
-"distant compatible S3. Vous pouvez passer d'un backend à l'autre même sur un "
-"système déjà en production sans aucune perte de données."
+"(non recommandé pour stocker de grandes quantités de données). \"Système de "
+"fichiers\" stocke les données sur le système de fichiers. \"Simple Storage "
+"(S3)\" stocke les données dans un système de fichiers objet distant "
+"compatible S3. Vous pouvez passer d'un backend à l'autre même sur un système "
+"déjà en production sans aucune perte de données."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -77,9 +77,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}> : Créé par #{current_user.longname} à "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}> : Créé par #{current_user.longname} à #{ticket."
+"updated_at}_\n"
 "* Groupe : #{ticket.group.name}\n"
 "* Propriétaire : #{ticket.owner.fullname}\n"
 "* État : #{t(ticket.state.name)}\n"
@@ -103,9 +103,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}> : Escaladé le #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}> : Escaladé le #{ticket.escalation_at}_\n"
 "Le ticket (#{ticket.title}) de \"#{ticket.customer.longname}\" a été "
 "escaladé le \"#{ticket.escalation_at}\" !\n"
 "\n"
@@ -129,9 +128,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}> : Dernière mise à jour à "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}> : Dernière mise à jour à #{ticket.updated_at}_\n"
 "* Groupe : #{ticket.group.name}\n"
 "* Propriétaire : #{ticket.owner.fullname}\n"
 "* Statut : #{t(ticket.state.name)}\n"
@@ -155,8 +153,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}> : Rappel atteint !_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}> : Rappel atteint !_\n"
 "Un ticket a besoin d'attention : rappel atteint pour (#{ticket.title}) avec "
 "le client \"*#{ticket.customer.longname}*\".\n"
 "\n"
@@ -183,9 +181,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}> : Mis à jour par "
-"#{current_user.longname} à #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}> : Mis à jour par #{current_user.longname} à "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %> : <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -211,9 +209,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}> : Sera escaladé le "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}> : Sera escaladé le #{ticket.escalation_at}_\n"
 "Le ticket (#{ticket.title}) de \"#{ticket.customer.longname}\" va être "
 "escaladé le \"#{ticket.escalation_at}\" !\n"
 "\n"
@@ -247,8 +244,8 @@ msgstr ""
 "<br>\n"
 "<div>Si ce n'était pas vous, veuillez supprimer le compte lié de votre "
 "profil et modifier le mot de passe de votre application tierce. Quelqu'un a "
-"peut-être obtenu un accès non autorisé à votre compte sur le service "
-"tiers.</div>\n"
+"peut-être obtenu un accès non autorisé à votre compte sur le service tiers.</"
+"div>\n"
 "<br>\n"
 "<div>L'équipe #{config.product_name}</div>\n"
 
@@ -297,8 +294,8 @@ msgstr ""
 "<div>Le pays a été ajouté à votre liste d'appareils connus, que vous pouvez "
 "consulter ici :</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Si ce n'était pas vous, merci de supprimer l'appareil, modifier le mot "
 "de passe de votre compte et contacter votre administrateur. Quelqu'un a peut-"
@@ -351,8 +348,8 @@ msgstr ""
 "<div>Votre appareil a été ajouté à votre liste d'appareils connus, que vous "
 "pouvez consulter ici :</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Si ce n'était pas vous, merci de supprimer l'appareil, modifier le mot "
 "de passe de votre compte et contacter votre administrateur. Quelqu'un a peut-"
@@ -770,11 +767,11 @@ msgid ""
 "displayed in a separate view in your overviews. You can also configure "
 "**email notifications**."
 msgstr ""
-"**Service Level Agreements** (Accords de Niveau de Service), abrégés **SLAs**"
-", vous aide à répondre aux demandes de vos clients dans le temps imparti. "
-"Vous pouvez de cette façon définir des objectifs tels que répondre à toutes "
-"les demandes dans les huit heures. Si vous risquez de ne pas atteindre cet "
-"objectif, Zammad vous alertera.\n"
+"**Service Level Agreements** (Accords de Niveau de Service), abrégés "
+"**SLAs**, vous aide à répondre aux demandes de vos clients dans le temps "
+"imparti. Vous pouvez de cette façon définir des objectifs tels que répondre "
+"à toutes les demandes dans les huit heures. Si vous risquez de ne pas "
+"atteindre cet objectif, Zammad vous alertera.\n"
 "\n"
 "Vous pouvez définir les objectifs avec trois métriques différentes : **temps "
 "de réponse** (durée entre la création d'un ticket et la première "
@@ -1615,8 +1612,8 @@ msgstr ""
 "<br>\n"
 "<div>Ce lien vous permet d'accéder à la page de connexion.</div>\n"
 "<br>\n"
-"<div>Si vous ne souhaitez pas vous connecter, merci d'ignorer ce "
-"message.</div>\n"
+"<div>Si vous ne souhaitez pas vous connecter, merci d'ignorer ce message.</"
+"div>\n"
 "<br>\n"
 "<div>L'équipe #{config.product_name}</div>\n"
 
@@ -1641,7 +1638,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/microsoft365/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Microsoft365 mailbox."
-msgstr "Après autorisation, merci de reconnecter votre messagerie Microsoft365."
+msgstr ""
+"Après autorisation, merci de reconnecter votre messagerie Microsoft365."
 
 #: app/assets/javascripts/app/views/package.jst.eco:12
 msgid ""
@@ -1687,7 +1685,7 @@ msgstr "Chat avec l'agent"
 msgid "Agent idle timeout"
 msgstr "Temps d'inactivité maximum de l'agent"
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Limites de l'agent atteintes, vérifiez les paramètres de votre compte."
 
@@ -2164,7 +2162,8 @@ msgstr "Êtes-vous sûr(e) ? Les modifications non sauvegardées seront perdue
 #: app/assets/javascripts/app/controllers/_profile/notification.coffee:150
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:162
 msgid "Are you sure? Your notifications settings will be reset to default."
-msgstr "Êtes-vous sûr(e) ? Vos paramètres de notification seront réinitialisés."
+msgstr ""
+"Êtes-vous sûr(e) ? Vos paramètres de notification seront réinitialisés."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:54
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:11
@@ -2257,7 +2256,7 @@ msgstr ""
 "travailler sur ce sujet. A la fin du délai, l'affectation du ticket sera "
 "supprimée."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2273,9 +2272,10 @@ msgstr "Au moins une règle est requise, mais aucune n'a été fournie."
 msgid "At least one object must be selected."
 msgstr "Au moins un objet doit être sélectionné."
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
-msgstr "Au moins un utilisateur doit disposer des permissions d'administration."
+msgstr ""
+"Au moins un utilisateur doit disposer des permissions d'administration."
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:193
 msgid "Attach another file"
@@ -2414,7 +2414,8 @@ msgstr ""
 
 #: lib/email_helper/probe.rb:280
 msgid "Authentication failed due to incorrect username."
-msgstr "L'authentification a échoué en raison d'un nom d'utilisateur incorrect."
+msgstr ""
+"L'authentification a échoué en raison d'un nom d'utilisateur incorrect."
 
 #: app/controllers/import_otrs_controller.rb:17 lib/email_helper/probe.rb:278
 msgid "Authentication failed."
@@ -3247,7 +3248,8 @@ msgstr "Cocher l'élément"
 
 #: lib/search_index_backend.rb:410
 msgid "Check the response and payload for detailed information:"
-msgstr "Vérifiez la réponse et sa charge utile (payload) pour plus de détails :"
+msgstr ""
+"Vérifiez la réponse et sa charge utile (payload) pour plus de détails :"
 
 #: app/assets/javascripts/app/views/object_manager/attribute/multiselect.jst.eco:70
 #: app/assets/javascripts/app/views/object_manager/attribute/select.jst.eco:66
@@ -3283,7 +3285,8 @@ msgstr ""
 
 #: app/models/checklist/item.rb:108
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr "Les éléments de la checklist sont limités à 100 éléments par checklist."
+msgstr ""
+"Les éléments de la checklist sont limités à 100 éléments par checklist."
 
 #: app/models/checklist.rb:100
 msgid "Checklist template must be active to use as a checklist starting point."
@@ -3732,8 +3735,8 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"#{user.firstname} #{user.lastname}, confirmez votre compte "
-"#{config.product_name}\n"
+"#{user.firstname} #{user.lastname}, confirmez votre compte #{config."
+"product_name}\n"
 "\n"
 "<div>Bonjour #{user.firstname},</div>\n"
 "<br>\n"
@@ -4153,8 +4156,8 @@ msgstr ""
 "\n"
 "Les objets disponibles sont :\n"
 "* ticket (par exemple, ticket.state, ticket.group)\n"
-"* ticket.customer (par exemple, ticket.customer.firstname, "
-"ticket.customer.lastname)\n"
+"* ticket.customer (par exemple, ticket.customer.firstname, ticket.customer."
+"lastname)\n"
 "* ticket.owner (par exemple. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (par exemple ticket.organization.name)\n"
 "* user (par exemple. user.firstname, user.email)\n"
@@ -4177,7 +4180,8 @@ msgstr "Créer un nouvel élément dans la checklist"
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:18
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistEmptyTemplates.vue:21
 msgid "Create a new checklist template in the admin interface."
-msgstr "Créez un nouveau modèle de checklist dans l'interface d'administration."
+msgstr ""
+"Créez un nouveau modèle de checklist dans l'interface d'administration."
 
 #: app/assets/javascripts/app/views/widget/template.jst.eco:17
 msgid "Create a new template in the admin interface."
@@ -5247,8 +5251,8 @@ msgstr "Définit un filtre postmaster pour identifier l'expéditeur."
 msgid ""
 "Defines postmaster filter to manage Icinga (http://www.icinga.org) emails."
 msgstr ""
-"Définit un filtre postmaster pour gérer les emails Icinga "
-"(http://www.icinga.org)."
+"Définit un filtre postmaster pour gérer les emails Icinga (http://www.icinga."
+"org)."
 
 #: db/seeds/settings.rb:4275
 msgid ""
@@ -5261,8 +5265,8 @@ msgstr ""
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
-"Définit un filtre postmaster pour gérer les emails Nagios "
-"(http://www.nagios.org)."
+"Définit un filtre postmaster pour gérer les emails Nagios (http://www.nagios."
+"org)."
 
 #: db/seeds/settings.rb:4104
 msgid ""
@@ -5401,7 +5405,8 @@ msgstr "Définit combien d'articles peuvent êtres créés par minute au global.
 msgid ""
 "Defines the configuration how many articles can be created in a minute range "
 "per ticket."
-msgstr "Définit combien d'articles peuvent être créés par minute et par ticket."
+msgstr ""
+"Définit combien d'articles peuvent être créés par minute et par ticket."
 
 #: db/seeds/settings.rb:3997
 msgid ""
@@ -5411,7 +5416,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:4078
 msgid "Defines the default calendar tickets subscription settings."
-msgstr "Définit le calendrier par défaut des paramètres de souscription ticket."
+msgstr ""
+"Définit le calendrier par défaut des paramètres de souscription ticket."
 
 #: db/seeds/settings.rb:3508
 msgid "Defines the default screen."
@@ -5612,8 +5618,8 @@ msgid ""
 "Defines the transaction backend which posts messages to Slack (http://www."
 "slack.com)."
 msgstr ""
-"Définit le backend de transaction qui poste les messages sur Slack "
-"(http://www.slack.com)."
+"Définit le backend de transaction qui poste les messages sur Slack (http://"
+"www.slack.com)."
 
 #: db/seeds/settings.rb:5277
 msgid ""
@@ -5835,8 +5841,8 @@ msgid ""
 "proceed, enter its name below (\"%s\"). THIS ACTION CANNOT BE UNDONE."
 msgstr ""
 "La suppression de votre base de connaissances nécessite une étape de "
-"vérification supplémentaire. Pour continuer, saisissez son nom ci-dessous ("
-"\"%s\"). CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE."
+"vérification supplémentaire. Pour continuer, saisissez son nom ci-dessous "
+"(\"%s\"). CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE."
 
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:86
 msgid "Deletion Task"
@@ -6559,7 +6565,7 @@ msgstr "Vérification de l'e-mail"
 msgid "Email address"
 msgstr "Adresse e-mail"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "L'adresse e-mail '%{email}' est déjà utilisée pour un autre utilisateur."
@@ -6975,7 +6981,8 @@ msgstr "Saisir l'URL de votre système %s."
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:7
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:16
 msgid "Enter the code from your two-factor authenticator app."
-msgstr "Saisir le code de votre application d'authentification à deux facteurs."
+msgstr ""
+"Saisir le code de votre application d'authentification à deux facteurs."
 
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:24
 msgid ""
@@ -8379,8 +8386,8 @@ msgstr ""
 "Ici, vous pouvez effectuer une recherche sur des clients, organisations ou "
 "tickets. Utiliser l'astérisque §*§ pour correspondre à n'importe quelle "
 "suite de lettres, p. ex. §smi*§ ou §rosent*l§. Vous pouvez également "
-"utiliser les ||guillemets|| pour effectuer une recherche sur une phrase : §"
-"\"une phrase\"§."
+"utiliser les ||guillemets|| pour effectuer une recherche sur une phrase : "
+"§\"une phrase\"§."
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -9244,7 +9251,7 @@ msgstr "client_id invalide dans la boucle de réception !"
 msgid "Invalid client_id received!"
 msgstr "client_id reçu invalide !"
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr "Email invalide '%{email}'"
 
@@ -10473,7 +10480,8 @@ msgstr "Erreur de téléchargement du média"
 
 #: app/frontend/shared/entities/ticket-article/composables/useTicketArticleRetryMediaDownload.ts:43
 msgid "Media download failed. Please try again later."
-msgstr "Le téléchargement du média a échoué. Veuillez réessayer ultérieurement."
+msgstr ""
+"Le téléchargement du média a échoué. Veuillez réessayer ultérieurement."
 
 #: app/frontend/shared/entities/ticket-article/composables/useTicketArticleRetryMediaDownload.ts:35
 msgid "Media download was successful."
@@ -10723,7 +10731,7 @@ msgstr "Humeur"
 msgid "More information can be found here."
 msgstr "Plus d'informations peuvent être trouvées ici."
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Il ne peut pas y avoir plus de 250 organisations secondaires."
 
@@ -10923,7 +10931,8 @@ msgstr "Filtre de navigation"
 
 #: app/controllers/concerns/clones_ticket_article_attachments.rb:9
 msgid "Need 'form_id' to add attachments to new form."
-msgstr "'form_id' requis pour ajouter des pièces jointes au nouveau formulaire."
+msgstr ""
+"'form_id' requis pour ajouter des pièces jointes au nouveau formulaire."
 
 #: app/controllers/concerns/creates_ticket_articles.rb:13
 #: lib/validations/ticket_article_validator/default.rb:8
@@ -11183,8 +11192,8 @@ msgstr ""
 "\n"
 "<div>Bonjour #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Un nouveau ticket (#{ticket.title}) a été créé par "
-"\"<b>#{current_user.longname}</b>\".</div>\n"
+"<div>Un nouveau ticket (#{ticket.title}) a été créé par \"<b>#{current_user."
+"longname}</b>\".</div>\n"
 "<br>\n"
 "<div>\n"
 "#{t('Group')} : #{ticket.group.name}<br>\n"
@@ -12022,8 +12031,8 @@ msgstr "Tickets ouverts"
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:218
 msgid "Open your authenticator app and scan the QR code below:"
 msgstr ""
-"Ouvrez votre application d'authentification et scannez le QR code ci-dessous "
-":"
+"Ouvrez votre application d'authentification et scannez le QR code ci-"
+"dessous :"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketViewersDialog.vue:48
 msgid "Opened in tabs"
@@ -12837,7 +12846,8 @@ msgstr "Webhook prédéfini pour %s."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:54
 msgid "Prefer color scheme as indicated by the operating system."
-msgstr "Utiliser la palette de couleurs indiquée par le système d’exploitation."
+msgstr ""
+"Utiliser la palette de couleurs indiquée par le système d’exploitation."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:34
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:285
@@ -14196,7 +14206,7 @@ msgstr "Recherche…"
 msgid "Secondary organizations"
 msgstr "Organisations secondaires"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14668,8 +14678,8 @@ msgid ""
 "set correct customer if email is received from a third-party system on "
 "behalf of a customer."
 msgstr ""
-"Définit/corrige l'expéditeur/le champ \"from\" des emails en se basant sur l"
-"'en-tête \"Reply-To\". Utile pour définir le bon client pour les courriels "
+"Définit/corrige l'expéditeur/le champ \"from\" des emails en se basant sur "
+"l'en-tête \"Reply-To\". Utile pour définir le bon client pour les courriels "
 "transmis via un système tiers pour le compte du client."
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:26
@@ -15140,8 +15150,8 @@ msgid ""
 msgstr ""
 "Certains paramètres du système ont été modifiés, veuillez redémarrer tous "
 "les processus Zammad ! Si vous voulez le faire automatiquement, définissez "
-"la variable d'environnement APP_RESTART_CMD="
-"\"/path/to/your_app_script.sh restart\"."
+"la variable d'environnement APP_RESTART_CMD=\"/path/to/your_app_script.sh "
+"restart\"."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
@@ -15905,7 +15915,8 @@ msgstr "L'URL vers cette installation de Zammad."
 
 #: lib/whatsapp/webhook/configuration.rb:25
 msgid "The WhatsApp channel webhook configuration could not be verified."
-msgstr "La configuration du webhook du canal WhatsApp n'a pas pu être vérifiée."
+msgstr ""
+"La configuration du webhook du canal WhatsApp n'a pas pu être vérifiée."
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:156
 msgid "The WhatsApp connection could not be saved."
@@ -16048,11 +16059,13 @@ msgstr "Le certificat n'est pas utilisable (p. ex. expiré)."
 
 #: app/models/setting/validation/saml/security.rb:63
 msgid "The certificate is not usable due to being a CA certificate."
-msgstr "Le certificat n'est pas utilisable car il s'agit d'un certificat de CA."
+msgstr ""
+"Le certificat n'est pas utilisable car il s'agit d'un certificat de CA."
 
 #: app/models/setting/validation/saml/security.rb:65
 msgid "The certificate is not usable for signing and encryption."
-msgstr "Le certificat n'est pas utilisable pour la signature et le chiffrement."
+msgstr ""
+"Le certificat n'est pas utilisable pour la signature et le chiffrement."
 
 #: lib/certificate/x509/smime.rb:12
 msgid ""
@@ -16182,11 +16195,11 @@ msgid ""
 "g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
 "the directions under \"Web Server Configuration\" to complete the process."
 msgstr ""
-"L'URL par défaut de votre base de connaissances est, par exemple, "
-"example.com ou example.com/help. Pour utiliser une URL personnalisée, "
-"saisissez la destination ci-dessous (p. ex. \"/support\", \"example.com\" ou "
-"\"example.com/support\"). Puis suivez les instructions de la partie "
-"\"Configuration du serveur web\" pour terminer le processus."
+"L'URL par défaut de votre base de connaissances est, par exemple, example."
+"com ou example.com/help. Pour utiliser une URL personnalisée, saisissez la "
+"destination ci-dessous (p. ex. \"/support\", \"example.com\" ou \"example."
+"com/support\"). Puis suivez les instructions de la partie \"Configuration du "
+"serveur web\" pour terminer le processus."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -16305,7 +16318,8 @@ msgstr "L'article donné n'est pas un article de presse."
 
 #: app/graphql/gql/mutations/ticket/checklist/item_delete.rb:17
 msgid "The given checklist item does not belong to the given checklist."
-msgstr "L'élément de la checklist donné n'appartient pas à la checklist donnée."
+msgstr ""
+"L'élément de la checklist donné n'appartient pas à la checklist donnée."
 
 #: app/services/service/user/two_factor/set_default_method.rb:18
 msgid "The given two-factor authentication method is not configured."
@@ -16314,7 +16328,8 @@ msgstr ""
 
 #: app/services/service/user/two_factor/set_default_method.rb:14
 msgid "The given two-factor authentication method is not enabled."
-msgstr "La méthode d'authentification à deux facteurs donnée n'est pas activée."
+msgstr ""
+"La méthode d'authentification à deux facteurs donnée n'est pas activée."
 
 #: app/services/service/user/two_factor/base.rb:14
 msgid "The given two-factor method does not exist."
@@ -16622,8 +16637,8 @@ msgstr "La limite de requêtes pour cette opération a été dépassée."
 #: lib/validations/verify_perform_rules_validator.rb:62
 msgid "The required '%{attribute}' value for %{key}, %{inner} is missing!"
 msgstr ""
-"La valeur du champ '%{attribute}' requis pour %{key}, %{inner} est manquante "
-"!"
+"La valeur du champ '%{attribute}' requis pour %{key}, %{inner} est "
+"manquante !"
 
 #: app/controllers/channels_twitter_controller.rb:38
 msgid "The required 'ExternalCredential' 'twitter' could not be found."
@@ -16819,7 +16834,8 @@ msgstr "La valeur requis 'group_id' est manquante."
 
 #: app/controllers/channels_twitter_controller.rb:54
 msgid "The required value external_credential could not be found in the cache."
-msgstr "La valeur requis external_credential n'a pas été trouvée dans le cache."
+msgstr ""
+"La valeur requis external_credential n'a pas été trouvée dans le cache."
 
 #: app/controllers/ticket_articles_controller.rb:263
 msgid "The retried attachment download failed."
@@ -17383,7 +17399,8 @@ msgstr "Ce champ est requis."
 
 #: app/frontend/shared/form/i18n/locales.ts:330
 msgid "This field isn't a valid date, please use the format \"%s\"."
-msgstr "Ce champ n'est pas une date valide, veuillez utiliser le format \"%s\"."
+msgstr ""
+"Ce champ n'est pas une date valide, veuillez utiliser le format \"%s\"."
 
 #: app/frontend/shared/form/i18n/locales.ts:245
 msgid "This field must be a symbol."
@@ -17655,7 +17672,8 @@ msgstr "Ce paramètre n'est pas activé."
 
 #: app/assets/javascripts/app/models/group.coffee:13
 msgid "This signature is inactive, it won't be included in the reply."
-msgstr "Cette signature est inactive, elle ne sera pas incluse dans la réponse."
+msgstr ""
+"Cette signature est inactive, elle ne sera pas incluse dans la réponse."
 
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
@@ -18408,8 +18426,8 @@ msgstr ""
 #: app/assets/javascripts/app/models/text_module.coffee:25
 msgid "To select placeholders from a list, just enter \"::\"."
 msgstr ""
-"Pour sélectionner des espaces réservés dans une liste, entrez simplement "
-"\"::\"."
+"Pour sélectionner des espaces réservés dans une liste, entrez simplement \"::"
+"\"."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:2
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:194
@@ -18752,8 +18770,8 @@ msgstr "Méthodes d'authentification à deux facteurs"
 #: app/controllers/application_controller/authenticates.rb:58
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
 msgstr ""
-"L'authentification à deux facteurs n'est pas prise en charge pour l’"
-"authentification HTTP Basic."
+"L'authentification à deux facteurs n'est pas prise en charge pour "
+"l’authentification HTTP Basic."
 
 #: app/assets/javascripts/app/controllers/after_auth/two_factor_configuration.coffee:37
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:73
@@ -18780,7 +18798,8 @@ msgstr "La méthode d'authentification à deux facteurs a été supprimée."
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:220
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:98
 msgid "Two-factor authentication method was set as default."
-msgstr "La méthode d'authentification à deux facteurs a été définie par défaut."
+msgstr ""
+"La méthode d'authentification à deux facteurs a été définie par défaut."
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal.coffee:59
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:277
@@ -18869,7 +18888,8 @@ msgstr "Erreur inconnue"
 
 #: app/models/failed_email.rb:7
 msgid "Unknown error: Could not create a ticket from this email."
-msgstr "Erreur inconnue : Impossible de créer un ticket à partir de cet e-mail."
+msgstr ""
+"Erreur inconnue : Impossible de créer un ticket à partir de cet e-mail."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:5
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:203
@@ -19121,8 +19141,8 @@ msgstr ""
 "<div>Bonjour #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Le ticket (#{ticket.title}) a été mis à jour par "
-"\"<b>#{current_user.longname}</b>\".\n"
+"Le ticket (#{ticket.title}) a été mis à jour par \"<b>#{current_user."
+"longname}</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:changes].present? %>\n"
@@ -19196,9 +19216,8 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}/#{article.id}\" target=\"zammad_app\">Voir dans "
-"#{config.product_name}</a>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">Voir dans #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
@@ -19211,7 +19230,8 @@ msgstr "La mise à jour de l’ordre des aperçus de vos tickets a échoué."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:264
 msgid "Updating your calendar subscription settings failed."
-msgstr "La mise à jour des paramètres d'abonnement à votre calendrier a échoué."
+msgstr ""
+"La mise à jour des paramètres d'abonnement à votre calendrier a échoué."
 
 #: app/assets/javascripts/app/views/getting_started/base.jst.eco:18
 #: app/assets/javascripts/app/views/profile/avatar.jst.eco:9
@@ -19843,7 +19863,8 @@ msgstr "Quelles valeurs de %s sont à synchroniser avec les organisations."
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:24
 msgid "What values of %s should be synced to users."
-msgstr "Quelles valeurs de %s doivent être synchronisées avec les utilisateurs."
+msgstr ""
+"Quelles valeurs de %s doivent être synchronisées avec les utilisateurs."
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:37
 #: app/assets/javascripts/app/views/whatsapp/index.jst.eco:3
@@ -19998,9 +20019,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Avec |Date|, la numérotation des tickets sera générée avec la date du jour, "
-"l'IDSystème et le compteur. Le format sera "
-"\"Année.Mois.Jour.IDSystème.Compteur\" (p. ex. 201206231010138, "
-"201206231010139)."
+"l'IDSystème et le compteur. Le format sera \"Année.Mois.Jour.IDSystème."
+"Compteur\" (p. ex. 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -20111,8 +20131,8 @@ msgid ""
 "of agents."
 msgstr ""
 "Vous pouvez créer des **aperçus** pour vos agents et vos clients. Ils ont de "
-"multiples objectifs, comme servir de liste de choses à faire pour vos agents."
-"\n"
+"multiples objectifs, comme servir de liste de choses à faire pour vos "
+"agents.\n"
 "\n"
 "Vous pouvez aussi créer des aperçus et limiter leur accès à des agents "
 "spécifiques ou des groupes d'agents."
@@ -20421,8 +20441,8 @@ msgstr ""
 "\n"
 "<p>Bonjour #{user.firstname},</p>\n"
 "<br>\n"
-"<p>Le mot de passe de votre compte sur #{config.product_name} "
-"<b>#{user.login}</b> a été modifié récemment.</p>\n"
+"<p>Le mot de passe de votre compte sur #{config.product_name} <b>#{user."
+"login}</b> a été modifié récemment.</p>\n"
 "<br>\n"
 "<p>Êtes-vous à l'origine de cette demande ? Si non, merci de contacter votre "
 "administrateur.</p>\n"
@@ -20923,8 +20943,8 @@ msgid ""
 "current,new,confirm,change,current password,new password,confirm password,"
 "change password"
 msgstr ""
-"actuel,nouveau,confirmé,modifié,mot de passe actuel,nouveau mot de "
-"passe,confirmer le mot de passe,modifier le mot de passe"
+"actuel,nouveau,confirmé,modifié,mot de passe actuel,nouveau mot de passe,"
+"confirmer le mot de passe,modifier le mot de passe"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:281
 msgid "custom"
@@ -21402,7 +21422,7 @@ msgstr "n'est pas de la bonne longueur (devrait avoir %{count} caractères)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "n'est pas de la bonne longueur (devrait être 1 caractère)"
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr "est trop long"
 
@@ -21749,8 +21769,8 @@ msgstr "relatif"
 #: db/seeds/settings.rb:216
 msgid "relative - e. g. \"2 hours ago\" or \"2 days and 15 minutes ago\""
 msgstr ""
-"valeur relative - p. ex. \"il y a deux heures\" ou "
-"\"il y a deux jours et 15 minutes\""
+"valeur relative - p. ex. \"il y a deux heures\" ou \"il y a deux jours et 15 "
+"minutes\""
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
 #: app/assets/javascripts/app/views/profile/linked_accounts.jst.eco:17

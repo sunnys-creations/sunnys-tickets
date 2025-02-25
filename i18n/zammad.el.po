@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2025-02-19 08:55+0000\n"
 "Last-Translator: Panagiotis Strakas <pstrakas@hotmail.com>\n"
-"Language-Team: Greek <https://translations.zammad.org/projects/zammad/"
-"zammad-stable/el/>\n"
+"Language-Team: Greek <https://translations.zammad.org/projects/zammad/zammad-"
+"stable/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,9 +82,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Δημιουργήθηκε από την/τον "
-"#{current_user.longname} στις #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Δημιουργήθηκε από την/τον #{current_user.longname} "
+"στις #{ticket.updated_at}_\n"
 "* Ομάδα: #{ticket.group.name}\n"
 "* Ιδιοκτήτης: #{ticket.owner.fullname}\n"
 "* Κατάσταση: #{t(ticket.state.name)}\n"
@@ -108,9 +108,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Αναπροσαρμόστηκε στις "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Αναπροσαρμόστηκε στις #{ticket.escalation_at}_\n"
 "Το αίτημα (#{ticket.title}) της/του \"#{ticket.customer.longname}\" έχει "
 "αναπροσαρμοστεί από τις \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -134,9 +133,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Τελευταία ενημέρωση στις "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Τελευταία ενημέρωση στις #{ticket.updated_at}_\n"
 "* Ομάδα: #{ticket.group.name}\n"
 "* Ιδιοκτήτης: #{ticket.owner.fullname}\n"
 "* Κατάσταση: #{t(ticket.state.name)}\n"
@@ -160,10 +158,10 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Η υπενθύμιση έφτασε!_\n"
-"Ένα δελτίο χρειάζεται προσοχή: η υπενθύμιση έφτασε για το δελτίο "
-"(#{ticket.title}) από την/τον \"*##{ticket.customer.longname}*\".\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Η υπενθύμιση έφτασε!_\n"
+"Ένα δελτίο χρειάζεται προσοχή: η υπενθύμιση έφτασε για το δελτίο (#{ticket."
+"title}) από την/τον \"*##{ticket.customer.longname}*\".\n"
 "\n"
 "<% if @objects[:article] %>\n"
 "#{article.body_as_text}\n"
@@ -188,9 +186,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Ενημερώθηκε από την/τον "
-"#{current_user.longname} στις #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Ενημερώθηκε από την/τον #{current_user.longname} "
+"στις #{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -216,9 +214,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Αναπροσαρμόστηκε στις "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Αναπροσαρμόστηκε στις #{ticket.escalation_at}_\n"
 "Το αίτημα (#{ticket.title}) της/του \"#{ticket.customer.longname}\" έχει "
 "αναπροσαρμοστεί από τις \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -302,8 +299,8 @@ msgstr ""
 "<div>Η συσκευή σας προστέθηκε στη λίστα των συσκευών, την οποία μπορείτε να "
 "δείτε εδώ:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Εάν η σύνδεση δεν έγινε από εσάς, παρακαλούμε όπως αφαιρέσετε τη "
 "συσκευή, αλλάξετε τον κωδικό του λογαριασμού σας και επικοινωνήσετε με τον "
@@ -357,8 +354,8 @@ msgstr ""
 "<div>Η συσκευή σας προστέθηκε στη λίστα των συσκευών, την οποία μπορείτε να "
 "δείτε εδώ:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Εάν η σύνδεση δεν έγινε από εσάς, παρακαλούμε όπως αφαιρέσετε τη "
 "συσκευή, αλλάξετε τον κωδικό του λογαριασμού σας και επικοινωνήσετε με τον "
@@ -1768,7 +1765,7 @@ msgstr "Συνεργάτης"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Υπέρβαση του ορίου εκπροσώπου, ελέγξτε τις ρυθμίσεις λογαριασμού σας."
 
@@ -2356,7 +2353,7 @@ msgstr ""
 "Assignment timeout in minutes if assigned agent is not working on it. Ticket "
 "will be shown as unassigend."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2370,7 +2367,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -2985,7 +2982,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:112
 msgid "CMDB to document complex relations of your network components."
-msgstr "CMDB για την τεκμηρίωση σύνθετων σχέσεων των στοιχείων του δικτύου σας."
+msgstr ""
+"CMDB για την τεκμηρίωση σύνθετων σχέσεων των στοιχείων του δικτύου σας."
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:73
 #, fuzzy
@@ -4207,7 +4205,8 @@ msgstr "Αρθρο"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:356
 msgid "Copy current object number (e. g. Ticket#) to clipboard"
-msgstr "Αντιγράψτε τον τρέχοντα αριθμό αντικειμένου (π.χ. Αίτημα#) στο πρόχειρο"
+msgstr ""
+"Αντιγράψτε τον τρέχοντα αριθμό αντικειμένου (π.χ. Αίτημα#) στο πρόχειρο"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader.vue:66
 #, fuzzy
@@ -5002,8 +5001,8 @@ msgid ""
 "Define an exception of \"automatic assignment\" for certain users (e.g. "
 "executives)."
 msgstr ""
-"Ορίστε μια εξαίρεση της \"αυτόματης ανάθεσης\" για συγκεκριμένους χρήστες ("
-"π.χ. στελέχη)."
+"Ορίστε μια εξαίρεση της \"αυτόματης ανάθεσης\" για συγκεκριμένους χρήστες (π."
+"χ. στελέχη)."
 
 #: db/seeds/settings.rb:3572
 msgid "Define max. attachment size for Elasticsearch."
@@ -6870,7 +6869,7 @@ msgstr "Email Notification"
 msgid "Email address"
 msgstr "Email Address"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -8973,8 +8972,9 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"Πόσα από τα αιτήματά σας προέρχονται από email, τηλέφωνο, twitter ή facebook;"
-" (Εμφανίζει ποσοστά τόσο για εισερχόμενα όσο και για εξερχόμενα αιτήματα)."
+"Πόσα από τα αιτήματά σας προέρχονται από email, τηλέφωνο, twitter ή "
+"facebook; (Εμφανίζει ποσοστά τόσο για εισερχόμενα όσο και για εξερχόμενα "
+"αιτήματα)."
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
@@ -9739,7 +9739,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -9763,17 +9763,20 @@ msgstr "Άκυροι όροι επιλογής αιτήματος"
 
 #: lib/password_policy/min_length.rb:11
 msgid "Invalid password, it must be at least %s characters long!"
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: lib/password_policy/max_length.rb:24
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "Invalid password, it must be shorter than %s characters!"
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: lib/password_policy/digit.rb:13
 msgid "Invalid password, it must contain at least 1 digit!"
-msgstr "Mη έγκυρος κωδικός πρόσβασης, πρέπει να περιέχει τουλάχιστον ένα ψηφίο!"
+msgstr ""
+"Mη έγκυρος κωδικός πρόσβασης, πρέπει να περιέχει τουλάχιστον ένα ψηφίο!"
 
 #: lib/password_policy/special_character.rb:13
 msgid "Invalid password, it must contain at least 1 special character!"
@@ -11371,7 +11374,7 @@ msgstr "ΔΙΑΘΕΣΗ"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -15132,7 +15135,7 @@ msgstr "Αναζήτηση"
 msgid "Secondary organizations"
 msgstr "Κοινός οργανισμός"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -18498,7 +18501,8 @@ msgstr "Text editing"
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field allows only one file."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:155
 msgid "This field can only contain alphabetical characters."
@@ -18516,13 +18520,15 @@ msgstr ""
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field can only contain lowercase letters."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:255
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field can only contain uppercase letters."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:487
 msgid "This field can't contain the value \"%s\"."
@@ -18588,7 +18594,8 @@ msgstr "Ο κωδικός πρόσβασης πρέπει να περιέχει 
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field must contain alphabetical characters."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:215
 #, fuzzy
@@ -18600,7 +18607,8 @@ msgstr "Ο κωδικός πρόσβασης πρέπει να περιέχει 
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field must contain at least %s characters."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:394
 #, fuzzy
@@ -18619,19 +18627,22 @@ msgstr ""
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field must contain letters or numbers."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:195
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field must contain letters or spaces."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:235
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field must contain numbers."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:139
 msgid "This field must have a value that is after %s."
@@ -18665,7 +18676,8 @@ msgstr ""
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "This field must not contain more than %s characters."
-msgstr "Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
+msgstr ""
+"Μη έγκυρος κωδικός πρόσβασης, πρέπει να έχει τουλάχιστον %s χαρακτήρες."
 
 #: app/frontend/shared/form/i18n/locales.ts:295
 msgid "This field was configured incorrectly and can't be submitted."
@@ -22553,7 +22565,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

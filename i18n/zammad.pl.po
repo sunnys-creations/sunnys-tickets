@@ -77,9 +77,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Zgłoszenie##{ticket.number}>: utworzone przez "
-"#{current_user.longname} o #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Zgłoszenie##{ticket.number}>: utworzone przez #{current_user.longname} o "
+"#{ticket.updated_at}_\n"
 "* Grupa: #{ticket.group.name}\n"
 "* Właściciel: #{ticket.owner.fullname}\n"
 "* Status: #{t(ticket.state.name)}\n"
@@ -103,9 +103,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Zgłoszenie##{ticket.number}>: Eskalowane #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Zgłoszenie##{ticket.number}>: Eskalowane #{ticket.escalation_at}_\n"
 "Zgłoszenie (#{ticket.title}) od \"#{ticket.customer.longname}\" zostało "
 "eksalowane od \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -129,9 +128,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Zgłoszenie##{ticket.number}>: ostatnio edytowane przez "
-"#{current_user.longname} o #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Zgłoszenie##{ticket.number}>: ostatnio edytowane przez #{current_user."
+"longname} o #{ticket.updated_at}_\n"
 "* Grupa: #{ticket.group.name}\n"
 "* Właściciel: #{ticket.owner.fullname}\n"
 "* Status: #{t(ticket.state.name)}\n"
@@ -155,8 +154,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Zgłoszenie##{ticket.number}>: Przypomnienie!_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Zgłoszenie##{ticket.number}>: Przypomnienie!_\n"
 "Zgłoszenie wymaga uwagi: przypomnienie o (#{ticket.title}) od klienta "
 "\"*#{ticket.customer.longname}*\".\n"
 "\n"
@@ -183,9 +182,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Zgłoszenie##{ticket.number}>: Zaktualizowane przez "
-"#{current_user.longname} o #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Zgłoszenie##{ticket.number}>: Zaktualizowane przez #{current_user.longname} "
+"o #{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -211,9 +210,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Zgłoszenie##{ticket.number}>: Zostanie eskalowane "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Zgłoszenie##{ticket.number}>: Zostanie eskalowane #{ticket.escalation_at}_\n"
 "Zgłoszenie (#{ticket.title}) od \"#{ticket.customer.longname}\" zostanie "
 "eskalowane \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -296,12 +294,12 @@ msgstr ""
 "<div>Kraj został dodany do Twojej listy znanych urządzeń, którą możesz "
 "zobaczyć tutaj:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Jeśli to nie Ty, usuń urządzenie, zmień hasło do konta i skontaktuj się "
-"z administratorem. Ktoś mógł uzyskać nieautoryzowany dostęp do Twojego "
-"konta.</div>\n"
+"z administratorem. Ktoś mógł uzyskać nieautoryzowany dostęp do Twojego konta."
+"</div>\n"
 "<br>\n"
 "<div>Zespół #{config.product_name}</div>\n"
 
@@ -350,12 +348,12 @@ msgstr ""
 "<div>Twoje urządzenie zostało dodane do listy znanych urządzeń, którą możesz "
 "wyświetlić tutaj:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Jeśli to nie Ty, usuń urządzenie, zmień hasło do konta i skontaktuj się "
-"z administratorem. Ktoś mógł uzyskać nieautoryzowany dostęp do Twojego "
-"konta.</div>\n"
+"z administratorem. Ktoś mógł uzyskać nieautoryzowany dostęp do Twojego konta."
+"</div>\n"
 "<br>\n"
 "<div>Zespół #{config.product_name}</div>\n"
 
@@ -780,8 +778,8 @@ msgstr ""
 "\n"
 "Możesz zdefiniować cele dla trzech różnych metryk: **czas odpowiedzi** (czas "
 "między utworzeniem zgłoszenia a pierwszą reakcją agenta), **czas "
-"aktualizacji** (czas między zapytaniem klienta a reakcją agenta), oraz **"
-"czas rozwiązania** (czas między utworzeniem a zamknięciem zgłoszenia).\n"
+"aktualizacji** (czas między zapytaniem klienta a reakcją agenta), oraz "
+"**czas rozwiązania** (czas między utworzeniem a zamknięciem zgłoszenia).\n"
 "\n"
 "Wszelkie eskalowane zgłoszenia (tj. zgłoszenia, które nie osiągnęły "
 "określonego celu) są wyświetlane w osobnym widoku w Twoich zestawieniach. "
@@ -1682,7 +1680,7 @@ msgstr "Imię agenta"
 msgid "Agent idle timeout"
 msgstr "Limit czasu bezczynności agenta"
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Przekroczono limit agentów, sprawdź ustawienia konta."
 
@@ -2260,7 +2258,7 @@ msgstr ""
 "Czas przypisania w minutach w przypadku bezczynności agenta. Zgłoszenie "
 "będzie oznaczone jako nieprzypisane."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2269,8 +2267,8 @@ msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
 msgstr ""
-"Wymagany jest co najmniej jeden identyfikator (imię, nazwisko, telefon lub "
-"e-mail) użytkownika."
+"Wymagany jest co najmniej jeden identyfikator (imię, nazwisko, telefon lub e-"
+"mail) użytkownika."
 
 #: app/models/postmaster_filter.rb:29
 msgid "At least one match rule is required, but none was provided."
@@ -2281,7 +2279,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Musisz wybrać co najmniej jeden obiekt."
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr "Przynajmniej jeden użytkownik musi mieć uprawnienia administratora."
 
@@ -2413,7 +2411,8 @@ msgstr "Token uwierzytelniający"
 
 #: lib/email_helper/probe.rb:282
 msgid "Authentication failed due to incorrect credentials."
-msgstr "Uwierzytelnianie nie powiodło się z powodu nieprawidłowych poświadczeń."
+msgstr ""
+"Uwierzytelnianie nie powiodło się z powodu nieprawidłowych poświadczeń."
 
 #: lib/email_helper/probe.rb:280
 msgid "Authentication failed due to incorrect username."
@@ -3630,7 +3629,8 @@ msgstr "Zwiń ten element"
 
 #: db/seeds/settings.rb:922
 msgid "Color representation of the open ticket indicator in the sidebar."
-msgstr "Kolorowa reprezentacja wskaźnika otwartego zgłoszenia na pasku bocznym."
+msgstr ""
+"Kolorowa reprezentacja wskaźnika otwartego zgłoszenia na pasku bocznym."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:306
 #, fuzzy
@@ -3772,14 +3772,13 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"Potwierdź swoje konto na #{config.product_name}, #{user.firstname} "
-"#{user.lastname}\n"
+"Potwierdź swoje konto na #{config.product_name}, #{user.firstname} #{user."
+"lastname}\n"
 "\n"
 "<div>Cześć #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Potwierdź swój adres e-mail, aby ukończyć tworzenie konta "
-"#{config.product_name}. To jest łatwe, po prostu kliknij w link "
-"poniżej.</div>\n"
+"<div>Potwierdź swój adres e-mail, aby ukończyć tworzenie konta #{config."
+"product_name}. To jest łatwe, po prostu kliknij w link poniżej.</div>\n"
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
@@ -4851,7 +4850,8 @@ msgstr "Definiuje podstawowe hasło uwierzytelniania HTTP Elasticsearch."
 
 #: db/seeds/settings.rb:3527
 msgid "Defines HTTP basic auth user of Elasticsearch."
-msgstr "Definiuje użytkownika podstawowego uwierzytelniania HTTP Elasticsearch."
+msgstr ""
+"Definiuje użytkownika podstawowego uwierzytelniania HTTP Elasticsearch."
 
 #: db/seeds/settings.rb:3719
 msgid ""
@@ -5018,7 +5018,8 @@ msgstr "Określa, czy Checkmk (https://checkmk.com/) jest włączony, czy nie."
 
 #: db/seeds/settings.rb:5238
 msgid "Defines if Clearbit (http://www.clearbit.com) is enabled or not."
-msgstr "Określa, czy Clearbit (http://www.clearbit.com) jest włączony, czy nie."
+msgstr ""
+"Określa, czy Clearbit (http://www.clearbit.com) jest włączony, czy nie."
 
 #: db/seeds/settings.rb:4789
 msgid "Defines if Exchange is enabled or not."
@@ -5103,7 +5104,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:5017
 msgid "Defines if sipgate.io (http://www.sipgate.io) is enabled or not."
-msgstr "Określa, czy sipgate.io (http://www.sipgate.io) jest włączone, czy nie."
+msgstr ""
+"Określa, czy sipgate.io (http://www.sipgate.io) jest włączone, czy nie."
 
 #: db/seeds/settings.rb:4898
 msgid ""
@@ -5137,8 +5139,8 @@ msgid ""
 "password and password reset will work without email delivery)."
 msgstr ""
 "Określa, czy aplikacja jest w trybie deweloperskim (wszyscy użytkownicy mają "
-"to samo hasło, a resetowanie hasła będzie działać bez dostarczania poczty "
-"e-mail)."
+"to samo hasło, a resetowanie hasła będzie działać bez dostarczania poczty e-"
+"mail)."
 
 #: db/seeds/settings.rb:5765
 msgid ""
@@ -5161,8 +5163,8 @@ msgid ""
 "Defines if the email should be displayed in the result of the user/"
 "organization widget."
 msgstr ""
-"Określa, czy wiadomość e-mail ma być wyświetlana w wyniku widżetu uż"
-"ytkownika/organizacji."
+"Określa, czy wiadomość e-mail ma być wyświetlana w wyniku widżetu "
+"użytkownika/organizacji."
 
 #: db/seeds/settings.rb:4816
 msgid ""
@@ -5685,8 +5687,8 @@ msgid ""
 "Defines the transaction backend which posts messages to Slack (http://www."
 "slack.com)."
 msgstr ""
-"Definiuje backend transakcji, który wysyła wiadomości do Slack "
-"(http://www.slack.com)."
+"Definiuje backend transakcji, który wysyła wiadomości do Slack (http://www."
+"slack.com)."
 
 #: db/seeds/settings.rb:5277
 msgid ""
@@ -6703,7 +6705,7 @@ msgstr "Weryfikacja e-mail"
 msgid "Email address"
 msgstr "Adres e-mail"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr "Adres e-mail '%{email}' jest już używany przez innego użytkownika."
 
@@ -6730,8 +6732,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:47
 msgid "Email sent to \"%s\". Please let the user verify their email account."
 msgstr ""
-"E-mail wysłany do \"%s\". Pozwól użytkownikowi zweryfikować swoje konto "
-"e-mail."
+"E-mail wysłany do \"%s\". Pozwól użytkownikowi zweryfikować swoje konto e-"
+"mail."
 
 #: app/assets/javascripts/app/controllers/signup.coffee:124
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:91
@@ -7371,10 +7373,11 @@ msgstr ""
 "wysoce konfigurowalne i możesz skonfigurować inne automatyczne działania, "
 "takie jak to.\n"
 "\n"
-"Może chcesz nadać wyższy priorytet dla dowolnego zgłoszenia ze słowem „pilne”"
-" w tytule. Być może chcesz uniknąć wysyłania automatycznych odpowiedzi do "
-"klientów z niektórych organizacji. Może chcesz oznaczyć zgłoszenie jako "
-"„oczekujące”, gdy ktoś doda do zgłoszenia wewnętrzną notatkę.\n"
+"Może chcesz nadać wyższy priorytet dla dowolnego zgłoszenia ze słowem "
+"„pilne” w tytule. Być może chcesz uniknąć wysyłania automatycznych "
+"odpowiedzi do klientów z niektórych organizacji. Może chcesz oznaczyć "
+"zgłoszenie jako „oczekujące”, gdy ktoś doda do zgłoszenia wewnętrzną "
+"notatkę.\n"
 "\n"
 "Cokolwiek to jest, możesz to zrobić za pomocą wyzwalaczy: akcji, które "
 "obserwują zgłoszenia na określone zmiany, a następnie uruchamiają się, gdy "
@@ -8540,9 +8543,9 @@ msgid ""
 "asterisk §*§ to find anything, e.g. §smi*§ or §rosent*l§. You also can use ||"
 "quotation marks|| for searching phrases: §\"some phrase\"§."
 msgstr ""
-"Tutaj możesz wyszukiwać zgłoszenia, klientów i organizacje. Użyj gwiazdki §*§"
-", aby znaleźć cokolwiek, np. §smi*§ lub §rosent*l§. Możesz także użyć "
-"||cudzysłów|| do wyszukiwania fraz: §\"jakaś fraza\"§."
+"Tutaj możesz wyszukiwać zgłoszenia, klientów i organizacje. Użyj gwiazdki "
+"§*§, aby znaleźć cokolwiek, np. §smi*§ lub §rosent*l§. Możesz także użyć ||"
+"cudzysłów|| do wyszukiwania fraz: §\"jakaś fraza\"§."
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -8699,13 +8702,14 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"Ile Twoich zgłoszeń pochodzi z e-maila, telefonu, Twittera lub Facebooka? ("
-"Pokazuje wartości procentowe dla zgłoszeń przychodzących i wychodzących.)"
+"Ile Twoich zgłoszeń pochodzi z e-maila, telefonu, Twittera lub Facebooka? "
+"(Pokazuje wartości procentowe dla zgłoszeń przychodzących i wychodzących.)"
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
 "How many of your tickets have been re-opened after being marked “closed”?"
-msgstr "Ile zgłoszeń zostało ponownie otwartych po oznaczeniu jako „zamknięte”?"
+msgstr ""
+"Ile zgłoszeń zostało ponownie otwartych po oznaczeniu jako „zamknięte”?"
 
 #: app/controllers/first_steps_controller.rb:78
 msgid "How to use it"
@@ -8878,8 +8882,8 @@ msgid ""
 "If you want to open the chat by clicking a button, set the option §show§ to "
 "§false§ and add the class §open-zammad-chat§ to the button."
 msgstr ""
-"Jeśli chcesz otworzyć czat, klikając przycisk, ustaw opcję §pokaż§ na §fałsz§"
-" i dodaj klasę §open-zammad-chat§ do przycisku."
+"Jeśli chcesz otworzyć czat, klikając przycisk, ustaw opcję §pokaż§ na "
+"§fałsz§ i dodaj klasę §open-zammad-chat§ do przycisku."
 
 #: app/assets/javascripts/app/views/getting_started/email_pre_configured.jst.eco:13
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmailPreConfigured.vue:73
@@ -9034,8 +9038,8 @@ msgid ""
 "Import as regular: |Notifications are sent| and the |tickets are open| - you "
 "can find the tickets in the overview of open tickets."
 msgstr ""
-"Importuj normalnie: | Powiadomienia są wysyłane | i | zgłoszenia są otwarte |"
-" - możesz znaleźć zgłoszenia w przeglądzie otwartych zgłoszeń."
+"Importuj normalnie: | Powiadomienia są wysyłane | i | zgłoszenia są otwarte "
+"| - możesz znaleźć zgłoszenia w przeglądzie otwartych zgłoszeń."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:216
 msgid "Import finished successfully!"
@@ -9080,9 +9084,9 @@ msgid ""
 msgstr ""
 "Ponadto w Twojej skrzynce pocztowej znaleźliśmy wiadomości e-mail starsze "
 "niż %s tygodni. E-maile takie można importować jako „archiwum”, co oznacza, "
-"że żadne powiadomienia nie są wysyłane, a zgłoszenia mają status „zamknięte”"
-". Możesz je znaleźć w Zammad w dowolnym momencie, korzystając z funkcji "
-"wyszukiwania."
+"że żadne powiadomienia nie są wysyłane, a zgłoszenia mają status "
+"„zamknięte”. Możesz je znaleźć w Zammad w dowolnym momencie, korzystając z "
+"funkcji wyszukiwania."
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:22
 msgid "In order for Zammad to access %s, the %s API token must be stored here:"
@@ -9154,7 +9158,8 @@ msgstr "Uwzględnij własne zgłoszenia w subskrypcji eskalacji zgłoszeń."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:98
 msgid "Include your own tickets in subscription for new & open tickets."
-msgstr "Uwzględnij własne zgłoszenia w subskrypcji nowych i otwartych zgłoszeń."
+msgstr ""
+"Uwzględnij własne zgłoszenia w subskrypcji nowych i otwartych zgłoszeń."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:128
 msgid "Include your own tickets in subscription for pending tickets."
@@ -9422,7 +9427,7 @@ msgstr "Nieprawidłowy identyfikator klienta w pętli odbioru!"
 msgid "Invalid client_id received!"
 msgstr "Otrzymano nieprawidłowy identyfikator klienta!"
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr "Nieprawidłowy e-mail '%{email}'"
 
@@ -9548,8 +9553,8 @@ msgstr ""
 "#{config.product_name} - naszej platformy obsługi Klienta.</div>\n"
 "<br>\n"
 "<div>Kliknij <a href=\"#{config.http_type}://#{config.fqdn}/"
-"#password_reset_verify/#{token.token}\">tutaj</a> i ustaw swoje hasło.</div>"
-"\n"
+"#password_reset_verify/#{token.token}\">tutaj</a> i ustaw swoje hasło.</"
+"div>\n"
 "<br>\n"
 "<div>Pozdrawiamy,</div>\n"
 "<br>\n"
@@ -11021,7 +11026,7 @@ msgstr "Nastrój"
 msgid "More information can be found here."
 msgstr "Więcej informacji można znaleźć tutaj."
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Więcej niż 250 drugorzędnych organizacji jest niedozwolonych."
 
@@ -11259,8 +11264,8 @@ msgid ""
 "Neither an SSO environment variable 'REMOTE_USER' nor a 'X-Forwarded-User' "
 "header could be found."
 msgstr ""
-"Nie można znaleźć zmiennej środowiskowej SSO „REMOTE_USER” ani nagłówka „X"
-"-Forwarded-User”."
+"Nie można znaleźć zmiennej środowiskowej SSO „REMOTE_USER” ani nagłówka „X-"
+"Forwarded-User”."
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:15
 msgid "Network"
@@ -11503,8 +11508,8 @@ msgstr ""
 "\n"
 "<div>Cześć #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Otrzymałeś nowe zgłoszenie (#{ticket.title}) od "
-"\"<b>#{current_user.longname}</b>\".</div>\n"
+"<div>Otrzymałeś nowe zgłoszenie (#{ticket.title}) od \"<b>#{current_user."
+"longname}</b>\".</div>\n"
 "<br>\n"
 "<div>\n"
 "Grupa: #{ticket.group.name}<br>\n"
@@ -12212,7 +12217,8 @@ msgstr "Po ukończeniu…"
 
 #: app/models/application_model/can_creates_and_updates.rb:21
 msgid "One of the required parameters must be provided, but none was found."
-msgstr "Należy podać jeden z wymaganych parametrów, ale nie znaleziono żadnego."
+msgstr ""
+"Należy podać jeden z wymaganych parametrów, ale nie znaleziono żadnego."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:49
 #: public/assets/chat/chat.coffee:207
@@ -14017,16 +14023,16 @@ msgstr ""
 "\n"
 "<div>Witaj #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Otrzymaliśmy zgłoszenie odnośnie zmiany twojego hasła "
-"#{config.product_name} do konta <b>#{user.login}</b>.</div>\n"
+"<div>Otrzymaliśmy zgłoszenie odnośnie zmiany twojego hasła #{config."
+"product_name} do konta <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Jeżeli chcesz zresetować swoje hasło kliknij link poniżej (lub skopiuj "
 "link poniżej i wklej go w miejscu paska adresu swojej przeglądarki):</div>\n"
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
-"<div>Link przeniesie Cię na witrynę, na której możliwa jest zmiana "
-"hasła.</div>\n"
+"<div>Link przeniesie Cię na witrynę, na której możliwa jest zmiana hasła.</"
+"div>\n"
 "<br>\n"
 "<div>Jeżeli nie chcesz zmieniać swego hasła, zignoruj ten e-mail. Twoje "
 "hasło nie zostanie zmienione.</div>\n"
@@ -14069,8 +14075,8 @@ msgstr ""
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
-"<div>Ten link prowadzi do strony, na której możesz zmienić swoje hasło.</div>"
-"\n"
+"<div>Ten link prowadzi do strony, na której możesz zmienić swoje hasło.</"
+"div>\n"
 "<br>\n"
 "<div>Jeśli nie chcesz resetować hasła, zignoruj tę wiadomość. Twoje hasło "
 "nie zostanie zresetowane.</div>\n"
@@ -14651,7 +14657,7 @@ msgstr "Szukaj…"
 msgid "Secondary organizations"
 msgstr "Drugorzędna organizacja"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15134,7 +15140,8 @@ msgstr "Klucze Bezpieczeństwa"
 #: app/assets/javascripts/app/views/getting_started/channel.jst.eco:7
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannels.vue:32
 msgid "Set up the communication channels you want to use with your Zammad."
-msgstr "Skonfiguruj kanały komunikacji, z których chcesz korzystać w Zammadzie."
+msgstr ""
+"Skonfiguruj kanały komunikacji, z których chcesz korzystać w Zammadzie."
 
 #: app/assets/javascripts/app/controllers/after_auth/two_factor_configuration.coffee:2
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal.coffee:6
@@ -15545,9 +15552,9 @@ msgid ""
 msgstr ""
 "Ponadto w Twojej skrzynce pocztowej znaleźliśmy wiadomości e-mail starsze "
 "niż %s tygodni. E-maile takie można importować jako „archiwum”, co oznacza, "
-"że żadne powiadomienia nie są wysyłane, a zgłoszenia mają status „zamknięte”"
-". Możesz je znaleźć w Zammad w dowolnym momencie, korzystając z funkcji "
-"wyszukiwania."
+"że żadne powiadomienia nie są wysyłane, a zgłoszenia mają status "
+"„zamknięte”. Możesz je znaleźć w Zammad w dowolnym momencie, korzystając z "
+"funkcji wyszukiwania."
 
 #: public/assets/chat/views/customer_timeout.eco:5
 msgid ""
@@ -16525,7 +16532,8 @@ msgstr "Certyfikat nie jest zgodny z podanym kluczem prywatnym."
 #: lib/secure_mailing/smime/security_options.rb:39
 msgid ""
 "The certificate for %s was found, but it is not valid yet or has expired."
-msgstr "Znaleziono certyfikat dla %s, ale nie jest on jeszcze ważny lub wygasł."
+msgstr ""
+"Znaleziono certyfikat dla %s, ale nie jest on jeszcze ważny lub wygasł."
 
 #: lib/secure_mailing/smime/security_options.rb:37
 msgid "The certificate for %s was found."
@@ -16576,8 +16584,8 @@ msgid ""
 "The certificate is not valid for SSL usage. Please check e.g. the validity "
 "period or the extensions."
 msgstr ""
-"Certyfikat nie pozwala na korzystanie z protokołu SSL. Proszę sprawdzić "
-"m.in. okres ważności lub przedłużenia."
+"Certyfikat nie pozwala na korzystanie z protokołu SSL. Proszę sprawdzić m."
+"in. okres ważności lub przedłużenia."
 
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:10
 msgid ""
@@ -17480,7 +17488,8 @@ msgstr "Testowe działanie wykonane pomyślnie."
 #: db/seeds/settings.rb:3097
 msgid ""
 "The text at the beginning of the subject in an email forward, e. g. FWD."
-msgstr "Tekst na początku tematu w wiadomości e-mail przesłanej dalej, np. FWD."
+msgstr ""
+"Tekst na początku tematu w wiadomości e-mail przesłanej dalej, np. FWD."
 
 #: db/seeds/settings.rb:3075
 msgid ""
@@ -17525,7 +17534,8 @@ msgstr "Token do logowania administracyjnego hasłem jest nieprawidłowy."
 
 #: app/frontend/apps/desktop/pages/authentication/composables/useAdminPasswordAuthVerify.ts:54
 msgid "The token is valid. You are now able to login via password once."
-msgstr "Token jest ważny. Możesz teraz zalogować się jeden raz za pomocą hasła."
+msgstr ""
+"Token jest ważny. Możesz teraz zalogować się jeden raz za pomocą hasła."
 
 #: app/frontend/apps/mobile/pages/authentication/components/AfterAuth/TwoFactorConfiguration.vue:18
 msgid "The two-factor authentication is not configured yet."
@@ -18898,7 +18908,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/chat.coffee:198
 msgid ""
 "To be able to chat you need to select at least one chat topic from below!"
-msgstr "Aby móc rozmawiać, musisz wybrać co najmniej jeden temat czatu poniżej!"
+msgstr ""
+"Aby móc rozmawiać, musisz wybrać co najmniej jeden temat czatu poniżej!"
 
 #: db/seeds/roles.rb:6
 msgid "To configure your system."
@@ -19710,8 +19721,8 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}<% "
-"if @objects[:article] %>/#{article.id}<% end %>\" target=\"zammad_app\""
-">Zobacz w #{config.product_name}</a>\n"
+"if @objects[:article] %>/#{article.id}<% end %>\" "
+"target=\"zammad_app\">Zobacz w #{config.product_name}</a>\n"
 "</div>\n"
 
 #. This is the template file app/views/mailer/ticket_article_update_reaction/en.html.erb in ERB/HTML format.
@@ -19830,8 +19841,8 @@ msgid ""
 "Use 'with_private_keyring' to create a private keyring or set @gnupg_home "
 "before calling gpg."
 msgstr ""
-"Użyj 'with_private_keyring', aby utworzyć prywatny klucz lub ustaw @"
-"gnupg_home przed wywołaniem gpg."
+"Użyj 'with_private_keyring', aby utworzyć prywatny klucz lub ustaw "
+"@gnupg_home przed wywołaniem gpg."
 
 #: app/assets/javascripts/app/views/object_manager/attribute/multiselect.jst.eco:69
 #: app/assets/javascripts/app/views/object_manager/attribute/select.jst.eco:65
@@ -20499,7 +20510,8 @@ msgstr "Zostanie opublikowany w dniu"
 
 #: db/seeds/settings.rb:143
 msgid "Will be shown in the app and is included in email footers."
-msgstr "Będzie zawarta w aplikacji i w stopce maili wysyłanych przez aplikację."
+msgstr ""
+"Będzie zawarta w aplikacji i w stopce maili wysyłanych przez aplikację."
 
 #: app/assets/javascripts/app/models/job.coffee:17
 msgid "Will process"
@@ -20577,8 +20589,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Z |Data| numery zgłoszeń zostaną wygenerowane według aktualnej daty, "
-"identyfikatora systemowego i licznika. Format będzie następujący: "
-"„Rok.Miesiąc.Dzień.SystemID.Licznik” (np. 201206231010138, 201206231010139)."
+"identyfikatora systemowego i licznika. Format będzie następujący: „Rok."
+"Miesiąc.Dzień.SystemID.Licznik” (np. 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -20675,7 +20687,8 @@ msgstr "Definiuje domyślne ustawienia subskrypcji kalendarza biletów."
 msgid ""
 "You can connect %s with Zammad. But first, you will have to connect your "
 "Zammad with %s."
-msgstr "Możesz połączyć %s z Zammad. Musisz najpierw połączyć swój Zammad z %s."
+msgstr ""
+"Możesz połączyć %s z Zammad. Musisz najpierw połączyć swój Zammad z %s."
 
 #: app/assets/javascripts/app/views/whatsapp/index.jst.eco:14
 msgid "You can connect WhatsApp Business Accounts with Zammad."
@@ -20940,7 +20953,8 @@ msgstr "Czy na pewno chcesz usunąć ten obiekt?"
 #: app/assets/javascripts/app/views/after_auth/two_factor_configuration.jst.eco:4
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:42
 msgid "You must protect your account with two-factor authentication."
-msgstr "Musisz chronić swoje konto za pomocą uwierzytelniania dwuskładnikowego."
+msgstr ""
+"Musisz chronić swoje konto za pomocą uwierzytelniania dwuskładnikowego."
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:151
 msgid "You need to add the following Javascript code snippet to your web page:"
@@ -21001,8 +21015,8 @@ msgstr ""
 "<p>Hasło dla twego konta #{config.product_name} <b>#{user.login}</b> zostało "
 "ostatnio zmienione.</p>\n"
 "<br>\n"
-"<p>Nie rozpoznajesz tej zmiany? Skontaktuj się z administratorem "
-"#{config.product_name}.</p>\n"
+"<p>Nie rozpoznajesz tej zmiany? Skontaktuj się z administratorem #{config."
+"product_name}.</p>\n"
 "<br>\n"
 "<p>Zespół #{config.product_name}</p>\n"
 
@@ -22009,7 +22023,7 @@ msgstr "ma nieprawidłową długość (powinna wynosić %{count} znaków)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "ma nieprawidłową długość (powinna wynosić 1 znak)"
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr "jest za długie"
 
@@ -22741,8 +22755,8 @@ msgid ""
 "|Increment| increases the ticket number. The SystemID and the counter are "
 "used with \"SystemID.Counter\" format (e.g. 1010138, 1010139)."
 msgstr ""
-"Zwiększa numer zgłoszenia, SystemID i licznik w formacie \"SystemID.Counter\""
-" (np. 1010138, 1010139)."
+"Zwiększa numer zgłoszenia, SystemID i licznik w formacie \"SystemID."
+"Counter\" (np. 1010138, 1010139)."
 
 #: app/assets/javascripts/app/views/settings/ticket_hook_position.jst.eco:6
 msgid "|Left| means |[Ticket#12345] Some Subject|"

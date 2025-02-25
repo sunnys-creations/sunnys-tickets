@@ -77,9 +77,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: تم الإنشاء بواسطة "
-"#{current_user.longname} في #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: تم الإنشاء بواسطة #{current_user.longname} في "
+"#{ticket.updated_at}_\n"
 "* المجموعة: #{ticket.group.name}\n"
 "* المالك: #{ticket.owner.fullname}\n"
 "* الحالة: #{t(ticket.state.name)}\n"
@@ -103,9 +103,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|تذكرة##{ticket.number}>: تم تصعيدها في #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"تذكرة##{ticket.number}>: تم تصعيدها في #{ticket.escalation_at}_\n"
 "التذكرة (#{ticket.title}) من \"#{ticket.customer.longname}\" تم تصعيدها منذ "
 "\"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -129,8 +128,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|التذكرة##{ticket.number}>: تم تحديثها في #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"التذكرة##{ticket.number}>: تم تحديثها في #{ticket.updated_at}_\n"
 "* المجموعة: #{ticket.group.name}\n"
 "* المالك: #{ticket.owner.fullname}\n"
 "* الحالة: #{t(ticket.state.name)}\n"
@@ -154,8 +153,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|تذكرة##{ticket.number}>: حان وقت التذكير!_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"تذكرة##{ticket.number}>: حان وقت التذكير!_\n"
 "التذكرة تتطلب الانتباه: حان وقت التذكير لـ (#{ticket.title}) مع العميل "
 "\"*#{ticket.customer.longname}*\".\n"
 "\n"
@@ -182,9 +181,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|تذكرة##{ticket.number}>: تم تحديثها بواسطة "
-"#{current_user.longname} في #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"تذكرة##{ticket.number}>: تم تحديثها بواسطة #{current_user.longname} في "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -210,9 +209,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|تذكرة##{ticket.number}>: سيتم تصعيدها في #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"تذكرة##{ticket.number}>: سيتم تصعيدها في #{ticket.escalation_at}_\n"
 "التذكرة (#{ticket.title}) من \"#{ticket.customer.longname}\" سيتم تصعيدها في "
 "\"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -241,8 +239,8 @@ msgstr ""
 "\n"
 "<div>مرحباً #{user.firstname},</div>\n"
 "<br>\n"
-"<div>يبدو أنك قمت بربط حسابك <b>مع تطبيق طرف ثالث</b> \"#{t(provider)}\""
-".</div>\n"
+"<div>يبدو أنك قمت بربط حسابك <b>مع تطبيق طرف ثالث</b> \"#{t(provider)}\".</"
+"div>\n"
 "<br>\n"
 "<div>إذا لم تكن أنت ، فيرجى إزالة الحساب المرتبط من ملف التعريف الخاص بك "
 "وتغيير كلمة مرور تطبيق الجهة الخارجية. ربما حصل شخص ما على وصول غير مصرح به "
@@ -295,8 +293,8 @@ msgstr ""
 "<div>تمت إضافة البلد إلى قائمة الأجهزة المعروفة الخاصة بك ، والتي يمكنك "
 "عرضها هنا:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>إذا لم تكن أنت، فيرجى إزالة الجهاز وتغيير كلمة مرور حسابك والاتصال "
 "بالمسؤول. ربما حصل شخص ما على وصول غير مصرح به إلى حسابك.</div>\n"
@@ -348,8 +346,8 @@ msgstr ""
 "<div>تمت إضافة جهازك إلى قائمة الأجهزة المعروفة الخاصة بك ، والتي يمكنك "
 "عرضها هنا:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>إذا لم تكن أنت، فيرجى إزالة الجهاز وتغيير كلمة مرور حسابك والاتصال "
 "بالمسؤول. ربما حصل شخص ما على وصول غير مصرح به إلى حسابك.</div>\n"
@@ -1023,7 +1021,8 @@ msgstr "أداة تواصل الفريق للقرن الحادي والعشري�
 #: app/assets/javascripts/app/views/dashboard/first_steps_test_ticket_finish.jst.eco:1
 msgid ""
 "A test ticket has been created, you can find it in your overview \"%s\" %l."
-msgstr "تم إنشاء تذكرة اختبار ، ويمكنك العثور عليها في النظرة العامة \"I% \"%s "
+msgstr ""
+"تم إنشاء تذكرة اختبار ، ويمكنك العثور عليها في النظرة العامة \"I% \"%s "
 
 #: app/models/ticket.rb:276
 #, fuzzy
@@ -1792,7 +1791,7 @@ msgstr "موظف"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "تم تجاوز حد الوكيل ، يرجى التحقق من إعدادات حسابك."
 
@@ -2378,7 +2377,7 @@ msgstr ""
 "مهلة التعيين بالدقائق إذا كان الوكيل المعين لا يعمل عليه. سيتم عرض التذكرة "
 "على أنها غير أصيلة."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2392,7 +2391,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -2468,7 +2467,8 @@ msgstr ""
 msgid ""
 "Attention: These will also be your login and password after the import is "
 "completed."
-msgstr "تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
+msgstr ""
+"تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:39
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:36
@@ -2479,7 +2479,8 @@ msgstr "تنبيه: ستكون هذه كلمة مرور تسجيل الدخول 
 msgid ""
 "Attention: These will be your login and password after the import is "
 "completed."
-msgstr "تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
+msgstr ""
+"تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
 
 #: app/assets/javascripts/app/controllers/object_manager.coffee:154
 msgid "Attribute"
@@ -6594,8 +6595,8 @@ msgid ""
 "your ticket attributes/tags compared to your current use of dynamic fields "
 "in OTRS."
 msgstr ""
-"لقد وجدنا الكثير من المجالات الديناميكية غير الشائعة في زمماد ، حيث نتبع نهجً"
-"ا مختلفًا لسمات التذاكر. يستخدم زمماد أيضًا العلامات بالإضافة إلى الحقول "
+"لقد وجدنا الكثير من المجالات الديناميكية غير الشائعة في زمماد ، حيث نتبع "
+"نهجًا مختلفًا لسمات التذاكر. يستخدم زمماد أيضًا العلامات بالإضافة إلى الحقول "
 "المخصصة لتصنيف التذاكر. يمكن أن يخلق هذا الاختلاف فلسفة جديدة لسمات / علامات "
 "التذكرة مقارنة باستخدامك الحالي للحقول الديناميكية في OTRS."
 
@@ -6887,7 +6888,7 @@ msgstr "إخطار البريد الإلكتروني"
 msgid "Email address"
 msgstr "عنوان البريد الإلكتروني"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -8285,7 +8286,8 @@ msgstr "حذف السجلات"
 #, fuzzy
 #| msgid "Generic API to integrate VoIP service provider with realtime push."
 msgid "Generic API to integrate VoIP service provider with real-time push."
-msgstr "واجهة برمجة تطبيقات عامة لدمج مزود خدمة VoIP مع الدفع في الوقت الفعلي. "
+msgstr ""
+"واجهة برمجة تطبيقات عامة لدمج مزود خدمة VoIP مع الدفع في الوقت الفعلي. "
 
 #: db/seeds/settings.rb:453
 msgid "Geo Calendar Service"
@@ -8973,8 +8975,8 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"كم عدد التذاكر قادمة من البريد الإلكتروني أو الهاتف أو تويتر أو Facebook؟ ("
-"يعرض النسب المئوية لكل من التذاكر الداخلية والخارجية.)"
+"كم عدد التذاكر قادمة من البريد الإلكتروني أو الهاتف أو تويتر أو Facebook؟ "
+"(يعرض النسب المئوية لكل من التذاكر الداخلية والخارجية.)"
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
@@ -9100,8 +9102,8 @@ msgstr "إذا تطابق التعبير العادي هذا ، فلن يتم إ
 msgid ""
 "If you don't already use jQuery on your website, you can add it like this:"
 msgstr ""
-"Zammad Chat يتطلب jQuery. إذا لم تكن تستخدمه بالفعل على موقع الويب الخاص بك ،"
-" فقم بتضمينه على النحو التالي:"
+"Zammad Chat يتطلب jQuery. إذا لم تكن تستخدمه بالفعل على موقع الويب الخاص "
+"بك ، فقم بتضمينه على النحو التالي:"
 
 #: app/assets/javascripts/app/views/admin_password_auth/request_sent.jst.eco:5
 #: app/assets/javascripts/app/views/password/reset_sent.jst.eco:5
@@ -9120,9 +9122,9 @@ msgid ""
 "If you don't see the email, check other places it might be, like your junk, "
 "spam, social, or other folders."
 msgstr ""
-"إذا لم تشاهد البريد الإلكتروني ، فتحقق من الأماكن الأخرى التي قد يكون عليها ،"
-" مثل الملفات غير المرغوب فيها أو البريد العشوائي أو المجلدات الاجتماعية أو "
-"غيرها."
+"إذا لم تشاهد البريد الإلكتروني ، فتحقق من الأماكن الأخرى التي قد يكون "
+"عليها ، مثل الملفات غير المرغوب فيها أو البريد العشوائي أو المجلدات "
+"الاجتماعية أو غيرها."
 
 #: app/assets/javascripts/app/views/login.jst.eco:105
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:280
@@ -9381,10 +9383,10 @@ msgid ""
 "notifications are sent and the tickets have the status \"closed\". However, "
 "you can find them in Zammad anytime using the search function."
 msgstr ""
-"بالإضافة إلى ذلك ، وجدنا رسائل بريد إلكتروني في صندوق بريدك أقدم من٪ s أسبوعً"
-"ا. يمكنك استيراد رسائل البريد الإلكتروني مثل \"أرشيف\" ، مما يعني أنه لم يتم "
-"إرسال أي إشعارات وأن التذاكر بحالة \"مغلقة\". ومع ذلك ، يمكنك العثور عليها "
-"في زمماد في أي وقت باستخدام وظيفة البحث. "
+"بالإضافة إلى ذلك ، وجدنا رسائل بريد إلكتروني في صندوق بريدك أقدم من٪ s "
+"أسبوعًا. يمكنك استيراد رسائل البريد الإلكتروني مثل \"أرشيف\" ، مما يعني أنه "
+"لم يتم إرسال أي إشعارات وأن التذاكر بحالة \"مغلقة\". ومع ذلك ، يمكنك العثور "
+"عليها في زمماد في أي وقت باستخدام وظيفة البحث. "
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:22
 #, fuzzy
@@ -9734,7 +9736,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -10950,8 +10952,8 @@ msgid ""
 "a new philosophy of your ticket attributes / tags compared to your current "
 "use of dynamic fields in OTRS."
 msgstr ""
-"لقد وجدنا الكثير من المجالات الديناميكية غير الشائعة في زمماد ، حيث نتبع نهجً"
-"ا مختلفًا لسمات التذاكر. يستخدم زمماد أيضًا العلامات بالإضافة إلى الحقول "
+"لقد وجدنا الكثير من المجالات الديناميكية غير الشائعة في زمماد ، حيث نتبع "
+"نهجًا مختلفًا لسمات التذاكر. يستخدم زمماد أيضًا العلامات بالإضافة إلى الحقول "
 "المخصصة لتصنيف التذاكر. يمكن أن يخلق هذا الاختلاف فلسفة جديدة لسمات / علامات "
 "التذكرة مقارنة باستخدامك الحالي للحقول الديناميكية في OTRS."
 
@@ -11380,7 +11382,7 @@ msgstr "Mood"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -13137,8 +13139,8 @@ msgid ""
 "Owner tickets of the user will not get deleted. The owner will be mapped to "
 "the system user (ID 1)."
 msgstr ""
-"لن يتم حذف تذاكر المالك للمستخدم. سيتم تعيين المالك لمستخدم النظام (المعرف 1)"
-". "
+"لن يتم حذف تذاكر المالك للمستخدم. سيتم تعيين المالك لمستخدم النظام (المعرف "
+"1). "
 
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:3
 #: app/assets/javascripts/app/views/agent_ticket_create.jst.eco:37
@@ -13504,9 +13506,9 @@ msgid ""
 "email, check other places it might be, like your junk, spam, social, or "
 "other folders."
 msgstr ""
-"إذا لم تشاهد البريد الإلكتروني ، فتحقق من الأماكن الأخرى التي قد يكون عليها ،"
-" مثل الملفات غير المرغوب فيها أو البريد العشوائي أو المجلدات الاجتماعية أو "
-"غيرها."
+"إذا لم تشاهد البريد الإلكتروني ، فتحقق من الأماكن الأخرى التي قد يكون "
+"عليها ، مثل الملفات غير المرغوب فيها أو البريد العشوائي أو المجلدات "
+"الاجتماعية أو غيرها."
 
 #: app/services/service/system/import/run.rb:32
 msgid "Please configure import source before running."
@@ -15160,7 +15162,7 @@ msgstr "بحث"
 msgid "Secondary organizations"
 msgstr "منظمة مشتركة"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -16127,10 +16129,10 @@ msgid ""
 "notifications are sent and the tickets have the status \"closed\". However, "
 "you can find them in Zammad anytime using the search function."
 msgstr ""
-"بالإضافة إلى ذلك ، وجدنا رسائل بريد إلكتروني في صندوق بريدك أقدم من٪ s أسبوعً"
-"ا. يمكنك استيراد رسائل البريد الإلكتروني مثل \"أرشيف\" ، مما يعني أنه لم يتم "
-"إرسال أي إشعارات وأن التذاكر بحالة \"مغلقة\". ومع ذلك ، يمكنك العثور عليها "
-"في زمماد في أي وقت باستخدام وظيفة البحث. "
+"بالإضافة إلى ذلك ، وجدنا رسائل بريد إلكتروني في صندوق بريدك أقدم من٪ s "
+"أسبوعًا. يمكنك استيراد رسائل البريد الإلكتروني مثل \"أرشيف\" ، مما يعني أنه "
+"لم يتم إرسال أي إشعارات وأن التذاكر بحالة \"مغلقة\". ومع ذلك ، يمكنك العثور "
+"عليها في زمماد في أي وقت باستخدام وظيفة البحث. "
 
 #: public/assets/chat/views/customer_timeout.eco:5
 msgid ""
@@ -17352,9 +17354,9 @@ msgid ""
 "the directions under \"Web Server Configuration\" to complete the process."
 msgstr ""
 "عنوان URL الافتراضي لقاعدة معلوماتك هو على سبيل المثال example.com أو "
-"example.com/help. لعرضه من عنوان URL مخصص بدلاً من ذلك ، أدخل الوجهة أدناه ("
-"على سبيل المثال ، \"/ support\" أو \"example.com\" أو \"example.com/support\""
-"). بعد ذلك ، اتبع التوجيهات ضمن \"تكوين خادم الويب\" لإكمال العملية."
+"example.com/help. لعرضه من عنوان URL مخصص بدلاً من ذلك ، أدخل الوجهة أدناه "
+"(على سبيل المثال ، \"/ support\" أو \"example.com\" أو \"example.com/"
+"support\"). بعد ذلك ، اتبع التوجيهات ضمن \"تكوين خادم الويب\" لإكمال العملية."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -17398,7 +17400,8 @@ msgstr ""
 msgid ""
 "The entered email and API token will become your Zammad login credentials "
 "after the import is completed."
-msgstr "تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
+msgstr ""
+"تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceKayako.vue:69
 #, fuzzy
@@ -17408,7 +17411,8 @@ msgstr "تنبيه: ستكون هذه كلمة مرور تسجيل الدخول 
 msgid ""
 "The entered email and password will become your Zammad login credentials "
 "after the import is completed."
-msgstr "تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
+msgstr ""
+"تنبيه: ستكون هذه كلمة مرور تسجيل الدخول الخاصة بك بعد اكتمال الاستيراد."
 
 #: app/assets/javascripts/app/views/microsoft365/user_mismatch.jst.eco:2
 msgid ""
@@ -21331,8 +21335,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "With |Date| the ticket numbers will be generated by the current date, the "
-"SystemID and the counter. The format looks like "
-"\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, 201206231010139)."
+"SystemID and the counter. The format looks like \"Year.Month.Day.SystemID."
+"Counter\" (e.g. 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -21903,8 +21907,8 @@ msgid ""
 "Zammad Forms requires jQuery. If you don't already use it on your website, "
 "you can add it like this:"
 msgstr ""
-"Zammad Chat يتطلب jQuery. إذا لم تكن تستخدمه بالفعل على موقع الويب الخاص بك ،"
-" فقم بتضمينه على النحو التالي:"
+"Zammad Chat يتطلب jQuery. إذا لم تكن تستخدمه بالفعل على موقع الويب الخاص "
+"بك ، فقم بتضمينه على النحو التالي:"
 
 #: db/seeds/community_user_resources.rb:5
 msgid "Zammad Foundation"
@@ -22790,7 +22794,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

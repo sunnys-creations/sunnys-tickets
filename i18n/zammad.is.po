@@ -54,10 +54,9 @@ msgid ""
 "system that is already in production without any loss of data."
 msgstr ""
 "\"Gagnagrunnur\" geymir öll viðhengi í gagnagrunni (hæfir illa fyrir geymslu "
-"mikils gagnamagns). \"Skráakerfi\" geymir gögnin í skráasniði. "
-"\"Simple Storage (S3)\" geymir gögnin á fjarlægu S3 samhæfði skráakerfi. Þú "
-"getur skipt á milli geymsuaðferða, jafnvel á kerfi í rekstri, án nokkurs "
-"gagnataps."
+"mikils gagnamagns). \"Skráakerfi\" geymir gögnin í skráasniði. \"Simple "
+"Storage (S3)\" geymir gögnin á fjarlægu S3 samhæfði skráakerfi. Þú getur "
+"skipt á milli geymsuaðferða, jafnvel á kerfi í rekstri, án nokkurs gagnataps."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -76,9 +75,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Stofnuð af #{current_user.longname} "
-"at #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Stofnuð af #{current_user.longname} at #{ticket."
+"updated_at}_\n"
 "* Hópur: #{ticket.group.name}\n"
 "* Eigandi: #{ticket.owner.fullname}\n"
 "* Staða: #{t(ticket.state.name)}\n"
@@ -102,9 +101,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Forgangur hækkaður þann "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Forgangur hækkaður þann #{ticket.escalation_at}_\n"
 "Beiðni (#{ticket.title}) frá \"#{ticket.customer.longname}\" hefur verið með "
 "hækkuðum forgangi síðan \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -128,9 +126,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Síðast uppfærð þann "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Síðast uppfærð þann #{ticket.updated_at}_\n"
 "* Hópur: #{ticket.group.name}\n"
 "* Eigandi: #{ticket.owner.fullname}\n"
 "* Staða: #{t(ticket.state.name)}\n"
@@ -154,8 +151,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Áminning!_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Áminning!_\n"
 "Beiðni þarnast athygli: áminningartíma náð fyrir (#{ticket.title}) hjá "
 "viðskiptavini \"*#{ticket.customer.longname}*\".\n"
 "\n"
@@ -182,9 +179,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Uppfærð af #{current_user.longname} "
-"þann #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Uppfærð af #{current_user.longname} þann #{ticket."
+"updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -210,9 +207,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Mun hækka forgang þann "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Mun hækka forgang þann #{ticket.escalation_at}_\n"
 "Beiðni (#{ticket.title}) frá \"#{ticket.customer.longname}\" mun hækki í "
 "forgangi þann \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -296,8 +292,8 @@ msgstr ""
 "<div>Landinu hefur verið bætt við listann þinn yfir þekkt tæki, sem þú getur "
 "skoðað hér:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Ef þetta varst ekki þú, vinsamlegt fjarlægðu tækið, breyttu lykilorði "
 "þínu, og hafðu samband við kerfisstjórann. Einhver gæti hafa öðlast "
@@ -350,8 +346,8 @@ msgstr ""
 "<div>Tækinu þínu hefur verið bætt á lista þinn yfir þekkt tæki, sem þú getur "
 "séð hér:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Ef þetta varst ekki þú, vinsamlega fjarlægðu tækið, breyttu lykilorðinu "
 "þínu og hafðu samband við kerfisstjórann. Einhver gæti hafa öðlast "
@@ -1621,7 +1617,8 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:62
 msgid "Affects only notifications for not assigned and all tickets."
-msgstr "Hefur einungis áhrif á tilkynningar fyrir óúthlutaðar og allar beiðnir."
+msgstr ""
+"Hefur einungis áhrif á tilkynningar fyrir óúthlutaðar og allar beiðnir."
 
 #: app/assets/javascripts/app/views/exchange/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Exchange account."
@@ -1671,7 +1668,7 @@ msgstr "Spjall við þjónustufulltrúa"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 #, fuzzy
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
@@ -2224,7 +2221,7 @@ msgid ""
 "will be shown as unassigend."
 msgstr ""
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2238,7 +2235,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -5251,7 +5248,8 @@ msgstr ""
 #, fuzzy
 #| msgid "Define the http protocol of your instance."
 msgid "Defines the HTTP protocol of your instance."
-msgstr "Skilgreinir sjálfgefinn samskiptaham á vefnum fyrir uppsetninguna þína."
+msgstr ""
+"Skilgreinir sjálfgefinn samskiptaham á vefnum fyrir uppsetninguna þína."
 
 #: db/seeds/settings.rb:5566
 msgid "Defines the PGP config."
@@ -6498,7 +6496,7 @@ msgstr "Staðfesting með tölvupósti"
 msgid "Email address"
 msgstr "Netfang"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -7109,8 +7107,8 @@ msgstr ""
 "Ef til vill viltu stilla hærri forgang á beiðni með orðinu \"áríðandi\" í "
 "titlinum. Kannski viltu forðast að senda sjálfvirk svör í tölvupósti, til "
 "viðskiptavina hjá tilteknum fyrirtækjum. Mögulega viltu merkja beiðni sem "
-"\"í bið\" í hvert sinn sem einhver bætir við innanhússathugasemd við beiðni."
-"\n"
+"\"í bið\" í hvert sinn sem einhver bætir við innanhússathugasemd við "
+"beiðni.\n"
 "\n"
 "Hvað sem það kann að vera, geturðu gert það með viðbrögðum: aðgerðum sem "
 "vakta tilteknar breytingar beiðna og bregðast við þegar þær breytingar eiga "
@@ -9205,7 +9203,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -9227,13 +9225,15 @@ msgstr ""
 
 #: lib/password_policy/min_length.rb:11
 msgid "Invalid password, it must be at least %s characters long!"
-msgstr "Ógilt lykilorð, það verður að vera að minnsta kosti %s stafir að lengd!"
+msgstr ""
+"Ógilt lykilorð, það verður að vera að minnsta kosti %s stafir að lengd!"
 
 #: lib/password_policy/max_length.rb:24
 #, fuzzy
 #| msgid "Invalid password, it must be at least %s characters long!"
 msgid "Invalid password, it must be shorter than %s characters!"
-msgstr "Ógilt lykilorð, það verður að vera að minnsta kosti %s stafir að lengd!"
+msgstr ""
+"Ógilt lykilorð, það verður að vera að minnsta kosti %s stafir að lengd!"
 
 #: lib/password_policy/digit.rb:13
 msgid "Invalid password, it must contain at least 1 digit!"
@@ -10728,7 +10728,7 @@ msgstr "Stemming"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -14362,7 +14362,7 @@ msgstr "Leita…"
 msgid "Secondary organizations"
 msgstr "Samnýtt stofnun"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -20063,8 +20063,8 @@ msgid ""
 "When you turn on debugging by setting the option §debug§ to §true§ the "
 "reason gets printed to the javascript console."
 msgstr ""
-"Þegar þú virkjar aflúsun með því að setja valmöguleikan §debug§ yfir í §true§"
-" þá er orsökin prentuð út í javascript console."
+"Þegar þú virkjar aflúsun með því að setja valmöguleikan §debug§ yfir í "
+"§true§ þá er orsökin prentuð út í javascript console."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:674
 msgid "Where"
@@ -21578,7 +21578,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

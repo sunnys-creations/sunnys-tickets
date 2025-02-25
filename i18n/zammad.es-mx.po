@@ -59,11 +59,11 @@ msgid ""
 "compatible object filesystem. You can switch between the modules even on a "
 "system that is already in production without any loss of data."
 msgstr ""
-"\"Base de datos\" almacena todos los archivos adjuntos en la base de datos ("
-"no recomendado para almacenar grandes cantidades de datos). "
-"\"Sistema de archivos\" almacena los datos en el sistema de archivos. Puede "
-"cambiar entre los módulos incluso en un sistema que ya está en producción "
-"sin pérdida de datos."
+"\"Base de datos\" almacena todos los archivos adjuntos en la base de datos "
+"(no recomendado para almacenar grandes cantidades de datos). \"Sistema de "
+"archivos\" almacena los datos en el sistema de archivos. Puede cambiar entre "
+"los módulos incluso en un sistema que ya está en producción sin pérdida de "
+"datos."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -328,8 +328,8 @@ msgstr "Archivos adjuntados"
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:39
 msgid "%s completed data privacy task to delete user ID |%s|"
 msgstr ""
-"%s completó la tarea de privacidad de datos para eliminar el ID de usuario "
-"|%s|"
+"%s completó la tarea de privacidad de datos para eliminar el ID de usuario |"
+"%s|"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:49
 #: app/frontend/shared/components/ActivityMessage/builders/ticket-article.ts:26
@@ -550,8 +550,8 @@ msgstr "%s artículo actualizado para |%s|"
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:33
 msgid "%s updated data privacy task to delete user ID |%s|"
 msgstr ""
-"%s actualizó la tarea de privacidad de datos para eliminar el ID de usuario "
-"|%s|"
+"%s actualizó la tarea de privacidad de datos para eliminar el ID de usuario |"
+"%s|"
 
 #: app/assets/javascripts/app/models/group.coffee:32
 #: app/frontend/shared/components/ActivityMessage/builders/group.ts:28
@@ -1717,7 +1717,7 @@ msgstr "Nombre del agente"
 msgid "Agent idle timeout"
 msgstr "Tiempo de espera inactivo del agente"
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 "Límite de agente excedido, por favor verifique la configuración de su cuenta."
@@ -2321,7 +2321,7 @@ msgstr ""
 "Tiempo de espera de la asignación en minutos si el agente asignado no está "
 "trabajando en ello. El ticket se mostrará como sin asignar."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2343,7 +2343,7 @@ msgstr "Se requiere al menos una letra"
 msgid "At least one object must be selected."
 msgstr "Se debe seleccionar al menos un objeto."
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr "Al menos un usuario necesita tener permisos de administrador."
 
@@ -2956,7 +2956,8 @@ msgstr "CC"
 
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:112
 msgid "CMDB to document complex relations of your network components."
-msgstr "CMDB para documentar relaciones complejas de los componentes de tu red."
+msgstr ""
+"CMDB para documentar relaciones complejas de los componentes de tu red."
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:73
 msgid ""
@@ -5124,8 +5125,8 @@ msgid ""
 "Defines how the From field of emails (sent from answers and email tickets) "
 "should look like."
 msgstr ""
-"Define cómo debería verse el campo \"From\" de los correos electrónicos ("
-"enviados desde las respuestas y los tickets de correo electrónico)."
+"Define cómo debería verse el campo \"From\" de los correos electrónicos "
+"(enviados desde las respuestas y los tickets de correo electrónico)."
 
 #: db/seeds/settings.rb:2248
 msgid ""
@@ -5615,7 +5616,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:120
 msgid "Defines the logo of the application, shown in the web interface."
-msgstr "Define el logotipo de la aplicación, que se muestra en la interfaz web."
+msgstr ""
+"Define el logotipo de la aplicación, que se muestra en la interfaz web."
 
 #: db/seeds/settings.rb:3169
 msgid "Defines the maximum accepted email size in MB."
@@ -6785,7 +6787,7 @@ msgstr "Notificación de correo electrónico"
 msgid "Email address"
 msgstr "Dirección de Correo Electrónico"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -8667,8 +8669,8 @@ msgid ""
 "quotation marks|| for searching phrases: §\"some phrase\"§."
 msgstr ""
 "Aquí puede buscar entradas, clientes y organizaciones. Use el asterisco §*§ "
-"para encontrar cualquier cosa, p. §smi*§ o §rosent*l§. También puede usar "
-"||comillas|| para buscar frases: §\"alguna frase\"§."
+"para encontrar cualquier cosa, p. §smi*§ o §rosent*l§. También puede usar ||"
+"comillas|| para buscar frases: §\"alguna frase\"§."
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -9008,8 +9010,8 @@ msgid ""
 "If you want to open the chat by clicking a button, set the option §show§ to "
 "§false§ and add the class §open-zammad-chat§ to the button."
 msgstr ""
-"Si desea abrir el chat haciendo clic en un botón, establezca la opción §show§"
-" en §false§ y agregue la clase §open-zammad-chat§ al botón."
+"Si desea abrir el chat haciendo clic en un botón, establezca la opción "
+"§show§ en §false§ y agregue la clase §open-zammad-chat§ al botón."
 
 #: app/assets/javascripts/app/views/getting_started/email_pre_configured.jst.eco:13
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmailPreConfigured.vue:73
@@ -9575,7 +9577,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -11208,7 +11210,7 @@ msgstr "Ambiente"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -14957,7 +14959,7 @@ msgstr "Buscar…"
 msgid "Secondary organizations"
 msgstr "Organización compartida"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -17131,8 +17133,8 @@ msgstr ""
 "La URL predeterminada para su base de conocimiento es, p. example.com o "
 "example.com/help. Para enviarlo desde una URL personalizada, ingrese el "
 "destino a continuación (por ejemplo, \"/ support\", \"example.com\" o "
-"\"example.com/support\"). Luego, siga las instrucciones en "
-"\"Configuración del servidor web\" para completar el proceso."
+"\"example.com/support\"). Luego, siga las instrucciones en \"Configuración "
+"del servidor web\" para completar el proceso."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -19442,8 +19444,8 @@ msgid ""
 "To enable %s for sending HTTP requests to %s, you need to create a "
 "designated \"notification rule\" in %s."
 msgstr ""
-"Para habilitar %s para enviar solicitudes HTTP a %s, debe crear una "
-"\"regla de notificación\" designada en %s."
+"Para habilitar %s para enviar solicitudes HTTP a %s, debe crear una \"regla "
+"de notificación\" designada en %s."
 
 #: app/assets/javascripts/app/views/whatsapp/account_phone_number.jst.eco:41
 msgid "To find out more about the 24-hour customer service window see %l."
@@ -21087,9 +21089,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Con |Fecha| los números de boleto serán generados por la fecha actual, el "
-"SystemID y el mostrador. El formato será "
-"\"Año.Mes.Día.ID del sistema.Contador\" (por ejemplo, 201206231010138, "
-"201206231010139)."
+"SystemID y el mostrador. El formato será \"Año.Mes.Día.ID del sistema."
+"Contador\" (por ejemplo, 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -21468,8 +21469,8 @@ msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
 msgstr ""
-"Usó %s en el texto pero no se pudo encontrar ningún archivo adjunto. ¿"
-"Quieres continuar?"
+"Usó %s en el texto pero no se pudo encontrar ningún archivo adjunto. "
+"¿Quieres continuar?"
 
 #: app/assets/javascripts/app/views/login.jst.eco:96
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:170
@@ -22551,7 +22552,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

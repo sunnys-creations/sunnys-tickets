@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-19 08:57+0000\n"
-"Last-Translator: Katrina Laimina <katrina.laimina@paysera.net>\n"
+"PO-Revision-Date: 2025-02-20 22:00+0000\n"
+"Last-Translator: Vitālijs <vitalijs.gaidelis@nep.lv>\n"
 "Language-Team: Latvian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/lv/>\n"
 "Language: lv\n"
@@ -54,6 +54,11 @@ msgid ""
 "compatible object filesystem. You can switch between the modules even on a "
 "system that is already in production without any loss of data."
 msgstr ""
+"\"Datu bāze\" visus pielikumus glabā datu bāzē (nav ieteicams liela datu "
+"apjoma glabāšanai). \"Failu sistēma\" saglabā datus failu sistēmā. "
+"\"Krātuve (S3)\" saglabā datus attālā ar Simple Storage Service (S3) "
+"saderīgā objektu failu sistēmā. Jūs varat pārslēgties starp moduļiem pat "
+"sistēmā, kas jau tiek ražota, nezaudējot datus."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -71,6 +76,17 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Izveidoja #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
+"* Grupa: #{ticket.group.name}\n"
+"* Īpašnieks: #{ticket.owner.fullname}\n"
+"* Statuss: #{t(ticket.state.name)}\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_escalation/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -86,6 +102,16 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Eskalēts plkst #{ticket.escalation_at}"
+"_\n"
+"Pieteikums (#{ticket.title}) no \"#{ticket.customer.longname}\" eskalēts  no "
+"\"#{ticket.escalation_at}\"!\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_info/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -102,6 +128,17 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Pēdējo reizi atjaunināts plkst "
+"#{ticket.updated_at}_\n"
+"* Grupa: #{ticket.group.name}\n"
+"* Īpašnieks: #{ticket.owner.fullname}\n"
+"* Statuss: #{t(ticket.state.name)}\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_reminder_reached/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -117,6 +154,15 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Atgādinājums saņemts!_\n"
+"Jāpievērš uzmanība pieteikumam (#{ticket.title}) no klienta "
+"\"*#{ticket.customer.longname}*\".\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_update/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -1516,7 +1562,7 @@ msgstr "Aģents"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 
@@ -2049,7 +2095,7 @@ msgid ""
 "will be shown as unassigend."
 msgstr ""
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2063,7 +2109,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -6207,7 +6253,7 @@ msgstr "Vieta"
 msgid "Email address"
 msgstr "Adrese"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -8752,7 +8798,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -10224,7 +10270,7 @@ msgstr ""
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -13703,7 +13749,7 @@ msgstr "Meklēt"
 msgid "Secondary organizations"
 msgstr ""
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -20731,7 +20777,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

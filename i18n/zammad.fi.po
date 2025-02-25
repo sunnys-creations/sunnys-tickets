@@ -81,9 +81,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Tiketti##{ticket.number}>: Luonut #{current_user.longname} "
-"päivitetty #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Tiketti##{ticket.number}>: Luonut #{current_user.longname} päivitetty "
+"#{ticket.updated_at}_\n"
 "* Ryhmä: #{ticket.group.name}\n"
 "* Omistaja: #{ticket.owner.fullname}\n"
 "* Tila: #{t(ticket.state.name)}\n"
@@ -107,8 +107,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Tiketti##{ticket.number}>: Eskaloitu #{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Tiketti##{ticket.number}>: Eskaloitu #{ticket.escalation_at}_\n"
 "Tiketti (#{ticket.title}) asiakkaalta \"#{ticket.customer.longname}\" on "
 "eskaloitu \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -145,9 +145,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Tiketti##{ticket.number}>: Luonut #{current_user.longname} "
-"päivitetty #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Tiketti##{ticket.number}>: Luonut #{current_user.longname} päivitetty "
+"#{ticket.updated_at}_\n"
 "* Ryhmä: #{ticket.group.name}\n"
 "* Omistaja: #{ticket.owner.fullname}\n"
 "* Tila: #{t(ticket.state.name)}\n"
@@ -838,14 +838,16 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:116
 msgid "A new version of Zammad is available, please reload your browser."
-msgstr "Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
+msgstr ""
+"Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
 
 #: app/frontend/shared/composables/useAppMaintenanceCheck.ts:74
 #, fuzzy
 #| msgid "A new version of Zammad is available, please reload your browser."
 msgid ""
 "A newer version of the app is available. Please reload at your earliest."
-msgstr "Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
+msgstr ""
+"Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:156
 msgid "A powerful service to get more information about your customers."
@@ -1627,7 +1629,7 @@ msgstr "Agentti"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Agenttiraja ylitetty, tarkista tiliasetuksesi."
 
@@ -2193,7 +2195,7 @@ msgid ""
 "will be shown as unassigend."
 msgstr ""
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2207,7 +2209,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -6521,7 +6523,7 @@ msgstr "Huomautus sähköpostilla"
 msgid "Email address"
 msgstr "Sähköpostiosoite"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -9185,7 +9187,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -10715,7 +10717,7 @@ msgstr "Miltä tuntuu"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -14396,7 +14398,7 @@ msgstr "Etsi…"
 msgid "Secondary organizations"
 msgstr "Toisisijainen organisaatio"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -16476,7 +16478,8 @@ msgstr ""
 #| msgid "A new version of Zammad is available, please reload your browser."
 msgid ""
 "The configuration of Zammad has changed. Please reload at your earliest."
-msgstr "Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
+msgstr ""
+"Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
 
 #: app/frontend/shared/server/connection.ts:85
 msgid "The connection to the server was lost."
@@ -21775,7 +21778,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

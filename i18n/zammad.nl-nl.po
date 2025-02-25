@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2025-02-19 08:57+0000\n"
 "Last-Translator: michelvdriel <michel@vdriel.com>\n"
-"Language-Team: Dutch <https://translations.zammad.org/projects/zammad/"
-"zammad-stable/nl/>\n"
+"Language-Team: Dutch <https://translations.zammad.org/projects/zammad/zammad-"
+"stable/nl/>\n"
 "Language: nl-nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,9 +76,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Aangemaakt door "
-"#{current_user.longname} op #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Aangemaakt door #{current_user.longname} op "
+"#{ticket.updated_at}_\n"
 "* Groep: #{ticket.group.name}\n"
 "* Behandelaar: #{ticket.owner.fullname}\n"
 "* Status: #{t(ticket.state.name)}\n"
@@ -102,9 +102,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Geëscaleerd op #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Geëscaleerd op #{ticket.escalation_at}_\n"
 "De ticket (#{ticket.title}) van \"#{ticket.customer.longname}\" is "
 "geëscaleerd sinds \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -128,9 +127,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: laatst bijgewerkt op "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: laatst bijgewerkt op #{ticket.updated_at}_\n"
 "* Groep: #{ticket.group.name}\n"
 "* Behandelaar: #{ticket.owner.fullname}\n"
 "* Status: #{t(ticket.state.name)}\n"
@@ -154,8 +152,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Herinnering bereikt!_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Herinnering bereikt!_\n"
 "Een ticket heeft aandacht nodig: herinnering bereikt voor (#{ticket.title}) "
 "met klant \"*#{ticket.customer.longname}*\".\n"
 "\n"
@@ -182,9 +180,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Geüpdatet door "
-"#{current_user.longname} op #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Geüpdatet door #{current_user.longname} op "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -210,9 +208,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Zal escaleren op "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Zal escaleren op #{ticket.escalation_at}_\n"
 "Het ticket (#{ticket.title}) van \"#{ticket.customer.longname}\" zal "
 "escaleren op \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -296,8 +293,8 @@ msgstr ""
 "<div>Het land is toegevoegd aan je lijst met bekende apparaten, die je hier "
 "kunt bekijken:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Als je dit niet was, verwijder je het apparaat, wijzig je het "
 "wachtwoord van je account en neem je contact op met je beheerder. Iemand "
@@ -350,8 +347,8 @@ msgstr ""
 "<div>Je apparaat is toegevoegd aan je lijst met bekende apparaten, die je "
 "hier kunt bekijken:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices </a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices </a></div>\n"
 "<br>\n"
 "<div>Als jij dit niet was, verwijder je het apparaat, wijzig je het "
 "wachtwoord van je account en neem je contact op met je beheerder. Iemand "
@@ -1619,7 +1616,8 @@ msgstr "Ga naar het volgende ticket in de lijst"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:62
 msgid "Affects only notifications for not assigned and all tickets."
-msgstr "Heeft alleen invloed op meldingen voor niet toegewezen en alle tickets."
+msgstr ""
+"Heeft alleen invloed op meldingen voor niet toegewezen en alle tickets."
 
 #: app/assets/javascripts/app/views/exchange/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Exchange account."
@@ -1673,7 +1671,7 @@ msgstr "Chat met behandelaar"
 msgid "Agent idle timeout"
 msgstr "Behandelaar idle time-out"
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Maximum Behandelaren overschreden, controleer je accountinstellingen."
 
@@ -1905,8 +1903,8 @@ msgstr ""
 "</div>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\""
-" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
+"id}\" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/models/ticket.coffee:121
@@ -2239,7 +2237,7 @@ msgstr ""
 "Toewijzing time-out in minuten wanneer toegewezen behandelaar er niet aan "
 "werkt. Ticket wordt getoond als niet toegewezen."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2255,7 +2253,7 @@ msgstr "Minimaal één regel is verplicht, maar er is er geen aangeboden."
 msgid "At least one object must be selected."
 msgstr "Minimaal één object moet geselecteerd worden."
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr "Minimaal één gebruiker moet administrator rechten hebben."
 
@@ -3694,8 +3692,8 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"Bevestig je #{config.product_name} account, #{user.firstname} "
-"#{user.lastname}\n"
+"Bevestig je #{config.product_name} account, #{user.firstname} #{user."
+"lastname}\n"
 "\n"
 "<div>Hallo #{user.firstname},</div>\n"
 "<br>\n"
@@ -4108,8 +4106,8 @@ msgstr ""
 "\n"
 "Beschikbare objecten zijn:\n"
 "* ticket (bijv. ticket.state, ticket.group)\n"
-"* ticket.customer (bijv. ticket.customer.firstname, "
-"ticket.customer.achternaam)\n"
+"* ticket.customer (bijv. ticket.customer.firstname, ticket.customer."
+"achternaam)\n"
 "* ticket.owner (bijv. ticket.owner.firstname, ticket.owner.achternaam)\n"
 "* ticket.organization (bijv. ticket.organization.naam)\n"
 "* user (bijv. user.firstname, user.e-mail)\n"
@@ -4195,7 +4193,8 @@ msgstr "Maak organisatie automatisch aan als regel er een heeft."
 #: app/assets/javascripts/app/models/sla.coffee:7
 msgid ""
 "Create rules that single out the tickets for the Service Level Agreement."
-msgstr "Creëer regels die de tickets voor de Service Level Agreement uitkiezen."
+msgstr ""
+"Creëer regels die de tickets voor de Service Level Agreement uitkiezen."
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldTags/FieldTagsDialog.vue:156
 msgid "Create tag"
@@ -4340,7 +4339,8 @@ msgstr "Huidig wachtwoord"
 
 #: app/models/system_report/plugin/setting.rb:6
 msgid "Current state of configured settings (excluding passwords and tokens)"
-msgstr "Huidige geconfigureerde instellingen (exclusief wachtwoorden en tokens)"
+msgstr ""
+"Huidige geconfigureerde instellingen (exclusief wachtwoorden en tokens)"
 
 #: app/controllers/application_controller/has_user.rb:42
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
@@ -4413,7 +4413,8 @@ msgstr "Klantchat"
 
 #: app/models/system_report/plugin/entities/user.rb:4
 msgid "Customer and agent ratio (role based user counts)"
-msgstr "Klant- en behandelaarratio (telling van gebruikers op basis van rollen)"
+msgstr ""
+"Klant- en behandelaarratio (telling van gebruikers op basis van rollen)"
 
 #: db/seeds/settings.rb:3273
 msgid "Customer selection based on sender and receiver list"
@@ -4695,7 +4696,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:2504
 msgid "Define the default agent notifications for new users."
-msgstr "Definieer de standaard behandelaar-notificaties voor nieuwe gebruikers."
+msgstr ""
+"Definieer de standaard behandelaar-notificaties voor nieuwe gebruikers."
 
 #: db/seeds/settings.rb:1004
 msgid "Define the maximum number of ticket shown in overviews."
@@ -4862,8 +4864,8 @@ msgid ""
 "Defines how the From field of emails (sent from answers and email tickets) "
 "should look like."
 msgstr ""
-"Bepaalt hoe het Van-veld van e-mails (verzonden uit antwoorden en "
-"e-mailtickets) eruit moet zien."
+"Bepaalt hoe het Van-veld van e-mails (verzonden uit antwoorden en e-"
+"mailtickets) eruit moet zien."
 
 #: db/seeds/settings.rb:2248
 msgid ""
@@ -4912,7 +4914,8 @@ msgstr "Zet LDAP-integratie aan of uit."
 
 #: db/seeds/settings.rb:4635
 msgid "Defines if Monit (https://mmonit.com/monit/) is enabled or not."
-msgstr "Zet Monit-integratie (https://mmonit.com/monit/) integratie aan of uit."
+msgstr ""
+"Zet Monit-integratie (https://mmonit.com/monit/) integratie aan of uit."
 
 #: db/seeds/settings.rb:4427
 msgid "Defines if Nagios (http://www.nagios.org) is enabled or not."
@@ -5055,7 +5058,8 @@ msgstr "Bepaalt of de tijdsverantwoording types ingeschakeld zijn."
 msgid ""
 "Defines if the two-factor authentication method authenticator app is enabled "
 "or not."
-msgstr "Zet de verificatie-app voor authenticatie met twee factoren aan of uit."
+msgstr ""
+"Zet de verificatie-app voor authenticatie met twee factoren aan of uit."
 
 #: db/seeds/settings.rb:5649
 msgid ""
@@ -5394,7 +5398,8 @@ msgstr "De i-doit-configuratie."
 
 #: db/seeds/settings.rb:3899
 msgid "Defines the log levels for various logging actions of the Sequencer."
-msgstr "Configureer de log levels voor diverse logging acties van de Sequencer."
+msgstr ""
+"Configureer de log levels voor diverse logging acties van de Sequencer."
 
 #: db/seeds/settings.rb:120
 msgid "Defines the logo of the application, shown in the web interface."
@@ -5518,7 +5523,8 @@ msgstr "Stel de transactie-backend in om triggers uit te voeren."
 
 #: db/seeds/settings.rb:4949
 msgid "Defines the transaction backend to send agent notifications."
-msgstr "Bepaalt de transactie-backend om behandelaar-notificaties te verzenden."
+msgstr ""
+"Bepaalt de transactie-backend om behandelaar-notificaties te verzenden."
 
 #: db/seeds/settings.rb:5286
 msgid ""
@@ -6479,7 +6485,7 @@ msgstr "E-mail verificatie"
 msgid "Email address"
 msgstr "Email adres"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr "E-mailadres '%{email}' is al in gebruik voor een andere gebruiker."
 
@@ -7059,8 +7065,8 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\""
-" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
+"id}\" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
 "</div>\n"
 
 #: lib/excel_sheet/ticket.rb:74
@@ -8343,7 +8349,8 @@ msgstr "Highlight pictogram"
 
 #: db/seeds/settings.rb:5477
 msgid "Highlights if the note a user is writing is public or private"
-msgstr "Markeert of de notitie die een gebruiker schrijft openbaar of intern is"
+msgstr ""
+"Markeert of de notitie die een gebruiker schrijft openbaar of intern is"
 
 #: db/seeds/settings.rb:5474
 msgid "Hint for adding an article to an existing ticket."
@@ -8438,8 +8445,8 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"Hoeveel van jouw tickets komen van e-mail, telefoon, Twitter of Facebook? ("
-"Toont percentages voor zowel inkomende als uitgaande tickets.)"
+"Hoeveel van jouw tickets komen van e-mail, telefoon, Twitter of Facebook? "
+"(Toont percentages voor zowel inkomende als uitgaande tickets.)"
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
 msgid ""
@@ -9135,7 +9142,7 @@ msgstr "Ongeldig client_id in ontvangstlus!"
 msgid "Invalid client_id received!"
 msgstr "Ongeldig client_id ontvangen!"
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr "Ongeldig e-mailadres '%{email}'"
 
@@ -9260,8 +9267,8 @@ msgstr ""
 "voor #{config.product_name} - ons klantondersteuningsplatform.</div>\n"
 "<br>\n"
 "<div>Klik <a href=\"#{config.http_type}://#{config.fqdn}/"
-"#password_reset_verify/#{token.token}\">hier</a> en stel je wachtwoord "
-"in.</div>\n"
+"#password_reset_verify/#{token.token}\">hier</a> en stel je wachtwoord in.</"
+"div>\n"
 "<br>\n"
 "<div>Veel plezier,</div>\n"
 "<br>\n"
@@ -10608,7 +10615,7 @@ msgstr "Stemming"
 msgid "More information can be found here."
 msgstr "Meer informatie is hier te vinden."
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Meer dan 250 secundaire organisaties zijn niet toegestaan."
 
@@ -11087,8 +11094,8 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\""
-" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
+"id}\" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:202
@@ -14029,7 +14036,8 @@ msgstr "Zoekresultaat value key"
 
 #: lib/external_data_source/errors.rb:95
 msgid "Search result value key \"%s\" is not a string, number or boolean."
-msgstr "Zoekresultaat key sleutel \"%s\" is geen tekenreeks, getal of booleaan."
+msgstr ""
+"Zoekresultaat key sleutel \"%s\" is geen tekenreeks, getal of booleaan."
 
 #: lib/external_data_source/errors.rb:85
 msgid "Search result value key \"%s\" was not found."
@@ -14055,7 +14063,7 @@ msgstr "Zoeken…"
 msgid "Secondary organizations"
 msgstr "Secundaire organisaties"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -14768,7 +14776,8 @@ msgstr "E-mail ondertekenen (indien niet mogelijk, notificatie verwijderen)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:650
 msgid "Sign email (if not possible, send notification anyway)"
-msgstr "E-mail ondertekenen (indien niet mogelijk, toch een notificatie sturen)"
+msgstr ""
+"E-mail ondertekenen (indien niet mogelijk, toch een notificatie sturen)"
 
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:76
 #: app/frontend/shared/composables/useArticleSecurity.ts:154
@@ -14988,8 +14997,8 @@ msgid ""
 "APP_RESTART_CMD=\"/path/to/your_app_script.sh restart\"."
 msgstr ""
 "Sommige systeeminstellingen zijn gewijzigd, herstart alle Zammad-processen! "
-"Als je dit automatisch wilt doen, stel je omgevingsvariabele APP_RESTART_CMD="
-"\"/path/to/your_app_script.sh restart\" in."
+"Als je dit automatisch wilt doen, stel je omgevingsvariabele "
+"APP_RESTART_CMD=\"/path/to/your_app_script.sh restart\" in."
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
@@ -15538,8 +15547,8 @@ msgstr ""
 "\n"
 "<div>Beste #{agent.firstname},</div>\n"
 "<br>\n"
-"<div>Dit is een <b>testticket</b>. Ik ben een klant en heb hulp nodig! "
-":)</div>\n"
+"<div>Dit is een <b>testticket</b>. Ik ben een klant en heb hulp nodig! :)</"
+"div>\n"
 "<br>\n"
 "<div>#{customer.fullname}</div>\n"
 "<br>\n"
@@ -16018,9 +16027,9 @@ msgid ""
 "g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
 "the directions under \"Web Server Configuration\" to complete the process."
 msgstr ""
-"De standaard URL voor de kennisbank is bijvoorbeeld example.com of "
-"example.com/help. Om deze vanaf een aangepaste URL te kunnen weergeven, voer "
-"je hieronder de bestemming in (bijv. \"/support\", \"example.com\", of "
+"De standaard URL voor de kennisbank is bijvoorbeeld example.com of example."
+"com/help. Om deze vanaf een aangepaste URL te kunnen weergeven, voer je "
+"hieronder de bestemming in (bijv. \"/support\", \"example.com\", of "
 "\"example.com/support\"). Volg vervolgens de aanwijzingen onder "
 "\"Webserverconfiguratie\" om het proces te voltooien."
 
@@ -17332,7 +17341,8 @@ msgstr "Dit is geen private PGP key."
 #: app/models/ssl_certificate.rb:11
 msgid ""
 "This is not a valid X509 certificate. Please check the certificate format."
-msgstr "Dit is geen geldig X509-certificaat. Controleer het certificaatformaat."
+msgstr ""
+"Dit is geen geldig X509-certificaat. Controleer het certificaatformaat."
 
 #: app/models/channel/email_parser.rb:11
 msgid ""
@@ -17800,8 +17810,8 @@ msgstr ""
 "\n"
 "<div>Hallo #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Een ticket heeft aandacht nodig: herinnering bereikt voor "
-"(#{ticket.title}) met klant \"<b>#{ticket.customer.longname}</b>\".</div>\n"
+"<div>Een ticket heeft aandacht nodig: herinnering bereikt voor (#{ticket."
+"title}) met klant \"<b>#{ticket.customer.longname}</b>\".</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "   <div>\n"
@@ -17813,8 +17823,8 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\""
-" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
+"id}\" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/TicketScreenBehavior.vue:56
@@ -17920,8 +17930,8 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}\""
-" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
+"id}\" target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/frontend/apps/desktop/pages/ticket/composables/useTicketInformation.ts:38
@@ -18237,9 +18247,9 @@ msgid ""
 "To set up this service you need to create a new |\"Incoming webhook\"| in "
 "your %s integration panel and enter the webhook URL below."
 msgstr ""
-"Voor het instellen van deze service moet je een nieuwe |\"Inkomende webhook\""
-"| maken in het integratiepaneel van % en daar de onderstaande URL voor de "
-"webhook invullen."
+"Voor het instellen van deze service moet je een nieuwe |\"Inkomende "
+"webhook\"| maken in het integratiepaneel van % en daar de onderstaande URL "
+"voor de webhook invullen."
 
 #: app/assets/javascripts/app/views/object_manager/attribute/autocompletion_ajax_external_data_source.jst.eco:21
 msgid "To trigger the preview, please enter some search term(s) above."
@@ -18469,7 +18479,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/twitter/account_edit.jst.eco:5
 msgid "Tweets containing search terms are automatically turned into tickets."
-msgstr "Tweets die zoektermen bevatten worden automatisch omgezet naar Tickets."
+msgstr ""
+"Tweets die zoektermen bevatten worden automatisch omgezet naar Tickets."
 
 #: app/assets/javascripts/app/controllers/_channel/twitter.coffee:197
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:71
@@ -18926,8 +18937,8 @@ msgstr ""
 "<div>Hallo #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Ticket (#{ticket.title}) is bijgewerkt door "
-"\"<b>#{current_user.longname}</b>\".\n"
+"Ticket (#{ticket.title}) is bijgewerkt door \"<b>#{current_user.longname}</"
+"b>\".\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:changes].present? %>\n"
@@ -18950,8 +18961,8 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
-"<% if @objects[:article] %>/#{article.id} <% end %>\" target=\"zammad_app\""
-">Bekijk dit in #{config.product_name}</a>\n"
+"<% if @objects[:article] %>/#{article.id} <% end %>\" "
+"target=\"zammad_app\">Bekijk dit in #{config.product_name}</a>\n"
 "</div>\n"
 
 #. This is the template file app/views/mailer/ticket_article_update_reaction/en.html.erb in ERB/HTML format.
@@ -18989,8 +19000,8 @@ msgstr ""
 "<div>\n"
 "<%= @objects[:article].preferences.dig('whatsapp', 'reaction', 'author') %> "
 "gereageerd met een <%= @objects[:article].preferences.dig('whatsapp', "
-"'reaction', 'emoji') %> gereageerd op bericht van "
-"#{article.created_by.fullname}:\n"
+"'reaction', 'emoji') %> gereageerd op bericht van #{article.created_by."
+"fullname}:\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
@@ -19002,9 +19013,9 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}/#{article.id}\" target=\"zammad_app\">Bekijk dit in "
-"#{config.product_name}</a>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">Bekijk dit in #{config.product_name}</"
+"a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
@@ -19318,9 +19329,9 @@ msgstr ""
 "\n"
 "1. Als **behandelaar** heb je niet alleen een overzicht van de openstaande "
 "tickets voor één persoon maar een **overzicht van hun hele organisatie**.\n"
-"2. Als **klant** kun je ook de **tickets die je collega's hebben aangemaakt**"
-" controleren en hun tickets wijzigen (indien uw organisatie op \"gedeeld\" "
-"staat, wat per organisatie kan worden gedefinieerd)."
+"2. Als **klant** kun je ook de **tickets die je collega's hebben "
+"aangemaakt** controleren en hun tickets wijzigen (indien uw organisatie op "
+"\"gedeeld\" staat, wat per organisatie kan worden gedefinieerd)."
 
 #: app/frontend/shared/components/CommonUserAvatar/CommonUserAvatar.vue:124
 #: db/seeds/object_manager_attributes.rb:1293
@@ -19802,9 +19813,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Met |Datum| worden de ticketnummers gegenereerd door de huidige datum, het "
-"SystemID en de teller. Het formaat ziet eruit als "
-"\"Year.Month.Day.SystemID.Counter\" (bijvoorbeeld 201206231010138, "
-"201206231010139)."
+"SystemID en de teller. Het formaat ziet eruit als \"Year.Month.Day.SystemID."
+"Counter\" (bijvoorbeeld 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -19913,8 +19923,8 @@ msgid ""
 "of agents."
 msgstr ""
 "Je kunt **overzichten** maken voor uw behandelaren en uw klanten. Deze "
-"hebben vele doelen, zoals het dienen als een takenlijst voor de behandelaren."
-"\n"
+"hebben vele doelen, zoals het dienen als een takenlijst voor de "
+"behandelaren.\n"
 "\n"
 "Je kunt ook overzichten maken en deze beperken tot specifieke Behandelaren "
 "of tot groepen Behandelaren."
@@ -20054,7 +20064,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:29
 msgid "You can use the following script to post the data to %s."
-msgstr "Je kunt het volgende script gebruiken om de gegevens in %s te plaatsen."
+msgstr ""
+"Je kunt het volgende script gebruiken om de gegevens in %s te plaatsen."
 
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:16
 msgid "You currently don't have any tickets."
@@ -21194,7 +21205,7 @@ msgstr "is de verkeerde lengte (moet %{count} tekens zijn)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "is de verkeerde lengte (moet 1 teken zijn)"
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr "is te lang"
 
@@ -21540,7 +21551,8 @@ msgstr "relatief"
 
 #: db/seeds/settings.rb:216
 msgid "relative - e. g. \"2 hours ago\" or \"2 days and 15 minutes ago\""
-msgstr "relatief - bijv. \"2 uur geleden\" of \"2 dagen en 15 minuten geleden\""
+msgstr ""
+"relatief - bijv. \"2 uur geleden\" of \"2 dagen en 15 minuten geleden\""
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
 #: app/assets/javascripts/app/views/profile/linked_accounts.jst.eco:17

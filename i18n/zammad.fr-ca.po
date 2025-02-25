@@ -907,8 +907,8 @@ msgstr ""
 msgid ""
 "A test ticket has been created, you can find it in your overview \"%s\" %l."
 msgstr ""
-"Un billet de test a été créé, vous pouvez le trouver dans votre aperçu \"%s\""
-" %l."
+"Un billet de test a été créé, vous pouvez le trouver dans votre aperçu "
+"\"%s\" %l."
 
 #: app/models/ticket.rb:276
 #, fuzzy
@@ -1688,7 +1688,7 @@ msgstr "Agent"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 "La limite de l'agent est dépassée, veuillez vérifier les paramètres de votre "
@@ -2266,7 +2266,7 @@ msgstr ""
 "Délai d'affectation en minutes si l'agent assigné ne travaille pas dessus. "
 "Le billet sera présenté comme non assigné."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2280,7 +2280,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -6754,7 +6754,7 @@ msgstr "Notification par courriel"
 msgid "Email address"
 msgstr "Adresse Courriel"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -6897,8 +6897,8 @@ msgid ""
 "session_."
 msgstr ""
 "Activez ou désactivez le mode Maintenance de Zammad. Si cette option est "
-"activée, \"_all non-administrators\" sont déconnectés et "
-"\"_only administrators\" peuvent démarrer une nouvelle session_."
+"activée, \"_all non-administrators\" sont déconnectés et \"_only "
+"administrators\" peuvent démarrer une nouvelle session_."
 
 #: db/seeds/settings.rb:40
 msgid ""
@@ -7708,8 +7708,8 @@ msgstr "Fonction désactivée !"
 #: app/controllers/integration/sipgate_controller.rb:51
 msgid "Feature is disabled, please contact your administrator!"
 msgstr ""
-"Cette fonctionnalité est désactivée, veuillez contacter votre administrateur "
-"!"
+"Cette fonctionnalité est désactivée, veuillez contacter votre "
+"administrateur !"
 
 #: app/controllers/integration/cti_controller.rb:56
 #: app/controllers/integration/placetel_controller.rb:55
@@ -7915,7 +7915,8 @@ msgstr ""
 #, fuzzy
 #| msgid "E. g. recent changed tickets, users or organizations."
 msgid "For example, recently changed tickets, users, or organizations."
-msgstr "Par exemple: billets, utilisateurs ou organisations récemment modifiés."
+msgstr ""
+"Par exemple: billets, utilisateurs ou organisations récemment modifiés."
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:10
 msgid "For more details, please check out our online documentation %l."
@@ -9596,7 +9597,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -11228,7 +11229,7 @@ msgstr "MOOD"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -14983,7 +14984,7 @@ msgstr "Recherche…"
 msgid "Secondary organizations"
 msgstr "Organisation partagée"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -17149,12 +17150,12 @@ msgid ""
 "g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
 "the directions under \"Web Server Configuration\" to complete the process."
 msgstr ""
-"L'URL par défaut de votre base de connaissances est, par exemple, "
-"exemple.com ou exemple.com/aide. Pour la diffuser à partir d'une URL "
-"personnalisée, saisissez la destination ci-dessous (par exemple, "
-"\"/ assistance\", \"exemple.com.com\" ou \"exemple.com/assistance\"). "
-"Ensuite, suivez les instructions sous \"Configuration du serveur Web\" pour "
-"terminer le processus."
+"L'URL par défaut de votre base de connaissances est, par exemple, exemple."
+"com ou exemple.com/aide. Pour la diffuser à partir d'une URL personnalisée, "
+"saisissez la destination ci-dessous (par exemple, \"/ assistance\", "
+"\"exemple.com.com\" ou \"exemple.com/assistance\"). Ensuite, suivez les "
+"instructions sous \"Configuration du serveur Web\" pour terminer le "
+"processus."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -19501,8 +19502,8 @@ msgstr ""
 #: app/assets/javascripts/app/models/text_module.coffee:25
 msgid "To select placeholders from a list, just enter \"::\"."
 msgstr ""
-"Pour sélectionner des espaces réservés dans une liste, entrez simplement "
-"\"::\"."
+"Pour sélectionner des espaces réservés dans une liste, entrez simplement \"::"
+"\"."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:2
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:194
@@ -19518,9 +19519,9 @@ msgid ""
 "To set up this service you need to create a new |\"Incoming webhook\"| in "
 "your %s integration panel and enter the webhook URL below."
 msgstr ""
-"Pour configurer ce service, vous devez créer un nouveau|\"Incoming webhook\"|"
-" dans votre panneau d'intégration %s, puis entrez l'URL du crochet logiciel "
-"Web ci-dessous."
+"Pour configurer ce service, vous devez créer un nouveau|\"Incoming "
+"webhook\"| dans votre panneau d'intégration %s, puis entrez l'URL du crochet "
+"logiciel Web ci-dessous."
 
 #: app/assets/javascripts/app/views/object_manager/attribute/autocompletion_ajax_external_data_source.jst.eco:21
 msgid "To trigger the preview, please enter some search term(s) above."
@@ -20948,7 +20949,8 @@ msgstr "Quelles valeurs de %s doivent être synchronisées avec l'organisation."
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:24
 msgid "What values of %s should be synced to users."
-msgstr "Quelles valeurs de %s doivent être synchronisées avec les utilisateurs."
+msgstr ""
+"Quelles valeurs de %s doivent être synchronisées avec les utilisateurs."
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:37
 #: app/assets/javascripts/app/views/whatsapp/index.jst.eco:3
@@ -21116,9 +21118,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Avec |Date| les numéros de billet seront générés avec la date du jour, l'ID "
-"du système et le compteur. Le format ressemble à "
-"\"Year.Month.Day.SystemID.Counter\" (par exemple 201206231010138, "
-"201206231010139)."
+"du système et le compteur. Le format ressemble à \"Year.Month.Day.SystemID."
+"Counter\" (par exemple 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -21375,7 +21376,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:29
 msgid "You can use the following script to post the data to %s."
-msgstr "Vous pouvez utiliser le script suivant pour publier les données sur %s."
+msgstr ""
+"Vous pouvez utiliser le script suivant pour publier les données sur %s."
 
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:16
 msgid "You currently don't have any tickets."
@@ -22590,7 +22592,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 

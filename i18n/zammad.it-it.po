@@ -54,8 +54,8 @@ msgid ""
 "system that is already in production without any loss of data."
 msgstr ""
 "\"Database\" memorizza gli allegati nel database (sconsigliato per "
-"memorizzare molti dati). \"Filesystem\" memorizza i file su disco. "
-"\"Simple Storage (S3)\" memorizza i dati in un filesystem a oggetti remoto "
+"memorizzare molti dati). \"Filesystem\" memorizza i file su disco. \"Simple "
+"Storage (S3)\" memorizza i dati in un filesystem a oggetti remoto "
 "compatibile con S3. Puoi cambiare modalità anche in un sistema già in "
 "produzione, senza perdita di dati."
 
@@ -76,9 +76,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Creato da #{current_user.longname} "
-"alle #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Creato da #{current_user.longname} alle #{ticket."
+"updated_at}_\n"
 "* Gruppo: #{ticket.group.name}\n"
 "* Proprietario: #{ticket.owner.fullname}\n"
 "* Stato: #{t(ticket.state.name)}\n"
@@ -102,9 +102,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Scalato alle #{ticket.escalation_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Scalato alle #{ticket.escalation_at}_\n"
 "Il ticket (#{ticket.title}) da \"#{ticket.customer.longname}\" è andato in "
 "escalation dalle \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -128,9 +127,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Aggiornato alle #{ticket.updated_at}"
-"_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Aggiornato alle #{ticket.updated_at}_\n"
 "* Gruppo: #{ticket.group.name}\n"
 "* Proprietario: #{ticket.owner.fullname}\n"
 "* Stato: #{t(ticket.state.name)}\n"
@@ -154,8 +152,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Promemoria raggiunto!_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Promemoria raggiunto!_\n"
 "Un ticket richiede attenzione: raggiunto promemoria per (#{ticket.title}) "
 "del cliente \"*#{ticket.customer.longname}*\".\n"
 "\n"
@@ -182,9 +180,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Modificato da #{current_user.longname}"
-" alle #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Modificato da #{current_user.longname} alle "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -210,9 +208,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Andrà in escalation alle "
-"#{ticket.escalation_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Andrà in escalation alle #{ticket.escalation_at}_\n"
 "Il ticket (#{ticket.title}) da \"#{ticket.customer.longname}\" andrà in "
 "escalation alle \"#{ticket.escalation_at}\"!\n"
 "\n"
@@ -284,9 +281,9 @@ msgstr ""
 "\n"
 "<div>Buongiorno #{user.firstname},</div>\n"
 "<br>\n"
-"<div>sembra che tu abbia eseguito l'accesso alle "
-"\"#{user_device.created_at}\" da un <b>dispositivo conosciuto ma da un altro "
-"paese</b>:</div>\n"
+"<div>sembra che tu abbia eseguito l'accesso alle \"#{user_device."
+"created_at}\" da un <b>dispositivo conosciuto ma da un altro paese</b>:</"
+"div>\n"
 "<br>\n"
 "<div>\n"
 "Il tuo dispositivo: #{user_device.name}<br>\n"
@@ -297,8 +294,8 @@ msgstr ""
 "<div>Il nuovo paese è stato aggiunto all'elenco dei dispositivi conosciuti, "
 "che può essere visualizzato qui:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>In caso non sia stato tu, rimuovere il dispositivo, modifica la "
 "password dell'account e contatta l'amministratore. Qualcuno potrebbe avere "
@@ -351,8 +348,8 @@ msgstr ""
 "<div>Il dispositivo è stato aggiunto all'elenco di quelli conosciuti, che "
 "può essere visualizzato qui:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Se non sei stato tu, rimuovi il dispositivo, modifica la password "
 "dell'account e contatta l'amministratore. Qualcuno potrebbe avere accesso "
@@ -438,8 +435,8 @@ msgstr "%s file allegati"
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:39
 msgid "%s completed data privacy task to delete user ID |%s|"
 msgstr ""
-"%s completato attività di gestione privacy per cancellazione utente con ID "
-"|%s|"
+"%s completato attività di gestione privacy per cancellazione utente con ID |"
+"%s|"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:49
 #: app/frontend/shared/components/ActivityMessage/builders/ticket-article.ts:26
@@ -450,8 +447,8 @@ msgstr "%s ha creato una nota per |%s|"
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:27
 msgid "%s created data privacy task to delete user ID |%s|"
 msgstr ""
-"%s ha creato l'attività di gestione privacy per eliminare l'utente con ID "
-"|%s|"
+"%s ha creato l'attività di gestione privacy per eliminare l'utente con ID |"
+"%s|"
 
 #: app/assets/javascripts/app/models/group.coffee:30
 #: app/frontend/shared/components/ActivityMessage/builders/group.ts:26
@@ -637,8 +634,8 @@ msgstr "%s ha aggiornato una nota per |%s|"
 #: app/frontend/shared/components/ActivityMessage/builders/data-privacy-task.ts:33
 msgid "%s updated data privacy task to delete user ID |%s|"
 msgstr ""
-"%s ha creato l'attività di gestione privacy per eliminare l'utente con id "
-"|%s|"
+"%s ha creato l'attività di gestione privacy per eliminare l'utente con id |"
+"%s|"
 
 #: app/assets/javascripts/app/models/group.coffee:32
 #: app/frontend/shared/components/ActivityMessage/builders/group.ts:28
@@ -774,8 +771,8 @@ msgstr ""
 "**Service Level Agreements**, abbreviati **SLA**, ti aiutano a raggiungere "
 "tempi di risposta prefissati alle richieste dei tuoi clienti. In questo modo "
 "puoi determinare dei traguardi come ad esempio rispondere a ogni richiesta "
-"entro otto ore. Se rischi di non raggiungere un obiettivo, Zammad ti avvisa."
-"\n"
+"entro otto ore. Se rischi di non raggiungere un obiettivo, Zammad ti "
+"avvisa.\n"
 "\n"
 "Puoi definire obiettivi per tre parametri: **tempo di risposta** (tempo tra "
 "la creazione del ticket e la prima reazione da parte di un agente), **tempo "
@@ -783,9 +780,9 @@ msgstr ""
 "parte di un agente), e il **tempo di risoluzione** (tempo tra la creazione e "
 "la chiusura del ticket).\n"
 "\n"
-"Ogni ticket scalato (ad esempio quelli che non hanno rispettato un obiettivo)"
-" sono visualizzati in una vista diversa delle tue panoramiche. Puoi anche "
-"configurare delle **notifiche via email**."
+"Ogni ticket scalato (ad esempio quelli che non hanno rispettato un "
+"obiettivo) sono visualizzati in una vista diversa delle tue panoramiche. "
+"Puoi anche configurare delle **notifiche via email**."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleFooter.vue:30
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:223
@@ -915,7 +912,8 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:40
 msgid "A color scheme that uses light-colored elements on a dark background."
-msgstr "Una combinazione di colori che usa elementi chiari su uno sfondo scuro."
+msgstr ""
+"Una combinazione di colori che usa elementi chiari su uno sfondo scuro."
 
 #: db/seeds/settings.rb:3886
 msgid "A list of active import backends that gets scheduled automatically."
@@ -1603,8 +1601,8 @@ msgstr ""
 "\n"
 "<div>Ciao #{user.firstname},</div>\n"
 "<br>\n"
-"<div>abbiamo ricevuto una richiesta di accesso per il tuo account "
-"<b>#{user.login}</b> su #{config.product_name}.</div>\n"
+"<div>abbiamo ricevuto una richiesta di accesso per il tuo account <b>#{user."
+"login}</b> su #{config.product_name}.</div>\n"
 "<br>\n"
 "<div>Per favore clicca sul link sotto (o fai copia/incolla nel browser) per "
 "procedere:</div>\n"
@@ -1613,8 +1611,8 @@ msgstr ""
 "<br>\n"
 "<div>Questo collegamento porta a una pagina da cui potrai accedere.</div>\n"
 "<br>\n"
-"<div>Se non hai necessità di accedere, puoi ignorare questo messaggio.</div>"
-"\n"
+"<div>Se non hai necessità di accedere, puoi ignorare questo messaggio.</"
+"div>\n"
 "<br>\n"
 "<div>Il tuo team #{config.product_name}</div>\n"
 
@@ -1637,7 +1635,8 @@ msgstr "Dopo l'approvazione, riconnetti per favore il tuo account Exchange."
 
 #: app/assets/javascripts/app/views/microsoft365/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Microsoft365 mailbox."
-msgstr "Dopo l'approvazione, riconnetti la tua mailbox Microsoft365 per favore."
+msgstr ""
+"Dopo l'approvazione, riconnetti la tua mailbox Microsoft365 per favore."
 
 #: app/assets/javascripts/app/views/package.jst.eco:12
 msgid ""
@@ -1683,7 +1682,7 @@ msgstr "Chat dell'operatore"
 msgid "Agent idle timeout"
 msgstr "Tempo di inattività operatore"
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Limite agente superato, verifica le impostazioni del tuo account."
 
@@ -1724,9 +1723,9 @@ msgid ""
 "history entry preserved. There is no rollback of this deletion possible."
 msgstr ""
 "Tutti i ticket interessati saranno pianificati per l'eliminazione quando "
-"viene eseguito questo lavoro. Una volta eseguita l'attività sui dati privacy "
-", i ticket verranno eliminati e verrà conservata una voce della cronologia. "
-"Non è possibile eseguire il rollback di questa eliminazione."
+"viene eseguito questo lavoro. Una volta eseguita l'attività sui dati "
+"privacy , i ticket verranno eliminati e verrà conservata una voce della "
+"cronologia. Non è possibile eseguire il rollback di questa eliminazione."
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:129
 msgid ""
@@ -1912,8 +1911,8 @@ msgstr ""
 "<div>Buongiorno #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Un altro ticket è stato unito in (#{ticket.title}) da "
-"\"<b>#{ticket.customer.longname}</b>\".\n"
+"Un altro ticket è stato unito in (#{ticket.title}) da \"<b>#{ticket.customer."
+"longname}</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<div>\n"
@@ -2254,7 +2253,7 @@ msgstr ""
 "Scadenza assegnazione in minuti quando l'agente assegnatario non ci sta "
 "lavorando. Il ticket sarà indicato come non assegnato."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2271,7 +2270,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "È necessario selezionare almeno un oggetto."
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr "Dev'esserci almeno un utente con privilegi di amministratore."
 
@@ -3724,8 +3723,8 @@ msgstr ""
 "<div>Buongiorno #{user.firstname},</div>\n"
 "<br>\n"
 "<div>confermare l'indirizzo email per completare la registrazione su "
-"#{config.product_name}. È facile, basta cliccare il link riportato "
-"sotto.</div>\n"
+"#{config.product_name}. È facile, basta cliccare il link riportato sotto.</"
+"div>\n"
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
@@ -4374,7 +4373,8 @@ msgstr "Password attuale"
 
 #: app/models/system_report/plugin/setting.rb:6
 msgid "Current state of configured settings (excluding passwords and tokens)"
-msgstr "Stato attuale delle impostazioni configurate (escluse password e token)"
+msgstr ""
+"Stato attuale delle impostazioni configurate (escluse password e token)"
 
 #: app/controllers/application_controller/has_user.rb:42
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
@@ -4682,8 +4682,8 @@ msgid ""
 "Define an exception of \"automatic assignment\" for certain users (e.g. "
 "executives)."
 msgstr ""
-"Definire un'eccezione di \"assegnazione automatica\" per determinati utenti ("
-"ad esempio i dirigenti)."
+"Definire un'eccezione di \"assegnazione automatica\" per determinati utenti "
+"(ad esempio i dirigenti)."
 
 #: db/seeds/settings.rb:3572
 msgid "Define max. attachment size for Elasticsearch."
@@ -4750,7 +4750,8 @@ msgstr "Definisce la chiave di autenticazione per l'endpoint di Freshdesk."
 
 #: db/seeds/settings.rb:3536
 msgid "Defines HTTP basic auth password of Elasticsearch."
-msgstr "Definisce la password per l'autenticazione HTTP basic di Elasticsearch."
+msgstr ""
+"Definisce la password per l'autenticazione HTTP basic di Elasticsearch."
 
 #: db/seeds/settings.rb:3527
 msgid "Defines HTTP basic auth user of Elasticsearch."
@@ -4801,7 +4802,8 @@ msgstr ""
 #: db/seeds/settings.rb:3831
 msgid ""
 "Defines a Kayako endpoint to import users, tickets, states, and articles."
-msgstr "Definisce l'endpoint Kayako per importare utenti, ticket, stati e note."
+msgstr ""
+"Definisce l'endpoint Kayako per importare utenti, ticket, stati e note."
 
 #: db/seeds/settings.rb:3738
 msgid ""
@@ -5221,8 +5223,8 @@ msgstr "Definisce il filtro postmaster per identificare l'utente mittente."
 msgid ""
 "Defines postmaster filter to manage Icinga (http://www.icinga.org) emails."
 msgstr ""
-"Definisce il filtro postmaster per identificare le email di Icinga "
-"(http://www.icinga.org)."
+"Definisce il filtro postmaster per identificare le email di Icinga (http://"
+"www.icinga.org)."
 
 #: db/seeds/settings.rb:4275
 msgid ""
@@ -5235,8 +5237,8 @@ msgstr ""
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
-"Definisce il filtro postmaster per identificare le email di Nagios "
-"(http://www.nagios.org)."
+"Definisce il filtro postmaster per identificare le email di Nagios (http://"
+"www.nagios.org)."
 
 #: db/seeds/settings.rb:4104
 msgid ""
@@ -6529,7 +6531,7 @@ msgstr "Verifica dell'email"
 msgid "Email address"
 msgstr "Indirizzo email"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr "L'indirizzo email '%{email}' è usato da un altro utente."
 
@@ -6629,7 +6631,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:2469
 msgid "Enable auto assignment for following matching tickets."
-msgstr "Abilita l'assegnazione automatica per i seguenti ticket corrispondenti."
+msgstr ""
+"Abilita l'assegnazione automatica per i seguenti ticket corrispondenti."
 
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:12
 msgid "Enable automatic assignment the first time an agent opens a ticket."
@@ -8333,8 +8336,8 @@ msgid ""
 msgstr ""
 "Qui puoi cercare i ticket, utenti e organizzazioni. Usa il carattere jolly "
 "§*§ per trovare qualsiasi cosa. Per esempio. §smi*§ o §roseo*l§. Puoi anche "
-"usare le ||virgolette|| per cercare frasi intere, ad esempio: §"
-"\"qualsiasi cosa\"§."
+"usare le ||virgolette|| per cercare frasi intere, ad esempio: §\"qualsiasi "
+"cosa\"§."
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:23
 msgid ""
@@ -8490,8 +8493,8 @@ msgid ""
 "How many of your tickets are coming from email, phone, Twitter, or Facebook? "
 "(Shows percentages for both inbound and outbound tickets.)"
 msgstr ""
-"Quanti dei tuoi Ticket arrivano via Mail, Telefono, Twitter o Facebook? ("
-"Mostra la percentuale sia per i Ticket in entrata, sia per i Ticket in "
+"Quanti dei tuoi Ticket arrivano via Mail, Telefono, Twitter o Facebook? "
+"(Mostra la percentuale sia per i Ticket in entrata, sia per i Ticket in "
 "uscita)"
 
 #: app/assets/javascripts/app/controllers/_dashboard/stats/ticket_reopen.coffee:9
@@ -8673,7 +8676,8 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmailPreConfigured.vue:73
 msgid ""
 "If you want to use additional email addresses, you can configure them later."
-msgstr "Se vuoi usare ulteriori indirizzi email, li puoi configurare più tardi."
+msgstr ""
+"Se vuoi usare ulteriori indirizzi email, li puoi configurare più tardi."
 
 #: app/assets/javascripts/app/models/ticket_state.coffee:9
 msgid "Ignore Escalation"
@@ -9185,7 +9189,7 @@ msgstr "Client_id non valido nel ciclo di ricezione!"
 msgid "Invalid client_id received!"
 msgstr "Ricevuto un client_id non valido!"
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr "Email '%{email}' non valida"
 
@@ -9256,7 +9260,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/authenticator_app.coffee:93
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:107
 msgid "Invalid security code! Please try again with a new code."
-msgstr "Codice di sicurezza non valido! Per favore riprova con un nuovo codice."
+msgstr ""
+"Codice di sicurezza non valido! Per favore riprova con un nuovo codice."
 
 #: app/controllers/integration/cti_controller.rb:41
 #: app/controllers/integration/placetel_controller.rb:40
@@ -9311,8 +9316,8 @@ msgstr ""
 "supporto utenti.</div>\n"
 "<br>\n"
 "<div>Clicca <a href=\"#{config.http_type}://#{config.fqdn}/"
-"#password_reset_verify/#{token.token}\">qui</a> e imposta la tua "
-"password.</div>\n"
+"#password_reset_verify/#{token.token}\">qui</a> e imposta la tua password.</"
+"div>\n"
 "<br>\n"
 "<div>Grazie,</div>\n"
 "<br>\n"
@@ -10270,8 +10275,8 @@ msgstr ""
 "Sono stati trovati molti campi dinamici. Ciò non è uno schema comune in "
 "Zammad, che ha un approccio diverso per gli attributi dei ticket. Zammad "
 "utilizza le etichette (tag) oltre ai campi personalizzati per classificare i "
-"ticket. Questa differenza consente di creare diverse modalità per attributi /"
-" etichette rispetto all'uso attuale dei campi dinamici di OTRS."
+"ticket. Questa differenza consente di creare diverse modalità per "
+"attributi / etichette rispetto all'uso attuale dei campi dinamici di OTRS."
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:22
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:57
@@ -10660,7 +10665,7 @@ msgstr "Stato d'animo"
 msgid "More information can be found here."
 msgstr "Ulteriori informazioni sono disponibili qui."
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Non sono ammesse più di 250 organizzazioni secondarie."
 
@@ -11641,7 +11646,8 @@ msgstr "Non è stato possibile salvare le impostazioni di notifica."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:190
 msgid "Notification settings have been reset to default."
-msgstr "Le impostazioni di notifica sono state riportate ai valori predefiniti."
+msgstr ""
+"Le impostazioni di notifica sono state riportate ai valori predefiniti."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:141
 msgid "Notification settings have been saved successfully."
@@ -12613,7 +12619,8 @@ msgstr "Per favore inserisci le tue credenziali Exchange."
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:19
 msgid "Please execute database changes only in a maintenance window."
-msgstr "Effettua modifiche al database solo durante il periodo di manutenzione."
+msgstr ""
+"Effettua modifiche al database solo durante il periodo di manutenzione."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form_item.coffee:100
 msgid "Please fill in all fields"
@@ -13652,7 +13659,8 @@ msgstr "Ruolo"
 
 #: app/assets/javascripts/app/controllers/_ui_element/user_permission.coffee:49
 msgid "Role %s is conflicting with role %s, do you want to continue?"
-msgstr "Il ruolo %s è in conflitto con il ruolo %s, sicuro di voler continuare?"
+msgstr ""
+"Il ruolo %s è in conflitto con il ruolo %s, sicuro di voler continuare?"
 
 #: app/assets/javascripts/app/controllers/role.coffee:3
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:193
@@ -14113,7 +14121,7 @@ msgstr "Cerca…"
 msgid "Secondary organizations"
 msgstr "Organizzazioni secondarie"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -15723,7 +15731,8 @@ msgstr "L'importazione OTRS è fallita."
 
 #: app/services/service/system/import/apply_otrs_configuration.rb:78
 msgid "The OTRS migrator plugin is not accessable. Please verify the API key."
-msgstr "Il plugin di migrazione OTRS non è accessibile. Verifica la chiave API."
+msgstr ""
+"Il plugin di migrazione OTRS non è accessibile. Verifica la chiave API."
 
 #: lib/secure_mailing/pgp/tool/error.rb:106
 msgid "The PGP email recipient is invalid."
@@ -15937,7 +15946,8 @@ msgstr "Non è stato trovato il certificato per %s."
 
 #: app/models/smime_certificate.rb:54
 msgid "The certificate for this private key could not be found."
-msgstr "Non è stato possibile trovare il certificato per questa chiave privata."
+msgstr ""
+"Non è stato possibile trovare il certificato per questa chiave privata."
 
 #: lib/secure_mailing/smime/incoming.rb:69
 msgid "The certificate for verification could not be found."
@@ -16034,7 +16044,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:93
 msgid "The configuration of Zammad has changed, please reload your browser."
-msgstr "La configurazione di Zammad è cambiata, ricarica la pagina del browser."
+msgstr ""
+"La configurazione di Zammad è cambiata, ricarica la pagina del browser."
 
 #: app/frontend/shared/composables/useAppMaintenanceCheck.ts:102
 msgid ""
@@ -16084,8 +16095,8 @@ msgstr ""
 "L'URL predefinito per la tua base di conoscenza è ad esempio example.com o "
 "example.com/help. Per renderla accessibile da un URL personalizzato, "
 "inserisci la destinazione sotto (ad es. \"/supporto\", \"esempio.it\" o "
-"\"esempio.it/supporto\"). Poi, segui le istruzioni sotto "
-"\"Configurazione del server web\" per completare il processo."
+"\"esempio.it/supporto\"). Poi, segui le istruzioni sotto \"Configurazione "
+"del server web\" per completare il processo."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -16210,7 +16221,8 @@ msgstr ""
 
 #: app/services/service/user/two_factor/set_default_method.rb:18
 msgid "The given two-factor authentication method is not configured."
-msgstr "L'autenticazione a due fattori con il metodo fornito non è configurata."
+msgstr ""
+"L'autenticazione a due fattori con il metodo fornito non è configurata."
 
 #: app/services/service/user/two_factor/set_default_method.rb:14
 msgid "The given two-factor authentication method is not enabled."
@@ -16466,7 +16478,8 @@ msgstr "L'indirizzo email fornito è già in uso."
 
 #: app/models/webhook.rb:34
 msgid "The provided endpoint is invalid, no hostname was specified."
-msgstr "L'indirizzo fornito non è valido, non è stato specificato un nome host."
+msgstr ""
+"L'indirizzo fornito non è valido, non è stato specificato un nome host."
 
 #: app/models/webhook.rb:33
 msgid ""
@@ -16553,7 +16566,8 @@ msgstr ""
 
 #: lib/idoit.rb:23
 msgid "The required field 'endpoint' is missing from the config."
-msgstr "Il campo richiesto 'endpoint' non è stato fornito nella configurazione."
+msgstr ""
+"Il campo richiesto 'endpoint' non è stato fornito nella configurazione."
 
 #: app/models/postmaster_filter.rb:33
 msgid "The required match value is missing."
@@ -16707,8 +16721,8 @@ msgid ""
 "The required value 'external_credential[:consumer_secret]' could not be "
 "found in the cache."
 msgstr ""
-"Impossibile trovare il valore richiesto 'external_credential"
-"[:consumer_secret]' nella cache."
+"Impossibile trovare il valore richiesto 'external_credential[:"
+"consumer_secret]' nella cache."
 
 #: app/policies/ticket_policy.rb:35
 msgid "The required value 'group_id' is missing."
@@ -16755,7 +16769,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/login.coffee:30
 #: app/frontend/apps/mobile/pages/authentication/views/Login.vue:37
 msgid "The session is no longer valid. Please log in again."
-msgstr "La sessione non è più valida. Per favore effettua nuovamente l'accesso."
+msgstr ""
+"La sessione non è più valida. Per favore effettua nuovamente l'accesso."
 
 #: app/models/store/file.rb:18
 msgid "The setting 'storage_provider' was not configured."
@@ -17487,7 +17502,8 @@ msgstr "Questa pagina non è visibile al pubblico."
 msgid ""
 "This permission level is not available based on the current roles "
 "permissions."
-msgstr "Questo livello di permesso non è disponibile in base ai ruoli correnti."
+msgstr ""
+"Questo livello di permesso non è disponibile in base ai ruoli correnti."
 
 #: app/services/service/execute_locked_block.rb:46
 msgid ""
@@ -17874,8 +17890,8 @@ msgstr ""
 "\n"
 "<div>Buongiorno #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Un ticket ha bisogno di attenzione: promemoria raggiunto per "
-"(#{ticket.title}) del cliente \"<b>#{ticket.customer.longname}</b>\".</div>\n"
+"<div>Un ticket ha bisogno di attenzione: promemoria raggiunto per (#{ticket."
+"title}) del cliente \"<b>#{ticket.customer.longname}</b>\".</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -18289,8 +18305,8 @@ msgid ""
 "To revert back to the default payload, simply turn off the \"Custom "
 "Payload\" switch above."
 msgstr ""
-"Per ripristinare il payload predefinito disattiva il selettore "
-"\"Payload personalizzato\" qui sopra."
+"Per ripristinare il payload predefinito disattiva il selettore \"Payload "
+"personalizzato\" qui sopra."
 
 #: app/assets/javascripts/app/models/text_module.coffee:25
 msgid "To select placeholders from a list, just enter \"::\"."
@@ -18998,8 +19014,8 @@ msgstr ""
 "<div>Buongiorno #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"il ticket (#{ticket.title}) è stato aggiornato da "
-"\"<b>#{current_user.longname}</b>\".\n"
+"il ticket (#{ticket.title}) è stato aggiornato da \"<b>#{current_user."
+"longname}</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:changes].present? %>\n"
@@ -19022,8 +19038,8 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}<% "
-"if @objects[:article] %>/#{article.id}<% end %>\" target=\"zammad_app\""
-">Visualizza su #{config.product_name}</a>\n"
+"if @objects[:article] %>/#{article.id}<% end %>\" "
+"target=\"zammad_app\">Visualizza su #{config.product_name}</a>\n"
 "</div>\n"
 
 #. This is the template file app/views/mailer/ticket_article_update_reaction/en.html.erb in ERB/HTML format.
@@ -19073,9 +19089,9 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}/#{article.id}\" target=\"zammad_app\">Visualizza su "
-"#{config.product_name}</a>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">Visualizza su #{config.product_name}</"
+"a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
@@ -19137,8 +19153,8 @@ msgid ""
 "Use 'with_private_keyring' to create a private keyring or set @gnupg_home "
 "before calling gpg."
 msgstr ""
-"Usa 'with_private_keyring' per creare un portachiavi privato o imposta @"
-"gnupg_home prima di chiamare gpg."
+"Usa 'with_private_keyring' per creare un portachiavi privato o imposta "
+"@gnupg_home prima di chiamare gpg."
 
 #: app/assets/javascripts/app/views/object_manager/attribute/multiselect.jst.eco:69
 #: app/assets/javascripts/app/views/object_manager/attribute/select.jst.eco:65
@@ -19872,8 +19888,8 @@ msgid ""
 "Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Con |Data| il numero del ticket sarà generato dalla data corrente, dal "
-"SystemID e dal contatore. Il formato sarà \"Year.Month.Day.SystemID.Counter\""
-" (per esempio 201206231010138, 201206231010139)."
+"SystemID e dal contatore. Il formato sarà \"Year.Month.Day.SystemID."
+"Counter\" (per esempio 201206231010138, 201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -19935,7 +19951,8 @@ msgstr "Sei alla posizione <strong>%s</strong> della lista di attesa."
 #: app/models/transaction/notification.rb:117
 msgid ""
 "You are receiving this because you are a member of the group of this ticket."
-msgstr "Stai ricevendo questo perché sei un membro del gruppo di questo ticket."
+msgstr ""
+"Stai ricevendo questo perché sei un membro del gruppo di questo ticket."
 
 #: app/models/transaction/notification.rb:287
 msgid ""
@@ -19955,7 +19972,8 @@ msgstr "Stai ricevendo questo perché sei stato menzionato in questo ticket."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:273
 msgid "You calendar subscription settings were updated."
-msgstr "Le impostazioni di sottoscrizione del calendario sono state aggiornate."
+msgstr ""
+"Le impostazioni di sottoscrizione del calendario sono state aggiornate."
 
 #: app/assets/javascripts/app/views/exchange/oauth_intro.jst.eco:7
 #: app/assets/javascripts/app/views/facebook/index.jst.eco:9
@@ -20285,8 +20303,8 @@ msgstr ""
 "\n"
 "<div>Buongiorno #{user.firstname},</div>\n"
 "<br>\n"
-"<div>la password per l'accesso a #{config.product_name} account "
-"#{user.login}</b> è stata modificata di recente. </div>\n"
+"<div>la password per l'accesso a #{config.product_name} account #{user.login}"
+"</b> è stata modificata di recente. </div>\n"
 "<br>\n"
 "<div>Questa attività vi è sconosciuta? In questo caso, contattare "
 "l'amministratore di sistema.</div>\n"
@@ -21263,7 +21281,7 @@ msgstr "è della lunghezza sbagliata (dovrebbe essere %{count} caratteri)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "è della lunghezza sbagliata (dovrebbe essere 1 carattere)"
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr "è troppo lungo"
 
@@ -21297,7 +21315,8 @@ msgstr "sinistra"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/linkedAccounts.ts:27
 msgid "linked accounts,facebook,github,gitlab,google,linkedin,microsoft,saml"
-msgstr "account collegati,facebook,github,gitlab,google,linkedin,microsoft,saml"
+msgstr ""
+"account collegati,facebook,github,gitlab,google,linkedin,microsoft,saml"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSeparatorMore.vue:18
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketList.vue:140

@@ -251,8 +251,8 @@ msgstr ""
 "<div>Vaša naprava je bila dodana na seznam znanih naprav. Svoje naprave si "
 "ga lahko ogledate tukaj:</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
-">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
 "<br>\n"
 "<div>Če to niste bili vi, odstranite napravo, spremenite geslo svojega "
 "računa in se obrnite na skrbnika. Nekdo je morda pridobil nepooblaščen "
@@ -1508,7 +1508,7 @@ msgstr ""
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:153 app/models/user.rb:714
+#: app/models/role.rb:153 app/models/user.rb:718
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Omejitev zastopnika je presežena, preverite nastavitve računa."
 
@@ -2042,7 +2042,7 @@ msgstr ""
 "Časovna omejitev dodelitve v minutah, če dodeljeni agent ne dela na "
 "zahtevku. Zahtevek bo prikazan kot nedodeljen."
 
-#: app/models/user.rb:617
+#: app/models/user.rb:621
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2056,7 +2056,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Izbran mora biti vsaj en zapis."
 
-#: app/models/role.rb:125 app/models/user.rb:688
+#: app/models/role.rb:125 app/models/user.rb:692
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -6247,7 +6247,7 @@ msgstr "SSL preverjanje"
 msgid "Email address"
 msgstr "E-poštni naslov"
 
-#: app/models/user.rb:627
+#: app/models/user.rb:631
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -8859,7 +8859,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:572
+#: app/models/user.rb:576
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -10358,7 +10358,7 @@ msgstr "Razpoloženje"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:640
+#: app/models/user.rb:644
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Več kot 250 sekundarnih organizacij ni dovoljeno."
 
@@ -13859,7 +13859,7 @@ msgstr "Išči…"
 msgid "Secondary organizations"
 msgstr "Sekundarne organizacije"
 
-#: app/models/user.rb:634
+#: app/models/user.rb:638
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -20907,7 +20907,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:838
+#: app/models/user.rb:842
 msgid "is too long"
 msgstr ""
 
