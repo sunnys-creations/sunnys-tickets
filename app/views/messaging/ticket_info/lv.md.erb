@@ -1,0 +1,9 @@
+# #{ticket.title}
+_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|Ticket##{ticket.number}>: Pēdējo reizi atjaunināts plkst #{ticket.updated_at}_
+* Grupa: #{ticket.group.name}
+* Īpašnieks: #{ticket.owner.fullname}
+* Statuss: #{t(ticket.state.name)}
+
+<% if @objects[:article] %>
+#{article.body_as_text}
+<% end %>
