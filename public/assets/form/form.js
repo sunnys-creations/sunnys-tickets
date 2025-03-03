@@ -277,6 +277,15 @@ $(function() {
         'Your Message…': 'Ditt meddelande…',
         'Your Name': 'Ditt namn',
       },
+      'tr': {
+        'Attachments': 'Ekler',
+        'Email': 'E-Posta',
+        'Message': 'Mesaj',
+        'Name': 'Isim',
+        'Your Email': 'E-posta adresiniz',
+        'Your Message…': 'Mesajınız…',
+        'Your Name': 'Adınız',
+      },
       'zh-cn': {
         'Attachments': '附件',
         'Email': '邮件地址',
