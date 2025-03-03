@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 07:00+0000\n"
-"Last-Translator: Carko <darko@augmentech.si>\n"
+"PO-Revision-Date: 2025-02-28 16:51+0000\n"
+"Last-Translator: Rok Poje <rok.poje@mintpos.si>\n"
 "Language-Team: Slovenian <https://translations.zammad.org/projects/zammad/"
-"zammad-development/sl/>\n"
+"zammad-stable/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3941,7 +3941,7 @@ msgstr "Kopiraj trajno povezavo zapisa"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:356
 msgid "Copy current object number (e. g. Ticket#) to clipboard"
-msgstr "Kopiranje številke trenutnega zapisa (npr. Zahtevek#) v odložišče"
+msgstr "Kopiranje številke trenutnega predmeta (npr. Zahtevek#) v odložišče"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader.vue:66
 #, fuzzy
@@ -6541,13 +6541,15 @@ msgstr ""
 msgid "Email could not be verified. Please contact your administrator."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_channel/email.coffee:913
+#: app/assets/javascripts/app/controllers/_channel/email.coffee:914
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:405
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:169
 msgid ""
 "Email sending and receiving could not be verified. Please check your "
 "settings."
 msgstr ""
+"Pošiljanje in prejemanje e-pošte ni bilo mogoče preveriti. Preverite svoje "
+"nastavitve."
 
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:47
 msgid "Email sent to \"%s\". Please let the user verify their email account."
@@ -22899,16 +22901,12 @@ msgid "|Right| means |Some Subject [Ticket#12345]|"
 msgstr "|Desno| pomeni |Zadeva sporočila [Zahtevek#12345]|"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:407
-#, fuzzy
-#| msgid "...add object link URL"
 msgid "…add object link URL"
-msgstr "... dodaj URL povezavo objekta"
+msgstr "…dodaj URL povezavo do predmeta"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:400
-#, fuzzy
-#| msgid "...add object title"
 msgid "…add object title"
-msgstr "...dodaj naslov objekta"
+msgstr "…dodaj naslov predmeta"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:607
 #, fuzzy

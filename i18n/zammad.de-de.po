@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 06:57+0000\n"
-"Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
+"PO-Revision-Date: 2025-02-28 16:51+0000\n"
+"Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/zammad/"
-"zammad-development/de/>\n"
+"zammad-stable/de/>\n"
 "Language: de-de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3731,14 +3731,6 @@ msgid "Company Inc."
 msgstr "Unternehmen GmbH"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:35
-#, fuzzy
-#| msgid ""
-#| "Compared to the Microsoft 365 Graph API Email Channel, this is the "
-#| "traditional implementation using OAuth and IMAP. When setting up new "
-#| "channels, we suggest using the Graph API implementation instead. When you "
-#| "think there are good reasons to keep the IMAP approach as an alternative "
-#| "in the future, please let us know in the Zammad Community %l. More "
-#| "information can be found here %l."
 msgid ""
 "Compared to the Microsoft 365 Graph API Email Channel, this is the "
 "traditional implementation using OAuth and IMAP. When setting up new "
@@ -3747,10 +3739,8 @@ msgid ""
 msgstr ""
 "Im Vergleich zum Microsoft 365 Graph API E-Mail-Kanal ist dies die "
 "traditionelle Implementierung mit OAuth und IMAP. Beim Einrichten neuer "
-"Kanäle empfehlen wir, stattdessen die Graph API-Variante zu verwenden. Wenn "
-"Sie gute Gründe haben, dass der IMAP-Kanal zukünftig als Alternative "
-"beibehalten werden soll, lassen Sie es uns bitte wissen via Zammad Community "
-"%l. Weitere Informationen finden Sie hier %l."
+"Kanäle empfehlen wir, stattdessen die Graph API-Variante zu verwenden. "
+"Weitere Informationen finden Sie hier %l."
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:11
@@ -6118,10 +6108,8 @@ msgstr "Ziel-Caller-ID oder Queue"
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:282
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:304
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:271
-#, fuzzy
-#| msgid "Destination Group Email Address"
 msgid "Destination group > Sending email address"
-msgstr "E-Mail-Adresse der Zielgruppe"
+msgstr "Zielgruppe > Versand-E-Mail-Adresse"
 
 #: app/assets/javascripts/app/views/settings/ticket_duplicate_detection.jst.eco:7
 #: db/seeds/settings.rb:2695
@@ -6327,10 +6315,8 @@ msgid "Display name"
 msgstr "Anzeigename"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:26
-#, fuzzy
-#| msgid "Do not change email address"
 msgid "Do not change email address (%s)"
-msgstr "E-Mail-Adresse nicht ändern"
+msgstr "E-Mail-Adresse nicht ändern (%s)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:662
 msgid "Do not encrypt email"
@@ -6821,7 +6807,7 @@ msgstr ""
 "Verifizierung der E-Mail nicht möglich. Bitte kontaktieren Sie Ihren "
 "Administrator."
 
-#: app/assets/javascripts/app/controllers/_channel/email.coffee:913
+#: app/assets/javascripts/app/controllers/_channel/email.coffee:914
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:405
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:169
 msgid ""
@@ -15150,10 +15136,8 @@ msgid "Sender of last article"
 msgstr "Sender des letzten Artikels"
 
 #: db/seeds/object_manager_attributes.rb:2222
-#, fuzzy
-#| msgid "Email Address"
 msgid "Sending Email Address"
-msgstr "E-Mail-Adresse"
+msgstr "Versand-E-Mail-Adresse"
 
 #: app/models/ticket/article.rb:312
 msgid "Sending an email without a valid recipient is not possible."
@@ -17585,6 +17569,8 @@ msgid ""
 "The server returned a redirect response, but the current operation does not "
 "allow redirects."
 msgstr ""
+"Der Server hat eine Redirect-Antwort zurückgegeben, aber die aktuelle "
+"Operation erlaubt keine Redirects."
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:626
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:200
@@ -21318,6 +21304,9 @@ msgid ""
 "(including future ones) are going to be archived until the selected time is "
 "reached."
 msgstr ""
+"Sie haben einen Zeitpunkt in der Zukunft gewählt. Beachten Sie, dass alle E-"
+"Mails (auch zukünftige) archiviert werden, bis der gewählte Zeitpunkt "
+"erreicht ist."
 
 #: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."

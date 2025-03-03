@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-27 22:00+0000\n"
-"Last-Translator: Random <random_r@users.noreply.translations.zammad.org>\n"
+"PO-Revision-Date: 2025-02-28 16:51+0000\n"
+"Last-Translator: fabiuxxlinuxx <fabiux@gmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/it/>\n"
 "Language: it-it\n"
@@ -3549,7 +3549,7 @@ msgstr "Disattiva filtro"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:184
 msgid "Clear recent searches"
-msgstr "Cancella le ricerche recenti"
+msgstr "Cancella ricerche recenti"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:220
 msgid "Clear recently viewed"
@@ -6800,7 +6800,7 @@ msgid "Email could not be verified. Please contact your administrator."
 msgstr ""
 "Impossibile verificare l'email. Per favore, contatta il tuo amministratore."
 
-#: app/assets/javascripts/app/controllers/_channel/email.coffee:913
+#: app/assets/javascripts/app/controllers/_channel/email.coffee:914
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:405
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:169
 msgid ""
@@ -16442,7 +16442,7 @@ msgstr "Non è stato possibile arrestare il processo 'gpg-agent'."
 
 #: app/controllers/concerns/handles_oidc_authorization.rb:20
 msgid "The 'logout_token' does not contain any session information."
-msgstr ""
+msgstr "Il 'logout_token' non contiene informazioni su nessuna sessione."
 
 #: app/controllers/concerns/handles_oidc_authorization.rb:17
 #, fuzzy
@@ -19655,7 +19655,7 @@ msgstr "Errore sconosciuto"
 
 #: app/models/concerns/can_selector/advanced_sorting/base_sort.rb:33
 msgid "Unknown column given to sort by!"
-msgstr ""
+msgstr "Colonna sconosciuta da ordinare!"
 
 #: lib/password_policy/backend.rb:15
 msgid "Unknown error"
@@ -20135,10 +20135,8 @@ msgid "Used anywhere (admin only)"
 msgstr "Usato ovunque (solo admin)"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingDevices.vue:153
-#, fuzzy
-#| msgid "This device"
 msgid "Used devices"
-msgstr "Questo dispositivo"
+msgstr "Dispositivi usati"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:333
 msgid "Used in lists (views and results)"
@@ -20284,10 +20282,8 @@ msgid "User is inactive"
 msgstr "disattivato"
 
 #: app/frontend/apps/desktop/components/QuickSearch/entitites/User.vue:17
-#, fuzzy
-#| msgid "inactive"
 msgid "User is inactive."
-msgstr "disattivato"
+msgstr "Utente disattivato."
 
 #: app/frontend/shared/composables/useAvatarIndicator.ts:95
 #, fuzzy
@@ -21083,6 +21079,8 @@ msgid ""
 "You can find archived emails in Zammad anytime using the search function, "
 "like for any other ticket."
 msgstr ""
+"Puoi trovare le mail archiviate in Zammad in qualsiasi momento usando la "
+"ricerca, come per ogni altro ticket."
 
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:4
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:182
@@ -21106,6 +21104,8 @@ msgid ""
 "notifications are sent and the tickets will be in a target state that you "
 "define."
 msgstr ""
+"Puoi importare alcune email come archivio, ciò significa che nessuna "
+"notifica è mandata ai ticket che sono nello stato che hai definito."
 
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/data-privacy-task.ts:19
 msgid "You can no longer see the data privacy task."
@@ -21218,10 +21218,8 @@ msgstr "Non hai permessi sufficienti per menzionare altri utenti."
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:21
 #: app/frontend/apps/desktop/components/layout/LayoutTaskbarTabContent.vue:68
-#, fuzzy
-#| msgid "You have insufficient rights to view this ticket."
 msgid "You have insufficient rights to view this object."
-msgstr "Non hai permessi sufficienti per visualizzare questo ticket."
+msgstr "Non hai permessi sufficienti per visualizzare questo oggetto."
 
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:32
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationOrganization.vue:28
@@ -21272,6 +21270,9 @@ msgid ""
 "(including future ones) are going to be archived until the selected time is "
 "reached."
 msgstr ""
+"Hai selezionato un cut-off futuro. Fai attenzione che tutte le emal (incluse "
+"quelle future) saranno archiviate fino a che il tempo selezionato non è "
+"raggiunto."
 
 #: app/assets/javascripts/app/controllers/_profile/avatar.coffee:326
 msgid "You have to allow access to your webcam."
@@ -21914,10 +21915,8 @@ msgid "descending"
 msgstr "discendente"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:130
-#, fuzzy
-#| msgid "Extended Search"
 msgid "detailed search"
-msgstr "Ricerca estesa"
+msgstr "Ricerca dettagliata"
 
 #: db/seeds/settings.rb:1229
 msgid "developer password"
@@ -22141,10 +22140,8 @@ msgid "hours"
 msgstr "ore"
 
 #: db/seeds/settings.rb:2086
-#, fuzzy
-#| msgid "support@example.com"
 msgid "https://example.com"
-msgstr "support@example.com"
+msgstr "https://example.com"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:267
 msgid ""
@@ -22313,10 +22310,8 @@ msgstr "non è un colore. Solo valori esadecimali, RGB e HSL sono supportati."
 msgid "is not a number"
 msgstr "non è un numero"
 
-#, fuzzy
-#| msgid "is invalid"
 msgid "is not a valid URL"
-msgstr "non è valido"
+msgstr "URL non valido"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:124
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:151
@@ -22771,7 +22766,7 @@ msgstr "esegui macro"
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/views/TicketOverviews.vue:99
 msgid "second level navigation sidebar"
-msgstr ""
+msgstr "Barra di navigazione di secondo livello"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:43
 msgid "select"
@@ -23037,10 +23032,8 @@ msgid "updated"
 msgstr "aggiornato"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:387
-#, fuzzy
-#| msgid "current user organization"
 msgid "user@your-organization.tld"
-msgstr "organizzazione attuale dell'utente"
+msgstr "user@your-organization.tld"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/outOfOffice.ts:24
 msgid "vacation,holiday,replacement,time off"

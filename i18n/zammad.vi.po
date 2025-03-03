@@ -6788,7 +6788,7 @@ msgstr ""
 msgid "Email could not be verified. Please contact your administrator."
 msgstr "Không thể xác nhận email. Vui lòng liên hệ quản trị viên..."
 
-#: app/assets/javascripts/app/controllers/_channel/email.coffee:913
+#: app/assets/javascripts/app/controllers/_channel/email.coffee:914
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:405
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:169
 msgid ""

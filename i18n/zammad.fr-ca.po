@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 06:58+0000\n"
-"Last-Translator: Richard <richard.savoie@hotmail.ca>\n"
+"PO-Revision-Date: 2025-03-03 05:53+0000\n"
+"Last-Translator: sashkashurik <sashkashurik@gmail.com>\n"
 "Language-Team: French (Canada) <https://translations.zammad.org/projects/"
-"zammad/zammad-development/fr_CA/>\n"
+"zammad/zammad-stable/fr_CA/>\n"
 "Language: fr-ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,6 +179,19 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"#{config.product_name} compte connecté à une application tièrce\n"
+"\n"
+"<div>Bonjour #{user.firstname},</div>\n"
+"<br>\n"
+"<div>Votre compte a été connecté <b>à une application tièrce</b> "
+"\"#{t(provider)}\".</div>\n"
+"<br>\n"
+"<div>Si vous n'avez pas effectué cette opération , SVP retirez le compte "
+"connecté et modifiez le mot de passe de l'application tierce. Il est "
+"possible que quelqu'un a eu accès non autorisé à votre compte sur le service "
+"tierce.</div>\n"
+"<br>\n"
+"<div>Votre #{config.product_name} équipe</div>\n"
 
 #. This is the template file app/views/mailer/user_device_new_location/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -248,7 +261,7 @@ msgstr "Confirmer"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:108
 msgid "%s (method)"
-msgstr ""
+msgstr "%s (methode)"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:143
 #, fuzzy
@@ -265,8 +278,9 @@ msgstr "Confirmer"
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInput.vue:135
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDialog.vue:315
 #: app/frontend/shared/composables/useSelectOptions.ts:140
+#, fuzzy
 msgid "%s (unknown)"
-msgstr ""
+msgstr "%s (inconnu)"
 
 #: app/assets/javascripts/app/views/telegram/bot_add.jst.eco:9
 #: app/assets/javascripts/app/views/telegram/bot_edit.jst.eco:6
@@ -411,7 +425,7 @@ msgstr "%s a terminé le basculement vers |%s| !"
 #: app/assets/javascripts/app/views/integration/exchange_last_import.jst.eco:40
 #: app/assets/javascripts/app/views/integration/exchange_summary.jst.eco:8
 msgid "%s folders"
-msgstr ""
+msgstr "%s dossiers"
 
 #: app/assets/javascripts/app/views/integration/ldap_last_import.jst.eco:39
 #: app/assets/javascripts/app/views/integration/ldap_summary.jst.eco:8
@@ -429,8 +443,9 @@ msgstr "il y a %s"
 #: app/assets/javascripts/app/views/google/list.jst.eco:61
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:62
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:72
+#, fuzzy
 msgid "%s is inactive, please select an active one."
-msgstr ""
+msgstr "%s est inactif, SVP sélectionnez un autre."
 
 #: app/frontend/shared/form/i18n/locales.ts:533
 #, fuzzy
@@ -439,8 +454,9 @@ msgid "%s is required."
 msgstr "%s est requis!"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/whatsapp_reply.coffee:67
+#, fuzzy
 msgid "%s is sent without text caption"
-msgstr ""
+msgstr "%s est envoyé sans légende"
 
 #: app/frontend/shared/i18n/dates.ts:120
 #, fuzzy
@@ -482,7 +498,7 @@ msgstr "% Objet(s) créé(s)."
 
 #: app/assets/javascripts/app/views/generic/object_import/import_try.jst.eco:10
 msgid "%s object(s) will be deleted."
-msgstr "%s objet(s) supprimé(s)."
+msgstr "%s objet(s) seront supprimé(s)."
 
 #: app/assets/javascripts/app/views/generic/object_import/import_try.jst.eco:16
 #, fuzzy
@@ -523,10 +539,13 @@ msgid "%s reacted with a %s to message from %s |%s|"
 msgstr "%s a terminé le basculement vers |%s| !"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:49
+#, fuzzy
 msgid ""
 "%s recommends using OAuth. %s announced it's going to drop Basic "
 "Authentication support in the future."
 msgstr ""
+"%s recommande l'usage de OAuth. %s a annoncé le fin de support de "
+"l'Authentification de Base dans le futur."
 
 #: app/assets/javascripts/app/controllers/agent_ticket_merge.coffee:65
 msgid "%s required!"
@@ -539,8 +558,9 @@ msgstr "%s a débuté une nouvelle session"
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:11
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:11
+#, fuzzy
 msgid "%s subdomain"
-msgstr ""
+msgstr "%s sous-domaine"
 
 #: app/assets/javascripts/app/models/user.coffee:217
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/user.ts:31
@@ -587,7 +607,7 @@ msgstr "%s a mis à jour l'organisation |%s|"
 #: app/assets/javascripts/app/models/role.coffee:29
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/role.ts:28
 msgid "%s updated role |%s|"
-msgstr "%s a mis à jour le groupe |%s|"
+msgstr "%s a mis à jour le rôle |%s|"
 
 #: app/assets/javascripts/app/models/ticket.coffee:111
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/ticket.ts:27
@@ -643,8 +663,9 @@ msgid "%{name} already exists"
 msgstr "%s Objet(s) supprimé(s)"
 
 #: app/models/object_manager/attribute.rb:594
+#, fuzzy
 msgid "%{name} is a reserved word"
-msgstr ""
+msgstr "%{name} est un mot reservé"
 
 #: app/frontend/apps/mobile/components/CommonTicketStateIndicator/CommonTicketStateIndicator.vue:63
 #, fuzzy
@@ -739,16 +760,19 @@ msgid "1 attached file"
 msgstr "Fichiers joints"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "1 day"
-msgstr ""
+msgstr "1 jour"
 
 #: app/frontend/shared/i18n/dates.ts:105
+#, fuzzy
 msgid "1 day ago"
-msgstr ""
+msgstr "il y a 1 jour"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "1 hour"
-msgstr ""
+msgstr "1 heure"
 
 #: app/frontend/shared/i18n/dates.ts:112
 #, fuzzy
@@ -767,20 +791,24 @@ msgid "1 minute ago"
 msgstr "minute"
 
 #: app/frontend/shared/i18n/dates.ts:91
+#, fuzzy
 msgid "1 month ago"
-msgstr ""
+msgstr "il y a 1 mois"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "1 week"
-msgstr ""
+msgstr "1 semaine"
 
 #: app/frontend/shared/i18n/dates.ts:98
+#, fuzzy
 msgid "1 week ago"
-msgstr ""
+msgstr "il y a une semaine"
 
 #: app/frontend/shared/i18n/dates.ts:84
+#, fuzzy
 msgid "1 year ago"
-msgstr ""
+msgstr "il y a 1 an"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:22
 #, fuzzy
@@ -789,8 +817,9 @@ msgid "1. Ticket Create"
 msgstr "Le billet %s a été créé!"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "2 hours"
-msgstr ""
+msgstr "2 heures"
 
 #: db/seeds/settings.rb:2175
 msgid "2 lower case and 2 upper case characters"
@@ -801,8 +830,9 @@ msgid "2 normal"
 msgstr "2 normal"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "2 weeks"
-msgstr ""
+msgstr "2 semaines"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:23
 #, fuzzy
@@ -815,8 +845,9 @@ msgid "3 high"
 msgstr "3 haut"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "3 weeks"
-msgstr ""
+msgstr "3 semaines"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:24
 #, fuzzy
@@ -825,8 +856,9 @@ msgid "3. Ticket Reminder Reached"
 msgstr "Temps de rappel du billet atteint"
 
 #: db/seeds/settings.rb:1129
+#, fuzzy
 msgid "4 weeks"
-msgstr ""
+msgstr "4 semaines"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:25
 #, fuzzy
@@ -842,8 +874,9 @@ msgstr "Escalade du billet"
 
 #: public/assets/chat/chat-no-jquery.coffee:167
 #: public/assets/chat/chat.coffee:165
+#, fuzzy
 msgid "<strong>Chat</strong> with us!"
-msgstr ""
+msgstr "<strong>Clavardez</strong> avec nous!"
 
 #: app/assets/javascripts/app/models/calendar.coffee
 msgid ""
@@ -942,8 +975,9 @@ msgid ""
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/cti.coffee:215
+#, fuzzy
 msgid "A user is required!"
-msgstr ""
+msgstr "Un utilisateur est requis!"
 
 #: app/assets/javascripts/app/views/pre_defined_webhook.jst.eco:12
 msgid ""
@@ -7040,7 +7074,7 @@ msgid "Email could not be verified. Please contact your administrator."
 msgstr ""
 "Impossible de vérifier le courriel. Veuillez contacter votre administrateur."
 
-#: app/assets/javascripts/app/controllers/_channel/email.coffee:913
+#: app/assets/javascripts/app/controllers/_channel/email.coffee:914
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:405
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:169
 msgid ""
