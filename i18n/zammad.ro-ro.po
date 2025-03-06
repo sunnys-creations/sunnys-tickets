@@ -3069,7 +3069,7 @@ msgstr "Nu pot crea utilizatorul!"
 msgid "Can't delete, object has references."
 msgstr "Nu se poate șterge, obiectul are referințe."
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "Nu pot găsi un utilizator pentru token-ul folosit"
 
@@ -6413,7 +6413,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "Nu folosi proxy-ul pentru următoarele host-uri."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "Ești sigur că vrei să ștergi \"%s\"?"
 
@@ -9665,7 +9665,7 @@ msgstr "Introducere"
 msgid "Invalid 'direction'!"
 msgstr "Direcție invalidă!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 msgid "Invalid BasicAuth credentials"
 msgstr "Date autentificare BasicAuth invalide"
 
@@ -10626,7 +10626,7 @@ msgstr "Autentificare mentenanță"
 msgid "Maintenance Mode"
 msgstr "Mod mentenanță"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "Mod mentenanță activat!"
 
@@ -12415,7 +12415,7 @@ msgstr "Neautorizat"
 msgid "Not authorized (feature not possible)"
 msgstr "Neautorizat (caracteristica nu este posibilă)"
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr "Neautorizat (token expirat)!"
 
@@ -12606,7 +12606,7 @@ msgstr "Configurație OAuth"
 msgid "OAuth URLs are:"
 msgstr "URL-urile OAuth sunt:"
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr "Tokenul OAuth2 este expirat!"
 
@@ -13729,7 +13729,7 @@ msgstr ""
 "jos. Le puteți folosi pentru a vă autentifica dacă pierdeți accesul la o "
 "altă metodă de autentificare în doi factori:"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 msgid "Please select a checklist template."
 msgstr ""
 
@@ -15480,7 +15480,7 @@ msgstr "Selectează fișierul CSV"
 msgid "Select Shared Draft"
 msgstr "Selectează ciorna partajată"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr "Selectează schița"
@@ -17395,7 +17395,7 @@ msgstr "Certificatele pentru %s nu au fost găsite."
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "Modificările nu au putut fi salvate."
 
@@ -17929,7 +17929,7 @@ msgstr "Semnătură"
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr "Payload-ul furnizat este invalid. Vă rugăm să vă verificați sintaxa."
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -20232,7 +20232,7 @@ msgstr "Autentificare în doi pași"
 msgid "Two-factor Authentication Methods"
 msgstr "Metode de autentificare în doi pași"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
 msgstr ""
 "Autentificarea în doi pași nu este disponibilă cu autentificarea de bază "

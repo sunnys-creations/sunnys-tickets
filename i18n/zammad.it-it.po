@@ -3040,7 +3040,7 @@ msgstr "Impossibile creare l'utente!"
 msgid "Can't delete, object has references."
 msgstr "Impossibile eliminare, l'oggetto ha dei collegamenti."
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "Impossibile trovare un utente per il token"
 
@@ -6322,7 +6322,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "Non utilizzare il proxy per i seguenti host."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "Vuoi davvero eliminare \"%s\"?"
 
@@ -9448,7 +9448,7 @@ msgstr "Introduzione"
 msgid "Invalid 'direction'!"
 msgstr "'direction' non valida!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 msgid "Invalid BasicAuth credentials"
 msgstr "Credenziali BasicAuth non valide"
 
@@ -10370,7 +10370,7 @@ msgstr "Login di manutenzione"
 msgid "Maintenance Mode"
 msgstr "Modalità di manutenzione"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "Modalità di manutenzione attiva!"
 
@@ -11993,7 +11993,7 @@ msgstr "Autorizzazione negata"
 msgid "Not authorized (feature not possible)"
 msgstr "Autorizzazione negata (funzionalità non disponibile)"
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr "Autorizzazione negata (token scaduto)!"
 
@@ -12175,7 +12175,7 @@ msgstr "Configurazione OAuth"
 msgid "OAuth URLs are:"
 msgstr "URL OAuth:"
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr "Il token OAuth2 è scaduto!"
 
@@ -13228,7 +13228,7 @@ msgstr ""
 "sicuro. Li potrai utilizzare per accedere in caso perdessi l'accesso a un "
 "metodo di autenticazione a due fattori:"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 msgid "Please select a checklist template."
 msgstr "Per favore seleziona un modello di liste di controllo."
 
@@ -14899,7 +14899,7 @@ msgstr "Seleziona il file CSV"
 msgid "Select Shared Draft"
 msgstr "Seleziona bozza condivisa"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr "Seleziona Template"
@@ -16726,7 +16726,7 @@ msgstr "Non sono stati trovati i certificati per %s."
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "Non è stato possibile salvare le modifiche."
 
@@ -17226,7 +17226,7 @@ msgstr "La password fornita non è corretta."
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr "Il payload fornito non è valido. Verifica la sintassi."
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -19456,7 +19456,7 @@ msgstr "Autenticazione a due fattori"
 msgid "Two-factor Authentication Methods"
 msgstr "Metodi di autenticazione a due fattori"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
 msgstr "L'autenticazione a due fattori non è supportata con BasicAuth HTTP."
 

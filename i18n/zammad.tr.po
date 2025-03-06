@@ -915,11 +915,13 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:47
 msgid "A color scheme that uses dark-colored elements on a light background."
-msgstr "Açık bir arka planda koyu renkli öğelerin kullanıldığı bir renk düzeni."
+msgstr ""
+"Açık bir arka planda koyu renkli öğelerin kullanıldığı bir renk düzeni."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:40
 msgid "A color scheme that uses light-colored elements on a dark background."
-msgstr "Koyu bir arka planda açık renkli öğelerin kullanıldığı bir renk düzeni."
+msgstr ""
+"Koyu bir arka planda açık renkli öğelerin kullanıldığı bir renk düzeni."
 
 #: db/seeds/object_manager_attributes.rb:2231
 msgid ""
@@ -3107,7 +3109,7 @@ msgstr "Kullanıcı oluşturulamıyor!"
 msgid "Can't delete, object has references."
 msgstr "Silinemiyor, nesnenin referansları var."
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "Token için Kullanıcı bulunamıyor"
 
@@ -3451,7 +3453,8 @@ msgstr ""
 
 #: app/models/checklist/item.rb:108
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr "Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
+msgstr ""
+"Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
 
 #: app/models/checklist.rb:100
 msgid "Checklist template must be active to use as a checklist starting point."
@@ -4609,7 +4612,8 @@ msgstr "Mevcut parola"
 
 #: app/models/system_report/plugin/setting.rb:6
 msgid "Current state of configured settings (excluding passwords and tokens)"
-msgstr "Yapılandırılmış ayarların mevcut durumu (şifreler ve belirteçler hariç)"
+msgstr ""
+"Yapılandırılmış ayarların mevcut durumu (şifreler ve belirteçler hariç)"
 
 #: app/controllers/application_controller/has_user.rb:42
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
@@ -6424,7 +6428,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "Aşağıdaki ana bilgisayarlar için proxy kullanmayın."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "\"%s\" dosyasını gerçekten silmek istiyor musunuz ?"
 
@@ -7868,7 +7872,8 @@ msgstr "Kontrol listesi sırası kaydedilemedi."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/show.coffee:160
 msgid "Failed to save the order of the checklist items. Please try again."
-msgstr "Kontrol listesi öğelerinin sırası kaydedilemedi. Lütfen tekrar deneyin."
+msgstr ""
+"Kontrol listesi öğelerinin sırası kaydedilemedi. Lütfen tekrar deneyin."
 
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:52
 msgid "Failed to send email to \"%s\". Please contact an administrator."
@@ -9725,7 +9730,7 @@ msgstr "Tanıtım"
 msgid "Invalid 'direction'!"
 msgstr "Geçersiz 'yön'!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 #, fuzzy
 msgid "Invalid BasicAuth credentials"
 msgstr "True"
@@ -9801,7 +9806,8 @@ msgstr "Invalid ticket selector conditions"
 #: app/frontend/apps/desktop/entities/two-factor-configuration/composables/usePasswordCheckTwoFactor.ts:16
 msgid ""
 "Invalid password revalidation token, please confirm your password again."
-msgstr "Geçersiz şifre doğrulama belirteci, lütfen şifrenizi tekrar doğrulayın."
+msgstr ""
+"Geçersiz şifre doğrulama belirteci, lütfen şifrenizi tekrar doğrulayın."
 
 #: lib/password_policy/min_length.rb:11
 msgid "Invalid password, it must be at least %s characters long!"
@@ -9994,7 +10000,8 @@ msgstr "Mevcut hesabınızı silmeniz mümkün değildir."
 
 #: app/models/ticket.rb:277
 msgid "It is not possible to merge into an already merged ticket."
-msgstr "Zaten birleştirilmiş bir destek talebiyle birleştirmek mümkün değildir."
+msgstr ""
+"Zaten birleştirilmiş bir destek talebiyle birleştirmek mümkün değildir."
 
 #: app/assets/javascripts/app/models/checklist.coffee:8
 #: app/assets/javascripts/app/models/checklist_template.coffee:8
@@ -10703,7 +10710,7 @@ msgstr "Bakım Girişi"
 msgid "Maintenance Mode"
 msgstr "Bakım Modu"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "Bakım modu etkinleştirildi!"
 
@@ -12434,7 +12441,7 @@ msgstr "True"
 msgid "Not authorized (feature not possible)"
 msgstr "True"
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr "Yetkilendirilmemiş (belirtecin süresi doldu)!"
 
@@ -12634,7 +12641,7 @@ msgstr "Configuration"
 msgid "OAuth URLs are:"
 msgstr "OAuth URL'leri şunlardır:"
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr "OAuth2 belirtecinin süresi doldu!"
 
@@ -13754,7 +13761,7 @@ msgstr ""
 "Başka bir iki faktörlü yönteme erişiminizi kaybederseniz oturum açmak için "
 "bunları kullanabilirsiniz:"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 msgid "Please select a checklist template."
 msgstr "Lütfen bir kontrol listesi şablonu seçin."
 
@@ -15434,7 +15441,7 @@ msgstr "Select CSV file"
 msgid "Select Shared Draft"
 msgstr "Paylaşılan Taslak Seç"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr "Şablon Seçin"
@@ -17496,7 +17503,7 @@ msgstr "%s için sertifika bulunamadı."
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "Değişiklikler kaydedilemedi."
 
@@ -17526,7 +17533,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:93
 msgid "The configuration of Zammad has changed, please reload your browser."
-msgstr "Zammad'ın yapılandırması değişti, lütfen tarayıcınızı yeniden yükleyin."
+msgstr ""
+"Zammad'ın yapılandırması değişti, lütfen tarayıcınızı yeniden yükleyin."
 
 #: app/frontend/shared/composables/useAppMaintenanceCheck.ts:102
 #, fuzzy
@@ -18039,7 +18047,7 @@ msgstr "Belirtilen şifre yanlış."
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr "Sağlanan payload geçersiz. Lütfen sentaksınızı kontrol edin."
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -20341,7 +20349,7 @@ msgstr "Temel Kimlik Doğrulaması"
 msgid "Two-factor Authentication Methods"
 msgstr "Temel Kimlik Doğrulaması"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
 msgstr "İki faktörlü kimlik doğrulama HTTP BasicAuth ile desteklenmez."
 
@@ -24094,8 +24102,8 @@ msgid ""
 "|Increment| increases the ticket number. The SystemID and the counter are "
 "used with \"SystemID.Counter\" format (e.g. 1010138, 1010139)."
 msgstr ""
-"|Artır| destek talebi numarasını artırır. SystemID ve sayaç "
-"\"SystemID.Counter\" formatında kullanılır (örn. 1010138, 1010139)."
+"|Artır| destek talebi numarasını artırır. SystemID ve sayaç \"SystemID."
+"Counter\" formatında kullanılır (örn. 1010138, 1010139)."
 
 #: app/assets/javascripts/app/views/settings/ticket_hook_position.jst.eco:6
 msgid "|Left| means |[Ticket#12345] Some Subject|"

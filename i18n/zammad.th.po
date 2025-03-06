@@ -3174,7 +3174,7 @@ msgstr "ไม่สามารถสร้างยูสเซอร์ด้
 msgid "Can't delete, object has references."
 msgstr "ลบไม่ได้ วัตถุมีการอ้างอิง"
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "ไม่พบผู้ใช้สำหรับโทเค็น"
 
@@ -6506,7 +6506,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "อย่าใช้พร็อกซีสำหรับโฮสต์ต่อไปนี้"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "คุณต้องการลบ \"%s\" หรือไม่?"
 
@@ -9758,7 +9758,7 @@ msgstr "เกริ่น"
 msgid "Invalid 'direction'!"
 msgstr "'ทิศทาง' ไม่ถูกต้อง!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 msgid "Invalid BasicAuth credentials"
 msgstr "ข้อมูลรับรอง BasicAuth ไม่ถูกต้อง"
 
@@ -10724,7 +10724,7 @@ msgstr "เข้าสู่ระบบการบำรุงรักษา
 msgid "Maintenance Mode"
 msgstr "โหมดบำรุงรักษา"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "เปิดใช้งานโหมดบำรุงรักษาแล้ว!"
 
@@ -12543,7 +12543,7 @@ msgstr "ไม่ได้รับอนุญาต"
 msgid "Not authorized (feature not possible)"
 msgstr ""
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr ""
 
@@ -12742,7 +12742,7 @@ msgstr "การตั้งค่า"
 msgid "OAuth URLs are:"
 msgstr ""
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr ""
 
@@ -13877,7 +13877,7 @@ msgid ""
 "them to sign in if you lose access to another two-factor method:"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 #, fuzzy
 #| msgid "This ticket was merged into"
 msgid "Please select a checklist template."
@@ -15725,7 +15725,7 @@ msgstr ""
 msgid "Select Shared Draft"
 msgstr "เลือกร่างที่ใช้ร่วมกัน"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr ""
@@ -17702,7 +17702,7 @@ msgstr "เสียงแจ้งเตือน"
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "ไม่สามารถบันทึกการเปลี่ยนแปลงได้."
 
@@ -18235,7 +18235,7 @@ msgstr "ไม่มีพารามิเตอร์ที่จำเป็
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr ""
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -20580,7 +20580,7 @@ msgstr "การยึนยันตน"
 msgid "Two-factor Authentication Methods"
 msgstr "การยึนยันตน"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 #, fuzzy
 #| msgid ""
 #| "Defines HTTP basic authentication user (only if OTRS is protected via "

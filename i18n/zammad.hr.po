@@ -3022,7 +3022,7 @@ msgstr "Nije moguće stvoriti korisnika!"
 msgid "Can't delete, object has references."
 msgstr "Nije moguće izbrisati, objekt sadrži reference."
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "Nije moguće pronaći korisnika za token"
 
@@ -6279,7 +6279,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "Ne koristi proxy za sljedeće hostove."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "Želite li zaista obrisati \"%s\"?"
 
@@ -9401,7 +9401,7 @@ msgstr "Uvod"
 msgid "Invalid 'direction'!"
 msgstr "Neispravan ’direction’!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 msgid "Invalid BasicAuth credentials"
 msgstr "Neispravni BasicAuth prijavni podaci"
 
@@ -10349,7 +10349,7 @@ msgstr "Prijava prilikom održavanja"
 msgid "Maintenance Mode"
 msgstr "Održavanje"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "Održavanje aktivirano!"
 
@@ -12001,7 +12001,7 @@ msgstr "Nije odobreno"
 msgid "Not authorized (feature not possible)"
 msgstr "Nije odobreno (funkcija nije dostupna)"
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr "Nije odobreno (istekao token)!"
 
@@ -12184,7 +12184,7 @@ msgstr "OAuth konfiguracija"
 msgid "OAuth URLs are:"
 msgstr "OAuth URL-ovi su:"
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr "OAuth2 token je istekao!"
 
@@ -13252,7 +13252,7 @@ msgstr ""
 "Spremite dolje navedene kodove za oporavak negdje na sigurno. Možete ih "
 "koristiti za prijavu, ukoliko izgubite pristup drugoj dvofaktorskoj metodi:"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 msgid "Please select a checklist template."
 msgstr "Molimo, odaberite barem jedan predložak liste zadataka."
 
@@ -14938,7 +14938,7 @@ msgstr "Odaberi CSV datoteku"
 msgid "Select Shared Draft"
 msgstr "Odaberi zajedničku skicu"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr "Odaberi predložak"
@@ -16775,7 +16775,7 @@ msgstr "Certifikati za %s nisu pronađeni."
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "Promjene nisu spremljene."
 
@@ -17268,7 +17268,7 @@ msgstr "Navedena lozinka nije ispravna."
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr "Navedeni payload nije valjan. Molimo, provjerite sintaksu."
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -19486,7 +19486,7 @@ msgstr "Dvofaktorska autentifikacija"
 msgid "Two-factor Authentication Methods"
 msgstr "Metode dvofaktorske autentifikacije"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
 msgstr "HTTP BasicAuth ne podržava dvofaktorsku autentifikaciju."
 

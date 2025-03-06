@@ -3006,7 +3006,7 @@ msgstr "Kan inte skapa användare!"
 msgid "Can't delete, object has references."
 msgstr "Kan inte radera objektet då det har referenser."
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "Hittar inte användaren för token"
 
@@ -6264,7 +6264,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "Använd inte proxy för följande värdar."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "Vill du ta bort \"%s\"?"
 
@@ -9369,7 +9369,7 @@ msgstr "Intro"
 msgid "Invalid 'direction'!"
 msgstr "Ogiltig \"riktning\"!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 msgid "Invalid BasicAuth credentials"
 msgstr "Ogiltiga BasicAuth användaruppgifter"
 
@@ -10281,7 +10281,7 @@ msgstr "Underhållslogin"
 msgid "Maintenance Mode"
 msgstr "Underhållsläge"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "Underhållsläge aktiverat!"
 
@@ -11907,7 +11907,7 @@ msgstr "Ej auktoriserad"
 msgid "Not authorized (feature not possible)"
 msgstr "Ej auktoriserad (funktionen är inte möjlig)"
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr "Ej behörig (token har gått ut)!"
 
@@ -12088,7 +12088,7 @@ msgstr "OAuth Konfiguration"
 msgid "OAuth URLs are:"
 msgstr "OAuth-URL:er är:"
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr "OAuth2 Token har löpt ut!"
 
@@ -13140,7 +13140,7 @@ msgstr ""
 "använda dem för att logga in om du förlorar åtkomst till en annan "
 "tvåfaktorsmetod:"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 msgid "Please select a checklist template."
 msgstr "Välj en mall för checklista."
 
@@ -14810,7 +14810,7 @@ msgstr "Välj CSV-fil"
 msgid "Select Shared Draft"
 msgstr "Välj Delat utkast"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr "Välj mall"
@@ -16618,7 +16618,7 @@ msgstr "Certifikaten för %s hittades inte."
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "Ändringarna kunde inte sparas."
 
@@ -17107,7 +17107,7 @@ msgstr "Det angivna Lösenordet är felaktigt."
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr "Den angivna payload är ogiltig. Kontrollera din syntax."
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -19301,7 +19301,7 @@ msgstr "Två-faktorautentisering"
 msgid "Two-factor Authentication Methods"
 msgstr "Två-faktorautentiseringsmetoder"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
 msgstr ""
 "Två-faktorautentisering stöds inte med grundläggande HTTP-autentisering."

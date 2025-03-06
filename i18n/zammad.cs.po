@@ -3137,7 +3137,7 @@ msgstr "Nelze vytvořit uživatele!"
 msgid "Can't delete, object has references."
 msgstr "Nelze smazat, objekt má návaznosti."
 
-#: app/controllers/application_controller/authenticates.rb:89
+#: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
 msgstr "Uživatel tokenu nebyl nalezen"
 
@@ -6576,7 +6576,7 @@ msgid "Do not use the proxy for the following hosts."
 msgstr "Nepoužívat proxy pro následující hostitele."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:24
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:115
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:122
 msgid "Do you really want to delete \"%s\"?"
 msgstr "Opravdu si přejete smazat \"%s\"?"
 
@@ -9899,7 +9899,7 @@ msgstr "Úvod"
 msgid "Invalid 'direction'!"
 msgstr "Neplatný 'směr'!"
 
-#: app/controllers/application_controller/authenticates.rb:56
+#: app/controllers/application_controller/authenticates.rb:57
 msgid "Invalid BasicAuth credentials"
 msgstr "Neplatné pověření základní autentizace"
 
@@ -10875,7 +10875,7 @@ msgstr "Přihlášení během údržby"
 msgid "Maintenance Mode"
 msgstr "Mód údržby"
 
-#: app/controllers/application_controller/authenticates.rb:119
+#: app/controllers/application_controller/authenticates.rb:120
 msgid "Maintenance mode enabled!"
 msgstr "Mód údržby aktivován!"
 
@@ -12727,7 +12727,7 @@ msgstr "Neautorizováno"
 msgid "Not authorized (feature not possible)"
 msgstr "Neautorizováno (funkce není k dispozici)"
 
-#: app/controllers/application_controller/authenticates.rb:81
+#: app/controllers/application_controller/authenticates.rb:82
 msgid "Not authorized (token expired)!"
 msgstr "Neautorizováno (token vypršel)!"
 
@@ -12919,7 +12919,7 @@ msgstr "Konfigurace OAuth"
 msgid "OAuth URLs are:"
 msgstr "OAuth URL jsou:"
 
-#: app/controllers/application_controller/authenticates.rb:101
+#: app/controllers/application_controller/authenticates.rb:102
 msgid "OAuth2 token is expired!"
 msgstr "OAuth2 token vypršel!"
 
@@ -14071,7 +14071,7 @@ msgid ""
 "them to sign in if you lose access to another two-factor method:"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:75
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:76
 #, fuzzy
 #| msgid "Please select at least one folder."
 msgid "Please select a checklist template."
@@ -15931,7 +15931,7 @@ msgstr "Vyberte CSV soubor"
 msgid "Select Shared Draft"
 msgstr "Vybrat sdílený koncept"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:16
+#: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/start.coffee:17
 #: app/assets/javascripts/app/views/widget/template.jst.eco:4
 msgid "Select Template"
 msgstr "Vybrat šablonu"
@@ -17928,7 +17928,7 @@ msgstr "Certifikáty pro %s nebyly nalezeny."
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_dialog.coffee:36
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
-#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
+#: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:142
 msgid "The changes could not be saved."
 msgstr "Změny se nepodařilo uložit."
 
@@ -18482,7 +18482,7 @@ msgstr "Chybí požadovaný parametr \"params'."
 msgid "The provided payload is invalid. Please check your syntax."
 msgstr "Poskytnutá příloha není správná. Prosím, zkontrolujte vaši syntaxi."
 
-#: app/controllers/application_controller/authenticates.rb:98
+#: app/controllers/application_controller/authenticates.rb:99
 #: app/controllers/integration/check_mk_controller.rb:139
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:108
 #: app/services/service/user/password_reset/update.rb:36
@@ -20861,7 +20861,7 @@ msgstr "Autentizace"
 msgid "Two-factor Authentication Methods"
 msgstr "Autentizace"
 
-#: app/controllers/application_controller/authenticates.rb:58
+#: app/controllers/application_controller/authenticates.rb:59
 #, fuzzy
 #| msgid ""
 #| "Defines HTTP basic authentication user (only if OTRS is protected via "
