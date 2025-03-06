@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-03 05:53+0000\n"
+"PO-Revision-Date: 2025-03-04 15:59+0000\n"
 "Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
@@ -545,7 +545,6 @@ msgid "%s months ago"
 msgstr "%s ay önce"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:164
-#, fuzzy
 msgid "%s more"
 msgstr "%s daha fazla"
 
@@ -1117,7 +1116,6 @@ msgid "Access token"
 msgstr "Erişim belirteci"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:157
-#, fuzzy
 msgid "Accessing your camera is forbidden. Please check your settings."
 msgstr "Kameranıza erişim yasaktır. Lütfen ayarlarınızı kontrol edin."
 
@@ -1626,8 +1624,6 @@ msgid "Admin password login instructions were sent to your email address."
 msgstr "Yönetici şifresi giriş talimatları e-posta adresinize gönderildi."
 
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar/LeftSidebar/MenuContainer/AdminMenu/plugins/setting.ts:8
-#, fuzzy
-#| msgid "Administrator Account"
 msgid "Administration"
 msgstr "Yönetim"
 
@@ -2276,8 +2272,6 @@ msgid "Are you sure? Your recent searches will get lost."
 msgstr "Emin misiniz? Son aramalarınız kaybolacaktır."
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:109
-#, fuzzy
-#| msgid "Are you sure? You have changes that will get lost."
 msgid "Are you sure? Your recently viewed items will get lost."
 msgstr "Emin misiniz? Son görüntülenen öğeleriniz kaybolacaktır."
 
@@ -4156,8 +4150,6 @@ msgid "Copy Text"
 msgstr "Metni Kopyala"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:149
-#, fuzzy
-#| msgid "CTI Token"
 msgid "Copy Token"
 msgstr "Belirteci Kopyala"
 
@@ -4831,10 +4823,8 @@ msgid "December"
 msgstr "Aralık"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:66
-#, fuzzy
-#| msgid "Recent logs"
 msgid "Decrement hours value"
-msgstr "Azalan saat değeri"
+msgstr "Saat değerini azalt"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:68
 #, fuzzy
@@ -7667,10 +7657,8 @@ msgid "Example Payload"
 msgstr "Örnek Payload"
 
 #: app/assets/javascripts/app/views/api.jst.eco:17
-#, fuzzy
-#| msgid "Example"
 msgid "Example:"
-msgstr "Örnek"
+msgstr "Örnek:"
 
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:27
 #, fuzzy
@@ -7678,9 +7666,8 @@ msgid "Examples"
 msgstr "True"
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:16
-#, fuzzy
 msgid "Examples:"
-msgstr "True"
+msgstr "Örnekler:"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_auto_assignment.coffee:39
 #, fuzzy
@@ -8976,14 +8963,12 @@ msgid "Host Notification"
 msgstr "True"
 
 #: app/controllers/import_otrs_controller.rb:93
-#, fuzzy
 msgid "Host found, but it seems to be no OTRS installation!"
-msgstr "True"
+msgstr "Ana bilgisayar bulundu, ancak OTRS kurulumu yok gibi görünüyor!"
 
 #: app/controllers/import_otrs_controller.rb:88
-#, fuzzy
 msgid "Host found, but no OTRS migrator is installed!"
-msgstr "True"
+msgstr "Ana bilgisayar bulundu, ancak OTRS taşıyıcı yüklü değil!"
 
 #: app/assets/javascripts/app/views/generic/timer.jst.eco:14
 msgid "Hour"
@@ -9264,9 +9249,8 @@ msgid "Ignore Message"
 msgstr "True"
 
 #: db/seeds/settings.rb:3767
-#, fuzzy
 msgid "Ignore escalation/SLA information for import."
-msgstr "True"
+msgstr "İçe aktarım için eskalasyon/SLA bilgilerini göz ardı edin."
 
 #: db/seeds/settings.rb:2847
 #, fuzzy
@@ -9451,10 +9435,8 @@ msgid "Inbound Call"
 msgstr "True"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_channel_distribution.jst.eco:15
-#, fuzzy
-#| msgid "Inbound"
 msgid "Inbound:"
-msgstr "Gelen"
+msgstr "Gelen:"
 
 #: db/seeds/object_manager_attributes.rb:129
 #, fuzzy
@@ -9468,6 +9450,8 @@ msgstr "Makalenin eklerini dahil edilsin mi?"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:81
 msgid "Include unassigned tickets in subscription for escalated tickets."
 msgstr ""
+"Aktarılan destek talepleri için atanmamış destek taleplerini aboneliğe dahil "
+"edin."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:112
 msgid "Include unassigned tickets in subscription for new & open tickets."
@@ -9484,6 +9468,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:68
 msgid "Include your own tickets in subscription for escalated tickets."
 msgstr ""
+"Aktarılan destek talepleri için kendi destek talebinizi aboneliğe dahil edin."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:98
 msgid "Include your own tickets in subscription for new & open tickets."
@@ -9505,7 +9490,7 @@ msgstr "Dahil olan biletlere genel bakış"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:309
 msgid "Includes escalated, new & open and pending tickets."
-msgstr ""
+msgstr "Aktarılan, yeni ve açık, ve bekleyen destek taleplerini içerir."
 
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:26
 #: app/assets/javascripts/app/views/integration/smime_list.jst.eco:22
@@ -9737,9 +9722,8 @@ msgstr "Tanıtım"
 #: app/controllers/integration/cti_controller.rb:30
 #: app/controllers/integration/placetel_controller.rb:28
 #: app/controllers/integration/sipgate_controller.rb:28
-#, fuzzy
 msgid "Invalid 'direction'!"
-msgstr "True"
+msgstr "Geçersiz 'yön'!"
 
 #: app/controllers/application_controller/authenticates.rb:56
 #, fuzzy
@@ -9878,9 +9862,8 @@ msgstr "Geçersiz güvenlik kodu! Lütfen yeni bir kodla tekrar deneyin."
 #: app/controllers/integration/cti_controller.rb:41
 #: app/controllers/integration/placetel_controller.rb:40
 #: app/controllers/integration/sipgate_controller.rb:40
-#, fuzzy
 msgid "Invalid token, please contact your admin!"
-msgstr "True"
+msgstr "Geçersiz belirteç, lütfen yöneticinize başvurun!"
 
 #: app/frontend/apps/mobile/components/CommonStepper/CommonStepperStep.vue:33
 #, fuzzy
@@ -9893,10 +9876,8 @@ msgid "Invalid video URL"
 msgstr "True"
 
 #: app/assets/javascripts/app/controllers/layout_ref.coffee:650
-#, fuzzy
-#| msgid "Invitation sent!"
 msgid "Invitation sent to %s"
-msgstr "Invitation sent!"
+msgstr "Davetiye %s'ye gönderildi"
 
 #: app/assets/javascripts/app/controllers/getting_started/agent.coffee:78
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualInviteColleagues.vue:100
@@ -11479,10 +11460,8 @@ msgid "Most recent activity"
 msgstr "En son etkinlik"
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:17
-#, fuzzy
-#| msgid "Move all from \"%s\" to \"%s\""
 msgid "Move all from \"%s\" to \"%s\":"
-msgstr "Move all from \"%s\" to \"%s\""
+msgstr "Tümünü \"%s\" den \"%s\" ye taşıyın:"
 
 #: app/frontend/shared/form/i18n/locales.ts:54
 #, fuzzy
@@ -11700,9 +11679,8 @@ msgid "Need at least an 'article body' field."
 msgstr "En azından bir 'makale gövdesi' alanına ihtiyaç var."
 
 #: app/controllers/application_controller/handles_devices.rb:47
-#, fuzzy
 msgid "Need fingerprint param!"
-msgstr "True"
+msgstr "Parmak izi parametresine ihtiyaç var!"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:180
 msgid "Need recipient in \"To\"."
@@ -11722,11 +11700,12 @@ msgid "Needed"
 msgstr "Needed"
 
 #: app/controllers/sessions_controller.rb:56
-#, fuzzy
 msgid ""
 "Neither an SSO environment variable 'REMOTE_USER' nor a 'X-Forwarded-User' "
 "header could be found."
-msgstr "True"
+msgstr ""
+"Ne bir SSO ortam değişkeni 'REMOTE_USER' ne de bir 'X-Forwarded-User' "
+"başlığı bulunamadı."
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:15
 msgid "Network"
@@ -12005,10 +11984,8 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:202
 #: app/frontend/apps/mobile/pages/authentication/components/LoginCredentialsForm.vue:140
-#, fuzzy
-#| msgid "New User"
 msgid "New user?"
-msgstr "New User"
+msgstr "Yeni kullanıcı?"
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:112
 #: app/assets/javascripts/app/controllers/webhook.coffee:126
@@ -12125,9 +12102,8 @@ msgid "No SSL"
 msgstr "True"
 
 #: app/assets/javascripts/app/controllers/_plugin/translation_support.coffee:37
-#, fuzzy
 msgid "No Thanks!"
-msgstr "True"
+msgstr "Hayır, teşekkürler!"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/whatsapp.ts:123
 msgid ""
@@ -12196,9 +12172,8 @@ msgid "No drafts"
 msgstr "taslak"
 
 #: app/controllers/users_controller.rb:275
-#, fuzzy
 msgid "No email!"
-msgstr "True"
+msgstr "E-posta yok!"
 
 #: app/frontend/apps/mobile/pages/home/views/FavoriteTicketOverviewsEdit.vue:139
 #: app/frontend/apps/mobile/pages/online-notification/views/NotificationsList.vue:89
@@ -12328,9 +12303,8 @@ msgstr "Shared"
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:570
 #: app/controllers/users_controller.rb:579
-#, fuzzy
 msgid "No source data submitted!"
-msgstr "True"
+msgstr "Kaynak veri gönderilmedi!"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketTags.vue:194
 #, fuzzy
@@ -12344,12 +12318,11 @@ msgstr "Henüz şablon oluşturulmamış."
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketList.vue:365
 msgid "No tickets in this state."
-msgstr "Bu durumda hiçbir destek talebi yok"
+msgstr "Bu durumda hiçbir destek talebi yok."
 
 #: app/controllers/users_controller.rb:254
-#, fuzzy
 msgid "No token!"
-msgstr "True"
+msgstr "Belirteç yok!"
 
 #: app/assets/javascripts/app/views/knowledge_base/content.jst.eco:2
 msgid "No translation for this locale available"
@@ -12383,7 +12356,7 @@ msgstr ""
 #: app/models/channel/email_parser.rb:119
 #, fuzzy
 msgid "No x-zammad-session-user-id, no sender set!"
-msgstr "True"
+msgstr "x-zammad-session-user-id ve gönderici belirtilmemiş!"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/checklist_modal.coffee:8
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailViewContent.vue:370
@@ -12462,9 +12435,8 @@ msgid "Not authorized (feature not possible)"
 msgstr "True"
 
 #: app/controllers/application_controller/authenticates.rb:81
-#, fuzzy
 msgid "Not authorized (token expired)!"
-msgstr "True"
+msgstr "Yetkilendirilmemiş (belirtecin süresi doldu)!"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/reader_controller.coffee:203
 msgid "Not available in selected language"
@@ -12482,7 +12454,7 @@ msgstr "Sonuç bulunamadı"
 
 #: app/models/concerns/can_selector/advanced_sorting/base_sort.rb:15
 msgid "Not implemented"
-msgstr ""
+msgstr "Uygulanmadı"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:71
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:51
@@ -12515,10 +12487,8 @@ msgid "Note - default visibility"
 msgstr "Note - default visibility"
 
 #: app/assets/javascripts/app/views/generic/object_import/index.jst.eco:28
-#, fuzzy
-#| msgid "Note"
 msgid "Note:"
-msgstr "Not"
+msgstr "Not:"
 
 #: app/assets/javascripts/app/views/system_report.jst.eco:9
 msgid ""
@@ -12553,10 +12523,8 @@ msgstr "Notice"
 #: app/assets/javascripts/app/views/google/list.jst.eco:16
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:17
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:17
-#, fuzzy
-#| msgid "Notice"
 msgid "Notice:"
-msgstr "Notice"
+msgstr "Uyarı:"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:59
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:24
@@ -12663,14 +12631,12 @@ msgid "OAuth Configuration"
 msgstr "Configuration"
 
 #: app/assets/javascripts/app/views/api.jst.eco:59
-#, fuzzy
 msgid "OAuth URLs are:"
-msgstr "True"
+msgstr "OAuth URL'leri şunlardır:"
 
 #: app/controllers/application_controller/authenticates.rb:101
-#, fuzzy
 msgid "OAuth2 token is expired!"
-msgstr "True"
+msgstr "OAuth2 belirtecinin süresi doldu!"
 
 #: app/frontend/apps/desktop/components/CommonDialog/CommonDialogActionFooter.vue:18
 #: app/frontend/apps/mobile/components/CommonConfirmation/CommonConfirmation.vue:29
@@ -15499,10 +15465,8 @@ msgid "Select the customer of the ticket or create one."
 msgstr "Select the customer of the ticket or create one."
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:154
-#, fuzzy
-#| msgid "Select the customer of the ticket or create one."
 msgid "Select the type of ticket your are creating"
-msgstr "Select the customer of the ticket or create one."
+msgstr "Oluşturacağınız destek talebi türünü seçin"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:311
 #, fuzzy
@@ -15605,9 +15569,9 @@ msgid "Send postmaster mail if mail too large"
 msgstr "True"
 
 #: db/seeds/settings.rb:3429
-#, fuzzy
 msgid "Send postmaster reject mail to sender of mail if mail is too large."
-msgstr "True"
+msgstr ""
+"Posta çok büyükse göndericiye posta yöneticisi reddetme postası gönderin."
 
 #: app/assets/javascripts/app/views/maintenance.jst.eco:55
 msgid "Send to clients"
@@ -15658,15 +15622,12 @@ msgid "Sending an email without a valid recipient is not possible."
 msgstr "Geçerli bir alıcı olmadan e-posta göndermek mümkün değildir."
 
 #: app/assets/javascripts/app/views/widget/invite_user.jst.eco:35
-#, fuzzy
-#| msgid "pending"
 msgid "Sending…"
-msgstr "bekliyor"
+msgstr "Gönderiliyor…"
 
 #: app/assets/javascripts/app/controllers/maintenance.coffee:87
-#, fuzzy
 msgid "Sent successfully!"
-msgstr "True"
+msgstr "Başarıyla gönderildi!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
 #: app/assets/javascripts/app/controllers/report.coffee:220
@@ -15675,9 +15636,8 @@ msgid "Sep"
 msgstr "Eyl"
 
 #: app/assets/javascripts/app/views/customer_chat/setting.jst.eco:36
-#, fuzzy
 msgid "Separate multiple values by ;"
-msgstr "True"
+msgstr "Birden fazla değeri ayırmak için kullanın ;"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
 msgid "September"
@@ -15693,10 +15653,8 @@ msgstr "True"
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:252
 #: app/assets/javascripts/app/controllers/_integration/smime.coffee:215
 #: app/assets/javascripts/app/controllers/ssl_certificate.coffee:78
-#, fuzzy
-#| msgid "Resend verification email"
 msgid "Server operation failed."
-msgstr "Resend verification email"
+msgstr "Sunucu işlemi başarısız oldu."
 
 #: app/assets/javascripts/app/views/integration/index.jst.eco:10
 msgid "Service"
@@ -15788,9 +15746,8 @@ msgid "Set available ticket types"
 msgstr "True"
 
 #: db/seeds/settings.rb:3758
-#, fuzzy
 msgid "Set backend which is being used for import."
-msgstr "True"
+msgstr "İçe aktarma için kullanılan arka ucu ayarlayın."
 
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:52
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:68
@@ -15957,9 +15914,8 @@ msgstr "Shared"
 
 #: app/controllers/tickets_controller.rb:90
 #: app/services/service/ticket/create.rb:180
-#, fuzzy
 msgid "Shared draft cannot be selected for this ticket."
-msgstr "True"
+msgstr "Bu destek talebi için paylaşılan taslak seçilemez."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailBottomBar/TicketDetailBottomBar.vue:98
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarSharedDraftStart/TicketSidebarSharedDraftStartContent.vue:115
@@ -15998,10 +15954,8 @@ msgid "Shared organization"
 msgstr "Shared organization"
 
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:19
-#, fuzzy
-#| msgid "Shared"
 msgid "Sharing draft…"
-msgstr "Shared"
+msgstr "Taslak paylaşılıyor…"
 
 #: app/assets/javascripts/app/controllers/_profile/avatar.coffee:238
 msgid "Shoot"
@@ -16036,17 +15990,15 @@ msgid "Show Search Details"
 msgstr "Show Search Details"
 
 #: db/seeds/settings.rb:874
-#, fuzzy
 msgid ""
 "Show additional notes for ticket creation depending on the selected type."
-msgstr "True"
+msgstr ""
+"Seçilen türe bağlı olarak destek talebi oluşturmak için ek notlar gösterin."
 
 #: app/assets/javascripts/app/views/generic/ticket_list.jst.eco:40
 #: app/assets/javascripts/app/views/widget/ticket_stats_list.jst.eco:11
-#, fuzzy
-#| msgid "Show all..."
 msgid "Show all…"
-msgstr "Show all..."
+msgstr "Tümünü göster…"
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:23
 msgid "Show authenticator app secret"
@@ -16093,11 +16045,12 @@ msgid "Show notifications"
 msgstr "Block Notifications"
 
 #: db/seeds/settings.rb:1053
-#, fuzzy
 msgid ""
 "Show password login for users on login page. Disabling only takes effect if "
 "third-party authentication is enabled."
-msgstr "True"
+msgstr ""
+"Giriş sayfasında kullanıcılar için şifre girişini göster. Devre dışı bırakma "
+"yalnızca üçüncü taraf kimlik doğrulaması etkinleştirilmişse etkili olur."
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:278
 #, fuzzy
@@ -16235,10 +16188,8 @@ msgstr "Kayıt ol"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleSecurityWarning.vue:25
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:87
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:192
-#, fuzzy
-#| msgid "Sign"
 msgid "Sign:"
-msgstr "İşaret"
+msgstr "İmzala:"
 
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:49
 #: app/assets/javascripts/app/models/group.coffee:13
@@ -16247,10 +16198,8 @@ msgid "Signature"
 msgstr "İmza"
 
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:282
-#, fuzzy
-#| msgid "Resend verification email"
 msgid "Signature verification failed!"
-msgstr "Resend verification email"
+msgstr "İmza doğrulama başarısız oldu!"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:96
 #: app/frontend/shared/composables/useArticleSecurity.ts:108
@@ -16309,10 +16258,10 @@ msgid "Simple Storage Service configuration not found or invalid."
 msgstr "Basit Depolama Hizmeti yapılandırması bulunamadı veya geçersiz."
 
 #: app/models/store/provider/s3.rb:88
-#, fuzzy
 msgid ""
 "Simple Storage Service malfunction. Please contact your Zammad administrator."
-msgstr "True"
+msgstr ""
+"Basit Depolama Hizmeti arızası. Lütfen Zammad yöneticinizle iletişime geçin."
 
 #: app/models/store/provider/s3.rb:70
 msgid "Simple Storage Service not reachable."
@@ -16329,17 +16278,17 @@ msgid "Sina Weibo Open Portal"
 msgstr "True"
 
 #: public/assets/chat/views/customer_timeout.eco:5
-#, fuzzy
 msgid ""
 "Since you didn't respond in the last %s minutes your conversation was closed."
-msgstr "True"
+msgstr "Son %s dakika içinde yanıt vermediğiniz için görüşmeniz kapatıldı."
 
 #: public/assets/chat/views/customer_timeout.eco:3
-#, fuzzy
 msgid ""
 "Since you didn't respond in the last %s minutes your conversation with "
 "<strong>%s</strong> was closed."
-msgstr "True"
+msgstr ""
+"Son %s dakika içinde yanıt vermediğiniz için <strong>%s</strong> ile "
+"görüşmeniz kapatıldı."
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:57
 #, fuzzy
@@ -16410,16 +16359,17 @@ msgid "Some Text"
 msgstr "Some Text"
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:56
-#, fuzzy
 msgid ""
 "Some system settings have changed, Zammad is restarting. Please wait until "
 "Zammad is back again."
-msgstr "True"
+msgstr ""
+"Bazı sistem ayarları değişti, Zammad yeniden başlatılıyor. Lütfen Zammad "
+"geri gelene kadar bekleyin."
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:75
-#, fuzzy
 msgid "Some system settings have changed, please restart all Zammad processes!"
-msgstr "True"
+msgstr ""
+"Bazı sistem ayarları değişti, lütfen tüm Zammad işlemlerini yeniden başlatın!"
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
@@ -16430,14 +16380,12 @@ msgid "Something went wrong. Received message: %s"
 msgstr "Bir şeyler ters gitti. Alınan mesaj: %s"
 
 #: app/frontend/shared/form/i18n/locales.ts:38
-#, fuzzy
 msgid "Sorry, not all fields are filled out correctly."
-msgstr "True"
+msgstr "Üzgünüz, tüm alanlar doğru şekilde doldurulmamıştır."
 
 #: app/assets/javascripts/app/views/cti/not_configured.jst.eco:4
-#, fuzzy
 msgid "Sorry, there is currently no CTI backend enabled."
-msgstr "True"
+msgstr "Üzgünüz, şu anda CTI arka ucu etkin değil."
 
 #: app/frontend/apps/desktop/components/CommonTable/CommonAdvancedTable.vue:515
 #, fuzzy
@@ -16504,9 +16452,8 @@ msgid "Split cells"
 msgstr "Konuyu Böl"
 
 #: db/seeds/groups.rb:7
-#, fuzzy
 msgid "Standard Group/Pool for Tickets."
-msgstr "True"
+msgstr "Destek Talepleri için Standart Grup/Havuz."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/reader_list_controller.coffee:34
 #: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:79
@@ -16558,46 +16505,35 @@ msgstr ""
 "adı."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketActionsDialog.vue:116
-#, fuzzy
 msgid "Start typing to find the ticket to merge into."
-msgstr "True"
+msgstr "Birleştirilecek destek talebini bulmak için yazmaya başlayın."
 
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:745
-#, fuzzy
-#| msgid "Start typing to search for users..."
 msgid "Start typing to search for users…"
-msgstr "Kullanıcı aramak için yazmaya başlayın..."
+msgstr "Kullanıcıları aramak için yazmaya başlayın…"
 
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:641
 msgid "Start typing to search in Knowledge Base…"
 msgstr "Bilgi Bankasında arama yapmak için yazmaya başlayın…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldTags/FieldTagsWrapper.vue:43
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Start typing to search or enter a new tag…"
-msgstr "Enter your username or email address"
+msgstr "Aramak için yazmaya başlayın veya yeni bir etiket girin…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldRecipient/FieldRecipientWrapper.vue:47
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Start typing to search or enter a phone number…"
-msgstr "Enter your username or email address"
+msgstr "Aramak için yazmaya başlayın veya bir telefon numarası girin…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldCustomer/FieldCustomerWrapper.vue:108
 #: app/frontend/apps/desktop/components/Form/fields/FieldRecipient/FieldRecipientWrapper.vue:48
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Start typing to search or enter an email address…"
-msgstr "Enter your username or email address"
+msgstr "Aramak için yazmaya başlayın veya bir e-posta adresi girin…"
 
 #: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:73
 #: app/frontend/apps/desktop/components/Form/fields/FieldTags/FieldTagsWrapper.vue:41
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:409
-#, fuzzy
-#| msgid "Start typing to search for users..."
 msgid "Start typing to search…"
-msgstr "Kullanıcı aramak için yazmaya başlayın..."
+msgstr "Aramak için yazmaya başlayın…"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:28
 msgid "Started"
@@ -16608,16 +16544,12 @@ msgid "Starting Zammad"
 msgstr "Starting Zammad"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualFinish.vue:25
-#, fuzzy
-#| msgid "Starting Zammad"
 msgid "Starting Zammad…"
-msgstr "Starting Zammad"
+msgstr "Zammad başlatılıyor…"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:211
-#, fuzzy
-#| msgid "Starting Zammad"
 msgid "Starting import…"
-msgstr "Starting Zammad"
+msgstr "İçe aktarım başlıyor…"
 
 #: app/assets/javascripts/app/models/chat_sessions.coffee:8
 #: app/assets/javascripts/app/models/data_privacy_task.coffee:7
@@ -16658,10 +16590,8 @@ msgstr "Durum"
 
 #: app/assets/javascripts/app/views/generic/error/generic.jst.eco:3
 #: app/assets/javascripts/app/views/generic/error/placeholder.jst.eco:3
-#, fuzzy
-#| msgid "Status Code"
 msgid "Status Code:"
-msgstr "Status Code"
+msgstr "Durum Kodu:"
 
 #: app/frontend/apps/desktop/pages/guided-setup/routes.ts:224
 #, fuzzy
@@ -16674,10 +16604,8 @@ msgid "Status Type"
 msgstr "Status Type"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_idoit.jst.eco:10
-#, fuzzy
-#| msgid "Status"
 msgid "Status:"
-msgstr "Durum"
+msgstr "Durum:"
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:49
@@ -16730,14 +16658,12 @@ msgid "Store"
 msgstr "Store"
 
 #: db/seeds/settings.rb:5052
-#, fuzzy
 msgid "Stores the GitHub configuration."
-msgstr "True"
+msgstr "GitHub yapılandırmasını saklar."
 
 #: db/seeds/settings.rb:5010
-#, fuzzy
 msgid "Stores the GitLab configuration."
-msgstr "True"
+msgstr "GitLab yapılandırmasını saklar."
 
 #: db/seeds/object_manager_attributes.rb:1246
 msgid "Street"
@@ -16875,9 +16801,8 @@ msgid "Switch to new layout"
 msgstr "Yeni düzene geç"
 
 #: db/seeds/schedulers.rb:133
-#, fuzzy
 msgid "Sync calendars with iCal feeds."
-msgstr "True"
+msgstr "Takvimleri iCal beslemeleri ile senkronize edin."
 
 #: app/assets/javascripts/app/views/profile/appearance.jst.eco:31
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:52
@@ -16974,10 +16899,8 @@ msgid "Tabs"
 msgstr "Sekmeler"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldTags/FieldTagsDialog.vue:115
-#, fuzzy
-#| msgid "Account already exists!"
 msgid "Tag \"%s\" already exists."
-msgstr "Hesap zaten mevcut!"
+msgstr "\"%s\" etiketi zaten mevcut."
 
 #: app/assets/javascripts/app/controllers/chat.coffee:560
 #: app/assets/javascripts/app/controllers/tag.coffee:3
@@ -16997,16 +16920,16 @@ msgid "Tags"
 msgstr "Etiketler"
 
 #: db/seeds/settings.rb:3386
-#, fuzzy
 msgid ""
 "Take Reply-To header as sender/from of email and use the real name of origin "
 "from."
-msgstr "True"
+msgstr ""
+"Reply-To başlığını e-postanın göndereni/geldiği yer olarak alın ve gelen "
+"kaynağın gerçek adını kullanın."
 
 #: db/seeds/settings.rb:3385
-#, fuzzy
 msgid "Take Reply-To header as sender/from of email."
-msgstr "True"
+msgstr "Reply-To başlığını e-postanın göndereni/geldiği yer olarak alın."
 
 #: app/assets/javascripts/app/views/knowledge_base/public_menu_form_item.jst.eco:16
 msgid "Target"
@@ -17163,10 +17086,8 @@ msgid "Text modules"
 msgstr "Text modules"
 
 #: app/assets/javascripts/app/controllers/text_module.coffee:30
-#, fuzzy
-#| msgid "Text modules"
 msgid "Text modules are …"
-msgstr "Text modules"
+msgstr "Metin modülleri …"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
 #, fuzzy
@@ -17212,18 +17133,16 @@ msgid "Thanks for joining. Email sent to \"%s\"."
 msgstr "Katıldığınız için teşekkürler. E-posta \"%s\" adresine gönderildi."
 
 #: lib/secure_mailing/pgp/tool/exec/agent.rb:13
-#, fuzzy
 msgid "The 'gpg-agent' process could not be stopped."
-msgstr "True"
+msgstr "'gpg-agent' işlemi durdurulamadı."
 
 #: app/controllers/concerns/handles_oidc_authorization.rb:20
 msgid "The 'logout_token' does not contain any session information."
 msgstr "'logout_token' herhangi bir oturum bilgisi içermiyor."
 
 #: app/controllers/concerns/handles_oidc_authorization.rb:17
-#, fuzzy
 msgid "The 'logout_token' is invalid."
-msgstr "True"
+msgstr "'logout_token' geçersiz."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/channel.coffee:23
 #: app/frontend/shared/entities/ticket/channel/plugins/whatsapp.ts:31
@@ -17235,18 +17154,16 @@ msgstr ""
 "mesajı gönderilemez."
 
 #: app/controllers/user_access_token_controller.rb:41
-#, fuzzy
 msgid "The API token could not be found."
-msgstr "True"
+msgstr "API belirteci bulunamadı."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/new_controller.coffee:56
 msgid "The Knowledge Base could not be created."
 msgstr "Bilgi Bankası oluşturulamadı."
 
 #: app/services/service/avatar/image_validate.rb:14
-#, fuzzy
 msgid "The MIME type of the image is invalid."
-msgstr "True"
+msgstr "Görüntünün MIME türü geçersiz."
 
 #: app/graphql/gql/queries/system/import/state.rb:39
 #, fuzzy
@@ -17260,14 +17177,12 @@ msgstr ""
 "OTRS migrator eklentisine erişilemiyor. Lütfen API anahtarını doğrulayın."
 
 #: lib/secure_mailing/pgp/tool/error.rb:106
-#, fuzzy
 msgid "The PGP email recipient is invalid."
-msgstr "True"
+msgstr "PGP e-posta alıcısı geçersiz."
 
 #: lib/secure_mailing/pgp/tool/error.rb:115
-#, fuzzy
 msgid "The PGP email signer is invalid."
-msgstr "True"
+msgstr "PGP e-posta imzalayıcısı geçersiz."
 
 #: lib/secure_mailing/pgp/security_options.rb:41
 #, fuzzy
@@ -17276,59 +17191,48 @@ msgid "The PGP key for %s was found, but has expired."
 msgstr "When notification is being sent."
 
 #: lib/secure_mailing/pgp/security_options.rb:43
-#, fuzzy
 msgid "The PGP key for %s was found."
-msgstr "True"
+msgstr "%s için PGP anahtarı bulundu."
 
 #: lib/secure_mailing/pgp/security_options.rb:25
-#, fuzzy
 msgid "The PGP key for %s was not found."
-msgstr "True"
+msgstr "%s için PGP anahtarı bulunamadı."
 
 #: lib/secure_mailing/pgp/tool/error.rb:61
-#, fuzzy
 msgid "The PGP key has been revoked."
-msgstr "True"
+msgstr "PGP anahtarı iptal edildi."
 
 #: lib/secure_mailing/pgp/tool/error.rb:52
-#, fuzzy
 msgid "The PGP key has expired."
-msgstr "True"
+msgstr "PGP anahtarının süresi doldu."
 
 #: lib/secure_mailing/pgp/security_options.rb:78
-#, fuzzy
 msgid "The PGP keys for %s were found."
-msgstr "True"
+msgstr "%s için PGP anahtarları bulundu."
 
 #: lib/secure_mailing/pgp/security_options.rb:82
-#, fuzzy
 msgid "The PGP keys for %s were not found."
-msgstr "True"
+msgstr "%s için PGP anahtarları bulunamadı."
 
 #: lib/secure_mailing/pgp/tool/error.rb:142
-#, fuzzy
 msgid "The PGP passphrase is invalid."
-msgstr "True"
+msgstr "PGP şifre cümlesi geçersiz."
 
 #: lib/secure_mailing/pgp/tool/error.rb:70
-#, fuzzy
-#| msgid "Signature"
 msgid "The PGP signature has expired."
-msgstr "İmza"
+msgstr "PGP imzasının süresi doldu."
 
 #: lib/secure_mailing/pgp/tool/error.rb:79
-#, fuzzy
 msgid "The PGP signature is invalid."
-msgstr "True"
+msgstr "PGP imzası geçersiz."
 
 #: lib/secure_mailing/pgp/tool/error.rb:97
 msgid "The PGP signature key has been revoked."
 msgstr "PGP imza anahtarı iptal edildi."
 
 #: lib/monitoring_helper/health_checker/s3_storage_availability.rb:12
-#, fuzzy
 msgid "The Simple Storage Service is not available."
-msgstr "True"
+msgstr "Basit Depolama Hizmeti kullanılamıyor."
 
 #: app/assets/javascripts/app/controllers/_channel/telegram.coffee:158
 #, fuzzy
@@ -17337,16 +17241,16 @@ msgid "The Telegram bot could not be saved."
 msgstr "%s Object(s) are created."
 
 #: lib/telegram_helper.rb:686
-#, fuzzy
 msgid "The Telegram file is larger than the allowed 20 MB."
-msgstr "True"
+msgstr "Telegram dosyası izin verilen 20 MB'den büyük."
 
 #: lib/telegram_helper.rb:27
-#, fuzzy
 msgid ""
 "The Telegram integration can only be configured on systems using the HTTPS "
 "protocol."
-msgstr "True"
+msgstr ""
+"Telegram entegrasyonu yalnızca HTTPS protokolünü kullanan sistemlerde "
+"yapılandırılabilir."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualSystemInformation.vue:61
 #, fuzzy
@@ -17363,14 +17267,12 @@ msgid "The WhatsApp channel webhook configuration could not be verified."
 msgstr "WhatsApp kanalı webhook yapılandırması doğrulanamadı."
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:155
-#, fuzzy
 msgid "The WhatsApp connection could not be saved."
-msgstr "True"
+msgstr "WhatsApp bağlantısı kaydedilemedi."
 
 #: lib/whatsapp/webhook/concerns/has_channel.rb:19
-#, fuzzy
 msgid "The WhatsApp webhook channel could not be found."
-msgstr "True"
+msgstr "WhatsApp webkancası kanalı bulunamadı."
 
 #: lib/whatsapp/webhook/payload.rb:118
 #, fuzzy
@@ -17391,10 +17293,8 @@ msgid "The access token could not be created."
 msgstr "%s Object(s) are created."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLinkedAccounts.vue:164
-#, fuzzy
-#| msgid "The test run was successful."
 msgid "The account link was successfully removed!"
-msgstr "The test run was successful."
+msgstr "Hesap bağlantısı başarıyla kaldırıldı!"
 
 #: app/controllers/reports_controller.rb:138
 #, fuzzy
@@ -17447,14 +17347,14 @@ msgid "The article could not be set to public."
 msgstr "%s Object(s) are created."
 
 #: app/controllers/ticket_articles_controller.rb:152
-#, fuzzy
 msgid "The article does not belong to the specified ticket."
-msgstr "True"
+msgstr "Makale belirtilen destek talebine ait değil."
 
 #: app/assets/javascripts/app/views/getting_started/auto_wizard_enabled.jst.eco:6
-#, fuzzy
 msgid "The auto wizard is enabled. Please use the provided auto wizard url."
-msgstr "True"
+msgstr ""
+"Otomatik sihirbaz etkinleştirildi. Lütfen sağlanan otomatik sihirbaz "
+"URL'sini kullanın."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:259
 #: app/frontend/apps/mobile/pages/account/views/PersonalSettingAvatar.vue:137
@@ -17503,9 +17403,8 @@ msgid "The certificate could not be parsed."
 msgstr "%s Object(s) are created."
 
 #: app/models/setting/validation/saml/security.rb:75
-#, fuzzy
 msgid "The certificate does not match the given private key."
-msgstr "True"
+msgstr "Sertifika, verilen özel anahtarla eşleşmiyor."
 
 #: lib/secure_mailing/smime/security_options.rb:39
 #, fuzzy
@@ -17515,21 +17414,16 @@ msgid ""
 msgstr "When notification is being sent."
 
 #: lib/secure_mailing/smime/security_options.rb:37
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "The certificate for %s was found."
-msgstr "Notification Sound"
+msgstr "%s için sertifika bulundu."
 
 #: lib/secure_mailing/smime/security_options.rb:42
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "The certificate for %s was not found."
-msgstr "Notification Sound"
+msgstr "%s için sertifika bulunamadı."
 
 #: app/models/smime_certificate.rb:54
-#, fuzzy
 msgid "The certificate for this private key could not be found."
-msgstr "True"
+msgstr "Bu özel anahtara ait sertifika bulunamadı."
 
 #: lib/secure_mailing/smime/incoming.rb:69
 #, fuzzy
@@ -17538,20 +17432,16 @@ msgid "The certificate for verification could not be found."
 msgstr "When notification is being sent."
 
 #: app/models/setting/validation/saml/security.rb:64
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "The certificate is not usable (e.g. expired)."
-msgstr "Notification Sound"
+msgstr "Sertifika kullanılamaz durumda (örneğin süresi dolmuş)."
 
 #: app/models/setting/validation/saml/security.rb:63
 msgid "The certificate is not usable due to being a CA certificate."
 msgstr "Sertifika bir CA sertifikası olduğu için kullanılamaz."
 
 #: app/models/setting/validation/saml/security.rb:65
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "The certificate is not usable for signing and encryption."
-msgstr "Notification Sound"
+msgstr "Sertifika imzalama ve şifreleme için kullanılamaz."
 
 #: lib/certificate/x509/smime.rb:12
 msgid ""
@@ -17589,16 +17479,12 @@ msgstr ""
 "signed certificate, you can press \"Proceed\". Otherwise, please \"Cancel\"."
 
 #: lib/secure_mailing/smime/security_options.rb:68
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "The certificates for %s were found."
-msgstr "Notification Sound"
+msgstr "%s için sertifikalar bulundu."
 
 #: lib/secure_mailing/smime/security_options.rb:72
-#, fuzzy
-#| msgid "Notification Sound"
 msgid "The certificates for %s were not found."
-msgstr "Notification Sound"
+msgstr "%s için sertifika bulunamadı."
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:309
 #: app/assets/javascripts/app/controllers/_channel/facebook.coffee:246
@@ -17611,9 +17497,8 @@ msgstr "Notification Sound"
 #: app/assets/javascripts/app/controllers/knowledge_base/editor_coordinator.coffee:61
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form.coffee:68
 #: app/assets/javascripts/app/controllers/knowledge_base/sidebar/attachments.coffee:135
-#, fuzzy
 msgid "The changes could not be saved."
-msgstr "True"
+msgstr "Değişiklikler kaydedilemedi."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:214
 msgid "The chat is turned off."
@@ -17640,9 +17525,8 @@ msgstr ""
 "etkilemeyecektir."
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:93
-#, fuzzy
 msgid "The configuration of Zammad has changed, please reload your browser."
-msgstr "True"
+msgstr "Zammad'ın yapılandırması değişti, lütfen tarayıcınızı yeniden yükleyin."
 
 #: app/frontend/shared/composables/useAppMaintenanceCheck.ts:102
 #, fuzzy
@@ -17652,9 +17536,8 @@ msgid ""
 msgstr "A new version of Zammad is available, please reload your browser."
 
 #: app/frontend/shared/server/connection.ts:85
-#, fuzzy
 msgid "The connection to the server was lost."
-msgstr "True"
+msgstr "Sunucuyla bağlantı kesildi."
 
 #: app/controllers/import_freshdesk_controller.rb:134
 #: app/controllers/import_otrs_controller.rb:20
@@ -17664,16 +17547,14 @@ msgstr "True"
 #: app/services/service/system/import/apply_otrs_configuration.rb:89
 #: app/services/service/system/import/apply_zendesk_configuration.rb:51
 #: lib/email_helper/probe.rb:282
-#, fuzzy
 msgid "The connection was refused."
-msgstr "True"
+msgstr "Bağlantı reddedildi."
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/password_check.coffee:45
 #: app/controllers/users_controller.rb:405
 #: app/graphql/gql/mutations/user/current/change_password.rb:30
-#, fuzzy
 msgid "The current password you provided is incorrect."
-msgstr "True"
+msgstr "Girdiğiniz güncel şifre yanlış."
 
 #: app/assets/javascripts/app/views/generic/object_import/index.jst.eco:6
 msgid ""
@@ -17709,9 +17590,8 @@ msgid "The device could not be deleted."
 msgstr "Konu silinemedi."
 
 #: db/seeds/settings.rb:2322
-#, fuzzy
 msgid "The divider between TicketHook and ticket number. E. g. ': '."
-msgstr "True"
+msgstr "TicketHook ve destek talebi numarası arasındaki ayırıcı. Örn. ': '."
 
 #: app/assets/javascripts/app/views/microsoft365/duplicate_email_address.jst.eco:3
 #, fuzzy
@@ -17777,9 +17657,8 @@ msgid "The entry could not be created."
 msgstr "Girdi oluşturulamadı."
 
 #: lib/telegram_helper.rb:694
-#, fuzzy
 msgid "The file could not be retrieved from the bot."
-msgstr "True"
+msgstr "Dosya bottan alınamadı."
 
 #: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
 #, fuzzy
@@ -17788,15 +17667,13 @@ msgid "The file could not be uploaded."
 msgstr "%s Object(s) are created."
 
 #: app/controllers/ticket_articles_controller.rb:166
-#, fuzzy
 msgid "The file does not belong to the specified article."
-msgstr "True"
+msgstr "Dosya belirtilen makaleye ait değil."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
-#, fuzzy
 msgid "The file type %s is not allowed."
-msgstr "True"
+msgstr "Dosya türü %s'ye izin verilmiyor."
 
 #: lib/secure_mailing/pgp/incoming.rb:105
 msgid ""
@@ -17833,19 +17710,16 @@ msgid "The format of the subject."
 msgstr "The format of the subject."
 
 #: lib/whatsapp/retry/media.rb:65
-#, fuzzy
 msgid "The given article is not a media article."
-msgstr "True"
+msgstr "Söz konusu makale bir medya makalesi değildir."
 
 #: app/graphql/gql/mutations/ticket/checklist/item_delete.rb:17
-#, fuzzy
 msgid "The given checklist item does not belong to the given checklist."
-msgstr "True"
+msgstr "Verilen kontrol listesi öğesi, verilen kontrol listesine ait değildir."
 
 #: app/services/service/user/two_factor/set_default_method.rb:18
-#, fuzzy
 msgid "The given two-factor authentication method is not configured."
-msgstr "True"
+msgstr "Verilen iki faktörlü kimlik doğrulama yöntemi yapılandırılmamış."
 
 #: app/services/service/user/two_factor/set_default_method.rb:14
 #, fuzzy
@@ -17854,14 +17728,12 @@ msgid "The given two-factor authentication method is not enabled."
 msgstr "İki faktörlü kimlik doğrulama yöntemi etkin değil."
 
 #: app/services/service/user/two_factor/base.rb:14
-#, fuzzy
 msgid "The given two-factor method does not exist."
-msgstr "True"
+msgstr "Belirtilen iki faktörlü yöntem mevcut değildir."
 
 #: app/services/service/user/two_factor/remove_method_credentials.rb:32
-#, fuzzy
 msgid "The given two-factor method is not configured yet."
-msgstr "True"
+msgstr "Verilen iki faktörlü yöntem henüz yapılandırılmadı."
 
 #: app/controllers/import_freshdesk_controller.rb:131
 #: app/controllers/import_kayako_controller.rb:108
@@ -17898,15 +17770,12 @@ msgid "The idoit object could not be found."
 msgstr "%s Object(s) are updated."
 
 #: app/graphql/gql/mutations/ticket/external_references/idoit_object_add.rb:30
-#, fuzzy
-#| msgid "ticket %s was merged into this ticket"
 msgid "The idoit object is already present on the ticket."
-msgstr "%s destek talebi bu destek talebiyle birleştirildi"
+msgstr "idoit nesnesi destek talebi üzerinde zaten mevcut."
 
 #: app/services/service/avatar/image_validate.rb:10
-#, fuzzy
 msgid "The image is invalid."
-msgstr "True"
+msgstr "Görüntü geçersiz."
 
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:39
 #: app/assets/javascripts/app/controllers/_integration/smime.coffee:111
@@ -17946,10 +17815,8 @@ msgstr "%s Object(s) are created."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerLinkFlyout.vue:43
 #: app/graphql/gql/mutations/ticket/external_references/issue_tracker_item_add.rb:28
-#, fuzzy
-#| msgid "Account already exists!"
 msgid "The issue reference already exists."
-msgstr "Hesap zaten mevcut!"
+msgstr "Sorun referansı zaten mevcut."
 
 #: app/graphql/gql/mutations/ticket/external_references/issue_tracker_item_add.rb:44
 #, fuzzy
@@ -17973,11 +17840,10 @@ msgid "The limit of %s displayable tickets was reached (%s remaining)"
 msgstr "True"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:237
-#, fuzzy
 msgid ""
 "The limit of displayable suggestions was reached, please narrow down your "
 "search."
-msgstr "True"
+msgstr "Görüntülenebilir öneri sınırına ulaşıldı, lütfen aramanızı daraltın."
 
 #: app/services/service/user/remove_linked_account.rb:21
 #, fuzzy
@@ -17986,10 +17852,8 @@ msgid "The linked account could not be found."
 msgstr "%s Object(s) are updated."
 
 #: app/services/service/auth/verify_admin_token.rb:17
-#, fuzzy
-#| msgid "Time Accounting is not enabled"
 msgid "The login is not possible."
-msgstr "Süre Hesaplama etkin değil"
+msgstr "Oturum açmak mümkün değildir."
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:104
 #, fuzzy
@@ -18048,10 +17912,8 @@ msgid "The online notification could not be marked as seen."
 msgstr "Çevrimiçi bildirim görüldü olarak işaretlenemedi."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingOverviews.vue:109
-#, fuzzy
-#| msgid "Overviews"
 msgid "The order of your ticket overviews was reset."
-msgstr "Konular"
+msgstr "Destek talebi genel görünümlerinizin sırası sıfırlandı."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingOverviews.vue:87
 #, fuzzy
@@ -18893,7 +18755,7 @@ msgstr "Bu bot zaten var."
 #: app/assets/javascripts/app/views/knowledge_base/feed_dialog.jst.eco:11
 #, fuzzy
 msgid "This category including sub-categories feed:"
-msgstr "True"
+msgstr "Bu kategori alt kategoriler de dahil olmak üzere beslenir:"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/reader_list_controller.coffee:33
 msgid "This category is empty"
@@ -19469,10 +19331,8 @@ msgid "Ticket Overview Query Polling"
 msgstr "New Overview"
 
 #: app/frontend/apps/mobile/pages/home/views/FavoriteTicketOverviewsEdit.vue:87
-#, fuzzy
-#| msgid "Overviews"
 msgid "Ticket Overview settings are saved."
-msgstr "Konular"
+msgstr "Destek Talebi Genel Bakış ayarları kaydedilir."
 
 #: app/frontend/apps/mobile/pages/home/views/Home.vue:22
 #, fuzzy
@@ -19612,10 +19472,8 @@ msgid "Ticket information"
 msgstr "Block Notifications"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketMerge/TicketMergeFlyout.vue:72
-#, fuzzy
-#| msgid "The test run was successful."
 msgid "Ticket merged successfully"
-msgstr "The test run was successful."
+msgstr "Destek talebi başarıyla birleştirildi"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldTicket/FieldTicketWrapper.vue:35
 #, fuzzy
@@ -19657,17 +19515,16 @@ msgid ""
 msgstr "True\n"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/TicketScreenBehavior.vue:56
-#, fuzzy
-#| msgid "The test run was successful."
 msgid "Ticket screen behavior updated successfully"
-msgstr "The test run was successful."
+msgstr "Destek talebi ekranı davranışı başarıyla güncellendi"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:131
-#, fuzzy
 msgid ""
 "Ticket selector contains expert conditions. If you turn off the expert mode, "
 "it can lead to data loss in your condition attributes."
-msgstr "True"
+msgstr ""
+"Destek talebi seçicisi uzman koşulları içerir. Uzman modunu kapatırsanız, "
+"koşul özniteliklerinizde veri kaybına neden olabilir."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketTags.vue:115
 #, fuzzy
@@ -19719,10 +19576,8 @@ msgid "Ticket update"
 msgstr "Konu güncellenmesi"
 
 #: app/frontend/shared/entities/ticket/composables/useTicketEdit.ts:57
-#, fuzzy
-#| msgid "Ticket update"
 msgid "Ticket update failed."
-msgstr "Konu güncellenmesi"
+msgstr "Destek talebi güncellemesi başarısız oldu."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/useTicketEditTitle.ts:27
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailViewContent.vue:463
@@ -19830,9 +19685,8 @@ msgstr ""
 "Tickets are only assigned automatically if they do not already have an owner."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketOrderBySelector.vue:34
-#, fuzzy
 msgid "Tickets are ordered by \"%s\" column (%s)."
-msgstr "True"
+msgstr "Destek talepleri \"%s\" sütununa (%s) göre sıralanır."
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_load_measure.jst.eco:18
 msgid "Tickets assigned to me: %s of %s"
@@ -19840,9 +19694,9 @@ msgstr "Bana atanan biletler: %s / %s"
 
 #: app/controllers/ticket_articles_controller.rb:225
 #: app/controllers/tickets_controller.rb:563
-#, fuzzy
 msgid "Tickets can only be imported if system is in import mode."
-msgstr "True"
+msgstr ""
+"Destek talepleri yalnızca sistem içe aktarma modundaysa içe aktarılabilir."
 
 #: app/assets/javascripts/app/views/widget/ticket_stats.jst.eco:4
 msgid "Tickets of Organization"
@@ -19935,15 +19789,14 @@ msgid "Time zone"
 msgstr "Time zone"
 
 #: app/models/setting/validation/time_zone.rb:6
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Time zone is required."
-msgstr "Kullanıcı gerekli!"
+msgstr "Saat dilimi gereklidir."
 
 #: app/assets/javascripts/app/views/generic/sla_times.jst.eco:33
-#, fuzzy
 msgid "Timeframe between agent updates or for an agent to respond."
-msgstr "True"
+msgstr ""
+"Temsilci güncellemeleri arasında veya bir temsilcinin yanıt vermesi için "
+"geçen süre."
 
 #: app/assets/javascripts/app/views/generic/sla_times.jst.eco:72
 msgid "Timeframe for solving the problem."
@@ -20002,11 +19855,12 @@ msgid "To"
 msgstr "Kime"
 
 #: db/seeds/settings.rb:3502
-#, fuzzy
 msgid ""
 "To archive all outgoing emails from Zammad to external, you can store a BCC "
 "email address here."
-msgstr "True"
+msgstr ""
+"Zammad'dan dışarıya giden tüm e-postaları arşivlemek için burada bir BCC e-"
+"posta adresi saklayabilirsiniz."
 
 #: app/assets/javascripts/app/views/microsoft365/user_mismatch.jst.eco:3
 msgid ""
@@ -20017,10 +19871,10 @@ msgstr ""
 "kimlik doğrulama işlemi iptal edildi."
 
 #: app/assets/javascripts/app/controllers/chat.coffee:198
-#, fuzzy
 msgid ""
 "To be able to chat you need to select at least one chat topic from below!"
-msgstr "True"
+msgstr ""
+"Sohbet edebilmek için aşağıdan en az bir sohbet konusu seçmeniz gerekir!"
 
 #: db/seeds/roles.rb:6
 msgid "To configure your system."
@@ -20046,11 +19900,12 @@ msgstr ""
 "bilgi edinmek için %l'e bakın."
 
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:82
-#, fuzzy
 msgid ""
 "To install %s as an app, press the %s \"Share\" button and then the %s \"Add "
 "to Home Screen\" button."
-msgstr "True"
+msgstr ""
+"Bir uygulama olarak %s'yi yüklemek için %s \"Paylaş\" düğmesine ve ardından "
+"%s \"Ana Ekrana Ekle\" düğmesine basın."
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:11
 #, fuzzy
@@ -20169,30 +20024,24 @@ msgid "Token Access"
 msgstr "Token Access"
 
 #: app/models/token/permissions.rb:20
-#, fuzzy
-#| msgid "Authorization failed"
 msgid "Token authorization failed."
-msgstr "Yetkilendirme başarısız"
+msgstr "Belirteç yetkilendirmesi başarısız oldu."
 
 #: db/seeds/settings.rb:5268
-#, fuzzy
 msgid "Token for CTI."
-msgstr "True"
+msgstr "CTI için belirteç."
 
 #: db/seeds/settings.rb:5172
-#, fuzzy
 msgid "Token for Sipgate."
-msgstr "True"
+msgstr "Sipgate için belirteç."
 
 #: db/seeds/settings.rb:3564
-#, fuzzy
 msgid "Token for monitoring."
-msgstr "True"
+msgstr "İzleme için belirteç."
 
 #: app/assets/javascripts/app/controllers/password_reset_verify.coffee:59
-#, fuzzy
 msgid "Token is invalid!"
-msgstr "True"
+msgstr "Belirteç geçersiz!"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:47
 #, fuzzy
@@ -20200,9 +20049,8 @@ msgid "Token-based API access has been disabled by the administrator."
 msgstr "Token tabanlı API erişimi yönetici tarafından devre dışı bırakıldı."
 
 #: lib/user_agent.rb:239
-#, fuzzy
 msgid "Too many redirections for the original URL, halting."
-msgstr "True"
+msgstr "Orijinal URL için çok fazla yönlendirme, durduruluyor."
 
 #: app/assets/javascripts/app/controllers/_default_navbar.coffee:15
 msgid "Tools"
@@ -20226,9 +20074,8 @@ msgid "Total Accounted Time"
 msgstr "Toplam Hesaplanan Süre"
 
 #: db/seeds/settings.rb:972
-#, fuzzy
 msgid "Total display of the number of objects in a grouping."
-msgstr "True"
+msgstr "Bir gruplamadaki nesne sayısının toplam gösterimi."
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_escalation.jst.eco:12
 msgid "Total: %s"
@@ -20247,9 +20094,8 @@ msgid "Tracked as checklist item in"
 msgstr "Sağlama Toplamı (Checksum)"
 
 #: app/assets/javascripts/app/views/customer_chat/chat_window.jst.eco:27
-#, fuzzy
 msgid "Transfer conversation to another chat:"
-msgstr "True"
+msgstr "Konuşmayı başka bir sohbete aktarın:"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:227
 #, fuzzy
@@ -20297,10 +20143,8 @@ msgid "Triggered because ticket was escalated"
 msgstr "Destek taleplerimin %'si yükseltildi"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/time-trigger-performed.ts:24
-#, fuzzy
-#| msgid "Ticket |%s| will escalate soon!"
 msgid "Triggered because ticket will escalate soon"
-msgstr "Ticket |%s| will escalate soon!"
+msgstr "Destek talebi yakında aktarılacağı için tetiklendi"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/time-trigger-performed.ts:29
 #, fuzzy
@@ -20349,9 +20193,8 @@ msgid "Try using your security key again."
 msgstr "Güvenlik anahtarınızı tekrar kullanmayı deneyin."
 
 #: app/assets/javascripts/app/lib/app_post/websocket.coffee:354
-#, fuzzy
 msgid "Trying to reconnect…"
-msgstr "True"
+msgstr "Yeniden bağlanmaya çalışılıyor…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:157
 msgid "Tue"
@@ -20389,9 +20232,10 @@ msgstr ""
 "olarak kullanılmalıdır. Bu seçeneği kendi sorumluluğunuzda kullanın!"
 
 #: app/assets/javascripts/app/views/twitter/account_edit.jst.eco:5
-#, fuzzy
 msgid "Tweets containing search terms are automatically turned into tickets."
-msgstr "True"
+msgstr ""
+"Arama terimlerini içeren tweetler otomatik olarak destek taleplerine "
+"dönüştürülür."
 
 #: app/assets/javascripts/app/controllers/_channel/twitter.coffee:197
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:71
@@ -20498,9 +20342,8 @@ msgid "Two-factor Authentication Methods"
 msgstr "Temel Kimlik Doğrulaması"
 
 #: app/controllers/application_controller/authenticates.rb:58
-#, fuzzy
 msgid "Two-factor authentication is not supported with HTTP BasicAuth."
-msgstr "True"
+msgstr "İki faktörlü kimlik doğrulama HTTP BasicAuth ile desteklenmez."
 
 #: app/assets/javascripts/app/controllers/after_auth/two_factor_configuration.coffee:43
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:73
@@ -20514,9 +20357,8 @@ msgstr ""
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:224
 #: app/frontend/apps/desktop/pages/authentication/components/LoginTwoFactor.vue:106
 #: app/frontend/apps/mobile/pages/authentication/components/LoginTwoFactor.vue:112
-#, fuzzy
 msgid "Two-factor authentication method could not be initiated."
-msgstr "True"
+msgstr "İki faktörlü kimlik doğrulama yöntemi başlatılamadı."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:191
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:181
@@ -20526,10 +20368,8 @@ msgstr "İki faktörlü kimlik doğrulama yöntemi kaldırıldı."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:221
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:113
-#, fuzzy
-#| msgid "Basic Authentication"
 msgid "Two-factor authentication method was set as default."
-msgstr "Temel Kimlik Doğrulaması"
+msgstr "İki faktörlü kimlik doğrulama yöntemi varsayılan olarak ayarlandı."
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal.coffee:59
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:323
@@ -20537,9 +20377,8 @@ msgid "Two-factor authentication method was set up successfully."
 msgstr "İki faktörlü kimlik doğrulama yöntemi başarıyla kuruldu."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:293
-#, fuzzy
 msgid "Two-factor method could not be configured."
-msgstr "True"
+msgstr "İki faktörlü yöntem yapılandırılamadı."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:116
 #, fuzzy
@@ -20569,10 +20408,8 @@ msgid "Type"
 msgstr "Tip"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_idoit.jst.eco:11
-#, fuzzy
-#| msgid "Type"
 msgid "Type:"
-msgstr "Tip"
+msgstr "Tip:"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:44
 #, fuzzy
@@ -20738,11 +20575,12 @@ msgid "Unsupported webhook payload."
 msgstr "Desteklenmeyen webhook yükü."
 
 #: app/assets/javascripts/app/views/translation/support.jst.eco:6
-#, fuzzy
 msgid ""
 "Up to %s% of this language is already translated. Please help to make Zammad "
 "even better and complete the translation."
-msgstr "True"
+msgstr ""
+"Bu dilin %%s'ye kadar olan kısmı zaten çevrildi. Lütfen Zammad'ı daha da iyi "
+"yapmak için yardım edin ve çeviriyi tamamlayın."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:89
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:88
@@ -20795,9 +20633,8 @@ msgid "Update as closed"
 msgstr "Update as closed"
 
 #: db/seeds/schedulers.rb:250
-#, fuzzy
 msgid "Update exchange oauth 2 token."
-msgstr "True"
+msgstr "Exchange oauth 2 belirtecini güncelleyin."
 
 #: app/assets/javascripts/app/views/generic/object_import/index.jst.eco:14
 msgid "Update existing records"
@@ -20820,9 +20657,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_settings/form.coffee:81
 #: app/assets/javascripts/app/controllers/maintenance.coffee:74
 #: app/assets/javascripts/app/models/setting.coffee:20
-#, fuzzy
 msgid "Update successful."
-msgstr "True"
+msgstr "Güncelleme başarılı."
 
 #: db/seeds/settings.rb:5930
 #, fuzzy
@@ -21075,9 +20911,8 @@ msgid "Use custom option sort"
 msgstr "True"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:546
-#, fuzzy
 msgid "Use double click to change level of the row."
-msgstr "True"
+msgstr "Satırın seviyesini değiştirmek için çift tıklayın."
 
 #: app/assets/javascripts/app/models/application.coffee:8
 msgid "Use one line per URI"
@@ -21101,16 +20936,16 @@ msgid "Use the camera to take a photo for the avatar."
 msgstr "Avatar fotoğrafınız için kamerayı kullanın."
 
 #: db/seeds/settings.rb:2386
-#, fuzzy
 msgid ""
 "Use the start time of the last customer thread (which may consist of "
 "multiple articles)."
-msgstr "True"
+msgstr ""
+"Son müşteri konusunun (birden fazla makaleden oluşabilir) başlangıç zamanını "
+"kullanın."
 
 #: db/seeds/settings.rb:2385
-#, fuzzy
 msgid "Use the time of the very last customer article."
-msgstr "True"
+msgstr "En son müşteri makalesinin zamanını kullanın."
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:5
 msgid "Use this switch to start synchronization of your ldap sources."
@@ -21186,10 +21021,8 @@ msgid "User"
 msgstr "Kullanıcı"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:16
-#, fuzzy
-#| msgid "User (censored)"
 msgid "User (censored):"
-msgstr "Kullanıcı (sansürlenmiş)"
+msgstr "Kullanıcı (sansürlü):"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:47
 #, fuzzy
@@ -21213,10 +21046,8 @@ msgid "User Organization Selector - email"
 msgstr "True"
 
 #: app/models/user/permissions.rb:48
-#, fuzzy
-#| msgid "Authorization failed"
 msgid "User authorization failed."
-msgstr "Yetkilendirme başarısız"
+msgstr "Kullanıcı yetkilendirmesi başarısız oldu."
 
 #: app/assets/javascripts/app/controllers/getting_started/admin.coffee:108
 #: app/assets/javascripts/app/controllers/signup.coffee:102
@@ -21233,9 +21064,8 @@ msgid "User could not be updated."
 msgstr "%s Object(s) are created."
 
 #: lib/external_credential/google.rb:47
-#, fuzzy
 msgid "User email could not be extracted from 'id_token'."
-msgstr "True"
+msgstr "Kullanıcı e-postası 'id_token'dan çıkarılamadı."
 
 #: db/seeds/settings.rb:1183
 #, fuzzy
@@ -21289,10 +21119,8 @@ msgid "User is inactive"
 msgstr "inactive"
 
 #: app/frontend/apps/desktop/components/QuickSearch/entitites/User.vue:17
-#, fuzzy
-#| msgid "inactive"
 msgid "User is inactive."
-msgstr "inactive"
+msgstr "Kullanıcı etkin değil."
 
 #: app/frontend/shared/composables/useAvatarIndicator.ts:95
 #, fuzzy
@@ -21324,9 +21152,8 @@ msgid "User menu"
 msgstr "Kullanıcı adı"
 
 #: app/assets/javascripts/app/controllers/user.coffee:122
-#, fuzzy
 msgid "User successfully unlocked!"
-msgstr "True"
+msgstr "Kullanıcı kilidi başarıyla açıldı!"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationCustomer.vue:32
 #: app/frontend/apps/mobile/pages/user/views/UserDetailView.vue:32
@@ -21359,10 +21186,8 @@ msgid "Username / email"
 msgstr "Kullanıcı adı / e-posta"
 
 #: app/assets/javascripts/app/views/settings/proxy.jst.eco:9
-#, fuzzy
-#| msgid "Username for proxy connection."
 msgid "Username for proxy connection"
-msgstr "Username for proxy connection."
+msgstr "Proxy bağlantısı için kullanıcı adı"
 
 #: db/seeds/settings.rb:531
 msgid "Username for proxy connection."
@@ -21399,10 +21224,8 @@ msgstr "LDAP grupları atanmamış kullanıcılar"
 #: app/assets/javascripts/app/views/integration/exchange_summary.jst.eco:4
 #: app/assets/javascripts/app/views/integration/ldap_last_import.jst.eco:36
 #: app/assets/javascripts/app/views/integration/ldap_summary.jst.eco:4
-#, fuzzy
-#| msgid "Users"
 msgid "Users:"
-msgstr "Kullanıcılar"
+msgstr "Kullanıcılar:"
 
 #: app/assets/javascripts/app/models/organization.coffee
 #, fuzzy
@@ -21423,10 +21246,8 @@ msgid "VIP"
 msgstr "VIP"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketDetailViewActions.vue:105
-#, fuzzy
-#| msgid "Bulk action executed!"
 msgid "Validation failed"
-msgstr "Bulk action executed!"
+msgstr "Doğrulama başarısız oldu"
 
 #, fuzzy
 msgid "Validation failed: %{errors}"
@@ -21457,9 +21278,8 @@ msgid "Vendor"
 msgstr "Sağlayıcı"
 
 #: lib/email_helper/verify.rb:54
-#, fuzzy
 msgid "Verification Email not found in mailbox."
-msgstr "True"
+msgstr "Doğrulama E-postası posta kutusunda bulunamadı."
 
 #: app/assets/javascripts/app/controllers/_plugin/user_signup_check.coffee:67
 #, fuzzy
@@ -21487,23 +21307,17 @@ msgstr "Verify sending and receiving"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmail.vue:171
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualEmailNotification.vue:92
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying and saving your configuration…"
-msgstr "Block Notifications"
+msgstr "Yapılandırmanız doğrulanıyor ve kaydediliyor…"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSource.vue:45
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying and saving your import configuration…"
-msgstr "Block Notifications"
+msgstr "İçe aktarma yapılandırmanız doğrulanıyor ve kaydediliyor…"
 
 #: app/assets/javascripts/app/views/widget/two_factor_login/security_keys.jst.eco:24
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:15
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying key information…"
-msgstr "Block Notifications"
+msgstr "Anahtar bilgiler doğrulanıyor…"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmail.vue:179
 msgid "Verifying your configuration…"
@@ -22490,8 +22304,6 @@ msgid "Your connection is not private"
 msgstr "Bağlantınız özel değil"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:28
-#, fuzzy
-#| msgid "Choose your language."
 msgid "Your language"
 msgstr "Dilinizi seçin."
 
@@ -23430,10 +23242,8 @@ msgstr "True"
 msgid "is required but missing"
 msgstr "True"
 
-#, fuzzy
-#| msgid "%s required!"
 msgid "is reserved"
-msgstr "%s gerekli!"
+msgstr "ayrılmıştır"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:113
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:101
@@ -23553,10 +23363,8 @@ msgstr "matches"
 #: app/assets/javascripts/app/views/cti/caller_log.jst.eco:69
 #: app/assets/javascripts/app/views/cti/caller_log_avatar.jst.eco:2
 #: app/assets/javascripts/app/views/navigation/menu_cti_ringing.jst.eco:23
-#, fuzzy
-#| msgid "maybe"
 msgid "maybe:"
-msgstr "maybe"
+msgstr "belki:"
 
 #: db/seeds/ticket_state_types.rb:8 db/seeds/ticket_states.rb:29
 msgid "merged"
@@ -23834,16 +23642,14 @@ msgid "reached"
 msgstr "reached"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:140
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "reacted to message from %s '%s'"
-msgstr "%s, |%s| kullanıcısına geçişi sonlandırdı!"
+msgstr "'%s'den gelen mesaja '%s' tepkisi verildi"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:134
 #, fuzzy
 #| msgid "%s ended switch to |%s|!"
 msgid "reacted with a %s to message from %s '%s'"
-msgstr "%s, |%s| kullanıcısına geçişi sonlandırdı!"
+msgstr "%s '%s'den gelen mesaja %s ile tepki verdi"
 
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:153
 #: app/frontend/shared/entities/ticket/channel/composables/useWhatsapp.ts:11
@@ -23862,9 +23668,8 @@ msgid "recovery codes"
 msgstr "kurtarma kodları"
 
 #: app/models/checklist/item.rb:102
-#, fuzzy
 msgid "reference must not be the checklist ticket."
-msgstr "True"
+msgstr "referans kontrol listesi destek talebi olmamalıdır."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:103
 #, fuzzy
@@ -23887,10 +23692,8 @@ msgid "remove option"
 msgstr "ayarı sil"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:143
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "removed reaction to message from %s '%s'"
-msgstr "%s, |%s| kullanıcısına geçişi sonlandırdı!"
+msgstr "%s '%s'den gelen mesaja verilen tepki kaldırıldı"
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketOverviewsSidebar.vue:30
 #, fuzzy
@@ -23914,10 +23717,8 @@ msgid "reply all"
 msgstr "Yanıtla"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:111
-#, fuzzy
-#| msgid "%s required!"
 msgid "required"
-msgstr "%s gerekli!"
+msgstr "gerekli"
 
 #: db/seeds/settings.rb:2357
 #, fuzzy
@@ -23955,10 +23756,8 @@ msgstr "opsiyonel yap"
 
 #: app/assets/javascripts/app/views/generic/attachment.jst.eco:9
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:101
-#, fuzzy
-#| msgid "select attachment..."
 msgid "select attachment…"
-msgstr "dosya yükleyin..."
+msgstr "eklentiyi seçin…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:480
 #, fuzzy
@@ -24238,7 +24037,7 @@ msgstr "user@your-organization.tld"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/outOfOffice.ts:24
 msgid "vacation,holiday,replacement,time off"
-msgstr ""
+msgstr "izin,tatil,yedek,mola"
 
 #: db/seeds/ticket_article_types.rb:13
 msgid "web"
