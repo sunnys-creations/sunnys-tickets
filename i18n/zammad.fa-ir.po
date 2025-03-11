@@ -20559,7 +20559,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "شما به دلیل اینکه عضوی از گروه این تیکت هستید، پیام را دریافت کرده‌اید."
 
-#: app/models/transaction/notification.rb:287
+#: app/models/transaction/notification.rb:292
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-04 15:59+0000\n"
+"PO-Revision-Date: 2025-03-11 22:00+0000\n"
 "Last-Translator: Random <random_r@users.noreply.translations.zammad.org>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/it/>\n"
@@ -19580,7 +19580,7 @@ msgstr "Sconosciuto"
 
 #: app/models/concerns/can_selector/advanced_sorting/base_sort.rb:33
 msgid "Unknown column given to sort by!"
-msgstr "Colonna sconosciuta da ordinare!"
+msgstr "Colonna di ordinamento sconosciuta!"
 
 #: lib/password_policy/backend.rb:15
 msgid "Unknown error"
@@ -20858,7 +20858,7 @@ msgid ""
 msgstr ""
 "Stai ricevendo questo perché sei un membro del gruppo di questo ticket."
 
-#: app/models/transaction/notification.rb:287
+#: app/models/transaction/notification.rb:292
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."

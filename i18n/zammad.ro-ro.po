@@ -21693,7 +21693,7 @@ msgstr ""
 "Primești acest mesaj deoarece ești membru al grupului asociat cu acest "
 "tichet."
 
-#: app/models/transaction/notification.rb:287
+#: app/models/transaction/notification.rb:292
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."

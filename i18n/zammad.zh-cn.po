@@ -21414,7 +21414,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "您之所以收到此信息，是因为您是这张票的组成员。"
 
-#: app/models/transaction/notification.rb:287
+#: app/models/transaction/notification.rb:292
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."

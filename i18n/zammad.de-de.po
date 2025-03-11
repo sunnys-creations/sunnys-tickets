@@ -20986,7 +20986,7 @@ msgid ""
 "You are receiving this because you are a member of the group of this ticket."
 msgstr "Sie erhalten dies, weil Sie Mitglied der Gruppe dieses Tickets sind."
 
-#: app/models/transaction/notification.rb:287
+#: app/models/transaction/notification.rb:292
 msgid ""
 "You are receiving this because you are out-of-office replacement for a "
 "participant of this ticket."
