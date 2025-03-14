@@ -279,7 +279,7 @@ GEM
     gli (2.21.5)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.3.16)
+    graphql (2.3.22)
       base64
       fiber-storage
     graphql-batch (0.6.0)
@@ -559,7 +559,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.12)
       io-console (~> 0.5)
-    rexml (3.3.9)
+    rexml (3.4.1)
     rotp (6.3.0)
     rspec-core (3.13.1)
       rspec-support (~> 3.13.0)
@@ -620,7 +620,7 @@ GEM
       rubocop (~> 1.61)
       rubocop-rspec (~> 3, >= 3.0.1)
     ruby-progressbar (1.13.0)
-    ruby-saml (1.17.0)
+    ruby-saml (1.18.0)
       nokogiri (>= 1.13.10)
       rexml
     rubyntlm (0.6.5)
