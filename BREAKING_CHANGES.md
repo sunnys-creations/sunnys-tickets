@@ -20,20 +20,6 @@ Some objects used an object-related hash key, such as `ticket_ids`. This is now 
 
 The **count search** (e.g. `/ticket/search?only_total_count=true`) is a  new feature.
 
-### API performance optimization of asset return data
-
-Most API endpoints have some parameter called full=true which returns the data with all related assets. [In order to improve the front end performance](https://github.com/zammad/zammad/issues/5495), we decided to reduce certain assets which are populated on the login. Normally this parameter is mainly used to show additional data to our legacy app. We have some static data which rarely changes and are currently added on every object like:
-
-- Ticket Priority
-- Ticket State
-- Ticket Group
-- Role
-
-This information will not be added in the future any more when requesting a user or a ticket. If you have an external script which is for example requesting tickets with assets and using the group name or some role information out of the assets, you need to adjust your code to do either:
-
-1. Do a separate request to the object specific endpoint e.g. `/api/v1/groups`
-2. Get the global assets before requesting the ticket e.g. `/api/v1/signshow`
-
 ### Limit to one `merged` state
 
 It will not be possible to have more than one state of the `merged` type. Additional states will be changed to the `closed` type automatically with that update. If you want to prevent that, make sure to only have one state of the type `merged` before you make an update to the **next release**.
