@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-11 22:00+0000\n"
+"PO-Revision-Date: 2025-03-25 22:00+0000\n"
 "Last-Translator: Random <random_r@users.noreply.translations.zammad.org>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/it/>\n"
@@ -4118,6 +4118,14 @@ msgstr ""
 "form. A seconda dell'azione, è possibile nascondere o limitare i campi, o "
 "modificare l'obbligatorietà degli stessi."
 
+#: app/services/service/user/signup.rb:55
+msgid ""
+"Could not create user and send verification email because import_mode "
+"setting is on."
+msgstr ""
+"Impossibile creare un utente e inviare un'email di verifica perché "
+"l'impostazione import_mode è attiva."
+
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
 msgstr "Impossibile recuperare i dettagli del numero di telefono di WhatsApp."
@@ -4175,6 +4183,13 @@ msgstr "Impossibile rimuovere il metodo di autenticazione"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:122
 msgid "Could not remove two-factor authentication method."
 msgstr "Impossibile rimuovere il metodo di autenticazione a due fattori."
+
+#: app/services/service/user/signup.rb:53
+msgid ""
+"Could not send user verification email because import_mode setting is on."
+msgstr ""
+"Impossibile inviare l'email di verifica dell'utente perché l'impostazione "
+"import_mode è attiva."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
@@ -5834,7 +5849,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/knowledge_base/delete_action.coffee:9
 #: app/assets/javascripts/app/controllers/package.coffee:54
 #: app/assets/javascripts/app/controllers/user.coffee:100
-#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:88
+#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:90
 #: app/assets/javascripts/app/views/calendar/index.jst.eco:80
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:153
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:74
@@ -6537,7 +6552,7 @@ msgstr "Vacanze Pasquali"
 #: app/assets/javascripts/app/controllers/organization_profile/action_row.coffee:36
 #: app/assets/javascripts/app/controllers/tag.coffee:104
 #: app/assets/javascripts/app/controllers/translation.coffee:92
-#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:75
+#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:77
 #: app/assets/javascripts/app/views/calendar/index.jst.eco:85
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:62
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:68
@@ -7615,7 +7630,7 @@ msgstr "Scade"
 msgid "Expires at"
 msgstr "Scade il"
 
-#: app/assets/javascripts/app/controllers/search.coffee:54
+#: app/assets/javascripts/app/controllers/search.coffee:55
 msgid "Extended Search"
 msgstr "Ricerca estesa"
 
@@ -7704,11 +7719,6 @@ msgstr "Salvataggio ordine della lista di controllo fallito."
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/show.coffee:160
 msgid "Failed to save the order of the checklist items. Please try again."
 msgstr "Salvataggio dell'ordine dell'elenco di controllo fallito. Riprovare."
-
-#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:52
-msgid "Failed to send email to \"%s\". Please contact an administrator."
-msgstr ""
-"Invio email a \"%s\" non riuscito. Per cortesia contattare un amministratore."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:205
 msgid "Failed to set up QR code. Please try again."
@@ -8735,7 +8745,7 @@ msgstr "Suggerimento per aggiungere un articolo a un ticket esistente."
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:8
 #: app/assets/javascripts/app/controllers/organization_profile/action_row.coffee:28
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_ticket.coffee:114
-#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:60
+#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:62
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent.vue:62
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketActionsDialog.vue:130
 msgid "History"
@@ -10210,6 +10220,7 @@ msgstr "Caricamento fallito, per favore riprovare."
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:190
 #: app/assets/javascripts/app/controllers/_integration/smime.coffee:183
 #: app/assets/javascripts/app/controllers/knowledge_base/search_field_widget.coffee:103
+#: app/assets/javascripts/app/controllers/password_reset.coffee:92
 #: app/assets/javascripts/app/controllers/ssl_certificate.coffee:46
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_git_issue.coffee:87
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_idoit.coffee:76
@@ -11455,7 +11466,7 @@ msgstr "Nuovo modello"
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:7
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:484
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:21
-#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:68
+#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:70
 #: app/assets/javascripts/app/views/customer_ticket_create.jst.eco:6
 #: app/assets/javascripts/app/views/navigation/menu_cti_ringing.jst.eco:25
 #: app/frontend/apps/desktop/entities/ticket/composables/useTicketCreateTitle.ts:22
@@ -11615,7 +11626,7 @@ msgstr "Prossima panoramica"
 msgid "Next month"
 msgstr "Prossimo mese"
 
-#: app/assets/javascripts/app/views/generic/table_pager.jst.eco:14
+#: app/assets/javascripts/app/views/generic/table_pager.jst.eco:20
 msgid "Next page"
 msgstr "Pagina successiva"
 
@@ -11636,7 +11647,7 @@ msgstr "Nessun %s configurato."
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:42
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:5
 #: app/assets/javascripts/app/views/exchange/token_information.jst.eco:16
-#: app/assets/javascripts/app/views/generic/admin/empty.jst.eco:4
+#: app/assets/javascripts/app/views/generic/admin/empty.jst.eco:5
 #: app/assets/javascripts/app/views/generic/calender_preview.jst.eco:49
 #: app/assets/javascripts/app/views/google/list.jst.eco:36
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:62
@@ -11873,7 +11884,7 @@ msgstr "Non ci sono ancora bozze condivise"
 #: app/controllers/text_modules_controller.rb:75
 #: app/controllers/ticket_articles_controller.rb:232
 #: app/controllers/tickets_controller.rb:570
-#: app/controllers/users_controller.rb:579
+#: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
 msgstr "Dati sorgente non forniti!"
 
@@ -13208,13 +13219,13 @@ msgstr "Procedi al login"
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Per favore indicare un destinatario in \"A\" o \"CC\"."
 
-#: app/controllers/users_controller.rb:386
+#: app/controllers/users_controller.rb:381
 msgid "Please provide your current password."
 msgstr "Inserisci la password attuale."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:105
 #: app/assets/javascripts/app/controllers/password_reset_verify.coffee:87
-#: app/controllers/users_controller.rb:391
+#: app/controllers/users_controller.rb:386
 msgid "Please provide your new password."
 msgstr "Inserisci la nuova password."
 
@@ -14046,7 +14057,7 @@ msgstr ""
 "ruoli utente."
 
 #: app/assets/javascripts/app/controllers/_plugin/user_signup_check.coffee:38
-#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:82
+#: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:84
 #: app/assets/javascripts/app/views/signup/verify.jst.eco:11
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:159
 msgid "Resend verification email"
@@ -16778,7 +16789,7 @@ msgid "The connection was refused."
 msgstr "Connessione rifiutata."
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/password_check.coffee:45
-#: app/controllers/users_controller.rb:405
+#: app/controllers/users_controller.rb:400
 #: app/graphql/gql/mutations/user/current/change_password.rb:30
 msgid "The current password you provided is incorrect."
 msgstr "La password attuale fornita non è valida."
@@ -16822,8 +16833,14 @@ msgstr "Il separatore tra l'identificatore del ticket e numero. Ad es: ': '."
 msgid "The email address |%s| is already in use by another account."
 msgstr "L'indirizzo email |%s| è già usato da un altro account."
 
+#: app/services/service/user/password_reset/send.rb:41
+msgid ""
+"The email could not be sent to the user because import_mode setting is on."
+msgstr ""
+"Impossibile inviare l'email all'utente perché l'impostazione import_mode è "
+"attiva."
+
 #: app/services/service/auth/send_admin_token.rb:39
-#: app/services/service/user/password_reset/send.rb:37
 #: app/services/service/user/password_reset/update.rb:42
 msgid "The email could not be sent to the user."
 msgstr "Non è stato possibile inviare l'email all'utente."
@@ -17264,7 +17281,7 @@ msgstr ""
 msgid "The required PGP passphrase is missing."
 msgstr "Manca la passphrase PGP necessaria."
 
-#: app/controllers/users_controller.rb:678
+#: app/controllers/users_controller.rb:673
 #: app/services/service/user/add_first_admin.rb:12
 msgid "The required attribute 'email' is missing."
 msgstr "Non è stato fornito l'attributo obbligatorio 'email'."
@@ -17358,7 +17375,7 @@ msgstr "Il parametro richiesto 'group_id' non è valido."
 msgid "The required parameter 'group_id' is missing."
 msgstr "Manca il parametro richiesto 'group_id'."
 
-#: app/controllers/users_controller.rb:520
+#: app/controllers/users_controller.rb:515
 msgid "The required parameter 'id' is missing."
 msgstr "Manca il parametro richiesto 'id'."
 
@@ -17398,7 +17415,7 @@ msgstr "Manca il parametro richiesto 'options.adapter'."
 msgid "The required parameter 'params' is missing."
 msgstr "Manca il parametro richiesto 'params'."
 
-#: app/controllers/users_controller.rb:413
+#: app/controllers/users_controller.rb:408
 msgid "The required parameter 'password' is missing."
 msgstr "Non è stato fornito l'attributo obbligatorio 'password'."
 
@@ -17418,7 +17435,7 @@ msgstr "Manca il parametro richiesto 'permission'."
 msgid "The required parameter 'request_token' is missing."
 msgstr "Parametro richiesto 'request_token' mancante."
 
-#: app/controllers/users_controller.rb:671
+#: app/controllers/users_controller.rb:666
 msgid "The required parameter 'signup' is missing."
 msgstr "Manca il parametro richiesto 'signup'."
 
@@ -17629,7 +17646,7 @@ msgstr "Impossibile unire i ticket."
 msgid "The time picker"
 msgstr "Selettore dell'ora"
 
-#: app/services/service/user/signup.rb:49
+#: app/services/service/user/signup.rb:64
 msgid "The token could not be generated."
 msgstr "Impossibile generare il token."
 
@@ -20345,7 +20362,7 @@ msgstr "Fornitore"
 msgid "Verification Email not found in mailbox."
 msgstr "Email di verifica non trovata nella casella."
 
-#: app/assets/javascripts/app/controllers/_plugin/user_signup_check.coffee:67
+#: app/assets/javascripts/app/controllers/_plugin/user_signup_check.coffee:68
 msgid "Verification email could not be sent."
 msgstr "Impossibile inviare email di verifica."
 
@@ -21875,7 +21892,7 @@ msgstr "trascina qui per cancellare"
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:140
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:124
 msgid "e. g. user@example.com"
-msgstr "ad es. utente@dominio.com"
+msgstr "ad es. utente@esempio.it"
 
 #: app/assets/javascripts/app/views/profile/out_of_office.jst.eco:14
 msgid "e.g."
@@ -22047,8 +22064,8 @@ msgid ""
 "https://example.com/?q=#{object.attribute_name} - use ticket, user or "
 "organization as object"
 msgstr ""
-"https://esempio.com/?q=#{object.attribute_name} - utilizza il ticket, "
-"l'utente o l'organizzazione come oggetto"
+"https://esempio.it/?q=#{object.attribute_name} - usa il ticket, l'utente o "
+"l'organizzazione come oggetto"
 
 #: app/assets/javascripts/app/controllers/idoit_object_selector.coffee:5
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_idoit.coffee:13
@@ -23022,6 +23039,11 @@ msgstr "…dell'intera area di testo"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Tempi di attesa - Oggi"
+
+#~ msgid "Failed to send email to \"%s\". Please contact an administrator."
+#~ msgstr ""
+#~ "Invio email a \"%s\" non riuscito. Per cortesia contattare un "
+#~ "amministratore."
 
 #~ msgid "The required parameter \"method\" is missing."
 #~ msgstr "Manca il parametro obbligatorio \"metodo\"."
