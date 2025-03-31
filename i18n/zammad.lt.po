@@ -13101,7 +13101,7 @@ msgstr "Naudojamas"
 msgid "Pre-defined Webhook"
 msgstr "Paruoštas Webhook"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 msgid "Pre-defined webhook for %s."
 msgstr "Paruoštas Webhook skirtas %s."
 
@@ -19023,7 +19023,7 @@ msgstr "Antradienis"
 msgid "Turn chat into ticket"
 msgstr "Paversti pokalbį triktimi"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71

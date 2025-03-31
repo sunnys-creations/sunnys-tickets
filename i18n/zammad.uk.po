@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 07:01+0000\n"
-"Last-Translator: Svyrydov Semen <pincher2006@gmail.com>\n"
+"PO-Revision-Date: 2025-03-31 05:47+0000\n"
+"Last-Translator: Dmytro <ramadan2003@ukr.net>\n"
 "Language-Team: Ukrainian <https://translations.zammad.org/projects/zammad/"
-"zammad-development/uk/>\n"
+"zammad-stable/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,6 +77,17 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Created by #{current_user.longname} "
+"at #{ticket.updated_at}_\n"
+"* Група: #{ticket.group.name}\n"
+"* Власник: #{ticket.owner.fullname}\n"
+"* Статус: #{t(ticket.state.name)}\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_escalation/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -5680,6 +5691,8 @@ msgstr ""
 msgid ""
 "Defines the custom unit to be shown next to the time accounting input field."
 msgstr ""
+"Визначає користувацьку одиницю, яка буде показана поруч з полем введення "
+"облікових записів часу."
 
 #: db/seeds/settings.rb:4205
 msgid "Defines the default calendar tickets subscription settings."
@@ -14148,7 +14161,7 @@ msgstr "На базі"
 msgid "Pre-defined Webhook"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 msgid "Pre-defined webhook for %s."
 msgstr ""
 
@@ -17826,7 +17839,7 @@ msgstr "%s об’єкт(ів) створено."
 
 #: app/models/setting/validation/saml/security.rb:75
 msgid "The certificate does not match the given private key."
-msgstr ""
+msgstr "Сертифікат не відповідає наданому приватному ключу."
 
 #: lib/secure_mailing/smime/security_options.rb:39
 #, fuzzy
@@ -17849,7 +17862,7 @@ msgstr "Звук сповіщення"
 
 #: app/models/smime_certificate.rb:54
 msgid "The certificate for this private key could not be found."
-msgstr ""
+msgstr "Сертифікат для цього приватного ключа не знайдено."
 
 #: lib/secure_mailing/smime/incoming.rb:69
 #, fuzzy
@@ -17949,6 +17962,8 @@ msgid ""
 "The chosen unit will be used for display only and will not affect stored "
 "values."
 msgstr ""
+"Обрана одиниця буде використовуватися лише для відображення і не впливатиме "
+"на збережені значення."
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:93
 msgid "The configuration of Zammad has changed, please reload your browser."
@@ -20265,10 +20280,8 @@ msgid "Time Accounting"
 msgstr "Облік часу\t"
 
 #: db/seeds/settings.rb:4121
-#, fuzzy
-#| msgid "Time Accounting"
 msgid "Time Accounting Custom Unit"
-msgstr "Облік часу\t"
+msgstr "Користувацька одиниця обліку часу"
 
 #: db/seeds/settings.rb:4157
 #, fuzzy
@@ -20287,10 +20300,8 @@ msgid "Time Accounting Types"
 msgstr "Облік часу\t"
 
 #: db/seeds/settings.rb:4103
-#, fuzzy
-#| msgid "Time Accounting"
 msgid "Time Accounting Unit"
-msgstr "Облік часу\t"
+msgstr "Одиниця облік часу"
 
 #: app/policies/ticket/time_accounting_policy.rb:6
 #, fuzzy
@@ -20312,10 +20323,8 @@ msgid "Time Units Total"
 msgstr "Разом одиниць часу\t"
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:16
-#, fuzzy
-#| msgid "Time Accounting"
 msgid "Time accounting unit"
-msgstr "Облік часу\t"
+msgstr "Одиниця обліку часу"
 
 #: app/assets/javascripts/app/models/trigger.coffee:7
 #, fuzzy
@@ -20740,7 +20749,7 @@ msgstr "Вівторок"
 msgid "Turn chat into ticket"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71
@@ -22628,7 +22637,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:5
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:5
 msgid "You need to configure the Zammad endpoints in the %s web interface:"
-msgstr ""
+msgstr "Вам потрібно налаштувати кінцеві точки Zammad у %s веб-інтрефейсі:"
 
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:5
 msgid "You need to configure the Zammad endpoints in the %s:"

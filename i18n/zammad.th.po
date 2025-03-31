@@ -13982,7 +13982,7 @@ msgstr "ขับเคลื่อนโดย"
 msgid "Pre-defined Webhook"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 msgid "Pre-defined webhook for %s."
 msgstr ""
 
@@ -20466,7 +20466,7 @@ msgstr "วันอังคาร"
 msgid "Turn chat into ticket"
 msgstr "เปลี่ยนแชทเป็น ticket"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71

@@ -15048,7 +15048,7 @@ msgstr "Impulsat per"
 msgid "Pre-defined Webhook"
 msgstr "Pre-defined Webhook"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 #, fuzzy
 msgid "Pre-defined webhook for %s."
 msgstr "Pre-defined webhook for %s."
@@ -22013,7 +22013,7 @@ msgstr "Dimarts"
 msgid "Turn chat into ticket"
 msgstr "Turn chat into ticket"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71

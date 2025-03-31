@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 06:58+0000\n"
+"PO-Revision-Date: 2025-03-27 22:00+0000\n"
 "Last-Translator: sigurbjartur <github@sigurbjartur.com>\n"
 "Language-Team: Icelandic <https://translations.zammad.org/projects/zammad/"
-"zammad-development/is/>\n"
+"zammad-stable/is/>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -534,10 +534,8 @@ msgid "%s months ago"
 msgstr "fyrir %s mánuðum síðan"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:164
-#, fuzzy
-#| msgid "See more"
 msgid "%s more"
-msgstr "Sjá meira"
+msgstr "%s fleira"
 
 #: app/assets/javascripts/app/views/generic/object_import/imported.jst.eco:21
 msgid "%s object(s) have been created."
@@ -913,6 +911,9 @@ msgid ""
 "mails, e.g. when an agent is composing an email or a trigger is sending an "
 "auto-reply"
 msgstr ""
+"Tölvupóstfang hóps ákveður hvaða póstfang skal nota fyrir útfarandi "
+"tölvupósta, t.d. þegar þjónustufulltrúi semur tölvupóst eða kveikja sendir "
+"sjálfvirkt svar"
 
 #: db/seeds/settings.rb:4013
 msgid "A list of active import backends that gets scheduled automatically."
@@ -990,7 +991,7 @@ msgid ""
 "A webhook can be fired by triggers and schedulers, don't forget to define "
 "them!"
 msgstr ""
-"Hleypt getur verið af vefkrók með gikk eða verkstjóra, ekki gleyma að "
+"Hleypt getur verið af vefkrók með kveikju eða verkstjóra, ekki gleyma að "
 "skilgreina þá!"
 
 #: app/assets/javascripts/app/controllers/api.coffee:3
@@ -1130,10 +1131,8 @@ msgid "Accounted Time"
 msgstr "Gjaldfærður tími"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketAccountedTime.vue:81
-#, fuzzy
-#| msgid "Accounted Time"
 msgid "Accounted time unit"
-msgstr "Gjaldfærður tími"
+msgstr "Eining gjaldfærðs tíma"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:11
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:11
@@ -1208,7 +1207,7 @@ msgstr "Aðgerðir"
 
 #: db/seeds/settings.rb:2870
 msgid "Activate the recursive processing of ticket triggers."
-msgstr "Virkja endurkvæma vinnslu á beiðnagikkjum."
+msgstr "Virkja endurkvæma vinnslu á beiðnakveikjum."
 
 #: app/assets/javascripts/app/models/trigger.coffee:7
 msgid "Activated by"
@@ -1283,7 +1282,7 @@ msgstr "Gerðir athafna"
 
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:39
 msgid "Adapter"
-msgstr ""
+msgstr "Tengildi"
 
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:90
 #: app/assets/javascripts/app/controllers/_integration/smime.coffee:75
@@ -1363,7 +1362,7 @@ msgstr "Bæta við einkalykli"
 
 #: app/assets/javascripts/app/controllers/_integration/pgp.coffee:92
 msgid "Add Public or Private Key"
-msgstr ""
+msgstr "Bæta við einka- eða dreifilykli"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/web.ts:13
 msgid "Add Reply"
@@ -1399,28 +1398,24 @@ msgid "Add a data privacy deletion task"
 msgstr "Bæta við persónuverndarvinnslu"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:276
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add a message"
-msgstr "Bæta við merki"
+msgstr "Bæta við skilaboðum"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:123
 msgid "Add agreement text before submit."
-msgstr ""
+msgstr "Bæta við skilmálum fyrir vistum."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:315
-#, fuzzy
-#| msgid "Pending reminder reached for Ticket |%s|"
 msgid "Add alarm to pending reminder and escalated tickets"
-msgstr "Áminning fyrir miða er náð fyrir |%s|"
+msgstr "Bæta við áminningu fyrir beiðnir sem eru á bið eða með aukinn forgang"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:34
 msgid "Add alarm to pending reminder and escalated tickets."
-msgstr ""
+msgstr "Bæta við áminningu fyrir beiðnir sem eru á bið eða með aukinn forgang."
 
 #: app/frontend/shared/form/i18n/locales.ts:74
 msgid "Add all values"
-msgstr ""
+msgstr "Bæta öllum gildum við"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:112
 msgid "Add attachment option to upload."
@@ -1428,77 +1423,59 @@ msgstr "Bæta við viðhengisvalkost fyrir að hlaða upp skrám."
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:270
 msgid "Add bullet list"
-msgstr ""
+msgstr "Bæta punktalista við"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/facebook.ts:49
-#, fuzzy
-#| msgid "Add Account"
 msgid "Add comment"
-msgstr "Bæta við reikningi"
+msgstr "Bæta athugasemd við"
 
 #: app/assets/javascripts/app/views/generic/application_selector_row.jst.eco:32
 #: app/assets/javascripts/app/views/generic/application_selector_subclause.jst.eco:18
-#, fuzzy
-#| msgid "Action"
 msgid "Add condition"
-msgstr "Aðgerð"
+msgstr "Bæta við skilyrði"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/email.ts:168
-#, fuzzy
-#| msgid "email"
 msgid "Add email"
-msgstr "tölvupóstur"
+msgstr "Bæta tölvupósti við"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:5
 msgid "Add empty checklist"
-msgstr ""
+msgstr "Bæta tómum gátlista við"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:192
 msgid "Add first level heading"
-msgstr ""
+msgstr "Bæta fyrsta stigs fyrirsögn við"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:11
 msgid "Add from a template"
 msgstr "Vista sem sniðmát"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:185
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add heading"
-msgstr "Bæta við merkispjaldi"
+msgstr "Bæta fyrirsögn við"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:130
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add image"
-msgstr "Bæta við merki"
+msgstr "Bæta mynd við"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
-#, fuzzy
-#| msgid "Add a Note"
 msgid "Add internal note"
-msgstr "Bæta við athugasemd"
+msgstr "Bæta innanhúss athugasemd við"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketLinks.vue:163
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:152
-#, fuzzy
-#| msgid "Add Link"
 msgid "Add link"
-msgstr "Bæta við hlekk"
+msgstr "Bæta hlekk við"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/telegram.ts:53
 #: app/frontend/shared/entities/ticket-article/action/plugins/twitter.ts:125
 #: app/frontend/shared/entities/ticket-article/action/plugins/whatsapp.ts:202
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add message"
-msgstr "Bæta við merki"
+msgstr "Bæta skilaboðum við"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
-#, fuzzy
-#| msgid "Add Bot"
 msgid "Add note"
-msgstr "Bæta við þjark"
+msgstr "Bæta minnismiða við"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:257
 #, fuzzy
@@ -13624,7 +13601,7 @@ msgstr "Knúið af"
 msgid "Pre-defined Webhook"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 msgid "Pre-defined webhook for %s."
 msgstr ""
 
@@ -19802,10 +19779,9 @@ msgid "Triggered because ticket was escalated"
 msgstr "%s beiðnanna minna með hækkaðan forgang"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/time-trigger-performed.ts:24
-#, fuzzy
-#| msgid "Ticket |%s| will escalate soon!"
 msgid "Triggered because ticket will escalate soon"
-msgstr "Beiðni |%s| mun fara í hærri forgang fljótlega!"
+msgstr ""
+"Hleypt af vegna þess að beiðni |%s| mun fara í bráðlega hækka í forgangi"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/time-trigger-performed.ts:29
 #, fuzzy
@@ -19815,7 +19791,7 @@ msgstr "bíður áminningar"
 
 #: app/assets/javascripts/app/controllers/trigger.coffee:3
 msgid "Triggers"
-msgstr "Gikkir"
+msgstr "Kveikjur"
 
 #: app/assets/javascripts/app/models/trigger.coffee:7
 msgid ""
@@ -19867,7 +19843,7 @@ msgstr "Þriðjudagur"
 msgid "Turn chat into ticket"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-07 22:00+0000\n"
+"PO-Revision-Date: 2025-03-31 05:47+0000\n"
 "Last-Translator: chrand818 <can@telenabler.com>\n"
 "Language-Team: Swedish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/sv/>\n"
@@ -4069,6 +4069,8 @@ msgid ""
 "Could not create user and send verification email because import_mode "
 "setting is on."
 msgstr ""
+"Det gick inte att skapa en användare och skicka ett verifieringsmeddelande "
+"eftersom inställningen import_mode är aktiverad."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
@@ -4132,6 +4134,8 @@ msgstr "Det gick inte ta bort två-faktorautentiseringsmetod."
 msgid ""
 "Could not send user verification email because import_mode setting is on."
 msgstr ""
+"Det gick inte att skicka e-post för verifiering av användare eftersom "
+"inställningen import_mode är på."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
@@ -13200,7 +13204,7 @@ msgstr "Powered by"
 msgid "Pre-defined Webhook"
 msgstr "Förinställd Webhook"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 msgid "Pre-defined webhook for %s."
 msgstr "Fördefinierad webhook för %s."
 
@@ -16668,11 +16672,11 @@ msgid "The email address |%s| is already in use by another account."
 msgstr "E-postadressen |%s| används redan av ett annat konto."
 
 #: app/services/service/user/password_reset/send.rb:41
-#, fuzzy
-#| msgid "The email could not be sent to the user."
 msgid ""
 "The email could not be sent to the user because import_mode setting is on."
-msgstr "Email kunde inte skickas till användaren."
+msgstr ""
+"E-postmeddelandet kunde inte skickas till användaren eftersom inställningen "
+"import_mode är aktiverad."
 
 #: app/services/service/auth/send_admin_token.rb:39
 #: app/services/service/user/password_reset/update.rb:42
@@ -19157,7 +19161,7 @@ msgstr "Tisdag"
 msgid "Turn chat into ticket"
 msgstr "Skapa ärende från chat"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-04 15:59+0000\n"
+"PO-Revision-Date: 2025-03-31 05:47+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (Cyrillic script) <https://translations.zammad.org/"
 "projects/zammad/zammad-stable/sr_Cyrl/>\n"
@@ -4069,6 +4069,8 @@ msgid ""
 "Could not create user and send verification email because import_mode "
 "setting is on."
 msgstr ""
+"Није било могуће креирати корисника и послати верификациону имејл поруку јер "
+"је подешавање import_mode и даље укључено."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
@@ -4131,6 +4133,8 @@ msgstr "Није било могуће уклонити метод двофак�
 msgid ""
 "Could not send user verification email because import_mode setting is on."
 msgstr ""
+"Није било могуће послати верификациону имејл поруку јер је подешавање "
+"import_mode и даље укључено."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
@@ -13163,7 +13167,7 @@ msgstr "Покреће"
 msgid "Pre-defined Webhook"
 msgstr "Повратни позив по шаблону"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:244
+#: app/assets/javascripts/app/controllers/webhook.coffee:250
 msgid "Pre-defined webhook for %s."
 msgstr "Повратни позив по шаблону за %s."
 
@@ -16633,8 +16637,6 @@ msgid "The email address |%s| is already in use by another account."
 msgstr "Имејл адреса |%s| се већ користи за други налог."
 
 #: app/services/service/user/password_reset/send.rb:41
-#, fuzzy
-#| msgid "The email could not be sent to the user."
 msgid ""
 "The email could not be sent to the user because import_mode setting is on."
 msgstr "Није било могуће послати имејл поруку кориснику."
@@ -19104,7 +19106,7 @@ msgstr "уторак"
 msgid "Turn chat into ticket"
 msgstr "Претвори ћаскање у тикет"
 
-#: app/assets/javascripts/app/controllers/webhook.coffee:233
+#: app/assets/javascripts/app/controllers/webhook.coffee:239
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:89
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71
