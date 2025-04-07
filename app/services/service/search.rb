@@ -57,7 +57,7 @@ class Service::Search < Service::BaseWithCurrentUser
         next if result.blank?
 
         result[:objects] = result[:object_metadata]
-          .map { |elem| model.lookup(id: elem[:id]) }
+          .filter_map { |elem| model.lookup(id: elem[:id]) }
       end
   end
 end
