@@ -2919,7 +2919,7 @@ msgid "CA"
 msgstr "CA"
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:18
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:495
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:501
 #: app/assets/javascripts/app/models/ticket_article.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:58
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:34
@@ -3690,7 +3690,7 @@ msgstr "Geschlossen"
 msgid "Closed At"
 msgstr "Geschlossen am"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:120
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:130
 #: app/assets/javascripts/app/controllers/widget/user.coffee:80
 msgid "Closed Tickets"
 msgstr "Geschlossene Tickets"
@@ -4556,7 +4556,7 @@ msgid "Current state of configured settings (excluding passwords and tokens)"
 msgstr ""
 "Aktueller Status der konfigurierten Einstellungen (ohne Passwörter und Token)"
 
-#: app/controllers/application_controller/has_user.rb:42
+#: app/controllers/application_controller/has_user.rb:43
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
 msgstr ""
 "Der aktuelle Benutzer hat keine Berechtigung 'From'/'X-On-Behalf-Of' zu "
@@ -7372,7 +7372,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_error_modal.coffee:6
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:165
 #: app/assets/javascripts/app/controllers/_settings/area_proxy.coffee:51
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:124
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:130
 #: app/assets/javascripts/app/controllers/widget/error_modal.coffee:6
 #: app/frontend/apps/desktop/components/CommonError/CommonError.vue:30
 #: app/frontend/apps/mobile/pages/error/views/Error.vue:39
@@ -8166,7 +8166,7 @@ msgstr "GID"
 msgid "Gateway"
 msgstr "Gateway"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:128
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:134
 #: app/assets/javascripts/app/lib/app_post/ajax.coffee:91
 msgid "General communication error, maybe internet is not available!"
 msgstr ""
@@ -9550,15 +9550,15 @@ msgstr "Falsche E-Mail '%{email}'"
 msgid "Invalid i-doit configuration (missing endpoint or api_token)."
 msgstr "Ungültige i-doit Konfiguration (fehlender Endpunkt oder api_token)."
 
-#: app/controllers/tickets_controller.rb:192
+#: app/controllers/tickets_controller.rb:191
 msgid "Invalid link structure"
 msgstr "Fehlerhafte Link-Struktur"
 
-#: app/controllers/tickets_controller.rb:198
+#: app/controllers/tickets_controller.rb:197
 msgid "Invalid link structure (Object → LinkType)"
 msgstr "Ungültige Linkstruktur (Object → LinkType)"
 
-#: app/controllers/tickets_controller.rb:195
+#: app/controllers/tickets_controller.rb:194
 msgid "Invalid link structure (Object)"
 msgstr "Ungültige Link-Struktur (Objekt)"
 
@@ -11376,7 +11376,7 @@ msgstr "Benötigt Empfänger in \"To\"."
 msgid "Need session_id."
 msgstr "session_id wird benötigt."
 
-#: app/controllers/tickets_controller.rb:438
+#: app/controllers/tickets_controller.rb:437
 msgid "Need user_id or organization_id as param"
 msgstr "Benötigt user_id oder organization_id als Parameter"
 
@@ -11511,7 +11511,7 @@ msgstr "Neue Vorlage"
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:190
 #: app/assets/javascripts/app/controllers/_profile/notification.coffee:65
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:7
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:484
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:490
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:21
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:70
 #: app/assets/javascripts/app/views/customer_ticket_create.jst.eco:6
@@ -11932,7 +11932,7 @@ msgstr "Noch keine gemeinsamen Entwürfe"
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
 #: app/controllers/ticket_articles_controller.rb:232
-#: app/controllers/tickets_controller.rb:570
+#: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
 msgstr "Keine Quelldaten übermittelt!"
@@ -12017,7 +12017,7 @@ msgstr "Nicht verfügbar"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:160
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:240
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:119
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:125
 #: app/frontend/apps/desktop/components/layout/LayoutTaskbarTabContent.vue:73
 #: app/frontend/shared/errors/useErrorHandler.ts:25
 #: app/frontend/shared/router/error.ts:24
@@ -12025,7 +12025,7 @@ msgstr "Nicht verfügbar"
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
-#: app/policies/controllers/taskbar_controller_policy.rb:31
+#: app/policies/controllers/taskbar_controller_policy.rb:35
 msgid "Not allowed to access this task."
 msgstr "Der Zugriff auf diese Aufgabe ist nicht erlaubt."
 
@@ -12042,7 +12042,7 @@ msgid "Not assigned"
 msgstr "Nicht zugewiesen"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:158
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:115
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:121
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row_display_value.jst.eco:16
 #: app/controllers/application_controller/handles_errors.rb:61
 #: app/services/service/ticket/article/create.rb:122
@@ -12459,7 +12459,7 @@ msgstr "Checkliste öffnen"
 msgid "Open Ticket# %s"
 msgstr "Öffne Ticket# %s"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:112
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:122
 #: app/assets/javascripts/app/controllers/widget/user.coffee:70
 #: db/seeds/overviews.rb:109
 msgid "Open Tickets"
@@ -14636,7 +14636,7 @@ msgstr "Gespeicherte Bedingungen"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1123
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
 msgid "Saving failed."
 msgstr "Das Speichern ist fehlgeschlagen."
 
@@ -15394,7 +15394,7 @@ msgstr "Gemeinsame Entwürfe"
 msgid "Shared Mailbox"
 msgstr "Freigegebenes Postfach"
 
-#: app/controllers/tickets_controller.rb:90
+#: app/controllers/tickets_controller.rb:89
 #: app/services/service/ticket/create.rb:180
 msgid "Shared draft cannot be selected for this ticket."
 msgstr "Der gemeinsame Entwurf kann für dieses Ticket nicht ausgewählt werden."
@@ -17171,7 +17171,7 @@ msgstr "Die neue Ticketnummer konnte nicht erzeugt werden."
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_new.coffee:64
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:93
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:801
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:807
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:193
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:272
 #: app/assets/javascripts/app/controllers/object_manager.coffee:261
@@ -17643,7 +17643,7 @@ msgstr ""
 msgid "The signature was successfully verified."
 msgstr "Die Signatur wurde erfolgreich verifiziert."
 
-#: app/controllers/tickets_controller.rb:392
+#: app/controllers/tickets_controller.rb:391
 msgid "The source ticket could not be found."
 msgstr "Das Ursprungs-Ticket konnte nicht gefunden werden."
 
@@ -17696,7 +17696,7 @@ msgstr ""
 msgid "The system was configured successfully. You are being redirected."
 msgstr "Das System wurde erfolgreich konfiguriert. Sie werden umgeleitet."
 
-#: app/controllers/tickets_controller.rb:383
+#: app/controllers/tickets_controller.rb:382
 msgid "The target ticket number could not be found."
 msgstr "Die Ziel-Ticketnummer konnte nicht gefunden werden."
 
@@ -18524,7 +18524,7 @@ msgstr "Donnerstag"
 msgid "Ticket"
 msgstr "Ticket"
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:774
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:780
 msgid "Ticket %s created!"
 msgstr "Ticket %s erstellt!"
 
@@ -18988,7 +18988,7 @@ msgid "Tickets assigned to me: %s of %s"
 msgstr "Mir zugewiesene Tickets: %s von %s"
 
 #: app/controllers/ticket_articles_controller.rb:225
-#: app/controllers/tickets_controller.rb:563
+#: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""
 "Tickets können nur importiert werden, wenn das System im Import-Modus ist."
@@ -21360,7 +21360,7 @@ msgstr "Diese Zammad-Endpunkte müssen in %s konfigurieren werden:"
 msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Sie haben das Tabellenlimit von %s Tickets erreicht (%s verbleibend)."
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:754
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "

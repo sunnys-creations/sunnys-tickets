@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-27 12:19+0000\n"
+"PO-Revision-Date: 2025-04-08 22:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ru/>\n"
@@ -2913,7 +2913,7 @@ msgid "CA"
 msgstr "CA"
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:18
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:495
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:501
 #: app/assets/javascripts/app/models/ticket_article.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:58
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:34
@@ -3682,7 +3682,7 @@ msgstr "Закрытые"
 msgid "Closed At"
 msgstr "Закрыто в"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:120
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:130
 #: app/assets/javascripts/app/controllers/widget/user.coffee:80
 msgid "Closed Tickets"
 msgstr "Закрытые заявки"
@@ -4552,7 +4552,7 @@ msgid "Current state of configured settings (excluding passwords and tokens)"
 msgstr ""
 "Текущее состояние настроенных параметров (за исключением паролей и токенов)"
 
-#: app/controllers/application_controller/has_user.rb:42
+#: app/controllers/application_controller/has_user.rb:43
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
 msgstr ""
 "Текущий пользователь не имеет разрешения на использование 'From' / 'X-On-"
@@ -7357,7 +7357,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_error_modal.coffee:6
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:165
 #: app/assets/javascripts/app/controllers/_settings/area_proxy.coffee:51
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:124
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:130
 #: app/assets/javascripts/app/controllers/widget/error_modal.coffee:6
 #: app/frontend/apps/desktop/components/CommonError/CommonError.vue:30
 #: app/frontend/apps/mobile/pages/error/views/Error.vue:39
@@ -8151,7 +8151,7 @@ msgstr "GID"
 msgid "Gateway"
 msgstr "Шлюз"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:128
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:134
 #: app/assets/javascripts/app/lib/app_post/ajax.coffee:91
 msgid "General communication error, maybe internet is not available!"
 msgstr "Общая ошибка связи, возможно интернет недоступен!"
@@ -9535,15 +9535,15 @@ msgid "Invalid i-doit configuration (missing endpoint or api_token)."
 msgstr ""
 "Неверная конфигурация i-doit (отсутствует конечная точка или api_token)."
 
-#: app/controllers/tickets_controller.rb:192
+#: app/controllers/tickets_controller.rb:191
 msgid "Invalid link structure"
 msgstr "Неверная структура ссылки"
 
-#: app/controllers/tickets_controller.rb:198
+#: app/controllers/tickets_controller.rb:197
 msgid "Invalid link structure (Object → LinkType)"
 msgstr "Неверная структура ссылки (Объект → Тип ссылки)"
 
-#: app/controllers/tickets_controller.rb:195
+#: app/controllers/tickets_controller.rb:194
 msgid "Invalid link structure (Object)"
 msgstr "Неверная структура ссылки (Объект)"
 
@@ -11359,7 +11359,7 @@ msgstr "Необходим получатель в поле \"Кому\" (\"TO\"
 msgid "Need session_id."
 msgstr "Необходим идентификатор сеанса (session_id)."
 
-#: app/controllers/tickets_controller.rb:438
+#: app/controllers/tickets_controller.rb:437
 msgid "Need user_id or organization_id as param"
 msgstr ""
 "Необходим идентификатор пользователя (user_id) или идентификатор организации "
@@ -11496,7 +11496,7 @@ msgstr "Новый шаблон"
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:190
 #: app/assets/javascripts/app/controllers/_profile/notification.coffee:65
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:7
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:484
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:490
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:21
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:70
 #: app/assets/javascripts/app/views/customer_ticket_create.jst.eco:6
@@ -11913,7 +11913,7 @@ msgstr "Пока нет общих черновиков"
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
 #: app/controllers/ticket_articles_controller.rb:232
-#: app/controllers/tickets_controller.rb:570
+#: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
 msgstr "Исходные данные не представлены!"
@@ -11998,7 +11998,7 @@ msgstr "Недоступно"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:160
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:240
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:119
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:125
 #: app/frontend/apps/desktop/components/layout/LayoutTaskbarTabContent.vue:73
 #: app/frontend/shared/errors/useErrorHandler.ts:25
 #: app/frontend/shared/router/error.ts:24
@@ -12006,7 +12006,7 @@ msgstr "Недоступно"
 msgid "Not Found"
 msgstr "Не найдено"
 
-#: app/policies/controllers/taskbar_controller_policy.rb:31
+#: app/policies/controllers/taskbar_controller_policy.rb:35
 msgid "Not allowed to access this task."
 msgstr "Нет доступа к этой задаче."
 
@@ -12023,7 +12023,7 @@ msgid "Not assigned"
 msgstr "Не назначено"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:158
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:115
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:121
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row_display_value.jst.eco:16
 #: app/controllers/application_controller/handles_errors.rb:61
 #: app/services/service/ticket/article/create.rb:122
@@ -12438,7 +12438,7 @@ msgstr "Открыть чек-лист"
 msgid "Open Ticket# %s"
 msgstr "Открыть заявку №%s"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:112
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:122
 #: app/assets/javascripts/app/controllers/widget/user.coffee:70
 #: db/seeds/overviews.rb:109
 msgid "Open Tickets"
@@ -14606,7 +14606,7 @@ msgstr "Сохраненные условия"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1123
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
 msgid "Saving failed."
 msgstr "Не удалось сохранить."
 
@@ -15359,7 +15359,7 @@ msgstr "Общие черновики"
 msgid "Shared Mailbox"
 msgstr "Общий почтовый ящик"
 
-#: app/controllers/tickets_controller.rb:90
+#: app/controllers/tickets_controller.rb:89
 #: app/services/service/ticket/create.rb:180
 msgid "Shared draft cannot be selected for this ticket."
 msgstr "Общий черновик не может быть выбран для этой заявки."
@@ -17118,7 +17118,7 @@ msgstr "Не удалось сгенерировать новый номер з�
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_new.coffee:64
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:93
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:801
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:807
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:193
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:272
 #: app/assets/javascripts/app/controllers/object_manager.coffee:261
@@ -17436,7 +17436,7 @@ msgstr "Отсутствует обязательный параметр «Ре�
 
 #: app/controllers/concerns/handles_oidc_authorization.rb:10
 msgid "The required parameter 'logout_token' is missing."
-msgstr "Отсутствует необходимый параметр 'logout_token'."
+msgstr "Отсутствует обязательный параметр 'logout_token'."
 
 #: app/controllers/user_access_token_controller.rb:25
 msgid "The required parameter 'name' is missing."
@@ -17609,7 +17609,7 @@ msgstr ""
 msgid "The signature was successfully verified."
 msgstr "Подпись успешно проверена."
 
-#: app/controllers/tickets_controller.rb:392
+#: app/controllers/tickets_controller.rb:391
 msgid "The source ticket could not be found."
 msgstr "Не удалось найти исходную заявку."
 
@@ -17660,7 +17660,7 @@ msgstr ""
 msgid "The system was configured successfully. You are being redirected."
 msgstr "Система была успешно настроена. Вы будете перенаправлены."
 
-#: app/controllers/tickets_controller.rb:383
+#: app/controllers/tickets_controller.rb:382
 msgid "The target ticket number could not be found."
 msgstr "Не удалось найти номер целевой заявки."
 
@@ -18476,7 +18476,7 @@ msgstr "Четверг"
 msgid "Ticket"
 msgstr "Заявка"
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:774
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:780
 msgid "Ticket %s created!"
 msgstr "Заявка %s создана!"
 
@@ -18937,7 +18937,7 @@ msgid "Tickets assigned to me: %s of %s"
 msgstr "Заявки, назначенные мне: %s из %s"
 
 #: app/controllers/ticket_articles_controller.rb:225
-#: app/controllers/tickets_controller.rb:563
+#: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""
 "Заявки могут быть импортированы только в том случае, если система находится "
@@ -21290,7 +21290,7 @@ msgstr "Вам необходимо настроить конечные точк
 msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Вы достигли лимит в %s заявок (осталось %s)."
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:754
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "

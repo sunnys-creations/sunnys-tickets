@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-31 05:47+0000\n"
+"PO-Revision-Date: 2025-04-09 22:00+0000\n"
 "Last-Translator: Dmytro <ramadan2003@ukr.net>\n"
 "Language-Team: Ukrainian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/uk/>\n"
@@ -78,9 +78,9 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}|Ticket##{ticket.number}>: Created by #{current_user.longname} "
-"at #{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
+"Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
+"updated_at}_\n"
 "* Група: #{ticket.group.name}\n"
 "* Власник: #{ticket.owner.fullname}\n"
 "* Статус: #{t(ticket.state.name)}\n"
@@ -195,6 +195,19 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"#{config.product_name} Обліковий запис пов’язано зі стороннім застосунком\n"
+"\n"
+"<div>Привіт #{user.firstname},</div>\n"
+"<br>\n"
+"<div>Схоже, що Ваш обліковий запис <b>було пов’язано зі стороннім "
+"застосунком</b> \"#{t(provider)}\".</div>\n"
+"<br>\n"
+"<div>Якщо це зробили не ви, будь ласка, видаліть пов’язаний обліковий запис "
+"у своєму профілі та змініть пароль від стороннього застосунку. Це може "
+"свідчити про несанкціонований доступ до вашого облікового запису в цьому "
+"сервісі.</div>\n"
+"<br>\n"
+"<div>Ваша #{config.product_name} команда</div>\n"
 
 #. This is the template file app/views/mailer/user_device_new_location/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -225,6 +238,30 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"Вхід у #{config.product_name} з нової країни\n"
+"\n"
+"<div>Привіт #{user.firstname},</div>\n"
+"<br>\n"
+"<div>Схоже, що ви увійшли в обліковий запис <b>з відомого пристрою, але з "
+"нової країни</b> на \"#{user_device.created_at}\":</div>\n"
+"<br>\n"
+"<div>\n"
+"Ваш пристрій: #{user_device.name}<br>\n"
+"Ваше місце знаходження (орієнтовне):: #{user_device.location}<br>\n"
+"Ваш IP: #{user_device.ip}<br>\n"
+"</div>\n"
+"<br>\n"
+"<div>Цю країну додано до списку відомих пристроїв. Ви можете переглянути "
+"його тут:</div>\n"
+"<br>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/"
+"devices\">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<br>\n"
+"<div>Якщо це зробили не ви, будь ласка, видаліть пристрій, змініть пароль "
+"облікового запису та зверніться до адміністратора. Це може свідчити про "
+"несанкціонований доступ до вашого облікового запису.</div>\n"
+"<br>\n"
+"<div>З найкращими побажаннями, Команда #{config.product_name} </div>\n"
 
 #. This is the template file app/views/mailer/user_device_new/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -502,8 +539,6 @@ msgid "%s of my tickets are currently in process."
 msgstr "%s із моїх заявок наразі обробляються."
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_escalation.jst.eco:11
-#, fuzzy
-#| msgid "%s of my tickets escalated."
 msgid "%s of my tickets escalated"
 msgstr "%s із моїх заявок ескальовано."
 
@@ -640,10 +675,8 @@ msgid "%{name} is a reserved word"
 msgstr ""
 
 #: app/frontend/apps/mobile/components/CommonTicketStateIndicator/CommonTicketStateIndicator.vue:63
-#, fuzzy
-#| msgid "Total: %s"
 msgid "(state: %s)"
-msgstr "Разом: %s\t"
+msgstr "Разом: %s"
 
 #: app/frontend/apps/desktop/components/CommonTicketStateIndicator/CommonTicketStateIndicatorIcon.vue:58
 #, fuzzy
@@ -2691,7 +2724,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_load_measure.jst.eco:19
 msgid "Average: %s"
-msgstr "У середньому: %s\t"
+msgstr "У середньому: %s"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:16
 msgid "Average: %s minutes"
@@ -2944,7 +2977,7 @@ msgid "CA"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:18
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:495
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:501
 #: app/assets/javascripts/app/models/ticket_article.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:58
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:34
@@ -3794,7 +3827,7 @@ msgstr "Закриті"
 msgid "Closed At"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:120
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:130
 #: app/assets/javascripts/app/controllers/widget/user.coffee:80
 msgid "Closed Tickets"
 msgstr "Закриті заявки"
@@ -4713,7 +4746,7 @@ msgstr "Поточний пароль"
 msgid "Current state of configured settings (excluding passwords and tokens)"
 msgstr ""
 
-#: app/controllers/application_controller/has_user.rb:42
+#: app/controllers/application_controller/has_user.rb:43
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
 msgstr ""
 
@@ -6771,10 +6804,8 @@ msgid "Edit Answer"
 msgstr "Редагувати Відповідь"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:175
-#, fuzzy
-#| msgid "Category"
 msgid "Edit Category"
-msgstr "Категорія"
+msgstr "Редагувати категорію"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create/sidebar_customer.coffee:16
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_customer.coffee:26
@@ -7583,7 +7614,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_error_modal.coffee:6
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:165
 #: app/assets/javascripts/app/controllers/_settings/area_proxy.coffee:51
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:124
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:130
 #: app/assets/javascripts/app/controllers/widget/error_modal.coffee:6
 #: app/frontend/apps/desktop/components/CommonError/CommonError.vue:30
 #: app/frontend/apps/mobile/pages/error/views/Error.vue:39
@@ -8431,7 +8462,7 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:128
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:134
 #: app/assets/javascripts/app/lib/app_post/ajax.coffee:91
 msgid "General communication error, maybe internet is not available!"
 msgstr ""
@@ -9226,7 +9257,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/knowledge_base_category.coffee:63
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:179
 msgid "Icon & Link Color"
@@ -9905,15 +9936,15 @@ msgstr ""
 msgid "Invalid i-doit configuration (missing endpoint or api_token)."
 msgstr ""
 
-#: app/controllers/tickets_controller.rb:192
+#: app/controllers/tickets_controller.rb:191
 msgid "Invalid link structure"
 msgstr ""
 
-#: app/controllers/tickets_controller.rb:198
+#: app/controllers/tickets_controller.rb:197
 msgid "Invalid link structure (Object → LinkType)"
 msgstr ""
 
-#: app/controllers/tickets_controller.rb:195
+#: app/controllers/tickets_controller.rb:194
 msgid "Invalid link structure (Object)"
 msgstr ""
 
@@ -11764,10 +11795,8 @@ msgid "Multiple tree selection field"
 msgstr ""
 
 #: db/seeds/overviews.rb:5
-#, fuzzy
-#| msgid "My assigned Tickets"
 msgid "My Assigned Tickets"
-msgstr "Мої призначені заявки"
+msgstr "Призначені мені заявки"
 
 #: db/seeds/overviews.rb:239
 msgid "My Organization Tickets"
@@ -11813,10 +11842,8 @@ msgid "My tickets"
 msgstr "Мої заявки"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_in_process.jst.eco:3
-#, fuzzy
-#| msgid "Your tickets in process"
 msgid "My tickets in process"
-msgstr "Ваші заявки в роботі\t"
+msgstr "Мої заявки в роботі"
 
 #: app/assets/javascripts/app/controllers/_integration/nagios.coffee:3
 msgid "Nagios"
@@ -11950,7 +11977,7 @@ msgstr ""
 msgid "Need session_id."
 msgstr ""
 
-#: app/controllers/tickets_controller.rb:438
+#: app/controllers/tickets_controller.rb:437
 msgid "Need user_id or organization_id as param"
 msgstr ""
 
@@ -12105,7 +12132,7 @@ msgstr "Шаблони"
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:190
 #: app/assets/javascripts/app/controllers/_profile/notification.coffee:65
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:7
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:484
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:490
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:21
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:70
 #: app/assets/javascripts/app/views/customer_ticket_create.jst.eco:6
@@ -12555,7 +12582,7 @@ msgstr "Спільний"
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
 #: app/controllers/ticket_articles_controller.rb:232
-#: app/controllers/tickets_controller.rb:570
+#: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
 msgstr ""
@@ -12646,7 +12673,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:160
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:240
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:119
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:125
 #: app/frontend/apps/desktop/components/layout/LayoutTaskbarTabContent.vue:73
 #: app/frontend/shared/errors/useErrorHandler.ts:25
 #: app/frontend/shared/router/error.ts:24
@@ -12654,7 +12681,7 @@ msgstr ""
 msgid "Not Found"
 msgstr ""
 
-#: app/policies/controllers/taskbar_controller_policy.rb:31
+#: app/policies/controllers/taskbar_controller_policy.rb:35
 msgid "Not allowed to access this task."
 msgstr ""
 
@@ -12671,7 +12698,7 @@ msgid "Not assigned"
 msgstr "Не призначено"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:158
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:115
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:121
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row_display_value.jst.eco:16
 #: app/controllers/application_controller/handles_errors.rb:61
 #: app/services/service/ticket/article/create.rb:122
@@ -13129,7 +13156,7 @@ msgstr "Контрольна сума\t"
 msgid "Open Ticket# %s"
 msgstr "Відкрити заявку № %s"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:112
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:122
 #: app/assets/javascripts/app/controllers/widget/user.coffee:70
 #: db/seeds/overviews.rb:109
 msgid "Open Tickets"
@@ -15510,7 +15537,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1123
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
 #, fuzzy
 #| msgid "Bulk action executed!"
 msgid "Saving failed."
@@ -16364,7 +16391,7 @@ msgstr "Спільний"
 msgid "Shared Mailbox"
 msgstr "Спільний"
 
-#: app/controllers/tickets_controller.rb:90
+#: app/controllers/tickets_controller.rb:89
 #: app/services/service/ticket/create.rb:180
 msgid "Shared draft cannot be selected for this ticket."
 msgstr ""
@@ -18034,11 +18061,11 @@ msgid "The email address |%s| is already in use by another account."
 msgstr ""
 
 #: app/services/service/user/password_reset/send.rb:41
-#, fuzzy
-#| msgid "%s Object(s) are created."
 msgid ""
 "The email could not be sent to the user because import_mode setting is on."
-msgstr "%s об’єкт(ів) створено."
+msgstr ""
+"Електронний лист не може бути надісланий користувачу, оскільки увімкнено "
+"режим import_mode."
 
 #: app/services/service/auth/send_admin_token.rb:39
 #: app/services/service/user/password_reset/update.rb:42
@@ -18318,7 +18345,7 @@ msgstr "%s об’єкт(ів) створено."
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_new.coffee:64
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:93
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:801
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:807
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:193
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:272
 #: app/assets/javascripts/app/controllers/object_manager.coffee:261
@@ -18811,7 +18838,7 @@ msgstr ""
 msgid "The signature was successfully verified."
 msgstr "Тестовий запуск виконано вдало."
 
-#: app/controllers/tickets_controller.rb:392
+#: app/controllers/tickets_controller.rb:391
 #, fuzzy
 #| msgid "%s Object(s) are created."
 msgid "The source ticket could not be found."
@@ -18856,7 +18883,7 @@ msgstr ""
 msgid "The system was configured successfully. You are being redirected."
 msgstr ""
 
-#: app/controllers/tickets_controller.rb:383
+#: app/controllers/tickets_controller.rb:382
 #, fuzzy
 #| msgid "%s Object(s) are created."
 msgid "The target ticket number could not be found."
@@ -19749,7 +19776,7 @@ msgstr "Четвер"
 msgid "Ticket"
 msgstr "Заявка"
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:774
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:780
 msgid "Ticket %s created!"
 msgstr "Заявку %s створено!\t"
 
@@ -20234,10 +20261,10 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_load_measure.jst.eco:18
 msgid "Tickets assigned to me: %s of %s"
-msgstr "Заявки, призначені для мене: %s із %s\t"
+msgstr "Заявки, призначені для мене: %s із %s"
 
 #: app/controllers/ticket_articles_controller.rb:225
-#: app/controllers/tickets_controller.rb:563
+#: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""
 
@@ -20605,10 +20632,8 @@ msgstr "Теми"
 
 #: app/assets/javascripts/app/views/ticket_zoom/time_unit.jst.eco:5
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketAccountedTime.vue:26
-#, fuzzy
-#| msgid "Total: %s"
 msgid "Total"
-msgstr "Разом: %s\t"
+msgstr "Разом: %s"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketObjectAttributes.vue:53
 #, fuzzy
@@ -20622,7 +20647,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_escalation.jst.eco:12
 msgid "Total: %s"
-msgstr "Разом: %s\t"
+msgstr "Разом: %s"
 
 #: app/assets/javascripts/app/views/twitter/account_edit.jst.eco:36
 msgid "Track retweets"
@@ -20984,10 +21009,8 @@ msgid "URL (AJAX endpoint)"
 msgstr ""
 
 #: app/controllers/first_steps_controller.rb:215 db/seeds/overviews.rb:32
-#, fuzzy
-#| msgid "Unassigned & Open"
 msgid "Unassigned & Open Tickets"
-msgstr "Непризначені та відкриті\t"
+msgstr "Відкриті заявки без призначення"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:23
 #: app/assets/javascripts/app/views/google/list.jst.eco:16
@@ -22647,7 +22670,7 @@ msgstr ""
 msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:754
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
 #, fuzzy
 #| msgid ""
@@ -22705,7 +22728,7 @@ msgstr "Email"
 
 #: app/controllers/first_steps_controller.rb:59
 msgid "Your Email Configuration"
-msgstr "Конфігурація Вашої електронної пошти\t"
+msgstr "Конфігурація Вашої електронної пошти"
 
 #: app/assets/javascripts/app/views/generic/login_preview.jst.eco:24
 #: app/assets/javascripts/app/views/getting_started/base.jst.eco:17
@@ -23778,10 +23801,8 @@ msgid "is too short (minimum is 1 character)"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerList/IssueTrackerItem.vue:55
-#, fuzzy
-#| msgid "Total: %s"
 msgid "issue status: %s"
-msgstr "Разом: %s\t"
+msgstr "Разом: %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:105
 #, fuzzy
@@ -24612,7 +24633,7 @@ msgstr "...від усієї текстової ділянки"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
-msgstr "∅ Час очікування сьогодні\t"
+msgstr "∅ Час очікування сьогодні"
 
 #, fuzzy
 #~| msgid "Unable to verify email. Please contact your administrator."

@@ -2842,7 +2842,7 @@ msgid "CA"
 msgstr "证书颁发机构"
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:18
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:495
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:501
 #: app/assets/javascripts/app/models/ticket_article.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:58
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:34
@@ -3618,7 +3618,7 @@ msgstr "已关闭"
 msgid "Closed At"
 msgstr "关闭在"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:120
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:130
 #: app/assets/javascripts/app/controllers/widget/user.coffee:80
 msgid "Closed Tickets"
 msgstr "关闭的工单"
@@ -4476,7 +4476,7 @@ msgstr "当前密码"
 msgid "Current state of configured settings (excluding passwords and tokens)"
 msgstr "当前配置的设置（不包括密码和令牌）"
 
-#: app/controllers/application_controller/has_user.rb:42
+#: app/controllers/application_controller/has_user.rb:43
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
 msgstr "当前用户无权使用'From'/'X-On-Behalf-Of'！"
 
@@ -7083,7 +7083,7 @@ msgstr "数据库对象的实体计数（例如票数、用户数等）"
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_error_modal.coffee:6
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:165
 #: app/assets/javascripts/app/controllers/_settings/area_proxy.coffee:51
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:124
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:130
 #: app/assets/javascripts/app/controllers/widget/error_modal.coffee:6
 #: app/frontend/apps/desktop/components/CommonError/CommonError.vue:30
 #: app/frontend/apps/mobile/pages/error/views/Error.vue:39
@@ -7893,7 +7893,7 @@ msgstr "gid"
 msgid "Gateway"
 msgstr "网关"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:128
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:134
 #: app/assets/javascripts/app/lib/app_post/ajax.coffee:91
 msgid "General communication error, maybe internet is not available!"
 msgstr "通信错误，可能互联网不可用！"
@@ -9222,15 +9222,15 @@ msgstr "无效的电子邮件'％{email}'"
 msgid "Invalid i-doit configuration (missing endpoint or api_token)."
 msgstr ""
 
-#: app/controllers/tickets_controller.rb:192
+#: app/controllers/tickets_controller.rb:191
 msgid "Invalid link structure"
 msgstr "无效的链接结构"
 
-#: app/controllers/tickets_controller.rb:198
+#: app/controllers/tickets_controller.rb:197
 msgid "Invalid link structure (Object → LinkType)"
 msgstr "无效的链接结构（对象→链接类型）"
 
-#: app/controllers/tickets_controller.rb:195
+#: app/controllers/tickets_controller.rb:194
 msgid "Invalid link structure (Object)"
 msgstr "无效的链接结构（对象）"
 
@@ -11200,7 +11200,7 @@ msgstr "需要“收件人”字段中的收件人。"
 msgid "Need session_id."
 msgstr "需要session_id。"
 
-#: app/controllers/tickets_controller.rb:438
+#: app/controllers/tickets_controller.rb:437
 msgid "Need user_id or organization_id as param"
 msgstr "需要user_id或agrishital_id作为param"
 
@@ -11355,7 +11355,7 @@ msgstr "模板"
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:190
 #: app/assets/javascripts/app/controllers/_profile/notification.coffee:65
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:7
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:484
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:490
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:21
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:70
 #: app/assets/javascripts/app/views/customer_ticket_create.jst.eco:6
@@ -11865,7 +11865,7 @@ msgstr "已分享"
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
 #: app/controllers/ticket_articles_controller.rb:232
-#: app/controllers/tickets_controller.rb:570
+#: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
 msgstr "没有提交的源数据！"
@@ -11960,7 +11960,7 @@ msgstr "无法使用"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:160
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:240
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:119
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:125
 #: app/frontend/apps/desktop/components/layout/LayoutTaskbarTabContent.vue:73
 #: app/frontend/shared/errors/useErrorHandler.ts:25
 #: app/frontend/shared/router/error.ts:24
@@ -11968,7 +11968,7 @@ msgstr "无法使用"
 msgid "Not Found"
 msgstr "未找到"
 
-#: app/policies/controllers/taskbar_controller_policy.rb:31
+#: app/policies/controllers/taskbar_controller_policy.rb:35
 msgid "Not allowed to access this task."
 msgstr "不允许访问此任务。"
 
@@ -11985,7 +11985,7 @@ msgid "Not assigned"
 msgstr "未分配"
 
 #: app/assets/javascripts/app/controllers/_profile/out_of_office.coffee:158
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:115
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:121
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row_display_value.jst.eco:16
 #: app/controllers/application_controller/handles_errors.rb:61
 #: app/services/service/ticket/article/create.rb:122
@@ -12444,7 +12444,7 @@ msgstr "校验"
 msgid "Open Ticket# %s"
 msgstr "打开 Ticket# %s"
 
-#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:112
+#: app/assets/javascripts/app/controllers/widget/ticket_stats.coffee:122
 #: app/assets/javascripts/app/controllers/widget/user.coffee:70
 #: db/seeds/overviews.rb:109
 msgid "Open Tickets"
@@ -14712,7 +14712,7 @@ msgstr "保存的条件"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1123
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
 msgid "Saving failed."
 msgstr "保存失败。"
 
@@ -15467,7 +15467,7 @@ msgstr "共享草稿"
 msgid "Shared Mailbox"
 msgstr "共享草稿"
 
-#: app/controllers/tickets_controller.rb:90
+#: app/controllers/tickets_controller.rb:89
 #: app/services/service/ticket/create.rb:180
 msgid "Shared draft cannot be selected for this ticket."
 msgstr "不能为此票选择共享的草稿。"
@@ -17232,7 +17232,7 @@ msgstr "无法生成新的工单编号。"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_new.coffee:64
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:93
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:801
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:807
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:193
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:272
 #: app/assets/javascripts/app/controllers/object_manager.coffee:261
@@ -17687,7 +17687,7 @@ msgstr "此PGP电子邮件的签名部分缺少或根据RFC 3156的内容类型�
 msgid "The signature was successfully verified."
 msgstr "签名已成功验证。"
 
-#: app/controllers/tickets_controller.rb:392
+#: app/controllers/tickets_controller.rb:391
 msgid "The source ticket could not be found."
 msgstr "找不到源工单。"
 
@@ -17735,7 +17735,7 @@ msgstr "系统设置标记为已完成，但不存在管理员用户。请再次
 msgid "The system was configured successfully. You are being redirected."
 msgstr "该系统已成功配置。您正在重定向。"
 
-#: app/controllers/tickets_controller.rb:383
+#: app/controllers/tickets_controller.rb:382
 msgid "The target ticket number could not be found."
 msgstr "找不到目标工单编号。"
 
@@ -18632,7 +18632,7 @@ msgstr "星期四"
 msgid "Ticket"
 msgstr "工单"
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:774
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:780
 msgid "Ticket %s created!"
 msgstr "工單 ％s已建立 ！"
 
@@ -19241,7 +19241,7 @@ msgid "Tickets assigned to me: %s of %s"
 msgstr "指派给你有 %s 笔, 共 %s 笔"
 
 #: app/controllers/ticket_articles_controller.rb:225
-#: app/controllers/tickets_controller.rb:563
+#: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr "仅当系统处于导入模式时，才能导入门票。"
 
@@ -21787,7 +21787,7 @@ msgstr "您需要在 ％s中配置 Zammad endpoint端點"
 msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "达到了百分比可显示票的限额（剩余％S）"
 
-#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:754
+#: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
 #, fuzzy
 #| msgid ""
