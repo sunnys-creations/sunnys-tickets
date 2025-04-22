@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-09 22:00+0000\n"
+"PO-Revision-Date: 2025-04-13 12:00+0000\n"
 "Last-Translator: Dmytro <ramadan2003@ukr.net>\n"
 "Language-Team: Ukrainian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/uk/>\n"
@@ -15754,10 +15754,8 @@ msgstr "Пошук"
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationCustomer.vue:98
 #: app/frontend/apps/mobile/pages/user/views/UserDetailView.vue:133
 #: db/seeds/object_manager_attributes.rb:1159
-#, fuzzy
-#| msgid "Shared organization"
 msgid "Secondary organizations"
-msgstr "Спільна організація"
+msgstr "Додаткові організації"
 
 #: app/models/user.rb:647
 msgid ""

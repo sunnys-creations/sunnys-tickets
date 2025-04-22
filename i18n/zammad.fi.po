@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 06:58+0000\n"
-"Last-Translator: eppupesoladigisys <eero.pesola@digisys.fi>\n"
+"PO-Revision-Date: 2025-04-22 11:36+0000\n"
+"Last-Translator: Ville Perkkio <vilu@mail.suomi.net>\n"
 "Language-Team: Finnish <https://translations.zammad.org/projects/zammad/"
-"zammad-development/fi/>\n"
+"zammad-stable/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,12 +46,6 @@ msgid "FORMAT_DATETIME"
 msgstr "dd.mm.yyyy HH:MM"
 
 #: db/seeds/settings.rb:367
-#, fuzzy
-#| msgid ""
-#| "\"Database\" stores all attachments in the database (not recommended for "
-#| "storing large amounts of data). \"Filesystem\" stores the data in the "
-#| "filesystem. You can switch between the modules even on a system that is "
-#| "already in production without any loss of data."
 msgid ""
 "\"Database\" stores all attachments in the database (not recommended for "
 "storing large amounts of data). \"Filesystem\" stores the data in the "
@@ -61,8 +55,9 @@ msgid ""
 msgstr ""
 "\"Tietokanta\" tallentaa kaikki liitteet tietokantaan (ei suositella suurten "
 "tietomäärien tallentamiseen). \"Tiedostojärjestelmä\" tallentaa tiedot "
-"tiedostojärjestelmään. Voit vaihtaa näiden välillä jopa "
-"tuotantojärjestelmässä ilman tietojen menetystä."
+"tiedostojärjestelmään. \"Simple Storage (S3)\" tallentaa tiedot etä-S3-"
+"yhteensopivaan objektitiedostojärjestelmään. Voit vaihtaa moduulien välillä "
+"jopa tuotantojärjestelmässä ilman tietojen menetystä."
 
 #. This is the template file app/views/messaging/ticket_create/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -119,19 +114,6 @@ msgstr ""
 #. This is the template file app/views/messaging/ticket_info/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
 #: app/views/messaging/ticket_info/en.md.erb
-#, fuzzy
-#| msgid ""
-#| "# #{ticket.title}\n"
-#| "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-#| "Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
-#| "updated_at}_\n"
-#| "* Group: #{ticket.group.name}\n"
-#| "* Owner: #{ticket.owner.fullname}\n"
-#| "* State: #{t(ticket.state.name)}\n"
-#| "\n"
-#| "<% if @objects[:article] %>\n"
-#| "#{article.body_as_text}\n"
-#| "<% end %>\n"
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
@@ -145,9 +127,8 @@ msgid ""
 "<% end %>\n"
 msgstr ""
 "# #{ticket.title}\n"
-"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Tiketti##{ticket.number}>: Luonut #{current_user.longname} päivitetty "
-"#{ticket.updated_at}_\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Tiketti##{ticket.number}>: Päivitetty #{ticket.updated_at}_\n"
 "* Ryhmä: #{ticket.group.name}\n"
 "* Omistaja: #{ticket.owner.fullname}\n"
 "* Tila: #{t(ticket.state.name)}\n"
@@ -170,6 +151,15 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Tiketti##{ticket.number}>: Muistutus saavutettu!_\n"
+"Tiketti vaatii huomiota: muistutus saavutettiin (#{ticket.title}) "
+"asiakkaalla \"*#{ticket.customer.longname}*\".\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_update/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -189,6 +179,19 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Päivitti #{current_user.longname} "
+"päivämäärällä #{ticket.updated_at}_\n"
+"<% if @objects[:changes].present? %>\n"
+"  <% @objects[:changes].each do |key, value| %>\n"
+"  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
+"  <% end %>\n"
+"<% end %>\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/messaging/ticket_escalation_warning/en.md.erb in ERB/Markdown format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -204,6 +207,15 @@ msgid ""
 "#{article.body_as_text}\n"
 "<% end %>\n"
 msgstr ""
+"# #{ticket.title}\n"
+"_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
+"#{ticket.id}|Ticket##{ticket.number}>: Eskaloituu #{ticket.escalation_at}_\n"
+"Tiketti (#{ticket.title}) asiakkaalta \"#{ticket.customer.longname}\" "
+"eskaloituu \"#{ticket.escalation_at}\"!\n"
+"\n"
+"<% if @objects[:article] %>\n"
+"#{article.body_as_text}\n"
+"<% end %>\n"
 
 #. This is the template file app/views/mailer/user_auth_provider/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -222,6 +234,19 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"#{config.product_name} -tili linkitetty kolmannen osapuolen sovelluksen "
+"kanssa\n"
+"\n"
+"<div>Hei #{user.firstname}.</div>\n"
+"<br>\n"
+"<div>Näyttää siltä, että olet linkittänyt tilisi <b>kolmannen osapuolen "
+"sovellukseen</b> \"#{t(provider)}\".</div>\n"
+"<br>\n"
+"<div>Jos tämä et ollut sinä, poista linkitetty tili profiilistasi ja vaihda "
+"kolmannen osapuolen sovelluksen salasana. Joku on saattanut päästä "
+"luvattomasti tiliisi kolmannen osapuolen palvelussa.</div>\n"
+"<br>\n"
+"<div>#{config.product_name}-tiimisi</div>\n"
 
 #. This is the template file app/views/mailer/user_device_new_location/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -252,6 +277,30 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"#{config.product_name} Sisäänkirjautuminen uudesta maasta\n"
+"\n"
+"<div>Hei #{user.firstname}.</div>\n"
+"<br>\n"
+"<div>Näyttää siltä, että käytit tiliäsi <b>tunnetulla laitteella, mutta "
+"uudesta maasta</b> \"#{user_device.created_at}\":</div>\n"
+"<br>\n"
+"<div>\n"
+"Laitteesi: #{user_device.name}<br>\n"
+"Sijaintisi (suhteellinen): #{user_device.location}<br>\n"
+"IP-osoitteesi: #{user_device.ip}<br>\n"
+"</div>\n"
+"<br>\n"
+"<div>Maa on lisätty tunnettujen laitteiden luetteloosi, jota voit "
+"tarkastella täällä:</div>\n"
+"<br>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
+">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<br>\n"
+"<div>Jos tämä et ollut sinä, poista laite, vaihda tilisi salasana ja ota "
+"yhteyttä järjestelmänvalvojaasi. Joku on saattanut päästä luvattomasti "
+"tiliisi.</div>\n"
+"<br>\n"
+"<div>#{config.product_name}-tiimisi</div>\n"
 
 #. This is the template file app/views/mailer/user_device_new/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -282,6 +331,30 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
+"#{config.product_name} Sisäänkirjautuminen uudelta laitteelta\n"
+"\n"
+"<div>Hei #{user.firstname}.</div>\n"
+"<br>\n"
+"<div>Näyttää siltä, että kirjauduit tilillesi <b>uudella laitteella</b> "
+"osoitteessa \"#{user_device.created_at}\":</div>\n"
+"<br>\n"
+"<div>\n"
+"Laitteesi: #{user_device.name}<br>\n"
+"Sijaintisi (suhteellinen): #{user_device.location}<br>\n"
+"IP-osoitteesi: #{user_device.ip}<br>\n"
+"</div>\n"
+"<br>\n"
+"<div>Laitteesi on lisätty tunnettujen laitteiden luetteloosi, jota voit "
+"tarkastella täällä:</div>\n"
+"<br>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#profile/devices\""
+">#{config.http_type}://#{config.fqdn}/#profile/devices</a></div>\n"
+"<br>\n"
+"<div>Jos tämä et ollut sinä, poista laite, vaihda tilisi salasana ja ota "
+"yhteyttä järjestelmänvalvojaasi. Joku on saattanut päästä luvattomasti "
+"tiliisi.</div>\n"
+"<br>\n"
+"<div>#{config.product_name}-tiimisi</div>\n"
 
 #: app/assets/javascripts/app/controllers/_application_controller/form.coffee:148
 msgid "%s (confirm)"
@@ -421,6 +494,8 @@ msgid ""
 "%s email(s) were found in your mailbox. They will all be moved from your "
 "mailbox into Zammad."
 msgstr ""
+"%s sähköposti(a) löytyi postilaatikostasi. Ne kaikki siirretään "
+"postilaatikostasi Zammadiin."
 
 #: app/assets/javascripts/app/models/user.coffee:222
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/user.ts:33
@@ -435,7 +510,7 @@ msgstr "%s kansiot"
 #: app/assets/javascripts/app/views/integration/ldap_last_import.jst.eco:39
 #: app/assets/javascripts/app/views/integration/ldap_summary.jst.eco:8
 msgid "%s groups to %s roles assignments"
-msgstr ""
+msgstr "%s ryhmää %s rooliin"
 
 #: app/frontend/shared/i18n/dates.ts:113
 msgid "%s hours ago"
@@ -450,14 +525,12 @@ msgid "%s is inactive, please select an active one."
 msgstr "%s ei ole aktiivinen, valitse aktiivinen."
 
 #: app/frontend/shared/form/i18n/locales.ts:533
-#, fuzzy
-#| msgid "%s required!"
 msgid "%s is required."
-msgstr "%s vaadittu!"
+msgstr "%s vaadittu."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/whatsapp_reply.coffee:67
 msgid "%s is sent without text caption"
-msgstr ""
+msgstr "%s lähetetään ilman kuvatekstiä"
 
 #: app/frontend/shared/i18n/dates.ts:120
 msgid "%s minutes ago"
@@ -468,10 +541,8 @@ msgid "%s months ago"
 msgstr "%s kuukautta sitten"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:164
-#, fuzzy
-#| msgid "See more"
 msgid "%s more"
-msgstr "Näe vähemmän"
+msgstr "%s enemmän"
 
 #: app/assets/javascripts/app/views/generic/object_import/imported.jst.eco:21
 msgid "%s object(s) have been created."
@@ -500,20 +571,16 @@ msgstr "%s kohte(et) päivitetään."
 #: app/assets/javascripts/app/views/ticket_zoom/meta.jst.eco:19
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:234
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader/TicketInformation/TicketInformationBadgeList/ChecklistBadgeList.vue:54
-#, fuzzy
-#| msgid "Manage %s"
 msgid "%s of %s"
-msgstr "Hallinnoi %s"
+msgstr "%s / %s"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_in_process.jst.eco:11
 msgid "%s of my tickets are currently in process."
 msgstr "%s omaa tikettiä työn alla."
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_escalation.jst.eco:11
-#, fuzzy
-#| msgid "%s of my tickets escalated."
 msgid "%s of my tickets escalated"
-msgstr "%s tiketeistäni eskaloitui."
+msgstr "%s lipuistani eskaloitui"
 
 #: app/assets/javascripts/app/views/ticket_overview/batch_overlay_user_group.jst.eco:11
 #: app/graphql/gql/queries/autocomplete_search/generic.rb:61
@@ -522,16 +589,16 @@ msgstr "Henkilöt"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:53
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/ticket-article.ts:31
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "%s reacted with a %s to message from %s |%s|"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "%s reagoi %s:lla viestiin %s:lta |%s|"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:49
 msgid ""
 "%s recommends using OAuth. %s announced it's going to drop Basic "
 "Authentication support in the future."
 msgstr ""
+"%s suosittelee OAuthin käyttöä. %s ilmoitti lopettavansa Basic "
+"Authentication -tuen tulevaisuudessa."
 
 #: app/assets/javascripts/app/controllers/agent_ticket_merge.coffee:65
 msgid "%s required!"
@@ -545,7 +612,7 @@ msgstr "%s aloitti uuden session"
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:11
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:11
 msgid "%s subdomain"
-msgstr ""
+msgstr "%s aliverkkotunnus"
 
 #: app/assets/javascripts/app/models/user.coffee:217
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/user.ts:31
@@ -560,10 +627,8 @@ msgid "%s tickets"
 msgstr "%s tiketit"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketList.vue:121
-#, fuzzy
-#| msgid "%s tickets"
 msgid "%s tickets found"
-msgstr "%s tiketit"
+msgstr "%s lippua löydetty"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:51
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/ticket-article.ts:28
@@ -573,7 +638,7 @@ msgstr "%s loi artikkelin |%s|"
 #: app/assets/javascripts/app/models/data_privacy_task.coffee:30
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/data-privacy-task.ts:33
 msgid "%s updated data privacy task to delete user ID |%s|"
-msgstr ""
+msgstr "%s päivitti tietosuojatehtävän poistaakseen käyttäjätunnuksen |%s|"
 
 #: app/assets/javascripts/app/models/group.coffee:32
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/group.ts:28
@@ -608,10 +673,8 @@ msgid "%s user to %s user"
 msgstr "käyttäjältä"
 
 #: lib/whatsapp/webhook/message.rb:53
-#, fuzzy
-#| msgid "Channel - Form"
 msgid "%s via WhatsApp"
-msgstr "Kanava - Lomake"
+msgstr "%s WhatsAppin välityksellä"
 
 #: app/frontend/shared/i18n/dates.ts:99
 msgid "%s weeks ago"
@@ -623,37 +686,31 @@ msgstr "%s vuotta sitten"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_in_process.jst.eco:11
 msgid "%s% are currently in process"
-msgstr "%s parhaillaan käsiteltävänä"
+msgstr "%s % ovat parhaillaan käsittelyssä"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_reopen.jst.eco:11
 msgid "%s% have been reopened"
-msgstr "%s% avattu uudelleen"
+msgstr "%s % on avattu uudelleen"
 
 #: app/models/concerns/has_group_relation_definition.rb:51
 msgid "%{model} can have full or granular access to group"
-msgstr ""
+msgstr "%{model} voi saada täyden tai yksityiskohtaisen pääsyn ryhmään"
 
 #: app/models/object_manager/attribute.rb:610
-#, fuzzy
-#| msgid "%s Object(s) are deleted."
 msgid "%{name} already exists"
-msgstr "Kohde poistettu"
+msgstr "%{name} on jo olemassa"
 
 #: app/models/object_manager/attribute.rb:594
 msgid "%{name} is a reserved word"
-msgstr ""
+msgstr "%{name} on varattu sana"
 
 #: app/frontend/apps/mobile/components/CommonTicketStateIndicator/CommonTicketStateIndicator.vue:63
-#, fuzzy
-#| msgid "Total: %s"
 msgid "(state: %s)"
-msgstr "Yhteensä: %s"
+msgstr "(tila: %s)"
 
 #: app/frontend/apps/desktop/components/CommonTicketStateIndicator/CommonTicketStateIndicatorIcon.vue:58
-#, fuzzy
-#| msgid "Total: %s"
 msgid "(ticket status: %s)"
-msgstr "Yhteensä: %s"
+msgstr "(lipputila: %s)"
 
 #: app/assets/javascripts/app/models/ticket_time_accounting_type.coffee
 msgid ""
@@ -666,6 +723,13 @@ msgid ""
 "activity type will be rendered for an entry in the **Activity** table under "
 "the **Accounted Time** tab."
 msgstr ""
+"**Toimintatyyppejä** voidaan käyttää ryhmittelemään eri tikettien aikojen "
+"yhteenlaskemiseksi. Esimerkiksi merkinnät, jotka liittyvät \"Laskutus\""
+"-tyyppiin.\n"
+"\n"
+"Kun otat aktiviteettityypin tallentamisen käyttöön, käyttäjät voivat valita "
+"tyypin tästä luettelosta. Lisäksi **Kirjattu aika** -välilehden **Toiminta**-"
+"taulukon merkinnälle luodaan sarake, jossa on siihen liittyvä toimintatyyppi."
 
 #: app/assets/javascripts/app/models/data_privacy_task.coffee
 msgid ""
@@ -679,6 +743,14 @@ msgid ""
 "take some additional time depending on the number of objects that will be "
 "deleted."
 msgstr ""
+"**Tietosuoja** auttaa sinua poistamaan ja varmistamaan olemassa olevien "
+"tietojen poistamisen järjestelmästä.\n"
+"\n"
+"Sitä voidaan käyttää tikettien, organisaatioiden ja käyttäjien poistamiseen. "
+"Omistajan määritys poistetaan, jos poistettu käyttäjä on agentti.\n"
+"\n"
+"Tietosuojatehtävät suoritetaan 10 minuutin välein. Suoritus saattaa kestää "
+"jonkin verran enemmän poistettavien objektien määrästä riippuen."
 
 #: app/assets/javascripts/app/models/sla.coffee
 msgid ""
@@ -743,10 +815,8 @@ msgid "1 year ago"
 msgstr "1 vuosi sitten"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:22
-#, fuzzy
-#| msgid "Ticket %s created!"
 msgid "1. Ticket Create"
-msgstr "Tiketti %s luotu!"
+msgstr "1. Lippu Luo"
 
 #: db/seeds/settings.rb:1129
 msgid "2 hours"
@@ -765,10 +835,8 @@ msgid "2 weeks"
 msgstr "2 viikkoa"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:23
-#, fuzzy
-#| msgid "Ticket update"
 msgid "2. Ticket Update"
-msgstr "Tiketin päivitys"
+msgstr "2. Lippupäivitys"
 
 #: db/seeds/ticket_priorities.rb:5
 msgid "3 high"
@@ -779,26 +847,20 @@ msgid "3 weeks"
 msgstr "3 viikkoa"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:24
-#, fuzzy
-#| msgid "Ticket reminder reached"
 msgid "3. Ticket Reminder Reached"
-msgstr "Tiketin muistutusaika saavutettu"
+msgstr "3. Lippumuistutus saavutettu"
 
 #: db/seeds/settings.rb:1129
 msgid "4 weeks"
 msgstr "4 viikkoa"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:25
-#, fuzzy
-#| msgid "Ticket escalation"
 msgid "4. Ticket Escalation"
-msgstr "Tiketin eskalointi"
+msgstr "4. Lippueskalointi"
 
 #: app/assets/javascripts/app/controllers/_integration/slack.coffee:26
-#, fuzzy
-#| msgid "Ticket escalation"
 msgid "5. Ticket Escalation Warning"
-msgstr "Tiketin eskalointi"
+msgstr "5. Lippueskalaatiovaroitus"
 
 #: public/assets/chat/chat-no-jquery.coffee:167
 #: public/assets/chat/chat.coffee:165
@@ -820,11 +882,11 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:47
 msgid "A color scheme that uses dark-colored elements on a light background."
-msgstr ""
+msgstr "Väriteema, jossa käytetään tummia elementtejä vaalealla taustalla."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:40
 msgid "A color scheme that uses light-colored elements on a dark background."
-msgstr ""
+msgstr "Väriteema, jossa käytetään vaaleita elementtejä tummalla taustalla."
 
 #: db/seeds/object_manager_attributes.rb:2231
 msgid ""
@@ -855,12 +917,11 @@ msgstr ""
 "Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
 
 #: app/frontend/shared/composables/useAppMaintenanceCheck.ts:74
-#, fuzzy
-#| msgid "A new version of Zammad is available, please reload your browser."
 msgid ""
 "A newer version of the app is available. Please reload at your earliest."
 msgstr ""
-"Uusi versio Zammadista on saatavilla, ole hyvä ja lataa sivu uudelleen."
+"Sovelluksesta on saatavilla uudempi versio. Lataa uudelleen mahdollisimman "
+"pian."
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:156
 msgid "A powerful service to get more information about your customers."
@@ -882,10 +943,8 @@ msgid ""
 msgstr ""
 
 #: app/models/ticket.rb:279
-#, fuzzy
-#| msgid "Choose if retweets should also be converted to tickets."
 msgid "A ticket cannot be merged into itself."
-msgstr "Valitse pitäisikö retweetien muodostua tiketeiksi."
+msgstr "Lippua ei voi yhdistää itseensä."
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee
 msgid ""
@@ -931,10 +990,8 @@ msgid "API Token Access"
 msgstr ""
 
 #: lib/whatsapp/webhook/payload.rb:22
-#, fuzzy
-#| msgid "Sign out"
 msgid "API error."
-msgstr "Kirjaudu ulos"
+msgstr "API-virhe."
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:42
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:43
@@ -953,10 +1010,8 @@ msgstr ""
 
 #: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
-#, fuzzy
-#| msgid "Access to %s"
 msgid "Access denied"
-msgstr "Pääsy"
+msgstr "Pääsy evätty"
 
 #: db/seeds/permissions.rb:321
 msgid "Access the agent chat features."
@@ -968,63 +1023,47 @@ msgstr ""
 
 #: db/seeds/permissions.rb:351
 msgid "Access the knowledge base editor features."
-msgstr ""
+msgstr "Pääse tietoalustan muokkausominaisuuksiin."
 
 #: db/seeds/permissions.rb:357
 msgid "Access the knowledge base reader features."
 msgstr ""
 
 #: db/seeds/permissions.rb:379
-#, fuzzy
-#| msgid "Access to Agent Tickets based on Group Access"
 msgid "Access the tickets as agent based on group access."
-msgstr "Pääsy Agenttitiketteihin ryhmän perusteella"
+msgstr "Pääse lippuihin agenttina ryhmäpääsyn perusteella."
 
 #: db/seeds/permissions.rb:388
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access tickets as customer."
-msgstr "Tuoreimmat asiakkaiden tiketit"
+msgstr "Pääse lippuihin asiakkaana."
 
 #: db/seeds/permissions.rb:312
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access to the chat interface."
-msgstr "Tuoreimmat asiakkaiden tiketit"
+msgstr "Pääse pikakeskusteluliittymään."
 
 #: db/seeds/permissions.rb:342
-#, fuzzy
-#| msgid "Delete Knowledge Base"
 msgid "Access to the knowledge base interface."
-msgstr "Poista tietopankki"
+msgstr "Pääse tietoalustan käyttöliittymään."
 
 #: db/seeds/permissions.rb:327
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access to the phone interface."
-msgstr "Tuoreimmat asiakkaiden tiketit"
+msgstr "Pääse puhelimen käyttöliittymään."
 
 #: db/seeds/permissions.rb:364
 msgid "Access to the report interface."
 msgstr ""
 
 #: db/seeds/permissions.rb:370
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access to the ticket interface."
-msgstr "Tuoreimmat asiakkaiden tiketit"
+msgstr "Pääse lippujen käyttöliittymään."
 
 #: app/assets/javascripts/app/views/whatsapp/account_cloud_api.jst.eco:19
-#, fuzzy
-#| msgid "Access to %s"
 msgid "Access token"
-msgstr "Pääsy"
+msgstr "Pääsypoletti"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:157
-#, fuzzy
-#| msgid "Agent limit exceeded, please check your account settings."
 msgid "Accessing your camera is forbidden. Please check your settings."
-msgstr "Agenttiraja ylitetty, tarkista tiliasetuksesi."
+msgstr "Kameraan pääsy on kielletty. Tarkista asetuksesi."
 
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:45
 #: app/frontend/apps/mobile/pages/account/routes.ts:8
@@ -1064,10 +1103,8 @@ msgid "Accounted Time"
 msgstr "Kirjattu aika"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketAccountedTime.vue:81
-#, fuzzy
-#| msgid "Accounted Time"
 msgid "Accounted time unit"
-msgstr "Kirjattu aika"
+msgstr "Laskutettu aikayksikkö"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:11
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:11
@@ -1119,22 +1156,16 @@ msgid "Action"
 msgstr "Tapahtumat"
 
 #: app/assets/javascripts/app/models/trigger.coffee:8
-#, fuzzy
-#| msgid "Bulk action executed!"
 msgid "Action execution"
-msgstr "Massa-ajo suoritettu!"
+msgstr "Toiminnan suorittaminen"
 
 #: app/frontend/apps/desktop/entities/two-factor-configuration/plugins/authenticator-app.ts:12
-#, fuzzy
-#| msgid "Bulk action executed!"
 msgid "Action menu button for authenticator app"
-msgstr "Massa-ajo suoritettu!"
+msgstr "Toimintavalikkopainike todentamissovellukselle"
 
 #: app/frontend/apps/desktop/entities/two-factor-configuration/plugins/security-keys.ts:14
-#, fuzzy
-#| msgid "Bulk action executed!"
 msgid "Action menu button for security keys"
-msgstr "Massa-ajo suoritettu!"
+msgstr "Toimintavalikkopainike turva-avaimille"
 
 #: app/assets/javascripts/app/models/macro.coffee:7
 #: app/assets/javascripts/app/models/template.coffee:7
@@ -1151,10 +1182,8 @@ msgid "Activate the recursive processing of ticket triggers."
 msgstr ""
 
 #: app/assets/javascripts/app/models/trigger.coffee:7
-#, fuzzy
-#| msgid "Activity"
 msgid "Activated by"
-msgstr "Aktiviteetti"
+msgstr "On aktivoinut"
 
 #: db/seeds/settings.rb:1106
 msgid ""
@@ -1213,17 +1242,13 @@ msgstr "Tapahtumaloki"
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:4
 #: app/controllers/time_accountings_controller.rb:117
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:118
-#, fuzzy
-#| msgid "Activity"
 msgid "Activity Type"
-msgstr "Aktiviteetti"
+msgstr "Toiminnan tyyppi"
 
 #: app/assets/javascripts/app/controllers/time_accounting.coffee:23
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:51
-#, fuzzy
-#| msgid "Activity"
 msgid "Activity Types"
-msgstr "Aktiviteetti"
+msgstr "Toiminnan tyypit"
 
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:39
 msgid "Adapter"
@@ -1289,16 +1314,12 @@ msgid "Add Empty Checklist"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistTemplates.vue:42
-#, fuzzy
-#| msgid "Templates"
 msgid "Add From a Template"
-msgstr "Mallit"
+msgstr "Lisää mallista"
 
 #: app/assets/javascripts/app/views/integration/pgp.jst.eco:5
-#, fuzzy
-#| msgid "reply"
 msgid "Add Key"
-msgstr "vastaa"
+msgstr "Lisää avain"
 
 #: app/assets/javascripts/app/views/link/ticket/list.jst.eco:10
 msgid "Add Link"
@@ -1314,10 +1335,8 @@ msgid "Add Public or Private Key"
 msgstr ""
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/web.ts:13
-#, fuzzy
-#| msgid "reply"
 msgid "Add Reply"
-msgstr "vastaa"
+msgstr "Lisää vastaus"
 
 #: app/assets/javascripts/app/views/ssl_certificates.jst.eco:5
 msgid "Add SSL Certificate"
@@ -1349,20 +1368,16 @@ msgid "Add a data privacy deletion task"
 msgstr ""
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:276
-#, fuzzy
-#| msgid "Add image"
 msgid "Add a message"
-msgstr "Lisää kuva"
+msgstr "Lisää viesti"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:123
 msgid "Add agreement text before submit."
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:315
-#, fuzzy
-#| msgid "Add alarm to pending reminder and escalated tickets."
 msgid "Add alarm to pending reminder and escalated tickets"
-msgstr "Lisää hälytys muistutusta odottaviin ja eskaloituihin tiketteihin."
+msgstr "Lisää hälytys odottaviin muistutuksiin ja eskaloituihin lippuihin"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:34
 msgid "Add alarm to pending reminder and escalated tickets."
@@ -1381,23 +1396,17 @@ msgid "Add bullet list"
 msgstr ""
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/facebook.ts:49
-#, fuzzy
-#| msgid "Add Account"
 msgid "Add comment"
-msgstr "Lisää tili"
+msgstr "Lisää kommentti"
 
 #: app/assets/javascripts/app/views/generic/application_selector_row.jst.eco:32
 #: app/assets/javascripts/app/views/generic/application_selector_subclause.jst.eco:18
-#, fuzzy
-#| msgid "Saved conditions"
 msgid "Add condition"
-msgstr "Tallennetut ehdot"
+msgstr "Lisää ehto"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/email.ts:168
-#, fuzzy
-#| msgid "email"
 msgid "Add email"
-msgstr "sähköposti"
+msgstr "Lisää sähköpostiosoite"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:5
 msgid "Add empty checklist"
@@ -1408,26 +1417,20 @@ msgid "Add first level heading"
 msgstr ""
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:11
-#, fuzzy
-#| msgid "Save as template"
 msgid "Add from a template"
-msgstr "Tallenna mallina"
+msgstr "Lisää mallista"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:185
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add heading"
-msgstr "Lisää Tagi"
+msgstr "Lisää otsake"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:130
 msgid "Add image"
 msgstr "Lisää kuva"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
-#, fuzzy
-#| msgid "Add a Note"
 msgid "Add internal note"
-msgstr "Lisää Muistiinpano"
+msgstr "Lisää sisäinen muistiinpano"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketLinks.vue:163
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:152
@@ -1437,22 +1440,16 @@ msgstr "Lisää linkki"
 #: app/frontend/shared/entities/ticket-article/action/plugins/telegram.ts:53
 #: app/frontend/shared/entities/ticket-article/action/plugins/twitter.ts:125
 #: app/frontend/shared/entities/ticket-article/action/plugins/whatsapp.ts:202
-#, fuzzy
-#| msgid "Add image"
 msgid "Add message"
-msgstr "Lisää kuva"
+msgstr "Lisää viesti"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/note.ts:15
-#, fuzzy
-#| msgid "Add Bot"
 msgid "Add note"
-msgstr "Lisää botti"
+msgstr "Lisää muistiinpano"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:257
-#, fuzzy
-#| msgid "Format as ordered list"
 msgid "Add ordered list"
-msgstr "Muotoile järjestettynä luettelona"
+msgstr "Lisää järjestetty luettelo"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/phone.ts:13
 msgid "Add phone call"
@@ -1461,10 +1458,8 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleReply.vue:64
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleReplyDialog.vue:37
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketDetailViewActions.vue:88
-#, fuzzy
-#| msgid "reply"
 msgid "Add reply"
-msgstr "vastaa"
+msgstr "Lisää vastaus"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:203
 msgid "Add second level heading"
@@ -1479,10 +1474,8 @@ msgid "Add sender initials to end of a tweet."
 msgstr "Lisää lähettäjän nimikirjaimet tweetin loppuun."
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/sms.ts:49
-#, fuzzy
-#| msgid "Add image"
 msgid "Add sms"
-msgstr "Lisää kuva"
+msgstr "Lisää tekstiviesti"
 
 #: app/assets/javascripts/app/views/generic/application_selector_row.jst.eco:35
 #: app/assets/javascripts/app/views/generic/application_selector_subclause.jst.eco:21
@@ -1490,10 +1483,8 @@ msgid "Add subclause"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketTags.vue:201
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add tag"
-msgstr "Lisää Tagi"
+msgstr "Lisää tunniste"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:214
 msgid "Add third level heading"
@@ -1512,16 +1503,12 @@ msgid "Additional follow-up detection"
 msgstr "Lisäseurannan tunnistus"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:211
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Additional information"
-msgstr "Estä ilmoitukset"
+msgstr "Lisätietoja"
 
 #: app/frontend/apps/desktop/components/layout/LayoutPublicPage/LayoutPublicPage.vue:59
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Additional information and links"
-msgstr "Estä ilmoitukset"
+msgstr "Lisätiedot ja linkit"
 
 #: db/seeds/settings.rb:871
 msgid "Additional notes for ticket create types."
@@ -1546,10 +1533,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/admin_password_auth.coffee:23
 #: app/frontend/apps/desktop/pages/authentication/routes.ts:25
-#, fuzzy
-#| msgid "Bind Password"
 msgid "Admin Password Login"
-msgstr "Sido salasana"
+msgstr "Järjestelmänvalvojan salasana Sisäänkirjautuminen"
 
 #: db/seeds/permissions.rb:5
 msgid "Admin interface"
@@ -1557,18 +1542,13 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/admin_password_auth/request_sent.jst.eco:4
 #: app/frontend/apps/desktop/pages/authentication/views/AdminPasswordAuth.vue:57
-#, fuzzy
-#| msgid "We've sent password reset instructions to your email address."
 msgid "Admin password login instructions were sent to your email address."
 msgstr ""
-"Ohjeet salasanan vaihtamiseksi on lähetetty säköpostiisi. Tarkista myös "
-"roskapostikansio, mikäli viestiä ei näy saapuneissa viesteissä."
+"Admin salasanan sisäänkirjautumisohjeet lähetettiin sähköpostiosoitteeseesi."
 
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar/LeftSidebar/MenuContainer/AdminMenu/plugins/setting.ts:8
-#, fuzzy
-#| msgid "Administrator Account"
 msgid "Administration"
-msgstr "Pääkäyttäjän tili"
+msgstr "Hallinta"
 
 #. This is the template file app/views/mailer/admin_password_auth/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -1602,10 +1582,8 @@ msgid "Advance to next ticket from overview"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:62
-#, fuzzy
-#| msgid "%s Object(s) are updated."
 msgid "Affects only notifications for not assigned and all tickets."
-msgstr "Kohde päivitetty"
+msgstr "Vaikuttaa vain ilmoituksiin, joita ei ole määritetty ja kaikki liput."
 
 #: app/assets/javascripts/app/views/exchange/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Exchange account."
@@ -1648,10 +1626,8 @@ msgid "Agent Name + FromSeparator + System Address Display Name"
 msgstr ""
 
 #: db/seeds/permissions.rb:320
-#, fuzzy
-#| msgid "Agent"
 msgid "Agent chat"
-msgstr "Agentti"
+msgstr "Agenttipikakeskustelu"
 
 #: db/seeds/settings.rb:3610
 msgid "Agent idle timeout"
@@ -1662,16 +1638,12 @@ msgid "Agent limit exceeded, please check your account settings."
 msgstr "Agenttiraja ylitetty, tarkista tiliasetuksesi."
 
 #: db/seeds/permissions.rb:335
-#, fuzzy
-#| msgid "Agent"
 msgid "Agent phone"
-msgstr "Agentti"
+msgstr "Agenttipuhelin"
 
 #: db/seeds/permissions.rb:378
-#, fuzzy
-#| msgid "Open Tickets"
 msgid "Agent tickets"
-msgstr "Avoimet tiketit"
+msgstr "Agenttiliput"
 
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:109
 msgid "Agents"
@@ -1716,31 +1688,24 @@ msgid "All colleagues are busy."
 msgstr "Kaikki kollegat ovat varattuja."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingDevices.vue:138
-#, fuzzy
-#| msgid ""
-#| "All computers and browsers that have access to your Zammad appear here."
 msgid ""
 "All computers and browsers from which you logged in to Zammad appear here."
 msgstr ""
-"Kaikki tietokoneet ja selaimet joilla on pääsy Zammadiisi näkyvät tässä."
+"Kaikki tietokoneet ja selaimet, joilla kirjauduit Zammadiin, näkyvät täällä."
 
 #: app/assets/javascripts/app/views/profile/devices.jst.eco:7
 msgid "All computers and browsers that have access to your Zammad appear here."
 msgstr ""
-"Kaikki tietokoneet ja selaimet joilla on pääsy Zammadiisi näkyvät tässä."
+"Kaikki tietokoneet ja selaimet, joilla on pääsy Zammadille, näkyvät täällä."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:38
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:56
-#, fuzzy
-#| msgid "All Tickets"
 msgid "All tickets"
-msgstr "Kaikki Tiketit"
+msgstr "Kaikki liput"
 
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:128
-#, fuzzy
-#| msgid "Authentication"
 msgid "All two-factor authentication methods were removed for this user."
-msgstr "Tunnistaudu"
+msgstr "Kaikki kaksivaiheiset todennusmenetelmät poistettiin tältä käyttäjältä."
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:325
 msgid "Allow future"
@@ -1755,10 +1720,8 @@ msgid "Allow past"
 msgstr "Salli menneisyys"
 
 #: app/models/object_manager/attribute/data_option_validator.rb:71
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Allow past dates toggle value is required."
-msgstr "Käyttäjä vaadittu!"
+msgstr "Salli menneet päivämäärät -valitsimen arvo on pakollinen."
 
 #: db/seeds/object_manager_attributes.rb:2164
 msgid "Allow reopening of tickets within a certain time."
@@ -1793,7 +1756,7 @@ msgstr ""
 #: app/helpers/knowledge_base_breadcrumb_helper.rb:20
 #: app/helpers/knowledge_base_public_page_title_helper.rb:27
 msgid "Alternative Translations"
-msgstr ""
+msgstr "Vaihtoehtoiset käännökset"
 
 #: app/assets/javascripts/app/views/customer_chat/setting.jst.eco:16
 msgid "Alternative name"
@@ -1889,10 +1852,8 @@ msgid "Answers"
 msgstr "Vastaukset"
 
 #: app/assets/javascripts/app/views/knowledge_base/_reader_list_item.jst.eco:6
-#, fuzzy
-#| msgid "Answers"
 msgid "Answers: %s"
-msgstr "Vastaukset"
+msgstr "Vastaukset: %s"
 
 #: app/assets/javascripts/app/lib/app_post/iconset_picker.coffee:9
 msgid "Anticon"
@@ -1930,10 +1891,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:375
 #: app/assets/javascripts/app/controllers/_channel/twitter.coffee:193
 #: app/assets/javascripts/app/controllers/_integration/exchange.coffee:721
-#, fuzzy
-#| msgid "Account not verified"
 msgid "App could not be verified."
-msgstr "Tiliä ei ole vielä vahvistettu"
+msgstr "Sovellusta ei voitu vahvistaa."
 
 #: db/seeds/settings.rb:1445
 msgid "App credentials for Facebook."
@@ -1944,8 +1903,6 @@ msgid "App credentials for Twitter."
 msgstr "Sovelluksen kirjautumistiedot Twitteriin."
 
 #: app/assets/javascripts/app/views/whatsapp/account_cloud_api.jst.eco:28
-#, fuzzy
-#| msgid "App Secret"
 msgid "App secret"
 msgstr "Sovelluksen salaisuus"
 
@@ -1979,10 +1936,8 @@ msgstr "Ota käyttöön"
 
 #: app/assets/javascripts/app/controllers/ticket_shared_draft_modal.coffee:56
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSharedDraftFlyout.vue:143
-#, fuzzy
-#| msgid "Apply"
 msgid "Apply Draft"
-msgstr "Ota käyttöön"
+msgstr "Käytä luonnosta"
 
 #: app/assets/javascripts/app/controllers/ticket_shared_draft_modal.coffee:2
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSharedDraftFlyout.vue:170
@@ -1990,20 +1945,16 @@ msgid "Apply Shared Draft"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketCreate/ApplyTemplate.vue:40
-#, fuzzy
-#| msgid "Templates"
 msgid "Apply Template"
-msgstr "Mallit"
+msgstr "Käytä mallia"
 
 #: app/assets/javascripts/app/views/settings/ticket_notifications.jst.eco:10
 msgid "Apply current defaults to all agents"
 msgstr ""
 
 #: app/frontend/apps/desktop/components/NavigationMenu/NavigationMenuFilter.vue:76
-#, fuzzy
-#| msgid "Apply"
 msgid "Apply filter…"
-msgstr "Ota käyttöön"
+msgstr "Käytä suodatinta…"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:160
 #: app/assets/javascripts/app/controllers/report.coffee:220
@@ -2023,10 +1974,8 @@ msgstr "Archive"
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:109
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:84
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:69
-#, fuzzy
-#| msgid "Archive"
 msgid "Archive Emails"
-msgstr "Archive"
+msgstr "Arkistoi sähköpostit"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:739
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:43
@@ -2039,19 +1988,15 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:42
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:288
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:43
-#, fuzzy
-#| msgid "Archive"
 msgid "Archive emails"
-msgstr "Archive"
+msgstr "Arkistoi sähköpostit"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:740
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:44
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:290
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:66
-#, fuzzy
-#| msgid "Ticket update"
 msgid "Archive ticket target state"
-msgstr "Tiketin päivitys"
+msgstr "Arkistoi lipun kohdetila"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:113
 msgid "Archived"
@@ -2062,22 +2007,16 @@ msgid "Archived at"
 msgstr ""
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/articleDelete.ts:15
-#, fuzzy
-#| msgid "Sure to delete this object?"
 msgid "Are you sure to remove this article?"
-msgstr "Haluatko todellakin poistaa tämän objektin?"
+msgstr "Oletko varma, että poistat tämän artikkelin?"
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:155
-#, fuzzy
-#| msgid "Do you really want to delete \"%s\"?"
 msgid "Are you sure you want to delete \"%s\"?"
-msgstr "Haluatko todellakin poistaa \"%s\"?"
+msgstr "Haluatko varmasti poistaa \"%s\":n?"
 
 #: app/frontend/apps/desktop/components/CommonConfirmationDialog/CommonConfirmationDialog.vue:43
-#, fuzzy
-#| msgid "Do you really want to delete this object?"
 msgid "Are you sure you want to delete this object?"
-msgstr "Haluatko todellakin poistaa tämän objektin?"
+msgstr "Oletko varma, että haluat poistaa tämän kohteen?"
 
 #: app/frontend/apps/mobile/pages/ticket/composable/useTicketsMerge.ts:67
 msgid "Are you sure you want to merge this ticket (#%s) into #%s?"
@@ -2089,16 +2028,12 @@ msgid ""
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_application_controller/table.coffee:734
-#, fuzzy
-#| msgid "Do you really want to delete \"%s\"?"
 msgid "Are you sure you want to set \"%s\" as default?"
-msgstr "Haluatko todellakin poistaa \"%s\"?"
+msgstr "Oletko varma, että haluat asettaa \"%s\":n oletukseksi?"
 
 #: app/assets/javascripts/app/controllers/_application_controller/table.coffee:750
-#, fuzzy
-#| msgid "Do you really want to delete \"%s\"?"
 msgid "Are you sure you want to unset \"%s\" as default?"
-msgstr "Haluatko todellakin poistaa \"%s\"?"
+msgstr "Oletko varma, että haluat poistaa \"%s\":n oletusasetuksena?"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_confirm_delete.coffee:6
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:145
@@ -2134,6 +2069,8 @@ msgid ""
 "Are you sure? The agent default notifications settings will be reset to the "
 "system default."
 msgstr ""
+"Oletko varma? Agentin oletusilmoitusasetukset palautetaan järjestelmän "
+"oletuksiin."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleReplyDialog.vue:86
 msgid "Are you sure? The prepared article will be removed."
@@ -2189,26 +2126,20 @@ msgid "Article - visibility confirmation dialog"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/widget/placeholder.coffee:96
-#, fuzzy
-#| msgid "Article"
 msgid "Article > Text (HTML)"
-msgstr "Artikkeli"
+msgstr "Artikkeli > Teksti (HTML)"
 
 #: lib/excel_sheet/ticket.rb:73
 msgid "Article Count"
 msgstr "Artikkelien määrä"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:12
-#, fuzzy
-#| msgid "Change Objects"
 msgid "Article Language Detection"
-msgstr "Muutospyynnöt"
+msgstr "Artikkelin kielen havaitseminen"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:289
-#, fuzzy
-#| msgid "Article Count"
 msgid "Article actions"
-msgstr "Artikkelien määrä"
+msgstr "Artikkelin toiminnat"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/delete.coffee:61
 msgid "Article could not be deleted."
@@ -2216,10 +2147,8 @@ msgstr "Artikkelia ei voitu poistaa."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubble.vue:128
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleHeader.vue:27
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Article meta information"
-msgstr "Estä ilmoitukset"
+msgstr "Artikkelin metatiedot"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:77
 #: app/frontend/shared/composables/useArticleSecurity.ts:93
@@ -2262,10 +2191,8 @@ msgid "Assignee"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerList/IssueTrackerItem.vue:79
-#, fuzzy
-#| msgid "Assigned"
 msgid "Assignees"
-msgstr "Liitetty"
+msgstr "Valtuutetut"
 
 #: db/seeds/object_manager_attributes.rb:2087
 msgid "Assignment Timeout"
@@ -2273,10 +2200,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/_application_model.coffee:164
 #: app/assets/javascripts/app/models/group.coffee:8
-#, fuzzy
-#| msgid "assign tickets"
 msgid "Assignment timeout"
-msgstr "Liitetyt tiketit"
+msgstr "Valtuuden aikakatkaisu"
 
 #: app/assets/javascripts/app/models/group.coffee:8
 #: db/seeds/object_manager_attributes.rb:2092
@@ -2304,22 +2229,16 @@ msgid "At least one user needs to have admin permissions."
 msgstr ""
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:193
-#, fuzzy
-#| msgid "Attached Files"
 msgid "Attach another file"
-msgstr "Liitetyt tiedostot"
+msgstr "Liitä toinen tiedosto"
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:188
-#, fuzzy
-#| msgid "Attached Files"
 msgid "Attach file"
-msgstr "Liitetyt tiedostot"
+msgstr "Liitä tiedosto"
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:191
-#, fuzzy
-#| msgid "Attached Files"
 msgid "Attach files"
-msgstr "Liitetyt tiedostot"
+msgstr "Liitä tiedostot"
 
 #: app/assets/javascripts/app/views/generic/attachments.jst.eco:4
 #: app/views/knowledge_base/public/answers/show.html.erb:17
@@ -2403,18 +2322,14 @@ msgstr "Attribuutit"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:32
 #: db/seeds/settings.rb:2721
-#, fuzzy
-#| msgid "Attributes"
 msgid "Attributes to compare"
-msgstr "Attribuutit"
+msgstr "Vertailevat attribuutit"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/whatsapp_reply.coffee:60
 #: app/frontend/shared/entities/ticket-article/action/plugins/whatsapp.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:8
-#, fuzzy
-#| msgid "No filter."
 msgid "Audio file"
-msgstr "Ei suodatinta."
+msgstr "Äänitiedosto"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
 #: app/assets/javascripts/app/controllers/report.coffee:220
@@ -2427,8 +2342,6 @@ msgid "August"
 msgstr "Elokuu"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:381
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authenticate"
 msgstr "Tunnistaudu"
 
@@ -2437,10 +2350,8 @@ msgid "Authentication"
 msgstr "Tunnistaudu"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:736
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authentication Token"
-msgstr "Tunnistaudu"
+msgstr "Todennuspoletti"
 
 #: lib/email_helper/probe.rb:276
 msgid "Authentication failed due to incorrect credentials."
@@ -2451,10 +2362,8 @@ msgid "Authentication failed due to incorrect username."
 msgstr ""
 
 #: app/controllers/import_otrs_controller.rb:17 lib/email_helper/probe.rb:272
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authentication failed."
-msgstr "Tunnistaudu"
+msgstr "Todennus epäonnistui."
 
 #: lib/email_helper/probe.rb:277
 msgid "Authentication not possible (not offered by the service)"
@@ -2474,23 +2383,17 @@ msgstr "Tunnistaudu käyttäen %s"
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:5
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:9
 #: db/seeds/settings.rb:5834
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authenticator App"
-msgstr "Tunnistaudu"
+msgstr "Todennussovellus"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:270
-#, fuzzy
-#| msgid "Authentication via %s"
 msgid "Authenticator app QR code"
-msgstr "Tunnistaudu käyttäen %s"
+msgstr "Todennussovelluksen QR-koodi"
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:24
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:281
-#, fuzzy
-#| msgid "Authentication via %s"
 msgid "Authenticator app secret"
-msgstr "Tunnistaudu käyttäen %s"
+msgstr "Todennussovelluksen salaisuus"
 
 #: app/assets/javascripts/app/views/ticket_shared_draft_modal.jst.eco:3
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSharedDraftFlyout.vue:198
@@ -2543,8 +2446,6 @@ msgid "Auto create"
 msgstr "Automaattinen luonti"
 
 #: db/seeds/settings.rb:4528
-#, fuzzy
-#| msgid "Auto close state"
 msgid "Auto-close state"
 msgstr "Automaattinen sulkemistila"
 
@@ -2563,10 +2464,8 @@ msgid "Automatic account link on initial logon"
 msgstr "Automaattinen tilin linkitys kirjautuessa"
 
 #: db/seeds/settings.rb:1297
-#, fuzzy
-#| msgid "Automatic account link on initial logon"
 msgid "Automatic account linking notification"
-msgstr "Automaattinen tilin linkitys kirjautuessa"
+msgstr "Automaattinen tilin linkityksen ilmoitus"
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:180
 msgid "Automatic reminders"
@@ -2598,10 +2497,8 @@ msgid "Available for the following roles"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:207
-#, fuzzy
-#| msgid "Remove all"
 msgid "Available methods"
-msgstr "Poista kaikki"
+msgstr "Käytettävissä olevat menetelmät"
 
 #: db/seeds/settings.rb:914
 msgid "Available types for a new ticket"
@@ -2623,17 +2520,13 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:55
-#, fuzzy
-#| msgid "Preview"
 msgid "Avatar Preview"
-msgstr "Esikatselu"
+msgstr "Avatarin esikatselu"
 
 #: app/graphql/gql/mutations/user/current/avatar/delete.rb:18
 #: app/graphql/gql/mutations/user/current/avatar/select.rb:18
-#, fuzzy
-#| msgid "%s Object(s) are updated."
 msgid "Avatar could not be found."
-msgstr "Kohde päivitetty"
+msgstr "Avataria ei voitu löytää."
 
 #: app/frontend/shared/components/CommonAvatar/CommonAvatar.vue:44
 msgid "Avatar with initials %s"
@@ -2650,7 +2543,7 @@ msgstr "Keskiarvo: %s minuuttia"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_in_process.jst.eco:12
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_reopen.jst.eco:12
 msgid "Average: %s%"
-msgstr "Keskiarvo: %s%"
+msgstr "Keskiarvo: %s %"
 
 #: db/seeds/settings.rb:3499
 msgid "BCC address for all outgoing emails"
@@ -2673,10 +2566,8 @@ msgstr "Takaisin omaan näkymään"
 #: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:438
 #: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:457
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDialog.vue:197
-#, fuzzy
-#| msgid "Back to overview"
 msgid "Back to previous page"
-msgstr "Takaisin omaan näkymään"
+msgstr "Takaisin edelliselle sivulle"
 
 #: app/assets/javascripts/app/views/knowledge_base/reader.jst.eco:7
 msgid "Back to search results"
@@ -2719,10 +2610,8 @@ msgstr "Perus Objektit"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:736
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:10
-#, fuzzy
-#| msgid "Authentication"
 msgid "Basic Authentication"
-msgstr "Tunnistaudu"
+msgstr "Perustodennus"
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:6
 msgid "Basic Settings"
@@ -2765,16 +2654,12 @@ msgstr "Estä ilmoitukset"
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:25
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:41
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:28
-#, fuzzy
-#| msgid "Also caller id of outbound calls can be changed."
 msgid "Block caller IDs based on sender caller ID."
-msgstr "Myös soittajan id lähteviin puheluihin voidaan muuttaa."
+msgstr "Estä soittajan tunnukset lähettäjän soittajan tunnuksen perusteella."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleRemoteContentBadge.vue:42
-#, fuzzy
-#| msgid "Blocked countries"
 msgid "Blocked Content"
-msgstr "Estetyt maat"
+msgstr "Estetty sisältö"
 
 #: app/assets/javascripts/app/models/chat.coffee:254
 msgid "Blocked IPs (separated by ;)"
@@ -2801,10 +2686,8 @@ msgid "Body - Search for follow-up also in mail body."
 msgstr ""
 
 #: lib/validations/ticket_article_validator/sms_twilio.rb:14
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Body text is required"
-msgstr "Käyttäjä vaadittu!"
+msgstr "Leipäteksti on pakollinen"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:41
 msgid "Boolean field"
@@ -2951,16 +2834,12 @@ msgstr "Kalenterit"
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:22
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:38
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:25
-#, fuzzy
-#| msgid "Settings"
 msgid "Call Settings"
-msgstr "Asetukset"
+msgstr "Soittoasetukset"
 
 #: app/models/cti/driver/base.rb:152
-#, fuzzy
-#| msgid "Import from"
 msgid "Call from %s"
-msgstr "Tuo"
+msgstr "Soitto %s:lta"
 
 #: app/assets/javascripts/app/controllers/cti.coffee:118
 msgid "Call from %s for %s"
@@ -3003,7 +2882,7 @@ msgstr "Kamera"
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:109
 msgid "Can be in any CSS color format."
-msgstr ""
+msgstr "Voi olla missä tahansa CSS-värimuodossa."
 
 #: app/assets/javascripts/app/controllers/getting_started/agent.coffee:87
 msgid "Can't create user!"
@@ -3136,10 +3015,8 @@ msgid "Category page layout"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:39
-#, fuzzy
-#| msgid "Duration"
 msgid "Caution!"
-msgstr "Kesto"
+msgstr "Varokaa!"
 
 #: db/seeds/settings.rb:1987
 #, fuzzy
@@ -3201,16 +3078,12 @@ msgid "Change order"
 msgstr "Muutospyyntö"
 
 #: db/seeds/permissions.rb:433
-#, fuzzy
-#| msgid "Change Your Password"
 msgid "Change personal account password."
-msgstr "Vaihda salasanasi"
+msgstr "Vaihda henkilökohtaisen tilin salasana."
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:227
-#, fuzzy
-#| msgid "Change order"
 msgid "Change text color"
-msgstr "Muutospyyntö"
+msgstr "Muuta tekstin väriä"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:36
 #, fuzzy
@@ -3225,22 +3098,16 @@ msgid "Change to channel email address"
 msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:17
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Changed reaction on message %s from %s"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "Muutettu reaktio viestiin %s %s:lta"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:18
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Changed reaction to %s on message %s from %s"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "Muutettu reaktio %s:ksi viestiin %s %s:lta"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:31
-#, fuzzy
-#| msgid "Changed"
 msgid "Changed:"
-msgstr "Muutettu"
+msgstr "Vaihdettu:"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:17
 #: app/views/mailer/ticket_update/zh-cn.html.erb:11
@@ -3250,10 +3117,8 @@ msgstr "Muutokset"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/feed_dialog.coffee:39
 #: app/assets/javascripts/app/controllers/knowledge_base/permissions_dialog.coffee:79
-#, fuzzy
-#| msgid "%s Object(s) are created."
 msgid "Changes could not be loaded."
-msgstr "Objekti luotu"
+msgstr "Muutoksia ei voitu ladata."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/base_form.coffee:84
 #: app/assets/javascripts/app/controllers/knowledge_base/permissions_dialog.coffee:103
@@ -3328,16 +3193,12 @@ msgid "Chatting Customers"
 msgstr "Chat-asiakkaat"
 
 #: db/seeds/schedulers.rb:34
-#, fuzzy
-#| msgid "Connect Channels"
 msgid "Check 'Channel' streams."
-msgstr "Yhdistä kanavia"
+msgstr "Tarkista Kanavan virrat."
 
 #: db/seeds/schedulers.rb:25
-#, fuzzy
-#| msgid "Connect Channels"
 msgid "Check channels."
-msgstr "Yhdistä kanavia"
+msgstr "Tarkista kanavat."
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row.jst.eco:24
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItem.vue:54
@@ -3477,10 +3338,8 @@ msgid "Choose your language."
 msgstr "Valitse kielesi."
 
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:140
-#, fuzzy
-#| msgid "Choose your new password."
 msgid "Choose your new password"
-msgstr "Valitse uusi salasana."
+msgstr "Valitse uusi salasanasi"
 
 #: app/assets/javascripts/app/views/password/reset_change.jst.eco:4
 msgid "Choose your new password."
@@ -3524,10 +3383,8 @@ msgid "Clean up closed sessions."
 msgstr ""
 
 #: db/seeds/schedulers.rb:124
-#, fuzzy
-#| msgid "Continue session"
 msgid "Clean up dead sessions."
-msgstr "Jatka sessiota"
+msgstr "Siivoa kuolleet istunnot."
 
 #: db/seeds/schedulers.rb:52
 msgid "Clean up expired sessions."
@@ -3731,7 +3588,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:945
 msgid "Color representation of the open ticket indicator in the sidebar."
-msgstr ""
+msgstr "Avoimen tiketin ilmaisimen värillinen esitys sivupalkissa."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:306
 #, fuzzy
@@ -3768,7 +3625,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/translation_support.coffee:38
 msgid "Complete translations"
-msgstr ""
+msgstr "Täydelliset käännökset"
 
 #: app/assets/javascripts/app/views/data_privacy/index.jst.eco:29
 msgid "Completed Tasks"
@@ -4015,10 +3872,8 @@ msgid "Content loader"
 msgstr "Sisältö"
 
 #: app/models/store.rb:82
-#, fuzzy
-#| msgid "%s Object(s) are created."
 msgid "Content preview could not be generated."
-msgstr "Objekti luotu"
+msgstr "Sisällön esikatselua ei voitu luoda."
 
 #: app/frontend/apps/desktop/components/layout/LayoutContent.vue:148
 #, fuzzy
@@ -4082,7 +3937,7 @@ msgstr "Jatka sessiota"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:4
 msgid "Contributing Translations"
-msgstr ""
+msgstr "Osallistuvat käännökset"
 
 #: lib/sessions/event/chat_transfer.rb:30
 msgid "Conversation is transferred into another chat. Please stay tuned."
@@ -4232,10 +4087,8 @@ msgstr ""
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:140
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:122
-#, fuzzy
-#| msgid "Authentication"
 msgid "Could not remove two-factor authentication method."
-msgstr "Tunnistaudu"
+msgstr "Kaksivaiheista todennusmenetelmää ei voitu poistaa."
 
 #: app/services/service/user/signup.rb:53
 msgid ""
@@ -4251,10 +4104,8 @@ msgstr "Tunnistaudu"
 
 #: app/assets/javascripts/app/controllers/widget/link.coffee:69
 #: app/assets/javascripts/app/controllers/widget/link/kb_answer.coffee:106
-#, fuzzy
-#| msgid "Unable to save changes."
 msgid "Couldn't save changes"
-msgstr "Ei voida tallenta muutoksia."
+msgstr "Muutoksia ei voitu tallentaa"
 
 #: app/assets/javascripts/app/views/tag/table.jst.eco:5
 msgid "Count"
@@ -4394,10 +4245,8 @@ msgid "Create account"
 msgstr "Rekisteröi tilini"
 
 #: db/seeds/permissions.rb:114
-#, fuzzy
-#| msgid "Create Channels"
 msgid "Create and set up Knowledge Base."
-msgstr "Luo kanavat"
+msgstr "Luo ja määritä tietoalusta."
 
 #: app/assets/javascripts/app/views/signup.jst.eco:8
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:151
@@ -4467,10 +4316,8 @@ msgid "Create your first ticket"
 msgstr "Luo ensimmäinen tikettisi"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:27
-#, fuzzy
-#| msgid "Create"
 msgid "Create:"
-msgstr "Luo"
+msgstr "Luo:"
 
 #: app/assets/javascripts/app/models/application.coffee:10
 #: app/assets/javascripts/app/models/calendar.coffee:12
@@ -4548,10 +4395,8 @@ msgid "Created at"
 msgstr "Luotu"
 
 #: app/assets/javascripts/app/views/customer_chat/chat_window.jst.eco:37
-#, fuzzy
-#| msgid "Created at"
 msgid "Created at:"
-msgstr "Luotu"
+msgstr "Luotu kello:"
 
 #: app/assets/javascripts/app/models/calendar.coffee:12
 #: app/assets/javascripts/app/models/chat.coffee:258
@@ -4577,10 +4422,8 @@ msgstr "Luonut"
 
 #: app/frontend/apps/desktop/pages/ticket/views/TicketCreate.vue:25
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:461
-#, fuzzy
-#| msgid "Tickets of Organization"
 msgid "Creating new tickets via web is disabled."
-msgstr "Oganisaation tiketit"
+msgstr "Uusien lippujen luominen verkon kautta on poistettu käytöstä."
 
 #: app/models/report.rb:85
 #, fuzzy
@@ -4651,10 +4494,8 @@ msgid "Custom Payload"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/translation.coffee:82
-#, fuzzy
-#| msgid "Translations"
 msgid "Custom Translation"
-msgstr "Käännökset"
+msgstr "Mukautettu käännös"
 
 #: app/assets/javascripts/app/controllers/_manage/knowledge_base.coffee:127
 #: app/assets/javascripts/app/models/knowledge_base.coffee:290
@@ -4735,14 +4576,12 @@ msgstr ""
 #: app/assets/javascripts/app/views/profile/appearance.jst.eco:19
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:38
 msgid "Dark"
-msgstr ""
+msgstr "Tumma"
 
 #: app/assets/javascripts/app/controllers/dark_mode.coffee:33
 #: app/frontend/apps/desktop/components/ThemeSwitch/ThemeSwitch.vue:93
-#, fuzzy
-#| msgid "Mode"
 msgid "Dark Mode"
-msgstr "Tila"
+msgstr "Tumma tila"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:147
 #: app/assets/javascripts/app/controllers/clues/first_steps_clues.coffee:5
@@ -4856,10 +4695,8 @@ msgstr ""
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:113
 #: app/frontend/shared/composables/useArticleSecurity.ts:124
-#, fuzzy
-#| msgid "Deletion failed."
 msgid "Decryption failed! %s"
-msgstr "Poisto epäonnistui."
+msgstr "Salauksen purku epäonnistui! %s"
 
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:291
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:107
@@ -4942,10 +4779,8 @@ msgid "Default type for a new ticket"
 msgstr ""
 
 #: app/models/object_manager/attribute/data_option_validator.rb:47
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Default value is required."
-msgstr "Käyttäjä vaadittu!"
+msgstr "Oletusarvo on pakollinen."
 
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:15
 #: db/seeds/settings.rb:2613
@@ -5104,6 +4939,9 @@ msgid ""
 "priority will be rendered in an indian red, while low priority in a baby "
 "blue color."
 msgstr ""
+"Määrittää tämän prioriteetin valinnaisen korostusvärin tikettitaulukoissa. "
+"Korkea prioriteetti hahmonnetaan intialaisen punaisena, kun taas matala "
+"prioriteetti vaaleansinisenä."
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:8
 msgid ""
@@ -5182,10 +5020,8 @@ msgid "Defines if Nagios (http://www.nagios.org) is enabled or not."
 msgstr ""
 
 #: db/seeds/settings.rb:5694
-#, fuzzy
-#| msgid "Authentication"
 msgid "Defines if PGP encryption is enabled or not."
-msgstr "Tunnistaudu"
+msgstr "Määrittää, onko PGP-salaus otettu käyttöön vai ei."
 
 #: db/seeds/settings.rb:5302
 msgid "Defines if Placetel (http://www.placetel.de) is enabled or not."
@@ -5242,10 +5078,9 @@ msgid ""
 msgstr ""
 
 #: db/seeds/settings.rb:5736
-#, fuzzy
-#| msgid "Authentication"
 msgid "Defines if the PGP recipient alias configuration is enabled or not."
-msgstr "Tunnistaudu"
+msgstr ""
+"Määrittää, onko PGP-vastaanottajan aliaksen määritys otettu käyttön vai ei."
 
 #: db/seeds/settings.rb:684
 msgid ""
@@ -5295,10 +5130,8 @@ msgid ""
 msgstr ""
 
 #: db/seeds/settings.rb:4142
-#, fuzzy
-#| msgid "Authentication"
 msgid "Defines if the time accounting types are enabled."
-msgstr "Tunnistaudu"
+msgstr "Määrittää, ovatko ajanlaskentatyypit otettu käyttöön."
 
 #: db/seeds/settings.rb:5837
 msgid ""
@@ -5307,12 +5140,12 @@ msgid ""
 msgstr ""
 
 #: db/seeds/settings.rb:5805
-#, fuzzy
-#| msgid "Authentication"
 msgid ""
 "Defines if the two-factor authentication method security keys is enabled or "
 "not."
-msgstr "Tunnistaudu"
+msgstr ""
+"Määrittää, onko kaksivaiheisen todennusmenetelmän turva-avaimet otettu "
+"käyttöön vai ei."
 
 #: db/seeds/settings.rb:3060
 msgid "Defines if tickets can be created via web form."
@@ -5450,7 +5283,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:5064
 msgid "Defines sync transaction backend."
-msgstr ""
+msgstr "Määrittää synkronointitapahtuman taustapään."
 
 #: db/seeds/settings.rb:5443
 msgid "Defines the CSS font information for HTML emails."
@@ -5946,22 +5779,16 @@ msgid "Delete this recent search"
 msgstr "Poista käyttäjä"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:29
-#, fuzzy
-#| msgid "Delete"
 msgid "Delete:"
-msgstr "Poista"
+msgstr "Poista:"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:20
-#, fuzzy
-#| msgid "Deleted Organization"
 msgid "Deleted Organization:"
-msgstr "Poistettu organisaatio"
+msgstr "Poistettu organisaatio:"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:38
-#, fuzzy
-#| msgid "Deleted tickets (%s in total)"
 msgid "Deleted tickets (%s in total):"
-msgstr "Poistetut tiketit (%s yhteensä)"
+msgstr "Poistetut liput (%s yhteensä):"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/delete.coffee:50
 msgid ""
@@ -5978,10 +5805,8 @@ msgid "Deletion failed."
 msgstr "Poisto epäonnistui."
 
 #: app/assets/javascripts/app/views/ticket_zoom/article_view_delivery_failed.jst.eco:4
-#, fuzzy
-#| msgid "Delivery failed"
 msgid "Delivery failed:"
-msgstr "Lähetys epäonnistui"
+msgstr "Toimitus epäonnistui:"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/DeliveryMessage.vue:13
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleDeliveryMessage.vue:33
@@ -6142,6 +5967,9 @@ msgid ""
 "community on our public platform %l? It sports a very convenient user "
 "interface based on Weblate, give it a try!"
 msgstr ""
+"Tiesitkö, että järjestelmäkäännöksiin voidaan osallistua ja niitä jakaa "
+"yhteisön kanssa julkisella alustallamme %l? Se tarjoaa erittäin kätevän "
+"käyttöliittymän, joka perustuu Weblateen; kokeile sitä!"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:36
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:165
@@ -6150,7 +5978,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/profile/language.jst.eco:12
 msgid "Did you know? You can help translating %s at:"
-msgstr ""
+msgstr "Tiesitkö? Voit auttaa kääntämään %s:a täällä:"
 
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:51
 msgid "Did you plan to include attachments with this message?"
@@ -6251,18 +6079,14 @@ msgid "Discard changes"
 msgstr "Hylkää muutokset"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleReply.vue:251
-#, fuzzy
-#| msgid "Discard your unsaved changes."
 msgid "Discard unsaved reply"
-msgstr "Hylkää tallentamattomat muutokset."
+msgstr "Hylkää tallentamaton vastaus"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailBottomBar/TicketDetailBottomBar.vue:138
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleReplyDialog.vue:146
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:148
-#, fuzzy
-#| msgid "Discard your unsaved changes."
 msgid "Discard your unsaved changes"
-msgstr "Hylkää tallentamattomat muutokset."
+msgstr "Hylkää tallentamattomat muutoksesi"
 
 #: app/assets/javascripts/app/views/knowledge_base/content.jst.eco:18
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:25
@@ -6374,7 +6198,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:592
 msgid "Don't synchronize"
-msgstr ""
+msgstr "Älä synkronoi"
 
 #: app/frontend/apps/mobile/components/CommonDialog/CommonDialog.vue:146
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:284
@@ -6459,10 +6283,8 @@ msgid "Draft could not be saved."
 msgstr "Muutoksia ei voitu tallentaa."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSharedDraftConflictDialog.vue:34
-#, fuzzy
-#| msgid "%s Object(s) are created."
 msgid "Draft could not be updated."
-msgstr "Objekti luotu"
+msgstr "Luonnosta ei voitu päivittää."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailBottomBar/TicketDetailBottomBar.vue:56
 #, fuzzy
@@ -6475,10 +6297,8 @@ msgid "Drag and drop to reorder ticket overview list items."
 msgstr ""
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabs.vue:236
-#, fuzzy
-#| msgid "Drag to reorder"
 msgid "Drag and drop to reorder your tabs."
-msgstr "Raahaa järjestelläksesi"
+msgstr "Vedä ja pudota järjestääksesi välilehdet uudelleen."
 
 #: app/assets/javascripts/app/controllers/_application_controller/reorder_modal.coffee:2
 msgid "Drag to reorder"
@@ -6830,10 +6650,8 @@ msgid "Email sent to \"%s\". Please verify your email account."
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsEmail.vue:19
-#, fuzzy
-#| msgid "Invitation sent!"
 msgid "Email sent to %s"
-msgstr "Kutsu lähetetty!"
+msgstr "Sähköposti lähetetty %s :in"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:739
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:43
@@ -6914,10 +6732,8 @@ msgid "Enable automatic assignment the first time an agent opens a ticket."
 msgstr ""
 
 #: db/seeds/settings.rb:5949
-#, fuzzy
-#| msgid "Enable Chat"
 msgid "Enable checklists."
-msgstr "Aktivoi chat-keskustelu"
+msgstr "Ota tarkistuslistat käyttöön."
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:72
 msgid "Enable debugging for implementation."
@@ -6971,7 +6787,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:425
 msgid "Enable/disable inline translations"
-msgstr ""
+msgstr "Ota sisäriviset käännökset käyttöön tai poista ne käytöstä"
 
 #: db/seeds/settings.rb:3586
 msgid "Enable/disable online chat."
@@ -7110,10 +6926,8 @@ msgstr "Encrypt"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleSecurityWarning.vue:27
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:79
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:201
-#, fuzzy
-#| msgid "Encrypt"
 msgid "Encryption:"
-msgstr "Encrypt"
+msgstr "Salaus:"
 
 #: app/assets/javascripts/app/models/webhook.coffee:7
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:16
@@ -7175,10 +6989,8 @@ msgid ""
 msgstr ""
 
 #: app/assets/javascripts/app/views/generic/input.jst.eco:2
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Enter a valid email address."
-msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
+msgstr "Syötä kelvollinen sähköpostiosoite."
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:28
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:28
@@ -7449,20 +7261,16 @@ msgid "Example Payload"
 msgstr ""
 
 #: app/assets/javascripts/app/views/api.jst.eco:17
-#, fuzzy
-#| msgid "Example"
 msgid "Example:"
-msgstr "Esimerkki"
+msgstr "Esimerkki:"
 
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:27
 msgid "Examples"
 msgstr ""
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:16
-#, fuzzy
-#| msgid "Example"
 msgid "Examples:"
-msgstr "Esimerkki"
+msgstr "Esimerkit:"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_auto_assignment.coffee:39
 msgid "Excepted users"
@@ -7508,10 +7316,8 @@ msgid "Execute import jobs."
 msgstr ""
 
 #: db/seeds/schedulers.rb:43
-#, fuzzy
-#| msgid "Execute changes on objects"
 msgid "Execute planned jobs."
-msgstr "Tee muutoksia objekteihin"
+msgstr "Suorita suunniteltuja töitä."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:22
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:34
@@ -7658,10 +7464,8 @@ msgid "Failed Tasks"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent.vue:146
-#, fuzzy
-#| msgid "Create new Customer"
 msgid "Failed to add new checklist item."
-msgstr "Luo uusi asiakas"
+msgstr "Uuden tarkistuslistan kohteen lisääminen epäonnistui."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent.vue:167
 #, fuzzy
@@ -7798,7 +7602,7 @@ msgstr "Liitetyt tiketit"
 
 #: app/assets/javascripts/app/views/translation/form.jst.eco:5
 msgid "Find translation suggestion"
-msgstr ""
+msgstr "Etsi käännösehdotus"
 
 #: app/assets/javascripts/app/views/search/index.jst.eco:6
 msgid "Find what you're looking for, e.g. \"search phrase\""
@@ -7885,10 +7689,8 @@ msgid "Folder"
 msgstr "Kansio"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:70
-#, fuzzy
-#| msgid "Folder"
 msgid "Folder:"
-msgstr "Kansio"
+msgstr "Kansio:"
 
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:59
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:80
@@ -7953,10 +7755,8 @@ msgid "Forbidden"
 msgstr ""
 
 #: app/assets/javascripts/app/models/public_link.coffee:9
-#, fuzzy
-#| msgid "Forgot password?"
 msgid "Forgot Password Screen"
-msgstr "Salasana unohtunut?"
+msgstr "Unohtuneen salasanan näyttö"
 
 #: app/assets/javascripts/app/views/login.jst.eco:53
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:129
@@ -8172,10 +7972,8 @@ msgid "Generate user-based stats."
 msgstr ""
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationRecoveryCodes.vue:133
-#, fuzzy
-#| msgid "Delete records"
 msgid "Generating recovery codes…"
-msgstr "Poista tiedot"
+msgstr "Luodaan palautuskoodit…"
 
 #: app/assets/javascripts/app/controllers/_integration/cti.coffee:264
 msgid "Generic API to integrate VoIP service provider with real-time push."
@@ -8608,10 +8406,8 @@ msgstr ""
 #: app/assets/javascripts/app/views/widget/two_factor_login/help_text.jst.eco:3
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:255
 #: app/frontend/apps/mobile/pages/authentication/views/Login.vue:144
-#, fuzzy
-#| msgid "in process"
 msgid "Having problems?"
-msgstr "Käsiteltävänä"
+msgstr "Onko ongelmia?"
 
 #: app/assets/javascripts/app/views/widget/payload_example.jst.eco:8
 msgid "Header"
@@ -8619,11 +8415,11 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:190
 msgid "Header Color"
-msgstr "Otsikon väri"
+msgstr "Ylätunnisteen väri"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:201
 msgid "Header Link Color"
-msgstr ""
+msgstr "Ylätunnisteen linkin väri"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_manager.coffee:28
 #, fuzzy
@@ -8686,6 +8482,10 @@ msgid ""
 "new translation in order to identify the source string and provide its new "
 "translation for the target language."
 msgstr ""
+"Täällä voit ohittaa minkä tahansa käännösmerkkijonon saadaksesi mukautetun "
+"ulkoasun ja tuntuman. Sekä tunnistettuja järjestelmä- että mukautettuja "
+"merkkijonoja tuetaan. Lisää vain uusi käännös tunnistaaksesi "
+"lähdemerkkijonon ja tarjotaksesi sen uuden käännöksen kohdekielelle."
 
 #: app/assets/javascripts/app/controllers/clues/first_steps_clues.coffee:14
 msgid ""
@@ -8742,19 +8542,20 @@ msgstr "Prioriteetti"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader/HighlightMenu.vue:70
 msgid "Highlight"
-msgstr ""
+msgstr "Korosta"
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:7
 msgid "Highlight color"
-msgstr ""
+msgstr "Korostusväri"
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:8
 msgid "Highlight icon"
-msgstr ""
+msgstr "Korosta kuvake"
 
 #: db/seeds/settings.rb:5604
 msgid "Highlights if the note a user is writing is public or private"
 msgstr ""
+"Korostaa, onko käyttäjän kirjoittama muistiinpano julkinen vai yksityinen"
 
 #: db/seeds/settings.rb:5601
 msgid "Hint for adding an article to an existing ticket."
@@ -8897,7 +8698,7 @@ msgstr "Ikoni"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:179
 msgid "Icon & Link Color"
-msgstr "ikonin ja linkin väri"
+msgstr "Kuvakkeen ja linkin väri"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:268
 msgid "Icon Set"
@@ -8932,6 +8733,8 @@ msgid ""
 "If a user is found in two (or more) configured LDAP sources, the last "
 "synchronisation will win."
 msgstr ""
+"Jos käyttäjä löytyy kahdesta (tai useammasta) määritetystä LDAP-lähteestä, "
+"viimeinen synkronointi voittaa."
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:54
 msgid ""
@@ -9146,10 +8949,8 @@ msgid "Import User for requesting the Zendesk API"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:216
-#, fuzzy
-#| msgid "The import was successful."
 msgid "Import finished successfully!"
-msgstr "Tuonti onnistui."
+msgstr "Tuonti suoritettu onnistuneesti!"
 
 #: app/assets/javascripts/app/views/import/index.jst.eco:5
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSelection.vue:16
@@ -9213,10 +9014,8 @@ msgid "Inbound Call"
 msgstr ""
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_channel_distribution.jst.eco:15
-#, fuzzy
-#| msgid "Inbound"
 msgid "Inbound:"
-msgstr "Sisääntuleva"
+msgstr "Sisääntuleva:"
 
 #: db/seeds/object_manager_attributes.rb:129
 msgid "Incident"
@@ -9467,10 +9266,8 @@ msgid "Internal Error"
 msgstr "Sisäinen"
 
 #: app/assets/javascripts/app/views/knowledge_base/feed_dialog.jst.eco:2
-#, fuzzy
-#| msgid "Delete Knowledge Base"
 msgid "Internal Knowledge Base feed:"
-msgstr "Poista tietopankki"
+msgstr "Sisäisen tietoalustan syöte:"
 
 #: app/models/import_job.rb:163
 msgid ""
@@ -9625,10 +9422,8 @@ msgid "Invalid video URL"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/layout_ref.coffee:650
-#, fuzzy
-#| msgid "Invitation sent!"
 msgid "Invitation sent to %s"
-msgstr "Kutsu lähetetty!"
+msgstr "Kutsu lähetetty %s:lle"
 
 #: app/assets/javascripts/app/controllers/getting_started/agent.coffee:78
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualInviteColleagues.vue:100
@@ -9722,10 +9517,8 @@ msgid "It is not possible to delete the system user."
 msgstr ""
 
 #: lib/validations/data_privacy_task_validator.rb:44
-#, fuzzy
-#| msgid "Do you really want to delete this draft?"
 msgid "It is not possible to delete your current account."
-msgstr "Haluatko todellakin poistaa tämän luonnoksen?"
+msgstr "Nykyistä tiliäsi ei voi poistaa."
 
 #: app/models/ticket.rb:277
 msgid "It is not possible to merge into an already merged ticket."
@@ -9787,7 +9580,7 @@ msgstr "Kesäkuu"
 #: app/assets/javascripts/app/views/translation/description.jst.eco:14
 msgid ""
 "Just click into the highlighted area and update the words right there. Enjoy!"
-msgstr ""
+msgstr "Napsauta vain korostettua aluetta ja päivitä sanat siinä. Nauti!"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/plugins/kayako.ts:11
 msgid "Kayako"
@@ -9847,7 +9640,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:350
 msgid "Knowledge Base Editor"
-msgstr ""
+msgstr "Tietoalustan muokkain"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/feed_dialog.coffee:6
 #, fuzzy
@@ -10039,10 +9832,8 @@ msgid "Last sync"
 msgstr "Viimeisin synkronointi"
 
 #: app/assets/javascripts/app/views/calendar/index.jst.eco:25
-#, fuzzy
-#| msgid "Last sync at"
 msgid "Last sync at:"
-msgstr "Viimeksi synkronoitu"
+msgstr "Viimeksi synkronoitu kello:"
 
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:20
 msgid "Last used"
@@ -10063,7 +9854,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/profile/appearance.jst.eco:25
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:45
 msgid "Light"
-msgstr ""
+msgstr "Vaalea"
 
 #: app/assets/javascripts/app/views/profile/notification.jst.eco:17
 msgid "Limit Groups"
@@ -10330,10 +10121,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/job.coffee:12
 #: app/assets/javascripts/app/models/trigger.coffee:11
-#, fuzzy
-#| msgid "Bulk action executed!"
 msgid "Localization of execution changes"
-msgstr "Massa-ajo suoritettu!"
+msgstr "Toteutusmuutosten paikantaminen"
 
 #: app/assets/javascripts/app/views/generic/calender_preview.jst.eco:6
 #: app/assets/javascripts/app/views/profile/devices.jst.eco:13
@@ -10553,10 +10342,8 @@ msgid "Manage chat channel of your system."
 msgstr ""
 
 #: db/seeds/permissions.rb:198
-#, fuzzy
-#| msgid "Manage %s Settings"
 msgid "Manage core system settings."
-msgstr "Hallinnoi %s asetuksia"
+msgstr "Hallinnoi järjestelmän ydinasetuksia."
 
 #: db/seeds/permissions.rb:258
 msgid "Manage core workflows of your system."
@@ -10738,7 +10525,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:264
 msgid "Manage translations of your system."
-msgstr ""
+msgstr "Hallinnoi järjestelmäsi käännöksiä."
 
 #: db/seeds/permissions.rb:78
 msgid "Manage triggers of your system."
@@ -11255,10 +11042,8 @@ msgid "Most recent activity"
 msgstr "Viimeisimmät tapahtumat"
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:17
-#, fuzzy
-#| msgid "Move all from \"%s\" to \"%s\""
 msgid "Move all from \"%s\" to \"%s\":"
-msgstr "Siirrä kaikki \"%s\":stä \"%s\":ään"
+msgstr "Siirrä kaikki \"%s\":sta \"%s\":in:"
 
 #: app/frontend/shared/form/i18n/locales.ts:54
 #, fuzzy
@@ -11658,10 +11443,8 @@ msgid "New Ticket: %s"
 msgstr "Uusi tiketti"
 
 #: app/assets/javascripts/app/views/translation/index.jst.eco:11
-#, fuzzy
-#| msgid "Translations"
 msgid "New Translation"
-msgstr "Käännökset"
+msgstr "Uusi käännös"
 
 #: app/assets/javascripts/app/controllers/trigger.coffee:27
 msgid "New Trigger"
@@ -12109,7 +11892,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/knowledge_base/content.jst.eco:2
 msgid "No translation for this locale available"
-msgstr "Tälle lokaalille ei ole saatavana käännöksiä"
+msgstr "Käännöstä ei saatavilla tälle maa-asetukselle"
 
 #: app/models/ticket.rb:400
 msgid "No triggers active"
@@ -12262,10 +12045,8 @@ msgid "Note - default visibility"
 msgstr "Muistiinpano - oletusnäkyvyys"
 
 #: app/assets/javascripts/app/views/generic/object_import/index.jst.eco:28
-#, fuzzy
-#| msgid "Note"
 msgid "Note:"
-msgstr "Huomautus"
+msgstr "Huomautus:"
 
 #: app/assets/javascripts/app/views/system_report.jst.eco:9
 msgid ""
@@ -12296,10 +12077,8 @@ msgstr "Huomautus"
 #: app/assets/javascripts/app/views/google/list.jst.eco:16
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:17
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:17
-#, fuzzy
-#| msgid "Notice"
 msgid "Notice:"
-msgstr "Huomautus"
+msgstr "Tiedotus:"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:59
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:24
@@ -12501,10 +12280,8 @@ msgid "On %s, %s wrote:"
 msgstr "%s, %s kirjoitti:"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:10
-#, fuzzy
-#| msgid "Create a translation"
 msgid "On-screen Translation"
-msgstr "Luo käännös"
+msgstr "Näytöllä käännös"
 
 #: app/assets/javascripts/app/models/macro.coffee:8
 msgid "Once completed…"
@@ -12542,6 +12319,8 @@ msgid ""
 "Only %s% of this language is already translated. Please help to improve "
 "Zammad and complete the translation."
 msgstr ""
+"Vain %s % tästä kielestä on jo käännetty. Auta parantamaan Zammadia ja "
+"viimeistele käännös."
 
 #: db/seeds/settings.rb:1983
 #, fuzzy
@@ -12748,7 +12527,7 @@ msgstr "Seuraava välilehdessä"
 
 #: app/models/system_report/plugin/os.rb:6
 msgid "Operating system"
-msgstr ""
+msgstr "Käyttöjärjestelmä"
 
 #: app/assets/javascripts/app/views/agent_ticket_view/content.jst.eco:7
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:222
@@ -12761,16 +12540,12 @@ msgid "Options"
 msgstr "Asetukset"
 
 #: app/models/object_manager/attribute/data_option_validator.rb:59
-#, fuzzy
-#| msgid "%s required!"
 msgid "Options are required."
-msgstr "%s vaadittu!"
+msgstr "Vaihtoehdot vaaditaan."
 
 #: app/models/object_manager/attribute/data_option_validator.rb:53
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Options or relation is required."
-msgstr "Käyttäjä vaadittu!"
+msgstr "Vaihtoehdot tai suhde vaaditaan."
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:8
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistTemplates.vue:22
@@ -12789,10 +12564,8 @@ msgstr "Tai tuo toisesta järjestelmästä."
 
 #: app/frontend/apps/desktop/pages/authentication/components/LoginThirdParty.vue:24
 #: app/frontend/apps/mobile/pages/authentication/components/LoginThirdParty.vue:24
-#, fuzzy
-#| msgid "or sign in using"
 msgid "Or sign in using"
-msgstr "tai kirjaudu käyttäen"
+msgstr "Tai kirjaudu sisään käyttäen"
 
 #: app/frontend/apps/desktop/pages/authentication/components/LoginTwoFactorMethods.vue:51
 #: app/frontend/apps/mobile/pages/authentication/components/LoginTwoFactorMethods.vue:36
@@ -12935,10 +12708,8 @@ msgid "Original Formatting"
 msgstr "Alkuperäinen muotoilu"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:81
-#, fuzzy
-#| msgid "Original Formatting"
 msgid "Original Translation"
-msgstr "Alkuperäinen muotoilu"
+msgstr "Alkuperäinen käännös"
 
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:80
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:97
@@ -13012,10 +12783,8 @@ msgid "Outbound Call: %s"
 msgstr "Lähtevä puhelu"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_channel_distribution.jst.eco:16
-#, fuzzy
-#| msgid "Outbound"
 msgid "Outbound:"
-msgstr "Ulosmenevä"
+msgstr "Ulosmenevä:"
 
 #: app/assets/javascripts/app/lib/app_post/browser.coffee:119
 msgid "Outdated Browser"
@@ -13652,7 +13421,7 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:54
 msgid "Prefer color scheme as indicated by the operating system."
-msgstr ""
+msgstr "Suosi käyttöjärjestelmän ilmoittamaa väriteemaa."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:34
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:321
@@ -13749,10 +13518,8 @@ msgid "Previous year"
 msgstr "Edellinen"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:49
-#, fuzzy
-#| msgid "Deleted tickets (%s in total)"
 msgid "Previously owned tickets (%s in total):"
-msgstr "Poistetut tiketit (%s yhteensä)"
+msgstr "Aiemmin omistetut liput (%s yhteensä):"
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/recovery_codes.coffee:7
 msgid "Print"
@@ -13963,16 +13730,12 @@ msgid "Raw"
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:19
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Reacted to message %s from %s"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "Reagoi viestiin %s %s:lta"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:20
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Reacted with %s to message %s from %s"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "Reagoi %s:lla viestiin %s %s:lta"
 
 #: app/assets/javascripts/app/models/group.coffee:44
 #: app/frontend/apps/desktop/components/Form/fields/FieldGroupPermissions/FieldGroupPermissionsInput.vue:40
@@ -14292,10 +14055,8 @@ msgid "Remove two-factor authentication"
 msgstr "Tunnistaudu"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:16
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Removed reaction from message %s from %s"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "Poistettu reaktio viestistä %s %s:lta"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
 msgid "Removes any hyperlink"
@@ -14499,10 +14260,8 @@ msgid "Reset overview order"
 msgstr "Alusta salasana"
 
 #: app/assets/javascripts/app/models/setting.coffee:60
-#, fuzzy
-#| msgid "Registration successful!"
 msgid "Reset successful."
-msgstr "Rekisteröinti onnistui!"
+msgstr "Nollaus onnistui."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:219
 #, fuzzy
@@ -14696,10 +14455,8 @@ msgid "Roles are …"
 msgstr ""
 
 #: app/assets/javascripts/app/views/user.jst.eco:20
-#, fuzzy
-#| msgid "Roles"
 msgid "Roles:"
-msgstr "Roolit"
+msgstr "Roolit:"
 
 #: app/assets/javascripts/app/views/google/list.jst.eco:104
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:111
@@ -15083,17 +14840,13 @@ msgstr "Etsi…"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldRecipient/index.ts:24
 #: app/frontend/shared/components/Form/fields/FieldRecipient/features/setAutoCompleteBehavior.ts:33
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Search or enter email address…"
-msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
+msgstr "Hae tai syötä sähköpostiosoite…"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldRecipient/index.ts:19
 #: app/frontend/shared/components/Form/fields/FieldRecipient/features/setAutoCompleteBehavior.ts:25
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Search or enter phone number…"
-msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
+msgstr "Hae tai syötä puhelinnumero…"
 
 #: lib/external_data_source/errors.rb:108
 msgid ""
@@ -15254,17 +15007,13 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/security_keys.coffee:204
 #: app/frontend/apps/desktop/entities/two-factor-configuration/plugins/security-keys.ts:54
-#, fuzzy
-#| msgid "Signature verification failed!"
 msgid "Security key setup failed."
-msgstr "Allekirjoituksen varmistus epäonnistui!"
+msgstr "Turva-avaimen määritys epäonnistui."
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_login/method/security_keys.coffee:48
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:43
-#, fuzzy
-#| msgid "Signature verification failed!"
 msgid "Security key verification failed."
-msgstr "Allekirjoituksen varmistus epäonnistui!"
+msgstr "Turva-avaimen tarkistus epäonnistui."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:389
 #, fuzzy
@@ -15289,7 +15038,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBody.vue:129
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:280
 msgid "See less"
-msgstr "Näe enemmän"
+msgstr "Näytä vähemmän"
 
 #: app/assets/javascripts/app/controllers/_ui_element/ticket_duplicate_detection.coffee:68
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:443
@@ -15301,7 +15050,7 @@ msgstr "Näe enemmän"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMore.vue:17
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:280
 msgid "See more"
-msgstr "Näe vähemmän"
+msgstr "Näytä enemmän"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:9
 msgid ""
@@ -16024,10 +15773,8 @@ msgstr "Kirjaudu sisään"
 #: app/assets/javascripts/app/views/login.jst.eco:71
 #: app/frontend/apps/desktop/pages/authentication/components/LoginThirdParty.vue:25
 #: app/frontend/apps/mobile/pages/authentication/components/LoginThirdParty.vue:25
-#, fuzzy
-#| msgid "or sign in using"
 msgid "Sign in using"
-msgstr "tai kirjaudu käyttäen"
+msgstr "Kirjaudu sisään käyttäen"
 
 #: app/assets/javascripts/app/controllers/logout.coffee:6
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar/LeftSidebar/AvatarMenu/plugins/logout.ts:7
@@ -16044,10 +15791,8 @@ msgstr "Rekisteröidy"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleSecurityWarning.vue:25
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:87
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:192
-#, fuzzy
-#| msgid "Sign"
 msgid "Sign:"
-msgstr "Allekirjoita"
+msgstr "Allekirjoita:"
 
 #: app/assets/javascripts/app/controllers/_channel/_email_signature.coffee:49
 #: app/assets/javascripts/app/models/group.coffee:13
@@ -16061,10 +15806,8 @@ msgstr "Allekirjoituksen varmistus epäonnistui!"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:96
 #: app/frontend/shared/composables/useArticleSecurity.ts:108
-#, fuzzy
-#| msgid "Signature verification failed!"
 msgid "Signature verification failed! %s"
-msgstr "Allekirjoituksen varmistus epäonnistui!"
+msgstr "Allekirjoituksen tarkistus epäonnistui! %s"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:21
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:21
@@ -16225,10 +15968,14 @@ msgid ""
 "Some system settings have changed, Zammad is restarting. Please wait until "
 "Zammad is back again."
 msgstr ""
+"Jotkin järjestelmäasetukset ovat muuttuneet, Zammad käynnistyy uudelleen. "
+"Odotathan, kunnes Zammad on taas palannut."
 
 #: app/assets/javascripts/app/controllers/_plugin/maintenance.coffee:75
 msgid "Some system settings have changed, please restart all Zammad processes!"
 msgstr ""
+"Jotkin järjestelmäasetukset ovat muuttuneet, käynnistä kaikki Zammad-"
+"prosessit uudelleen!"
 
 #: app/frontend/shared/errors/useErrorHandler.ts:35
 msgid "Something went wrong."
@@ -16365,23 +16112,17 @@ msgid "Start typing to search in Knowledge Base…"
 msgstr "Kirjoita haku tietämyskantaan…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldTags/FieldTagsWrapper.vue:43
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Start typing to search or enter a new tag…"
-msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
+msgstr "Aloita kirjoittaminen hakeaksesi tai syötä uusi tunniste…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldRecipient/FieldRecipientWrapper.vue:47
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Start typing to search or enter a phone number…"
-msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
+msgstr "Aloita kirjoittaminen hakeaksesi tai syötä puhelinnumero…"
 
 #: app/frontend/apps/desktop/components/Form/fields/FieldCustomer/FieldCustomerWrapper.vue:108
 #: app/frontend/apps/desktop/components/Form/fields/FieldRecipient/FieldRecipientWrapper.vue:48
-#, fuzzy
-#| msgid "Enter your username or email address"
 msgid "Start typing to search or enter an email address…"
-msgstr "Anna käyttäjätunnus tai sähköpostiosoite"
+msgstr "Aloita kirjoittaminen hakeaksesi tai syötä sähköpostiosoite…"
 
 #: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:73
 #: app/frontend/apps/desktop/components/Form/fields/FieldTags/FieldTagsWrapper.vue:41
@@ -16400,16 +16141,12 @@ msgid "Starting Zammad"
 msgstr "Käynnistetään Zammad"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualFinish.vue:25
-#, fuzzy
-#| msgid "Starting Zammad"
 msgid "Starting Zammad…"
-msgstr "Käynnistetään Zammad"
+msgstr "Käynnistetään Zammad…"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:211
-#, fuzzy
-#| msgid "Starting Zammad"
 msgid "Starting import…"
-msgstr "Käynnistetään Zammad"
+msgstr "Aloitetaan tuontia…"
 
 #: app/assets/javascripts/app/models/chat_sessions.coffee:8
 #: app/assets/javascripts/app/models/data_privacy_task.coffee:7
@@ -16449,10 +16186,8 @@ msgstr "Tila"
 
 #: app/assets/javascripts/app/views/generic/error/generic.jst.eco:3
 #: app/assets/javascripts/app/views/generic/error/placeholder.jst.eco:3
-#, fuzzy
-#| msgid "Status Code"
 msgid "Status Code:"
-msgstr "Tilakoodi"
+msgstr "Tilakoodi:"
 
 #: app/frontend/apps/desktop/pages/guided-setup/routes.ts:224
 #, fuzzy
@@ -16465,10 +16200,8 @@ msgid "Status Type"
 msgstr "Tilan tyyppi"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_idoit.jst.eco:10
-#, fuzzy
-#| msgid "Status"
 msgid "Status:"
-msgstr "Tila"
+msgstr "Tila:"
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:49
@@ -16661,12 +16394,12 @@ msgstr ""
 
 #: db/seeds/schedulers.rb:133
 msgid "Sync calendars with iCal feeds."
-msgstr ""
+msgstr "Synkronoi kalenterit iCal-syötteiden kanssa."
 
 #: app/assets/javascripts/app/views/profile/appearance.jst.eco:31
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:52
 msgid "Sync with computer"
-msgstr ""
+msgstr "Synkronoi tietokoneen kanssa"
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:3
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:37
@@ -16707,10 +16440,8 @@ msgstr "Järjestelmän URL"
 
 #: app/assets/javascripts/app/controllers/_ui_element/language.coffee:13
 #: app/assets/javascripts/app/controllers/_ui_element/timezone.coffee:20
-#, fuzzy
-#| msgid "Restore Defaults"
 msgid "System default - %s"
-msgstr "Palauta oletusasetukset"
+msgstr "Järjestelmän oletus - %s"
 
 #: app/models/knowledge_base.rb:19
 msgid ""
@@ -16724,6 +16455,9 @@ msgid ""
 "public platform %l. It sports a very convenient user interface based on "
 "Weblate, give it a try!"
 msgstr ""
+"Järjestelmäkäännöksiin voidaan osallistua ja niitä jakaa yhteisön kanssa "
+"julkisella alustallamme %l. Siinä on erittäin kätevä Weblate-pohjainen "
+"käyttöliittymä; kokeile sitä!"
 
 #: db/seeds/settings.rb:5623
 msgid ""
@@ -16925,25 +16659,22 @@ msgid "Text needed"
 msgstr ""
 
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:47
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Text or attachment is required"
-msgstr "Käyttäjä vaadittu!"
+msgstr "Teksti tai liite vaaditaan"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/item_edit.jst.eco:6
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItem.vue:147
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Text or ticket identifier"
-msgstr "Käyttäjä vaadittu!"
+msgstr "Teksti tai lipun tunniste"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:12
 msgid "Text with disabled inline translations looks like"
 msgstr ""
+"Tältä näyttää teksti, jonka sisäriviset käännökset on poistettu käytöstä"
 
 #: app/assets/javascripts/app/views/translation/description.jst.eco:13
 msgid "Text with enabled inline translations looks like"
-msgstr ""
+msgstr "Tältä näyttää teksti, jonka sisäriviset käännökset on otettu käyttöön"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:37
 #, fuzzy
@@ -17133,10 +16864,8 @@ msgid "The access token could not be created."
 msgstr "Objekti luotu"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLinkedAccounts.vue:164
-#, fuzzy
-#| msgid "The test run was successful."
 msgid "The account link was successfully removed!"
-msgstr "Testiajo onnistui."
+msgstr "Tilin linkki poistettiin onnistuneesti!"
 
 #: app/controllers/reports_controller.rb:138
 #, fuzzy
@@ -18449,10 +18178,8 @@ msgid "There is no Google app configured."
 msgstr "Yhtään agenttia ei ole online."
 
 #: lib/external_credential/twitter.rb:11
-#, fuzzy
-#| msgid "No Twitter app configured!"
 msgid "There is no Twitter app configured."
-msgstr "Twitter sovellusta ei konfiguroitu!"
+msgstr "Twitter-sovellusta ei ole määritetty."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:213
 msgid "There is no agent online."
@@ -19090,10 +18817,8 @@ msgid ""
 msgstr ""
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:24
-#, fuzzy
-#| msgid "User (censored)"
 msgid "Ticket (censored):"
-msgstr "Käyttäjä (sensuroitu)"
+msgstr "Lippu (sensuroitu):"
 
 #: db/seeds/permissions.rb:215
 #, fuzzy
@@ -19649,10 +19374,8 @@ msgid "Time zone"
 msgstr "Aikavyöhyke"
 
 #: app/models/setting/validation/time_zone.rb:6
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Time zone is required."
-msgstr "Käyttäjä vaadittu!"
+msgstr "Aikavyöhyke vaaditaan."
 
 #: app/assets/javascripts/app/views/generic/sla_times.jst.eco:33
 msgid "Timeframe between agent updates or for an agent to respond."
@@ -19755,6 +19478,9 @@ msgid ""
 "To make translations easier you can enable and disable the inline "
 "translation feature by pressing \"%s\" at any time."
 msgstr ""
+"Käännösten tekemisen helpottamiseksi voit ottaa tekstinsisäisen "
+"käännösominaisuuden käyttöön tai poistaa sen käytöstä painamalla \"%s\" "
+"milloin tahansa."
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/security_keys/index.jst.eco:3
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:401
@@ -19810,7 +19536,7 @@ msgstr "Ylempi"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:443
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "Tumma tila päälle/pois päältä"
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/FieldEditorTableMenu.vue:197
 #, fuzzy
@@ -19932,22 +19658,16 @@ msgid "Transfer conversation to another chat:"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:227
-#, fuzzy
-#| msgid "Translations"
 msgid "Translate field contents"
-msgstr "Käännökset"
+msgstr "Käännä kentän sisältö"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:3
-#, fuzzy
-#| msgid "Translations"
 msgid "Translation"
-msgstr "Käännökset"
+msgstr "Käännös"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:80
-#, fuzzy
-#| msgid "Translations"
 msgid "Translation Source"
-msgstr "Käännökset"
+msgstr "Käännöslähde"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:414
 #: app/assets/javascripts/app/controllers/translation.coffee:3
@@ -19976,10 +19696,8 @@ msgid "Triggered because ticket was escalated"
 msgstr "%s tiketeistäni eskaloitui."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/time-trigger-performed.ts:24
-#, fuzzy
-#| msgid "Ticket |%s| will escalate soon!"
 msgid "Triggered because ticket will escalate soon"
-msgstr "Tiketti |%s| eskaloituu pian!"
+msgstr "Laukaistu, koska tukipyyntö eskaloituu pian"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/time-trigger-performed.ts:29
 #, fuzzy
@@ -20238,10 +19956,8 @@ msgid "Type"
 msgstr "Tyyppi"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_idoit.jst.eco:11
-#, fuzzy
-#| msgid "Type"
 msgid "Type:"
-msgstr "Tyyppi"
+msgstr "Tyyppi:"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:44
 msgid "UID"
@@ -20407,6 +20123,8 @@ msgid ""
 "Up to %s% of this language is already translated. Please help to make Zammad "
 "even better and complete the translation."
 msgstr ""
+"Jopa %s % tästä kielestä on jo käännetty. Auta tekemään Zammadista entistä "
+"parempi ja viimeistele käännös."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:89
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:88
@@ -20726,7 +20444,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:5
 msgid "Use this switch to start synchronization of your ldap sources."
-msgstr ""
+msgstr "Käytä tätä kytkintä aloittaaksesi ldap-lähteiden synkronoinnin."
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:141
 msgid "Used anywhere"
@@ -20796,10 +20514,8 @@ msgid "User"
 msgstr "Käyttäjä"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:16
-#, fuzzy
-#| msgid "User (censored)"
 msgid "User (censored):"
-msgstr "Käyttäjä (sensuroitu)"
+msgstr "Käyttäjä (sensuroitu):"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:47
 msgid "User Filter"
@@ -20992,10 +20708,8 @@ msgstr ""
 #: app/assets/javascripts/app/views/integration/exchange_summary.jst.eco:4
 #: app/assets/javascripts/app/views/integration/ldap_last_import.jst.eco:36
 #: app/assets/javascripts/app/views/integration/ldap_summary.jst.eco:4
-#, fuzzy
-#| msgid "Users"
 msgid "Users:"
-msgstr "Käyttäjät"
+msgstr "Käyttäjät:"
 
 #: app/assets/javascripts/app/models/organization.coffee
 msgid ""
@@ -21072,35 +20786,25 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmail.vue:171
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualEmailNotification.vue:92
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying and saving your configuration…"
-msgstr "Estä ilmoitukset"
+msgstr "Tarkistetaan ja tallennetaan kokoonpanoasi…"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSource.vue:45
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying and saving your import configuration…"
-msgstr "Estä ilmoitukset"
+msgstr "Tarkistetaan ja tallennetaan tuontimäärityksiäsi…"
 
 #: app/assets/javascripts/app/views/widget/two_factor_login/security_keys.jst.eco:24
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:15
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying key information…"
-msgstr "Estä ilmoitukset"
+msgstr "Tarkistetaan keskeisiä tietoja…"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmail.vue:179
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying your configuration…"
-msgstr "Estä ilmoitukset"
+msgstr "Tarkistetaan kokoonpanoasi…"
 
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:54
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Verifying your email…"
-msgstr "Estä ilmoitukset"
+msgstr "Tarkistetaan sähköpostiosoitettasi…"
 
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:53
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:30
@@ -21355,11 +21059,11 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:49
 msgid "What values of %s should be synced to organization."
-msgstr ""
+msgstr "Mitkä %s:n arvot tulee synkronoida organisaatioon."
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:24
 msgid "What values of %s should be synced to users."
-msgstr ""
+msgstr "Mitkä %s:n arvot tulee synkronoida käyttäjille."
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:37
 #: app/assets/javascripts/app/views/whatsapp/index.jst.eco:3
@@ -21679,7 +21383,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:38
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:167
 msgid "You can help translating Zammad."
-msgstr ""
+msgstr "Voit auttaa Zammadin kääntämisessä."
 
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:118
 #: app/assets/javascripts/app/views/channel/email_archive.jst.eco:9
@@ -21729,6 +21433,8 @@ msgid ""
 "locales. Add a language below, then select it in the Knowledge Base Editor "
 "to add your translations."
 msgstr ""
+"Voit tarjota tietoalustastasi erilaisia versioita eri kielille. Lisää kieli "
+"alla ja lisää käännökset valitsemalla se Tietoalustan muokkaimessa."
 
 #: app/assets/javascripts/app/views/login.jst.eco:98
 msgid "You can request your password"
@@ -21942,10 +21648,8 @@ msgid "Your Logo"
 msgstr "Logo"
 
 #: public/assets/form/form.js:45
-#, fuzzy
-#| msgid "Message"
 msgid "Your Message…"
-msgstr "Viesti"
+msgstr "Viestisi…"
 
 #: public/assets/form/form.js:28
 #, fuzzy
@@ -21996,10 +21700,8 @@ msgid "Your avatar"
 msgstr "Koko nimi"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:235
-#, fuzzy
-#| msgid "Woo hoo! Your password has been changed!"
 msgid "Your avatar has been changed."
-msgstr "Loistavaa! Salasanasi on vaihdettu!!"
+msgstr "Avatarisi on vaihdettu."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAvatar.vue:267
 #, fuzzy
@@ -22039,10 +21741,8 @@ msgid "Your language"
 msgstr "Valitse kielesi."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:28
-#, fuzzy
-#| msgid "%s Object(s) are created."
 msgid "Your theme has been updated."
-msgstr "Objekti luotu"
+msgstr "Teemasi on päivitetty."
 
 #: app/assets/javascripts/app/controllers/customer_ticket_create.coffee:46
 msgid ""
@@ -22248,10 +21948,8 @@ msgid "at"
 msgstr ""
 
 #: app/models/object_manager/attribute.rb:590
-#, fuzzy
-#| msgid "A user is required!"
 msgid "at least one letter is required"
-msgstr "Käyttäjä vaadittu!"
+msgstr "vähintään yksi kirjain vaaditaan"
 
 #: app/assets/javascripts/app/lib/app_post/utils.coffee:1058
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:9
@@ -22917,7 +22615,7 @@ msgstr "ei ole"
 
 #: lib/validations/color_validator.rb:13
 msgid "is not a color. Only Hex, RGB and HSL colors are supported."
-msgstr ""
+msgstr "ei ole väri. Vain heksadesimaali-, RGB- ja HSL-värejä tuetaan."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_accounting_modal.coffee:93
 #, fuzzy
@@ -22944,10 +22642,8 @@ msgstr ""
 msgid "is required but missing"
 msgstr ""
 
-#, fuzzy
-#| msgid "%s required!"
 msgid "is reserved"
-msgstr "%s vaadittu!"
+msgstr "on varattu"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:113
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:101
@@ -23057,10 +22753,8 @@ msgstr "tulosta löydetty"
 #: app/assets/javascripts/app/views/cti/caller_log.jst.eco:69
 #: app/assets/javascripts/app/views/cti/caller_log_avatar.jst.eco:2
 #: app/assets/javascripts/app/views/navigation/menu_cti_ringing.jst.eco:23
-#, fuzzy
-#| msgid "maybe"
 msgid "maybe:"
-msgstr "ehkä"
+msgstr "ehkä:"
 
 #: db/seeds/ticket_state_types.rb:8 db/seeds/ticket_states.rb:29
 msgid "merged"
@@ -23316,16 +23010,12 @@ msgid "reached"
 msgstr "saavutti"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:140
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "reacted to message from %s '%s'"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "reagoi viestiin %s '%s':lta"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:134
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "reacted with a %s to message from %s '%s'"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "reagoi %s :lla viestiin %s '%s':lta"
 
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:153
 #: app/frontend/shared/entities/ticket/channel/composables/useWhatsapp.ts:11
@@ -23367,10 +23057,8 @@ msgid "remove option"
 msgstr "poista vaihtoehto"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:143
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "removed reaction to message from %s '%s'"
-msgstr "%s päättyi vaihtuen |%s|!"
+msgstr "poisti reaktion viestiin %s '%s':lta"
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketOverviewsSidebar.vue:30
 #, fuzzy
@@ -23394,10 +23082,8 @@ msgid "reply all"
 msgstr "vastaa"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:111
-#, fuzzy
-#| msgid "%s required!"
 msgid "required"
-msgstr "%s vaadittu!"
+msgstr "vaaditaan"
 
 #: db/seeds/settings.rb:2357
 msgid "right"
@@ -23451,7 +23137,7 @@ msgstr "Luo uusi asiakas"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/devices.ts:24
 msgid "session,sessions,computer,computers,browser,browsers,access"
-msgstr ""
+msgstr "istunto, istunnot, tietokone, tietokoneet, selain, selaimet, pääsy"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:171
 msgid "set fixed to"
@@ -23579,7 +23265,7 @@ msgstr "telegram henkilökohtainen viesti"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/appearance.ts:24
 msgid "theme,color,style,dark mode,night mode,light mode"
-msgstr ""
+msgstr "teema, väri, tyyli, tumma tila, yötila, vaalea tila"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:123
 #, fuzzy
@@ -23640,7 +23326,7 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/locale.ts:24
 msgid "translation,locale,localization"
-msgstr ""
+msgstr "käännös,maa-asetus,lokalisointi"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:103
 msgid "trigger '%s' was performed because pending reminder was reached"

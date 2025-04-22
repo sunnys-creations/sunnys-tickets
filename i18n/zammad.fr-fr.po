@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-28 16:51+0000\n"
-"Last-Translator: Solenne Lefevre <solenne.lefevre@data-bene.io>\n"
+"PO-Revision-Date: 2025-04-17 22:00+0000\n"
+"Last-Translator: Anael Mobilia <contrib@anael.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/fr/>\n"
 "Language: fr-fr\n"
@@ -4142,6 +4142,8 @@ msgid ""
 "Could not create user and send verification email because import_mode "
 "setting is on."
 msgstr ""
+"Impossible de créer un utilisateur et d'envoyer un e-mail de vérification "
+"car le paramètre import_mode est activé."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
@@ -16938,11 +16940,11 @@ msgid "The email address |%s| is already in use by another account."
 msgstr "L'adresse e-mail |%s| est déjà utilisé par un autre compte."
 
 #: app/services/service/user/password_reset/send.rb:41
-#, fuzzy
-#| msgid "The email could not be sent to the user."
 msgid ""
 "The email could not be sent to the user because import_mode setting is on."
-msgstr "L'email n'a pas pu être envoyé à l'utilisateur."
+msgstr ""
+"L'e-mail n'a pas pu être envoyé à l'utilisateur car le paramètre import_mode "
+"est activé."
 
 #: app/services/service/auth/send_admin_token.rb:39
 #: app/services/service/user/password_reset/update.rb:42

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-28 16:51+0000\n"
-"Last-Translator: Christian Gravgaard <cg@bizperformer.com>\n"
+"PO-Revision-Date: 2025-04-22 11:36+0000\n"
+"Last-Translator: easyjoh <jh@easyplusplus.com>\n"
 "Language-Team: Danish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/da/>\n"
 "Language: da\n"
@@ -583,7 +583,7 @@ msgstr "%s personer"
 #: app/assets/javascripts/app/models/ticket_article.coffee:53
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/ticket-article.ts:31
 msgid "%s reacted with a %s to message from %s |%s|"
-msgstr "%s reagerede med en %s på en besked fra %s |%s|."
+msgstr "%s reagerede med en %s på en besked fra %s |%s|"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:49
 msgid ""
@@ -1010,11 +1010,11 @@ msgstr "API Kodeord Adgang"
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:32
 msgid "API Token"
-msgstr "API Nøgle"
+msgstr "API-token"
 
 #: db/seeds/settings.rb:3510
 msgid "API Token Access"
-msgstr "API Nøgle Adgang"
+msgstr "API-token Adgang"
 
 #: lib/whatsapp/webhook/payload.rb:22
 msgid "API error."
@@ -1028,7 +1028,7 @@ msgstr "API-fejl."
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceFreshdesk.vue:55
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceZendesk.vue:44
 msgid "API token"
-msgstr "API nøgle"
+msgstr "API-token"
 
 #: app/assets/javascripts/app/controllers/_channel/form.coffee:48
 #: app/assets/javascripts/app/views/channel/form.jst.eco:127
@@ -1150,7 +1150,7 @@ msgstr "Regnskabsmæssig tidsenhed"
 #: app/assets/javascripts/app/views/twitter/list.jst.eco:3
 #: app/assets/javascripts/app/views/whatsapp/index.jst.eco:3
 msgid "Accounts"
-msgstr "Brugere"
+msgstr "Konti"
 
 #: app/assets/javascripts/app/controllers/_application_controller/table.coffee:759
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:115
@@ -1525,7 +1525,7 @@ msgstr "Tilføj denne klasse til en knap på din side, der skal åbne chatten."
 
 #: app/controllers/first_steps_controller.rb:109
 msgid "Additional Channels"
-msgstr "Canales adicionales"
+msgstr "Yderligere kanaler"
 
 #: db/seeds/settings.rb:3343
 msgid "Additional follow-up detection"
@@ -2061,7 +2061,7 @@ msgstr "Arkivere E-mails"
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:289
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:57
 msgid "Archive cut-off time"
-msgstr "Arkivets lukketid"
+msgstr "Arkivets cut-off-tidspunkt"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:738
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:42
@@ -2075,7 +2075,7 @@ msgstr "Arkivere e-mails"
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:290
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:66
 msgid "Archive ticket target state"
-msgstr "Arkivsagers målstatus"
+msgstr "Arkivsagens status"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:113
 msgid "Archived"
@@ -2192,10 +2192,8 @@ msgid "Are you sure? Your recent searches will get lost."
 msgstr "Er du sikker? Dine seneste søgninger vil gå tabt."
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:109
-#, fuzzy
-#| msgid "Are you sure? You have changes that will get lost."
 msgid "Are you sure? Your recently viewed items will get lost."
-msgstr "Er du sikker? Der er lavet ændringer, som vi gå tabt."
+msgstr "Er du sikker? Dine senest viste vil gå tabt."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:54
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:11
@@ -2211,20 +2209,16 @@ msgid "Article - visibility confirmation dialog"
 msgstr "Artikel - bekræftelsesdialog for synlighed"
 
 #: app/assets/javascripts/app/controllers/widget/placeholder.coffee:96
-#, fuzzy
-#| msgid "Article Type"
 msgid "Article > Text (HTML)"
-msgstr "Artikel Type"
+msgstr "Artikel > Tekst (HTML)"
 
 #: lib/excel_sheet/ticket.rb:73
 msgid "Article Count"
 msgstr "Antal Artikler"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:12
-#, fuzzy
-#| msgid "Application"
 msgid "Article Language Detection"
-msgstr "Applikation"
+msgstr "Artikel sprog-detektering"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:289
 msgid "Article actions"
@@ -2236,10 +2230,8 @@ msgstr "Artikel kunne ikke slettes."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubble.vue:128
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleHeader.vue:27
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Article meta information"
-msgstr "Bloker Notifikationer"
+msgstr "Artikel meta-information"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:77
 #: app/frontend/shared/composables/useArticleSecurity.ts:93
@@ -2282,10 +2274,8 @@ msgid "Assignee"
 msgstr "Tildelt"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerList/IssueTrackerItem.vue:79
-#, fuzzy
-#| msgid "Assignee"
 msgid "Assignees"
-msgstr "Tildelt"
+msgstr "Tildelte"
 
 #: db/seeds/object_manager_attributes.rb:2087
 msgid "Assignment Timeout"
@@ -2306,16 +2296,12 @@ msgstr ""
 "den. Sag vil blive vist som uautoriseret."
 
 #: app/models/user.rb:630
-#, fuzzy
-#| msgid ""
-#| "At least one identifier (firstname, lastname, phone or email) for user is "
-#| "required."
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
 msgstr ""
-"Mindst en oplysning (fornavn, efternavn, telefon eller mail) er påkrævet for "
-"bruger."
+"Mindst en oplysning (fornavn, efternavn, telefon, mobil eller mail) er "
+"påkrævet for bruger."
 
 #: app/models/postmaster_filter.rb:29
 msgid "At least one match rule is required, but none was provided."
@@ -2334,10 +2320,8 @@ msgid "Attach another file"
 msgstr "Vedhæft ekstra fil"
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:188
-#, fuzzy
-#| msgid "Attach files"
 msgid "Attach file"
-msgstr "Vedhæft filer"
+msgstr "Vedhæft fil"
 
 #: app/frontend/shared/components/Form/fields/FieldFile/FieldFileInput.vue:191
 msgid "Attach files"
@@ -2432,18 +2416,14 @@ msgstr "Attributter"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:32
 #: db/seeds/settings.rb:2721
-#, fuzzy
-#| msgid "Attributes"
 msgid "Attributes to compare"
-msgstr "Attributter"
+msgstr "Attributter til sammenligning"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/whatsapp_reply.coffee:60
 #: app/frontend/shared/entities/ticket-article/action/plugins/whatsapp.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:8
-#, fuzzy
-#| msgid "No filter."
 msgid "Audio file"
-msgstr "Ingen filtre"
+msgstr "Lydfil"
 
 #: app/assets/javascripts/app/controllers/_ui_element/basedate.coffee:161
 #: app/assets/javascripts/app/controllers/report.coffee:220
@@ -2459,17 +2439,15 @@ msgstr "August"
 #, fuzzy
 #| msgid "Authentication"
 msgid "Authenticate"
-msgstr "Godkendelse"
+msgstr "Identificer"
 
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:4
 msgid "Authentication"
 msgstr "Godkendelse"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:736
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authentication Token"
-msgstr "Godkendelse"
+msgstr "Identifikations Token"
 
 #: lib/email_helper/probe.rb:276
 msgid "Authentication failed due to incorrect credentials."
@@ -2501,32 +2479,26 @@ msgstr "Godkendelse via %s"
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:5
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:9
 #: db/seeds/settings.rb:5834
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authenticator App"
-msgstr "Godkendelse"
+msgstr "Authenticator App"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:270
-#, fuzzy
-#| msgid "Authentication via %s"
 msgid "Authenticator app QR code"
-msgstr "Godkendelse via %s"
+msgstr "Authenticator app QR-kode"
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:24
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:281
-#, fuzzy
-#| msgid "Authentication via %s"
 msgid "Authenticator app secret"
-msgstr "Godkendelse via %s"
+msgstr "Authenticator app kode"
 
 #: app/assets/javascripts/app/views/ticket_shared_draft_modal.jst.eco:3
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSharedDraftFlyout.vue:198
 msgid "Author"
-msgstr ""
+msgstr "Forfatter"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBody.vue:92
 msgid "Author name and article creation date"
-msgstr ""
+msgstr "Forfatter og artikels oprettelsesdato"
 
 #: app/controllers/application_controller/handles_errors.rb:106
 msgid "Authorization failed"
@@ -2535,7 +2507,7 @@ msgstr "Godkendelse mislykkedes"
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:11
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:159
 msgid "Authy"
-msgstr ""
+msgstr "Authy"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:11
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:7
@@ -2548,14 +2520,12 @@ msgid "Auto Assignment Ignored Users"
 msgstr "Autotildeling Ignorerede Brugere"
 
 #: db/seeds/settings.rb:2593
-#, fuzzy
-#| msgid "Auto Assignment"
 msgid "Auto Assignment Selector"
-msgstr "Autotildeling"
+msgstr "Autotildeling Vælger"
 
 #: db/seeds/settings.rb:5973
 msgid "Auto Shutdown"
-msgstr ""
+msgstr "Auto Nedlukning"
 
 #: app/assets/javascripts/app/controllers/getting_started/auto_wizard.coffee:16
 msgid "Auto Wizard"
@@ -2574,16 +2544,14 @@ msgid "Auto-close state"
 msgstr "Auto lukket tilstand"
 
 #: lib/auto_wizard.rb:127
-#, fuzzy
-#| msgid "Auto Wizard"
 msgid "AutoWizard is disabled"
-msgstr "Auto Guide"
+msgstr "AutoWizard er deaktiveret"
 
 #: app/frontend/apps/desktop/pages/guided-setup/routes.ts:30
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:8
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedRun.vue:82
 msgid "Automated Setup"
-msgstr ""
+msgstr "Automatiseret Opsætning"
 
 #: db/seeds/settings.rb:1271
 msgid "Automatic account link on initial logon"
@@ -2595,7 +2563,7 @@ msgstr "Automatisk kontolink notifikation"
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:180
 msgid "Automatic reminders"
-msgstr ""
+msgstr "Automatisk påmindelse"
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:6
 msgid ""
@@ -2615,11 +2583,11 @@ msgstr ""
 
 #: app/frontend/shared/components/Form/Form.vue:1290
 msgid "Autosave in progress…"
-msgstr ""
+msgstr "Autogem igang…"
 
 #: app/frontend/shared/components/Form/Form.vue:1299
 msgid "Autosaving is taking longer than expected…"
-msgstr ""
+msgstr "Autogem tager længere end forventet…"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:35
 #: app/assets/javascripts/app/models/overview.coffee:8
@@ -2627,10 +2595,8 @@ msgid "Available for the following roles"
 msgstr "Tilgængeligt for følgende roller"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:207
-#, fuzzy
-#| msgid "Remove"
 msgid "Available methods"
-msgstr "Fjern"
+msgstr "Tilgængelige metoder"
 
 #: db/seeds/settings.rb:914
 msgid "Available types for a new ticket"
@@ -2652,10 +2618,8 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:55
-#, fuzzy
-#| msgid "Preview"
 msgid "Avatar Preview"
-msgstr "Vis udskrift"
+msgstr "Forhåndsvis Avatar"
 
 #: app/graphql/gql/mutations/user/current/avatar/delete.rb:18
 #: app/graphql/gql/mutations/user/current/avatar/select.rb:18
@@ -2770,7 +2734,7 @@ msgstr "Begynd videresendt besked"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSelection.vue:53
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:41
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:97
@@ -2793,10 +2757,8 @@ msgid "Block caller IDs based on sender caller ID."
 msgstr "Bloker opkalds-ID, baseret på afsenders opkalds-ID."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleRemoteContentBadge.vue:42
-#, fuzzy
-#| msgid "Blocked countries"
 msgid "Blocked Content"
-msgstr "Blokerede lande"
+msgstr "Blokeret Indhold"
 
 #: app/assets/javascripts/app/models/chat.coffee:254
 msgid "Blocked IPs (separated by ;)"
@@ -2823,10 +2785,8 @@ msgid "Body - Search for follow-up also in mail body."
 msgstr "Brødtekst - Søg efter opfølgning i mail brødtekst."
 
 #: lib/validations/ticket_article_validator/sms_twilio.rb:14
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Body text is required"
-msgstr "En bruger er påkrævet!"
+msgstr "Brødtekst er påkrævet"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:41
 msgid "Boolean field"
@@ -2842,10 +2802,8 @@ msgid "Branding"
 msgstr "Branding"
 
 #: app/frontend/apps/desktop/components/CommonBreadcrumb/CommonBreadcrumb.vue:33
-#, fuzzy
-#| msgid "Invitation sent!"
 msgid "Breadcrumb navigation"
-msgstr "Invitation sendt!"
+msgstr "Breadcrumb-navigation"
 
 #: app/assets/javascripts/app/views/session.jst.eco:9
 msgid "Browser"
@@ -2980,10 +2938,8 @@ msgid "Call Settings"
 msgstr "Kald Indstillinger"
 
 #: app/models/cti/driver/base.rb:152
-#, fuzzy
-#| msgid "Call from %s for %s"
 msgid "Call from %s"
-msgstr "Kald fra %s til %s"
+msgstr "Opkald fra %s"
 
 #: app/assets/javascripts/app/controllers/cti.coffee:118
 msgid "Call from %s for %s"
@@ -3043,6 +2999,8 @@ msgstr ""
 msgid ""
 "Can't update password, your entered passwords do not match. Please try again."
 msgstr ""
+"Kan ikke opdatere kodeord, de indtastede kodeord er ikke ens. Prøv venligst "
+"igen."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
@@ -3091,16 +3049,12 @@ msgstr "Annuller & gå tilbage"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:28
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationPasswordCheck.vue:66
-#, fuzzy
-#| msgid "Sign out"
 msgid "Cancel & Sign Out"
-msgstr "Log ud"
+msgstr "Annuller & Log ud"
 
 #: app/assets/javascripts/app/controllers/after_auth/two_factor_configuration.coffee:3
-#, fuzzy
-#| msgid "Sign out"
 msgid "Cancel & Sign out"
-msgstr "Log ud"
+msgstr "Annuller & Log ud"
 
 #: app/assets/javascripts/app/views/generic/attachment.jst.eco:20
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:111
@@ -3135,11 +3089,11 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
 msgid "Cannot upload file"
-msgstr ""
+msgstr "Kan ikke uploade fil"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCameraFlyout.vue:168
 msgid "Capture From Camera"
-msgstr ""
+msgstr "Optag fra kamera"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/sidebar/categories.coffee:3
 msgid "Categories"
@@ -3159,10 +3113,8 @@ msgid "Caution!"
 msgstr "Advarsel!"
 
 #: db/seeds/settings.rb:1987
-#, fuzzy
-#| msgid "Add Certificate"
 msgid "Certificate (PEM)"
-msgstr "Tilføj Certifikat"
+msgstr "Certifikat (PEM)"
 
 #: app/assets/javascripts/app/views/integration/smime.jst.eco:2
 msgid "Certificates & Private Keys"
@@ -3174,7 +3126,7 @@ msgstr "Certifikater og Private Nøgler"
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:101
 #: app/frontend/apps/desktop/components/Form/fields/FieldGroupPermissions/FieldGroupPermissionsInput.vue:48
 msgid "Change"
-msgstr "Skift"
+msgstr "Ændr"
 
 #: app/assets/javascripts/app/controllers/ticket_customer.coffee:5
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_customer.coffee:14
@@ -3188,10 +3140,8 @@ msgid "Change Objects"
 msgstr "Ændre objekter"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingPassword.vue:140
-#, fuzzy
-#| msgid "Change Your Password"
 msgid "Change Password"
-msgstr "Skift Din Adgangskode"
+msgstr "Skift Adgangskode"
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:8
 msgid "Change Your Password"
@@ -3214,40 +3164,28 @@ msgid "Change order"
 msgstr "Ændr rækkefølge"
 
 #: db/seeds/permissions.rb:433
-#, fuzzy
-#| msgid "Change Your Password"
 msgid "Change personal account password."
-msgstr "Skift Din Adgangskode"
+msgstr "Skift adgangskode til personlig konto."
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:227
-#, fuzzy
-#| msgid "Change date"
 msgid "Change text color"
-msgstr "Ændr dato"
+msgstr "Ændr tekstfarve"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:36
-#, fuzzy
-#| msgid "Change %s"
 msgid "Change to %s"
-msgstr "Skift %s"
+msgstr "Skift til %s"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:27
-#, fuzzy
-#| msgid "Enter a valid email address."
 msgid "Change to channel email address"
-msgstr "Indtast en gyldig e-mailadresse."
+msgstr "Ændr til kanals e-mailadresse"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:17
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Changed reaction on message %s from %s"
-msgstr "%s afsluttet skift til |%s|!"
+msgstr "Ændret reaktion på besked %s fra %s"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:18
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Changed reaction to %s on message %s from %s"
-msgstr "%s afsluttet skift til |%s|!"
+msgstr "Ændret reaktion to %s på besked %s fra %s"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:31
 msgid "Changed:"
@@ -3344,10 +3282,8 @@ msgstr "Tjek kanaler."
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row.jst.eco:24
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItem.vue:54
-#, fuzzy
-#| msgid "Checkmk"
 msgid "Check item"
-msgstr "Checkmk"
+msgstr "Tjek genstand"
 
 #: lib/search_index_backend.rb:437
 msgid "Check the response and payload for detailed information:"
@@ -3362,32 +3298,26 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist.coffee:51
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/checklist.ts:11
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklist"
-msgstr "Checksum"
+msgstr "Tjekliste"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:60
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/checklist-item-checked.ts:11
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/utils/historyEventEntityNames.ts:10
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklist Item"
-msgstr "Checksum"
+msgstr "Tjeklistepunkt"
 
 #: app/assets/javascripts/app/views/generic/checklist_item.jst.eco:10
 msgid "Checklist Item Label"
-msgstr ""
+msgstr "Tjeklistepunkt navn"
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:29
-#, fuzzy
-#| msgid "Select Template"
 msgid "Checklist Template"
-msgstr "Vælg Skabelon"
+msgstr "Tjeklisteskabelon"
 
 #: app/models/checklist_template.rb:16
 msgid "Checklist Template items are limited to 100 items per checklist."
-msgstr ""
+msgstr "Tjeklisteskabelons punkter er begrænset til 100 punkter per tjekliste."
 
 #: app/models/checklist/item.rb:108
 msgid "Checklist items are limited to 100 items per checklist."
@@ -3400,10 +3330,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
 #: db/seeds/permissions.rb:305 db/seeds/settings.rb:5946
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklists"
-msgstr "Checksum"
+msgstr "Tjeklister"
 
 #: app/assets/javascripts/app/controllers/_integration/check_mk.coffee:3
 msgid "Checkmk"
@@ -3470,10 +3398,8 @@ msgid "Choose your language."
 msgstr "Vælg sprog."
 
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:140
-#, fuzzy
-#| msgid "Choose your new password."
 msgid "Choose your new password"
-msgstr "Vælg din nye adgangskode."
+msgstr "Vælg din nye adgangskode"
 
 #: app/assets/javascripts/app/views/password/reset_change.jst.eco:4
 msgid "Choose your new password."
@@ -3546,28 +3472,20 @@ msgid "Clear Selection"
 msgstr "Ryd Valg"
 
 #: app/frontend/apps/desktop/components/NavigationMenu/NavigationMenuFilter.vue:89
-#, fuzzy
-#| msgid "Clearbit"
 msgid "Clear filter"
-msgstr "Clearbit"
+msgstr "Nulstil filter"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:184
-#, fuzzy
-#| msgid "Clear Search"
 msgid "Clear recent searches"
-msgstr "Ryd Søgning"
+msgstr "Ryd seneste søgninger"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:220
-#, fuzzy
-#| msgid "Recently viewed"
 msgid "Clear recently viewed"
-msgstr "Senest set"
+msgstr "Ryd seneste sete"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:92
-#, fuzzy
-#| msgid "Clear Selection"
 msgid "Clear the value"
-msgstr "Ryd Valg"
+msgstr "Ryd værdi"
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:3
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:24
@@ -3652,16 +3570,12 @@ msgid "Close current tab"
 msgstr "Luk aktuel fane"
 
 #: app/frontend/apps/desktop/components/CommonDialog/CommonDialog.vue:146
-#, fuzzy
-#| msgid "Confirm dialog"
 msgid "Close dialog"
-msgstr "Bekræft dialog"
+msgstr "Luk dialog"
 
 #: app/frontend/apps/desktop/components/CommonFlyout/CommonFlyout.vue:317
-#, fuzzy
-#| msgid "Close tab"
 msgid "Close side panel"
-msgstr "Luk faneblad"
+msgstr "Luk sidepanel"
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:32
@@ -3678,16 +3592,12 @@ msgid "Close tab on ticket close"
 msgstr "Luk fane når sag lukkes"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:51
-#, fuzzy
-#| msgid "Closed Tickets"
 msgid "Close the time picker"
-msgstr "Lukkede sager"
+msgstr "Luk tidsvælger"
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabRemove.vue:71
-#, fuzzy
-#| msgid "Close tab"
 msgid "Close this tab"
-msgstr "Luk faneblad"
+msgstr "Luk dette faneblad"
 
 #: app/assets/javascripts/app/views/widget/ticket_stats_frequency.jst.eco:16
 #: app/models/report.rb:30
@@ -3711,14 +3621,12 @@ msgid "Closing time"
 msgstr "Lukketid"
 
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar.vue:197
-#, fuzzy
-#| msgid "Content"
 msgid "Collapse sidebar"
-msgstr "Indhold"
+msgstr "Fold sidepanel"
 
 #: app/frontend/apps/desktop/components/CollapseButton/CollapseButton.vue:61
 msgid "Collapse this element"
-msgstr ""
+msgstr "Fold dette element"
 
 #: db/seeds/settings.rb:945
 msgid "Color representation of the open ticket indicator in the sidebar."
@@ -3757,7 +3665,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_plugin/translation_support.coffee:38
 msgid "Complete translations"
-msgstr ""
+msgstr "Færdiggør oversættelser"
 
 #: app/assets/javascripts/app/views/data_privacy/index.jst.eco:29
 msgid "Completed Tasks"
@@ -3822,10 +3730,8 @@ msgid "Configure Basic Settings"
 msgstr "Konfigurer Grundlæggende Indstillinger"
 
 #: db/seeds/permissions.rb:6
-#, fuzzy
-#| msgid "Configure Base"
 msgid "Configure your system."
-msgstr "Konfigurer base"
+msgstr "Konfigurer dit system."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
 msgid "Confirm"
@@ -3833,10 +3739,8 @@ msgstr "Bekræft"
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/password_check.coffee:4
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationPasswordCheck.vue:41
-#, fuzzy
-#| msgid "Bind Password"
 msgid "Confirm Password"
-msgstr "Bind Kodeord"
+msgstr "Bekræft kodeord"
 
 #: app/frontend/apps/mobile/components/CommonConfirmation/CommonConfirmation.vue:46
 msgid "Confirm dialog"
@@ -3847,17 +3751,13 @@ msgid "Confirm merge"
 msgstr "Bekræft fletning"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingPassword.vue:74
-#, fuzzy
-#| msgid "Bind Password"
 msgid "Confirm new password"
-msgstr "Bind Kodeord"
+msgstr "Bekræft nyt kodeord"
 
 #: app/frontend/apps/desktop/composables/authentication/useSignupForm.ts:53
 #: app/frontend/apps/desktop/pages/authentication/views/PasswordResetVerify.vue:61
-#, fuzzy
-#| msgid "Bind Password"
 msgid "Confirm password"
-msgstr "Bind Kodeord"
+msgstr "Bekræft kodeord"
 
 #. This is the template file app/views/mailer/signup/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -3952,10 +3852,8 @@ msgid "Connect Twitter App"
 msgstr "Forbind Twitter App"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualChannelEmail.vue:135
-#, fuzzy
-#| msgid "Continue"
 msgid "Connect and Continue"
-msgstr "Fortsæt"
+msgstr "Forbind og fortsæt"
 
 #: public/assets/chat/views/loader.eco:6
 msgid "Connecting"
@@ -3984,7 +3882,7 @@ msgstr "Forbindelsestest udført"
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:294
 #: app/frontend/apps/mobile/pages/authentication/views/Login.vue:177
 msgid "Contact the administrator if you have any problems logging in."
-msgstr ""
+msgstr "Kontakt administratoren hvis du har problemer med at logge ind."
 
 #: app/assets/javascripts/app/models/knowledge_base_answer.coffee:71
 #: app/assets/javascripts/app/models/text_module.coffee:8
@@ -3997,20 +3895,16 @@ msgid "Content could not be loaded."
 msgstr "Indhold kunne ikke læses."
 
 #: app/frontend/apps/desktop/components/CommonSkeleton/CommonSkeleton.vue:12
-#, fuzzy
-#| msgid "Content"
 msgid "Content loader"
-msgstr "Indhold"
+msgstr "Indhold indlæser"
 
 #: app/models/store.rb:82
 msgid "Content preview could not be generated."
 msgstr "Indholdseksempel kunne ikke genereres."
 
 #: app/frontend/apps/desktop/components/layout/LayoutContent.vue:148
-#, fuzzy
-#| msgid "Content"
 msgid "Content sidebar"
-msgstr "Indhold"
+msgstr "Indholds sidepanel"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_controller.coffee:110
 msgid "Content was changed since loading"
@@ -4053,10 +3947,8 @@ msgstr "Fortsæt sessionen"
 
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:145
 #: app/frontend/apps/mobile/pages/authentication/views/Login.vue:184
-#, fuzzy
-#| msgid "Continue session"
 msgid "Continue to desktop"
-msgstr "Fortsæt sessionen"
+msgstr "Fortsæt på desktop"
 
 #: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:56
 #: app/assets/javascripts/app/views/login.jst.eco:125
@@ -4081,10 +3973,8 @@ msgid "Copied!"
 msgstr "Kopieret!"
 
 #: app/frontend/shared/composables/useCopyToClipboard.ts:21
-#, fuzzy
-#| msgid "Copied!"
 msgid "Copied."
-msgstr "Kopieret!"
+msgstr "Kopieret."
 
 #: app/assets/javascripts/app/controllers/_plugin/electron_events.coffee:30
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/recovery_codes.coffee:11
@@ -4092,59 +3982,43 @@ msgid "Copy"
 msgstr "Kopier"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationRecoveryCodes.vue:127
-#, fuzzy
-#| msgid "Security"
 msgid "Copy Codes"
-msgstr "Sikkerhed"
+msgstr "Kopier koder"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:290
-#, fuzzy
-#| msgid "App Secret"
 msgid "Copy Secret"
-msgstr "App hemmelighed"
+msgstr "Kopier hemmelighed"
 
 #: app/frontend/apps/desktop/components/CommonInputCopyToClipboard/CommonInputCopyToClipboard.vue:17
-#, fuzzy
-#| msgid "App Secret"
 msgid "Copy Text"
-msgstr "App hemmelighed"
+msgstr "Kopier tekst"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:149
-#, fuzzy
-#| msgid "CTI Token"
 msgid "Copy Token"
-msgstr "CTI Token"
+msgstr "Kopier Token"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:307
-#, fuzzy
-#| msgid "Copy"
 msgid "Copy URL"
-msgstr "Kopier"
+msgstr "Kopier URL"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/articlePermalink.ts:14
-#, fuzzy
-#| msgid "Article Type"
 msgid "Copy article permalink"
-msgstr "Artikel Type"
+msgstr "Kopier artikels permanente link"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:356
 msgid "Copy current object number (e. g. Ticket#) to clipboard"
 msgstr "Kopier nuværende objekt nummer (f.eks. Ticket#) til udklipsholder"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader.vue:66
-#, fuzzy
-#| msgid "Edit Customer"
 msgid "Copy ticket number"
-msgstr "Rediger kunde"
+msgstr "Kopier sagsnummer"
 
 #: app/assets/javascripts/app/views/google/app_config.jst.eco:27
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:35
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:35
 #: app/assets/javascripts/app/views/whatsapp/account_webhook.jst.eco:14
-#, fuzzy
-#| msgid "Copy to clipboard: Ctrl+C, Enter"
 msgid "Copy to clipboard"
-msgstr "Kopier til udklipsholder: Ctrl + C, Enter"
+msgstr "Kopier til udklipsholder"
 
 #: db/seeds/settings.rb:600
 msgid "Core Workflow Ajax Mode"
@@ -4177,28 +4051,22 @@ msgid "Could not fetch security keys"
 msgstr ""
 
 #: app/controllers/channels_admin/microsoft_graph_controller.rb:16
-#, fuzzy
-#| msgid "Reset changes"
 msgid "Could not find the channel."
-msgstr "Nulstil ændringer"
+msgstr "Kunne ikke finde kanal."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationRecoveryCodes.vue:39
 #: app/graphql/gql/mutations/user/current/two_factor/recovery_codes_generate.rb:23
-#, fuzzy
-#| msgid "Delete records"
 msgid "Could not generate recovery codes"
-msgstr "Slet poster"
+msgstr "Kunne ikke generere gendannelseskoder"
 
 #: app/controllers/channels_admin/microsoft_graph_controller.rb:19
 msgid "Could not identify the channel mailbox."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:37
-#, fuzzy
-#| msgid "Authentication required"
 msgid ""
 "Could not load the two-factor authentication configuration for this user."
-msgstr "Godkendelse påkrævet"
+msgstr ""
 
 #: app/models/channel/email_parser.rb:32
 msgid "Could not parse any sender attribute from the email. Checked fields:"
@@ -4222,10 +4090,8 @@ msgstr ""
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:140
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:122
-#, fuzzy
-#| msgid "Authentication required"
 msgid "Could not remove two-factor authentication method."
-msgstr "Godkendelse påkrævet"
+msgstr ""
 
 #: app/services/service/user/signup.rb:53
 msgid ""
@@ -4234,17 +4100,13 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
-#, fuzzy
-#| msgid "Authentication required"
 msgid "Could not set two-factor authentication method as default"
-msgstr "Godkendelse påkrævet"
+msgstr ""
 
 #: app/assets/javascripts/app/controllers/widget/link.coffee:69
 #: app/assets/javascripts/app/controllers/widget/link/kb_answer.coffee:106
-#, fuzzy
-#| msgid "Reset changes"
 msgid "Couldn't save changes"
-msgstr "Nulstil ændringer"
+msgstr "Kunne ikke gemme ændringer"
 
 #: app/assets/javascripts/app/views/tag/table.jst.eco:5
 msgid "Count"
@@ -4252,7 +4114,7 @@ msgstr "Antal"
 
 #: app/models/system_report/plugin/failed_emails.rb:4
 msgid "Count of failed emails"
-msgstr ""
+msgstr "Antal fejlede e-mails."
 
 #: app/assets/javascripts/app/views/integration/exchange_last_import.jst.eco:24
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:182
@@ -4288,10 +4150,8 @@ msgstr "Opret admin"
 
 #: app/frontend/apps/desktop/pages/guided-setup/routes.ts:62
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualAdmin.vue:28
-#, fuzzy
-#| msgid "Administrator Account"
 msgid "Create Administrator Account"
-msgstr "Administrator Konto"
+msgstr "Opret Administratorkonto"
 
 #: lib/excel_sheet/ticket.rb:31
 msgid "Create Channel"
@@ -4306,10 +4166,8 @@ msgid "Create Macros"
 msgstr "Opret Makroer"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarSharedDraftStart/TicketSidebarSharedDraftStartContent.vue:167
-#, fuzzy
-#| msgid "Create a shared draft"
 msgid "Create Shared Draft"
-msgstr "Opret en delt kladde"
+msgstr "Opret delt kladde"
 
 #: app/controllers/first_steps_controller.rb:92
 msgid "Create Text Modules"
@@ -4350,17 +4208,13 @@ msgid "Create a Test Ticket"
 msgstr "Opret en test sag"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItems.vue:211
-#, fuzzy
-#| msgid "Create new Customer"
 msgid "Create a new checklist item"
-msgstr "Opret ny kunde"
+msgstr "Opret et nyt tjeklistepunkt"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/start.jst.eco:18
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistEmptyTemplates.vue:21
-#, fuzzy
-#| msgid "Create a new template in the admin interface."
 msgid "Create a new checklist template in the admin interface."
-msgstr "Opret en ny skabelon i admin portalen."
+msgstr "Opret en ny tjeklisteskabelon i admin-portalen."
 
 #: app/assets/javascripts/app/views/widget/template.jst.eco:17
 msgid "Create a new template in the admin interface."
@@ -4376,16 +4230,12 @@ msgid "Create a translation"
 msgstr "Opret en oversættelse"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualAdmin.vue:88
-#, fuzzy
-#| msgid "Create my account"
 msgid "Create account"
-msgstr "Lav min konto"
+msgstr "Opret konto"
 
 #: db/seeds/permissions.rb:114
-#, fuzzy
-#| msgid "Create Knowledge Base"
 msgid "Create and set up Knowledge Base."
-msgstr "Opret Vidensbase"
+msgstr "Opret og opsæt Vidensbase."
 
 #: app/assets/javascripts/app/views/signup.jst.eco:8
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:151
@@ -4484,7 +4334,7 @@ msgstr "Artikel Oprettet"
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:16
 #: lib/excel_sheet/ticket.rb:56
 msgid "Created At"
-msgstr ""
+msgstr "Oprettet"
 
 #: app/assets/javascripts/app/controllers/widget/placeholder.coffee:110
 msgid "Created External Article"
@@ -4549,14 +4399,12 @@ msgid "Creating new tickets via web is disabled."
 msgstr "Oprettelse af nye sager gennem web er deaktiveret."
 
 #: app/models/report.rb:85
-#, fuzzy
-#| msgid "Connect Channels"
 msgid "Creation Channels"
-msgstr "Forbind kanaler"
+msgstr "Oprettelseskanaler"
 
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:55
 msgid "Creation mask"
-msgstr ""
+msgstr "Oprettelsesfilter"
 
 #: app/assets/javascripts/app/controllers/_profile/avatar.coffee:156
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:42
@@ -4603,12 +4451,10 @@ msgid ""
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/views/TicketOverviews.vue:129
-#, fuzzy
-#| msgid "Feature is disabled, please contact your administrator!"
 msgid ""
 "Currently, no overviews are assigned to your roles. Please contact your "
 "administrator."
-msgstr "Funktion er deaktiveret, kontakt venligst en administrator!"
+msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:28
 msgid "Custom"
@@ -4619,10 +4465,8 @@ msgid "Custom Payload"
 msgstr "Tilpasset Payload"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:82
-#, fuzzy
-#| msgid "Translations"
 msgid "Custom Translation"
-msgstr "Oversættelser"
+msgstr "Tilpassede oversættelser"
 
 #: app/assets/javascripts/app/controllers/_manage/knowledge_base.coffee:127
 #: app/assets/javascripts/app/models/knowledge_base.coffee:290
@@ -4673,10 +4517,8 @@ msgid "Customer selection based on sender and receiver list"
 msgstr "Brugervalg baseret på afsender og modtagerliste"
 
 #: db/seeds/permissions.rb:387
-#, fuzzy
-#| msgid "%s tickets"
 msgid "Customer tickets"
-msgstr "%s tickets"
+msgstr "Kundesager"
 
 #: app/assets/javascripts/app/views/data_privacy/preview.jst.eco:7
 msgid ""
@@ -4725,10 +4567,8 @@ msgid "Data Privacy"
 msgstr "Databeskyttelse"
 
 #: lib/validations/data_privacy_task_validator.rb:23
-#, fuzzy
-#| msgid "%s created data privacy task to delete user ID |%s|"
 msgid "Data privacy task allows to delete a user or a ticket only."
-msgstr "%s oprettet data-oprydningsopgave for sletning af bruger ID |%s|"
+msgstr ""
 
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:14
 msgid "DataPrivacyTask"
@@ -4766,14 +4606,12 @@ msgid "Date field"
 msgstr "Dato felt"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:49
-#, fuzzy
-#| msgid "Date field"
 msgid "Datepicker input field"
-msgstr "Dato felt"
+msgstr "Datovælger felt"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:48
 msgid "Datepicker menu"
-msgstr ""
+msgstr "Datovælgermenu"
 
 #: app/assets/javascripts/app/views/generic/timer.jst.eco:7
 #: app/assets/javascripts/app/views/report/time_range_picker.jst.eco:5
@@ -4799,22 +4637,16 @@ msgid "December"
 msgstr "December"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:66
-#, fuzzy
-#| msgid "in hours"
 msgid "Decrement hours value"
-msgstr "i timer"
+msgstr ""
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:68
-#, fuzzy
-#| msgid "Average: %s minutes"
 msgid "Decrement minutes value"
-msgstr "Gennemsnit %s minutter"
+msgstr ""
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:71
-#, fuzzy
-#| msgid "Average: %s minutes"
 msgid "Decrement seconds value"
-msgstr "Gennemsnit %s minutter"
+msgstr ""
 
 #: app/assets/javascripts/app/controllers/article_view/item.coffee:293
 msgid "Decryption failed!"
@@ -4851,20 +4683,16 @@ msgid "Default Behavior"
 msgstr "Standard opførsel"
 
 #: app/assets/javascripts/app/views/settings/ticket_notifications.jst.eco:3
-#, fuzzy
-#| msgid "Disable Notifications"
 msgid "Default Notifications"
-msgstr "Sluk notifikation"
+msgstr "Standardnotifikationer"
 
 #: db/seeds/settings.rb:3632
 msgid "Default Screen"
 msgstr ""
 
 #: db/seeds/settings.rb:2628
-#, fuzzy
-#| msgid "Block Notifications"
 msgid "Default Ticket Agent Notifications"
-msgstr "Bloker Notifikationer"
+msgstr "Standard sagsagent notifikationer"
 
 #: app/assets/javascripts/app/models/role.coffee:9
 msgid "Default at Signup"
@@ -4886,10 +4714,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:26
 #: app/assets/javascripts/app/models/ticket_state.coffee:28
-#, fuzzy
-#| msgid "Create new ticket"
 msgid "Default for new tickets"
-msgstr "Opret ny sag"
+msgstr "Standardindstillinger for nye sager"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:357
 msgid "Default time diff (hours)"
@@ -4904,10 +4730,8 @@ msgid "Default type for a new ticket"
 msgstr ""
 
 #: app/models/object_manager/attribute/data_option_validator.rb:47
-#, fuzzy
-#| msgid "Default caller id."
 msgid "Default value is required."
-msgstr "Default opkalds ID."
+msgstr "Standardværdi er påkrævet."
 
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:15
 #: db/seeds/settings.rb:2613
@@ -4956,10 +4780,8 @@ msgid ""
 msgstr ""
 
 #: db/seeds/settings.rb:2631
-#, fuzzy
-#| msgid "Default visibility for new note."
 msgid "Define the default agent notifications for new users."
-msgstr "Standard synlighed ved ny note."
+msgstr ""
 
 #: db/seeds/settings.rb:1027
 msgid "Define the maximum number of ticket shown in overviews."
@@ -5047,11 +4869,15 @@ msgid ""
 "Defines a limit for how many tickets can be created via web form from one IP "
 "address per hour."
 msgstr ""
+"Definerer en grænse for, hvor mange sager der kan oprettes via webformular "
+"fra en IP-adresse pr. time."
 
 #: db/seeds/settings.rb:3159
 msgid ""
 "Defines a limit for how many tickets can be created via web form per day."
 msgstr ""
+"Definerer en grænse for, hvor mange sager der kan oprettes via webformular "
+"pr. dag."
 
 #: db/seeds/settings.rb:2256
 msgid "Defines after how many failed logins accounts will be deactivated."
@@ -5062,6 +4888,8 @@ msgstr ""
 msgid ""
 "Defines an OTRS endpoint to import users, tickets, states, and articles."
 msgstr ""
+"Definerer et OTRS-slutpunkt til import af brugere, sager, statuser og "
+"artikler."
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:7
 msgid ""
@@ -5069,6 +4897,9 @@ msgid ""
 "priority will be rendered in an indian red, while low priority in a baby "
 "blue color."
 msgstr ""
+"Definerer en valgfri fremhævningsfarve for denne prioritet i sagstabeller. "
+"Høj prioritet vil blive gengivet i en indisk rød, mens lav prioritet vil "
+"blive gengivet i en babyblå farve."
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:8
 msgid ""
@@ -5083,7 +4914,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:3645
 msgid "Defines endpoint of Elasticsearch."
-msgstr ""
+msgstr "Definerer slutpunkt for Elasticsearch."
 
 #: db/seeds/settings.rb:3006
 msgid ""
@@ -11406,7 +11237,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:2208
 msgid "Needed"
-msgstr "Behøvet"
+msgstr "Påkrævet"
 
 #: app/controllers/sessions_controller.rb:56
 msgid ""
@@ -16443,7 +16274,7 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupActionFooter.vue:53
 #: app/frontend/shared/form/i18n/locales.ts:42
 msgid "Submit"
-msgstr "Send"
+msgstr "Indsend"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:139
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:178

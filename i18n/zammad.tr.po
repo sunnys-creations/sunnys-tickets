@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-04 15:59+0000\n"
-"Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
+"PO-Revision-Date: 2025-04-13 12:00+0000\n"
+"Last-Translator: daghanprojenet <daghan@projenet.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
 "Language: tr\n"
@@ -4203,6 +4203,8 @@ msgid ""
 "Could not create user and send verification email because import_mode "
 "setting is on."
 msgstr ""
+"içeri alma modu etkin olduğundan kullanıcı oluşturulup onay mail "
+"gönderilemiyor."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
@@ -4263,7 +4265,7 @@ msgstr "İki faktörlü kimlik doğrulama yöntemi kaldırılamadı."
 #: app/services/service/user/signup.rb:53
 msgid ""
 "Could not send user verification email because import_mode setting is on."
-msgstr ""
+msgstr "içeri alma modu etkin olduğundan onay mail gönderilemiyor."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
@@ -23982,7 +23984,7 @@ msgstr "token erişimi,token,api,erişim tokenı,uygulama"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketDetailTopBar/TopBarHeader/TicketInformation/TicketInformationBadgeList/ChecklistBadge.vue:8
 msgid "tracked in"
-msgstr ""
+msgstr "takip edildi"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/locale.ts:24
 #, fuzzy
