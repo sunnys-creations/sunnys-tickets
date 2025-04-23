@@ -7647,7 +7647,7 @@ msgstr "Расширенный поиск"
 msgid "External data source field"
 msgstr "Поле внешнего источника данных"
 
-#: lib/search_index_backend.rb:726
+#: lib/search_index_backend.rb:727
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Извлечение информации о вложениях zammad из массивов"
 
@@ -14606,7 +14606,7 @@ msgstr "Сохраненные условия"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1135
 msgid "Saving failed."
 msgstr "Не удалось сохранить."
 
@@ -17422,7 +17422,7 @@ msgstr "Отсутствует обязательный параметр «Ид�
 msgid "The required parameter 'id' is missing."
 msgstr "Отсутствует обязательный параметр «Идентификатор» (id)."
 
-#: lib/search_index_backend.rb:649
+#: lib/search_index_backend.rb:650
 msgid "The required parameter 'key' is missing."
 msgstr "Отсутствует обязательный параметр «Ключ» (key)."
 
@@ -17500,7 +17500,7 @@ msgid "The required parameter 'user_id' is missing."
 msgstr ""
 "Отсутствует обязательный параметр «идентификатор_пользователя» (user_id)."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:651
 msgid "The required parameter 'value' is missing."
 msgstr "Отсутствует обязательный параметр «значение» (value)."
 

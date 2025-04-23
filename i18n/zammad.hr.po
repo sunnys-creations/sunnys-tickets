@@ -7569,7 +7569,7 @@ msgstr "Prošireno pretraživanje"
 msgid "External data source field"
 msgstr "Polje za eksterne izvore podataka"
 
-#: lib/search_index_backend.rb:726
+#: lib/search_index_backend.rb:727
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Izdvoji informacije o Zammad privicima iz polja"
 
@@ -14607,7 +14607,7 @@ msgstr "Spremljeni uvjeti"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1135
 msgid "Saving failed."
 msgstr "Spremanje nije uspjelo."
 
@@ -17414,7 +17414,7 @@ msgstr "Obavezni parametar ’group_id’ nije pronađen."
 msgid "The required parameter 'id' is missing."
 msgstr "Obavezni parametar 'id' nije pronađen."
 
-#: lib/search_index_backend.rb:649
+#: lib/search_index_backend.rb:650
 msgid "The required parameter 'key' is missing."
 msgstr "Obavezni parametar 'key' nije pronađen."
 
@@ -17484,7 +17484,7 @@ msgstr "Obavezni parametar 'ticket_number' nije pronađen."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Obavezni parametar 'user_id' nije pronađen."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:651
 msgid "The required parameter 'value' is missing."
 msgstr "Obavezni parametar 'value' nije pronađen."
 

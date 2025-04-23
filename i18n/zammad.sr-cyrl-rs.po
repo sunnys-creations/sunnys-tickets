@@ -7516,7 +7516,7 @@ msgstr "Проширена претрага"
 msgid "External data source field"
 msgstr "Поље удаљеног извора података"
 
-#: lib/search_index_backend.rb:726
+#: lib/search_index_backend.rb:727
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Издвоји информације о Zammad прилозима из низова"
 
@@ -14395,7 +14395,7 @@ msgstr "Сачувани услови"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1135
 msgid "Saving failed."
 msgstr "Неуспешно снимање."
 
@@ -17165,7 +17165,7 @@ msgstr "Није пронађен обавезни параметар ’group_i
 msgid "The required parameter 'id' is missing."
 msgstr "Није пронађен обавезни параметар ’id’."
 
-#: lib/search_index_backend.rb:649
+#: lib/search_index_backend.rb:650
 msgid "The required parameter 'key' is missing."
 msgstr "Није пронађен обавезни параметар ’key’."
 
@@ -17233,7 +17233,7 @@ msgstr "Није пронађен обавезни параметар ’ticket_
 msgid "The required parameter 'user_id' is missing."
 msgstr "Није пронађен обавезни параметар ’user_id’."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:651
 msgid "The required parameter 'value' is missing."
 msgstr "Није пронађен обавезни параметар ’value’."
 

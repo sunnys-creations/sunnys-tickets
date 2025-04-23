@@ -7854,7 +7854,7 @@ msgstr "Wyszukiwanie zaawansowane"
 msgid "External data source field"
 msgstr "Pole zewnętrznego źródła danych"
 
-#: lib/search_index_backend.rb:726
+#: lib/search_index_backend.rb:727
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Wyodrębnij informacje o dołączeniu zammad z tablic"
 
@@ -15281,7 +15281,7 @@ msgstr "Zapisane warunki"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1135
 msgid "Saving failed."
 msgstr "Zapisywanie nie powiodło się."
 
@@ -18202,7 +18202,7 @@ msgstr "Brak wymaganego parametru „group_id”."
 msgid "The required parameter 'id' is missing."
 msgstr "Brak wymaganego parametru „id”."
 
-#: lib/search_index_backend.rb:649
+#: lib/search_index_backend.rb:650
 msgid "The required parameter 'key' is missing."
 msgstr "Brak wymaganego parametru „klucz”."
 
@@ -18272,7 +18272,7 @@ msgstr "Brak wymaganego parametru „signup”."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Brak wymaganego parametru „user_id”."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:651
 msgid "The required parameter 'value' is missing."
 msgstr "Brak wymaganego parametru „wartość”."
 

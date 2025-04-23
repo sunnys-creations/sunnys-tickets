@@ -7875,7 +7875,7 @@ msgstr "Kibővített keresés"
 msgid "External data source field"
 msgstr "Külső adatbázis forrása mező"
 
-#: lib/search_index_backend.rb:726
+#: lib/search_index_backend.rb:727
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Zammad-csatolmány információk kinyerése tömbökből"
 
@@ -15178,7 +15178,7 @@ msgstr "Mentett feltételek"
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:63
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:80
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:93
-#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1133
+#: app/assets/javascripts/app/controllers/ticket_zoom.coffee:1135
 msgid "Saving failed."
 msgstr "A mentés nem sikerült."
 
@@ -18124,7 +18124,7 @@ msgstr "A kötelező 'group_id' paraméter hiányzik."
 msgid "The required parameter 'id' is missing."
 msgstr "A kötelező 'id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:649
+#: lib/search_index_backend.rb:650
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18200,7 +18200,7 @@ msgstr "A kötelező 'ticket_number' paraméter hiányzik."
 msgid "The required parameter 'user_id' is missing."
 msgstr "A kötelező 'for_user_id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:651
 #, fuzzy
 #| msgid "The required parameter 'locale' is missing."
 msgid "The required parameter 'value' is missing."
