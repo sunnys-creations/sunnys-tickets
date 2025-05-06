@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-08 22:00+0000\n"
-"Last-Translator: Nikita <nyakovlev@iko.tech>\n"
+"PO-Revision-Date: 2025-04-27 10:00+0000\n"
+"Last-Translator: asrrd6 <ruslan.r.d@gmail.com>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ru/>\n"
 "Language: ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -6526,7 +6526,7 @@ msgstr "Обнаружение дубликатов"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:555
 msgid "Duplicate Email Address"
-msgstr "Дублировать адрес электронной почты"
+msgstr "Дубликат адреса электронной почты"
 
 #: app/assets/javascripts/app/views/cti/caller_log.jst.eco:34
 msgid "Duration"
@@ -6617,7 +6617,7 @@ msgstr "Изменить элемент"
 
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:57
 msgid "Edit mask"
-msgstr "Редактировать маску"
+msgstr "Маска редактирования"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleReplyDialog.vue:37
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketDetailViewActions.vue:88

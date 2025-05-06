@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-22 11:36+0000\n"
-"Last-Translator: easyjoh <jh@easyplusplus.com>\n"
+"PO-Revision-Date: 2025-05-02 22:00+0000\n"
+"Last-Translator: Victor Pahuus Petersen <dibbohh@gmail.com>\n"
 "Language-Team: Danish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/da/>\n"
 "Language: da\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -2726,6 +2726,8 @@ msgid ""
 "Before you start, make sure to check the following points to ensure a smooth "
 "migration and usage of your Zammad instance:"
 msgstr ""
+"Før du går i gang, skal du sørge for at tjekke følgende punkter for at sikre "
+"en problemfri migrering og brug af din Zammad-instans:"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:261
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/forward.ts:97
@@ -3077,11 +3079,11 @@ msgstr "Opfølgning ikke muligt på en lukket sag. Opret venligst en ny sag."
 
 #: app/models/sla.rb:44
 msgid "Cannot have both response time and update time."
-msgstr ""
+msgstr "Kan ikke have både svartid og opdateringstid."
 
 #: lib/external_data_source/errors.rb:14
 msgid "Cannot process external data source %s. %s"
-msgstr ""
+msgstr "Kan ikke behandle den ekstern datakilde %s. %s"
 
 #: app/frontend/shared/entities/online-notification/composables/useOnlineNotificationActions.ts:147
 msgid "Cannot set online notifications as seen"
@@ -3295,6 +3297,8 @@ msgid ""
 "Check this box if you want to customise how options are sorted. If the box "
 "is not checked, values are sorted in alphabetical order."
 msgstr ""
+"Markér dette felt, hvis du vil tilpasse, hvordan valgmulighederne sorteres. "
+"Hvis feltet ikke er markeret, sorteres værdierne i alfabetisk rækkefølge."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist.coffee:51
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/checklist.ts:11
@@ -3321,11 +3325,13 @@ msgstr "Tjeklisteskabelons punkter er begrænset til 100 punkter per tjekliste."
 
 #: app/models/checklist/item.rb:108
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr ""
+msgstr "Tjeklistens punkter er begrænset til 100 punkter pr. tjekliste."
 
 #: app/models/checklist.rb:100
 msgid "Checklist template must be active to use as a checklist starting point."
 msgstr ""
+"Tjeklisteskabelonen skal være aktiv for at kunne bruges som udgangspunkt for "
+"tjeklisten."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
@@ -3409,6 +3415,7 @@ msgstr "Vælg din nye adgangskode."
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:46
 msgid "Choose your preferred two-factor authentication method to set it up."
 msgstr ""
+"Vælg din foretrukne to-faktor-godkendelsesmetode for at konfigurere den."
 
 #: app/assets/javascripts/app/models/user.coffee:332
 msgid "Christmas holiday"
@@ -3506,7 +3513,7 @@ msgstr "Klik her"
 
 #: app/frontend/apps/mobile/pages/authentication/components/AfterAuth/TwoFactorConfiguration.vue:20
 msgid "Click here to set up a two-factor authentication method."
-msgstr ""
+msgstr "Klik her for at konfigurere en to-faktor-godkendelsesmetode."
 
 #: app/assets/javascripts/app/views/exchange/app_config.jst.eco:9
 #: app/assets/javascripts/app/views/exchange/token_information.jst.eco:28
@@ -3555,7 +3562,7 @@ msgstr "Lukkeforskel i minutter"
 
 #: lib/excel_sheet/ticket.rb:60
 msgid "Close Escalation At"
-msgstr ""
+msgstr "Luk eskalering ved"
 
 #: lib/excel_sheet/ticket.rb:61
 msgid "Close In Min"
@@ -3630,7 +3637,7 @@ msgstr "Fold dette element"
 
 #: db/seeds/settings.rb:945
 msgid "Color representation of the open ticket indicator in the sidebar."
-msgstr ""
+msgstr "Farvevisning af indikatoren for åbne tickets i sidepanelet."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:306
 msgid "Combined subscription URL"
@@ -3661,7 +3668,7 @@ msgstr ""
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:11
 #: db/seeds/settings.rb:5826
 msgid "Complete the sign-in with your security key."
-msgstr ""
+msgstr "Gennemfør login med din sikkerhedsnøgle."
 
 #: app/assets/javascripts/app/controllers/_plugin/translation_support.coffee:38
 msgid "Complete translations"
@@ -3709,7 +3716,7 @@ msgstr "Konfiguration for %s"
 
 #: app/models/system_report/plugin/environment.rb:4
 msgid "Configuration of performance settings via environment variables."
-msgstr ""
+msgstr "Konfiguration af performance-indstillinger via miljøvariabler."
 
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:22
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:6
@@ -4022,7 +4029,7 @@ msgstr "Kopier til udklipsholder"
 
 #: db/seeds/settings.rb:600
 msgid "Core Workflow Ajax Mode"
-msgstr ""
+msgstr "Core Workflow Ajax Mode"
 
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:3
 #: db/seeds/permissions.rb:257
@@ -4041,14 +4048,16 @@ msgid ""
 "Could not create user and send verification email because import_mode "
 "setting is on."
 msgstr ""
+"Kunne ikke oprette en bruger og sende en bekræftelsesmail, fordi "
+"indstillingen import_mode er slået til."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
-msgstr ""
+msgstr "Kunne ikke hente oplysninger om WhatsApp-telefonnummer."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:91
 msgid "Could not fetch security keys"
-msgstr ""
+msgstr "Kunne ikke hente sikkerhedsnøgler"
 
 #: app/controllers/channels_admin/microsoft_graph_controller.rb:16
 msgid "Could not find the channel."
@@ -4074,34 +4083,36 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/signup.coffee:139
 msgid "Could not process your request"
-msgstr ""
+msgstr "Kunne ikke behandle din request"
 
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:135
 msgid "Could not remove all two-factor authentication methods for this user."
-msgstr ""
+msgstr "Kunne ikke fjerne alle to-faktor-godkendelsesmetoder for denne bruger."
 
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:100
 msgid "Could not remove the two-factor authentication method for this user."
-msgstr ""
+msgstr "Kunne ikke fjerne to-faktor-godkendelsesmetoden for denne bruger."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:198
 msgid "Could not remove two-factor authentication method"
-msgstr ""
+msgstr "Kunne ikke fjerne to-faktor-godkendelsesmetoden"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:140
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:122
 msgid "Could not remove two-factor authentication method."
-msgstr ""
+msgstr "Kunne ikke fjerne to-faktor-godkendelsesmetoden."
 
 #: app/services/service/user/signup.rb:53
 msgid ""
 "Could not send user verification email because import_mode setting is on."
 msgstr ""
+"Kunne ikke sende brugerbekræftelses-e-mail, fordi import_mode-indstillingen "
+"er slået til."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
 msgid "Could not set two-factor authentication method as default"
-msgstr ""
+msgstr "Kunne ikke indstille to-faktor-godkendelsesmetode som standard"
 
 #: app/assets/javascripts/app/controllers/widget/link.coffee:69
 #: app/assets/javascripts/app/controllers/widget/link/kb_answer.coffee:106
@@ -4435,6 +4446,8 @@ msgstr "Nuværende adgangskode"
 #: app/models/system_report/plugin/setting.rb:6
 msgid "Current state of configured settings (excluding passwords and tokens)"
 msgstr ""
+"Aktuel status for konfigurerede indstillinger (undtagen adgangskoder og "
+"tokens)"
 
 #: app/controllers/application_controller/has_user.rb:43
 msgid "Current user has no permission to use 'From'/'X-On-Behalf-Of'!"
@@ -4442,7 +4455,7 @@ msgstr "Nuværende bruger har ikke adgang til brug af 'From'/'X-On-Behalf-Of'!"
 
 #: app/frontend/apps/mobile/pages/ticket/views/TicketOverview.vue:224
 msgid "Currently no overview is assigned to your roles."
-msgstr ""
+msgstr "I øjeblikket er der ikke tildelt nogen oversigt til dine roller."
 
 #: app/assets/javascripts/app/controllers/ticket_overview/navbar.coffee:90
 msgid ""
@@ -4569,6 +4582,8 @@ msgstr "Databeskyttelse"
 #: lib/validations/data_privacy_task_validator.rb:23
 msgid "Data privacy task allows to delete a user or a ticket only."
 msgstr ""
+"Databeskyttelsesopgaven giver kun mulighed for at slette en bruger eller en "
+"ticket."
 
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:14
 msgid "DataPrivacyTask"
@@ -4638,7 +4653,7 @@ msgstr "December"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:66
 msgid "Decrement hours value"
-msgstr ""
+msgstr "Reducer værdien af timer"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:68
 msgid "Decrement minutes value"
@@ -4688,7 +4703,7 @@ msgstr "Standardnotifikationer"
 
 #: db/seeds/settings.rb:3632
 msgid "Default Screen"
-msgstr ""
+msgstr "Standardskærm"
 
 #: db/seeds/settings.rb:2628
 msgid "Default Ticket Agent Notifications"
@@ -4710,7 +4725,7 @@ msgstr "Default opkalds ID ved udgående opkald."
 
 #: app/assets/javascripts/app/models/ticket_state.coffee:35
 msgid "Default for follow-ups"
-msgstr ""
+msgstr "Standard for opfølgning"
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee:26
 #: app/assets/javascripts/app/models/ticket_state.coffee:28
@@ -4744,19 +4759,19 @@ msgstr ""
 
 #: db/seeds/settings.rb:3699
 msgid "Define max. attachment size for Elasticsearch."
-msgstr ""
+msgstr "Definer maks. vedhæftningsstørrelse for Elasticsearch."
 
 #: db/seeds/settings.rb:3708
 msgid "Define max. payload size for Elasticsearch."
-msgstr ""
+msgstr "Definer max. payload-størrelse for Elasticsearch."
 
 #: db/seeds/settings.rb:3726
 msgid "Define model configuration for Elasticsearch."
-msgstr ""
+msgstr "Definer modelkonfiguration for Elasticsearch."
 
 #: db/seeds/settings.rb:3717
 msgid "Define pipeline name for Elasticsearch."
-msgstr ""
+msgstr "Definer pipeline-navn for Elasticsearch."
 
 #: db/seeds/settings.rb:4339
 msgid ""
@@ -4766,11 +4781,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:4285
 msgid "Define postmaster filter to import archive mailboxes."
-msgstr ""
+msgstr "Definer postmasterfilter til import af arkivpostkasser."
 
 #: db/seeds/settings.rb:4282
 msgid "Define postmaster filter."
-msgstr ""
+msgstr "Definer postmaster-filter."
 
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:102
 msgid ""
@@ -4781,15 +4796,15 @@ msgstr ""
 
 #: db/seeds/settings.rb:2631
 msgid "Define the default agent notifications for new users."
-msgstr ""
+msgstr "Definer standard-agentnotifikationer for nye brugere."
 
 #: db/seeds/settings.rb:1027
 msgid "Define the maximum number of ticket shown in overviews."
-msgstr ""
+msgstr "Definer det maksimale antal tickets, der vises i oversigter."
 
 #: db/seeds/settings.rb:3681
 msgid "Defines Elasticsearch SSL verification."
-msgstr ""
+msgstr "Definerer Elasticsearch SSL-verifikation."
 
 #: db/seeds/settings.rb:3672
 msgid "Defines Elasticsearch index name."
@@ -4801,11 +4816,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:3663
 msgid "Defines HTTP basic auth password of Elasticsearch."
-msgstr ""
+msgstr "Definerer HTTP basic auth password for Elasticsearch."
 
 #: db/seeds/settings.rb:3654
 msgid "Defines HTTP basic auth user of Elasticsearch."
-msgstr ""
+msgstr "Definerer HTTP basic auth-bruger af Elasticsearch."
 
 #: db/seeds/settings.rb:3846
 msgid ""
@@ -4821,7 +4836,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:3994
 msgid "Defines Kayako endpoint authentication password."
-msgstr ""
+msgstr "Definerer adgangskoden til authentication af Kayako-endpointet."
 
 #: db/seeds/settings.rb:3976
 msgid "Defines Kayako endpoint authentication user."
@@ -4943,7 +4958,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:4652
 msgid "Defines if Checkmk (https://checkmk.com/) is enabled or not."
-msgstr ""
+msgstr "Definerer, om Checkmk (https://checkmk.com/) er aktiveret eller ej."
 
 #: db/seeds/settings.rb:5365
 msgid "Defines if Clearbit (http://www.clearbit.com) is enabled or not."
@@ -4951,11 +4966,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:4916
 msgid "Defines if Exchange is enabled or not."
-msgstr ""
+msgstr "Definerer, om Exchange er aktiveret eller ej."
 
 #: db/seeds/settings.rb:4456
 msgid "Defines if Icinga (http://www.icinga.org) is enabled or not."
-msgstr ""
+msgstr "Definerer, om Icinga (http://www.icinga.org) er aktiveret eller ej."
 
 #: db/seeds/settings.rb:5576
 msgid ""
@@ -4977,7 +4992,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:4554
 msgid "Defines if Nagios (http://www.nagios.org) is enabled or not."
-msgstr ""
+msgstr "Definerer, om Nagios (http://www.nagios.org) er aktiveret eller ej."
 
 #: db/seeds/settings.rb:5694
 #, fuzzy
@@ -4987,7 +5002,7 @@ msgstr "Basis Godkendelse"
 
 #: db/seeds/settings.rb:5302
 msgid "Defines if Placetel (http://www.placetel.de) is enabled or not."
-msgstr ""
+msgstr "Definerer, om Placetel (http://www.placetel.de) er aktiveret eller ej."
 
 #: db/seeds/settings.rb:5652
 msgid "Defines if S/MIME encryption is enabled or not."
@@ -4995,11 +5010,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:5103
 msgid "Defines if Slack (http://www.slack.org) is enabled or not."
-msgstr ""
+msgstr "Definerer, om Slack (http://www.slack.org) er aktiveret eller ej."
 
 #: db/seeds/settings.rb:2979
 msgid "Defines if a customer can create tickets via the web interface."
-msgstr ""
+msgstr "Definerer, om en kunde kan oprette tickets via webinterfacet."
 
 #: db/seeds/settings.rb:20
 msgid "Defines if application is in init mode."
@@ -5027,17 +5042,21 @@ msgstr ""
 
 #: db/seeds/settings.rb:5144
 msgid "Defines if sipgate.io (http://www.sipgate.io) is enabled or not."
-msgstr ""
+msgstr "Definerer, om sipgate.io (http://www.sipgate.io) er aktiveret eller ej."
 
 #: db/seeds/settings.rb:5025
 msgid ""
 "Defines if the GitHub (http://www.github.com) integration is enabled or not."
 msgstr ""
+"Definerer, om GitHub-integrationen (http://www.github.com) er aktiveret "
+"eller ej."
 
 #: db/seeds/settings.rb:4983
 msgid ""
 "Defines if the GitLab (http://www.gitlab.com) integration is enabled or not."
 msgstr ""
+"Definerer, om GitLab-integrationen (http://www.gitlab.com) er aktiveret "
+"eller ej."
 
 #: db/seeds/settings.rb:5736
 #, fuzzy
@@ -5114,11 +5133,11 @@ msgstr "Basis Godkendelse"
 
 #: db/seeds/settings.rb:3060
 msgid "Defines if tickets can be created via web form."
-msgstr ""
+msgstr "Definerer, om tickets kan oprettes via webformular."
 
 #: db/seeds/settings.rb:4505
 msgid "Defines if tickets should be closed if service is recovered."
-msgstr ""
+msgstr "Definerer, om tickets skal lukkes, hvis servicen er genoprettet."
 
 #: db/seeds/settings.rb:4375
 msgid "Defines postmaster filter for filters managed via admin interface."
@@ -5204,17 +5223,23 @@ msgstr ""
 msgid ""
 "Defines postmaster filter to manage Monit (https://mmonit.com/monit/) emails."
 msgstr ""
+"Definerer postmaster-filter til håndtering af Monit (https://mmonit.com/"
+"monit/) e-mails."
 
 #: db/seeds/settings.rb:4393
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
+"Definerer postmaster-filter til håndtering af Nagios (http://www.nagios.org) "
+"e-mails."
 
 #: db/seeds/settings.rb:4231
 msgid ""
 "Defines postmaster filter to remove X-Zammad headers from untrustworthy "
 "sources."
 msgstr ""
+"Definerer postmaster-filter til at fjerne X-Zammad-overskrifter fra "
+"upålidelige kilder."
 
 #: db/seeds/settings.rb:4267
 msgid ""
@@ -5264,27 +5289,27 @@ msgstr ""
 
 #: db/seeds/settings.rb:5391
 msgid "Defines the Clearbit config."
-msgstr ""
+msgstr "Definerer Clearbit-konfigurationen."
 
 #: db/seeds/settings.rb:4903
 msgid "Defines the Exchange OAuth config."
-msgstr ""
+msgstr "Definerer Exchange OAuth-konfigurationen."
 
 #: db/seeds/settings.rb:4890
 msgid "Defines the Exchange config."
-msgstr ""
+msgstr "Definerer Exchange-konfigurationen."
 
 #: db/seeds/settings.rb:339
 msgid "Defines the HTTP protocol of your instance."
-msgstr ""
+msgstr "Definerer HTTP-protokollen for din instans."
 
 #: db/seeds/settings.rb:5722
 msgid "Defines the PGP config."
-msgstr ""
+msgstr "Definerer PGP-konfigurationen."
 
 #: db/seeds/settings.rb:5330
 msgid "Defines the Placetel config."
-msgstr ""
+msgstr "Definerer Placetel-konfigurationen."
 
 #: db/seeds/settings.rb:5680
 msgid "Defines the S/MIME config."
@@ -5292,17 +5317,19 @@ msgstr ""
 
 #: db/seeds/settings.rb:5129
 msgid "Defines the Slack config."
-msgstr ""
+msgstr "Definerer Slack-konfigurationen."
 
 #: db/seeds/settings.rb:5432
 msgid "Defines the agent limit."
-msgstr ""
+msgstr "Definerer agentgrænsen."
 
 #: db/seeds/settings.rb:425
 msgid ""
 "Defines the backend for geo IP lookups. Also shows location of an IP address "
 "if it is traceable."
 msgstr ""
+"Definerer backend for geo IP lookups. Viser også placeringen af en IP-"
+"adresse, hvis den kan spores."
 
 #: db/seeds/settings.rb:479
 msgid ""
@@ -5318,7 +5345,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:398
 msgid "Defines the backend for user and organization image lookups."
-msgstr ""
+msgstr "Definerer backend til lookup af bruger- og organisationsbilleder."
 
 #: db/seeds/settings.rb:186
 msgid "Defines the backend service for ticket article language detection."
@@ -5329,6 +5356,8 @@ msgid ""
 "Defines the configuration how many articles can be created in a minute range "
 "globally."
 msgstr ""
+"Definerer konfigurationen af, hvor mange artikler der kan oprettes inden for "
+"et minutinterval globalt."
 
 #: db/seeds/settings.rb:2896
 msgid ""
@@ -5347,15 +5376,15 @@ msgstr ""
 
 #: db/seeds/settings.rb:3635
 msgid "Defines the default screen."
-msgstr ""
+msgstr "Definerer standardskærmen."
 
 #: db/seeds/settings.rb:166
 msgid "Defines the default system language."
-msgstr ""
+msgstr "Definerer systemets standardsprog."
 
 #: db/seeds/settings.rb:209
 msgid "Defines the default system timezone."
-msgstr ""
+msgstr "Definerer systemets standardtidszone."
 
 #: db/seeds/settings.rb:4160
 #, fuzzy
@@ -5374,6 +5403,8 @@ msgid ""
 "Defines the duration of customer activity (in seconds) on a call until the "
 "user profile dialog is shown."
 msgstr ""
+"Definerer varigheden af kundeaktivitet (i sekunder) på et opkald, indtil "
+"brugerprofildialogen vises."
 
 #: db/seeds/settings.rb:289
 msgid ""
@@ -5381,6 +5412,9 @@ msgid ""
 "as a variable, #{setting.fqdn} which is found in all forms of messaging used "
 "by the application, to build links to the tickets within your system."
 msgstr ""
+"Definerer systemets fully qualified domænenavn. Denne indstilling bruges som "
+"en variabel, #{setting.fqdn}, som findes i alle former for meddelelser, der "
+"bruges af programmet, til at oprette links til tickets i dit system."
 
 #: db/seeds/settings.rb:4678
 msgid "Defines the group of created tickets."
@@ -5424,7 +5458,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:320
 msgid "Defines the port of the websocket server."
-msgstr ""
+msgstr "Definerer porten til websocket-serveren."
 
 #: db/seeds/settings.rb:7
 msgid "Defines the random application secret."
@@ -5432,11 +5466,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:4482
 msgid "Defines the sender email address of Icinga emails."
-msgstr ""
+msgstr "Definerer afsenderens e-mailadresse for Icinga-emails."
 
 #: db/seeds/settings.rb:4580
 msgid "Defines the sender email address of Nagios emails."
-msgstr ""
+msgstr "Definerer afsenderens e-mailadresse for Nagios-e-mails."
 
 #: db/seeds/settings.rb:4788
 msgid "Defines the sender email address of the service emails."
@@ -5451,6 +5485,8 @@ msgid ""
 "Defines the separator between the agent's real name and the given group "
 "email address."
 msgstr ""
+"Definerer separatoren mellem agentens rigtige navn og den givne "
+"gruppemailadresse."
 
 #: db/seeds/settings.rb:1134
 msgid ""
@@ -5460,7 +5496,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:5193
 msgid "Defines the sipgate.io config."
-msgstr ""
+msgstr "Definerer sipgate.io-konfigurationen."
 
 #: db/seeds/settings.rb:4531
 msgid "Defines the state of auto-closed tickets."
@@ -5472,6 +5508,9 @@ msgid ""
 "ensures that only tickets which belong to your system will be processed as "
 "follow-ups (useful when communicating between two instances of Zammad)."
 msgstr ""
+"Definerer systemets identifikation. Hvert ticket-nummer indeholder dette ID. "
+"Det sikrer, at kun sager, der tilhører dit system, bliver behandlet som "
+"opfølgninger (nyttigt, når man kommunikerer mellem to instanser af Zammad)."
 
 #: db/seeds/settings.rb:3031
 msgid "Defines the tab behaviour after a ticket action."
@@ -5487,7 +5526,7 @@ msgstr ""
 
 #: db/seeds/settings.rb:5344
 msgid "Defines the token for Placetel."
-msgstr ""
+msgstr "Definerer token for Placetel."
 
 #: db/seeds/settings.rb:5085
 msgid ""
@@ -5603,7 +5642,7 @@ msgstr "Slet Artikel"
 
 #: app/assets/javascripts/app/controllers/_profile/avatar.coffee:47
 msgid "Delete Avatar?"
-msgstr ""
+msgstr "Slet Avatar?"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_customer.coffee:33
 msgid "Delete Customer"
@@ -5689,7 +5728,7 @@ msgstr ""
 
 #: db/seeds/schedulers.rb:215
 msgid "Delete old upload cache entries."
-msgstr ""
+msgstr "Slet gamle upload cache entries."
 
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:188
 msgid "Delete organization?"
@@ -5758,6 +5797,9 @@ msgid ""
 "Deleting your knowledge base requires an additional verification step. To "
 "proceed, enter its name below (\"%s\"). THIS ACTION CANNOT BE UNDONE."
 msgstr ""
+"Sletning af din vidensbase kræver et ekstra verifikationstrin. For at "
+"fortsætte skal du indtaste navnet nedenfor (\"%s\"). DENNE HANDLING KAN IKKE "
+"FORTRYDES."
 
 #: app/assets/javascripts/app/controllers/data_privacy.coffee:86
 msgid "Deletion Task"
@@ -5928,15 +5970,15 @@ msgstr ""
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:36
 #: app/frontend/apps/mobile/pages/account/views/AccountOverview.vue:165
 msgid "Did you know?"
-msgstr ""
+msgstr "Var du klar over det?"
 
 #: app/assets/javascripts/app/views/profile/language.jst.eco:12
 msgid "Did you know? You can help translating %s at:"
-msgstr ""
+msgstr "Var du klar over det? Du kan hjælpe med at oversætte %s på:"
 
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:51
 msgid "Did you plan to include attachments with this message?"
-msgstr ""
+msgstr "Havde du tænkt dig at sende vedhæftede filer med denne besked?"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:466
 msgid ""
@@ -5990,7 +6032,7 @@ msgstr "Sluk notifikation"
 
 #: db/seeds/settings.rb:1326
 msgid "Disables user creation on logon with a third-party application."
-msgstr ""
+msgstr "Deaktiverer brugeroprettelse ved login med en tredjepartsapplikation."
 
 #: app/assets/javascripts/app/views/profile/notification.jst.eco:23
 msgid ""
@@ -6145,6 +6187,7 @@ msgstr "Domænebaseret tildeling"
 msgid ""
 "Don't load CSS for form. You need to generate your own CSS for the form."
 msgstr ""
+"Indlæs ikke CSS til formularen. Du skal generere din egen CSS til formularen."
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:592
 msgid "Don't synchronize"
@@ -6201,7 +6244,7 @@ msgstr "Hent %s post(er)"
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:8
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceOTRS.vue:104
 msgid "Download and install the %s Migration Plugin on your %s instance."
-msgstr ""
+msgstr "Download og installer %s Migration Plugin på din %s-instans."
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/email.ts:123
 #, fuzzy
@@ -6256,7 +6299,7 @@ msgstr "Kladde"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingOverviewOrder.vue:55
 msgid "Drag and drop to reorder ticket overview list items."
-msgstr ""
+msgstr "Træk og slip for at ændre rækkefølgen på punkterne i ticket-oversigten."
 
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabs.vue:236
 #, fuzzy
@@ -6283,13 +6326,15 @@ msgstr "Træk filer her"
 
 #: app/assets/javascripts/app/controllers/login.coffee:26
 msgid "Due to inactivity, you have been automatically logged out."
-msgstr ""
+msgstr "På grund af inaktivitet er du automatisk blevet logget ud."
 
 #: app/assets/javascripts/app/controllers/_plugin/session_timeout.coffee:99
 msgid ""
 "Due to inactivity, you will be automatically logged out within the next 30 "
 "seconds."
 msgstr ""
+"På grund af inaktivitet vil du automatisk blive logget ud inden for de næste "
+"30 sekunder."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:14
 #, fuzzy
@@ -6431,20 +6476,24 @@ msgid "Elasticsearch Attachment Size"
 msgstr ""
 
 #: db/seeds/settings.rb:3669
+#, fuzzy
 msgid "Elasticsearch Endpoint Index"
-msgstr ""
+msgstr "Elasticsearch Endpoint Index"
 
 #: db/seeds/settings.rb:3660
+#, fuzzy
 msgid "Elasticsearch Endpoint Password"
-msgstr ""
+msgstr "Elasticsearch Endpoint Password"
 
 #: db/seeds/settings.rb:3642
+#, fuzzy
 msgid "Elasticsearch Endpoint URL"
-msgstr ""
+msgstr "Elasticsearch Endpoint URL"
 
 #: db/seeds/settings.rb:3651
+#, fuzzy
 msgid "Elasticsearch Endpoint User"
-msgstr ""
+msgstr "Elasticsearch Endpoint User"
 
 #: db/seeds/settings.rb:3723
 #, fuzzy
@@ -6453,8 +6502,9 @@ msgid "Elasticsearch Model Configuration"
 msgstr "SSL verificering"
 
 #: db/seeds/settings.rb:3714
+#, fuzzy
 msgid "Elasticsearch Pipeline Name"
-msgstr ""
+msgstr "Elasticsearch Pipeline Name"
 
 #: db/seeds/settings.rb:3678
 #, fuzzy
@@ -6463,18 +6513,21 @@ msgid "Elasticsearch SSL verification"
 msgstr "SSL verificering"
 
 #: db/seeds/settings.rb:3705
+#, fuzzy
 msgid "Elasticsearch Total Payload Size"
-msgstr ""
+msgstr "Elasticsearch Total Payload Size"
 
 #: lib/search_index_backend.rb:433
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
 msgstr ""
+"Elasticsearch kan ikke tilgås. Det er muligt, at det ikke kører. Tjek "
+"venligst, om den er installeret."
 
 #: app/controllers/reports_controller.rb:9
 msgid "Elasticsearch needs to be configured!"
-msgstr ""
+msgstr "Elasticsearch skal konfigureres!"
 
 #: app/models/system_report/plugin/search_index.rb:4
 #, fuzzy
@@ -6591,12 +6644,12 @@ msgstr "Email adresse"
 
 #: app/models/user.rb:640
 msgid "Email address '%{email}' is already used for another user."
-msgstr ""
+msgstr "E-mailadressen '%{email}' er allerede brugt af en anden bruger."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:53
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:50
 msgid "Email could not be verified. Please contact your administrator."
-msgstr ""
+msgstr "E-mailen kunne ikke bekræftes. Kontakt venligst din administrator."
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:914
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:405
@@ -6605,15 +6658,18 @@ msgid ""
 "Email sending and receiving could not be verified. Please check your "
 "settings."
 msgstr ""
+"Afsendelse og modtagelse af e-mail kunne ikke verificeres. Tjek venligst "
+"dine indstillinger."
 
 #: app/assets/javascripts/app/controllers/user_profile/action_row.coffee:47
 msgid "Email sent to \"%s\". Please let the user verify their email account."
 msgstr ""
+"E-mail sendt til \"%s\". Bed venligst brugeren bekræfte sin e-mailkonto."
 
 #: app/assets/javascripts/app/controllers/signup.coffee:124
 #: app/frontend/apps/desktop/pages/authentication/views/Signup.vue:91
 msgid "Email sent to \"%s\". Please verify your email account."
-msgstr ""
+msgstr "E-mail sendt til \"%s\". Bekræft venligst din e-mailkonto."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsEmail.vue:19
 #, fuzzy
@@ -6664,6 +6720,8 @@ msgid ""
 "Enable REST API access using the username/email address and password for the "
 "authentication user."
 msgstr ""
+"Aktivér REST API-adgang ved hjælp af brugernavn/e-mailadresse og adgangskode "
+"for autentificeringsbrugeren."
 
 #: app/assets/javascripts/app/views/api.jst.eco:15
 msgid ""
@@ -6679,11 +6737,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:5866
 msgid "Enable Recovery Codes"
-msgstr ""
+msgstr "Aktivér gendannelseskoder"
 
 #: db/seeds/settings.rb:2976
 msgid "Enable Ticket creation"
-msgstr ""
+msgstr "Aktivér oprettelse af ticket"
 
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:6
 msgid ""
@@ -9290,7 +9348,7 @@ msgstr ""
 
 #: app/controllers/long_polling_controller.rb:51
 msgid "Invalid client_id received!"
-msgstr ""
+msgstr "Ugyldig client_id modtaget!"
 
 #: app/models/user.rb:585
 msgid "Invalid email '%{email}'"
@@ -9322,28 +9380,31 @@ msgstr ""
 msgid ""
 "Invalid password revalidation token, please confirm your password again."
 msgstr ""
+"Ugyldigt token til validering af adgangskode, bekræft venligst din "
+"adgangskode igen."
 
 #: lib/password_policy/min_length.rb:11
 msgid "Invalid password, it must be at least %s characters long!"
-msgstr ""
+msgstr "Ugyldig adgangskode, den skal være mindst %s tegn lang!"
 
 #: lib/password_policy/max_length.rb:24
 msgid "Invalid password, it must be shorter than %s characters!"
-msgstr ""
+msgstr "Ugyldig adgangskode, den skal være kortere end %s tegn!"
 
 #: lib/password_policy/digit.rb:13
 msgid "Invalid password, it must contain at least 1 digit!"
-msgstr ""
+msgstr "Ugyldig adgangskode, den skal indeholde mindst et tal!"
 
 #: lib/password_policy/special_character.rb:13
 msgid "Invalid password, it must contain at least 1 special character!"
-msgstr ""
+msgstr "Ugyldig adgangskode, den skal indeholde mindst 1 specialtegn!"
 
 #: lib/password_policy/upper_and_lower_case_characters.rb:13
 msgid ""
 "Invalid password, it must contain at least 2 lowercase and 2 uppercase "
 "characters!"
 msgstr ""
+"Ugyldig adgangskode, den skal indeholde mindst 2 små og 2 store bogstaver!"
 
 #: lib/knowledge_base/permissions_update.rb:88
 msgid "Invalid permissions, do not lock yourself out."
@@ -9370,17 +9431,17 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/authenticator_app.coffee:104
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:142
 msgid "Invalid security code! Please try again with a new code."
-msgstr ""
+msgstr "Ugyldig sikkerhedskode! Prøv venligst igen med en ny kode."
 
 #: app/controllers/integration/cti_controller.rb:41
 #: app/controllers/integration/placetel_controller.rb:40
 #: app/controllers/integration/sipgate_controller.rb:40
 msgid "Invalid token, please contact your admin!"
-msgstr ""
+msgstr "Ugyldigt token, kontakt venligst din administrator!"
 
 #: app/frontend/apps/mobile/components/CommonStepper/CommonStepperStep.vue:33
 msgid "Invalid values in step %s"
-msgstr ""
+msgstr "Ugyldige værdier i trin %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/richtext_additions/popup_video.coffee:39
 msgid "Invalid video URL"
@@ -9494,10 +9555,11 @@ msgstr "ingen problemer"
 #: lib/validations/data_privacy_task_validator.rb:50
 msgid "It is not possible to delete the last account with admin permissions."
 msgstr ""
+"Det er ikke muligt at slette den sidste konto med administratorrettigheder."
 
 #: lib/validations/data_privacy_task_validator.rb:38
 msgid "It is not possible to delete the system user."
-msgstr ""
+msgstr "Det er ikke muligt at slette systembrugeren."
 
 #: lib/validations/data_privacy_task_validator.rb:44
 #, fuzzy
@@ -9568,8 +9630,9 @@ msgid ""
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/plugins/kayako.ts:11
+#, fuzzy
 msgid "Kayako"
-msgstr ""
+msgstr "Kayako"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:435
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:284
@@ -9589,8 +9652,9 @@ msgid "Key"
 msgstr "Nøgle"
 
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:12
+#, fuzzy
 msgid "Key ID"
-msgstr ""
+msgstr "Key ID"
 
 #: app/assets/javascripts/app/controllers/keyboard_shortcuts.coffee:4
 msgid "Keyboard Shortcuts"
@@ -9741,7 +9805,7 @@ msgstr "Sidst anvendt"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/attribute_bar.coffee:123
 msgid "Last change %s %s by %s"
-msgstr ""
+msgstr "Sidste ændring %s %s af %s"
 
 #: app/assets/javascripts/app/views/ticket_shared_draft_modal.jst.eco:11
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSharedDraftFlyout.vue:207
@@ -9782,6 +9846,8 @@ msgstr "Sidste kontakt (medarbejder)"
 msgid ""
 "Last created at of database objects (e.g. when was the last trigger created)"
 msgstr ""
+"Sidste oprettelse af databaseobjekter (f.eks. hvornår blev den sidste "
+"trigger oprettet)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:224
 #, fuzzy
@@ -9819,8 +9885,9 @@ msgid "Last used"
 msgstr "Sidst anvendt"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:152
+#, fuzzy
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: app/assets/javascripts/app/controllers/layout_ref.coffee:2420
 msgid "Layout Reference"
@@ -9845,15 +9912,15 @@ msgstr ""
 
 #: db/seeds/settings.rb:3135
 msgid "Limit tickets by IP per day"
-msgstr ""
+msgstr "Begræns antallet af tickets pr. IP pr. dag"
 
 #: db/seeds/settings.rb:3114
 msgid "Limit tickets by IP per hour"
-msgstr ""
+msgstr "Begræns antallet af tickets pr. IP pr. time"
 
 #: db/seeds/settings.rb:3156
 msgid "Limit tickets per day"
-msgstr ""
+msgstr "Begræns antallet af tickets pr. dag"
 
 #: app/frontend/apps/mobile/pages/home/components/TicketOverviewEditItem.vue:94
 #, fuzzy
@@ -9891,11 +9958,11 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_integration/github.coffee:76
 msgid "Link GitHub issues to your tickets."
-msgstr ""
+msgstr "Link GitHub-issues til dine tickets."
 
 #: app/assets/javascripts/app/controllers/_integration/gitlab.coffee:99
 msgid "Link GitLab issues to your tickets."
-msgstr ""
+msgstr "Link GitLab-issues til dine tickets."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerLinkFlyout.vue:68
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerList.vue:288
@@ -9980,7 +10047,7 @@ msgstr "Link Skabelon"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLinkedAccounts.vue:56
 #: db/seeds/permissions.rb:460
 msgid "Linked Accounts"
-msgstr ""
+msgstr "Linked konti"
 
 #: app/assets/javascripts/app/views/knowledge_base/_reader_linked_tickets.jst.eco:5
 #: app/assets/javascripts/app/views/knowledge_base/sidebar/linked_tickets.jst.eco:2
@@ -10018,7 +10085,7 @@ msgstr ""
 
 #: app/models/system_report/plugin/addons.rb:4
 msgid "List of installed addons"
-msgstr ""
+msgstr "Liste over installerede udvidelser"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerList/IssueTrackerItem/IssueTrackerBadgeList.vue:15
 msgid "List of issue labels"
@@ -10075,7 +10142,7 @@ msgstr "Indlæser…"
 
 #: lib/email_helper.rb:26
 msgid "Local MTA (Sendmail/Postfix/Exim/…) - use server setup"
-msgstr ""
+msgstr "Lokal MTA (Sendmail/Postfix/Exim/...) - brug serveropsætning"
 
 #: app/assets/javascripts/app/models/job.coffee:13
 #: app/assets/javascripts/app/models/trigger.coffee:12 db/seeds/settings.rb:163
@@ -10112,7 +10179,7 @@ msgstr "Lokation af ekstern chat.css fil."
 
 #: app/assets/javascripts/app/views/login.jst.eco:4
 msgid "Log in to %s"
-msgstr ""
+msgstr "Log ind på %s"
 
 #: app/assets/javascripts/app/models/user.coffee:8
 #: app/assets/javascripts/app/views/maintenance.jst.eco:25
@@ -10123,18 +10190,21 @@ msgstr "Login"
 
 #: app/assets/javascripts/app/models/public_link.coffee:9
 msgid "Login Screen"
-msgstr ""
+msgstr "Login-skærm"
 
 #: lib/auth/error/authentication_failed.rb:4
 msgid ""
 "Login failed. Have you double-checked your credentials and completed the "
 "email verification step?"
 msgstr ""
+"Login mislykkedes. Har du dobbelttjekket dine loginoplysninger og gennemført "
+"e-mailbekræftelsestrinnet?"
 
 #: lib/auth/error/two_factor_failed.rb:4
 msgid ""
 "Login failed. Please double-check your two-factor authentication method."
 msgstr ""
+"Login mislykkedes. Dobbelttjek venligst din to-faktor-godkendelsesmetode."
 
 #: app/assets/javascripts/app/views/getting_started/base.jst.eco:14
 #: app/frontend/apps/mobile/pages/authentication/components/LoginFooter.vue:22
@@ -10162,7 +10232,7 @@ msgstr "Prioritet"
 
 #: app/models/system_report/plugin/mac_address.rb:4
 msgid "MAC address (unique identifier of the report)"
-msgstr ""
+msgstr "MAC-adresse (unik identifikation af rapporten)"
 
 #: app/assets/javascripts/app/controllers/macro.coffee:3
 msgid "Macro"
@@ -10221,7 +10291,7 @@ msgstr "Administrer"
 
 #: db/seeds/permissions.rb:234
 msgid "Manage API of your system."
-msgstr ""
+msgstr "Administrer API for dit system."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:30
 #, fuzzy
@@ -10237,15 +10307,15 @@ msgstr "Vælg Skabelon"
 
 #: db/seeds/permissions.rb:174
 msgid "Manage Facebook channel of your system."
-msgstr ""
+msgstr "Administrer Facebook-kanalen i dit system."
 
 #: db/seeds/permissions.rb:150
 msgid "Manage Google mail channel of your system."
-msgstr ""
+msgstr "Administrer Google-mailkanalen i dit system."
 
 #: db/seeds/permissions.rb:156
 msgid "Manage Microsoft 365 mail channel of your system."
-msgstr ""
+msgstr "Administrer Microsoft 365-mailkanalen i dit system."
 
 #: db/seeds/permissions.rb:162
 #, fuzzy
@@ -10255,7 +10325,7 @@ msgstr "Overblik"
 
 #: db/seeds/permissions.rb:138
 msgid "Manage SMS channel of your system."
-msgstr ""
+msgstr "Administrer SMS-kanalen i dit system."
 
 #: db/seeds/permissions.rb:72
 msgid "Manage Service Level Agreements of your system."
@@ -10294,7 +10364,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:12
 msgid "Manage all users of your system."
-msgstr ""
+msgstr "Administrer alle brugere af dit system."
 
 #: app/assets/javascripts/app/views/api.jst.eco:48
 msgid ""
@@ -10304,7 +10374,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:192
 msgid "Manage branding settings of your system."
-msgstr ""
+msgstr "Administrer branding-indstillinger for dit system."
 
 #: db/seeds/permissions.rb:66
 msgid "Manage calendars of your system."
@@ -10432,7 +10502,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:24
 msgid "Manage roles of your system."
-msgstr ""
+msgstr "Administrer roller i dit system."
 
 #: db/seeds/permissions.rb:96
 msgid "Manage schedulers of your system."
@@ -10440,7 +10510,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:204
 msgid "Manage security settings of your system."
-msgstr ""
+msgstr "Administrer sikkerhedsindstillingerne for dit system."
 
 #: db/seeds/permissions.rb:300
 msgid "Manage system report of your system."
@@ -10480,11 +10550,11 @@ msgstr "Overblik"
 
 #: db/seeds/permissions.rb:252
 msgid "Manage ticket priorities of your system."
-msgstr ""
+msgstr "Administrer ticketprioriteter i dit system."
 
 #: db/seeds/permissions.rb:210
 msgid "Manage ticket settings of your system."
-msgstr ""
+msgstr "Administrer ticket-indstillinger for dit system."
 
 #: db/seeds/permissions.rb:246
 msgid "Manage ticket states of your system."
@@ -10504,7 +10574,7 @@ msgstr ""
 
 #: db/seeds/permissions.rb:264
 msgid "Manage translations of your system."
-msgstr ""
+msgstr "Administrer oversættelser af dit system."
 
 #: db/seeds/permissions.rb:78
 msgid "Manage triggers of your system."
@@ -12480,7 +12550,7 @@ msgstr "Åbnet i faner"
 
 #: app/models/system_report/plugin/os.rb:6
 msgid "Operating system"
-msgstr ""
+msgstr "Operativsystem"
 
 #: app/assets/javascripts/app/views/agent_ticket_view/content.jst.eco:7
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:222
@@ -12511,11 +12581,11 @@ msgstr ""
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupStart.vue:76
 msgid "Or migrate from another system"
-msgstr ""
+msgstr "Eller migrer fra et andet system"
 
 #: app/assets/javascripts/app/views/getting_started/intro.jst.eco:9
 msgid "Or migrate from another system."
-msgstr ""
+msgstr "Eller migrere fra et andet system."
 
 #: app/frontend/apps/desktop/pages/authentication/components/LoginThirdParty.vue:24
 #: app/frontend/apps/mobile/pages/authentication/components/LoginThirdParty.vue:24
@@ -12525,7 +12595,7 @@ msgstr "Eller log ind med"
 #: app/frontend/apps/desktop/pages/authentication/components/LoginTwoFactorMethods.vue:51
 #: app/frontend/apps/mobile/pages/authentication/components/LoginTwoFactorMethods.vue:36
 msgid "Or use one of your recovery codes."
-msgstr ""
+msgstr "Eller brug en af dine gendannelseskoder."
 
 #: app/assets/javascripts/app/views/widget/two_factor_login/try_another_method.jst.eco:19
 msgid "Or, use one of your"

@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 06:57+0000\n"
-"Last-Translator: Martin Gruner <mg@zammad.com>\n"
+"PO-Revision-Date: 2025-04-27 10:00+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translations.zammad.org/"
-"projects/zammad/zammad-development/en_GB/>\n"
+"projects/zammad/zammad-stable/en_GB/>\n"
 "Language: en-gb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -1612,35 +1612,39 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 msgid "Advance to next ticket from overview"
-msgstr ""
+msgstr "Advance to next ticket from overview"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:62
 msgid "Affects only notifications for not assigned and all tickets."
-msgstr ""
+msgstr "Affects only notifications for not assigned and all tickets."
 
 #: app/assets/javascripts/app/views/exchange/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Exchange account."
-msgstr ""
+msgstr "After approval, please reconnect your Exchange account."
 
 #: app/assets/javascripts/app/views/microsoft365/admin_consent.jst.eco:4
 msgid "After approval, please re-connect your Microsoft365 mailbox."
-msgstr ""
+msgstr "After approval, please reconnect your Microsoft 365 mailbox."
 
 #: app/assets/javascripts/app/views/package.jst.eco:12
 msgid ""
 "After installing, updating, or uninstalling packages the following commands "
 "need to be executed on the server:"
 msgstr ""
+"After installing, updating, or uninstalling packages, the following commands "
+"need to be executed on the server:"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceFreshdesk.vue:95
 msgid ""
 "After the import is completed, the account associated with the API token "
 "will become your username, and the token itself will be your password."
 msgstr ""
+"After the import is completed, the account associated with the API token "
+"will become your username, and the token itself will be your password."
 
 #: app/assets/javascripts/app/views/session.jst.eco:11
 msgid "Age"
-msgstr ""
+msgstr "Age"
 
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
@@ -1652,31 +1656,31 @@ msgstr "Agent"
 
 #: db/seeds/settings.rb:3256
 msgid "Agent Name"
-msgstr ""
+msgstr "Agent Name"
 
 #: db/seeds/settings.rb:3256
 msgid "Agent Name + FromSeparator + System Address Display Name"
-msgstr ""
+msgstr "Agent Name + FromSeparator + System Address Display Name"
 
 #: db/seeds/permissions.rb:320
 msgid "Agent chat"
-msgstr ""
+msgstr "Agent chat"
 
 #: db/seeds/settings.rb:3610
 msgid "Agent idle timeout"
-msgstr ""
+msgstr "Agent idle timeout"
 
 #: app/models/role.rb:156 app/models/user.rb:727
 msgid "Agent limit exceeded, please check your account settings."
-msgstr ""
+msgstr "Agent limit exceeded, please check your account settings."
 
 #: db/seeds/permissions.rb:335
 msgid "Agent phone"
-msgstr ""
+msgstr "Agent phone"
 
 #: db/seeds/permissions.rb:378
 msgid "Agent tickets"
-msgstr ""
+msgstr "Agent tickets"
 
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:109
 msgid "Agents"
@@ -1684,12 +1688,12 @@ msgstr "Agents"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:27
 msgid "Alarm"
-msgstr ""
+msgstr "Alarm"
 
 #: app/assets/javascripts/app/views/generic/notification_matrix.jst.eco:8
 #: app/assets/javascripts/app/views/profile/notification.jst.eco:30
 msgid "All Tickets"
-msgstr ""
+msgstr "All Tickets"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_perform_action.coffee:115
 msgid ""

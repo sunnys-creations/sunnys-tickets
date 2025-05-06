@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-13 12:00+0000\n"
-"Last-Translator: daghanprojenet <daghan@projenet.com>\n"
+"PO-Revision-Date: 2025-04-27 10:00+0000\n"
+"Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -1057,8 +1057,6 @@ msgstr ""
 
 #: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
-#, fuzzy
-#| msgid "Access token"
 msgid "Access denied"
 msgstr "Erişim reddedildi"
 
@@ -1087,8 +1085,6 @@ msgid "Access tickets as customer."
 msgstr "Destek taleplerine müşteri olarak erişim."
 
 #: db/seeds/permissions.rb:312
-#, fuzzy
-#| msgid "Access to customer tickets"
 msgid "Access to the chat interface."
 msgstr "Sohbet arayüzüne erişim."
 

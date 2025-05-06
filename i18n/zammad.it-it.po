@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-22 11:36+0000\n"
+"PO-Revision-Date: 2025-05-06 05:36+0000\n"
 "Last-Translator: Random <random_r@users.noreply.translations.zammad.org>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/it/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -16837,8 +16837,8 @@ msgstr "L'indirizzo email |%s| è già usato da un altro account."
 msgid ""
 "The email could not be sent to the user because import_mode setting is on."
 msgstr ""
-"Impossibile inviare l'email all'utente perché l'impostazione import_mode è "
-"attiva."
+"Non è stato possibile inviare l'email all'utente perché l'impostazione "
+"import_mode è attiva."
 
 #: app/services/service/auth/send_admin_token.rb:39
 #: app/services/service/user/password_reset/update.rb:42

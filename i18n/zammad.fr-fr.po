@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-17 22:00+0000\n"
+"PO-Revision-Date: 2025-05-06 05:36+0000\n"
 "Last-Translator: Anael Mobilia <contrib@anael.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/fr/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -4207,6 +4207,8 @@ msgstr "Impossible de supprimer la méthode d'authentification à deux facteurs.
 msgid ""
 "Could not send user verification email because import_mode setting is on."
 msgstr ""
+"Impossible d'envoyer un e-mail de vérification de l'utilisateur car le "
+"paramètre import_mode est activé."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
@@ -10090,7 +10092,7 @@ msgstr "Clair"
 
 #: app/assets/javascripts/app/views/profile/notification.jst.eco:17
 msgid "Limit Groups"
-msgstr "Limiter les groupes"
+msgstr "Limiter à des groupes"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:61
 msgid "Limit notifications to specific groups"
@@ -13187,7 +13189,7 @@ msgstr "Intégration Placetel"
 #: app/assets/javascripts/app/views/profile/notification.jst.eco:70
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingNotifications.vue:80
 msgid "Play user interface sound effects"
-msgstr "Jouer les effets sonores de l'interface utilisateur"
+msgstr "Jouer les effets sonores dans l'interface utilisateur"
 
 #: app/frontend/shared/form/i18n/locales.ts:117
 msgid "Please accept the %s."
@@ -16214,7 +16216,7 @@ msgstr "Synchroniser les calendriers avec les flux iCal."
 #: app/assets/javascripts/app/views/profile/appearance.jst.eco:31
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingAppearance.vue:52
 msgid "Sync with computer"
-msgstr "Synchroniser avec l'ordinateur"
+msgstr "Utiliser celui de l'ordinateur"
 
 #: app/assets/javascripts/app/controllers/_manage/system.coffee:3
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:37
@@ -18872,7 +18874,7 @@ msgstr "Titre du ticket"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_set.coffee:11
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:79
 msgid "Ticket update"
-msgstr "Mettre à jour le ticket"
+msgstr "Mise à jour du ticket"
 
 #: app/frontend/shared/entities/ticket/composables/useTicketEdit.ts:57
 msgid "Ticket update failed."
@@ -21712,7 +21714,7 @@ msgstr "après le (valeur relative)"
 #: app/assets/javascripts/app/views/admin_password_auth/request_sent.jst.eco:8
 #: app/assets/javascripts/app/views/password/reset_sent.jst.eco:8
 msgid "again"
-msgstr "encore"
+msgstr "renvoyer"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:421
 msgid "all subscribers"
