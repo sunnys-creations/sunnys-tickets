@@ -65,8 +65,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Created by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "* Group: #{ticket.group.name}\n"
 "* Owner: #{ticket.owner.fullname}\n"
 "* State: #{t(ticket.state.name)}\n"
@@ -77,8 +77,8 @@ msgid ""
 msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Vytvořil #{current_user.longname} #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Vytvořil #{current_user.longname} "
+"#{ticket.updated_at}_\n"
 "* Skupina: #{ticket.group.name}\n"
 "* Vlastník: #{ticket.owner.fullname}\n"
 "* Stav: #{t(ticket.state.name)}\n"
@@ -167,8 +167,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Updated by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Updated by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -181,8 +181,8 @@ msgid ""
 msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Aktualizoval #{current_user.longname} #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Aktualizoval #{current_user.longname} "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -1270,7 +1270,7 @@ msgstr "Tok Aktivit"
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:50
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:16
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:4
-#: app/controllers/time_accountings_controller.rb:117
+#: app/controllers/time_accountings_controller.rb:111
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:118
 msgid "Activity Type"
 msgstr "Typ aktivity"
@@ -1628,15 +1628,15 @@ msgstr "Administrátorský Účet"
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
-#| "<div>We received a request for an administration login for your #{config."
-#| "product_name} account <b>#{user.login}</b>.</div>\n"
+#| "<div>We received a request for an administration login for your "
+#| "#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 #| "<br>\n"
 #| "<div>Please, click on the link below (or copy and paste the URL into your "
 #| "browser) to proceed:</div>\n"
 #| "<br>\n"
-#| "<div><a href=\"#{config.http_type}://#{config.fqdn}/#login/admin/#{token."
-#| "token}\">#{config.http_type}://#{config.fqdn}/#login/admin/#{token.token}"
-#| "</a></div>\n"
+#| "<div><a href=\"#{config.http_type}://#{config.fqdn}/#login/admin/"
+#| "#{token.token}\">#{config.http_type}://#{config.fqdn}/#login/admin/"
+#| "#{token.token}</a></div>\n"
 #| "<br>\n"
 #| "<div>This link takes you to a page where you can log in.</div>\n"
 #| "<br>\n"
@@ -1648,8 +1648,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request for an administration login for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request for an administration login for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Please, click on the link below (or copy and paste the URL into your "
 "browser) to proceed:</div>\n"
@@ -1666,8 +1666,8 @@ msgstr ""
 "\n"
 "<div>Dobrý den, #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Obdrželi jsme požadavek na změnu Vašeho hesla na webu #{config."
-"product_name} k účtu <b>#{user.login}</b>.</div>\n"
+"<div>Obdrželi jsme požadavek na změnu Vašeho hesla na webu "
+"#{config.product_name} k účtu <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Pokud opravdu chcete resetovat heslo, klikněte na odkaz níže (nebo "
 "zkopírujte a vložte URL odkazu do svého prohlížeče):</div>\n"
@@ -1730,7 +1730,7 @@ msgstr "Stáří"
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:13
-#: app/controllers/time_accountings_controller.rb:103 db/seeds/roles.rb:14
+#: app/controllers/time_accountings_controller.rb:97 db/seeds/roles.rb:14
 #: db/seeds/ticket_article_senders.rb:3
 msgid "Agent"
 msgstr "Řešitel"
@@ -3456,7 +3456,7 @@ msgstr "Zkontrolujte kanály."
 msgid "Check item"
 msgstr "Checkmk"
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
 msgstr "Pro podrobné informace zkontrolujte odpověď a požadavek:"
 
@@ -3978,22 +3978,22 @@ msgstr "Bind Password"
 #: app/views/mailer/signup/en.html.erb
 #, fuzzy
 #| msgid ""
-#| "Confirm your #{config.product_name} account, #{user.firstname} #{user."
-#| "lastname}\n"
+#| "Confirm your #{config.product_name} account, #{user.firstname} "
+#| "#{user.lastname}\n"
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
 #| "<div>Confirm your email address to complete your #{config.product_name} "
 #| "account. It's easy, just click the link below.</div>\n"
 #| "<br>\n"
-#| "<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/#{token."
-#| "token}\">#{config.http_type}://#{config.fqdn}/#email_verify/#{token.token}"
-#| "</a></div>\n"
+#| "<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/"
+#| "#{token.token}\">#{config.http_type}://#{config.fqdn}/#email_verify/"
+#| "#{token.token}</a></div>\n"
 #| "<br>\n"
 #| "<div>Your #{config.product_name} Team</div>\n"
 msgid ""
-"Confirm your #{config.product_name} account, #{user.firstname} #{user."
-"lastname}\n"
+"Confirm your #{config.product_name} account, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
@@ -4009,12 +4009,12 @@ msgstr ""
 "\n"
 "<div>Dobrý den, #{user.firstname},</div>\n"
 "<br>\n"
-"<div>pro potvrzení Vaší emailové adresy u účtu v aplikaci #{config."
-"product_name} klikněte na odkaz níže.</div>\n"
+"<div>pro potvrzení Vaší emailové adresy u účtu v aplikaci "
+"#{config.product_name} klikněte na odkaz níže.</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/#{token."
-"token}\">#{config.http_type}://#{config.fqdn}/#email_verify/#{token.token}</"
-"a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/"
+"#{token.token}\">#{config.http_type}://#{config.fqdn}/#email_verify/"
+"#{token.token}</a></div>\n"
 "<br>\n"
 "<div>Tým aplikace #{config.product_name}</div>\n"
 
@@ -4188,7 +4188,7 @@ msgstr "Pokračovat v sezení"
 msgid "Continue to desktop"
 msgstr "Pokračovat do desktopové aplikace"
 
-#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:56
+#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:61
 #: app/assets/javascripts/app/views/login.jst.eco:125
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:305
 msgid "Continue to mobile"
@@ -4480,8 +4480,8 @@ msgid ""
 "\n"
 "Available objects are:\n"
 "* ticket (e.g. ticket.state, ticket.group)\n"
-"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (e.g. ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (e.g. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (e.g. ticket.organization.name)\n"
 "* user (e.g. user.firstname, user.email)\n"
@@ -4503,8 +4503,8 @@ msgstr ""
 "\n"
 "Dostupné objekty:\n"
 "* ticket (např. ticket.state, ticket.group)\n"
-"* ticket.customer (např. ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (např. ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (např. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (např. ticket.organization.name)\n"
 "* user (např. user.firstname, user.email)\n"
@@ -4677,14 +4677,14 @@ msgstr "Vytvořit interní záznam v ticketu"
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:17
 #: app/assets/javascripts/app/views/widget/http_log.jst.eco:19
 #: app/assets/javascripts/app/views/widget/http_log_show.jst.eco:23
-#: app/controllers/time_accountings_controller.rb:122
+#: app/controllers/time_accountings_controller.rb:116
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:121
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMeta/useArticleMeta.ts:57
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:41
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:24
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:106
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:24
-#: app/graphql/gql/types/overview_type.rb:112
+#: app/graphql/gql/types/overview_type.rb:113
 msgid "Created at"
 msgstr "Vytvořeno v"
 
@@ -4710,7 +4710,7 @@ msgstr "Vytvořeno:"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:14
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:95
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:14
-#: app/graphql/gql/types/overview_type.rb:111
+#: app/graphql/gql/types/overview_type.rb:112
 msgid "Created by"
 msgstr "Vytvořeno kým"
 
@@ -4824,7 +4824,7 @@ msgstr "Vlastní adresa není nastavena"
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:11
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:39
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/customer.ts:13
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/customer.ts:6
@@ -5632,8 +5632,8 @@ msgstr "Definuje filtr správce pošty pro identifikaci odesílajícího uživat
 msgid ""
 "Defines postmaster filter to manage Icinga (http://www.icinga.org) emails."
 msgstr ""
-"Definuje filtr správce pošty pro správu e-mailů z Icingy (http://www.icinga."
-"org)."
+"Definuje filtr správce pošty pro správu e-mailů z Icingy (http://"
+"www.icinga.org)."
 
 #: db/seeds/settings.rb:4402
 msgid ""
@@ -5646,8 +5646,8 @@ msgstr ""
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
-"Definuje filtr správce pošty pro správu e-mailů z Nagiosu (http://www.nagios."
-"org)."
+"Definuje filtr správce pošty pro správu e-mailů z Nagiosu (http://"
+"www.nagios.org)."
 
 #: db/seeds/settings.rb:4231
 msgid ""
@@ -6001,11 +6001,11 @@ msgstr "Definuje transakční rozhraní pro vykonávání spouštěčů na zákl
 
 #: db/seeds/settings.rb:5094
 msgid ""
-"Defines the transaction backend which posts messages to Slack (http://www."
-"slack.com)."
+"Defines the transaction backend which posts messages to Slack (http://"
+"www.slack.com)."
 msgstr ""
-"Definuje transakční rozhraní, které zasílá zprávy do Slacku (http://www."
-"slack.com)."
+"Definuje transakční rozhraní, které zasílá zprávy do Slacku (http://"
+"www.slack.com)."
 
 #: db/seeds/settings.rb:5404
 msgid ""
@@ -6975,7 +6975,7 @@ msgstr "SSL ověření"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Celková velikost obsahu Elasticsearch"
 
-#: lib/search_index_backend.rb:433
+#: lib/search_index_backend.rb:435
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7971,7 +7971,7 @@ msgstr "Propadává"
 msgid "Expires at"
 msgstr "Vyprší v"
 
-#: app/assets/javascripts/app/controllers/search.coffee:55
+#: app/assets/javascripts/app/controllers/search.coffee:57
 msgid "Extended Search"
 msgstr "Rozšířené hledání"
 
@@ -7981,7 +7981,7 @@ msgstr "Rozšířené hledání"
 msgid "External data source field"
 msgstr "interní databáze"
 
-#: lib/search_index_backend.rb:727
+#: lib/search_index_backend.rb:739
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrahujte informace o Zammad přílohách z polí"
 
@@ -8374,11 +8374,11 @@ msgstr "Nepodařilo se najít FormSchema."
 msgid "Format"
 msgstr "Formát"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:582
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
 msgid "Format as //strikethrough//"
 msgstr "Formátovat jako //přešktnuté//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:564
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Format as _underlined_"
 msgstr "Formátovat jako _podtržené_"
 
@@ -8386,15 +8386,15 @@ msgstr "Formátovat jako _podtržené_"
 msgid "Format as bold"
 msgstr "Formátovat jako tučné"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:631
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
 msgid "Format as h1 heading"
 msgstr "Formátovat jako h1 nadpis"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:637
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
 msgid "Format as h2 heading"
 msgstr "Formátovat jako h2 nadpis"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:643
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
 msgid "Format as h3 heading"
 msgstr "Formátovat jako h3 nadpis"
 
@@ -8402,7 +8402,7 @@ msgstr "Formátovat jako h3 nadpis"
 msgid "Format as italic"
 msgstr "Formátovat jako kurzívu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:625
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
 msgid "Format as ordered list"
 msgstr "Formátovat jako seřazený seznam"
 
@@ -8414,15 +8414,15 @@ msgstr "Formátovat jako přeškrtnuté"
 msgid "Format as underlined"
 msgstr "Formátovat jako podtržené"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:619
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
 msgid "Format as unordered list"
 msgstr "Formátovat jako neseřazený seznam"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:570
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
 msgid "Format as |bold|"
 msgstr "Formátovat jako |tučné|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:576
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
 msgid "Format as ||italic||"
 msgstr "Formátovat jako ||kurzívu||"
 
@@ -9832,19 +9832,19 @@ msgstr ""
 "zobrazen. Kód by měl být umístěn na konci kódu stránky před ukončovací "
 "značkou/tagem §</body>§."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:613
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
 msgid "Inserts a horizontal rule"
 msgstr "Vloží horizontální čáru"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:546
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
 msgid "Inserts a mention for a user"
 msgstr "Vloží zmínku pro uživatele"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:540
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
 msgid "Inserts knowledge base answer"
 msgstr "Vloží odpověď ze Znalostní báze"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
 msgid "Inserts text module"
 msgstr "Vloží textový modul"
 
@@ -10415,6 +10415,7 @@ msgstr "byl změněn"
 
 #: app/assets/javascripts/app/models/ticket.coffee:26
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:88
+#: app/graphql/gql/types/overview_type.rb:111
 #, fuzzy
 #| msgid "Closing time"
 msgid "Last closing time"
@@ -10779,7 +10780,7 @@ msgstr "Přihlásit se k %s"
 
 #: app/assets/javascripts/app/models/user.coffee:8
 #: app/assets/javascripts/app/views/maintenance.jst.eco:25
-#: app/controllers/time_accountings_controller.rb:107
+#: app/controllers/time_accountings_controller.rb:101
 #: db/seeds/object_manager_attributes.rb:766
 msgid "Login"
 msgstr "Přihlášení"
@@ -11922,7 +11923,7 @@ msgstr "Integrace Nagiosu"
 #: app/assets/javascripts/app/views/tag/table.jst.eco:4
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:9
 #: app/assets/javascripts/app/views/widget/user.jst.eco:5
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:30
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:116
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:31
@@ -11948,7 +11949,7 @@ msgstr ""
 msgid "Name of form submit button"
 msgstr "Jméno tlačítka pro odeslání formuláře"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:524
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
 msgid "Navigate through article"
 msgstr "Navigace skrz položku"
 
@@ -13192,11 +13193,11 @@ msgstr "Otevřít v nové záložce"
 msgid "Open link"
 msgstr "Otevřené tickety"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:502
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:503
 msgid "Open macro selection"
 msgstr "Otevřít výběr makra"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:462
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:463
 msgid "Open note box"
 msgstr "Otevřít oblast pro poznámku"
 
@@ -13358,7 +13359,7 @@ msgstr "Více přehledů ticketů"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:12
-#: app/controllers/time_accountings_controller.rb:99
+#: app/controllers/time_accountings_controller.rb:93
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/organization.ts:13
 #: app/frontend/apps/mobile/pages/organization/routes.ts:8
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
@@ -13798,11 +13799,11 @@ msgstr "Vložit certifikát"
 msgid "Paste Private Key"
 msgstr "Vložit soukromý klíč"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:588
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
 msgid "Paste from clipboard"
 msgstr "Vložit ze schránky"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:595
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
 msgid "Paste from clipboard (plain text)"
 msgstr "Vložit ze schránky (čistý text)"
 
@@ -14831,11 +14832,11 @@ msgstr "Autentizace"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s dokončil přepnutí na |%s|!"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
 msgid "Removes any hyperlink"
 msgstr "Odstraní jakýkoli hypertextový odkaz"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:601
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
 msgid "Removes the formatting"
 msgstr "Odstraní formátování"
 
@@ -14902,7 +14903,7 @@ msgstr "Odpovědět všem"
 msgid "Reply allowed only for open tickets"
 msgstr "Podmínky pro zobrazení tiketů"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:477
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:478
 msgid "Reply to last article"
 msgstr "Odpověď na poslední položku"
 
@@ -15049,15 +15050,15 @@ msgstr "Obnovit do základního nastavení"
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
-#| "<div>We received a request to reset the password for your #{config."
-#| "product_name} account <b>#{user.login}</b>.</div>\n"
+#| "<div>We received a request to reset the password for your "
+#| "#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 #| "<br>\n"
 #| "<div>If you want to reset your password, click on the link below (or copy "
 #| "and paste the URL into your browser):</div>\n"
 #| "<br>\n"
 #| "<div><a href=\"#{config.http_type}://#{config.fqdn}/"
-#| "#password_reset_verify/#{token.token}\">#{config.http_type}://#{config."
-#| "fqdn}/#password_reset_verify/#{token.token}</a></div>\n"
+#| "#password_reset_verify/#{token.token}\">#{config.http_type}://"
+#| "#{config.fqdn}/#password_reset_verify/#{token.token}</a></div>\n"
 #| "<br>\n"
 #| "<div>This link takes you to a page where you can change your password.</"
 #| "div>\n"
@@ -15071,8 +15072,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request to reset the password for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request to reset the password for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>If you want to reset your password, click on the link below (or copy "
 "and paste the URL into your browser):</div>\n"
@@ -15091,8 +15092,8 @@ msgstr ""
 "\n"
 "<div>Dobrý den, #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Obdrželi jsme požadavek na změnu Vašeho hesla v aplikaci #{config."
-"product_name} u účtu <b>#{user.login}</b>.</div>\n"
+"<div>Obdrželi jsme požadavek na změnu Vašeho hesla v aplikaci "
+"#{config.product_name} u účtu <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Pokud opravdu chcete resetovat heslo, klikněte na odkaz níže (nebo "
 "zkopírujte a vložte URL odkazu do Vašeho prohlížeče):</div>\n"
@@ -15125,8 +15126,8 @@ msgstr ""
 #| "and paste the URL into your browser):</div>\n"
 #| "<br>\n"
 #| "<div><a href=\"#{config.http_type}://#{config.fqdn}/"
-#| "#password_reset_verify/#{token.token}\">#{config.http_type}://#{config."
-#| "fqdn}/#password_reset_verify/#{token.token}</a></div>\n"
+#| "#password_reset_verify/#{token.token}\">#{config.http_type}://"
+#| "#{config.fqdn}/#password_reset_verify/#{token.token}</a></div>\n"
 #| "<br>\n"
 #| "<div>This link takes you to a page where you can change your password.</"
 #| "div>\n"
@@ -16212,7 +16213,7 @@ msgstr "Vložte titulek pro váš první ticket"
 msgid "Set agent limit"
 msgstr "Nastavit limit řešitelů"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:492
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:493
 msgid "Set article to internal/public"
 msgstr "Nastavit položku jako interní/veřejnou"
 
@@ -17478,7 +17479,7 @@ msgstr "Text"
 msgid "Text Modules"
 msgstr "Textové moduly"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:555
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Text editing"
 msgstr "Editování textu"
 
@@ -18007,9 +18008,10 @@ msgstr ""
 #: app/assets/javascripts/app/models/knowledge_base.coffee:294
 msgid ""
 "The default URL for your knowledge base is e.g. example.com or example.com/"
-"help. To serve it from a custom URL instead, enter the destination below (e."
-"g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
-"the directions under \"Web Server Configuration\" to complete the process."
+"help. To serve it from a custom URL instead, enter the destination below "
+"(e.g., \"/support\", \"example.com\", or \"example.com/support\"). Then, "
+"follow the directions under \"Web Server Configuration\" to complete the "
+"process."
 msgstr ""
 "Výchozí URL vaší Znalostní báze je např. priklad.cz nebo priklad.cz/help. "
 "Aby byla místo toho dostupná na vlastní URL, zadejte níže její cíl (např. \"/"
@@ -18244,7 +18246,7 @@ msgstr ""
 "Instalace balíčků obnáší bezpečnostní rizika, neboť obsažený kód se bude "
 "spouštět v kontextu aplikace Zammad."
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:437
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18638,7 +18640,7 @@ msgstr "Chybí požadovaný parametr \"group_id'."
 msgid "The required parameter 'id' is missing."
 msgstr "Chybí požadovaný parametr \"id'."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:662
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18714,7 +18716,7 @@ msgstr "Chybí požadovaný parametr \"ticket_number'."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Chybí požadovaný parametr \"for_user_id'."
 
-#: lib/search_index_backend.rb:651
+#: lib/search_index_backend.rb:663
 #, fuzzy
 #| msgid "The required parameter 'locale' is missing."
 msgid "The required parameter 'value' is missing."
@@ -20034,9 +20036,9 @@ msgstr ""
 "\n"
 "<div>Dobrý den, #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>ticket (#{ticket.title}) vytvořený zákazníkem \"<b>#{ticket.customer."
-"longname}</b>\" vyžaduje Vaši pozornost, neboť byl dosažen čas pro upomínku."
-"</div>\n"
+"<div>ticket (#{ticket.title}) vytvořený zákazníkem "
+"\"<b>#{ticket.customer.longname}</b>\" vyžaduje Vaši pozornost, neboť byl "
+"dosažen čas pro upomínku.</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -20196,7 +20198,7 @@ msgstr "Ticket |%s| bude brzy eskalován!"
 
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:9
-#: app/controllers/time_accountings_controller.rb:87
+#: app/controllers/time_accountings_controller.rb:81
 msgid "Ticket#"
 msgstr "Ticket#"
 
@@ -20204,7 +20206,7 @@ msgstr "Ticket#"
 msgid "TicketID"
 msgstr "TicketID"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:452
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:453
 #: app/assets/javascripts/app/controllers/widget/user.coffee:87
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:94
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:98
@@ -20316,7 +20318,7 @@ msgstr "Počítání času"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:14
-#: app/controllers/time_accountings_controller.rb:111
+#: app/controllers/time_accountings_controller.rb:105
 msgid "Time Units"
 msgstr "Časové jednotky"
 
@@ -20380,7 +20382,7 @@ msgstr "Načasování"
 #: app/assets/javascripts/app/views/settings/form.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:10
-#: app/controllers/time_accountings_controller.rb:91
+#: app/controllers/time_accountings_controller.rb:85
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:38
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:144
 #: app/graphql/gql/types/overview_type.rb:92
@@ -21165,7 +21167,7 @@ msgstr "Použít sdílený koncept"
 msgid "Update Time"
 msgstr "Doba aktualizace"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:512
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:513
 msgid "Update as closed"
 msgstr "Aktualizováno jako uzavřené"
 
@@ -21248,7 +21250,7 @@ msgstr "Aktualizováno v"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:41
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:124
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:41
-#: app/graphql/gql/types/overview_type.rb:114
+#: app/graphql/gql/types/overview_type.rb:115
 msgid "Updated at"
 msgstr "Aktualizováno"
 
@@ -21270,7 +21272,7 @@ msgstr "Aktualizováno"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:31
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:113
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:31
-#: app/graphql/gql/types/overview_type.rb:113
+#: app/graphql/gql/types/overview_type.rb:114
 msgid "Updated by"
 msgstr "Aktualizoval"
 
@@ -21316,8 +21318,8 @@ msgstr ""
 "<div>Dobrý den, #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Ticket (#{ticket.title}) byl aktualizován uživatelem \"<b>#{current_user."
-"longname}</b>\".\n"
+"Ticket (#{ticket.title}) byl aktualizován uživatelem "
+"\"<b>#{current_user.longname}</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:changes].present? %>\n"
@@ -21359,8 +21361,8 @@ msgstr ""
 #| "</div>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">View this in #{config.product_name}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 #| "</div>\n"
 msgid ""
 "Updated ticket article (#{ticket.title})\n"
@@ -21532,15 +21534,15 @@ msgstr "Použito v seznamech (přehledy a výsledky)"
 msgid "Used in object views"
 msgstr "Použito v přehledu objektů"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:529
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
 msgid "Used when composing a Ticket article"
 msgstr "Používá se při psaní článku v ticketu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:559
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
 msgid "Used when composing a text"
 msgstr "Použito při sestavování textových polí"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:456
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:457
 msgid "Used when viewing a Ticket"
 msgstr "Používá se při prohlížení ticketu"
 
@@ -22305,13 +22307,13 @@ msgstr "S ohledem na současnou konfiguraci se stane následující:"
 #: app/assets/javascripts/app/views/settings/ticket_number.jst.eco:7
 msgid ""
 "With |Date| the ticket numbers will be generated by the current date, the "
-"SystemID, and the counter. The format will be \"Year.Month.Day.SystemID."
-"Counter\" (e.g. 201206231010138, 201206231010139)."
+"SystemID, and the counter. The format will be "
+"\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "S |Datem| budou čísla ticketů generována dle aktuálního data, systémového ID "
-"a počítadla. Výsledek bude ve formátu \"Rok.Měsíc.Den.SystémovéID."
-"Počítadlo\" (např. 201706231010138 kde 2017 je rok, 06 měsíc, 23 den v "
-"měsíci, 101 systémové ID a 0138 hodnota počítadla)."
+"a počítadla. Výsledek bude ve formátu "
+"\"Rok.Měsíc.Den.SystémovéID.Počítadlo\" (např. 201706231010138 kde 2017 je "
+"rok, 06 měsíc, 23 den v měsíci, 101 systémové ID a 0138 hodnota počítadla)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -23307,8 +23309,8 @@ msgstr "organizace stávajícího uživatele"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/password.ts:27
 msgid ""
-"current,new,confirm,change,current password,new password,confirm password,"
-"change password"
+"current,new,confirm,change,current password,new password,confirm "
+"password,change password"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/translation.coffee:281
@@ -24639,7 +24641,7 @@ msgstr "...přidat URL adresu objektu"
 msgid "…add object title"
 msgstr "...přidat nadpis objektu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:607
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
 msgid "…of whole text area"
 msgstr "...celé textové oblasti"
 
@@ -25378,8 +25380,8 @@ msgstr "dnešní ∅ čekací doby"
 #~ msgstr "Tickety organizace"
 
 #~ msgid ""
-#~ "Article could not be created. An unsupported key other than 'article."
-#~ "note' was provided."
+#~ "Article could not be created. An unsupported key other than "
+#~ "'article.note' was provided."
 #~ msgstr ""
 #~ "Článek se nepodařilo vytvořit. Byl vložen nepodporovaný klíč, jiný než "
 #~ "'article.note'."

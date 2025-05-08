@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-27 10:00+0000\n"
-"Last-Translator: asrrd6 <ruslan.r.d@gmail.com>\n"
+"PO-Revision-Date: 2025-05-07 22:00+0000\n"
+"Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ru/>\n"
 "Language: ru\n"
@@ -67,8 +67,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Created by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "* Group: #{ticket.group.name}\n"
 "* Owner: #{ticket.owner.fullname}\n"
 "* State: #{t(ticket.state.name)}\n"
@@ -169,8 +169,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Updated by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Updated by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -1151,7 +1151,7 @@ msgstr "Учётная запись не подтверждена"
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:18
 #: app/graphql/gql/types/overview_type.rb:101
 msgid "Accounted Time"
-msgstr "Учетное время"
+msgstr "Учётное время"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketAccountedTime.vue:81
 msgid "Accounted time unit"
@@ -1293,7 +1293,7 @@ msgstr "Действия в системе"
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:50
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:16
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:4
-#: app/controllers/time_accountings_controller.rb:117
+#: app/controllers/time_accountings_controller.rb:111
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:118
 msgid "Activity Type"
 msgstr "Тип деятельности"
@@ -1613,8 +1613,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request for an administration login for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request for an administration login for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Please, click on the link below (or copy and paste the URL into your "
 "browser) to proceed:</div>\n"
@@ -1631,8 +1631,8 @@ msgstr ""
 "\n"
 "<div>Здравствуйте, #{user.firstname}.</div>\n"
 "<br>\n"
-"<div>Мы получили запрос на авторизацию в качестве администратора #{config."
-"product_name} Вашей учетной записи <b>#{user.login}</b>.</div>\n"
+"<div>Мы получили запрос на авторизацию в качестве администратора "
+"#{config.product_name} Вашей учетной записи <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Пожалуйста, нажмите на ссылку ниже (или скопируйте и вставьте URL-адрес "
 "в адресную строку браузера), чтобы продолжить:</div>\n"
@@ -1693,7 +1693,7 @@ msgstr "Возраст"
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:13
-#: app/controllers/time_accountings_controller.rb:103 db/seeds/roles.rb:14
+#: app/controllers/time_accountings_controller.rb:97 db/seeds/roles.rb:14
 #: db/seeds/ticket_article_senders.rb:3
 msgid "Agent"
 msgstr "Агент"
@@ -2272,7 +2272,7 @@ msgstr "Статья не может быть удалена."
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubble.vue:128
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleHeader.vue:27
 msgid "Article meta information"
-msgstr "Метаинформация заявки"
+msgstr "Метаинформация статьи"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:77
 #: app/frontend/shared/composables/useArticleSecurity.ts:93
@@ -3345,7 +3345,7 @@ msgstr "Проверка каналов."
 msgid "Check item"
 msgstr "Проверить элемент"
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
 msgstr "Подробную информацию см. в ответе и полезных данных:"
 
@@ -3786,8 +3786,7 @@ msgstr "Настройки для %s"
 
 #: app/models/system_report/plugin/environment.rb:4
 msgid "Configuration of performance settings via environment variables."
-msgstr ""
-"Настройка параметров производительности с помощью переменных окружения."
+msgstr "Настройка параметров производительности с помощью переменных окружения."
 
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:22
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:6
@@ -3809,7 +3808,7 @@ msgstr "Настройка основных параметров"
 
 #: db/seeds/permissions.rb:6
 msgid "Configure your system."
-msgstr "Настраивать Вашу систему."
+msgstr "Настроить Вашу систему."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
 msgid "Confirm"
@@ -3841,8 +3840,8 @@ msgstr "Подтверждение пароля"
 #. Please make sure to translate it to a valid corresponding output structure.
 #: app/views/mailer/signup/en.html.erb
 msgid ""
-"Confirm your #{config.product_name} account, #{user.firstname} #{user."
-"lastname}\n"
+"Confirm your #{config.product_name} account, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
@@ -4028,7 +4027,7 @@ msgstr "Продолжение сессии"
 msgid "Continue to desktop"
 msgstr "Продолжить в десктопной версии"
 
-#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:56
+#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:61
 #: app/assets/javascripts/app/views/login.jst.eco:125
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:305
 msgid "Continue to mobile"
@@ -4081,7 +4080,7 @@ msgstr "Скопировать URL"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/articlePermalink.ts:14
 msgid "Copy article permalink"
-msgstr "Копировать постоянную ссылку статьи"
+msgstr "Скопировать постоянную ссылку статьи"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:356
 msgid "Copy current object number (e. g. Ticket#) to clipboard"
@@ -4282,8 +4281,8 @@ msgid ""
 "\n"
 "Available objects are:\n"
 "* ticket (e.g. ticket.state, ticket.group)\n"
-"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (e.g. ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (e.g. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (e.g. ticket.organization.name)\n"
 "* user (e.g. user.firstname, user.email)\n"
@@ -4305,8 +4304,8 @@ msgstr ""
 "\n"
 "Доступные объекты:\n"
 "* ticket (например, ticket.state, ticket.group)\n"
-"* ticket.customer (например, ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (например, ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (например, ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (например, ticket.organization.name)\n"
 "* user (например, user.firstname, user.email)\n"
@@ -4471,14 +4470,14 @@ msgstr "Создана внутренняя статья"
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:17
 #: app/assets/javascripts/app/views/widget/http_log.jst.eco:19
 #: app/assets/javascripts/app/views/widget/http_log_show.jst.eco:23
-#: app/controllers/time_accountings_controller.rb:122
+#: app/controllers/time_accountings_controller.rb:116
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:121
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMeta/useArticleMeta.ts:57
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:41
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:24
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:106
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:24
-#: app/graphql/gql/types/overview_type.rb:112
+#: app/graphql/gql/types/overview_type.rb:113
 msgid "Created at"
 msgstr "Создано в"
 
@@ -4504,7 +4503,7 @@ msgstr "Создано в:"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:14
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:95
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:14
-#: app/graphql/gql/types/overview_type.rb:111
+#: app/graphql/gql/types/overview_type.rb:112
 msgid "Created by"
 msgstr "Создал"
 
@@ -4615,7 +4614,7 @@ msgstr "Пользовательский адрес не задан"
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:11
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:39
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/customer.ts:13
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/customer.ts:6
@@ -5783,8 +5782,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:5094
 msgid ""
-"Defines the transaction backend which posts messages to Slack (http://www."
-"slack.com)."
+"Defines the transaction backend which posts messages to Slack (http://"
+"www.slack.com)."
 msgstr ""
 "Определяет серверную операцию, которая отправляет сообщения в Slack (http://"
 "www.slack.com )."
@@ -6676,7 +6675,7 @@ msgstr "Проверка SSL в Elasticsearch"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Общий размер полезной нагрузки Elasticsearch"
 
-#: lib/search_index_backend.rb:433
+#: lib/search_index_backend.rb:435
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7639,7 +7638,7 @@ msgstr "Истекает"
 msgid "Expires at"
 msgstr "Истекает"
 
-#: app/assets/javascripts/app/controllers/search.coffee:55
+#: app/assets/javascripts/app/controllers/search.coffee:57
 msgid "Extended Search"
 msgstr "Расширенный поиск"
 
@@ -7647,7 +7646,7 @@ msgstr "Расширенный поиск"
 msgid "External data source field"
 msgstr "Поле внешнего источника данных"
 
-#: lib/search_index_backend.rb:727
+#: lib/search_index_backend.rb:739
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Извлечение информации о вложениях zammad из массивов"
 
@@ -8017,11 +8016,11 @@ msgstr "Не удалось найти FormSchema."
 msgid "Format"
 msgstr "Формат"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:582
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
 msgid "Format as //strikethrough//"
 msgstr "Форматировать как //зачеркнутый//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:564
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Format as _underlined_"
 msgstr "Форматировать как _подчеркнутый_"
 
@@ -8029,15 +8028,15 @@ msgstr "Форматировать как _подчеркнутый_"
 msgid "Format as bold"
 msgstr "Форматировать как жирный"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:631
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
 msgid "Format as h1 heading"
 msgstr "Форматировать как заголовок h1"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:637
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
 msgid "Format as h2 heading"
 msgstr "Форматировать как заголовок h2"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:643
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
 msgid "Format as h3 heading"
 msgstr "Форматировать как заголовок h3"
 
@@ -8045,7 +8044,7 @@ msgstr "Форматировать как заголовок h3"
 msgid "Format as italic"
 msgstr "Форматировать как курсив"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:625
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
 msgid "Format as ordered list"
 msgstr "Форматировать как упорядоченный список"
 
@@ -8057,15 +8056,15 @@ msgstr "Форматировать как зачеркнутый"
 msgid "Format as underlined"
 msgstr "Форматировать как подчеркнутый"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:619
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
 msgid "Format as unordered list"
 msgstr "Форматировать как неупорядоченный список"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:570
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
 msgid "Format as |bold|"
 msgstr "Форматировать как |жирный|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:576
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
 msgid "Format as ||italic||"
 msgstr "Форматировать как ||курсив||"
 
@@ -9411,19 +9410,19 @@ msgstr ""
 "виден чат. Он должен быть помещен в конце исходного кода страницы перед "
 "закрывающим тегом §</body>§."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:613
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
 msgid "Inserts a horizontal rule"
 msgstr "Вставляет горизонтальную линейку"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:546
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
 msgid "Inserts a mention for a user"
 msgstr "Добавить упоминание для пользователя"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:540
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
 msgid "Inserts knowledge base answer"
 msgstr "Вставить ответ из базы знаний"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
 msgid "Inserts text module"
 msgstr "Вставить текстовый модуль"
 
@@ -9972,6 +9971,7 @@ msgstr "Последнее изменения"
 
 #: app/assets/javascripts/app/models/ticket.coffee:26
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:88
+#: app/graphql/gql/types/overview_type.rb:111
 msgid "Last closing time"
 msgstr "Последнее время закрытия"
 
@@ -10308,7 +10308,7 @@ msgstr "Войдите в %s"
 
 #: app/assets/javascripts/app/models/user.coffee:8
 #: app/assets/javascripts/app/views/maintenance.jst.eco:25
-#: app/controllers/time_accountings_controller.rb:107
+#: app/controllers/time_accountings_controller.rb:101
 #: db/seeds/object_manager_attributes.rb:766
 msgid "Login"
 msgstr "Логин"
@@ -11295,7 +11295,7 @@ msgstr "Интеграция с Nagios"
 #: app/assets/javascripts/app/views/tag/table.jst.eco:4
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:9
 #: app/assets/javascripts/app/views/widget/user.jst.eco:5
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:30
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:116
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:31
@@ -11321,7 +11321,7 @@ msgstr "Название для этого ключа безопасности"
 msgid "Name of form submit button"
 msgstr "Текст на кнопке"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:524
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
 msgid "Navigate through article"
 msgstr "Навигация по статье"
 
@@ -11602,8 +11602,8 @@ msgstr ""
 "\n"
 "<div>Здравствуйте, #{recipient.firstname}.</div>\n"
 "<br>\n"
-"<div>Новая заявка (#{ticket.title}) была создана \"<b>#{current_user."
-"longname}</b>\".</div>\n"
+"<div>Новая заявка (#{ticket.title}) была создана "
+"\"<b>#{current_user.longname}</b>\".</div>\n"
 "<br>\n"
 "<div>\n"
 "Группа: #{ticket.group.name}<br>\n"
@@ -12458,11 +12458,11 @@ msgstr "Открыть в новой вкладке"
 msgid "Open link"
 msgstr "Открыть ссылку"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:502
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:503
 msgid "Open macro selection"
 msgstr "Открыть выбор макроса"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:462
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:463
 msgid "Open note box"
 msgstr "Открыть блокнот"
 
@@ -12599,7 +12599,7 @@ msgstr "Порядок представлений заявок"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:12
-#: app/controllers/time_accountings_controller.rb:99
+#: app/controllers/time_accountings_controller.rb:93
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/organization.ts:13
 #: app/frontend/apps/mobile/pages/organization/routes.ts:8
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
@@ -12997,11 +12997,11 @@ msgstr "Вставьте сертификат"
 msgid "Paste Private Key"
 msgstr "Вставьте закрытый ключ"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:588
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
 msgid "Paste from clipboard"
 msgstr "Вставить из буфера обмена"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:595
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
 msgid "Paste from clipboard (plain text)"
 msgstr "Вставить из буфера обмена (обычный текст)"
 
@@ -13248,8 +13248,8 @@ msgstr "Пожалуйста, перейдите к входу в систему
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr ""
-"Пожалуйста, укажите получателя в поле \"Кому\" (\"TO\") или "
-"\"Копия\" (\"CC\")."
+"Пожалуйста, укажите получателя в поле \"Кому\" (\"TO\") или \"Копия\" "
+"(\"CC\")."
 
 #: app/controllers/users_controller.rb:381
 msgid "Please provide your current password."
@@ -13946,11 +13946,11 @@ msgstr "Отключить двухфакторную аутентификаци
 msgid "Removed reaction from message %s from %s"
 msgstr "Удалена реакция из сообщения %s от %s"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
 msgid "Removes any hyperlink"
 msgstr "Удалить все гиперссылки"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:601
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
 msgid "Removes the formatting"
 msgstr "Удалить форматирование"
 
@@ -14011,7 +14011,7 @@ msgstr "Ответить всем"
 msgid "Reply allowed only for open tickets"
 msgstr "Ответы разрешены только для открытых заявок"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:477
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:478
 msgid "Reply to last article"
 msgstr "Ответить на последнюю статью"
 
@@ -14149,8 +14149,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request to reset the password for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request to reset the password for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>If you want to reset your password, click on the link below (or copy "
 "and paste the URL into your browser):</div>\n"
@@ -15203,7 +15203,7 @@ msgstr "Задайте название для Вашей заявки"
 msgid "Set agent limit"
 msgstr "Установить ограничение агента"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:492
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:493
 msgid "Set article to internal/public"
 msgstr "Сделать статью внутренней/публичной"
 
@@ -16385,7 +16385,7 @@ msgstr "Текст"
 msgid "Text Modules"
 msgstr "Текстовые модули"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:555
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Text editing"
 msgstr "Редактирование текста"
 
@@ -16841,15 +16841,16 @@ msgstr ""
 #: app/assets/javascripts/app/models/knowledge_base.coffee:294
 msgid ""
 "The default URL for your knowledge base is e.g. example.com or example.com/"
-"help. To serve it from a custom URL instead, enter the destination below (e."
-"g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
-"the directions under \"Web Server Configuration\" to complete the process."
+"help. To serve it from a custom URL instead, enter the destination below "
+"(e.g., \"/support\", \"example.com\", or \"example.com/support\"). Then, "
+"follow the directions under \"Web Server Configuration\" to complete the "
+"process."
 msgstr ""
-"URL по умолчанию для Вашей базы знаний, например, example.com или example."
-"com/help. Чтобы использовать его вместо пользовательского URL-адреса, "
-"введите адресат ниже (например, «/ support», «example.com» или «example.com/"
-"support»). Затем следуйте инструкциям в разделе «Настройка веб-сервера», "
-"чтобы завершить процесс."
+"URL по умолчанию для Вашей базы знаний, например, example.com или "
+"example.com/help. Чтобы использовать его вместо пользовательского URL-"
+"адреса, введите адресат ниже (например, «/ support», «example.com» или "
+"«example.com/support»). Затем следуйте инструкциям в разделе «Настройка веб-"
+"сервера», чтобы завершить процесс."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -17050,7 +17051,7 @@ msgstr ""
 "Установка пакетов сопряжена с проблемами безопасности, поскольку "
 "произвольный код будет выполняться в контексте приложения Zammad."
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:437
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17354,8 +17355,8 @@ msgstr "Отсутствует обязательный параметр «то�
 #: lib/external_credential/facebook.rb:23
 msgid "The required parameter 'application_id' is missing."
 msgstr ""
-"Отсутствует обязательный параметр «идентификатор "
-"приложения» (application_id)."
+"Отсутствует обязательный параметр «идентификатор приложения» "
+"(application_id)."
 
 #: lib/external_credential/facebook.rb:24
 msgid "The required parameter 'application_secret' is missing."
@@ -17405,8 +17406,8 @@ msgstr ""
 #: app/controllers/channels_twitter_controller.rb:21
 msgid "The required parameter 'for_user_id' is missing."
 msgstr ""
-"Отсутствует обязательный параметр "
-"«для_идентификатора_пользователя» (for_user_id)."
+"Отсутствует обязательный параметр «для_идентификатора_пользователя» "
+"(for_user_id)."
 
 #: lib/telegram_helper.rb:56
 msgid "The required parameter 'group_id' is invalid."
@@ -17422,7 +17423,7 @@ msgstr "Отсутствует обязательный параметр «Ид�
 msgid "The required parameter 'id' is missing."
 msgstr "Отсутствует обязательный параметр «Идентификатор» (id)."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:662
 msgid "The required parameter 'key' is missing."
 msgstr "Отсутствует обязательный параметр «Ключ» (key)."
 
@@ -17445,8 +17446,8 @@ msgstr "Отсутствует обязательный параметр «Им�
 #: lib/external_credential/twitter.rb:134
 msgid "The required parameter 'oauth_token' is missing."
 msgstr ""
-"Отсутствует обязательный параметр "
-"«Ключ_открытого_протокола_авторизации» (oauth_token)."
+"Отсутствует обязательный параметр «Ключ_открытого_протокола_авторизации» "
+"(oauth_token)."
 
 #: lib/external_credential/twitter.rb:135
 msgid "The required parameter 'oauth_token_secret' is missing."
@@ -17500,7 +17501,7 @@ msgid "The required parameter 'user_id' is missing."
 msgstr ""
 "Отсутствует обязательный параметр «идентификатор_пользователя» (user_id)."
 
-#: lib/search_index_backend.rb:651
+#: lib/search_index_backend.rb:663
 msgid "The required parameter 'value' is missing."
 msgstr "Отсутствует обязательный параметр «значение» (value)."
 
@@ -17509,8 +17510,8 @@ msgid ""
 "The required value 'external_credential[:consumer_secret]' could not be "
 "found in the cache."
 msgstr ""
-"Не удалось найти требуемое значение «внешние_учетные_данные [:"
-"секрет_клиента]» (external_credential[:consumer_secret]) в кеше."
+"Не удалось найти требуемое значение «внешние_учетные_данные "
+"[:секрет_клиента]» (external_credential[:consumer_secret]) в кеше."
 
 #: app/policies/ticket_policy.rb:35
 msgid "The required value 'group_id' is missing."
@@ -17519,8 +17520,8 @@ msgstr "Отсутствует необходимое значение «Иде�
 #: app/controllers/channels_twitter_controller.rb:54
 msgid "The required value external_credential could not be found in the cache."
 msgstr ""
-"Не удалось найти требуемое значение "
-"«внешние_учетные_данные» (external_credential) в кеше."
+"Не удалось найти требуемое значение «внешние_учетные_данные» "
+"(external_credential) в кеше."
 
 #: app/controllers/ticket_articles_controller.rb:263
 msgid "The retried attachment download failed."
@@ -17746,8 +17747,8 @@ msgid ""
 "The uploaded image could not be processed. Need data:image in logo or "
 "logo_resize param."
 msgstr ""
-"Загруженное изображение не может быть обработано. Необходимо указать data:"
-"image в logo или logo_resize параметрах."
+"Загруженное изображение не может быть обработано. Необходимо указать "
+"data:image в logo или logo_resize параметрах."
 
 #: app/models/authorization/provider.rb:47
 msgid "The user account does not exist. Please contact your administrator."
@@ -18746,8 +18747,8 @@ msgstr ""
 "\n"
 "<div>Здравствуйте, #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Заявка требует внимания: наступило напоминание о заявке (#{ticket."
-"title}) с клиентом \"<b>#{ticket.customer.longname}</b>\".</div>\n"
+"<div>Заявка требует внимания: наступило напоминание о заявке "
+"(#{ticket.title}) с клиентом \"<b>#{ticket.customer.longname}</b>\".</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -18895,7 +18896,7 @@ msgstr "Заявка |%s| скоро эскалируется!"
 
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:9
-#: app/controllers/time_accountings_controller.rb:87
+#: app/controllers/time_accountings_controller.rb:81
 msgid "Ticket#"
 msgstr "Заявка №"
 
@@ -18903,7 +18904,7 @@ msgstr "Заявка №"
 msgid "TicketID"
 msgstr "Идентификатор заявки (TicketID)"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:452
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:453
 #: app/assets/javascripts/app/controllers/widget/user.coffee:87
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:94
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:98
@@ -19007,7 +19008,7 @@ msgstr "Учет рабочего времени не включен"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:14
-#: app/controllers/time_accountings_controller.rb:111
+#: app/controllers/time_accountings_controller.rb:105
 msgid "Time Units"
 msgstr "Единицы времени"
 
@@ -19067,7 +19068,7 @@ msgstr "Тайминг"
 #: app/assets/javascripts/app/views/settings/form.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:10
-#: app/controllers/time_accountings_controller.rb:91
+#: app/controllers/time_accountings_controller.rb:85
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:38
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:144
 #: app/graphql/gql/types/overview_type.rb:92
@@ -19779,7 +19780,7 @@ msgstr "Обновить общий черновик"
 msgid "Update Time"
 msgstr "Время обновления"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:512
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:513
 msgid "Update as closed"
 msgstr "Пометить закрытым"
 
@@ -19859,7 +19860,7 @@ msgstr "Обновлено в"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:41
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:124
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:41
-#: app/graphql/gql/types/overview_type.rb:114
+#: app/graphql/gql/types/overview_type.rb:115
 msgid "Updated at"
 msgstr "Обновлено в"
 
@@ -19881,7 +19882,7 @@ msgstr "Обновлено в"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:31
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:113
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:31
-#: app/graphql/gql/types/overview_type.rb:113
+#: app/graphql/gql/types/overview_type.rb:114
 msgid "Updated by"
 msgstr "Кем обновлено"
 
@@ -20133,15 +20134,15 @@ msgstr "Используется в списках (просмотры и рез
 msgid "Used in object views"
 msgstr "Используется в объектных видах"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:529
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
 msgid "Used when composing a Ticket article"
 msgstr "Используется при составлении статьи к заявке"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:559
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
 msgid "Used when composing a text"
 msgstr "Используется при составлении текста"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:456
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:457
 msgid "Used when viewing a Ticket"
 msgstr "Используется при просмотре заявки"
 
@@ -20863,12 +20864,13 @@ msgstr "С Вашей текущей конфигурацией произойд
 #: app/assets/javascripts/app/views/settings/ticket_number.jst.eco:7
 msgid ""
 "With |Date| the ticket numbers will be generated by the current date, the "
-"SystemID, and the counter. The format will be \"Year.Month.Day.SystemID."
-"Counter\" (e.g. 201206231010138, 201206231010139)."
+"SystemID, and the counter. The format will be "
+"\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "С |Датой| номер заявки будет генерироваться по текущей дате, идентификатору "
-"системы (SystemID) и счетчику. Формат будет «Год.Месяц.День."
-"ИдентификаторСистемы.Счетчик» (например, 201206231010138, 201206231010139)."
+"системы (SystemID) и счетчику. Формат будет "
+"«Год.Месяц.День.ИдентификаторСистемы.Счетчик» (например, 201206231010138, "
+"201206231010139)."
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -21833,8 +21835,8 @@ msgstr "текущая организация пользователя"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/password.ts:27
 msgid ""
-"current,new,confirm,change,current password,new password,confirm password,"
-"change password"
+"current,new,confirm,change,current password,new password,confirm "
+"password,change password"
 msgstr ""
 "текущий, новый, подтвердить, изменить, текущий пароль, новый пароль, "
 "подтвердить пароль, изменить пароль"
@@ -23097,7 +23099,7 @@ msgstr "…добавьте URL-ссылку на объект"
 msgid "…add object title"
 msgstr "…добавьте название объекта"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:607
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
 msgid "…of whole text area"
 msgstr "…всей текстовой области"
 
@@ -23804,16 +23806,16 @@ msgstr "∅ Время ожидания сегодня"
 #~ msgstr "Заявки организации"
 
 #~ msgid ""
-#~ "Article could not be created. An unsupported key other than 'article."
-#~ "note' was provided."
+#~ "Article could not be created. An unsupported key other than "
+#~ "'article.note' was provided."
 #~ msgstr ""
 #~ "Не удалось создать статью. Был предоставлен не поддерживаемый ключ, "
 #~ "отличный от «статья.примечание» (article.note)."
 
 #~ msgid "The required parameter 'current_user_id' is missing."
 #~ msgstr ""
-#~ "Отсутствует обязательный параметр "
-#~ "«идентификатор_текущего_пользователя» (current_user_id)."
+#~ "Отсутствует обязательный параметр «идентификатор_текущего_пользователя» "
+#~ "(current_user_id)."
 
 #~ msgid "SSL Verify"
 #~ msgstr "Проверять уровень защищённых сокетов (SSL)"
@@ -24181,8 +24183,8 @@ msgstr "∅ Время ожидания сегодня"
 #~ "must be provided."
 #~ msgstr ""
 #~ "Должен быть указан один из аргументов «идентификатор_заявки» (ticket_id), "
-#~ "«внутренний_идентификатор_заявки» (ticket_internal_id) или "
-#~ "«номер_заявки» (ticket_number)."
+#~ "«внутренний_идентификатор_заявки» (ticket_internal_id) или «номер_заявки» "
+#~ "(ticket_number)."
 
 #~ msgid "This service enables Zammad to connect with your LDAP server."
 #~ msgstr "Эта служба позволяет Zammad подключаться к вашему серверу LDAP."

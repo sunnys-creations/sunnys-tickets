@@ -67,8 +67,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Created by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "* Group: #{ticket.group.name}\n"
 "* Owner: #{ticket.owner.fullname}\n"
 "* State: #{t(ticket.state.name)}\n"
@@ -79,8 +79,8 @@ msgid ""
 msgstr ""
 "#{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Creat de #{current_user.longname} la #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Creat de #{current_user.longname} la "
+"#{ticket.updated_at}_\n"
 "* Grup: #{ticket.group.name}\n"
 "* Proprietar: #{ticket.owner.fullname}\n"
 "* Stare: #{t(ticket.state.name)}\n"
@@ -169,8 +169,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Updated by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Updated by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -183,8 +183,8 @@ msgid ""
 msgstr ""
 "#{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Actualizat de #{current_user.longname} la #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Actualizat de #{current_user.longname} la "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -1295,7 +1295,7 @@ msgstr "Istoric activități"
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:50
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:16
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:4
-#: app/controllers/time_accountings_controller.rb:117
+#: app/controllers/time_accountings_controller.rb:111
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:118
 msgid "Activity Type"
 msgstr "Tip activitate"
@@ -1618,8 +1618,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request for an administration login for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request for an administration login for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Please, click on the link below (or copy and paste the URL into your "
 "browser) to proceed:</div>\n"
@@ -1695,7 +1695,7 @@ msgstr "Vârstă"
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:13
-#: app/controllers/time_accountings_controller.rb:103 db/seeds/roles.rb:14
+#: app/controllers/time_accountings_controller.rb:97 db/seeds/roles.rb:14
 #: db/seeds/ticket_article_senders.rb:3
 msgid "Agent"
 msgstr "Agent"
@@ -3377,7 +3377,7 @@ msgstr "Verifică canelele de comunicare."
 msgid "Check item"
 msgstr "Bifează element"
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
 msgstr "Verifică răspunsul și payload-ul pentru informații suplimentare:"
 
@@ -3882,8 +3882,8 @@ msgstr "Confirmare parolă"
 #. Please make sure to translate it to a valid corresponding output structure.
 #: app/views/mailer/signup/en.html.erb
 msgid ""
-"Confirm your #{config.product_name} account, #{user.firstname} #{user."
-"lastname}\n"
+"Confirm your #{config.product_name} account, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
@@ -3894,8 +3894,8 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"Confirmă contul tău #{config.product_name}, #{user.firstname} #{user."
-"lastname}\n"
+"Confirmă contul tău #{config.product_name}, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Bună #{user.firstname},</div>\n"
 "<br>\n"
@@ -4072,7 +4072,7 @@ msgstr "Continuă sesiunea"
 msgid "Continue to desktop"
 msgstr "Continuă pe desktop"
 
-#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:56
+#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:61
 #: app/assets/javascripts/app/views/login.jst.eco:125
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:305
 msgid "Continue to mobile"
@@ -4325,8 +4325,8 @@ msgid ""
 "\n"
 "Available objects are:\n"
 "* ticket (e.g. ticket.state, ticket.group)\n"
-"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (e.g. ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (e.g. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (e.g. ticket.organization.name)\n"
 "* user (e.g. user.firstname, user.email)\n"
@@ -4512,14 +4512,14 @@ msgstr "Articol intern creat"
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:17
 #: app/assets/javascripts/app/views/widget/http_log.jst.eco:19
 #: app/assets/javascripts/app/views/widget/http_log_show.jst.eco:23
-#: app/controllers/time_accountings_controller.rb:122
+#: app/controllers/time_accountings_controller.rb:116
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:121
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMeta/useArticleMeta.ts:57
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:41
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:24
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:106
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:24
-#: app/graphql/gql/types/overview_type.rb:112
+#: app/graphql/gql/types/overview_type.rb:113
 msgid "Created at"
 msgstr "Creat la"
 
@@ -4545,7 +4545,7 @@ msgstr "Creat la:"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:14
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:95
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:14
-#: app/graphql/gql/types/overview_type.rb:111
+#: app/graphql/gql/types/overview_type.rb:112
 msgid "Created by"
 msgstr "Creat de"
 
@@ -4659,7 +4659,7 @@ msgstr "Adresa personalizată nu este setată"
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:11
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:39
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/customer.ts:13
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/customer.ts:6
@@ -5461,8 +5461,8 @@ msgstr "Definește filtrul postmaster pentru a identifica expeditorul."
 msgid ""
 "Defines postmaster filter to manage Icinga (http://www.icinga.org) emails."
 msgstr ""
-"Definește filtrul postmaster pentru a gestiona emailurile Icinga (http://www."
-"icinga.org)."
+"Definește filtrul postmaster pentru a gestiona emailurile Icinga (http://"
+"www.icinga.org)."
 
 #: db/seeds/settings.rb:4402
 msgid ""
@@ -5475,8 +5475,8 @@ msgstr ""
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
-"Definește filtrul postmaster pentru a gestiona emailurile Nagios (http://www."
-"nagios.org)."
+"Definește filtrul postmaster pentru a gestiona emailurile Nagios (http://"
+"www.nagios.org)."
 
 #: db/seeds/settings.rb:4231
 msgid ""
@@ -5837,11 +5837,11 @@ msgstr ""
 
 #: db/seeds/settings.rb:5094
 msgid ""
-"Defines the transaction backend which posts messages to Slack (http://www."
-"slack.com)."
+"Defines the transaction backend which posts messages to Slack (http://"
+"www.slack.com)."
 msgstr ""
-"Definește backend-ul de tranzacție care postează mesaje în Slack (http://www."
-"slack.com)."
+"Definește backend-ul de tranzacție care postează mesaje în Slack (http://"
+"www.slack.com)."
 
 #: db/seeds/settings.rb:5404
 msgid ""
@@ -6799,7 +6799,7 @@ msgstr "Verificare SSL Elasticsearch"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Dimensiunea totală a payload-ului Elasticsearch"
 
-#: lib/search_index_backend.rb:433
+#: lib/search_index_backend.rb:435
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7774,7 +7774,7 @@ msgstr "Expiră"
 msgid "Expires at"
 msgstr "Expiră la"
 
-#: app/assets/javascripts/app/controllers/search.coffee:55
+#: app/assets/javascripts/app/controllers/search.coffee:57
 msgid "Extended Search"
 msgstr "Căutare extinsă"
 
@@ -7782,7 +7782,7 @@ msgstr "Căutare extinsă"
 msgid "External data source field"
 msgstr "Câmp sursă de date externă"
 
-#: lib/search_index_backend.rb:727
+#: lib/search_index_backend.rb:739
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrage informațiile de tip zammad-attachment din matrici"
 
@@ -8165,11 +8165,11 @@ msgstr "Nu s-a găsit FormSchema."
 msgid "Format"
 msgstr "Format"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:582
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
 msgid "Format as //strikethrough//"
 msgstr "Formatează ca //tăiat//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:564
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Format as _underlined_"
 msgstr "Formatează ca _subliniat_"
 
@@ -8177,15 +8177,15 @@ msgstr "Formatează ca _subliniat_"
 msgid "Format as bold"
 msgstr "Formatează ca îngroșat"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:631
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
 msgid "Format as h1 heading"
 msgstr "Formatează ca titlu h1"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:637
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
 msgid "Format as h2 heading"
 msgstr "Formatează ca titlu h2"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:643
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
 msgid "Format as h3 heading"
 msgstr "Formatează ca titlu h3"
 
@@ -8193,7 +8193,7 @@ msgstr "Formatează ca titlu h3"
 msgid "Format as italic"
 msgstr "Formatează ca italic"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:625
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
 msgid "Format as ordered list"
 msgstr "Formatează ca listă ordonată"
 
@@ -8205,15 +8205,15 @@ msgstr "Formatează ca tăiat"
 msgid "Format as underlined"
 msgstr "Formatează ca subliniat"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:619
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
 msgid "Format as unordered list"
 msgstr "Formatează ca listă neordonată"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:570
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
 msgid "Format as |bold|"
 msgstr "Formatează ca |îngroșat|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:576
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
 msgid "Format as ||italic||"
 msgstr "Formatează ca ||italic||"
 
@@ -9597,19 +9597,19 @@ msgstr ""
 "doriți să fie vizibil chatul. Acesta ar trebui să fie plasat la sfârșitul "
 "codului sursă al paginii, înainte de tag-ul de închidere §</body>§."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:613
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
 msgid "Inserts a horizontal rule"
 msgstr "Introduce o linie orizontală"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:546
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
 msgid "Inserts a mention for a user"
 msgstr "Introduce o mențiune pentru un utilizator"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:540
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
 msgid "Inserts knowledge base answer"
 msgstr "Introduce un răspuns din baza de cunoștințe"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
 msgid "Inserts text module"
 msgstr "Introduce un modul text"
 
@@ -10174,6 +10174,7 @@ msgstr "Ultima modificare"
 
 #: app/assets/javascripts/app/models/ticket.coffee:26
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:88
+#: app/graphql/gql/types/overview_type.rb:111
 msgid "Last closing time"
 msgstr "Ultimul timp de închidere"
 
@@ -10530,7 +10531,7 @@ msgstr "Conectează-te la %s"
 
 #: app/assets/javascripts/app/models/user.coffee:8
 #: app/assets/javascripts/app/views/maintenance.jst.eco:25
-#: app/controllers/time_accountings_controller.rb:107
+#: app/controllers/time_accountings_controller.rb:101
 #: db/seeds/object_manager_attributes.rb:766
 msgid "Login"
 msgstr "Autentificare"
@@ -11625,7 +11626,7 @@ msgstr "Integrare Nagios"
 #: app/assets/javascripts/app/views/tag/table.jst.eco:4
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:9
 #: app/assets/javascripts/app/views/widget/user.jst.eco:5
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:30
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:116
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:31
@@ -11651,7 +11652,7 @@ msgstr "Numele acestei chei de securitate"
 msgid "Name of form submit button"
 msgstr "Numele butonului de trimitere"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:524
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
 msgid "Navigate through article"
 msgstr "Navigați prin articol"
 
@@ -11948,8 +11949,8 @@ msgstr ""
 "\n"
 "<div>Bună #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Tichetul nou (#{ticket.title}) a fost creat de \"<b>#{current_user."
-"longname}</b>\".</div>\n"
+"<div>Tichetul nou (#{ticket.title}) a fost creat de "
+"\"<b>#{current_user.longname}</b>\".</div>\n"
 "<br>\n"
 "<div>\n"
 "Grup: #{ticket.group.name}<br>\n"
@@ -12868,11 +12869,11 @@ msgstr "Deschide în tab nou"
 msgid "Open link"
 msgstr "Tichete Deschise"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:502
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:503
 msgid "Open macro selection"
 msgstr "Deschide selectarea marco-ului"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:462
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:463
 msgid "Open note box"
 msgstr "Deschide căsuța de notițe"
 
@@ -13030,7 +13031,7 @@ msgstr "Overviews"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:12
-#: app/controllers/time_accountings_controller.rb:99
+#: app/controllers/time_accountings_controller.rb:93
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/organization.ts:13
 #: app/frontend/apps/mobile/pages/organization/routes.ts:8
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
@@ -13457,11 +13458,11 @@ msgstr "Lipește certificatul"
 msgid "Paste Private Key"
 msgstr "Lipește cheia privată"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:588
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
 msgid "Paste from clipboard"
 msgstr "Lipire din clipboard"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:595
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
 msgid "Paste from clipboard (plain text)"
 msgstr "Lipire din clipboard (text simplu)"
 
@@ -14463,11 +14464,11 @@ msgstr "Șterge autentificare cu doi factori"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s a încheiat comutarea la |%s|!"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
 msgid "Removes any hyperlink"
 msgstr "Înlătură orice link"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:601
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
 msgid "Removes the formatting"
 msgstr "Înlătură formatarea"
 
@@ -14532,7 +14533,7 @@ msgstr "Răspunde tuturor"
 msgid "Reply allowed only for open tickets"
 msgstr "Răspunsurile sunt permise doar pentru tichetele deschise"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:477
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:478
 msgid "Reply to last article"
 msgstr "Răspunde la ultimul articol"
 
@@ -14676,8 +14677,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request to reset the password for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request to reset the password for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>If you want to reset your password, click on the link below (or copy "
 "and paste the URL into your browser):</div>\n"
@@ -14696,8 +14697,8 @@ msgstr ""
 "\n"
 "<div>Bună #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Am primit o solicitare pentru a reseta parola contului tău #{config."
-"product_name} <b>#{user.login}</b>.</div>\n"
+"<div>Am primit o solicitare pentru a reseta parola contului tău "
+"#{config.product_name} <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Dacă dorești resetarea parolei, apasă pe link-ul de mai jos (sau "
 "copiază și lipește URL-ul în browser-ul tău):</div>\n"
@@ -15760,7 +15761,7 @@ msgstr "Setează un titlu pentru tichetul tău"
 msgid "Set agent limit"
 msgstr "Setează limita pentru agenți"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:492
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:493
 msgid "Set article to internal/public"
 msgstr "Setează articolul ca intern/public"
 
@@ -16992,7 +16993,7 @@ msgstr "Text"
 msgid "Text Modules"
 msgstr "Module text"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:555
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Text editing"
 msgstr "Editare text"
 
@@ -17471,15 +17472,16 @@ msgstr ""
 #: app/assets/javascripts/app/models/knowledge_base.coffee:294
 msgid ""
 "The default URL for your knowledge base is e.g. example.com or example.com/"
-"help. To serve it from a custom URL instead, enter the destination below (e."
-"g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
-"the directions under \"Web Server Configuration\" to complete the process."
+"help. To serve it from a custom URL instead, enter the destination below "
+"(e.g., \"/support\", \"example.com\", or \"example.com/support\"). Then, "
+"follow the directions under \"Web Server Configuration\" to complete the "
+"process."
 msgstr ""
 "URL-ul implicit pentru baza ta de cunoștințe este, de exemplu, example.com "
 "sau example.com/help. Pentru a o servi de la un URL personalizat, introduce "
-"destinația mai jos (de exemplu, \"/support\", \"example.com\" sau \"example."
-"com/support\"). Apoi, urmează instrucțiunile din secțiunea „Configurarea "
-"serverului web” pentru a finaliza procesul."
+"destinația mai jos (de exemplu, \"/support\", \"example.com\" sau "
+"\"example.com/support\"). Apoi, urmează instrucțiunile din secțiunea "
+"„Configurarea serverului web” pentru a finaliza procesul."
 
 #: app/assets/javascripts/app/views/channel/chat.jst.eco:118
 msgid "The default font size is 12px."
@@ -17694,7 +17696,7 @@ msgstr ""
 "Instalarea pachetelor are implicații de securitate, deoarece codul arbitrar "
 "va fi executat în contextul aplicației Zammad."
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:437
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18073,7 +18075,7 @@ msgstr "Lipsește parametrul necesar 'group_id'."
 msgid "The required parameter 'id' is missing."
 msgstr "Lipsește parametrul necesar 'id'."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:662
 msgid "The required parameter 'key' is missing."
 msgstr "Lipsește parametrul necesar 'key'."
 
@@ -18143,7 +18145,7 @@ msgstr "Lipsește parametrul necesar 'ticket_number'."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Lipsește parametrul necesar 'user_id'."
 
-#: lib/search_index_backend.rb:651
+#: lib/search_index_backend.rb:663
 msgid "The required parameter 'value' is missing."
 msgstr "Lipsește parametrul necesar 'value'."
 
@@ -19421,8 +19423,8 @@ msgstr ""
 "\n"
 "<div>Bună #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Un tichet necesită atenția ta: timp de amânare atins pentru (#{ticket."
-"title}) cu clientul \"<b>#{ticket.customer.longname}</b>\".</div>\n"
+"<div>Un tichet necesită atenția ta: timp de amânare atins pentru "
+"(#{ticket.title}) cu clientul \"<b>#{ticket.customer.longname}</b>\".</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -19582,7 +19584,7 @@ msgstr "Tichetul |%s| va fi escaladat în curând!"
 
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:9
-#: app/controllers/time_accountings_controller.rb:87
+#: app/controllers/time_accountings_controller.rb:81
 msgid "Ticket#"
 msgstr "Tichet#"
 
@@ -19590,7 +19592,7 @@ msgstr "Tichet#"
 msgid "TicketID"
 msgstr "IDTichet"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:452
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:453
 #: app/assets/javascripts/app/controllers/widget/user.coffee:87
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:94
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:98
@@ -19692,7 +19694,7 @@ msgstr "Contabilizarea timpului nu este activată"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:14
-#: app/controllers/time_accountings_controller.rb:111
+#: app/controllers/time_accountings_controller.rb:105
 msgid "Time Units"
 msgstr "Unități de timp"
 
@@ -19754,7 +19756,7 @@ msgstr "Temporizare"
 #: app/assets/javascripts/app/views/settings/form.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:10
-#: app/controllers/time_accountings_controller.rb:91
+#: app/controllers/time_accountings_controller.rb:85
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:38
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:144
 #: app/graphql/gql/types/overview_type.rb:92
@@ -20516,7 +20518,7 @@ msgstr "Distribuit"
 msgid "Update Time"
 msgstr "Ultima actualizare"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:512
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:513
 msgid "Update as closed"
 msgstr "Actualizează ca închis"
 
@@ -20597,7 +20599,7 @@ msgstr "Actualizat la"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:41
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:124
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:41
-#: app/graphql/gql/types/overview_type.rb:114
+#: app/graphql/gql/types/overview_type.rb:115
 msgid "Updated at"
 msgstr "Actualizat la"
 
@@ -20619,7 +20621,7 @@ msgstr "Actualizat la"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:31
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:113
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:31
-#: app/graphql/gql/types/overview_type.rb:113
+#: app/graphql/gql/types/overview_type.rb:114
 msgid "Updated by"
 msgstr "Actualizat de"
 
@@ -20708,8 +20710,8 @@ msgstr ""
 #| "</div>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">View this in #{config.product_name}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 #| "</div>\n"
 msgid ""
 "Updated ticket article (#{ticket.title})\n"
@@ -20878,15 +20880,15 @@ msgstr "Folosit în liste (vizualizări și rezultate)"
 msgid "Used in object views"
 msgstr "Utilizat în afișarea obiectelor"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:529
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
 msgid "Used when composing a Ticket article"
 msgstr "Utilizat atunci când compui un articol de tichet"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:559
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
 msgid "Used when composing a text"
 msgstr "Utilizat atunci când compui un text"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:456
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:457
 msgid "Used when viewing a Ticket"
 msgstr "Utilizat atunci când vizualizezi un tichet"
 
@@ -21630,8 +21632,8 @@ msgstr "Folosind configurația actuală următorul lucru se va întâmpla:"
 #: app/assets/javascripts/app/views/settings/ticket_number.jst.eco:7
 msgid ""
 "With |Date| the ticket numbers will be generated by the current date, the "
-"SystemID, and the counter. The format will be \"Year.Month.Day.SystemID."
-"Counter\" (e.g. 201206231010138, 201206231010139)."
+"SystemID, and the counter. The format will be "
+"\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "Cu |Data| numerele tichetelor vor fi generate în funcție de data de azi, "
 "SystemID și contor. Formatul va fi genul \"An.Lună.Zi.SystemID.Contor\" (ex. "
@@ -22631,8 +22633,8 @@ msgstr "organizația utilizatorului actual"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/password.ts:27
 msgid ""
-"current,new,confirm,change,current password,new password,confirm password,"
-"change password"
+"current,new,confirm,change,current password,new password,confirm "
+"password,change password"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/translation.coffee:281
@@ -23924,7 +23926,7 @@ msgstr "...adăugați link-ul către URL-ul obiectului"
 msgid "…add object title"
 msgstr "...adaugă titlul obiectului"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:607
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
 msgid "…of whole text area"
 msgstr "...zonei întregi a textului"
 

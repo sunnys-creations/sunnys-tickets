@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2025-02-25 07:01+0000\n"
 "Last-Translator: Martin Gruner <mg@zammad.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://translations.zammad."
-"org/projects/zammad/zammad-development/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translations.zammad.org/projects/zammad/zammad-development/zh_Hant/>\n"
 "Language: zh-tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,8 +69,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Created by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "* Group: #{ticket.group.name}\n"
 "* Owner: #{ticket.owner.fullname}\n"
 "* State: #{t(ticket.state.name)}\n"
@@ -81,8 +81,8 @@ msgid ""
 msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: 由 #{current_user.longname} 在 #{ticket."
-"updated_at} 建立_\n"
+"Ticket##{ticket.number}>: 由 #{current_user.longname} 在 "
+"#{ticket.updated_at} 建立_\n"
 "* #{t('Group')}: #{ticket.group.name}\n"
 "* #{t('Owner')}: #{ticket.owner.fullname}\n"
 "* #{t('State')}: #{t(ticket.state.name)}\n"
@@ -119,8 +119,8 @@ msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
 "Ticket##{ticket.number}>: 在 #{ticket.escalation_at} 開始升級_\n"
-"\"#{ticket.customer.longname}\" 的工單 (#{ticket.title}) 已經在 \"#{ticket."
-"escalation_at}\" 開始升級!\n"
+"\"#{ticket.customer.longname}\" 的工單 (#{ticket.title}) 已經在 "
+"\"#{ticket.escalation_at}\" 開始升級!\n"
 "\n"
 "<% if @objects[:article] %>\n"
 "#{article.body_as_text}\n"
@@ -143,8 +143,8 @@ msgid ""
 msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: 由 #{current_user.longname} 在 #{ticket."
-"updated_at} 建立_\n"
+"Ticket##{ticket.number}>: 由 #{current_user.longname} 在 "
+"#{ticket.updated_at} 建立_\n"
 "* #{t('Group')}: #{ticket.group.name}\n"
 "* #{t('Owner')}: #{ticket.owner.fullname}\n"
 "* #{t('State')}: #{t(ticket.state.name)}\n"
@@ -194,8 +194,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Updated by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Updated by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -208,8 +208,8 @@ msgid ""
 msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: 由 #{current_user.longname} 在 #{ticket."
-"updated_at} 更新了_\n"
+"Ticket##{ticket.number}>: 由 #{current_user.longname} 在 "
+"#{ticket.updated_at} 更新了_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -248,8 +248,8 @@ msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
 "Ticket##{ticket.number}>: 即將在 #{ticket.escalation_at} 開始升級_\n"
-"\"#{ticket.customer.longname}\" 的工單 (#{ticket.title}) 即將在 \"#{ticket."
-"escalation_at}\" 開始升級!\n"
+"\"#{ticket.customer.longname}\" 的工單 (#{ticket.title}) 即將在 "
+"\"#{ticket.escalation_at}\" 開始升級!\n"
 "\n"
 "<% if @objects[:article] %>\n"
 "#{article.body_as_text}\n"
@@ -1494,7 +1494,7 @@ msgstr "活動訊息流"
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:50
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:16
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:4
-#: app/controllers/time_accountings_controller.rb:117
+#: app/controllers/time_accountings_controller.rb:111
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:118
 #, fuzzy
 #| msgid "Active"
@@ -1864,15 +1864,15 @@ msgstr "管理員帳號"
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
-#| "<div>We received a request to reset the password for your #{config."
-#| "product_name} account <b>#{user.login}</b>.</div>\n"
+#| "<div>We received a request to reset the password for your "
+#| "#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 #| "<br>\n"
 #| "<div>If you want to reset your password, click on the link below (or copy "
 #| "and paste the URL into your browser):</div>\n"
 #| "<br>\n"
 #| "<div><a href=\"#{config.http_type}://#{config.fqdn}/"
-#| "#password_reset_verify/#{token.name}\">#{config.http_type}://#{config."
-#| "fqdn}/#password_reset_verify/#{token.name}</a></div>\n"
+#| "#password_reset_verify/#{token.name}\">#{config.http_type}://"
+#| "#{config.fqdn}/#password_reset_verify/#{token.name}</a></div>\n"
 #| "<br>\n"
 #| "<div>This link takes you to a page where you can change your password.</"
 #| "div>\n"
@@ -1886,8 +1886,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request for an administration login for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request for an administration login for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Please, click on the link below (or copy and paste the URL into your "
 "browser) to proceed:</div>\n"
@@ -1964,7 +1964,7 @@ msgstr "總時長"
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:13
-#: app/controllers/time_accountings_controller.rb:103 db/seeds/roles.rb:14
+#: app/controllers/time_accountings_controller.rb:97 db/seeds/roles.rb:14
 #: db/seeds/ticket_article_senders.rb:3
 msgid "Agent"
 msgstr "客服人員"
@@ -2218,8 +2218,8 @@ msgstr "正在分析結構..."
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "Another ticket was merged into ticket (#{ticket.title})\n"
@@ -3778,7 +3778,7 @@ msgstr "連接通訊管道"
 msgid "Check item"
 msgstr "Checksum"
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
 msgstr ""
 
@@ -4329,22 +4329,22 @@ msgstr "綁定密碼"
 #: app/views/mailer/signup/en.html.erb
 #, fuzzy
 #| msgid ""
-#| "Confirm your #{config.product_name} account, #{user.firstname} #{user."
-#| "lastname}\n"
+#| "Confirm your #{config.product_name} account, #{user.firstname} "
+#| "#{user.lastname}\n"
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
 #| "<div>Confirm your email address to complete your #{config.product_name} "
 #| "account. It's easy, just click the link below.</div>\n"
 #| "<br>\n"
-#| "<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/#{token."
-#| "name}\">#{config.http_type}://#{config.fqdn}/#email_verify/#{token.name}</"
-#| "a></div>\n"
+#| "<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/"
+#| "#{token.name}\">#{config.http_type}://#{config.fqdn}/#email_verify/"
+#| "#{token.name}</a></div>\n"
 #| "<br>\n"
 #| "<div>Your #{config.product_name} Team</div>\n"
 msgid ""
-"Confirm your #{config.product_name} account, #{user.firstname} #{user."
-"lastname}\n"
+"Confirm your #{config.product_name} account, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
@@ -4362,9 +4362,9 @@ msgstr ""
 "<div>檢驗你在登記 #{config.product_name} 時所輸入的電郵地址, 請點擊下面的網"
 "址.</div>\n"
 "<br>\n"
-"<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/#{token."
-"token}\">#{config.http_type}://#{config.fqdn}/#email_verify/#{token.token}</"
-"a></div>\n"
+"<div><a href=\"#{config.http_type}://#{config.fqdn}/#email_verify/"
+"#{token.token}\">#{config.http_type}://#{config.fqdn}/#email_verify/"
+"#{token.token}</a></div>\n"
 "<br>\n"
 "<div>你的 #{config.product_name} 團隊</div>\n"
 
@@ -4549,7 +4549,7 @@ msgstr "繼續原工作階段"
 msgid "Continue to desktop"
 msgstr "繼續原工作階段"
 
-#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:56
+#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:61
 #: app/assets/javascripts/app/views/login.jst.eco:125
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:305
 #, fuzzy
@@ -4830,8 +4830,8 @@ msgid ""
 "\n"
 "Available objects are:\n"
 "* ticket (e.g. ticket.state, ticket.group)\n"
-"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (e.g. ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (e.g. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (e.g. ticket.organization.name)\n"
 "* user (e.g. user.firstname, user.email)\n"
@@ -5025,14 +5025,14 @@ msgstr "建立一個測試工單"
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:17
 #: app/assets/javascripts/app/views/widget/http_log.jst.eco:19
 #: app/assets/javascripts/app/views/widget/http_log_show.jst.eco:23
-#: app/controllers/time_accountings_controller.rb:122
+#: app/controllers/time_accountings_controller.rb:116
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:121
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMeta/useArticleMeta.ts:57
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:41
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:24
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:106
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:24
-#: app/graphql/gql/types/overview_type.rb:112
+#: app/graphql/gql/types/overview_type.rb:113
 msgid "Created at"
 msgstr "建立在"
 
@@ -5060,7 +5060,7 @@ msgstr "建立在"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:14
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:95
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:14
-#: app/graphql/gql/types/overview_type.rb:111
+#: app/graphql/gql/types/overview_type.rb:112
 msgid "Created by"
 msgstr "建立由"
 
@@ -5172,7 +5172,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:11
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:39
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/customer.ts:13
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/customer.ts:6
@@ -6274,8 +6274,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:5094
 msgid ""
-"Defines the transaction backend which posts messages to Slack (http://www."
-"slack.com)."
+"Defines the transaction backend which posts messages to Slack (http://"
+"www.slack.com)."
 msgstr ""
 
 #: db/seeds/settings.rb:5404
@@ -7263,7 +7263,7 @@ msgstr ""
 msgid "Elasticsearch Total Payload Size"
 msgstr ""
 
-#: lib/search_index_backend.rb:433
+#: lib/search_index_backend.rb:435
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7979,8 +7979,8 @@ msgstr "層級提升次數"
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "Escalated ticket (#{ticket.title})\n"
@@ -8008,9 +8008,9 @@ msgstr ""
 "\n"
 "<div>你好, #{recipient.firstname}:</div>\n"
 "<br>\n"
-"<div>來自客戶 \"<b>#{ticket.customer.longname}</b>\" 標題為 (#{ticket."
-"title}) 的工單自 \"#{ticket.escalation_at}\" 起已經被升級, 請盡速處理!</"
-"div>\n"
+"<div>來自客戶 \"<b>#{ticket.customer.longname}</b>\" 標題為 "
+"(#{ticket.title}) 的工單自 \"#{ticket.escalation_at}\" 起已經被升級, 請盡速處"
+"理!</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -8261,7 +8261,7 @@ msgstr "逾期"
 msgid "Expires at"
 msgstr "逾期"
 
-#: app/assets/javascripts/app/controllers/search.coffee:55
+#: app/assets/javascripts/app/controllers/search.coffee:57
 msgid "Extended Search"
 msgstr "擴展搜尋"
 
@@ -8271,7 +8271,7 @@ msgstr "擴展搜尋"
 msgid "External data source field"
 msgstr "內部"
 
-#: lib/search_index_backend.rb:727
+#: lib/search_index_backend.rb:739
 msgid "Extract zammad-attachment information from arrays"
 msgstr ""
 
@@ -8679,11 +8679,11 @@ msgstr "%s 個物件已刪除。"
 msgid "Format"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:582
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
 msgid "Format as //strikethrough//"
 msgstr "//strikethrough// 格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:564
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Format as _underlined_"
 msgstr "_underlined_ 格式"
 
@@ -8693,15 +8693,15 @@ msgstr "_underlined_ 格式"
 msgid "Format as bold"
 msgstr "|bold| 格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:631
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
 msgid "Format as h1 heading"
 msgstr "h1 標頭格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:637
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
 msgid "Format as h2 heading"
 msgstr "h2 標頭格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:643
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
 msgid "Format as h3 heading"
 msgstr "h3 標頭格式"
 
@@ -8711,7 +8711,7 @@ msgstr "h3 標頭格式"
 msgid "Format as italic"
 msgstr "||italic|| 格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:625
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
 msgid "Format as ordered list"
 msgstr "排序列表格式"
 
@@ -8727,15 +8727,15 @@ msgstr "//strikethrough// 格式"
 msgid "Format as underlined"
 msgstr "_underlined_ 格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:619
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
 msgid "Format as unordered list"
 msgstr "非排序列表格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:570
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
 msgid "Format as |bold|"
 msgstr "|bold| 格式"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:576
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
 msgid "Format as ||italic||"
 msgstr "||italic|| 格式"
 
@@ -10182,21 +10182,21 @@ msgstr ""
 "將 Widget 程式碼插入須提供文字對談的每個網頁的程式中。應將其放在 §</body>§ 結"
 "束標記之前的頁面末尾。"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:613
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
 msgid "Inserts a horizontal rule"
 msgstr "插入水平線"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:546
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
 msgid "Inserts a mention for a user"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:540
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
 #, fuzzy
 #| msgid "Delete Knowledge Base"
 msgid "Inserts knowledge base answer"
 msgstr "刪除知識庫"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
 #, fuzzy
 #| msgid "New text module"
 msgid "Inserts text module"
@@ -10800,6 +10800,7 @@ msgstr "已經變更"
 
 #: app/assets/javascripts/app/models/ticket.coffee:26
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:88
+#: app/graphql/gql/types/overview_type.rb:111
 #, fuzzy
 #| msgid "Closing time"
 msgid "Last closing time"
@@ -11178,7 +11179,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/models/user.coffee:8
 #: app/assets/javascripts/app/views/maintenance.jst.eco:25
-#: app/controllers/time_accountings_controller.rb:107
+#: app/controllers/time_accountings_controller.rb:101
 #: db/seeds/object_manager_attributes.rb:766
 msgid "Login"
 msgstr "登入"
@@ -12338,7 +12339,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/tag/table.jst.eco:4
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:9
 #: app/assets/javascripts/app/views/widget/user.jst.eco:5
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:30
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:116
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:31
@@ -12364,7 +12365,7 @@ msgstr ""
 msgid "Name of form submit button"
 msgstr "表單提交按鈕顯示文字"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:524
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
 msgid "Navigate through article"
 msgstr "瀏覽文章"
 
@@ -12668,8 +12669,8 @@ msgstr "新的工單"
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "New ticket (#{ticket.title})\n"
@@ -12703,8 +12704,8 @@ msgstr ""
 "\n"
 "<div>你好, #{recipient.firstname}:</div>\n"
 "<br>\n"
-"<div>\"<b>#{current_user.longname}</b>\" 客戶創建了一張標題為 (#{ticket."
-"title}) 的新工單.</div>\n"
+"<div>\"<b>#{current_user.longname}</b>\" 客戶創建了一張標題為 "
+"(#{ticket.title}) 的新工單.</div>\n"
 "<br>\n"
 "<div>\n"
 "#{t('Group')}: #{ticket.group.name}<br>\n"
@@ -13663,11 +13664,11 @@ msgstr "下一個頁籤"
 msgid "Open link"
 msgstr "開啟中的工單"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:502
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:503
 msgid "Open macro selection"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:462
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:463
 msgid "Open note box"
 msgstr "開啟備註輸入框"
 
@@ -13839,7 +13840,7 @@ msgstr "總覽"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:12
-#: app/controllers/time_accountings_controller.rb:99
+#: app/controllers/time_accountings_controller.rb:93
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/organization.ts:13
 #: app/frontend/apps/mobile/pages/organization/routes.ts:8
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
@@ -14292,11 +14293,11 @@ msgstr ""
 msgid "Paste Private Key"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:588
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
 msgid "Paste from clipboard"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:595
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
 msgid "Paste from clipboard (plain text)"
 msgstr ""
 
@@ -15348,11 +15349,11 @@ msgstr "身份驗證"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s 最後切換為 |%s|！"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
 msgid "Removes any hyperlink"
 msgstr "移除任何超連結"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:601
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
 msgid "Removes the formatting"
 msgstr "移除格式"
 
@@ -15427,7 +15428,7 @@ msgstr "回覆"
 msgid "Reply allowed only for open tickets"
 msgstr "顯示滿足以下條件的工單"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:477
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:478
 msgid "Reply to last article"
 msgstr "回覆最新文章"
 
@@ -15586,15 +15587,15 @@ msgstr "恢復預設值"
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
-#| "<div>We received a request to reset the password for your #{config."
-#| "product_name} account <b>#{user.login}</b>.</div>\n"
+#| "<div>We received a request to reset the password for your "
+#| "#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 #| "<br>\n"
 #| "<div>If you want to reset your password, click on the link below (or copy "
 #| "and paste the URL into your browser):</div>\n"
 #| "<br>\n"
 #| "<div><a href=\"#{config.http_type}://#{config.fqdn}/"
-#| "#password_reset_verify/#{token.name}\">#{config.http_type}://#{config."
-#| "fqdn}/#password_reset_verify/#{token.name}</a></div>\n"
+#| "#password_reset_verify/#{token.name}\">#{config.http_type}://"
+#| "#{config.fqdn}/#password_reset_verify/#{token.name}</a></div>\n"
 #| "<br>\n"
 #| "<div>This link takes you to a page where you can change your password.</"
 #| "div>\n"
@@ -15608,8 +15609,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request to reset the password for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request to reset the password for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>If you want to reset your password, click on the link below (or copy "
 "and paste the URL into your browser):</div>\n"
@@ -15654,15 +15655,15 @@ msgstr ""
 #| "\n"
 #| "<div>Hi #{user.firstname},</div>\n"
 #| "<br>\n"
-#| "<div>We received a request to reset the password for your #{config."
-#| "product_name} account <b>#{user.login}</b>.</div>\n"
+#| "<div>We received a request to reset the password for your "
+#| "#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 #| "<br>\n"
 #| "<div>If you want to reset your password, click on the link below (or copy "
 #| "and paste the URL into your browser):</div>\n"
 #| "<br>\n"
 #| "<div><a href=\"#{config.http_type}://#{config.fqdn}/"
-#| "#password_reset_verify/#{token.name}\">#{config.http_type}://#{config."
-#| "fqdn}/#password_reset_verify/#{token.name}</a></div>\n"
+#| "#password_reset_verify/#{token.name}\">#{config.http_type}://"
+#| "#{config.fqdn}/#password_reset_verify/#{token.name}</a></div>\n"
 #| "<br>\n"
 #| "<div>This link takes you to a page where you can change your password.</"
 #| "div>\n"
@@ -16778,7 +16779,7 @@ msgstr "建立您的第一筆工單"
 msgid "Set agent limit"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:492
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:493
 msgid "Set article to internal/public"
 msgstr "設定文章為內部/公開"
 
@@ -18113,7 +18114,7 @@ msgstr "文字"
 msgid "Text Modules"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:555
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Text editing"
 msgstr "文字編輯"
 
@@ -18636,9 +18637,10 @@ msgstr ""
 #: app/assets/javascripts/app/models/knowledge_base.coffee:294
 msgid ""
 "The default URL for your knowledge base is e.g. example.com or example.com/"
-"help. To serve it from a custom URL instead, enter the destination below (e."
-"g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
-"the directions under \"Web Server Configuration\" to complete the process."
+"help. To serve it from a custom URL instead, enter the destination below "
+"(e.g., \"/support\", \"example.com\", or \"example.com/support\"). Then, "
+"follow the directions under \"Web Server Configuration\" to complete the "
+"process."
 msgstr ""
 "您知識庫的預設網址為 example.com 或 example.com/help。若要改為自定網址，請在"
 "下面輸入目標網址（例如：\"/support\"、\"example.com\" 或 \"example.com/"
@@ -18860,7 +18862,7 @@ msgid ""
 "arbitrary code will be executed in the context of the Zammad application."
 msgstr ""
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:437
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -19253,7 +19255,7 @@ msgstr ""
 msgid "The required parameter 'id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:662
 msgid "The required parameter 'key' is missing."
 msgstr ""
 
@@ -19321,7 +19323,7 @@ msgstr ""
 msgid "The required parameter 'user_id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:651
+#: lib/search_index_backend.rb:663
 msgid "The required parameter 'value' is missing."
 msgstr ""
 
@@ -20392,8 +20394,8 @@ msgstr "工單 %s 合併了！"
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "Ticket (#{ticket.title}) was merged into another ticket\n"
@@ -20414,8 +20416,8 @@ msgstr ""
 "\n"
 "<div>Hi #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>來自客戶 \"<b>#{ticket.customer.longname}</b>\" 的工單標題為 (#{ticket."
-"title}) 即將在 \"#{ticket.escalation_at}\" 開始升級!</div>\n"
+"<div>來自客戶 \"<b>#{ticket.customer.longname}</b>\" 的工單標題為 "
+"(#{ticket.title}) 即將在 \"#{ticket.escalation_at}\" 開始升級!</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -20710,8 +20712,8 @@ msgstr "工單到達提醒時間"
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "Ticket reminder reached (#{ticket.title})\n"
@@ -20859,8 +20861,8 @@ msgstr "新增工單總覽"
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "Ticket will escalate (#{ticket.title})\n"
@@ -20888,8 +20890,8 @@ msgstr ""
 "\n"
 "<div>Hi #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>來自客戶 \"<b>#{ticket.customer.longname}</b>\" 的工單標題為 (#{ticket."
-"title}) 即將在 \"#{ticket.escalation_at}\" 開始升級!</div>\n"
+"<div>來自客戶 \"<b>#{ticket.customer.longname}</b>\" 的工單標題為 "
+"(#{ticket.title}) 即將在 \"#{ticket.escalation_at}\" 開始升級!</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "  <div>\n"
@@ -20930,7 +20932,7 @@ msgstr "工單 |%s| 即將提升層級！"
 
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:9
-#: app/controllers/time_accountings_controller.rb:87
+#: app/controllers/time_accountings_controller.rb:81
 msgid "Ticket#"
 msgstr ""
 
@@ -20938,7 +20940,7 @@ msgstr ""
 msgid "TicketID"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:452
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:453
 #: app/assets/javascripts/app/controllers/widget/user.coffee:87
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:94
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:98
@@ -21052,7 +21054,7 @@ msgstr "工時"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:14
-#: app/controllers/time_accountings_controller.rb:111
+#: app/controllers/time_accountings_controller.rb:105
 msgid "Time Units"
 msgstr "時間單位"
 
@@ -21118,7 +21120,7 @@ msgstr "時間點"
 #: app/assets/javascripts/app/views/settings/form.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:10
-#: app/controllers/time_accountings_controller.rb:91
+#: app/controllers/time_accountings_controller.rb:85
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:38
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:144
 #: app/graphql/gql/types/overview_type.rb:92
@@ -21896,7 +21898,7 @@ msgstr "已分享"
 msgid "Update Time"
 msgstr "更新時間"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:512
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:513
 msgid "Update as closed"
 msgstr "更新為關閉"
 
@@ -21977,7 +21979,7 @@ msgstr ""
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:41
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:124
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:41
-#: app/graphql/gql/types/overview_type.rb:114
+#: app/graphql/gql/types/overview_type.rb:115
 msgid "Updated at"
 msgstr "更新在"
 
@@ -21999,7 +22001,7 @@ msgstr "更新在"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:31
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:113
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:31
-#: app/graphql/gql/types/overview_type.rb:113
+#: app/graphql/gql/types/overview_type.rb:114
 msgid "Updated by"
 msgstr "更新由"
 
@@ -22128,8 +22130,8 @@ msgstr ""
 #| "<% end %>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">#{t('View this in Zammad')}</a>\n"
 #| "</div>\n"
 msgid ""
 "Updated ticket article (#{ticket.title})\n"
@@ -22302,15 +22304,15 @@ msgstr "適用在搜尋清單 (視圖與結果)"
 msgid "Used in object views"
 msgstr "適用在物件選項視角"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:529
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
 msgid "Used when composing a Ticket article"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:559
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
 msgid "Used when composing a text"
 msgstr "適用在編輯文字時"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:456
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:457
 msgid "Used when viewing a Ticket"
 msgstr "適用在查看工單時"
 
@@ -23077,15 +23079,17 @@ msgstr "使用目前配置，將發生以下情況"
 #, fuzzy
 #| msgid ""
 #| "With |Date| the ticket numbers will be generated by the current date, the "
-#| "SystemID and the counter. The format looks like \"Year.Month.Day.SystemID."
-#| "Counter\" (e.g. 201206231010138, 201206231010139)."
+#| "SystemID and the counter. The format looks like "
+#| "\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, "
+#| "201206231010139)."
 msgid ""
 "With |Date| the ticket numbers will be generated by the current date, the "
-"SystemID, and the counter. The format will be \"Year.Month.Day.SystemID."
-"Counter\" (e.g. 201206231010138, 201206231010139)."
+"SystemID, and the counter. The format will be "
+"\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
-"依 |日期| 工單號碼將會依目前日期、系統 ID 和計數器產生。格式類似於 \"Year."
-"Month.Day.SystemID.Counter\" (例如：201206231010138, 201206231010139)。"
+"依 |日期| 工單號碼將會依目前日期、系統 ID 和計數器產生。格式類似於 "
+"\"Year.Month.Day.SystemID.Counter\" (例如：201206231010138, "
+"201206231010139)。"
 
 #: app/assets/javascripts/app/controllers/email_verify.coffee:35
 #: app/frontend/apps/desktop/pages/authentication/views/SignupVerify.vue:47
@@ -24059,8 +24063,8 @@ msgstr "用前使用者機構"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/password.ts:27
 msgid ""
-"current,new,confirm,change,current password,new password,confirm password,"
-"change password"
+"current,new,confirm,change,current password,new password,confirm "
+"password,change password"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/translation.coffee:281
@@ -25467,7 +25471,7 @@ msgstr "...加入物件連結 URL"
 msgid "…add object title"
 msgstr "...加入物件標題"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:607
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
 #, fuzzy
 #| msgid "...of whole textarea"
 msgid "…of whole text area"

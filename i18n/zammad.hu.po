@@ -70,8 +70,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Created by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Created by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "* Group: #{ticket.group.name}\n"
 "* Owner: #{ticket.owner.fullname}\n"
 "* State: #{t(ticket.state.name)}\n"
@@ -173,8 +173,8 @@ msgstr ""
 msgid ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|"
-"Ticket##{ticket.number}>: Updated by #{current_user.longname} at #{ticket."
-"updated_at}_\n"
+"Ticket##{ticket.number}>: Updated by #{current_user.longname} at "
+"#{ticket.updated_at}_\n"
 "<% if @objects[:changes].present? %>\n"
 "  <% @objects[:changes].each do |key, value| %>\n"
 "  * <%= t key %>: <%= h value[0] %> -> <%= h value[1] %>\n"
@@ -1288,7 +1288,7 @@ msgstr "Tevékenységi folyam"
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:50
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:16
 #: app/assets/javascripts/app/views/time_accounting/types.jst.eco:4
-#: app/controllers/time_accountings_controller.rb:117
+#: app/controllers/time_accountings_controller.rb:111
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:118
 msgid "Activity Type"
 msgstr "Tevékenységtípus"
@@ -1641,8 +1641,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request for an administration login for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request for an administration login for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Please, click on the link below (or copy and paste the URL into your "
 "browser) to proceed:</div>\n"
@@ -1659,8 +1659,8 @@ msgstr ""
 "\n"
 "<div>Üdvözöljük #{user.firstname},</div>\n"
 "<br>\n"
-"<div>Egy rendszergazdai bejelentkezési kérelmet kaptunk az Ön #{config."
-"product_name} fiókjához <b>#{user.login}</b>.</div>\n"
+"<div>Egy rendszergazdai bejelentkezési kérelmet kaptunk az Ön "
+"#{config.product_name} fiókjához <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>Kérjük, a folytatáshoz kattintson az alábbi hivatkozásra (vagy másolja "
 "be az URL címet a böngészőjébe):</div>\n"
@@ -1724,7 +1724,7 @@ msgstr "Életkor"
 #: app/assets/javascripts/app/views/popover/ticket.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:13
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:13
-#: app/controllers/time_accountings_controller.rb:103 db/seeds/roles.rb:14
+#: app/controllers/time_accountings_controller.rb:97 db/seeds/roles.rb:14
 #: db/seeds/ticket_article_senders.rb:3
 msgid "Agent"
 msgstr "Ügynök"
@@ -1974,8 +1974,8 @@ msgstr ""
 "<div>Üdvözöljük #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Egy másik jegy lett egyesítve a jegybe (#{ticket.title}) \"<b>#{current_user."
-"longname}\" által.</b>\".\n"
+"Egy másik jegy lett egyesítve a jegybe (#{ticket.title}) "
+"\"<b>#{current_user.longname}\" által.</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<div>\n"
@@ -3421,7 +3421,7 @@ msgstr "Ellenőrizze a csatornákat."
 msgid "Check item"
 msgstr "Checkmk"
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
 msgstr ""
 "A részletes információkért ellenőrizze a választ és a hasznos terhelést:"
@@ -3936,8 +3936,8 @@ msgstr "Jelszó megerősítése"
 #. Please make sure to translate it to a valid corresponding output structure.
 #: app/views/mailer/signup/en.html.erb
 msgid ""
-"Confirm your #{config.product_name} account, #{user.firstname} #{user."
-"lastname}\n"
+"Confirm your #{config.product_name} account, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
@@ -3948,8 +3948,8 @@ msgid ""
 "<br>\n"
 "<div>Your #{config.product_name} Team</div>\n"
 msgstr ""
-"Erősítse meg a #{config.product_name} fiókját, #{user.firstname} #{user."
-"lastname}\n"
+"Erősítse meg a #{config.product_name} fiókját, #{user.firstname} "
+"#{user.lastname}\n"
 "\n"
 "<div>Üdvözöljük #{user.firstname},</div>\n"
 "<br>\n"
@@ -4126,7 +4126,7 @@ msgstr "Munkamenet folytatása"
 msgid "Continue to desktop"
 msgstr "Folytatás asztali gépen"
 
-#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:56
+#: app/assets/javascripts/app/controllers/_plugin/mobile_detection.coffee:61
 #: app/assets/javascripts/app/views/login.jst.eco:125
 #: app/frontend/apps/desktop/pages/authentication/views/Login.vue:305
 msgid "Continue to mobile"
@@ -4388,8 +4388,8 @@ msgid ""
 "\n"
 "Available objects are:\n"
 "* ticket (e.g. ticket.state, ticket.group)\n"
-"* ticket.customer (e.g. ticket.customer.firstname, ticket.customer."
-"lastname)\n"
+"* ticket.customer (e.g. ticket.customer.firstname, "
+"ticket.customer.lastname)\n"
 "* ticket.owner (e.g. ticket.owner.firstname, ticket.owner.lastname)\n"
 "* ticket.organization (e.g. ticket.organization.name)\n"
 "* user (e.g. user.firstname, user.email)\n"
@@ -4582,14 +4582,14 @@ msgstr "Létrehozott belső cikk"
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:17
 #: app/assets/javascripts/app/views/widget/http_log.jst.eco:19
 #: app/assets/javascripts/app/views/widget/http_log_show.jst.eco:23
-#: app/controllers/time_accountings_controller.rb:122
+#: app/controllers/time_accountings_controller.rb:116
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:121
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMeta/useArticleMeta.ts:57
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:41
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:24
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:106
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:24
-#: app/graphql/gql/types/overview_type.rb:112
+#: app/graphql/gql/types/overview_type.rb:113
 msgid "Created at"
 msgstr "Létrehozva ekkor"
 
@@ -4615,7 +4615,7 @@ msgstr "Létrehozva ekkor:"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:14
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:95
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:14
-#: app/graphql/gql/types/overview_type.rb:111
+#: app/graphql/gql/types/overview_type.rb:112
 msgid "Created by"
 msgstr "Létrehozta"
 
@@ -4731,7 +4731,7 @@ msgstr "Egyéni cím nincs beállítva"
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:11
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:39
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/customer.ts:13
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/customer.ts:6
@@ -5935,8 +5935,8 @@ msgstr ""
 
 #: db/seeds/settings.rb:5094
 msgid ""
-"Defines the transaction backend which posts messages to Slack (http://www."
-"slack.com)."
+"Defines the transaction backend which posts messages to Slack (http://"
+"www.slack.com)."
 msgstr ""
 "Meghatározza a tranzakciós háttérrendszert, amely üzeneteket posztol a Slack "
 "rendszerbe (http://www.slack.com)."
@@ -5946,8 +5946,8 @@ msgid ""
 "Defines the transaction backend which will enrich customer and organization "
 "information from Clearbit (http://www.clearbit.com)."
 msgstr ""
-"Meghatározza a tranzakciós háttérrendszert, amely a Clearbitből (http://www."
-"clearbit.com) származó ügyfél- és szervezeti információkat gazdagítja."
+"Meghatározza a tranzakciós háttérrendszert, amely a Clearbitből (http://"
+"www.clearbit.com) származó ügyfél- és szervezeti információkat gazdagítja."
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:14
 #: db/seeds/settings.rb:4106
@@ -6892,7 +6892,7 @@ msgstr "Elasticsearch SSL ellenőrzés"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Elasticsearch teljes hasznos terhelés mérete"
 
-#: lib/search_index_backend.rb:433
+#: lib/search_index_backend.rb:435
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7867,7 +7867,7 @@ msgstr "Lejár"
 msgid "Expires at"
 msgstr "Lejár"
 
-#: app/assets/javascripts/app/controllers/search.coffee:55
+#: app/assets/javascripts/app/controllers/search.coffee:57
 msgid "Extended Search"
 msgstr "Kibővített keresés"
 
@@ -7875,7 +7875,7 @@ msgstr "Kibővített keresés"
 msgid "External data source field"
 msgstr "Külső adatbázis forrása mező"
 
-#: lib/search_index_backend.rb:727
+#: lib/search_index_backend.rb:739
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Zammad-csatolmány információk kinyerése tömbökből"
 
@@ -8268,11 +8268,11 @@ msgstr "A FormSchema nem található."
 msgid "Format"
 msgstr "Formátum"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:582
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
 msgid "Format as //strikethrough//"
 msgstr "Formázás //áthúzottként//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:564
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Format as _underlined_"
 msgstr "Formázás _aláhúzottként_"
 
@@ -8280,15 +8280,15 @@ msgstr "Formázás _aláhúzottként_"
 msgid "Format as bold"
 msgstr "Formázás félkövérként"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:631
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
 msgid "Format as h1 heading"
 msgstr "Formázás h1 címsorként"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:637
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
 msgid "Format as h2 heading"
 msgstr "Formázás h2 címsorként"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:643
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
 msgid "Format as h3 heading"
 msgstr "Formázás h3 címsorként"
 
@@ -8296,7 +8296,7 @@ msgstr "Formázás h3 címsorként"
 msgid "Format as italic"
 msgstr "Formázás dőlt betűsként"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:625
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
 msgid "Format as ordered list"
 msgstr "Formázás rendezett listaként"
 
@@ -8308,15 +8308,15 @@ msgstr "Formázás áthúzásként"
 msgid "Format as underlined"
 msgstr "Formázás aláhúzottként"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:619
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
 msgid "Format as unordered list"
 msgstr "Formázás rendezetlen listaként"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:570
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
 msgid "Format as |bold|"
 msgstr "Formázás |félkövérként|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:576
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
 msgid "Format as ||italic||"
 msgstr "Formázás ||dőltként||"
 
@@ -9694,19 +9694,19 @@ msgstr ""
 "csevegés látható lesz. Az oldal forráskódjának végén kell elhelyezni a §</"
 "body>§ záró tag előtt."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:613
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
 msgid "Inserts a horizontal rule"
 msgstr "Vízszintes vonal beszúrása"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:546
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
 msgid "Inserts a mention for a user"
 msgstr "Egy felhasználó említésének beszúrása"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:540
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
 msgid "Inserts knowledge base answer"
 msgstr "Tudásbázis válasz beszúrása"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
 msgid "Inserts text module"
 msgstr "Szövegmodul beszúrása"
 
@@ -10265,6 +10265,7 @@ msgstr "Utoljára módosítva"
 
 #: app/assets/javascripts/app/models/ticket.coffee:26
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:88
+#: app/graphql/gql/types/overview_type.rb:111
 msgid "Last closing time"
 msgstr "Utolsó lezárási idő"
 
@@ -10625,7 +10626,7 @@ msgstr "Bejelentkezés a %s rendszerbe"
 
 #: app/assets/javascripts/app/models/user.coffee:8
 #: app/assets/javascripts/app/views/maintenance.jst.eco:25
-#: app/controllers/time_accountings_controller.rb:107
+#: app/controllers/time_accountings_controller.rb:101
 #: db/seeds/object_manager_attributes.rb:766
 msgid "Login"
 msgstr "Bejelentkezés"
@@ -11698,7 +11699,7 @@ msgstr "Nagios integráció"
 #: app/assets/javascripts/app/views/tag/table.jst.eco:4
 #: app/assets/javascripts/app/views/widget/organization.jst.eco:9
 #: app/assets/javascripts/app/views/widget/user.jst.eco:5
-#: app/controllers/time_accountings_controller.rb:95
+#: app/controllers/time_accountings_controller.rb:89
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:30
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationSecurityKeys.vue:116
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:31
@@ -11724,7 +11725,7 @@ msgstr "Ennek a biztonsági kulcsnak a neve"
 msgid "Name of form submit button"
 msgstr "Az űrlap elküldés gombjának neve"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:524
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
 msgid "Navigate through article"
 msgstr "Navigálás a cikken keresztül"
 
@@ -12934,11 +12935,11 @@ msgstr "Megnyitás új lapon"
 msgid "Open link"
 msgstr "Nyitott jegyek"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:502
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:503
 msgid "Open macro selection"
 msgstr "Makró kiválasztás megnyitása"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:462
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:463
 msgid "Open note box"
 msgstr "Megjegyzés mező megnyitása"
 
@@ -13095,7 +13096,7 @@ msgstr "A jegyek áttekintésének sorrendje"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:12
-#: app/controllers/time_accountings_controller.rb:99
+#: app/controllers/time_accountings_controller.rb:93
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/organization.ts:13
 #: app/frontend/apps/mobile/pages/organization/routes.ts:8
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
@@ -13515,11 +13516,11 @@ msgstr "Tanúsítvány beillesztése"
 msgid "Paste Private Key"
 msgstr "Privát kulcs beillesztése"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:588
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
 msgid "Paste from clipboard"
 msgstr "Beillesztés a vágólapról"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:595
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
 msgid "Paste from clipboard (plain text)"
 msgstr "Beillesztés a vágólapról (egyszerű szöveg)"
 
@@ -14497,11 +14498,11 @@ msgstr "Kétfaktoros hitelesítés eltávolítása"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s befejezte az átváltást erre: |%s|!"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:649
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
 msgid "Removes any hyperlink"
 msgstr "Eltávolít minden hiperhivatkozást"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:601
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
 msgid "Removes the formatting"
 msgstr "Eltávolítja a formázást"
 
@@ -14564,7 +14565,7 @@ msgstr "Válasz mindenkinek"
 msgid "Reply allowed only for open tickets"
 msgstr "Válasz csak nyitott jegyek esetén engedélyezett"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:477
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:478
 msgid "Reply to last article"
 msgstr "Válasz az utolsó cikkre"
 
@@ -14708,8 +14709,8 @@ msgid ""
 "\n"
 "<div>Hi #{user.firstname},</div>\n"
 "<br>\n"
-"<div>We received a request to reset the password for your #{config."
-"product_name} account <b>#{user.login}</b>.</div>\n"
+"<div>We received a request to reset the password for your "
+"#{config.product_name} account <b>#{user.login}</b>.</div>\n"
 "<br>\n"
 "<div>If you want to reset your password, click on the link below (or copy "
 "and paste the URL into your browser):</div>\n"
@@ -15776,7 +15777,7 @@ msgstr "Állítson be egy címet a jegyéhez"
 msgid "Set agent limit"
 msgstr "Ügynöki korlát beállítása"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:492
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:493
 msgid "Set article to internal/public"
 msgstr "Cikk beállítása belsőre / nyilvánosra"
 
@@ -16981,7 +16982,7 @@ msgstr "Szöveg"
 msgid "Text Modules"
 msgstr "Szövegmodulok"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:555
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Text editing"
 msgstr "Szövegszerkesztés"
 
@@ -17487,9 +17488,10 @@ msgstr ""
 #: app/assets/javascripts/app/models/knowledge_base.coffee:294
 msgid ""
 "The default URL for your knowledge base is e.g. example.com or example.com/"
-"help. To serve it from a custom URL instead, enter the destination below (e."
-"g., \"/support\", \"example.com\", or \"example.com/support\"). Then, follow "
-"the directions under \"Web Server Configuration\" to complete the process."
+"help. To serve it from a custom URL instead, enter the destination below "
+"(e.g., \"/support\", \"example.com\", or \"example.com/support\"). Then, "
+"follow the directions under \"Web Server Configuration\" to complete the "
+"process."
 msgstr ""
 "A tudásbázisa alapértelmezett URL címe például example.com vagy example.com/"
 "help. Ha helyette egy egyéni URL címről szeretné kiszolgálni, adja meg az "
@@ -17727,7 +17729,7 @@ msgstr ""
 "A csomagok telepítése biztonsági következményekkel jár, mivel tetszőleges "
 "kódot hajtanak végre a Zammad alkalmazás kontextusában."
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:437
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18124,7 +18126,7 @@ msgstr "A kötelező 'group_id' paraméter hiányzik."
 msgid "The required parameter 'id' is missing."
 msgstr "A kötelező 'id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:650
+#: lib/search_index_backend.rb:662
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18200,7 +18202,7 @@ msgstr "A kötelező 'ticket_number' paraméter hiányzik."
 msgid "The required parameter 'user_id' is missing."
 msgstr "A kötelező 'for_user_id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:651
+#: lib/search_index_backend.rb:663
 #, fuzzy
 #| msgid "The required parameter 'locale' is missing."
 msgid "The required parameter 'value' is missing."
@@ -19255,8 +19257,8 @@ msgstr ""
 "</div>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-"id}\" target=\"zammad_app\">Tekintse meg itt: #{config.product_name}</a>\n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+"\" target=\"zammad_app\">Tekintse meg itt: #{config.product_name}</a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:24
@@ -19615,8 +19617,8 @@ msgstr ""
 "<div>Üdvözöljük #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>A \"<b>#{ticket.customer.longname}</b>\" ügyféltől származó jegy "
-"(#{ticket.title}) eszkalálódni fog a következő időpontban: \"#{ticket."
-"escalation_at}\"!</div>\n"
+"(#{ticket.title}) eszkalálódni fog a következő időpontban: "
+"\"#{ticket.escalation_at}\"!</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
 "   <div>\n"
@@ -19628,8 +19630,8 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-"id}\" target=\"zammad_app\" >Tekintse meg itt: #{config.product_name}</a> \n"
+"   <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+"\" target=\"zammad_app\" >Tekintse meg itt: #{config.product_name}</a> \n"
 "</div>\n"
 
 #: app/frontend/apps/desktop/pages/ticket/routes.ts:35
@@ -19657,7 +19659,7 @@ msgstr "A |%s| jegy hamarosan eszkalálódik!"
 
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:9
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:9
-#: app/controllers/time_accountings_controller.rb:87
+#: app/controllers/time_accountings_controller.rb:81
 msgid "Ticket#"
 msgstr "Jegy#"
 
@@ -19665,7 +19667,7 @@ msgstr "Jegy#"
 msgid "TicketID"
 msgstr "Jegyazonosító"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:452
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:453
 #: app/assets/javascripts/app/controllers/widget/user.coffee:87
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:94
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:98
@@ -19770,7 +19772,7 @@ msgstr "Az időelszámolás nincs engedélyezve"
 #: app/assets/javascripts/app/views/time_accounting/by_customer.jst.eco:11
 #: app/assets/javascripts/app/views/time_accounting/by_organization.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:14
-#: app/controllers/time_accountings_controller.rb:111
+#: app/controllers/time_accountings_controller.rb:105
 msgid "Time Units"
 msgstr "Időegységek"
 
@@ -19830,7 +19832,7 @@ msgstr "Időzítés"
 #: app/assets/javascripts/app/views/settings/form.jst.eco:6
 #: app/assets/javascripts/app/views/time_accounting/by_activity.jst.eco:10
 #: app/assets/javascripts/app/views/time_accounting/by_ticket.jst.eco:10
-#: app/controllers/time_accountings_controller.rb:91
+#: app/controllers/time_accountings_controller.rb:85
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketSimpleTable/TicketSimpleTable.vue:38
 #: app/frontend/apps/mobile/pages/ticket/views/TicketCreate.vue:144
 #: app/graphql/gql/types/overview_type.rb:92
@@ -20592,7 +20594,7 @@ msgstr "Megosztott piszkozat alkalmazása"
 msgid "Update Time"
 msgstr "Frissítési idő"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:512
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:513
 msgid "Update as closed"
 msgstr "Frissítés, amint lezárásra került"
 
@@ -20673,7 +20675,7 @@ msgstr "Frissítve ekkor"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:41
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:124
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:41
-#: app/graphql/gql/types/overview_type.rb:114
+#: app/graphql/gql/types/overview_type.rb:115
 msgid "Updated at"
 msgstr "Frissítve ekkor"
 
@@ -20695,7 +20697,7 @@ msgstr "Frissítve ekkor"
 #: app/frontend/shared/entities/organization/stores/objectAttributes.ts:31
 #: app/frontend/shared/entities/ticket/stores/objectAttributes.ts:113
 #: app/frontend/shared/entities/user/stores/objectAttributes.ts:31
-#: app/graphql/gql/types/overview_type.rb:113
+#: app/graphql/gql/types/overview_type.rb:114
 msgid "Updated by"
 msgstr "Frissítette"
 
@@ -20784,8 +20786,8 @@ msgstr ""
 #| "</div>\n"
 #| "<br>\n"
 #| "<div>\n"
-#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket."
-#| "id}\" target=\"zammad_app\">View this in #{config.product_name}</a>\n"
+#| "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}"
+#| "\" target=\"zammad_app\">View this in #{config.product_name}</a>\n"
 #| "</div>\n"
 msgid ""
 "Updated ticket article (#{ticket.title})\n"
@@ -20817,8 +20819,8 @@ msgstr ""
 "<div>Üdvözöljük #{recipient.firstname},</div>\n"
 "<br>\n"
 "<div>\n"
-"Egy másik jegy lett egyesítve a jegybe (#{ticket.title}) \"<b>#{current_user."
-"longname}\" által.</b>\".\n"
+"Egy másik jegy lett egyesítve a jegybe (#{ticket.title}) "
+"\"<b>#{current_user.longname}\" által.</b>\".\n"
 "</div>\n"
 "<br>\n"
 "<div>\n"
@@ -20955,15 +20957,15 @@ msgstr "Listákban használt (nézet és eredmények)"
 msgid "Used in object views"
 msgstr "Elemek megtekintésekor használt"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:529
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
 msgid "Used when composing a Ticket article"
 msgstr "Jegy cikk készítésekor használatos"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:559
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
 msgid "Used when composing a text"
 msgstr "Szövegformázásra használt"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:456
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:457
 msgid "Used when viewing a Ticket"
 msgstr "Jegy megjelenítésekor használható"
 
@@ -21709,8 +21711,8 @@ msgstr "Az Ön jelenlegi konfigurációjával a következő fog történni:"
 #: app/assets/javascripts/app/views/settings/ticket_number.jst.eco:7
 msgid ""
 "With |Date| the ticket numbers will be generated by the current date, the "
-"SystemID, and the counter. The format will be \"Year.Month.Day.SystemID."
-"Counter\" (e.g. 201206231010138, 201206231010139)."
+"SystemID, and the counter. The format will be "
+"\"Year.Month.Day.SystemID.Counter\" (e.g. 201206231010138, 201206231010139)."
 msgstr ""
 "A |Date| opcióval a jegyszámok az aktuális dátum, a Rendszerazonosító és a "
 "számláló alapján lesznek generálva. A formátum \"Év.Hónap.Nap. "
@@ -22433,8 +22435,8 @@ msgstr ""
 "Sajnos a \"#{mail.subject}\" című levelét nem sikerült kézbesíteni egy vagy "
 "több címzettnek.\n"
 "\n"
-"Az Ön üzenete #{mail.msg_size} MB, de mi csak #{config."
-"postmaster_max_size_max_size} MB méretű üzeneteket fogadunk el.\n"
+"Az Ön üzenete #{mail.msg_size} MB, de mi csak "
+"#{config.postmaster_max_size_max_size} MB méretű üzeneteket fogadunk el.\n"
 "\n"
 "Kérjük, csökkentse az üzenet méretét, és próbálja meg újra. Köszönjük "
 "megértését.\n"
@@ -22714,8 +22716,8 @@ msgstr "aktuális felhasználói szervezet"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/password.ts:27
 msgid ""
-"current,new,confirm,change,current password,new password,confirm password,"
-"change password"
+"current,new,confirm,change,current password,new password,confirm "
+"password,change password"
 msgstr ""
 "jelenlegi,új,megerősítés,módosítás,jelenlegi jelszó,új jelszó,jelszó "
 "megerősítése,jelszó módosítása"
@@ -23701,8 +23703,7 @@ msgstr "az ügyfélnek elküldve"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSetting/plugins/devices.ts:24
 msgid "session,sessions,computer,computers,browser,browsers,access"
-msgstr ""
-"munkamenet,munkamenetek,számítógép,számítógépek,böngésző,böngészők,hozzáférés"
+msgstr "munkamenet,munkamenetek,számítógép,számítógépek,böngésző,böngészők,hozzáférés"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:171
 msgid "set fixed to"
@@ -24034,7 +24035,7 @@ msgstr "...objektum hivatkozás URL hozzáadása"
 msgid "…add object title"
 msgstr "...objektum címének hozzáadása"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:607
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
 msgid "…of whole text area"
 msgstr "...a teljes szövegterületből"
 
@@ -24602,8 +24603,8 @@ msgstr "Várakozási idő ma"
 #~ "Starting with Zammad 5.1, translations can be contributed exclusively via "
 #~ "\"translations.zammad.org\" %l."
 #~ msgstr ""
-#~ "A Zammad 5.1-től kezdve a fordításokhoz kizárólag a \"translations.zammad."
-#~ "org\" %l oldalon keresztül lehet hozzájárulni."
+#~ "A Zammad 5.1-től kezdve a fordításokhoz kizárólag a "
+#~ "\"translations.zammad.org\" %l oldalon keresztül lehet hozzájárulni."
 
 #~ msgid ""
 #~ "While it will be no longer possible to directly push changed translations "
@@ -24767,8 +24768,8 @@ msgstr "Várakozási idő ma"
 #~ msgstr "Szervezet jegyek"
 
 #~ msgid ""
-#~ "Article could not be created. An unsupported key other than 'article."
-#~ "note' was provided."
+#~ "Article could not be created. An unsupported key other than "
+#~ "'article.note' was provided."
 #~ msgstr ""
 #~ "A cikket nem lehetett létrehozni. Az 'article.note' kulcstól eltérő, nem "
 #~ "támogatott kulcs volt megadva."
