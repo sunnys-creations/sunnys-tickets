@@ -279,7 +279,7 @@ $(function() {
       },
       'tr': {
         'Attachments': 'Ekler',
-        'Email': 'E-Posta',
+        'Email': 'Eposta',
         'Message': 'Mesaj',
         'Name': 'Isim',
         'Your Email': 'E-posta adresiniz',

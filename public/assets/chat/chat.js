@@ -1318,7 +1318,7 @@ var bind = function(fn, me){ return function(){ return fn.apply(me, arguments); 
         'Start new conversation': '',
         'Today': 'Bugün',
         'We are sorry, it is taking longer than expected to get a slot. Please try again later or send us an email. Thank you!': 'Üzgünüz, yer bulmamız beklenenden daha uzun sürüyor. Lütfen daha sonra tekrar deneyin veya bize bir e-posta gönderin. Teşekkür ederiz!',
-        'You are on waiting list position <strong>%s</strong>.': 'Bekleme listesinde <strong>%s</strong> konumundasınız.'
+        'You are on waiting list position <strong>%s</strong>.': 'Bekleme listesindeki sıranız <strong>%s</strong>.'
       },
       'zh-cn': {
         '<strong>Chat</strong> with us!': '发起<strong>即时对话</strong>!',
