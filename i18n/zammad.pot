@@ -10827,7 +10827,7 @@ msgid "Open your authenticator app and scan the QR code below:"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:116
-#: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:91
+#: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:94
 #: db/seeds/settings.rb:2052
 msgid "OpenID Connect"
 msgstr ""
