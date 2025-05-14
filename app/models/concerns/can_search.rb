@@ -214,7 +214,7 @@ returns
       elsif params[:with_total_count].present?
         if params[:full].present?
           return {
-            objects:     object_ids.map { |id| lookup(id: id) },
+            objects:     object_ids.filter_map { |id| lookup(id: id) },
             total_count: object_count
           }
         end
@@ -224,7 +224,7 @@ returns
           total_count: object_count
         }
       elsif params[:full].present?
-        object_ids.map { |id| lookup(id: id) }
+        object_ids.filter_map { |id| lookup(id: id) }
       else
         object_ids
       end
