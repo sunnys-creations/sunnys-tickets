@@ -1685,7 +1685,7 @@ msgstr "Chat agenta"
 msgid "Agent idle timeout"
 msgstr "Prekoračenje vremena mirovanja agenta"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Limit broja agenata prekoračen, provjerite postavke računa."
 
@@ -2315,7 +2315,7 @@ msgstr ""
 "Prekoračenje vremena dodjele za nekoliko minuta ako dodijeljeni agent ne "
 "radi na tome. Ticket će biti prikazan kao nedodijeljen."
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2332,7 +2332,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Mora biti odabran barem jedan objekt."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "Barem jedan agent mora imati administratorske dozvole."
 
@@ -6742,7 +6742,7 @@ msgstr "Provjera e-poštom"
 msgid "Email address"
 msgstr "E-mail adresa"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr "E-adresa '%{email}' se već koristi kod drugog korisnika."
 
@@ -9448,7 +9448,7 @@ msgstr "Neispravan client_id u prijemnoj petlji!"
 msgid "Invalid client_id received!"
 msgstr "Zaprimljen neispravan client_id!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "neispravan e-mail '%{email}'"
 
@@ -11102,7 +11102,7 @@ msgstr "Raspoloženje"
 msgid "More information can be found here."
 msgstr "Više informacija možete pronaći ovdje."
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Nije moguće imati više od 250 sekundarnih organizacija."
 
@@ -14811,7 +14811,7 @@ msgstr "Traži…"
 msgid "Secondary organizations"
 msgstr "Sekundarne organizacije"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -22315,7 +22315,7 @@ msgstr "ima pogrešnu duljinu (treba imati %{count}znakova)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "ima pogrešnu duljinu (treba imati 1 znak)"
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr "je predugačak"
 

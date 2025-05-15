@@ -1753,7 +1753,7 @@ msgstr "Jméno řešitele"
 msgid "Agent idle timeout"
 msgstr "Časový limit neaktivity řešitele"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Počet řešitelů překročen, prosím zkontrolujte nastavení svého účtu."
 
@@ -2404,7 +2404,7 @@ msgstr ""
 "Lhůta pro zrušení přiřazení aktuálního řešitele, pokud na ticketu nepracuje. "
 "Ticket bude po uplynutí této doby zobrazen jako nepřiřazený."
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2424,7 +2424,7 @@ msgstr "Je vyžadováno nejméně jedno pravidlo shody, ale žádné nebylo zad�
 msgid "At least one object must be selected."
 msgstr "Musí být zvolen nejméně jeden objekt."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "Nejméně jeden uživatel musí mít oprávnění správce."
 
@@ -7100,7 +7100,7 @@ msgstr "E-mailové oznámení"
 msgid "Email address"
 msgstr "Emailová Adresa"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr "E-mailovou adresu '%{email}' již používá jiný uživatel."
 
@@ -9945,7 +9945,7 @@ msgstr "Neplatné ID klienta v přijímacím cyklu!"
 msgid "Invalid client_id received!"
 msgstr "Obdrženo neplatné ID klienta!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "E-mail '%{email}' není správný"
 
@@ -11765,7 +11765,7 @@ msgstr "Nálada"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Více než 250 sekundárních organizací není povoleno."
 
@@ -15789,7 +15789,7 @@ msgstr "Vyhledat…"
 msgid "Secondary organizations"
 msgstr "Sekundární organizace"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -23828,7 +23828,7 @@ msgstr "nemá správnou délku (mělo by být %{count} znaků)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "nemá správnou délku (měl by být 1 znak)"
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr "je příliš dlouhý"
 

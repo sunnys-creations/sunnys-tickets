@@ -1714,7 +1714,7 @@ msgstr "Агентский чат"
 msgid "Agent idle timeout"
 msgstr "Тайм-аут простоя агента"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Превышен лимит агентов, проверьте настройки учётной записи."
 
@@ -2336,7 +2336,7 @@ msgstr ""
 "Время ожидания назначения в минутах, если назначенный агент не работает над "
 "заявкой. Заявка будет отображаться как «не назначенная»."
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2353,7 +2353,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Должен быть выбран хотя бы один объект."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "По крайней мере, один пользователь должен иметь права администратора."
 
@@ -6793,7 +6793,7 @@ msgstr "Проверка электронной почты"
 msgid "Email address"
 msgstr "Адрес электронной почты"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "Адрес электронной почты '%{email}' уже используется другим пользователем."
@@ -9526,7 +9526,7 @@ msgstr "Неверный идентификатор клиента (client_id) �
 msgid "Invalid client_id received!"
 msgstr "Получен неверный идентификатор клиента (client_id)!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "Неверно указан email '%{email}'"
 
@@ -11140,7 +11140,7 @@ msgstr "Настроение"
 msgid "More information can be found here."
 msgstr "Более подробную информацию можно найти здесь."
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Не допускается наличие более 250 вторичных организаций."
 
@@ -14813,7 +14813,7 @@ msgstr "Поиск…"
 msgid "Secondary organizations"
 msgstr "Вторичные организации"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -22332,7 +22332,7 @@ msgstr "неправильная длина (должно быть %{count} си
 msgid "is the wrong length (should be 1 character)"
 msgstr "неправильная длина (должен быть 1 символ)"
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr "слишком длинный"
 

@@ -1785,7 +1785,7 @@ msgstr "ชื่อเจ้าหน้าที่"
 msgid "Agent idle timeout"
 msgstr "ระยะหมดเวลาของ เจ้าหน้าที่"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "เกินขีดจำกัดเจ้าหน้าที่ โปรดตรวจสอบการตั้งค่าบัญชีของคุณ"
 
@@ -2442,7 +2442,7 @@ msgstr ""
 "หมดเวลาการมอบหมายเป็นนาทีหากตัวแทนที่ได้รับมอบหมายไม่ทำงาน Ticket จะแสดงเป็น "
 "ไม่ได้รับมอบหมาย"
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2460,7 +2460,7 @@ msgstr "ต้องมีกฎการจับคู่อย่างน้
 msgid "At least one object must be selected."
 msgstr "ต้องเลือกวัตถุอย่างน้อยหนึ่งรายการ"
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "ผู้ใช้อย่างน้อยหนึ่งรายต้องมีสิทธิ์ของผู้ดูแลระบบ."
 
@@ -7023,7 +7023,7 @@ msgstr "การแจ้งเตือนทางอีเมล"
 msgid "Email address"
 msgstr "ที่อยู่อีเมล"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -9805,7 +9805,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -11602,7 +11602,7 @@ msgstr "อารมณ์"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "ไม่อนุญาตให้มีองค์กรรองมากกว่า 250 แห่ง"
 
@@ -15588,7 +15588,7 @@ msgstr ""
 msgid "Secondary organizations"
 msgstr "องค์กรที่ 2"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 #, fuzzy
 #| msgid ""
 #| "Secondary organizations are only allowed when the primary organization is "
@@ -23486,7 +23486,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr ""
 

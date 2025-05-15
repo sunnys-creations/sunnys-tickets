@@ -1684,7 +1684,7 @@ msgstr "Agent chat"
 msgid "Agent idle timeout"
 msgstr "Agent inaktiv timeout"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Agentgrænse overskredet, se venligst dine kontoindstillinger."
 
@@ -2295,7 +2295,7 @@ msgstr ""
 "Tildeling af timeout i minutter, hvis den tildelte agent ikke arbejder på "
 "den. Sag vil blive vist som uautoriseret."
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2311,7 +2311,7 @@ msgstr "Der kræves mindst en match regel, men ingen blev angivet."
 msgid "At least one object must be selected."
 msgstr "Mindst et objekt skal være valgt."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "Mindst en bruger skal have admin rettigheder."
 
@@ -6644,7 +6644,7 @@ msgstr "Mail Notifikation"
 msgid "Email address"
 msgstr "Email adresse"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr "E-mailadressen '%{email}' er allerede brugt af en anden bruger."
 
@@ -9352,7 +9352,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr "Ugyldig client_id modtaget!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "Ugyldig e-mail '%{email}'"
 
@@ -11074,7 +11074,7 @@ msgstr "Humør"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Mere end 250 sekundære organisationer er ikke tilladt."
 
@@ -14969,7 +14969,7 @@ msgstr "Søg…"
 msgid "Secondary organizations"
 msgstr "Sekundære organisationer"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -22750,7 +22750,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr ""
 

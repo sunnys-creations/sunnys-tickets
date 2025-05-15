@@ -1716,7 +1716,7 @@ msgstr "Chat agent"
 msgid "Agent idle timeout"
 msgstr "Timpul de inactivitate al agentului"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
 "Limita de agenți a fost depășită, te rugăm să verifici setările contului tău."
@@ -2350,7 +2350,7 @@ msgstr ""
 "Timp de expirare pentru atribuire în minute dacă agentul atribuit nu "
 "lucrează la el. Tichetul va fi afișat ca neatribuit."
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2368,7 +2368,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Este necesar să selectați cel puțin un obiect."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 "Este necesar ca cel puțin un utilizator să aibă drepturi de administrator."
@@ -6920,7 +6920,7 @@ msgstr "Verificare e-mail"
 msgid "Email address"
 msgstr "Adresa de e-mail"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "Adresa de e-mail '%{email}' este deja folosită pentru un alt utilizator."
@@ -9710,7 +9710,7 @@ msgstr "client_id invalid în bucla de primire!"
 msgid "Invalid client_id received!"
 msgstr "client_id invalid primit!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "E-mail invalid '%{email}'"
 
@@ -11468,7 +11468,7 @@ msgstr "Dispoziție"
 msgid "More information can be found here."
 msgstr "Mai multe informații pot fi găsite aici."
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "Nu sunt permise mai mult de 250 de organizații secundare."
 
@@ -15347,7 +15347,7 @@ msgstr "Căutare…"
 msgid "Secondary organizations"
 msgstr "Organizații secundare"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -23138,7 +23138,7 @@ msgstr "are lungimea incorectă (trebuie să fie de %{count} caractere)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "are lungimea incorectă (trebuie să fie de un caracter)"
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr "este prea lung"
 

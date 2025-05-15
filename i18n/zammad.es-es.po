@@ -1706,7 +1706,7 @@ msgstr "Chat de agente"
 msgid "Agent idle timeout"
 msgstr "Tiempo de espera inactivo del agente"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Límite de agentes excedidos, revisa las configuraciones de cuenta."
 
@@ -2339,7 +2339,7 @@ msgstr ""
 "Tiempo de espera de la tarea en minutos, si el agente asignado no está "
 "trabajando en ella. El caso pasará a mostrarse \"no asignado\"."
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2355,7 +2355,7 @@ msgstr "Al menos se requiere una regla que coincida, pero no hay ninguna."
 msgid "At least one object must be selected."
 msgstr "Al menos se debe seleccionar un objeto."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "Al menos un usuario debe tener privilegios de administrador."
 
@@ -6832,7 +6832,7 @@ msgstr "Verificación del correo electrónico"
 msgid "Email address"
 msgstr "Dirección de correo electrónico"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "La dirección de correo '%{email}' ya está siendo utilizada por otro usuario."
@@ -9575,7 +9575,7 @@ msgstr "¡client_id no válido en la función de recepción!"
 msgid "Invalid client_id received!"
 msgstr "¡Recibido client_id no válido!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "Correo inválido '%{email}'"
 
@@ -11206,7 +11206,7 @@ msgstr "Animo"
 msgid "More information can be found here."
 msgstr "Aquí encontrará más información."
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "No se permiten más de 250 organizaciones secundarias."
 
@@ -14929,7 +14929,7 @@ msgstr "Buscar…"
 msgid "Secondary organizations"
 msgstr "Organizaciones secundarias"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -22499,7 +22499,7 @@ msgstr "tiene una longitud incorrecta (debería ser %{count} caracteres)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "tiene una longitud incorrecta (debería ser de un carácter)"
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr "es demasiado largo"
 

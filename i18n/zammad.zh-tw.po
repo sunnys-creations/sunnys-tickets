@@ -1987,7 +1987,7 @@ msgstr "客服人員"
 msgid "Agent idle timeout"
 msgstr ""
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "超出客服人員的限制權限，請檢查您的帳號設置。"
 
@@ -2641,7 +2641,7 @@ msgstr ""
 "如果被指派的客服人員不在工作崗位上直到指派逾時 (以分鐘為單位)，工單將顯示為未"
 "指派。"
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
@@ -2655,7 +2655,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr ""
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr ""
 
@@ -7330,7 +7330,7 @@ msgstr "電子郵件通知"
 msgid "Email address"
 msgstr "電子郵件地址"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 
@@ -10235,7 +10235,7 @@ msgstr ""
 msgid "Invalid client_id received!"
 msgstr ""
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr ""
 
@@ -12058,7 +12058,7 @@ msgstr "心情"
 msgid "More information can be found here."
 msgstr ""
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 msgid "More than 250 secondary organizations are not allowed."
 msgstr ""
 
@@ -16218,7 +16218,7 @@ msgstr "搜尋…"
 msgid "Secondary organizations"
 msgstr "共享的機構"
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -21953,8 +21953,8 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "<%= @objects[:article].preferences.dig('whatsapp', 'reaction', 'author') %> "
-"對 #{article.created_by.fullname} 的訊息回應了一個 <%= @objects[:article]"
-".preferences.dig('whatsapp', 'reaction', 'emoji') %>：\n"
+"對 #{article.created_by.fullname} 的訊息回應了一個 <%= "
+"@objects[:article].preferences.dig('whatsapp', 'reaction', 'emoji') %>：\n"
 "</div>\n"
 "<br>\n"
 "<% if @objects[:article] %>\n"
@@ -21966,9 +21966,9 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}/#{article.id}\" target=\"zammad_app\">在 #{config.product_name} "
-"中檢視這則訊息</a>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">在 #{config.product_name} 中檢視這則訊"
+"息</a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
@@ -24405,7 +24405,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr ""
 

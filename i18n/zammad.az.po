@@ -1620,7 +1620,7 @@ msgstr "Agent Adı"
 msgid "Agent idle timeout"
 msgstr "Agentin fasilə müddəti"
 
-#: app/models/role.rb:156 app/models/user.rb:727
+#: app/models/role.rb:156 app/models/user.rb:736
 msgid "Agent limit exceeded, please check your account settings."
 msgstr "Agentin limiti aşıldı, zəhmət olmasa hesabınızın ayarlarını yoxlayın."
 
@@ -2254,7 +2254,7 @@ msgid ""
 "will be shown as unassigend."
 msgstr ""
 
-#: app/models/user.rb:630
+#: app/models/user.rb:639
 #, fuzzy
 #| msgid ""
 #| "At least one identifier (firstname, lastname, phone or email) for user is "
@@ -2275,7 +2275,7 @@ msgstr ""
 msgid "At least one object must be selected."
 msgstr "Ən azı bir obyekt seçilməlidir."
 
-#: app/models/role.rb:128 app/models/user.rb:701
+#: app/models/role.rb:128 app/models/user.rb:710
 msgid "At least one user needs to have admin permissions."
 msgstr "Ən azı bir istifadəçinin administrator hüquqları olmalıdır."
 
@@ -6910,7 +6910,7 @@ msgstr "E-poçt yoxlanışı"
 msgid "Email address"
 msgstr "E-poçt ünvanı"
 
-#: app/models/user.rb:640
+#: app/models/user.rb:649
 msgid "Email address '%{email}' is already used for another user."
 msgstr ""
 "%{email}' elektron poçt ünvanı artıq digər istifadəçi tərəfindən istifadə "
@@ -9768,7 +9768,7 @@ msgstr "Qəbul dövrəsində yanlış client_id!"
 msgid "Invalid client_id received!"
 msgstr "Yanlış client_id qəbul edildi!"
 
-#: app/models/user.rb:585
+#: app/models/user.rb:594
 msgid "Invalid email '%{email}'"
 msgstr "Yanlış email '%{email}'"
 
@@ -11557,7 +11557,7 @@ msgstr "Əhval"
 msgid "More information can be found here."
 msgstr "Daha çox məlumatı burada tapa bilərsiniz."
 
-#: app/models/user.rb:653
+#: app/models/user.rb:662
 #, fuzzy
 msgid "More than 250 secondary organizations are not allowed."
 msgstr "250-dən çox kiçik təşkilata icazə verilmir."
@@ -15460,7 +15460,7 @@ msgstr ""
 msgid "Secondary organizations"
 msgstr ""
 
-#: app/models/user.rb:647
+#: app/models/user.rb:656
 msgid ""
 "Secondary organizations are only allowed when the primary organization is "
 "given."
@@ -22639,7 +22639,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:851
+#: app/models/user.rb:860
 msgid "is too long"
 msgstr ""
 
