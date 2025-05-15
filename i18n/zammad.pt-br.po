@@ -2736,7 +2736,7 @@ msgid "Base Objects"
 msgstr "Objetos Base"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:736
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:10
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:11
 msgid "Basic Authentication"
 msgstr "Autenticação Básica"
 
@@ -3165,7 +3165,7 @@ msgstr "Certificados e Chaves Privadas"
 
 #: app/assets/javascripts/app/models/group.coffee:46
 #: app/assets/javascripts/app/views/generic/login_preview.jst.eco:26
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:99
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:102
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:101
 #: app/frontend/apps/desktop/components/Form/fields/FieldGroupPermissions/FieldGroupPermissionsInput.vue:48
 msgid "Change"
@@ -3774,7 +3774,7 @@ msgid "Configuration of performance settings via environment variables."
 msgstr ""
 "Configuração das definições de performance através de variáveis de ambiente."
 
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:22
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:25
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:6
 msgid "Configure"
 msgstr "Configuração"
@@ -7107,7 +7107,7 @@ msgstr "Criptografia:"
 #: app/assets/javascripts/app/models/webhook.coffee:7
 #: app/assets/javascripts/app/views/integration/check_mk.jst.eco:16
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:3
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:39
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:42
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:23
 #: app/assets/javascripts/app/views/integration/github.jst.eco:12
 #: app/assets/javascripts/app/views/integration/gitlab.jst.eco:15
@@ -7494,7 +7494,7 @@ msgid "Excepted users"
 msgstr "Usuários com exceção"
 
 #: app/assets/javascripts/app/controllers/_integration/exchange.coffee:3
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:21
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:24
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:8
 msgid "Exchange"
 msgstr "Exchange"
@@ -7863,7 +7863,7 @@ msgstr "Design flat"
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:305
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:482
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:86
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:59
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:62
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundForm.ts:174
 msgid "Folder"
 msgstr "Pasta"
@@ -7872,7 +7872,7 @@ msgstr "Pasta"
 msgid "Folder:"
 msgstr "Pasta:"
 
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:59
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:62
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:80
 msgid "Folders"
 msgstr "Pastas"
@@ -9025,7 +9025,7 @@ msgid "Image file"
 msgstr "Arquivo de imagem"
 
 #: app/assets/javascripts/app/controllers/_ui_element/richtext_additions/popup_image.coffee:18
-#: app/assets/javascripts/app/lib/app_post/image_service.coffee:95
+#: app/assets/javascripts/app/lib/app_post/image_service.coffee:134
 #: app/assets/javascripts/app/lib/base/jquery.contenteditable.js:360
 msgid "Image file size is too large, please try inserting a smaller file."
 msgstr ""
@@ -10652,7 +10652,7 @@ msgstr ""
 "OTRS."
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:22
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:57
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:60
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:128
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:58
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:163
@@ -11209,7 +11209,7 @@ msgstr "Integração do Nagios"
 #: app/assets/javascripts/app/models/user_overview_sorting_overview.coffee:4
 #: app/assets/javascripts/app/models/webhook.coffee:6
 #: app/assets/javascripts/app/views/channel/topics.jst.eco:5
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:34
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:37
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:18
 #: app/assets/javascripts/app/views/integration/github.jst.eco:7
 #: app/assets/javascripts/app/views/integration/gitlab.jst.eco:10
@@ -11601,7 +11601,7 @@ msgstr "Próximo ano"
 msgid "No"
 msgstr "Não"
 
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:21
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:24
 msgid "No %s configured."
 msgstr "Sem %s configurado."
 
@@ -11612,7 +11612,7 @@ msgstr "Sem %s configurado."
 #: app/assets/javascripts/app/views/generic/admin/empty.jst.eco:5
 #: app/assets/javascripts/app/views/generic/calender_preview.jst.eco:49
 #: app/assets/javascripts/app/views/google/list.jst.eco:36
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:62
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:65
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:63
 #: app/assets/javascripts/app/views/integration/pgp_group.jst.eco:12
 #: app/assets/javascripts/app/views/integration/pgp_list.jst.eco:6
@@ -12134,7 +12134,7 @@ msgstr "Novembro"
 msgid "Number"
 msgstr "Número"
 
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:11
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:12
 msgid "OAuth"
 msgstr "OAuth"
 
@@ -12441,7 +12441,7 @@ msgid "Open your authenticator app and scan the QR code below:"
 msgstr "Abra o seu aplicativo de autenticação e escaneie o código QR abaixo:"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:116
-#: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:91
+#: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:94
 #: db/seeds/settings.rb:2052
 msgid "OpenID Connect"
 msgstr "OpenID Connect"
@@ -12837,7 +12837,7 @@ msgstr "Grupo pai"
 #: app/assets/javascripts/app/views/generic/login_preview.jst.eco:38
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:19
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:46
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:46
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:49
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:42
 #: app/assets/javascripts/app/views/login.jst.eco:35
 #: app/frontend/apps/desktop/composables/authentication/useSignupForm.ts:43
@@ -14415,7 +14415,7 @@ msgstr "Certificados SSL"
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:84
 #: app/assets/javascripts/app/controllers/getting_started/email_notification.coffee:73
 #: app/assets/javascripts/app/models/webhook.coffee:9
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:51
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:54
 #: app/assets/javascripts/app/views/integration/gitlab.jst.eco:21
 #: app/assets/javascripts/app/views/integration/idoit.jst.eco:24
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:31
@@ -15244,7 +15244,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/time_accounting.coffee:18
 #: app/assets/javascripts/app/views/channel/form.jst.eco:13
 #: app/assets/javascripts/app/views/customer_chat/index.jst.eco:8
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:25
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:28
 #: app/assets/javascripts/app/views/integration/github.jst.eco:2
 #: app/assets/javascripts/app/views/integration/gitlab.jst.eco:2
 #: app/assets/javascripts/app/views/integration/idoit.jst.eco:2
@@ -19328,7 +19328,7 @@ msgstr "Transforme chat em um Ticket"
 #: app/assets/javascripts/app/views/channel/email_notification_wizard.jst.eco:48
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:71
 #: app/assets/javascripts/app/views/getting_started/email_notification.jst.eco:10
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:28
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:31
 #: app/assets/javascripts/app/views/integration/gitlab.jst.eco:5
 #: app/assets/javascripts/app/views/integration/idoit.jst.eco:5
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:13
@@ -20076,7 +20076,7 @@ msgstr "Usado ao visualizar um chamado"
 #: app/assets/javascripts/app/models/mention.coffee:6
 #: app/assets/javascripts/app/models/user_overview_sorting.coffee:2
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:67
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:43
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:46
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:38
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:47
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:169
@@ -20301,7 +20301,7 @@ msgstr "Falha na validação: %{erros}"
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:933
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:8
 #: app/assets/javascripts/app/views/integration/cti.jst.eco:86
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:35
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:38
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:19
 #: app/assets/javascripts/app/views/integration/github.jst.eco:8
 #: app/assets/javascripts/app/views/integration/gitlab.jst.eco:11
@@ -21366,7 +21366,7 @@ msgstr ""
 "contate o administrador."
 
 #: app/assets/javascripts/app/views/integration/clearbit.jst.eco:31
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:88
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:91
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:70
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:128
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:112
@@ -22416,7 +22416,7 @@ msgstr "novo & abrir"
 #: app/assets/javascripts/app/controllers/_ui_element/boolean.coffee:10
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:23
 #: app/assets/javascripts/app/models/public_link.coffee:10
-#: app/assets/javascripts/app/views/integration/exchange.jst.eco:52
+#: app/assets/javascripts/app/views/integration/exchange.jst.eco:55
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:32
 #: app/assets/javascripts/app/views/object_manager/attribute/boolean.jst.eco:22
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:49
