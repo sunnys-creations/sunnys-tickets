@@ -3063,7 +3063,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3147,7 +3147,7 @@ msgstr "Externe Datenquelle %s kann nicht verarbeitet werden. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "Online-Benachrichtigungen können nicht als gelesen markiert werden"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "Hochladen von Datei fehlgeschlagen"
 
@@ -7818,7 +7818,7 @@ msgstr "Datei '%s' wird hochgeladen"
 msgid "File format is not allowed: %s"
 msgstr "Das Dateiformat ist nicht zulässig: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -12365,7 +12365,7 @@ msgstr "Online-Dienst"
 msgid "Only %s attachment allowed"
 msgstr "Nur %s Anhang erlaubt"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "Nur %s Anhang erlaubt."
 
@@ -13226,7 +13226,7 @@ msgstr ""
 "Bitte aktivieren Sie die Funktion execution_time, um sie zu verwenden "
 "(derzeit nur für Trigger und Scheduler zulässig)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Geben Sie einen Text ein."
 
@@ -16437,7 +16437,7 @@ msgstr "Textfeld"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Text fehlt"
 
@@ -16977,7 +16977,7 @@ msgstr "Der Eintrag konnte nicht erstellt werden."
 msgid "The file could not be retrieved from the bot."
 msgstr "Die Datei konnte nicht vom Bot abgerufen werden."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Die Datei konnte nicht hochgeladen werden."
 
@@ -16985,7 +16985,7 @@ msgstr "Die Datei konnte nicht hochgeladen werden."
 msgid "The file does not belong to the specified article."
 msgstr "Die Datei gehört nicht zu dem angegebenen Artikel."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "Der Dateityp %s ist nicht erlaubt."
@@ -20105,10 +20105,6 @@ msgstr "Hochladen"
 msgid "Upload Certificate"
 msgstr "Zertifikat hochladen"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "Hochladen fehlgeschlagen"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Privaten Schlüssel hochladen"
@@ -21367,7 +21363,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Sie haben das Tabellenlimit von %s Tickets erreicht (%s verbleibend)."
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -23180,6 +23176,9 @@ msgstr "…des gesamten Textfelds"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Wartezeit heute"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Hochladen fehlgeschlagen"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr ""

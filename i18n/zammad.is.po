@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-14 22:00+0000\n"
+"PO-Revision-Date: 2025-05-19 08:00+0000\n"
 "Last-Translator: sigurbjartur <github@sigurbjartur.com>\n"
 "Language-Team: Icelandic <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/is/>\n"
@@ -1578,10 +1578,8 @@ msgstr ""
 "sendar á netfangið þitt."
 
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar/LeftSidebar/MenuContainer/AdminMenu/plugins/setting.ts:8
-#, fuzzy
-#| msgid "Administrator Account"
 msgid "Administration"
-msgstr "Kerfisstjóraaðgangur"
+msgstr "Kerfisumsjón"
 
 #. This is the template file app/views/mailer/admin_password_auth/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -1668,10 +1666,9 @@ msgid "Agent idle timeout"
 msgstr ""
 
 #: app/models/role.rb:156 app/models/user.rb:736
-#, fuzzy
 msgid "Agent limit exceeded, please check your account settings."
 msgstr ""
-"Fjöldatakmarki þjónustufulltrúa náð, athugaðu reikningsstillingar þínar."
+"Hámarksfjölda þjónustufulltrúa náð, athugaðu reikningsstillingar þínar."
 
 #: db/seeds/permissions.rb:335
 msgid "Agent phone"
@@ -1724,12 +1721,11 @@ msgid "All colleagues are busy."
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingDevices.vue:138
-#, fuzzy
-#| msgid ""
-#| "All computers and browsers that have access to your Zammad appear here."
 msgid ""
 "All computers and browsers from which you logged in to Zammad appear here."
-msgstr "Allar tölvur og vafrar sem hafa aðgang að Zammad birtast hér."
+msgstr ""
+"Allar tölvur og vafrar sem þú hefur notað til að skrá þig inn í Zammad "
+"birtast hér."
 
 #: app/assets/javascripts/app/views/profile/devices.jst.eco:7
 msgid "All computers and browsers that have access to your Zammad appear here."
@@ -1832,10 +1828,8 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_integration/icinga.coffee:26
 #: app/assets/javascripts/app/controllers/_integration/monit.coffee:26
 #: app/assets/javascripts/app/controllers/_integration/nagios.coffee:26
-#, fuzzy
-#| msgid "An open source monitoring tool."
 msgid "An open-source monitoring tool."
-msgstr "Eftirlitstól byggt á opnum hugbúnaði."
+msgstr "Vakthugbúnaður byggður á opnum hugbúnaði."
 
 #: app/frontend/shared/components/Form/utils.ts:23
 msgid "An unexpected error has occurred."
@@ -1892,20 +1886,16 @@ msgid "Answers"
 msgstr "Svör"
 
 #: app/assets/javascripts/app/views/knowledge_base/_reader_list_item.jst.eco:6
-#, fuzzy
-#| msgid "Answers"
 msgid "Answers: %s"
-msgstr "Svör"
+msgstr "Svör: %s"
 
 #: app/assets/javascripts/app/lib/app_post/iconset_picker.coffee:9
 msgid "Anticon"
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:22
-#, fuzzy
-#| msgid "Any Recipient"
 msgid "Any recipient"
-msgstr "Allir viðtakendur"
+msgstr "Hvaða viðtakandi sem er"
 
 #: lib/whatsapp/webhook/concerns/handles_error.rb:49
 msgid ""
@@ -3013,7 +3003,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3099,7 +3089,7 @@ msgstr ""
 msgid "Cannot set online notifications as seen"
 msgstr "Sýsla með stillingar fyrir tilkynningarnar mínar"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr ""
 
@@ -7711,7 +7701,7 @@ msgstr ""
 msgid "File format is not allowed: %s"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -12445,7 +12435,7 @@ msgstr ""
 msgid "Only %s attachment allowed"
 msgstr "Viðhengdar skrár"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr ""
 
@@ -13372,7 +13362,7 @@ msgid ""
 "triggers and schedulers)"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr ""
 
@@ -16773,7 +16763,7 @@ msgstr "Innsláttarreitur"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Texta vantar"
 
@@ -17311,7 +17301,7 @@ msgstr ""
 msgid "The file could not be retrieved from the bot."
 msgstr ""
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Ekki tókst að hlaða skrána upp."
 
@@ -17319,7 +17309,7 @@ msgstr "Ekki tókst að hlaða skrána upp."
 msgid "The file does not belong to the specified article."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "Skráagerð %s er ekki leyfð."
@@ -20342,10 +20332,6 @@ msgstr "Hlaða upp"
 msgid "Upload Certificate"
 msgstr ""
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr ""
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr ""
@@ -21567,7 +21553,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 #, fuzzy
 #| msgid ""
 #| "You use %s in text but no attachment is attached. Do you want to continue?"

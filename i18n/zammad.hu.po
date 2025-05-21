@@ -3126,7 +3126,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3211,7 +3211,7 @@ msgstr "Nem lehet feldolgozni a külső adatforrást %s. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "Az online értesítéseket a látottak szerint nem lehet beállítani"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "Nem lehet fájlt feltölteni"
 
@@ -8047,7 +8047,7 @@ msgstr "A következő fájl feltöltése folyamatban van: '%s'"
 msgid "File format is not allowed: %s"
 msgstr "A fájlformátum nem megengedett: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 #, fuzzy
@@ -12809,7 +12809,7 @@ msgstr "Online szolgáltatás"
 msgid "Only %s attachment allowed"
 msgstr "Csak %s melléklet engedélyezett"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "Csak %s melléklet engedélyezett."
 
@@ -13713,7 +13713,7 @@ msgstr ""
 "Kérjük, engedélyezze az execution_time funkciót a használatához (jelenleg "
 "csak eseményindítók és ütemezők esetében engedélyezett)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Kérjük, írjon be egy szöveget."
 
@@ -16992,7 +16992,7 @@ msgstr "Szövegmező"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Hiányzó szöveg"
 
@@ -17586,7 +17586,7 @@ msgstr "A bejegyzést nem sikerült létrehozni."
 msgid "The file could not be retrieved from the bot."
 msgstr "A fájlt nem sikerült lekérni a bottól."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "A fájlt nem sikerült feltölteni."
 
@@ -17594,7 +17594,7 @@ msgstr "A fájlt nem sikerült feltölteni."
 msgid "The file does not belong to the specified article."
 msgstr "A fájl nem tartozik a megadott cikkhez."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "%s fájltípus nem engedélyezett."
@@ -20855,10 +20855,6 @@ msgstr "Feltöltés"
 msgid "Upload Certificate"
 msgstr "Tanúsítvány feltöltése"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "A feltöltés nem sikerült"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Privát kulcs feltöltése"
@@ -22142,7 +22138,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "A %s megjeleníthető jegyek száma elérte a limitet (%s fennmaradó)"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -24042,6 +24038,9 @@ msgstr "...a teljes szövegterületből"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "Várakozási idő ma"
+
+#~ msgid "Upload Failed"
+#~ msgstr "A feltöltés nem sikerült"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr ""

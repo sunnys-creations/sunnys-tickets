@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 07:01+0000\n"
-"Last-Translator: Never Min <59808@qq.com>\n"
+"PO-Revision-Date: 2025-05-21 09:26+0000\n"
+"Last-Translator: horizonxh <horizonxh@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
-"translations.zammad.org/projects/zammad/zammad-development/zh_Hans/>\n"
+"translations.zammad.org/projects/zammad/zammad-stable/zh_Hans/>\n"
 "Language: zh-cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -2982,7 +2982,7 @@ msgstr "无法更新密码，您输入的密码错误。请再试一次。"
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3064,7 +3064,7 @@ msgstr "无法处理外部数据源%s. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "无法设置在线通知，如图所示"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "无法上传文件"
 
@@ -7534,7 +7534,7 @@ msgstr "文件“％s”正在上传"
 msgid "File format is not allowed: %s"
 msgstr "不允许文件格式：％s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -12340,7 +12340,7 @@ msgstr "在线服务"
 msgid "Only %s attachment allowed"
 msgstr "附件"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "仅允许％s附件。"
 
@@ -13250,7 +13250,7 @@ msgid ""
 "triggers and schedulers)"
 msgstr "请启用execution_time功能可以使用它（目前仅适用于触发器和调度程序）"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "请输入文字。"
 
@@ -15889,16 +15889,12 @@ msgid "Sorry, there is currently no CTI backend enabled."
 msgstr "抱歉，目前没有启用 CTI 后端。"
 
 #: app/frontend/apps/desktop/components/CommonTable/CommonAdvancedTable.vue:515
-#, fuzzy
-#| msgid "pending"
 msgid "Sorted ascending"
-msgstr "待處理"
+msgstr "升序排列"
 
 #: app/frontend/apps/desktop/components/CommonTable/CommonAdvancedTable.vue:516
-#, fuzzy
-#| msgid "pending"
 msgid "Sorted descending"
-msgstr "待處理"
+msgstr "降序排列"
 
 #: app/assets/javascripts/app/controllers/ticket_overview/settings.coffee:40
 #: app/assets/javascripts/app/models/overview.coffee:23
@@ -16517,7 +16513,7 @@ msgstr "文本域"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "文字遺失"
 
@@ -17027,7 +17023,7 @@ msgstr "无法创建条目。"
 msgid "The file could not be retrieved from the bot."
 msgstr "该文件无法从机器人中检索。"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "文件无法上传。"
 
@@ -17035,7 +17031,7 @@ msgstr "文件无法上传。"
 msgid "The file does not belong to the specified article."
 msgstr "该文件不属于指定的文章。"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "不允许使用文件类型 %s。"
@@ -20462,10 +20458,6 @@ msgstr "上传"
 msgid "Upload Certificate"
 msgstr "上传证书"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "上传失败"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "上传私钥"
@@ -21791,7 +21783,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "达到了百分比可显示票的限额（剩余％S）"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 #, fuzzy
 #| msgid ""
 #| "You use %s in text but no attachment is attached. Do you want to continue?"
@@ -22181,10 +22173,8 @@ msgstr "存档"
 #: app/assets/javascripts/app/controllers/ticket_overview/settings.coffee:55
 #: app/assets/javascripts/app/models/overview.coffee:37
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketOrderBySelector.vue:37
-#, fuzzy
-#| msgid "pending"
 msgid "ascending"
-msgstr "待處理"
+msgstr "升序"
 
 #: app/assets/javascripts/app/views/ticket_overview/batch_overlay.jst.eco:11
 msgid "assign tickets"
@@ -22438,10 +22428,8 @@ msgstr "删除客户"
 #: app/assets/javascripts/app/controllers/ticket_overview/settings.coffee:56
 #: app/assets/javascripts/app/models/overview.coffee:38
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketOrderBySelector.vue:38
-#, fuzzy
-#| msgid "pending"
 msgid "descending"
-msgstr "待處理"
+msgstr "降序"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:130
 #, fuzzy
@@ -23799,6 +23787,9 @@ msgstr "...整个文本区域"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅轮候时间"
+
+#~ msgid "Upload Failed"
+#~ msgstr "上传失败"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr "无法向“%s”发送电子邮件。请联系管理员。"

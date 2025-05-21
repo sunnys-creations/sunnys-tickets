@@ -3037,7 +3037,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3121,7 +3121,7 @@ msgstr "Vanjski izvor podataka %s nije moguće obraditi. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "Nije moguće označiti obavijesti kao pročitane"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "Nije moguće prenijeti datoteku"
 
@@ -7722,7 +7722,7 @@ msgstr "Datoteka '%s' se učitava"
 msgid "File format is not allowed: %s"
 msgstr "Format datoteke nije dopušten: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -12321,7 +12321,7 @@ msgstr "Internetska usluga"
 msgid "Only %s attachment allowed"
 msgstr "Dopušten samo %s prilog"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "Samo %s prilog dopušten."
 
@@ -13189,7 +13189,7 @@ msgstr ""
 "Molimo, omogućite korištenje execution_time funkcije (trenutno je dopuštena "
 "samo za okidače i automatizacije)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Molimo, unesite tekst."
 
@@ -16411,7 +16411,7 @@ msgstr "Tekstualno polje"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Nedostaje tekst"
 
@@ -16937,7 +16937,7 @@ msgstr "Unos nije moguće dodati."
 msgid "The file could not be retrieved from the bot."
 msgstr "Nije moguće dohvatiti datoteku od bota."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Datoteku nije moguće prenijeti."
 
@@ -16945,7 +16945,7 @@ msgstr "Datoteku nije moguće prenijeti."
 msgid "The file does not belong to the specified article."
 msgstr "Datoteka ne pripada navedenom članku."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "Vrsta datoteke %s nije dopuštena."
@@ -20015,10 +20015,6 @@ msgstr "Prenesi"
 msgid "Upload Certificate"
 msgstr "Prenesi certifikat"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "Prijenos nije uspio"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Prenesi privatni ključ"
@@ -21275,7 +21271,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Dosegnuto je ograničenje od %s prikazanih ticketa (%s preostalih)"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -23095,6 +23091,9 @@ msgstr "... cijelog tekstnog polja"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ vrijeme čekanja danas"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Prijenos nije uspio"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr "Slanje maila na \"%s\" nije uspjelo. Obratite se administratoru."

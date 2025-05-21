@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-31 05:47+0000\n"
+"PO-Revision-Date: 2025-05-20 22:00+0000\n"
 "Last-Translator: chrand818 <can@telenabler.com>\n"
 "Language-Team: Swedish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/sv/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -2068,7 +2068,7 @@ msgstr "Arkivets bryttid"
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:288
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:43
 msgid "Archive emails"
-msgstr "Arkivera E-post"
+msgstr "Arkivera e-post"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:740
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:44
@@ -3018,7 +3018,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3100,7 +3100,7 @@ msgstr "Kan inte processera extern datakälla %s. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "Kunde inte sätta online-notiser som visade"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "Kan inte ladda upp fil"
 
@@ -6108,7 +6108,7 @@ msgstr "Vet du? Du kan hjälpa till med att översätta %s? :"
 
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:51
 msgid "Did you plan to include attachments with this message?"
-msgstr "Planerade du att skicka med bifogade filer med det här meddelandet?"
+msgstr "Tänkte du att skicka med bifogade filer med det här meddelandet?"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:466
 msgid ""
@@ -6116,8 +6116,8 @@ msgid ""
 "this channel and switch to using a different mailbox type. %l"
 msgstr ""
 "Har du kontrollerat att användaren har tillgång till e-postbrevlådan? Du kan "
-"också överväga att ta bort den här kanalen och byta till en annan typ av "
-"brevlåda. %l"
+"också överväga att ta bort den här kanalen och byta till en annan typ av e-"
+"postbrevlåda. %l"
 
 #: db/seeds/settings.rb:2201
 msgid "Digit required"
@@ -7686,7 +7686,7 @@ msgstr "Filen '%s' laddas upp"
 msgid "File format is not allowed: %s"
 msgstr "Filformatet är inte tillåtet: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -12187,7 +12187,7 @@ msgstr "Onlinetjänster"
 msgid "Only %s attachment allowed"
 msgstr "Endast %s bilagor är tillåtna"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "Endast %s bilagor är tillåtna."
 
@@ -13039,7 +13039,7 @@ msgstr ""
 "Aktivera funktionen execution_time för att använda den (för närvarande "
 "endast tillåtet för triggers och schemaläggare)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Vänligen ange en text."
 
@@ -16209,7 +16209,7 @@ msgstr "Textfält"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Text saknas"
 
@@ -16730,7 +16730,7 @@ msgstr "Objektet kunde inte skapas."
 msgid "The file could not be retrieved from the bot."
 msgstr "Filen kunde inte hämtas från bot."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Filen kunde inte laddas upp."
 
@@ -16738,7 +16738,7 @@ msgstr "Filen kunde inte laddas upp."
 msgid "The file does not belong to the specified article."
 msgstr "Filen tillhör inte den angivna artikeln."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "Filtypen %s är inte tillåten."
@@ -19779,10 +19779,6 @@ msgstr "Ladda upp"
 msgid "Upload Certificate"
 msgstr "Ladda upp certifikat"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "Uppladdning misslyckades"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Ladda upp privat nyckel"
@@ -21019,7 +21015,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Du har nått tabellgränsen av %s ärenden (%s kvar)."
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -22823,6 +22819,9 @@ msgstr "...av hela textfältet"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Väntetid idag"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Uppladdning misslyckades"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr ""

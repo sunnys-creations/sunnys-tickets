@@ -3156,7 +3156,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3240,7 +3240,7 @@ msgstr ""
 msgid "Cannot set online notifications as seen"
 msgstr "Nebylo možné označit online oznámení jako zobrazené"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr ""
 
@@ -8150,7 +8150,7 @@ msgstr "Soubor '%s' se nahrává"
 msgid "File format is not allowed: %s"
 msgstr "Nejsou povoleny žádné formáty souborů."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 #, fuzzy
@@ -13070,7 +13070,7 @@ msgstr "Online služba"
 msgid "Only %s attachment allowed"
 msgstr "%s přiložených souborů"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr ""
 
@@ -14007,7 +14007,7 @@ msgstr ""
 "Pro použití prosím povolte funkci execution_time (aktuálně povoleno pouze "
 "pro spouštěče a plánovače)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Zadejte prosím text."
 
@@ -17489,7 +17489,7 @@ msgstr "Textové pole"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Chybějící text"
 
@@ -18101,7 +18101,7 @@ msgstr "Položku se nepodařilo vytvořit."
 msgid "The file could not be retrieved from the bot."
 msgstr "Soubor od bota se nepodařilo načíst."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Soubor se nepodařilo nahrát."
 
@@ -18109,7 +18109,7 @@ msgstr "Soubor se nepodařilo nahrát."
 msgid "The file does not belong to the specified article."
 msgstr "Soubor nepatří k uvedenému článku."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 #, fuzzy
 #| msgid "Feature not enabled!"
@@ -21429,10 +21429,6 @@ msgstr "Nahrát"
 msgid "Upload Certificate"
 msgstr "Nahrát certifikát"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "Nahrání se nezdařilo"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Nahrát soukromý klíč"
@@ -22736,7 +22732,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Dosáhli jste limitu %s zobrazovaných ticketů (zbývá %s)"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -24648,6 +24644,9 @@ msgstr "...celé textové oblasti"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "dnešní ∅ čekací doby"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Nahrání se nezdařilo"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr ""

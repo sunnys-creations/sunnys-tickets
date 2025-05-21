@@ -3062,7 +3062,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3147,7 +3147,7 @@ msgstr "Невозможно обработать внешний источни�
 msgid "Cannot set online notifications as seen"
 msgstr "Онлайн-уведомления не могут быть помечены как прочитанные"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "Не удаётся загрузить файл"
 
@@ -7795,7 +7795,7 @@ msgstr "Файл \"%s\" загружается"
 msgid "File format is not allowed: %s"
 msgstr "Недопустимые форматы файлов: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -12341,7 +12341,7 @@ msgstr "Онлайн-служба"
 msgid "Only %s attachment allowed"
 msgstr "Разрешены только %s вложений"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "Разрешено только вложение %s."
 
@@ -13195,7 +13195,7 @@ msgstr ""
 "Пожалуйста, включите функцию execute_time, чтобы использовать ее (в "
 "настоящее время разрешено только для триггеров и планировщиков)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Пожалуйста, введите текст."
 
@@ -16396,7 +16396,7 @@ msgstr "Текстовое поле"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Текст отсутствует"
 
@@ -16927,7 +16927,7 @@ msgstr "Не удалось создать запись."
 msgid "The file could not be retrieved from the bot."
 msgstr "Не удалось получить файл от бота."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Не удалось загрузить файл."
 
@@ -16935,7 +16935,7 @@ msgstr "Не удалось загрузить файл."
 msgid "The file does not belong to the specified article."
 msgstr "Файл не относится к указанной статье."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "Тип файла %s недопустим."
@@ -20032,10 +20032,6 @@ msgstr "Загрузить"
 msgid "Upload Certificate"
 msgstr "Загрузить сертификат"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "Загрузка не удалась"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Загрузить закрытый ключ"
@@ -21294,7 +21290,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Вы достигли лимит в %s заявок (осталось %s)."
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -23107,6 +23103,9 @@ msgstr "…всей текстовой области"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ Время ожидания сегодня"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Загрузка не удалась"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr ""

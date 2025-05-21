@@ -3292,7 +3292,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3386,7 +3386,7 @@ msgstr "Cannot process external data source %s. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "Gestiona la configuració de les notificacions"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 #, fuzzy
 msgid "Cannot upload file"
 msgstr "Cannot upload file"
@@ -8520,7 +8520,7 @@ msgstr "File '%s' is uploading"
 msgid "File format is not allowed: %s"
 msgstr "File format is not allowed: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 #, fuzzy
@@ -13842,7 +13842,7 @@ msgstr "Online Service"
 msgid "Only %s attachment allowed"
 msgstr "Adjunta fitxers"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 #, fuzzy
 msgid "Only %s attachment allowed."
 msgstr "Only %s attachment allowed."
@@ -14860,7 +14860,7 @@ msgid ""
 "triggers and schedulers)"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 #, fuzzy
 msgid "Please enter a text."
 msgstr "Please enter a text."
@@ -18555,7 +18555,7 @@ msgstr "Edició de text"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Falta el text"
 
@@ -19194,7 +19194,7 @@ msgstr ""
 msgid "The file could not be retrieved from the bot."
 msgstr "The file could not be retrieved from the bot."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 #, fuzzy
 #| msgid "%s Object(s) are created."
 msgid "The file could not be uploaded."
@@ -19205,7 +19205,7 @@ msgstr "Objecte %s han sigut creats."
 msgid "The file does not belong to the specified article."
 msgstr "The file does not belong to the specified article."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 #, fuzzy
 #| msgid "Time Accounting"
@@ -22652,11 +22652,6 @@ msgstr "Pujar"
 msgid "Upload Certificate"
 msgstr "Upload Certificate"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-#, fuzzy
-msgid "Upload Failed"
-msgstr "Upload Failed"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 #, fuzzy
 msgid "Upload Private Key"
@@ -24021,7 +24016,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "The limit of %s displayable tickets was reached (%s remaining)"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 #, fuzzy
 #| msgid ""
 #| "You use %s in text but no attachment is attached. Do you want to continue?"
@@ -26145,6 +26140,10 @@ msgstr "...de tota la zona de text"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ temps d'espera avui"
+
+#, fuzzy
+#~ msgid "Upload Failed"
+#~ msgstr "Upload Failed"
 
 #, fuzzy
 #~| msgid "Failed to sent Email \"%s\". Please contact an administrator."

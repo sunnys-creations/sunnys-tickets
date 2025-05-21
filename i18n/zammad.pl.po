@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-25 06:59+0000\n"
-"Last-Translator: Mikołaj Kaczmarek <mikolaj.s.kaczmarek@outlook.com>\n"
+"PO-Revision-Date: 2025-05-20 22:00+0000\n"
+"Last-Translator: MBekspert <michal.bosak@ekspert.biz>\n"
 "Language-Team: Polish <https://translations.zammad.org/projects/zammad/"
-"zammad-development/pl/>\n"
+"zammad-stable/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -540,10 +540,8 @@ msgid "%s months ago"
 msgstr "%s miesięcy temu"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:164
-#, fuzzy
-#| msgid "show more"
 msgid "%s more"
-msgstr "pokaż więcej"
+msgstr "%s więcej"
 
 #: app/assets/javascripts/app/views/generic/object_import/imported.jst.eco:21
 msgid "%s object(s) have been created."
@@ -590,10 +588,8 @@ msgstr "%s osób"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:53
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/ticket-article.ts:31
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "%s reacted with a %s to message from %s |%s|"
-msgstr "%s zakończył(a) zmianę do |%s|!"
+msgstr "%s zareagował %s na wiadomość od %s |%s|"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:49
 msgid ""
@@ -925,6 +921,9 @@ msgid ""
 "mails, e.g. when an agent is composing an email or a trigger is sending an "
 "auto-reply"
 msgstr ""
+"Adres e-mail grupy określa, który adres powinien być używany do wysyłania "
+"wiadomości e-mail, np. gdy agent pisze wiadomość e-mail lub wyzwalacz wysyła "
+"automatyczną odpowiedź"
 
 #: db/seeds/settings.rb:4013
 msgid "A list of active import backends that gets scheduled automatically."
@@ -1145,10 +1144,8 @@ msgid "Accounted Time"
 msgstr "Czas wykonywania zadania"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketAccountedTime.vue:81
-#, fuzzy
-#| msgid "Accounted Time"
 msgid "Accounted time unit"
-msgstr "Czas wykonywania zadania (w minutach)"
+msgstr "Rozliczana jednostka czasu"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:11
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:11
@@ -1381,8 +1378,6 @@ msgid "Add Public or Private Key"
 msgstr "Dodaj klucz publiczny lub prywatny"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/web.ts:13
-#, fuzzy
-#| msgid "Add reply"
 msgid "Add Reply"
 msgstr "Dodaj odpowiedź"
 
@@ -1488,8 +1483,6 @@ msgstr "Dodaj link"
 #: app/frontend/shared/entities/ticket-article/action/plugins/telegram.ts:53
 #: app/frontend/shared/entities/ticket-article/action/plugins/twitter.ts:125
 #: app/frontend/shared/entities/ticket-article/action/plugins/whatsapp.ts:202
-#, fuzzy
-#| msgid "Add a message"
 msgid "Add message"
 msgstr "Dodaj wiadomość"
 
@@ -1533,8 +1526,6 @@ msgid "Add subclause"
 msgstr "Dodaj podpunkt"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent/TicketTags.vue:201
-#, fuzzy
-#| msgid "Add Tag"
 msgid "Add tag"
 msgstr "Dodaj tag"
 
@@ -1699,10 +1690,8 @@ msgid "Agent Name + FromSeparator + System Address Display Name"
 msgstr "Nazwa agenta + OD separator + Wyświetlana nazwa adresu systemu"
 
 #: db/seeds/permissions.rb:320
-#, fuzzy
-#| msgid "Agent Name"
 msgid "Agent chat"
-msgstr "Imię agenta"
+msgstr "Czat agenta"
 
 #: db/seeds/settings.rb:3610
 msgid "Agent idle timeout"
@@ -1810,10 +1799,8 @@ msgid "Allow past"
 msgstr "Zezwól na przeszłość"
 
 #: app/models/object_manager/attribute/data_option_validator.rb:71
-#, fuzzy
-#| msgid "at least one letter is required"
 msgid "Allow past dates toggle value is required."
-msgstr "wymagana jest co najmniej jedna litera"
+msgstr "Wymagana jest wartość przełącznika Zezwalaj na przeszłe daty."
 
 #: db/seeds/object_manager_attributes.rb:2164
 msgid "Allow reopening of tickets within a certain time."
@@ -2056,10 +2043,8 @@ msgid "Apply Shared Draft"
 msgstr "Zastosuj udostępniony szkic"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketCreate/ApplyTemplate.vue:40
-#, fuzzy
-#| msgid "Template"
 msgid "Apply Template"
-msgstr "Szablon"
+msgstr "zastosuj szablon"
 
 #: app/assets/javascripts/app/views/settings/ticket_notifications.jst.eco:10
 msgid "Apply current defaults to all agents"
@@ -2087,35 +2072,29 @@ msgstr "Archiwum"
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:109
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:84
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:69
-#, fuzzy
-#| msgid "Archived at"
 msgid "Archive Emails"
-msgstr "Zarchiwizowane w"
+msgstr "Archiwizuj e-maile"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:739
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:43
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:289
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:57
 msgid "Archive cut-off time"
-msgstr ""
+msgstr "Czas zamknięcia archiwum"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:738
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:42
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:288
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:43
-#, fuzzy
-#| msgid "Archived at"
 msgid "Archive emails"
-msgstr "Zarchiwizowane w"
+msgstr "Archiwizuj e-maile"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:740
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:44
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:290
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:66
-#, fuzzy
-#| msgid "No tickets are updated."
 msgid "Archive ticket target state"
-msgstr "Żadne zgłoszenia nie zostały zaktualizowane."
+msgstr "Stan docelowy zgłoszenia archiwalnego"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:113
 msgid "Archived"
@@ -3093,7 +3072,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:339
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:236
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:286
@@ -3179,7 +3158,7 @@ msgstr "Nie można przetworzyć zewnętrznego źródła danych %s. %s"
 msgid "Cannot set online notifications as seen"
 msgstr "Powiadomienia online nie mogą być oznaczone jako przeczytane"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:797
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
 msgstr "Nie można przesłać pliku"
 
@@ -8027,7 +8006,7 @@ msgstr "Plik '%s' jest przesyłany"
 msgid "File format is not allowed: %s"
 msgstr "Format pliku jest niedozwolony: %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:858
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:861
 #: app/frontend/shared/components/Form/fields/FieldFile/composable/useFileValidation.ts:26
 #: lib/validations/ticket_article_validator/whatsapp_message.rb:38
 msgid "File is too big. %s has to be %s or smaller."
@@ -10632,7 +10611,7 @@ msgid ""
 "email verification step?"
 msgstr ""
 "Logowanie nie powiodło się. Sprawdź wprowadzone dane oraz upewnij się, że "
-"ukończyłeś weryfikację adresu e-mail."
+"ukończono weryfikację adresu e-mail."
 
 #: lib/auth/error/two_factor_failed.rb:4
 msgid ""
@@ -12869,7 +12848,7 @@ msgstr "Serwis internetowy"
 msgid "Only %s attachment allowed"
 msgstr "Dozwolony jest tylko załącznik %s"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:823
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:826
 msgid "Only %s attachment allowed."
 msgstr "Dozwolony jest tylko załącznik %s."
 
@@ -13789,7 +13768,7 @@ msgstr ""
 "Proszę włączyć funkcję czasu wykonania, aby z niej korzystać (obecnie "
 "dozwolone tylko dla wyzwalaczy i harmonogramów)"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:345
 msgid "Please enter a text."
 msgstr "Proszę wpisać tekst."
 
@@ -17148,7 +17127,7 @@ msgstr "Pole tekstowe"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:338
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
 msgstr "Brak tekstu"
 
@@ -17689,7 +17668,7 @@ msgstr "Nie udało się utworzyć wpisu."
 msgid "The file could not be retrieved from the bot."
 msgstr "Nie udało się pobrać pliku z bota."
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:90
+#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:91
 msgid "The file could not be uploaded."
 msgstr "Plik nie mógł zostać załadowany."
 
@@ -17697,7 +17676,7 @@ msgstr "Plik nie mógł zostać załadowany."
 msgid "The file does not belong to the specified article."
 msgstr "Plik nie należy do określonego artykułu."
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:852
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:855
 #: app/frontend/shared/components/Form/fields/FieldFile/features/filesTypeError.ts:22
 msgid "The file type %s is not allowed."
 msgstr "Typ pliku %s jest niedozwolony."
@@ -20911,10 +20890,6 @@ msgstr "Wysyłanie"
 msgid "Upload Certificate"
 msgstr "Prześlij certyfikat"
 
-#: app/assets/javascripts/app/lib/app_post/html5_upload.coffee:86
-msgid "Upload Failed"
-msgstr "Przesyłanie nie powiodło się"
-
 #: app/assets/javascripts/app/views/integration/smime_private_key_add.jst.eco:7
 msgid "Upload Private Key"
 msgstr "Prześlij klucz prywatny"
@@ -22200,7 +22175,7 @@ msgid "You reached the table limit of %s tickets (%s remaining)."
 msgstr "Osiągnięto limit %s wyświetlanych zgłoszeń (pozostało %s)"
 
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:760
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:354
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:357
 msgid ""
 "You used %s in the text but no attachment could be found. Do you want to "
 "continue?"
@@ -24073,6 +24048,9 @@ msgstr "...całego pola tekstowego"
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
 msgstr "∅ dzisiejszy czas oczekiwania"
+
+#~ msgid "Upload Failed"
+#~ msgstr "Przesyłanie nie powiodło się"
 
 #~ msgid "Failed to send email to \"%s\". Please contact an administrator."
 #~ msgstr ""
