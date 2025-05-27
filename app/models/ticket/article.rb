@@ -240,13 +240,9 @@ returns:
 =end
 
   def as_raw
-    list = Store.list(
-      object: 'Ticket::Article::Mail',
-      o_id:   id,
-    )
-    return if list.blank?
-
-    list[0]
+    Store
+      .list(object: 'Ticket::Article::Mail', o_id: id)
+      .first
   end
 
 =begin
