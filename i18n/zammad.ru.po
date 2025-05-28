@@ -11913,7 +11913,7 @@ msgstr "Пока нет общих черновиков"
 
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
-#: app/controllers/ticket_articles_controller.rb:232
+#: app/controllers/ticket_articles_controller.rb:234
 #: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
@@ -15112,7 +15112,7 @@ msgstr "Отправитель последней статьи"
 msgid "Sending Email Address"
 msgstr "Адрес исходящей электронной почты"
 
-#: app/models/ticket/article.rb:312
+#: app/models/ticket/article.rb:308
 msgid "Sending an email without a valid recipient is not possible."
 msgstr ""
 "Отправка письма электронной почты без действительного получателя невозможна."
@@ -17188,7 +17188,7 @@ msgstr "Запрос на сброс пароля был выполнен усп
 msgid "The personal access token could not be deleted."
 msgstr "Не удалось удалить персональный токен доступа."
 
-#: app/controllers/ticket_articles_controller.rb:272
+#: app/controllers/ticket_articles_controller.rb:274
 msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
@@ -17524,7 +17524,7 @@ msgstr ""
 "Не удалось найти требуемое значение «внешние_учетные_данные» "
 "(external_credential) в кеше."
 
-#: app/controllers/ticket_articles_controller.rb:263
+#: app/controllers/ticket_articles_controller.rb:265
 msgid "The retried attachment download failed."
 msgstr "Повторная попытка загрузки вложения не удалась."
 
@@ -18005,6 +18005,12 @@ msgid ""
 msgstr ""
 "Это PGP-письмо было зашифровано с помощью потенциально неизвестного "
 "алгоритма шифрования."
+
+#: app/controllers/ticket_articles_controller.rb:186
+#, fuzzy
+#| msgid "This article is not part of the ticket."
+msgid "This article does not have a raw copy available."
+msgstr "Эта статья не является частью заявки."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
@@ -18938,7 +18944,7 @@ msgstr "Заявки упорядочены по столбцу \"%s\" (%s)."
 msgid "Tickets assigned to me: %s of %s"
 msgstr "Заявки, назначенные мне: %s из %s"
 
-#: app/controllers/ticket_articles_controller.rb:225
+#: app/controllers/ticket_articles_controller.rb:227
 #: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""

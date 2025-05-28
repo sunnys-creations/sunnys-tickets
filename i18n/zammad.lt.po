@@ -11678,7 +11678,7 @@ msgstr "Bendrintų juodraščių kol kas nėra"
 
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
-#: app/controllers/ticket_articles_controller.rb:232
+#: app/controllers/ticket_articles_controller.rb:234
 #: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
@@ -14832,7 +14832,7 @@ msgstr "Paskutinio įrašo siuntėjas"
 msgid "Sending Email Address"
 msgstr "Siuntimuio naudojamas el. pašto adresas"
 
-#: app/models/ticket/article.rb:312
+#: app/models/ticket/article.rb:308
 msgid "Sending an email without a valid recipient is not possible."
 msgstr "Negalima siųsti el. laiško be gavėjo."
 
@@ -16875,7 +16875,7 @@ msgstr "Slaptažodis pakeistas."
 msgid "The personal access token could not be deleted."
 msgstr "Nepavyko ištrinti prieigos žetono."
 
-#: app/controllers/ticket_articles_controller.rb:272
+#: app/controllers/ticket_articles_controller.rb:274
 msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr "Nepavyko sugeneruoti peržiūros. Formatas sugadintas arba nepalaikomas."
@@ -17178,7 +17178,7 @@ msgstr "Būtinas „group_id“ parametras."
 msgid "The required value external_credential could not be found in the cache."
 msgstr "Nepavyko talpykloje rasti „external_credential“."
 
-#: app/controllers/ticket_articles_controller.rb:263
+#: app/controllers/ticket_articles_controller.rb:265
 msgid "The retried attachment download failed."
 msgstr "Pakartotinis bandymas atsisiųsti prisegtuką nepavyko."
 
@@ -17638,6 +17638,12 @@ msgstr "PGP laiškas neturi lygiai dviejų dalių kaip turėtų pagal RFC 3156."
 msgid ""
 "This PGP email was encrypted with a potentially unknown encryption algorithm."
 msgstr "PGP laiškas buvo užšifruotas su nežinomu algoritmu."
+
+#: app/controllers/ticket_articles_controller.rb:186
+#, fuzzy
+#| msgid "This article is not part of the ticket."
+msgid "This article does not have a raw copy available."
+msgstr "Šis įrašas nėra nurodytos trikties dalis."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
@@ -18556,7 +18562,7 @@ msgstr "Triktys yra rūšiuojamos pagal „%s“ stulpelį (%s)."
 msgid "Tickets assigned to me: %s of %s"
 msgstr "Man priskirta trikčių: %s iš %s"
 
-#: app/controllers/ticket_articles_controller.rb:225
+#: app/controllers/ticket_articles_controller.rb:227
 #: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr "Triktys gali būti importuotos tik kai sistema yra importavimo režime."

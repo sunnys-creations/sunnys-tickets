@@ -11890,7 +11890,7 @@ msgstr "Delte Kladder"
 
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
-#: app/controllers/ticket_articles_controller.rb:232
+#: app/controllers/ticket_articles_controller.rb:234
 #: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
@@ -15291,7 +15291,7 @@ msgstr "Besvar den sidste artikel"
 msgid "Sending Email Address"
 msgstr "Email adresse"
 
-#: app/models/ticket/article.rb:312
+#: app/models/ticket/article.rb:308
 msgid "Sending an email without a valid recipient is not possible."
 msgstr ""
 
@@ -17553,7 +17553,7 @@ msgstr "Adgangskoden blev ændret!"
 msgid "The personal access token could not be deleted."
 msgstr "Denne rapport kunne ikke genereres"
 
-#: app/controllers/ticket_articles_controller.rb:272
+#: app/controllers/ticket_articles_controller.rb:274
 msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
@@ -17876,7 +17876,7 @@ msgstr ""
 msgid "The required value external_credential could not be found in the cache."
 msgstr ""
 
-#: app/controllers/ticket_articles_controller.rb:263
+#: app/controllers/ticket_articles_controller.rb:265
 msgid "The retried attachment download failed."
 msgstr ""
 
@@ -18381,6 +18381,12 @@ msgstr ""
 msgid ""
 "This PGP email was encrypted with a potentially unknown encryption algorithm."
 msgstr ""
+
+#: app/controllers/ticket_articles_controller.rb:186
+#, fuzzy
+#| msgid "There is no agent online."
+msgid "This article does not have a raw copy available."
+msgstr "Der er ingen agent online."
 
 #: app/models/ticket/time_accounting.rb:44
 #, fuzzy
@@ -19320,7 +19326,7 @@ msgstr ""
 msgid "Tickets assigned to me: %s of %s"
 msgstr "Sager tildelt mig: %s af %s"
 
-#: app/controllers/ticket_articles_controller.rb:225
+#: app/controllers/ticket_articles_controller.rb:227
 #: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""

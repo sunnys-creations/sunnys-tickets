@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-24 11:00+0000\n"
-"Last-Translator: Suat VARLIKLI <suatvarlikli89@gmail.com>\n"
+"PO-Revision-Date: 2025-05-27 22:00+0000\n"
+"Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
 "Language: tr\n"
@@ -1792,7 +1792,6 @@ msgid "Allow future"
 msgstr "Geleceğe izin ver"
 
 #: app/models/object_manager/attribute/data_option_validator.rb:65
-#, fuzzy
 msgid "Allow future dates toggle value is required."
 msgstr "Gelecek tarihlere izin ver geçiş değeri gereklidir."
 
@@ -9945,8 +9944,8 @@ msgstr "Last contact (customer)"
 msgid ""
 "Last created at of database objects (e.g. when was the last trigger created)"
 msgstr ""
-"Veritabanı nesnelerinin son oluşturulma zamanı (örneğin, en son tetikleyici "
-"ne zaman oluşturuldu)"
+"Veritabanı nesnelerinin son oluşturulma zamanı (örneğin, son tetikleyici ne "
+"zaman oluşturuldu)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:224
 msgid "Last login"
@@ -11865,7 +11864,7 @@ msgstr "Shared"
 
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
-#: app/controllers/ticket_articles_controller.rb:232
+#: app/controllers/ticket_articles_controller.rb:234
 #: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
@@ -15159,7 +15158,7 @@ msgstr "Son yazının göndericisi"
 msgid "Sending Email Address"
 msgstr "Email Address"
 
-#: app/models/ticket/article.rb:312
+#: app/models/ticket/article.rb:308
 msgid "Sending an email without a valid recipient is not possible."
 msgstr "Geçerli bir alıcı olmadan e-posta göndermek mümkün değildir."
 
@@ -17060,8 +17059,8 @@ msgid ""
 "process."
 msgstr ""
 "Bilgi tabanınız için varsayılan URL örneğin example.com veya example.com/"
-"help'tir. Bunun yerine özel bir URL'den sunmak için aşağıdaki hedefi girin ("
-"örneğin, \"/support\", \"example.com\" veya \"example.com/support\"). "
+"help'tir. Bunun yerine özel bir URL'den sunmak için aşağıdaki hedefi girin "
+"(örneğin, \"/support\", \"example.com\" veya \"example.com/support\"). "
 "Ardından, işlemi tamamlamak için \"Web Sunucusu Yapılandırması\" altındaki "
 "talimatları izleyin."
 
@@ -17448,7 +17447,7 @@ msgstr "Şifre sıfırlama isteği başarılı oldu."
 msgid "The personal access token could not be deleted."
 msgstr "Kişisel erişim belirteci silinemedi."
 
-#: app/controllers/ticket_articles_controller.rb:272
+#: app/controllers/ticket_articles_controller.rb:274
 msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr "Önizleme oluşturulamıyor. Format bozuk veya desteklenmiyor."
@@ -17560,7 +17559,6 @@ msgid "The required '%{attribute}' value for %{key}, %{inner} is missing!"
 msgstr "%{key} için gerekli '%{attribute}' değeri olan %{inner} eksik!"
 
 #: app/controllers/channels_twitter_controller.rb:38
-#, fuzzy
 msgid "The required 'ExternalCredential' 'twitter' could not be found."
 msgstr "Gerekli 'ExternalCredential' 'twitter' bulunamadı."
 
@@ -17750,7 +17748,7 @@ msgstr "Gerekli 'group_id' değeri eksik."
 msgid "The required value external_credential could not be found in the cache."
 msgstr "Gerekli external_credential değeri önbellekte bulunamadı."
 
-#: app/controllers/ticket_articles_controller.rb:263
+#: app/controllers/ticket_articles_controller.rb:265
 msgid "The retried attachment download failed."
 msgstr "Yeniden denenen eklenti indirme işlemi başarısız oldu."
 
@@ -18233,6 +18231,12 @@ msgid ""
 msgstr ""
 "Bu PGP e-postası potansiyel olarak bilinmeyen bir şifreleme algoritması ile "
 "şifrelenmiştir."
+
+#: app/controllers/ticket_articles_controller.rb:186
+#, fuzzy
+#| msgid "This article is not part of the ticket."
+msgid "This article does not have a raw copy available."
+msgstr "Bu yazı destek talebinin bir parçası değildir."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
@@ -19189,7 +19193,7 @@ msgstr "Destek talepleri \"%s\" sütununa (%s) göre sıralanır."
 msgid "Tickets assigned to me: %s of %s"
 msgstr "Bana atanan biletler: %s / %s"
 
-#: app/controllers/ticket_articles_controller.rb:225
+#: app/controllers/ticket_articles_controller.rb:227
 #: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""
@@ -21554,7 +21558,8 @@ msgid ""
 "You have no change permission or you are a customer for some of the selected "
 "tickets."
 msgstr ""
-"Değişiklik izniniz yok veya seçilen biletlerden bazılarının müşterisisiniz."
+"Değişiklik izniniz yok veya seçilen destek taleplerinin bazılarının "
+"müşterisisiniz."
 
 #: app/assets/javascripts/app/views/telegram/index.jst.eco:15
 msgid "You have no configured %s right now."

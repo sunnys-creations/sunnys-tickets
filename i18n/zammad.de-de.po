@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-24 11:00+0000\n"
+"PO-Revision-Date: 2025-05-27 22:00+0000\n"
 "Last-Translator: Martin Gruner <mg@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/de/>\n"
@@ -10512,7 +10512,7 @@ msgid ""
 "Manage applications that can use Zammad as an OAuth provider and "
 "applications that you've authorized to use your account."
 msgstr ""
-"Verwalten von Anwendungen welche Zammad als OAuth Provider verwenden und "
+"Verwalten von Anwendungen welche Zammad als OAuth-Anbieter verwenden und "
 "Anwender autorisieren können."
 
 #: db/seeds/permissions.rb:192
@@ -11936,7 +11936,7 @@ msgstr "Noch keine gemeinsamen Entwürfe"
 
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
-#: app/controllers/ticket_articles_controller.rb:232
+#: app/controllers/ticket_articles_controller.rb:234
 #: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
@@ -13599,7 +13599,7 @@ msgstr "Bitte setzen Sie Positionen für alle Einträge im Kontext"
 
 #: app/assets/javascripts/app/controllers/_channel/sms.coffee:167
 msgid "Provider"
-msgstr "Provider"
+msgstr "Anbieter"
 
 #: db/seeds/settings.rb:552
 msgid "Proxy Password"
@@ -15150,7 +15150,7 @@ msgstr "Sender des letzten Artikels"
 msgid "Sending Email Address"
 msgstr "Versand-E-Mail-Adresse"
 
-#: app/models/ticket/article.rb:312
+#: app/models/ticket/article.rb:308
 msgid "Sending an email without a valid recipient is not possible."
 msgstr "Das Versenden einer E-Mail ohne gültigen Empfänger ist nicht möglich."
 
@@ -17246,7 +17246,7 @@ msgstr "Die Anforderung zum Zurücksetzen des Passworts war erfolgreich."
 msgid "The personal access token could not be deleted."
 msgstr "Das persönliche Zugangs-Token konnte nicht gelöscht werden."
 
-#: app/controllers/ticket_articles_controller.rb:272
+#: app/controllers/ticket_articles_controller.rb:274
 msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
@@ -17558,7 +17558,7 @@ msgstr ""
 "Der erforderliche Wert external_credential konnte nicht im Cache gefunden "
 "werden."
 
-#: app/controllers/ticket_articles_controller.rb:263
+#: app/controllers/ticket_articles_controller.rb:265
 msgid "The retried attachment download failed."
 msgstr "Der erneute Versuch, den Anhang herunterzuladen, ist fehlgeschlagen."
 
@@ -18051,6 +18051,12 @@ msgid ""
 msgstr ""
 "Diese PGP-E-Mail wurde mit einem möglicherweise unbekannten Verschlüsselungs-"
 "Algorithmus verschlüsselt."
+
+#: app/controllers/ticket_articles_controller.rb:186
+#, fuzzy
+#| msgid "This article is not part of the ticket."
+msgid "This article does not have a raw copy available."
+msgstr "Dieser Artikel gehört nicht zum Ticket."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
@@ -18993,7 +18999,7 @@ msgstr "Tickets sind sortiert nach Spalte \"%s\" (%s)."
 msgid "Tickets assigned to me: %s of %s"
 msgstr "Mir zugewiesene Tickets: %s von %s"
 
-#: app/controllers/ticket_articles_controller.rb:225
+#: app/controllers/ticket_articles_controller.rb:227
 #: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""
@@ -20600,7 +20606,7 @@ msgstr "Sichtbar für Leser & Redakteure"
 #: app/assets/javascripts/app/controllers/_integration/placetel.coffee:218
 #: app/assets/javascripts/app/controllers/_integration/sipgate_io.coffee:216
 msgid "VoIP service provider with realtime push."
-msgstr "VoIP-Service-Provider mit Echtzeit-Push."
+msgstr "VoIP-Service-Anbieter mit Echtzeit-Push."
 
 #: app/assets/javascripts/app/views/cti/caller_log.jst.eco:29
 msgid "Waiting"

@@ -12354,7 +12354,7 @@ msgstr "Megosztott piszkozatok"
 
 #: app/controllers/organizations_controller.rb:107
 #: app/controllers/text_modules_controller.rb:75
-#: app/controllers/ticket_articles_controller.rb:232
+#: app/controllers/ticket_articles_controller.rb:234
 #: app/controllers/tickets_controller.rb:480
 #: app/controllers/users_controller.rb:574
 msgid "No source data submitted!"
@@ -15686,7 +15686,7 @@ msgstr "Az utolsó cikk feladója"
 msgid "Sending Email Address"
 msgstr "E-mail cím"
 
-#: app/models/ticket/article.rb:312
+#: app/models/ticket/article.rb:308
 msgid "Sending an email without a valid recipient is not possible."
 msgstr ""
 
@@ -17891,7 +17891,7 @@ msgstr "A jelszó-visszaállítási kérelem sikeres volt."
 msgid "The personal access token could not be deleted."
 msgstr "A jelentést nem lehetett létrehozni"
 
-#: app/controllers/ticket_articles_controller.rb:272
+#: app/controllers/ticket_articles_controller.rb:274
 msgid ""
 "The preview cannot be generated. The format is corrupted or not supported."
 msgstr ""
@@ -18224,7 +18224,7 @@ msgstr "A kötelező 'group_id' érték hiányzik."
 msgid "The required value external_credential could not be found in the cache."
 msgstr "A kért external_credential érték nem található a gyorsítótárban."
 
-#: app/controllers/ticket_articles_controller.rb:263
+#: app/controllers/ticket_articles_controller.rb:265
 msgid "The retried attachment download failed."
 msgstr "Az ismételten megpróbált mellékletletöltés sikertelen volt."
 
@@ -18754,6 +18754,12 @@ msgid ""
 msgstr ""
 "Ezt a PGP e-mailt egy feltehetően ismeretlen titkosítási algoritmussal "
 "titkosították."
+
+#: app/controllers/ticket_articles_controller.rb:186
+#, fuzzy
+#| msgid "This article is not part of the ticket."
+msgid "This article does not have a raw copy available."
+msgstr "Ez a cikk nem része a jegynek."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
@@ -19702,7 +19708,7 @@ msgstr "A jegyek a következő oszlop szerint vannak rendezve: \"%s\" (%s)."
 msgid "Tickets assigned to me: %s of %s"
 msgstr "Hozzám rendelt jegyek: %s / %s"
 
-#: app/controllers/ticket_articles_controller.rb:225
+#: app/controllers/ticket_articles_controller.rb:227
 #: app/controllers/tickets_controller.rb:473
 msgid "Tickets can only be imported if system is in import mode."
 msgstr ""
