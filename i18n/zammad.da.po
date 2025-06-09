@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-02 22:00+0000\n"
-"Last-Translator: Victor Pahuus Petersen <dibbohh@gmail.com>\n"
+"PO-Revision-Date: 2025-05-29 06:48+0000\n"
+"Last-Translator: LomaxThomas <thomas.hartvig@lomax.dk>\n"
 "Language-Team: Danish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/da/>\n"
 "Language: da\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -2852,6 +2852,9 @@ msgid ""
 "Zammad can support your agents by opening either a new ticket dialogue or "
 "the user profile upon picking up a new call."
 msgstr ""
+"Ved at mappe dine agenters Placetel SIP-brugere til deres Zammad "
+"brugerkonti, kan Zammad støtte dine agenter ved at åbne enten en ny "
+"billetdialog eller brugerprofilen, når de tager imod et nyt opkald."
 
 #: app/assets/javascripts/app/views/integration/sipgate.jst.eco:105
 msgid ""
@@ -2859,10 +2862,13 @@ msgid ""
 "can support your agents by opening either a new ticket dialogue or the user "
 "profile upon picking up a new call."
 msgstr ""
+"Ved at mappe dine agenters Sipgate-brugere til deres Zammad brugerkonti, kan "
+"Zammad støtte dine agenter ved at åbne enten en ny billetdialog eller "
+"brugerprofilen, når de tager imod et nyt opkald."
 
 #: app/assets/javascripts/app/views/ssl_certificates_list.jst.eco:13
 msgid "CA"
-msgstr ""
+msgstr "CA"
 
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_match.coffee:18
 #: app/assets/javascripts/app/controllers/agent_ticket_create.coffee:501
@@ -2882,6 +2888,7 @@ msgstr "CC"
 #: app/assets/javascripts/app/controllers/_integration/idoit.coffee:112
 msgid "CMDB to document complex relations of your network components."
 msgstr ""
+"CMDB til at dokumentere komplekse relationer mellem dine netværkskomponenter."
 
 #: app/assets/javascripts/app/controllers/_channel/chat.coffee:73
 msgid ""
@@ -3108,7 +3115,7 @@ msgstr "Kategori"
 
 #: app/assets/javascripts/app/models/knowledge_base.coffee:246
 msgid "Category page layout"
-msgstr ""
+msgstr "Layout af kategoriside"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:39
 msgid "Caution!"
@@ -3289,7 +3296,7 @@ msgstr "Tjek genstand"
 
 #: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
-msgstr ""
+msgstr "Se svaret og payloaden for detaljerede oplysninger:"
 
 #: app/assets/javascripts/app/views/object_manager/attribute/multiselect.jst.eco:70
 #: app/assets/javascripts/app/views/object_manager/attribute/select.jst.eco:66
@@ -3373,6 +3380,9 @@ msgid ""
 "signing or encrypting is not possible, the setting has no effect. Agents can "
 "always manually alter the behavior for each article."
 msgstr ""
+"Vælg standardadfærd for PGP-integrationen pr. gruppe. Hvis signering eller "
+"kryptering ikke er mulig, har indstillingen ingen effekt. Agenter kan altid "
+"ændre adfærden manuelt for hver artikel."
 
 #: app/assets/javascripts/app/views/integration/smime.jst.eco:11
 msgid ""
@@ -3380,6 +3390,9 @@ msgid ""
 "signing or encrypting is not possible, the setting has no effect. Agents can "
 "always manually alter the behavior for each article."
 msgstr ""
+"Vælg standardadfærden for S/MIME-integrationen pr. gruppe. Hvis signering "
+"eller kryptering ikke er mulig, har indstillingen ingen effekt. Agenter kan "
+"altid ændre adfærden manuelt for hver artikel."
 
 #: app/assets/javascripts/app/views/twitter/account_edit.jst.eco:31
 msgid "Choose the group to which direct messages will get added."
@@ -3641,7 +3654,7 @@ msgstr "Farvevisning af indikatoren for åbne tickets i sidepanelet."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingCalendar.vue:306
 msgid "Combined subscription URL"
-msgstr ""
+msgstr "Kombineret abonnements URL"
 
 #: app/assets/javascripts/app/controllers/widget/ticket_bulk_form.coffee:62
 msgid "Comment"
@@ -3663,6 +3676,10 @@ msgid ""
 "channels, we suggest using the Graph API implementation instead. More "
 "information can be found here %l."
 msgstr ""
+"Sammenlignet med Microsoft 365 Graph API Email Kanal, er dette den "
+"traditionelle implementering der benytter OAuth og IMAP. Når der skal sættes "
+"nye kanaler op foreslår vi at benytte Graph API implementeringen i stedet. "
+"Mere information kan findes her %l."
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:11
@@ -4034,7 +4051,7 @@ msgstr "Core Workflow Ajax Mode"
 #: app/assets/javascripts/app/controllers/core_workflow.coffee:3
 #: db/seeds/permissions.rb:257
 msgid "Core Workflows"
-msgstr ""
+msgstr "Centrale arbejdsgange"
 
 #: app/assets/javascripts/app/models/core_workflow.coffee:24
 msgid ""
@@ -4042,6 +4059,9 @@ msgid ""
 "on an action, it is possible to hide or restrict fields or to change the "
 "obligation to fill them in."
 msgstr ""
+"Centrale Arbejdsgange er handlinger eller begrænsninger for valg i "
+"formularer. Afhængigt af en handling er det muligt at skjule eller begrænse "
+"felter eller at ændre forpligtelsen til at udfylde dem."
 
 #: app/services/service/user/signup.rb:55
 msgid ""
@@ -4076,6 +4096,7 @@ msgstr ""
 msgid ""
 "Could not load the two-factor authentication configuration for this user."
 msgstr ""
+"To-faktor-godkendelseskonfigurationen kunne ikke indlæses for denne bruger."
 
 #: app/models/channel/email_parser.rb:32
 msgid "Could not parse any sender attribute from the email. Checked fields:"
@@ -11273,7 +11294,7 @@ msgid "Navigate to %s"
 msgstr "Navigation"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:137
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:38
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:44
 msgid "Navigation"
 msgstr "Navigation"
 
@@ -12477,7 +12498,7 @@ msgstr "Åbn makrovalg"
 msgid "Open note box"
 msgstr "Åben note boks"
 
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:50
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:56
 #, fuzzy
 #| msgid "Open Ticket# %s"
 msgid "Open quick search"
@@ -21118,7 +21139,9 @@ msgstr "Velkomst besked"
 msgid "Welcome to Zammad!"
 msgstr ""
 
+#: app/assets/javascripts/app/controllers/welcome.coffee:8
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:2
+#: app/assets/javascripts/app/views/welcome.jst.eco:2
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupStart.vue:46
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketList.vue:342
 msgid "Welcome!"

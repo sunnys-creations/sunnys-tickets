@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-20 22:00+0000\n"
+"PO-Revision-Date: 2025-06-03 22:00+0000\n"
 "Last-Translator: MBekspert <michal.bosak@ekspert.biz>\n"
 "Language-Team: Polish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/pl/>\n"
@@ -2837,10 +2837,8 @@ msgid "Body - Search for follow-up also in mail body."
 msgstr "Treść - kontynuuj szukanie również w treści wiadomości."
 
 #: lib/validations/ticket_article_validator/sms_twilio.rb:14
-#, fuzzy
-#| msgid "A user is required!"
 msgid "Body text is required"
-msgstr "Użytkownik jest wymagany!"
+msgstr "Treść jest wymagana"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:41
 msgid "Boolean field"
@@ -2856,10 +2854,8 @@ msgid "Branding"
 msgstr "Branding"
 
 #: app/frontend/apps/desktop/components/CommonBreadcrumb/CommonBreadcrumb.vue:33
-#, fuzzy
-#| msgid "Send Invitation"
 msgid "Breadcrumb navigation"
-msgstr "Wyślij zaproszenie"
+msgstr "Nawigacja za pomocą ścieżki nawigacyjnej"
 
 #: app/assets/javascripts/app/views/session.jst.eco:9
 msgid "Browser"
@@ -3116,8 +3112,6 @@ msgstr "Anuluj i Wróć"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationMethodList.vue:28
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationPasswordCheck.vue:66
-#, fuzzy
-#| msgid "Cancel & Sign out"
 msgid "Cancel & Sign Out"
 msgstr "Anuluj i wyloguj się"
 
@@ -3211,10 +3205,8 @@ msgid "Change Objects"
 msgstr "Zmień obiekty"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingPassword.vue:140
-#, fuzzy
-#| msgid "Change Your Password"
 msgid "Change Password"
-msgstr "Zmień swoje hasło"
+msgstr "Zmień hasło"
 
 #: app/assets/javascripts/app/views/profile/password.jst.eco:8
 msgid "Change Your Password"
@@ -3237,40 +3229,28 @@ msgid "Change order"
 msgstr "Zmień kolejność"
 
 #: db/seeds/permissions.rb:433
-#, fuzzy
-#| msgid "Change Your Password"
 msgid "Change personal account password."
-msgstr "Zmień swoje hasło"
+msgstr "Zmień hasło do konta osobistego."
 
 #: app/frontend/shared/components/Form/fields/FieldEditor/useEditorActions.ts:227
-#, fuzzy
-#| msgid "Change date"
 msgid "Change text color"
-msgstr "Zmień datę"
+msgstr "Zmień kolor tekstu"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:36
-#, fuzzy
-#| msgid "Change %s"
 msgid "Change to %s"
-msgstr "Zmień %s"
+msgstr "Zmień na %s"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:27
-#, fuzzy
-#| msgid "Invalid email address."
 msgid "Change to channel email address"
-msgstr "Niepoprawny adres e-mail."
+msgstr "Zmień adres e-mail kanału"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:17
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Changed reaction on message %s from %s"
-msgstr "%s zakończył(a) zmianę do |%s|!"
+msgstr "Zmieniono reakcję na wiadomość %s od %s"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:18
-#, fuzzy
-#| msgid "%s ended switch to |%s|!"
 msgid "Changed reaction to %s on message %s from %s"
-msgstr "%s zakończył(a) zmianę do |%s|!"
+msgstr "Zmieniono reakcję na %s na wiadomość %s od %s"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:31
 msgid "Changed:"
@@ -3367,10 +3347,8 @@ msgstr "Sprawdź kanały."
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show_row.jst.eco:24
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItem.vue:54
-#, fuzzy
-#| msgid "Checkmk"
 msgid "Check item"
-msgstr "Checkmk"
+msgstr "Sprawdź element"
 
 #: lib/search_index_backend.rb:439
 msgid "Check the response and payload for detailed information:"
@@ -3387,28 +3365,22 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist.coffee:51
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/checklist.ts:11
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklist"
-msgstr "Suma kontrolna"
+msgstr "Lista kontrolna"
 
 #: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee:60
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/event-actions/checklist-item-checked.ts:11
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/utils/historyEventEntityNames.ts:10
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklist Item"
-msgstr "Suma kontrolna"
+msgstr "Pozycja listy kontrolnej"
 
 #: app/assets/javascripts/app/views/generic/checklist_item.jst.eco:10
 msgid "Checklist Item Label"
 msgstr "Etykieta pozycji na liście kontrolnej"
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:29
-#, fuzzy
-#| msgid "Select Template"
 msgid "Checklist Template"
-msgstr "Wybierz szablon"
+msgstr "Szablon listy kontrolnej"
 
 #: app/models/checklist_template.rb:16
 msgid "Checklist Template items are limited to 100 items per checklist."
@@ -3417,26 +3389,20 @@ msgstr ""
 "kontrolną."
 
 #: app/models/checklist/item.rb:108
-#, fuzzy
-#| msgid "The article does not belong to the specified ticket."
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr "Wpis nie należy do podanego zgłoszenia."
+msgstr "Liczba pozycji na liście kontrolnej jest ograniczona do 100."
 
 #: app/models/checklist.rb:100
-#, fuzzy
-#| msgid "Checklist Template items are limited to 100 items per checklist."
 msgid "Checklist template must be active to use as a checklist starting point."
 msgstr ""
-"Elementy szablonu listy kontrolnej są ograniczone do 100 pozycji na listę "
-"kontrolną."
+"Aby można było użyć szablonu listy kontrolnej jako punktu wyjścia, musi on "
+"być aktywny."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
 #: db/seeds/permissions.rb:305 db/seeds/settings.rb:5946
-#, fuzzy
-#| msgid "Checksum"
 msgid "Checklists"
-msgstr "Suma kontrolna"
+msgstr "Listy kontrolne"
 
 #: app/assets/javascripts/app/controllers/_integration/check_mk.coffee:3
 msgid "Checkmk"
@@ -11752,7 +11718,7 @@ msgid "Navigate to %s"
 msgstr "Przejdź do %s"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:137
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:38
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:44
 msgid "Navigation"
 msgstr "Nawigacja"
 
@@ -12983,7 +12949,7 @@ msgstr "Otwórz wybór makr"
 msgid "Open note box"
 msgstr "otwórz okno notatki"
 
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:50
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:56
 #, fuzzy
 #| msgid "Open Ticket# %s"
 msgid "Open quick search"
@@ -21564,7 +21530,9 @@ msgstr "Wiadomość powitalna"
 msgid "Welcome to Zammad!"
 msgstr "Witamy w Zammadzie!"
 
+#: app/assets/javascripts/app/controllers/welcome.coffee:8
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:2
+#: app/assets/javascripts/app/views/welcome.jst.eco:2
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupStart.vue:46
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketList.vue:342
 msgid "Welcome!"

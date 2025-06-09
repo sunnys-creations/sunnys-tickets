@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-27 22:00+0000\n"
+"PO-Revision-Date: 2025-05-28 07:40+0000\n"
 "Last-Translator: Martin Gruner <mg@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/de/>\n"
@@ -11352,7 +11352,7 @@ msgid "Navigate to %s"
 msgstr "Zu %s gehen"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:137
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:38
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:44
 msgid "Navigation"
 msgstr "Navigation"
 
@@ -12492,7 +12492,7 @@ msgstr "Makro-Auswahl öffnen"
 msgid "Open note box"
 msgstr "Öffnet Notiz-Dialog"
 
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:50
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:56
 msgid "Open quick search"
 msgstr "Öffne Schnellsuche"
 
@@ -20757,7 +20757,9 @@ msgstr "Willkommens-Nachricht"
 msgid "Welcome to Zammad!"
 msgstr "Willkommen bei Zammad!"
 
+#: app/assets/javascripts/app/controllers/welcome.coffee:8
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:2
+#: app/assets/javascripts/app/views/welcome.jst.eco:2
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupStart.vue:46
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketList.vue:342
 msgid "Welcome!"

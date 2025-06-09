@@ -12293,7 +12293,7 @@ msgid "Navigate to %s"
 msgstr "Navegación"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:137
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:38
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:44
 msgid "Navigation"
 msgstr "Navegación"
 
@@ -13558,7 +13558,7 @@ msgstr "Abrir selección de macros"
 msgid "Open note box"
 msgstr "Abrir cuadro de nota"
 
-#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:50
+#: app/frontend/apps/desktop/components/PageNavigation/PageNavigation.vue:56
 #, fuzzy
 #| msgid "Open Ticket# %s"
 msgid "Open quick search"
@@ -22663,7 +22663,9 @@ msgstr "Mensaje de bienvenida"
 msgid "Welcome to Zammad!"
 msgstr "¡Bienvenido a Zammad!"
 
+#: app/assets/javascripts/app/controllers/welcome.coffee:8
 #: app/assets/javascripts/app/views/customer_not_ticket_exists.jst.eco:2
+#: app/assets/javascripts/app/views/welcome.jst.eco:2
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupStart.vue:46
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketList.vue:342
 msgid "Welcome!"
