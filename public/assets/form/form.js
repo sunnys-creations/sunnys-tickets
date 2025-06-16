@@ -286,6 +286,15 @@ $(function() {
         'Your Message…': 'Mesajınız…',
         'Your Name': 'Adınız',
       },
+      'uk': {
+        'Attachments': 'Вкладення',
+        'Email': 'Email',
+        'Message': 'Повідомлення',
+        'Name': 'Ім\'я',
+        'Your Email': 'Ваша електронна пошта',
+        'Your Message…': 'Ваше повідомлення…',
+        'Your Name': 'Ваше ім\'я',
+      },
       'zh-cn': {
         'Attachments': '附件',
         'Email': '邮件地址',
