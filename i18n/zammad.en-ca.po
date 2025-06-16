@@ -571,11 +571,11 @@ msgstr ""
 msgid "%{model} can have full or granular access to group"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr ""
 
@@ -12757,7 +12757,7 @@ msgstr ""
 msgid "Recently Viewed Tickets"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr ""
@@ -16005,7 +16005,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 
@@ -20050,7 +20050,7 @@ msgstr ""
 msgid "at"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr ""
 
@@ -20059,7 +20059,7 @@ msgstr ""
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr ""
 
@@ -20093,11 +20093,11 @@ msgstr ""
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -20109,7 +20109,7 @@ msgstr ""
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -20962,7 +20962,7 @@ msgstr ""
 msgid "now"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr ""
 
@@ -21221,7 +21221,7 @@ msgstr ""
 msgid "sms"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr ""
 

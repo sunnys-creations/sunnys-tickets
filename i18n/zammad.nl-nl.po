@@ -692,11 +692,11 @@ msgstr "%s% zijn heropent"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} kan volledige of gedetailleerde toegang tot de groep hebben"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} bestaat reeds"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} is een gereserveerd woord"
 
@@ -13639,7 +13639,7 @@ msgstr "Recente zoekopdrachten zijn verwijderd."
 msgid "Recently Viewed Tickets"
 msgstr "Recent Bekeken Tickets"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "Onlangs bekeken"
@@ -17067,7 +17067,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "De parameter 'mentionable_type' is ongeldig."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Het wachtwoord kon niet worden opgeslagen. Neem contact op met de beheerder."
@@ -21522,7 +21522,7 @@ msgstr "wijs tickets toe"
 msgid "at"
 msgstr "om"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr "minimaal één letter is vereist"
 
@@ -21531,7 +21531,7 @@ msgstr "minimaal één letter is vereist"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "bijlage, bijgesloten, ingesloten"
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr "attribuut kan niet worden bewerkt"
 
@@ -21565,11 +21565,11 @@ msgstr "bezig"
 msgid "camera,image,photo,picture"
 msgstr "camera, beeld, foto, afbeelding"
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr "kan alleen worden gemaakt op postgresql databases"
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21583,7 +21583,7 @@ msgstr "mag niet leeg zijn"
 msgid "can't be empty"
 msgstr "mag niet leeg zijn"
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "kan niet worden gebruikt omdat *_id en *_ids niet zijn toegestaan"
 
@@ -22442,7 +22442,7 @@ msgstr "notificaties, tickets"
 msgid "now"
 msgstr "nu"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "alleen kleine letters, cijfers en '_' zijn toegestaan"
 
@@ -22702,7 +22702,7 @@ msgstr "overgeslagen"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "spaties zijn niet toegestaan"
 

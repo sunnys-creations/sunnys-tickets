@@ -689,11 +689,11 @@ msgstr "%s% har återöppnats"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} kan ha full eller delvis åtkomst till grupp"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} finns redan"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} är ett reserverat ord"
 
@@ -13568,7 +13568,7 @@ msgstr "De senaste sökningarna rensades."
 msgid "Recently Viewed Tickets"
 msgstr "Senaste visade ärenden"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "Senast öppnade"
@@ -16975,7 +16975,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Parametern 'mentionable_type' är ogiltig."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr "Lösenordet kunde inte sättas. Kontakta din administratör."
 
@@ -21385,7 +21385,7 @@ msgstr "tilldela ärenden"
 msgid "at"
 msgstr "kl"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr "åtminstone en bokstav krävs"
 
@@ -21394,7 +21394,7 @@ msgstr "åtminstone en bokstav krävs"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "Bifogad fil,bifogad,bifogad,bifogad"
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr "Attributet är inte redigerbart"
 
@@ -21428,11 +21428,11 @@ msgstr "upptagen"
 msgid "camera,image,photo,picture"
 msgstr "kamera,bild,foto,bild"
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr "kan endast skapas på postgresql-databaser"
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21446,7 +21446,7 @@ msgstr "kan inte vara blank"
 msgid "can't be empty"
 msgstr "kan inte vara tom"
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "kan inte användas eftersom *_id och *_ids inte är tillåtna"
 
@@ -22304,7 +22304,7 @@ msgstr "notifieringar,ärenden"
 msgid "now"
 msgstr "nu"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "endast små bokstäver, siffror och '_' är tillåtna"
 
@@ -22565,7 +22565,7 @@ msgstr "skippad"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "mellanslag är inte tillåtna"
 

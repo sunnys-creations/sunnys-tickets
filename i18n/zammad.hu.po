@@ -710,11 +710,11 @@ msgstr "%s% újra meg lett nyitva"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} teljes vagy részletes hozzáféréssel rendelkezhet a csoporthoz"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} már létezik"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} egy foglalt szó"
 
@@ -14269,7 +14269,7 @@ msgstr "A jegy sikeresen létrejött."
 msgid "Recently Viewed Tickets"
 msgstr "Legutóbb megtekintett jegyek"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "Legutóbb megtekintett"
@@ -17869,7 +17869,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "A 'mentionable_type' paraméter érvénytelen."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "A jelszót nem sikerült beállítani. Kérjük, lépjen kapcsolatba a "
@@ -22542,7 +22542,7 @@ msgstr "jegyek hozzárendelése"
 msgid "at"
 msgstr "ekkor"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr "legalább egy betű szükséges"
 
@@ -22551,7 +22551,7 @@ msgstr "legalább egy betű szükséges"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr "a tulajdonság nem szerkeszthető"
 
@@ -22585,11 +22585,11 @@ msgstr "elfoglalt"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22603,7 +22603,7 @@ msgstr "nem lehet üres"
 msgid "can't be empty"
 msgstr "nem lehet üres"
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "nem használható, mert *_id és *_ids nem engedélyezettek"
 
@@ -23505,7 +23505,7 @@ msgstr "Értesítések"
 msgid "now"
 msgstr "most"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "csak kisbetűk, számok és '_' engedélyezettek"
 
@@ -23779,7 +23779,7 @@ msgstr "kihagyott"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "szóközök nem engedélyezettek"
 

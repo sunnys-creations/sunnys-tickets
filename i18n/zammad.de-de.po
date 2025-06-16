@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-28 07:40+0000\n"
+"PO-Revision-Date: 2025-06-13 12:48+0000\n"
 "Last-Translator: Martin Gruner <mg@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/de/>\n"
@@ -694,11 +694,11 @@ msgstr "%s% wurden wiedereröffnet"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} kann vollen oder granularen Zugriff auf Gruppe haben"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} existiert bereits"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} ist ein reserviertes Wort"
 
@@ -13764,7 +13764,7 @@ msgstr "Vorherige Suchen erfolgreich entfernt."
 msgid "Recently Viewed Tickets"
 msgstr "Zuletzt geöffnete Tickets"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "Zuletzt angesehen"
@@ -17228,7 +17228,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Der Parameter 'mentionable_type' ist ungültig."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Das Passwort konnte nicht gesetzt werden. Bitte kontaktieren Sie Ihren "
@@ -18053,10 +18053,8 @@ msgstr ""
 "Algorithmus verschlüsselt."
 
 #: app/controllers/ticket_articles_controller.rb:186
-#, fuzzy
-#| msgid "This article is not part of the ticket."
 msgid "This article does not have a raw copy available."
-msgstr "Dieser Artikel gehört nicht zum Ticket."
+msgstr "Für diesen Artikel gibt es keine Rohfassung."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
@@ -21741,7 +21739,7 @@ msgstr "Tickets zuweisen"
 msgid "at"
 msgstr "um"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr "mindestens ein Buchstabe ist erforderlich"
 
@@ -21750,7 +21748,7 @@ msgstr "mindestens ein Buchstabe ist erforderlich"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "Anhang,Anhänge,angehängt,anhängend,beigefügt,anbei"
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr "Attribut ist nicht bearbeitbar"
 
@@ -21784,11 +21782,11 @@ msgstr "besetzt"
 msgid "camera,image,photo,picture"
 msgstr "Kamera,Bild,Foto"
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr "kann nur auf Postgresql-Datenbanken erstellt werden"
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21802,7 +21800,7 @@ msgstr "darf nicht leer sein"
 msgid "can't be empty"
 msgstr "darf nicht leer bleiben"
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "darf nicht verwendet werden, weil *_id und *_ids nicht erlaubt sind"
 
@@ -22662,7 +22660,7 @@ msgstr "Benachrichtigungen,Tickets"
 msgid "now"
 msgstr "jetzt"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "es sind nur Kleinbuchstaben, Ziffern und '_' erlaubt"
 
@@ -22921,7 +22919,7 @@ msgstr "übersprungen"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "Leerzeichen sind nicht erlaubt"
 

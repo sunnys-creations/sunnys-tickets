@@ -682,11 +682,11 @@ msgstr "%s% 的工单已被重新打开"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model}可以具有对群组的完全或粒度访问权限"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} 已存在"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} 是一个保留词"
 
@@ -13799,7 +13799,7 @@ msgstr "測試運行成功"
 msgid "Recently Viewed Tickets"
 msgstr "最近查看过的工单"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "最近看过的工单"
@@ -17281,7 +17281,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "参数“提及_type”无效。"
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr "无法设置密码。请联系您的管理员。"
 
@@ -22190,7 +22190,7 @@ msgstr "分配工单"
 msgid "at"
 msgstr "在"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 #, fuzzy
 #| msgid "At least one letter is required"
 msgid "at least one letter is required"
@@ -22201,7 +22201,7 @@ msgstr "至少需要一个字母"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 #, fuzzy
 #| msgid "Attribute not editable!"
 msgid "attribute is not editable"
@@ -22237,11 +22237,11 @@ msgstr "忙碌"
 msgid "camera,image,photo,picture"
 msgstr "相机、图像、照片、图片"
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr "只能在PostgreSQL数据库上创建"
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22253,7 +22253,7 @@ msgstr "不能空白"
 msgid "can't be empty"
 msgstr "不能空"
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "无法使用，因为 *_id和 *_id不允许"
 
@@ -23210,7 +23210,7 @@ msgstr "通知"
 msgid "now"
 msgstr "未设置"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "只允许使用小写字母、数字和“_”"
 
@@ -23501,7 +23501,7 @@ msgstr "已跳过"
 msgid "sms"
 msgstr "短信"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "不允许使用空格"
 

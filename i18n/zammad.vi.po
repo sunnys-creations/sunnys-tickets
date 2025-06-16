@@ -633,13 +633,13 @@ msgstr "%s% được mở lại"
 msgid "%{model} can have full or granular access to group"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 #, fuzzy
 #| msgid "%s Object(s) were deleted."
 msgid "%{name} already exists"
 msgstr "%s Object(s) đã bị xóa."
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr ""
 
@@ -13980,7 +13980,7 @@ msgstr "Cập nhật thành công!"
 msgid "Recently Viewed Tickets"
 msgstr "Xem gần đây"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "Xem gần đây"
@@ -17646,7 +17646,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 #, fuzzy
 #| msgid "Unable to verify email. Please contact your administrator."
 msgid "The password could not be set. Please contact your administrator."
@@ -22083,7 +22083,7 @@ msgstr "cấp phát ticket"
 msgid "at"
 msgstr "at"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr ""
 
@@ -22092,7 +22092,7 @@ msgstr ""
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr ""
 
@@ -22126,11 +22126,11 @@ msgstr "bận"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22142,7 +22142,7 @@ msgstr ""
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -23058,7 +23058,7 @@ msgstr "Thông báo"
 msgid "now"
 msgstr "không"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr ""
 
@@ -23339,7 +23339,7 @@ msgstr ""
 msgid "sms"
 msgstr "tin nhắn sms"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr ""
 

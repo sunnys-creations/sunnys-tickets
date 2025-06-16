@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2025-06-05 22:00+0000\n"
 "Last-Translator: Sumonchai Wongphithak <sumonchai@gmail.com>\n"
-"Language-Team: Thai <https://translations.zammad.org/projects/zammad/"
-"zammad-stable/th/>\n"
+"Language-Team: Thai <https://translations.zammad.org/projects/zammad/zammad-"
+"stable/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -684,11 +684,11 @@ msgstr "%s% ถูกเปิดขึ้นอีกครั้ง"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} สามารถเข้าถึงกลุ่มได้ทั้งแบบละเอียดและแบบละเอียด"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} already exists"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} เป็นคําที่สงวนไว้"
 
@@ -14037,7 +14037,7 @@ msgstr "การทดสอบดำเนินการสำเร็จ"
 msgid "Recently Viewed Tickets"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "ดูล่าสุด"
@@ -17765,7 +17765,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr "ไม่สามารถตั้งรหัสผ่านได้ โปรดติดต่อผู้ดูแลระบบของคุณ"
 
@@ -22357,7 +22357,7 @@ msgstr "กำหนด tickets"
 msgid "at"
 msgstr "ที่"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 #, fuzzy
 #| msgid "At least one letter is required"
 msgid "at least one letter is required"
@@ -22368,7 +22368,7 @@ msgstr "ต้องมีตัวอักษรอย่างน้อยห
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr "คุณสมบัตินี้ไม่สามารถแก้ไขได้"
 
@@ -22402,11 +22402,11 @@ msgstr "ไม่ว่าง"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22418,7 +22418,7 @@ msgstr ""
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -23345,7 +23345,7 @@ msgstr "การแจ้งเตือน"
 msgid "now"
 msgstr "ขณะนี้"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr ""
 
@@ -23622,7 +23622,7 @@ msgstr "ข้าม"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "ไม่อนุญาตให้ใช้ช่องว่าง"
 

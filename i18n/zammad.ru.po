@@ -701,11 +701,11 @@ msgstr "%s% были повторно открыты"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} может иметь полный или ограниченный доступ к группе"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:633
 msgid "%{name} already exists"
 msgstr "%{name} уже существует"
 
-#: app/models/object_manager/attribute.rb:594
+#: app/models/object_manager/attribute.rb:617
 msgid "%{name} is a reserved word"
 msgstr "%{name} — зарезервированное слово"
 
@@ -13732,7 +13732,7 @@ msgstr "Недавние поиски успешно очищены."
 msgid "Recently Viewed Tickets"
 msgstr "Недавно просмотренные заявки"
 
-#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:486
+#: app/assets/javascripts/app/controllers/_plugin/navigation.coffee:487
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:119
 msgid "Recently viewed"
 msgstr "Недавно Вы просматривали"
@@ -17171,7 +17171,7 @@ msgid "The parameter 'mentionable_type' is invalid."
 msgstr "Недопустимый параметр «упоминаемый_тип» (mentionable_type)."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:135
-#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:138
+#: app/assets/javascripts/app/controllers/password_reset_verify.coffee:135
 msgid "The password could not be set. Please contact your administrator."
 msgstr ""
 "Не удалось установить пароль. Пожалуйста, свяжитесь с Вашим администратором."
@@ -21666,7 +21666,7 @@ msgstr "назначить заявки"
 msgid "at"
 msgstr "в"
 
-#: app/models/object_manager/attribute.rb:590
+#: app/models/object_manager/attribute.rb:613
 msgid "at least one letter is required"
 msgstr "необходим хотя бы один символ"
 
@@ -21675,7 +21675,7 @@ msgstr "необходим хотя бы один символ"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "вложение, вложенный, прикреплённый"
 
-#: app/models/object_manager/attribute.rb:623
+#: app/models/object_manager/attribute.rb:646
 msgid "attribute is not editable"
 msgstr "атрибут недоступен для редактирования"
 
@@ -21709,11 +21709,11 @@ msgstr "занят"
 msgid "camera,image,photo,picture"
 msgstr "камера, изображение, фото, картинка"
 
-#: app/models/object_manager/attribute.rb:672
+#: app/models/object_manager/attribute.rb:695
 msgid "can only be created on postgresql databases"
 msgstr "может быть создано только в базах данных postgresql"
 
-#: app/models/object_manager/attribute.rb:665
+#: app/models/object_manager/attribute.rb:688
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21727,7 +21727,7 @@ msgstr "не может быть пустым(ой)"
 msgid "can't be empty"
 msgstr "не может быть пустым(ой)"
 
-#: app/models/object_manager/attribute.rb:581
+#: app/models/object_manager/attribute.rb:604
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "не может быть использован, потому что *_id и *_ids недопустимы"
 
@@ -22588,7 +22588,7 @@ msgstr "уведомления,заявки"
 msgid "now"
 msgstr "сейчас"
 
-#: app/models/object_manager/attribute.rb:587
+#: app/models/object_manager/attribute.rb:610
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "Разрешены только строчные буквы, цифры и «_»"
 
@@ -22847,7 +22847,7 @@ msgstr "пропущено"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:584
+#: app/models/object_manager/attribute.rb:607
 msgid "spaces are not allowed"
 msgstr "пробелы не допускаются"
 
