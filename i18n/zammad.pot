@@ -426,11 +426,11 @@ msgstr ""
 msgid "%{model} can have full or granular access to group"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr ""
 
@@ -2747,7 +2747,7 @@ msgstr ""
 msgid "Check item"
 msgstr ""
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr ""
 
@@ -5575,7 +5575,7 @@ msgstr ""
 msgid "Elasticsearch Total Payload Size"
 msgstr ""
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid "Elasticsearch is not reachable. It's possible that it's not running. Please check whether it is installed."
 msgstr ""
 
@@ -6334,7 +6334,7 @@ msgstr ""
 msgid "External data source field"
 msgstr ""
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr ""
 
@@ -14975,7 +14975,7 @@ msgstr ""
 msgid "The installation of packages comes with security implications, because arbitrary code will be executed in the context of the Zammad application."
 msgstr ""
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid "The installed attachment plugin could not handle the request payload. Ensure that the correct attachment plugin is installed (ingest-attachment)."
 msgstr ""
 
@@ -15305,7 +15305,7 @@ msgstr ""
 msgid "The required parameter 'id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr ""
 
@@ -15369,11 +15369,11 @@ msgstr ""
 msgid "The required parameter 'ticket_number' is missing."
 msgstr ""
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr ""
 
@@ -18758,7 +18758,7 @@ msgstr ""
 msgid "at"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr ""
 
@@ -18767,7 +18767,7 @@ msgstr ""
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr ""
 
@@ -18801,11 +18801,11 @@ msgstr ""
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid "can't be altered after creation (you can delete the attribute and create another with the desired value)"
 msgstr ""
 
@@ -18815,7 +18815,7 @@ msgstr ""
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -19667,7 +19667,7 @@ msgstr ""
 msgid "now"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr ""
 
@@ -19928,7 +19928,7 @@ msgstr ""
 msgid "sms"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr ""
 
