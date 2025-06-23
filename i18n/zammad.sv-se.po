@@ -7539,7 +7539,7 @@ msgstr "Utökad sökning"
 msgid "External data source field"
 msgstr "Externt datakällfält"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrahera zammad bilageinformation från fält"
 
@@ -13031,7 +13031,7 @@ msgstr "Konfigurera importkällan innan du startar."
 msgid "Please contact your administrator."
 msgstr "Kontakta din administratör."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17208,7 +17208,7 @@ msgstr "Den obligatoriska parametern 'group_id' saknas."
 msgid "The required parameter 'id' is missing."
 msgstr "Den obligatoriska parametern 'id' saknas."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Obligatorisk parameter 'key' saknas."
 
@@ -17276,7 +17276,7 @@ msgstr "Den nödvändiga parametern 'ticket_number' saknas."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Obligatorisk parameter 'user_id' saknas."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Obligatorisk parameter 'value' saknas."
 

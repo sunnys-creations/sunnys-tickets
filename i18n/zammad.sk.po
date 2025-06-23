@@ -7528,7 +7528,7 @@ msgstr "Rozšírené vyhľadávanie"
 msgid "External data source field"
 msgstr ""
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr ""
 
@@ -13268,7 +13268,7 @@ msgstr ""
 msgid "Please contact your administrator."
 msgstr "Kontaktujte prosím svojho administrátora."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17587,7 +17587,7 @@ msgstr "Chýba požadovaný parameter 'group_id'."
 msgid "The required parameter 'id' is missing."
 msgstr "Chýba požadovaný parameter 'id'."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Chýba povinný parameter 'key'."
 
@@ -17657,7 +17657,7 @@ msgstr "Chýba požadovaný parameter 'ticket_number'."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Chýba povinný parameter 'user_id'."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Chýba povinný parameter 'value'."
 

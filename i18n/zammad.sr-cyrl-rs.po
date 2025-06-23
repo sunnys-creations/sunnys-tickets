@@ -7516,7 +7516,7 @@ msgstr "Проширена претрага"
 msgid "External data source field"
 msgstr "Поље удаљеног извора података"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Издвоји информације о Zammad прилозима из низова"
 
@@ -12992,7 +12992,7 @@ msgstr "Молимо подесите извор увоза пре почетк�
 msgid "Please contact your administrator."
 msgstr "Молимо контактирајте администратора."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17167,7 +17167,7 @@ msgstr "Није пронађен обавезни параметар ’group_i
 msgid "The required parameter 'id' is missing."
 msgstr "Није пронађен обавезни параметар ’id’."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Није пронађен обавезни параметар ’key’."
 
@@ -17235,7 +17235,7 @@ msgstr "Није пронађен обавезни параметар ’ticket_
 msgid "The required parameter 'user_id' is missing."
 msgstr "Није пронађен обавезни параметар ’user_id’."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Није пронађен обавезни параметар ’value’."
 

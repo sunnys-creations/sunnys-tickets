@@ -7373,7 +7373,7 @@ msgstr "擴展搜尋"
 msgid "External data source field"
 msgstr "外部数据源字段"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "从阵列中提取Zammad-Attachment信息"
 
@@ -13242,7 +13242,7 @@ msgstr "请在运行前配置导入源。"
 msgid "Please contact your administrator."
 msgstr "请联系您的管理员。"
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17512,7 +17512,7 @@ msgstr "缺少所需的参数“ group_id”。"
 msgid "The required parameter 'id' is missing."
 msgstr "缺少所需的参数“ ID”。"
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "所需的参数“键”丢失。"
 
@@ -17582,7 +17582,7 @@ msgstr "缺少所需的参数“ ticket_number”。"
 msgid "The required parameter 'user_id' is missing."
 msgstr "缺少所需的参数“ user_id”。"
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "缺少所需的参数“值”。"
 

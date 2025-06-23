@@ -7773,7 +7773,7 @@ msgstr "Ətraflı axtarış"
 msgid "External data source field"
 msgstr "Xarici mənbələrdən məlumat sahəsi"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 #, fuzzy
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Zammad əlavələrindən məlumatların çıxarılması"
@@ -13777,7 +13777,7 @@ msgstr "Zəhmət olmasa başlamazdan əvvəl import mənbəyini konfiqurasiya ed
 msgid "Please contact your administrator."
 msgstr "Zəhmət olmasa administratorunuzla əlaqə saxlayın."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 #, fuzzy
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
@@ -18005,7 +18005,7 @@ msgstr ""
 msgid "The required parameter 'id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr ""
 
@@ -18075,7 +18075,7 @@ msgstr ""
 msgid "The required parameter 'user_id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr ""
 

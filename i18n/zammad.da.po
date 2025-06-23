@@ -7468,7 +7468,7 @@ msgstr "Udvidet søgning"
 msgid "External data source field"
 msgstr "intern"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr ""
 
@@ -13287,7 +13287,7 @@ msgstr ""
 msgid "Please contact your administrator."
 msgstr ""
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17801,7 +17801,7 @@ msgstr ""
 msgid "The required parameter 'id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 #, fuzzy
 #| msgid "Current password is wrong!"
 msgid "The required parameter 'key' is missing."
@@ -17877,7 +17877,7 @@ msgstr ""
 msgid "The required parameter 'user_id' is missing."
 msgstr "Nuværende adgangskode er forkert!"
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 #, fuzzy
 #| msgid "Current password is wrong!"
 msgid "The required parameter 'value' is missing."

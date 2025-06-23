@@ -8339,7 +8339,7 @@ msgstr "Cerca avançada"
 msgid "External data source field"
 msgstr "intern"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 #, fuzzy
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extract zammad-attachment information from arrays"
@@ -14854,7 +14854,7 @@ msgstr ""
 msgid "Please contact your administrator."
 msgstr "Please contact your administrator."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -19780,7 +19780,7 @@ msgstr "The required parameter 'group_id' is missing."
 msgid "The required parameter 'id' is missing."
 msgstr "The required parameter 'id' is missing."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 #, fuzzy
 msgid "The required parameter 'key' is missing."
 msgstr "The required parameter 'key' is missing."
@@ -19865,7 +19865,7 @@ msgstr "The required parameter 'ticket_number' is missing."
 msgid "The required parameter 'user_id' is missing."
 msgstr "The required parameter 'user_id' is missing."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 #, fuzzy
 msgid "The required parameter 'value' is missing."
 msgstr "The required parameter 'value' is missing."

@@ -7800,7 +7800,7 @@ msgstr "Wyszukiwanie zaawansowane"
 msgid "External data source field"
 msgstr "Pole zewnętrznego źródła danych"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Wyodrębnij informacje o dołączeniu zammad z tablic"
 
@@ -13726,7 +13726,7 @@ msgstr "Proszę skonfigurować źródło importu przed uruchomieniem."
 msgid "Please contact your administrator."
 msgstr "Skontaktuj się z administratorem."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -18150,7 +18150,7 @@ msgstr "Brak wymaganego parametru „group_id”."
 msgid "The required parameter 'id' is missing."
 msgstr "Brak wymaganego parametru „id”."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Brak wymaganego parametru „klucz”."
 
@@ -18220,7 +18220,7 @@ msgstr "Brak wymaganego parametru „signup”."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Brak wymaganego parametru „user_id”."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Brak wymaganego parametru „wartość”."
 

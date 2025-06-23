@@ -7875,7 +7875,7 @@ msgstr "Kibővített keresés"
 msgid "External data source field"
 msgstr "Külső adatbázis forrása mező"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Zammad-csatolmány információk kinyerése tömbökből"
 
@@ -13705,7 +13705,7 @@ msgstr "Kérjük, futtatás előtt konfigurálja az importálási forrást."
 msgid "Please contact your administrator."
 msgstr "Kérjük, lépjen kapcsolatba a rendszergazdájával."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -18126,7 +18126,7 @@ msgstr "A kötelező 'group_id' paraméter hiányzik."
 msgid "The required parameter 'id' is missing."
 msgstr "A kötelező 'id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18202,7 +18202,7 @@ msgstr "A kötelező 'ticket_number' paraméter hiányzik."
 msgid "The required parameter 'user_id' is missing."
 msgstr "A kötelező 'for_user_id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 #, fuzzy
 #| msgid "The required parameter 'locale' is missing."
 msgid "The required parameter 'value' is missing."

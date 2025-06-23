@@ -7637,7 +7637,7 @@ msgstr "Ricerca estesa"
 msgid "External data source field"
 msgstr "Campo dell'origine dati esterna"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Estrarre le informazioni degli allegati zammad dagli array"
 
@@ -13157,7 +13157,7 @@ msgstr "Configura l'origine dell'importazione prima dell'esecuzione."
 msgid "Please contact your administrator."
 msgstr "Contatta il tuo amministratore."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17380,7 +17380,7 @@ msgstr "Manca il parametro richiesto 'group_id'."
 msgid "The required parameter 'id' is missing."
 msgstr "Manca il parametro richiesto 'id'."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Non è stato fornito l'attributo obbligatorio 'chiave'."
 
@@ -17448,7 +17448,7 @@ msgstr "Manca il parametro richiesto 'ticket_number'."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Non è stato fornito l'attributo obbligatorio 'user_id'."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Non è stato fornito l'attributo obbligatorio 'valore'."
 

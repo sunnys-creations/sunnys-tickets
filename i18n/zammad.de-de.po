@@ -7666,7 +7666,7 @@ msgstr "Erweiterte Suche"
 msgid "External data source field"
 msgstr "Feld für externe Datenquelle"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrahieren von Zammad-Anhangsinformationen aus Arrays"
 
@@ -13218,7 +13218,7 @@ msgstr "Bitte konfigurieren Sie die Importquelle vor der Ausführung."
 msgid "Please contact your administrator."
 msgstr "Bitte kontaktieren Sie Ihren Administrator."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17468,7 +17468,7 @@ msgstr "Der erforderliche Parameter 'group_id' fehlt."
 msgid "The required parameter 'id' is missing."
 msgstr "Der erforderliche Parameter 'id' fehlt."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Der erforderliche Parameter 'key' fehlt."
 
@@ -17536,7 +17536,7 @@ msgstr "Der erforderliche Parameter 'ticket_number' fehlt."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Der erforderliche Parameter 'user_id' fehlt."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Der erforderliche Parameter 'value' fehlt."
 

@@ -7463,7 +7463,7 @@ msgstr "Išplėstinė paieška"
 msgid "External data source field"
 msgstr "Išorinio duomenų šaltinio laukelis"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Ištraukti zammad-attachment informaciją iš masyvų"
 
@@ -12930,7 +12930,7 @@ msgstr "Sukonfigūruokite importavimo šaltinį prieš paleisdami importavimą."
 msgid "Please contact your administrator."
 msgstr "Susisiekite su savo sistemos administratoriumi."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17092,7 +17092,7 @@ msgstr "Būtinas „group_id“ parametras."
 msgid "The required parameter 'id' is missing."
 msgstr "Būtinas „id“ parametras."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Būtinas „key“ parametras."
 
@@ -17160,7 +17160,7 @@ msgstr "Būtinas „ticket_number“ parametras."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Būtinas „user_id“ parametras."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Būtinas „value“ parametras."
 

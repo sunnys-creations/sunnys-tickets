@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-03 22:00+0000\n"
+"PO-Revision-Date: 2025-06-23 20:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ru/>\n"
@@ -7647,7 +7647,7 @@ msgstr "Расширенный поиск"
 msgid "External data source field"
 msgstr "Поле внешнего источника данных"
 
-#: lib/search_index_backend.rb:739
+#: lib/search_index_backend.rb:743
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Извлечение информации о вложениях zammad из массивов"
 
@@ -10909,7 +10909,7 @@ msgstr "Объединить заявки"
 
 #: app/assets/javascripts/app/views/agent_ticket_merge.jst.eco:2
 msgid "Merge to Ticket#"
-msgstr "Объединить в заявку №"
+msgstr "Объединить в заявку#"
 
 #: app/models/report.rb:75
 msgid "Merged"
@@ -10970,7 +10970,7 @@ msgstr "Метод"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:686
 msgid "Method (AJAX endpoint)"
-msgstr "Метод (конечная точка (endpoint) AJAX)"
+msgstr "Метод (AJAX endpoint)"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:91
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:54
@@ -11029,11 +11029,11 @@ msgstr "Перенести сейчас!"
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:10
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceOTRSDownloadButtons.vue:16
 msgid "Migration Plugin for %s"
-msgstr "Модуль переноса для %s"
+msgstr "Плагин миграции для %s"
 
 #: app/controllers/import_otrs_controller.rb:107
 msgid "Migrator can't read OTRS output!"
-msgstr "Плагина переноса не может прочитать вывод OTRS!"
+msgstr "Плагин переноса не может прочитать вывод из OTRS!"
 
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_git_issue.jst.eco:18
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/IssueTrackerList/IssueTrackerItem.vue:73
@@ -11042,7 +11042,7 @@ msgstr "Этап"
 
 #: db/seeds/settings.rb:2498
 msgid "Min. size of number"
-msgstr "Минимальный размер числа"
+msgstr "Мин. значение числа"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:378
 msgid "Minimal"
@@ -11121,7 +11121,7 @@ msgstr "Мониторинг"
 
 #: db/seeds/settings.rb:3561
 msgid "Monitoring Token"
-msgstr "Ключ мониторинга"
+msgstr "Токен мониторинга"
 
 #: app/assets/javascripts/app/views/report/time_range_picker.jst.eco:3
 msgid "Month"
@@ -11133,7 +11133,7 @@ msgstr "Месяц(а/ев)"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_escalation.jst.eco:3
 msgid "Mood"
-msgstr "Настроение"
+msgstr "Эскалированных заявок"
 
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceFreshdesk.vue:72
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceZendesk.vue:61
@@ -11163,7 +11163,7 @@ msgstr "Переместить ниже"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:341
 msgid "Move left and right"
-msgstr "Переместить вправо и влево"
+msgstr "Переместить влево и вправо"
 
 #: app/frontend/shared/form/i18n/locales.ts:50
 msgid "Move up"
@@ -11320,7 +11320,7 @@ msgstr "Название для этого ключа безопасности"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:39
 msgid "Name of form submit button"
-msgstr "Текст на кнопке"
+msgstr "Наименование кнопки при отправке формы"
 
 #: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
 msgid "Navigate through article"
@@ -11354,7 +11354,7 @@ msgstr "Необходимы параметры отпечатка!"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:180
 msgid "Need recipient in \"To\"."
-msgstr "Необходим получатель в поле \"Кому\" (\"TO\")."
+msgstr "Необходим получатель в поле \"Кому\" (\"To\")."
 
 #: lib/sessions/event/chat_base.rb:27
 msgid "Need session_id."
@@ -13187,7 +13187,7 @@ msgstr "Пожалуйста, настройте источник импорта
 msgid "Please contact your administrator."
 msgstr "Пожалуйста, свяжитесь с Вашим администратором."
 
-#: lib/selector/sql.rb:181
+#: lib/selector/sql.rb:184
 msgid ""
 "Please enable execution_time feature to use it (currently only allowed for "
 "triggers and schedulers)"
@@ -17424,7 +17424,7 @@ msgstr "Отсутствует обязательный параметр «Ид�
 msgid "The required parameter 'id' is missing."
 msgstr "Отсутствует обязательный параметр «Идентификатор» (id)."
 
-#: lib/search_index_backend.rb:662
+#: lib/search_index_backend.rb:666
 msgid "The required parameter 'key' is missing."
 msgstr "Отсутствует обязательный параметр «Ключ» (key)."
 
@@ -17502,7 +17502,7 @@ msgid "The required parameter 'user_id' is missing."
 msgstr ""
 "Отсутствует обязательный параметр «идентификатор_пользователя» (user_id)."
 
-#: lib/search_index_backend.rb:663
+#: lib/search_index_backend.rb:667
 msgid "The required parameter 'value' is missing."
 msgstr "Отсутствует обязательный параметр «значение» (value)."
 
@@ -22336,7 +22336,7 @@ msgstr "неправильная длина (должен быть 1 симво�
 
 #: app/models/user.rb:860
 msgid "is too long"
-msgstr "слишком длинный"
+msgstr "слишком длинный(ая/ое)"
 
 msgid "is too long (maximum is %{count} characters)"
 msgstr "слишком длинный(ая/ое) (максимум %{count} символ(а/ов))"
@@ -22379,7 +22379,7 @@ msgstr ""
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSeparatorMore.vue:18
 #: app/frontend/apps/mobile/pages/ticket/components/TicketList/TicketList.vue:140
 msgid "load %s more"
-msgstr "Загрузить ещё %s"
+msgstr "загрузить ещё %s"
 
 #: app/assets/javascripts/app/lib/app_post/pretty_date.coffee:120
 msgid "m"
@@ -22387,7 +22387,7 @@ msgstr "м"
 
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar/LeftSidebar/LeftSidebarHeader/OnlineNotification/NotificationPopover/NotificationHeader.vue:27
 msgid "mark all as read"
-msgstr "отметить все как прочитанное"
+msgstr "отметить всё как прочитанное"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:273
 msgid "match all modules"
@@ -22698,7 +22698,7 @@ msgstr "относительное - например, «2 часа назад»
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
 #: app/assets/javascripts/app/views/profile/linked_accounts.jst.eco:17
 msgid "remove"
-msgstr "Удалить"
+msgstr "удалить"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:170
 msgid "remove option"
@@ -22748,7 +22748,7 @@ msgstr "запустить макрос"
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/views/TicketOverviews.vue:99
 msgid "second level navigation sidebar"
-msgstr "Боковая панель навигации второго уровня"
+msgstr "боковая панель навигации второго уровня"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:43
 msgid "select"
