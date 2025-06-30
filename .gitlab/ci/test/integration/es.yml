@@ -24,4 +24,4 @@ rspec:es:latest:
   extends:
     - .template_integration_es
   variables:
-    ELASTICSEARCH_TAG: 'latest'
+    ELASTICSEARCH_TAG: '8'
