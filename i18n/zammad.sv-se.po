@@ -689,11 +689,11 @@ msgstr "%s% har återöppnats"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} kan ha full eller delvis åtkomst till grupp"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} finns redan"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} är ett reserverat ord"
 
@@ -3016,7 +3016,7 @@ msgstr ""
 "Försök igen."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3298,7 +3298,7 @@ msgstr "Kontrollera kanaler."
 msgid "Check item"
 msgstr "Markera post"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Kontrollera svar och nyttolast för detaljerad information:"
 
@@ -6585,7 +6585,7 @@ msgstr "Elasticsearch SSL verifikation"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Elasticsearch Total Payload Storlek"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7260,7 +7260,7 @@ msgstr ""
 msgid "Error"
 msgstr "Fel"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Fel under exekvering av automatisk guide."
 
@@ -7539,7 +7539,7 @@ msgstr "Utökad sökning"
 msgid "External data source field"
 msgstr "Externt datakällfält"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrahera zammad bilageinformation från fält"
 
@@ -9375,7 +9375,7 @@ msgstr "Ogiltig GitLab-konfiguration (saknar endpoint eller api_token)."
 msgid "Invalid GitLab issue link format"
 msgstr "Ogiltigt format för GitLab-problemlänk"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Ogiltig fil för automatisk guide."
 
@@ -12153,7 +12153,7 @@ msgstr "Offline"
 msgid "Ok"
 msgstr "Ok"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "Den %s skrev %s:"
@@ -13023,7 +13023,7 @@ msgstr ""
 "du kontrollera andra platser som det kan vara på, som ditt skräp, skräppost, "
 "sociala eller andra mappar."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Konfigurera importkällan innan du startar."
 
@@ -13088,7 +13088,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr "Gå vidare till att logga in"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Ange en mottagare i \"Till\" eller \"CC\"."
 
@@ -16207,7 +16207,7 @@ msgstr "Textredigering"
 msgid "Text field"
 msgstr "Textfält"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16226,7 +16226,7 @@ msgstr "Textmoduler"
 msgid "Text modules are …"
 msgstr "Textmoduler är …"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Text saknas"
 
@@ -16856,7 +16856,7 @@ msgstr ""
 "Installationen av paket medför säkerhetsproblem, eftersom godtycklig kod "
 "kommer att exekveras i samband med Zammad-applikationen."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17208,7 +17208,7 @@ msgstr "Den obligatoriska parametern 'group_id' saknas."
 msgid "The required parameter 'id' is missing."
 msgstr "Den obligatoriska parametern 'id' saknas."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "Obligatorisk parameter 'key' saknas."
 
@@ -17272,11 +17272,11 @@ msgstr "Den obligatoriska parametern 'signup' saknas."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Den nödvändiga parametern 'ticket_number' saknas."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr "Obligatorisk parameter 'user_id' saknas."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "Obligatorisk parameter 'value' saknas."
 
@@ -17315,7 +17315,7 @@ msgstr "Sekunder overlay"
 msgid "The selected date is invalid."
 msgstr "Det valda datumet är ogiltigt."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "Servern visade ett certifikat som inte kunde verifieras."
 
@@ -18159,6 +18159,17 @@ msgstr "Denna signatur är inaktiv, den kommer inte att inkluderas i svaret."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr ""
+"Systemet har redan konfigurerats och det finns ett administratörskonto."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
 msgstr ""
 "Systemet har redan konfigurerats och det finns ett administratörskonto."
 
@@ -21385,7 +21396,7 @@ msgstr "tilldela ärenden"
 msgid "at"
 msgstr "kl"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "åtminstone en bokstav krävs"
 
@@ -21394,7 +21405,7 @@ msgstr "åtminstone en bokstav krävs"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "Bifogad fil,bifogad,bifogad,bifogad"
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "Attributet är inte redigerbart"
 
@@ -21428,11 +21439,11 @@ msgstr "upptagen"
 msgid "camera,image,photo,picture"
 msgstr "kamera,bild,foto,bild"
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "kan endast skapas på postgresql-databaser"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21446,7 +21457,7 @@ msgstr "kan inte vara blank"
 msgid "can't be empty"
 msgstr "kan inte vara tom"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "kan inte användas eftersom *_id och *_ids inte är tillåtna"
 
@@ -22304,7 +22315,7 @@ msgstr "notifieringar,ärenden"
 msgid "now"
 msgstr "nu"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "endast små bokstäver, siffror och '_' är tillåtna"
 
@@ -22565,7 +22576,7 @@ msgstr "skippad"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "mellanslag är inte tillåtna"
 

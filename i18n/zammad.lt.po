@@ -689,11 +689,11 @@ msgstr "%s% vėl atidaryti"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} gali turėti pilną arba dalinę prieigą prie grupės"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} jau egzistuoja"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} yra rezervuotas žodis"
 
@@ -3011,7 +3011,7 @@ msgstr ""
 "kartą."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3294,7 +3294,7 @@ msgstr "Patikrinti kanalus."
 msgid "Check item"
 msgstr "Pažymėti punktą kaip padarytą"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Išsamesnės informacijos ieškokite atsakyme ir siųstus duomenis:"
 
@@ -6521,7 +6521,7 @@ msgstr "Elasticsearch SSL verifikacija"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Elasticsearch suminis pateikiamų duomenų dydis"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7184,7 +7184,7 @@ msgstr "Įrašų duombazėje kiekis (trikčių kiekis, naudotojų kiekis ir t.t.
 msgid "Error"
 msgstr "Klaida"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Klaida vykdant automatinio vedlio instrukcijas."
 
@@ -7463,7 +7463,7 @@ msgstr "Išplėstinė paieška"
 msgid "External data source field"
 msgstr "Išorinio duomenų šaltinio laukelis"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Ištraukti zammad-attachment informaciją iš masyvų"
 
@@ -9290,7 +9290,7 @@ msgstr ""
 msgid "Invalid GitLab issue link format"
 msgstr "Netinkamas GitLab trikties nuorodos formatas"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Netinkamas automatinio vedlio failas."
 
@@ -12066,7 +12066,7 @@ msgstr "Atsijungęs"
 msgid "Ok"
 msgstr "Gerai"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "%s, %s rašė:"
@@ -12922,7 +12922,7 @@ msgstr ""
 "Paspauskite patvirtinimo nuorodą el. laiške. Jei negavote laiško, "
 "patikrinkite šlamštadėžę ar naujienlaiškių bei socialinių tinklų aplankus."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Sukonfigūruokite importavimo šaltinį prieš paleisdami importavimą."
 
@@ -12987,7 +12987,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr "Prisijunkite"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Įveskite gavėję „Kam“ arba „CC kopijos“ laukelyje."
 
@@ -16099,7 +16099,7 @@ msgstr "Teksto redagavimas"
 msgid "Text field"
 msgstr "Teksto laukelis"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16118,7 +16118,7 @@ msgstr "Teksto moduliai"
 msgid "Text modules are …"
 msgstr "Teksto moduliai yra…"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Reikalingas tekstas"
 
@@ -16743,7 +16743,7 @@ msgstr ""
 "Paketų diegimas yra saugumui jautrus veiksmas. Paketuose esantis kodas bus "
 "paleidžiamas kaip Zammad aplikacija."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17092,7 +17092,7 @@ msgstr "Būtinas „group_id“ parametras."
 msgid "The required parameter 'id' is missing."
 msgstr "Būtinas „id“ parametras."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "Būtinas „key“ parametras."
 
@@ -17156,11 +17156,11 @@ msgstr "Būtinas „signup“ parametras."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Būtinas „ticket_number“ parametras."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr "Būtinas „user_id“ parametras."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "Būtinas „value“ parametras."
 
@@ -17196,7 +17196,7 @@ msgstr "Sekundžių meniu"
 msgid "The selected date is invalid."
 msgstr "Pasirinkta data yra netinkama."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "Serveris pateikė sertifikatą kurio nepavyko patikrinti."
 
@@ -18026,6 +18026,16 @@ msgstr "Parašas neaktyvus, jis nebus įtrauktas į atsakymą."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr "Ši sistema jau sukonfigūruota ir administratoriaus paskyra jau yra."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
 msgstr "Ši sistema jau sukonfigūruota ir administratoriaus paskyra jau yra."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
@@ -21238,7 +21248,7 @@ msgstr "priskirti triktis"
 msgid "at"
 msgstr "@"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "reikia bent vienos raidės"
 
@@ -21247,7 +21257,7 @@ msgstr "reikia bent vienos raidės"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "prisegu,failas,pridedu,prisegamas,prisegtas,failai,prisegti,prisegami"
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "atributas negali būti redaguojamas"
 
@@ -21281,11 +21291,11 @@ msgstr "užimta"
 msgid "camera,image,photo,picture"
 msgstr "avataras,foto,kamera,paveiksliukas,nuotrauka,image,photo"
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "gali būti sukurta tik naudojant PostgreSQL duombazę"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21298,7 +21308,7 @@ msgstr "negali būti tuščias"
 msgid "can't be empty"
 msgstr "negali būti tuščias"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "negali būti naudojama, nes *_id ir *_ids neleidžiama"
 
@@ -22155,7 +22165,7 @@ msgstr "pranešimai,triktys,notifications,žinutės"
 msgid "now"
 msgstr "dabar"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "leidžiama tik mažosios raidės, skaičiai ir „_“"
 
@@ -22414,7 +22424,7 @@ msgstr "praleistas"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "neleidžiami tarpai"
 

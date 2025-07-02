@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-18 22:00+0000\n"
+"PO-Revision-Date: 2025-07-01 22:00+0000\n"
 "Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
@@ -698,11 +698,11 @@ msgstr "%s% yeniden açıldı"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} gruba tam veya ayrıntılı erişime sahip olabilir"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} zaten mevcut"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} ayrılmış bir sözcüktür"
 
@@ -3042,7 +3042,7 @@ msgstr ""
 "deneyin."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3326,7 +3326,7 @@ msgstr "Kanalları kontrol edin."
 msgid "Check item"
 msgstr "Öğeyi kontrol edin"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Ayrıntılı bilgi için yanıtı ve payload'u kontrol edin:"
 
@@ -3366,7 +3366,8 @@ msgstr ""
 
 #: app/models/checklist/item.rb:108
 msgid "Checklist items are limited to 100 items per checklist."
-msgstr "Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
+msgstr ""
+"Kontrol listesi öğeleri, kontrol listesi başına 100 öğe ile sınırlıdır."
 
 #: app/models/checklist.rb:100
 msgid "Checklist template must be active to use as a checklist starting point."
@@ -6647,7 +6648,7 @@ msgstr "Elasticsearch SSL doğrulaması"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Elasticsearch Toplam Payload Boyutu"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7322,7 +7323,7 @@ msgstr ""
 msgid "Error"
 msgstr "Hata"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Otomatik sihirbazın yürütülmesi sırasında hata oluştu."
 
@@ -7604,7 +7605,7 @@ msgstr "Extended Search"
 msgid "External data source field"
 msgstr "Harici veri kaynağı alanı"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Dizilerden zammad-eki bilgilerini ayıklayın"
 
@@ -9460,7 +9461,7 @@ msgstr "Geçersiz GitLab yapılandırması (eksik uç nokta veya api_token)."
 msgid "Invalid GitLab issue link format"
 msgstr "Geçersiz GitHub issue bağlantı formatı"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Geçersiz otomatik sihirbaz dosyası."
 
@@ -12237,7 +12238,7 @@ msgstr "Çevrimdışı"
 msgid "Ok"
 msgstr "Tamam"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "On %s, %s wrote:"
@@ -13111,7 +13112,7 @@ msgstr ""
 "görmüyorsanız, önemsiz, spam, sosyal veya diğer klasörleriniz gibi "
 "olabileceği diğer yerleri kontrol edin."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Lütfen çalıştırmadan önce içe aktarma kaynağını yapılandırın."
 
@@ -13178,7 +13179,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr "Lütfen giriş yapınız"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Lütfen \"Kime\" veya \"Bilgi\" bölümünde bir alıcı belirtin."
 
@@ -15189,7 +15190,7 @@ msgstr ""
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/changeVisibility.ts:33
 msgid "Set to internal"
-msgstr "Dahili olarak ayarla"
+msgstr "İç not olarak ayarla"
 
 #: app/frontend/shared/entities/ticket-article/action/plugins/changeVisibility.ts:34
 msgid "Set to public"
@@ -16310,7 +16311,7 @@ msgstr "Text editing"
 msgid "Text field"
 msgstr "Metin alanı"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16329,7 +16330,7 @@ msgstr "Text modules"
 msgid "Text modules are …"
 msgstr "Metin modülleri …"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Metin gerekli"
 
@@ -16602,7 +16603,8 @@ msgstr "Sertifika, verilen özel anahtarla eşleşmiyor."
 #: lib/secure_mailing/smime/security_options.rb:39
 msgid ""
 "The certificate for %s was found, but it is not valid yet or has expired."
-msgstr "%s için sertifika bulundu, ancak henüz geçerli değil veya süresi doldu."
+msgstr ""
+"%s için sertifika bulundu, ancak henüz geçerli değil veya süresi doldu."
 
 #: lib/secure_mailing/smime/security_options.rb:37
 msgid "The certificate for %s was found."
@@ -16959,7 +16961,7 @@ msgstr ""
 "Paketlerin kurulumu, Zammad uygulaması bağlamında isteğe bağlı kod "
 "yürütüleceğinden, güvenlik etkileriyle birlikte gelir."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17304,7 +17306,7 @@ msgstr "Gerekli parametre 'group_id' eksik."
 msgid "The required parameter 'id' is missing."
 msgstr "Gerekli parametre 'id' eksik."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "Gerekli 'key' parametresi eksik."
 
@@ -17368,11 +17370,11 @@ msgstr "Gerekli 'signup' parametresi eksik."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Gerekli 'ticket_number' parametresi eksik."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr "Gerekli parametre 'user_id' eksik."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "Gerekli parametre 'value' eksik."
 
@@ -17409,7 +17411,7 @@ msgstr "Saniye katmanı"
 msgid "The selected date is invalid."
 msgstr "Seçilen tarih geçersizdir."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "Sunucu doğrulanamayan bir sertifika sundu."
 
@@ -18257,6 +18259,16 @@ msgstr "Bu imza etkin değildir, yanıta dahil edilmeyecektir."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr "Bu sistem zaten yapılandırılmıştır ve bir yönetici hesabı mevcuttur."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
 msgstr "Bu sistem zaten yapılandırılmıştır ve bir yönetici hesabı mevcuttur."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
@@ -21511,7 +21523,7 @@ msgstr "assign tickets"
 msgid "at"
 msgstr "at"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "en az bir harf gereklidir"
 
@@ -21520,7 +21532,7 @@ msgstr "en az bir harf gereklidir"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "ek,ekli,içinde,eklenti"
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "öznitelik düzenlenebilir değildir"
 
@@ -21554,11 +21566,11 @@ msgstr "busy"
 msgid "camera,image,photo,picture"
 msgstr "kamera,görüntü,fotoğraf,resim"
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "yalnızca postgresql veritabanlarında oluşturulabilir"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21572,7 +21584,7 @@ msgstr "boş olamaz"
 msgid "can't be empty"
 msgstr "boş olamaz"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "kullanılamaz çünkü *_id ve *_ids'ye izin verilmez"
 
@@ -22432,7 +22444,7 @@ msgstr "bildirimler,destek talepleri"
 msgid "now"
 msgstr "şimdi"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "yalnızca küçük harfler, sayılar ve '_' karakterine izin verilir"
 
@@ -22691,7 +22703,7 @@ msgstr "atlandı"
 msgid "sms"
 msgstr "kısa mesaj"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "boşluklara izin verilmiyor"
 

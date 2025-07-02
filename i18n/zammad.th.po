@@ -684,11 +684,11 @@ msgstr "%s% ถูกเปิดขึ้นอีกครั้ง"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} สามารถเข้าถึงกลุ่มได้ทั้งแบบละเอียดและแบบละเอียด"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} already exists"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} เป็นคําที่สงวนไว้"
 
@@ -2957,7 +2957,7 @@ msgid ""
 msgstr "ไม่สามารถอัปเดตรหัสผ่านได้ รหัสผ่านที่คุณป้อนไม่ตรงกัน โปรดลองอีกครั้ง"
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3239,7 +3239,7 @@ msgstr "ตรวจสอบช่องทางสื่อสาร"
 msgid "Check item"
 msgstr "รายการตรวจสอบ"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "ตรวจสอบการตอบสนองและเพย์โหลดสำหรับข้อมูลโดยละเอียด:"
 
@@ -6573,7 +6573,7 @@ msgstr "SSL verification"
 msgid "Elasticsearch Total Payload Size"
 msgstr ""
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7242,7 +7242,7 @@ msgstr "จำนวนเอนทิตีของวัตถุในฐา
 msgid "Error"
 msgstr "ข้อผิดพลาด"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "เกิดข้อผิดพลาดขณะเรียกใช้ตัวช่วยสร้างอัตโนมัติ"
 
@@ -7546,7 +7546,7 @@ msgstr "การค้นหาเพิ่มเติม"
 msgid "External data source field"
 msgstr "ภายใน"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr ""
 
@@ -9481,7 +9481,7 @@ msgstr ""
 msgid "Invalid GitLab issue link format"
 msgstr ""
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr ""
 
@@ -12509,7 +12509,7 @@ msgstr "ออฟไลน์"
 msgid "Ok"
 msgstr "ตกลง"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "เมื่อ %s %s เขียนว่า:"
@@ -13457,7 +13457,7 @@ msgid ""
 "other folders."
 msgstr ""
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr ""
 
@@ -13525,7 +13525,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 #, fuzzy
 #| msgid "Need recipient in \"TO\" or \"CC\"."
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
@@ -16906,7 +16906,7 @@ msgstr "แก้ไขข้อความ"
 msgid "Text field"
 msgstr "ช่องข้อความ"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16925,7 +16925,7 @@ msgstr ""
 msgid "Text modules are …"
 msgstr "โมดูลข้อความ…"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr ""
 
@@ -17629,7 +17629,7 @@ msgstr ""
 "การติดตั้งแพ็คเกจมาพร้อมกับความปลอดภัย "
 "เนื่องจากรหัสที่กำหนดเองจะถูกดำเนินการในบริบทของแอปพลิเคชัน Zammad"
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18024,7 +18024,7 @@ msgstr ""
 msgid "The required parameter 'id' is missing."
 msgstr ""
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 #, fuzzy
 #| msgid "The required parameter 'payload->class_name' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18098,13 +18098,13 @@ msgstr ""
 msgid "The required parameter 'ticket_number' is missing."
 msgstr ""
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 #, fuzzy
 #| msgid "The required parameter 'payload->class_name' is missing."
 msgid "The required parameter 'user_id' is missing."
 msgstr "ไม่มีพารามิเตอร์ที่จำเป็น 'payload->class_name'"
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 #, fuzzy
 #| msgid "The required parameter 'payload->class_name' is missing."
 msgid "The required parameter 'value' is missing."
@@ -18146,7 +18146,7 @@ msgstr "เปิดกล่องโน้ต"
 msgid "The selected date is invalid."
 msgstr "ภาพที่ปรับขนาดไม่ถูกต้อง"
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 #, fuzzy
 #| msgid "The file could not be uploaded."
 msgid "The server presented a certificate that could not be verified."
@@ -19038,6 +19038,12 @@ msgstr ""
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr ""
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+msgid "This system has already been configured."
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
@@ -22357,7 +22363,7 @@ msgstr "กำหนด tickets"
 msgid "at"
 msgstr "ที่"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 #, fuzzy
 #| msgid "At least one letter is required"
 msgid "at least one letter is required"
@@ -22368,7 +22374,7 @@ msgstr "ต้องมีตัวอักษรอย่างน้อยห
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "คุณสมบัตินี้ไม่สามารถแก้ไขได้"
 
@@ -22402,11 +22408,11 @@ msgstr "ไม่ว่าง"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22418,7 +22424,7 @@ msgstr ""
 msgid "can't be empty"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr ""
 
@@ -23345,7 +23351,7 @@ msgstr "การแจ้งเตือน"
 msgid "now"
 msgstr "ขณะนี้"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr ""
 
@@ -23622,7 +23628,7 @@ msgstr "ข้าม"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "ไม่อนุญาตให้ใช้ช่องว่าง"
 

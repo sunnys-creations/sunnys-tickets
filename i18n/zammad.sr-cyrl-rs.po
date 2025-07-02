@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-04 09:00+0000\n"
+"PO-Revision-Date: 2025-07-02 09:37+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (Cyrillic script) <https://translations.zammad.org/"
 "projects/zammad/zammad-stable/sr_Cyrl/>\n"
@@ -691,11 +691,11 @@ msgstr "%s% је поново отворено"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} може имати потпун или ограничен приступ групи"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} већ постоји"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} је резервисана реч"
 
@@ -3015,7 +3015,7 @@ msgstr ""
 "покушајте поново."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3297,7 +3297,7 @@ msgstr "Проверава канале."
 msgid "Check item"
 msgstr "Означи задатак"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Проверите одговор и податке испод за више информација:"
 
@@ -6566,7 +6566,7 @@ msgstr "Elasticsearch SSL провера"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Укупна величина Elasticsearch података"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7236,7 +7236,7 @@ msgstr "Број објеката у бази података (нпр. број
 msgid "Error"
 msgstr "Грешка"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Грешка приликом извршавања аутоматског асистента."
 
@@ -7516,7 +7516,7 @@ msgstr "Проширена претрага"
 msgid "External data source field"
 msgstr "Поље удаљеног извора података"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Издвоји информације о Zammad прилозима из низова"
 
@@ -9347,7 +9347,7 @@ msgstr "Неисправна GitLab конфигурација (недостај
 msgid "Invalid GitLab issue link format"
 msgstr "Неисправан формат GitLab извештаја"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Неисправна датотека аутоматског асистента."
 
@@ -12121,7 +12121,7 @@ msgstr "Одсутан(а)"
 msgid "Ok"
 msgstr "У реду"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "У %s, %s је написао/ла:"
@@ -12984,7 +12984,7 @@ msgstr ""
 "поруку, проверите и друга места као што су фолдери нежељене поште, "
 "друштвених мрежа и сл."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Молимо подесите извор увоза пре почетка."
 
@@ -13051,7 +13051,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr "Молимо наставите на пријаву"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Неопходан прималац у „За” или „CC”."
 
@@ -16170,7 +16170,7 @@ msgstr "Уређивање текста"
 msgid "Text field"
 msgstr "Поље текста"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16189,7 +16189,7 @@ msgstr "Текстуални исечци"
 msgid "Text modules are …"
 msgstr "Текстуални исечци су …"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Неопходан текст"
 
@@ -16817,7 +16817,7 @@ msgstr ""
 "Инсталација пакета долази са безбедносним ризицима, зато што ће произвољан "
 "код бити извршен у контексту Zammad апликације."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17167,7 +17167,7 @@ msgstr "Није пронађен обавезни параметар ’group_i
 msgid "The required parameter 'id' is missing."
 msgstr "Није пронађен обавезни параметар ’id’."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "Није пронађен обавезни параметар ’key’."
 
@@ -17231,11 +17231,11 @@ msgstr "Није пронађен обавезни параметар ’signup�
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Није пронађен обавезни параметар ’ticket_number’."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr "Није пронађен обавезни параметар ’user_id’."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "Није пронађен обавезни параметар ’value’."
 
@@ -17273,7 +17273,7 @@ msgstr "Одабир секунди"
 msgid "The selected date is invalid."
 msgstr "Одабран датум је неважећи."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "Сервер користи сертификат који није било могуће проверити."
 
@@ -18107,6 +18107,12 @@ msgstr "Овај потпис је искључен, неће бити убач�
 msgid ""
 "This system has already been configured and an administrator account exists."
 msgstr "Овај систем је већ постављен и налог администратора постоји."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+msgid "This system has already been configured."
+msgstr "Овај систем је већ постављен."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
 msgid "This system is configured for automated setup."
@@ -21329,7 +21335,7 @@ msgstr "додели тикете"
 msgid "at"
 msgstr "у"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "неопходно је бар једно слово"
 
@@ -21338,7 +21344,7 @@ msgstr "неопходно је бар једно слово"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "прилог,приложен,атачован,атачмент"
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "није могуће изменити атрибут"
 
@@ -21372,11 +21378,11 @@ msgstr "заузет(а)"
 msgid "camera,image,photo,picture"
 msgstr "камера,сличица,фотографија,слика"
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "могуће је додати само за postgresql базе података"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21390,7 +21396,7 @@ msgstr "не може бити празно"
 msgid "can't be empty"
 msgstr "не може бити празно"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "није могућа употреба зато што _id и *_ids нису дозвољени"
 
@@ -22247,7 +22253,7 @@ msgstr "обавештења,тикети"
 msgid "now"
 msgstr "сад"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "дозвољена су само мала слова, бројеви и ’_’"
 
@@ -22506,7 +22512,7 @@ msgstr "прескочено"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "размаци нису дозвољени"
 

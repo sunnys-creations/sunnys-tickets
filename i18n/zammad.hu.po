@@ -710,11 +710,11 @@ msgstr "%s% újra meg lett nyitva"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} teljes vagy részletes hozzáféréssel rendelkezhet a csoporthoz"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} már létezik"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} egy foglalt szó"
 
@@ -3124,7 +3124,7 @@ msgstr ""
 "próbálja meg újra."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3421,7 +3421,7 @@ msgstr "Ellenőrizze a csatornákat."
 msgid "Check item"
 msgstr "Checkmk"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr ""
 "A részletes információkért ellenőrizze a választ és a hasznos terhelést:"
@@ -6892,7 +6892,7 @@ msgstr "Elasticsearch SSL ellenőrzés"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Elasticsearch teljes hasznos terhelés mérete"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7584,7 +7584,7 @@ msgstr ""
 msgid "Error"
 msgstr "Hiba"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Hiba az automatikus varázsló végrehajtása során."
 
@@ -7875,7 +7875,7 @@ msgstr "Kibővített keresés"
 msgid "External data source field"
 msgstr "Külső adatbázis forrása mező"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Zammad-csatolmány információk kinyerése tömbökből"
 
@@ -9795,7 +9795,7 @@ msgstr ""
 msgid "Invalid GitLab issue link format"
 msgstr "Érvénytelen GitLab probléma link formátum"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Érvénytelen automatikus varázsló fájl."
 
@@ -12775,7 +12775,7 @@ msgstr "Offline"
 msgid "Ok"
 msgstr "Ok"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr ""
@@ -13697,7 +13697,7 @@ msgstr ""
 "látja az e-mailt, ellenőrizze más helyeken, például a levélszemét, a spam, a "
 "közösségi vagy más mappákban."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Kérjük, futtatás előtt konfigurálja az importálási forrást."
 
@@ -13763,7 +13763,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Kérjük, adja meg a címzettet a \"TO\" vagy \"CC\" mezőben."
 
@@ -16990,7 +16990,7 @@ msgstr "Szövegszerkesztés"
 msgid "Text field"
 msgstr "Szövegmező"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -17009,7 +17009,7 @@ msgstr "Szövegmodulok"
 msgid "Text modules are …"
 msgstr "A szövegmodulok …"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Szöveg szükséges"
 
@@ -17729,7 +17729,7 @@ msgstr ""
 "A csomagok telepítése biztonsági következményekkel jár, mivel tetszőleges "
 "kódot hajtanak végre a Zammad alkalmazás kontextusában."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18126,7 +18126,7 @@ msgstr "A kötelező 'group_id' paraméter hiányzik."
 msgid "The required parameter 'id' is missing."
 msgstr "A kötelező 'id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18196,13 +18196,13 @@ msgstr "A kötelező 'signup' paraméter hiányzik."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "A kötelező 'ticket_number' paraméter hiányzik."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 #, fuzzy
 #| msgid "The required parameter 'for_user_id' is missing."
 msgid "The required parameter 'user_id' is missing."
 msgstr "A kötelező 'for_user_id' paraméter hiányzik."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 #, fuzzy
 #| msgid "The required parameter 'locale' is missing."
 msgid "The required parameter 'value' is missing."
@@ -18244,7 +18244,7 @@ msgstr "Megjegyzés mező megnyitása"
 msgid "The selected date is invalid."
 msgstr "A kiválasztott dátum érvénytelen."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 #, fuzzy
 #| msgid "The file could not be uploaded."
 msgid "The server presented a certificate that could not be verified."
@@ -19148,6 +19148,17 @@ msgstr "Ez az aláírás inaktív, nem kerül bele a válaszba."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr ""
+"Ez a rendszer már konfigurálva van, és létezik egy rendszergazdai fiók."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
 msgstr ""
 "Ez a rendszer már konfigurálva van, és létezik egy rendszergazdai fiók."
 
@@ -22542,7 +22553,7 @@ msgstr "jegyek hozzárendelése"
 msgid "at"
 msgstr "ekkor"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "legalább egy betű szükséges"
 
@@ -22551,7 +22562,7 @@ msgstr "legalább egy betű szükséges"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "a tulajdonság nem szerkeszthető"
 
@@ -22585,11 +22596,11 @@ msgstr "elfoglalt"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22603,7 +22614,7 @@ msgstr "nem lehet üres"
 msgid "can't be empty"
 msgstr "nem lehet üres"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "nem használható, mert *_id és *_ids nem engedélyezettek"
 
@@ -23505,7 +23516,7 @@ msgstr "Értesítések"
 msgid "now"
 msgstr "most"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "csak kisbetűk, számok és '_' engedélyezettek"
 
@@ -23779,7 +23790,7 @@ msgstr "kihagyott"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "szóközök nem engedélyezettek"
 

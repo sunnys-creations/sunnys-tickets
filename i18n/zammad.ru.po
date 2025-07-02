@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-23 20:00+0000\n"
+"PO-Revision-Date: 2025-06-25 22:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ru/>\n"
@@ -701,11 +701,11 @@ msgstr "%s% были повторно открыты"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} может иметь полный или ограниченный доступ к группе"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} уже существует"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} — зарезервированное слово"
 
@@ -3060,7 +3060,7 @@ msgstr ""
 "повторите попытку."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3345,7 +3345,7 @@ msgstr "Проверка каналов."
 msgid "Check item"
 msgstr "Проверить элемент"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Подробную информацию см. в ответе и полезных данных:"
 
@@ -6676,7 +6676,7 @@ msgstr "Проверка SSL в Elasticsearch"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Общий размер полезной нагрузки Elasticsearch"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7364,7 +7364,7 @@ msgstr ""
 msgid "Error"
 msgstr "Ошибка"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Ошибка во время работы мастера автоматизации."
 
@@ -7647,7 +7647,7 @@ msgstr "Расширенный поиск"
 msgid "External data source field"
 msgstr "Поле внешнего источника данных"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Извлечение информации о вложениях zammad из массивов"
 
@@ -9514,7 +9514,7 @@ msgstr ""
 msgid "Invalid GitLab issue link format"
 msgstr "Неверный формат ссылки на проблему GitLab"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Файл мастера автоматизации поврежден."
 
@@ -11945,7 +11945,7 @@ msgstr "Нет активных триггеров"
 
 #: app/assets/javascripts/app/views/widget/online_notification.jst.eco:8
 msgid "No unread notifications for you. :)"
-msgstr "Нет непрочитанных уведомлений"
+msgstr "Для Вас нет непрочитанных уведомлений. :)"
 
 #: app/frontend/apps/desktop/components/layout/LayoutSidebar/LeftSidebar/LeftSidebarHeader/OnlineNotification/NotificationPopover/NotificationList.vue:22
 msgid "No unread notifications."
@@ -12305,7 +12305,7 @@ msgstr "Оффлайн"
 msgid "Ok"
 msgstr "Хорошо"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "На %s, %s написал(а):"
@@ -13179,7 +13179,7 @@ msgstr ""
 "письмо, проверьте другие места, где оно может находиться, например, папки "
 "\"Нежелательная почта\", \"Спам\", \"Социальные сети\" или другие."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Пожалуйста, настройте источник импорта перед запуском."
 
@@ -13246,7 +13246,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr "Пожалуйста, перейдите к входу в систему"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr ""
 "Пожалуйста, укажите получателя в поле \"Кому\" (\"TO\") или \"Копия\" "
@@ -14287,7 +14287,7 @@ msgstr "Повторить"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleMediaError.vue:43
 msgid "Retry Attachment Download"
-msgstr "Повторите попытку загрузки вложения"
+msgstr "Повторить загрузку вложения"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleSecurityWarning.vue:37
 msgid "Retry Security Process"
@@ -14295,7 +14295,7 @@ msgstr "Повторное выполнение процесса обеспеч�
 
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:112
 msgid "Retry attachment download"
-msgstr "Повторите попытку загрузки вложения"
+msgstr "Повторить загрузку вложения"
 
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:97
 msgid "Retry security process"
@@ -14317,7 +14317,7 @@ msgstr "Ретвиты (Retweets) преобразуются в заявки."
 
 #: app/models/webhook/pre_defined/rocket_chat.rb:5
 msgid "Rocket Chat Notifications"
-msgstr "Уведомления в чате Rocket"
+msgstr "Уведомления в Rocket Chat"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:279
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:216
@@ -14349,12 +14349,12 @@ msgstr "Роли:"
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:111
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:121
 msgid "Rollback migration"
-msgstr "Откат переноса"
+msgstr "Откат миграции"
 
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:219
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:241
 msgid "Rollback of channel migration succeeded!"
-msgstr "Откат переноса канала выполнен успешно!"
+msgstr "Откат миграции канала выполнен успешно!"
 
 #: app/assets/javascripts/app/controllers/_ui_element/object_manager_attribute.coffee:310
 msgid "Rows"
@@ -16394,7 +16394,7 @@ msgstr "Редактирование текста"
 msgid "Text field"
 msgstr "Текстовое поле"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16413,7 +16413,7 @@ msgstr "Текстовые модули"
 msgid "Text modules are …"
 msgstr "Текстовые модули…"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Необходим текст"
 
@@ -17052,7 +17052,7 @@ msgstr ""
 "Установка пакетов сопряжена с проблемами безопасности, поскольку "
 "произвольный код будет выполняться в контексте приложения Zammad."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17424,7 +17424,7 @@ msgstr "Отсутствует обязательный параметр «Ид�
 msgid "The required parameter 'id' is missing."
 msgstr "Отсутствует обязательный параметр «Идентификатор» (id)."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "Отсутствует обязательный параметр «Ключ» (key)."
 
@@ -17497,12 +17497,12 @@ msgstr "Отсутствует обязательный параметр «ре�
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Отсутствует обязательный параметр «номер_заявки» (ticket_number)."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr ""
 "Отсутствует обязательный параметр «идентификатор_пользователя» (user_id)."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "Отсутствует обязательный параметр «значение» (value)."
 
@@ -17542,7 +17542,7 @@ msgstr "Оверлей секунд"
 msgid "The selected date is invalid."
 msgstr "Выбранная дата недействительна."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "Сервер предоставил сертификат, который не удалось проверить."
 
@@ -18406,6 +18406,17 @@ msgid ""
 msgstr ""
 "Эта система уже настроена, и в ней существует учетная запись администратора."
 
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
+msgstr ""
+"Эта система уже настроена, и в ней существует учетная запись администратора."
+
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
 msgid "This system is configured for automated setup."
 msgstr "Эта система настроена на автоматическую установку."
@@ -18690,7 +18701,7 @@ msgstr "Эскалация заявки"
 
 #: app/assets/javascripts/app/lib/mixins/ticket_mass_updatable.coffee:33
 msgid "Ticket failed to save: %s"
-msgstr "Заявку не удалось сохранить: %s"
+msgstr "Не удалось сохранить заявку: %s"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketDetailViewHeader.vue:95
 msgid "Ticket has %s viewers"
@@ -20182,7 +20193,7 @@ msgstr "Пользователь"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:16
 msgid "User (censored):"
-msgstr "Пользователь (цензура):"
+msgstr "Пользователь (цензурировано):"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:47
 msgid "User Filter"
@@ -21485,7 +21496,7 @@ msgid ""
 "Zammad Forms requires jQuery. If you don't already use it on your website, "
 "you can add it like this:"
 msgstr ""
-"Формы Zammad требует jQuery. Если Вы еще не используете его на своем веб-"
+"Формам Zammad необходим jQuery. Если Вы еще не используете его на своем веб-"
 "сайте, Вы можете добавить его следующим образом:"
 
 #: db/seeds/community_user_resources.rb:5
@@ -21666,7 +21677,7 @@ msgstr "назначить заявки"
 msgid "at"
 msgstr "в"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "необходим хотя бы один символ"
 
@@ -21675,7 +21686,7 @@ msgstr "необходим хотя бы один символ"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "вложение, вложенный, прикреплённый"
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "атрибут недоступен для редактирования"
 
@@ -21709,11 +21720,11 @@ msgstr "занят"
 msgid "camera,image,photo,picture"
 msgstr "камера, изображение, фото, картинка"
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "может быть создано только в базах данных postgresql"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21727,7 +21738,7 @@ msgstr "не может быть пустым(ой)"
 msgid "can't be empty"
 msgstr "не может быть пустым(ой)"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "не может быть использован, потому что *_id и *_ids недопустимы"
 
@@ -22588,7 +22599,7 @@ msgstr "уведомления,заявки"
 msgid "now"
 msgstr "сейчас"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "Разрешены только строчные буквы, цифры и «_»"
 
@@ -22847,7 +22858,7 @@ msgstr "пропущено"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "пробелы не допускаются"
 

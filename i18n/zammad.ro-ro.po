@@ -701,11 +701,11 @@ msgstr "%s% au fost redeschise"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} poate avea acces complet sau granular la grup"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} există deja"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} este un cuvânt rezervat"
 
@@ -3082,7 +3082,7 @@ msgstr ""
 "încerci din nou."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3377,7 +3377,7 @@ msgstr "Verifică canelele de comunicare."
 msgid "Check item"
 msgstr "Bifează element"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Verifică răspunsul și payload-ul pentru informații suplimentare:"
 
@@ -6799,7 +6799,7 @@ msgstr "Verificare SSL Elasticsearch"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Dimensiunea totală a payload-ului Elasticsearch"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7489,7 +7489,7 @@ msgstr ""
 msgid "Error"
 msgstr "Eroare"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Eroare în timpul executării asistentului automat."
 
@@ -7782,7 +7782,7 @@ msgstr "Căutare extinsă"
 msgid "External data source field"
 msgstr "Câmp sursă de date externă"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrage informațiile de tip zammad-attachment din matrici"
 
@@ -9698,7 +9698,7 @@ msgstr ""
 msgid "Invalid GitLab issue link format"
 msgstr "Format link probleme GitLab invalid"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Fișier asistent automat invalid."
 
@@ -12712,7 +12712,7 @@ msgstr "Offline"
 msgid "Ok"
 msgstr "Ok"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "Pe data de %s, %s a scris:"
@@ -13641,7 +13641,7 @@ msgstr ""
 "e-mailul, verificați și alte locuri în care ar putea fi, cum ar fi folderele "
 "de junk, spam, social sau alte foldere."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Vă rugăm să configurați sursa importului înaintea rulării."
 
@@ -13712,7 +13712,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Vă rugăm să furnizați un destinatar în „Către” sau „CC”."
 
@@ -17001,7 +17001,7 @@ msgstr "Editare text"
 msgid "Text field"
 msgstr "Câmp text"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -17020,7 +17020,7 @@ msgstr "Module text"
 msgid "Text modules are …"
 msgstr "Modulele text sunt …"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Text necesar"
 
@@ -17696,7 +17696,7 @@ msgstr ""
 "Instalarea pachetelor are implicații de securitate, deoarece codul arbitrar "
 "va fi executat în contextul aplicației Zammad."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18075,7 +18075,7 @@ msgstr "Lipsește parametrul necesar 'group_id'."
 msgid "The required parameter 'id' is missing."
 msgstr "Lipsește parametrul necesar 'id'."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "Lipsește parametrul necesar 'key'."
 
@@ -18141,11 +18141,11 @@ msgstr "Lipsește parametrul necesar 'signup'."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Lipsește parametrul necesar 'ticket_number'."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr "Lipsește parametrul necesar 'user_id'."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "Lipsește parametrul necesar 'value'."
 
@@ -18185,7 +18185,7 @@ msgstr "Deschideți nota"
 msgid "The selected date is invalid."
 msgstr "Data selectată este invalidă."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "Serverul a prezentat un certificat care nu poate fi verificat."
 
@@ -19066,6 +19066,17 @@ msgstr "Această semnătură este inactivă, ea nu va fi inclusă în răspuns."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr ""
+"Acest sistem a fost deja configurat și există un cont de administrator."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
 msgstr ""
 "Acest sistem a fost deja configurat și există un cont de administrator."
 
@@ -22459,7 +22470,7 @@ msgstr "atribuie tichete"
 msgid "at"
 msgstr "la"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "este necesară cel puțin o literă"
 
@@ -22468,7 +22479,7 @@ msgstr "este necesară cel puțin o literă"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "atributul nu este editabil"
 
@@ -22502,11 +22513,11 @@ msgstr "ocupat"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "poate fi creat doar pe bazele de date postgresql"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -22520,7 +22531,7 @@ msgstr "nu poate fi necompletat"
 msgid "can't be empty"
 msgstr "nu poate fi gol"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "nu poate fi folosit deoarece *_id și *_ids nu sunt permise"
 
@@ -23402,7 +23413,7 @@ msgstr "Notificări"
 msgid "now"
 msgstr "acum"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "sunt permise doar litere mici, cifre și '_'"
 
@@ -23671,7 +23682,7 @@ msgstr "omis"
 msgid "sms"
 msgstr "sms"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "spațiile nu sunt permise"
 

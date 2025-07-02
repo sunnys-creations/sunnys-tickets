@@ -691,11 +691,11 @@ msgstr "%s% bylo opětovně otevřeno"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} může mít plný nebo detailní přístup ke skupině"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} již existuje"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} je rezervované slovo"
 
@@ -3154,7 +3154,7 @@ msgstr ""
 "znovu!"
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3456,7 +3456,7 @@ msgstr "Zkontrolujte kanály."
 msgid "Check item"
 msgstr "Checkmk"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Pro podrobné informace zkontrolujte odpověď a požadavek:"
 
@@ -6975,7 +6975,7 @@ msgstr "SSL ověření"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Celková velikost obsahu Elasticsearch"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7682,7 +7682,7 @@ msgstr ""
 msgid "Error"
 msgstr "Chyba"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Chyba při spouštění auto průvodce."
 
@@ -7981,7 +7981,7 @@ msgstr "Rozšířené hledání"
 msgid "External data source field"
 msgstr "interní databáze"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extrahujte informace o Zammad přílohách z polí"
 
@@ -9933,7 +9933,7 @@ msgstr ""
 msgid "Invalid GitLab issue link format"
 msgstr "Neplatný formát událostního odkazu GitLabu"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Neplatný soubor auto průvodce."
 
@@ -13031,7 +13031,7 @@ msgstr "Offline"
 msgid "Ok"
 msgstr "Ok"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "%s, %s napsal:"
@@ -13991,7 +13991,7 @@ msgstr ""
 "Pokud nemůžete e-mail najít, zkuste jiná místa, například spam, nevyžádaná "
 "pošta, sociální nebo jiné složky."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr ""
 
@@ -14054,7 +14054,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Prosím vyplňte příjemce \"Komu\" nebo \"Kopie\"."
 
@@ -17487,7 +17487,7 @@ msgstr "Editování textu"
 msgid "Text field"
 msgstr "Textové pole"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -17506,7 +17506,7 @@ msgstr "TextModuly"
 msgid "Text modules are …"
 msgstr "Textové moduly jsou …"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Je požadován text"
 
@@ -18246,7 +18246,7 @@ msgstr ""
 "Instalace balíčků obnáší bezpečnostní rizika, neboť obsažený kód se bude "
 "spouštět v kontextu aplikace Zammad."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -18640,7 +18640,7 @@ msgstr "Chybí požadovaný parametr \"group_id'."
 msgid "The required parameter 'id' is missing."
 msgstr "Chybí požadovaný parametr \"id'."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 #, fuzzy
 #| msgid "The required parameter 'area' is missing."
 msgid "The required parameter 'key' is missing."
@@ -18710,13 +18710,13 @@ msgstr "Chybí požadovaný parametr \"signup'."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Chybí požadovaný parametr \"ticket_number'."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 #, fuzzy
 #| msgid "The required parameter 'for_user_id' is missing."
 msgid "The required parameter 'user_id' is missing."
 msgstr "Chybí požadovaný parametr \"for_user_id'."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 #, fuzzy
 #| msgid "The required parameter 'locale' is missing."
 msgid "The required parameter 'value' is missing."
@@ -18761,7 +18761,7 @@ msgstr "Otevřít oblast pro poznámku"
 msgid "The selected date is invalid."
 msgstr "Datum je neplatné."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 #, fuzzy
 #| msgid "The file could not be uploaded."
 msgid "The server presented a certificate that could not be verified."
@@ -19660,6 +19660,12 @@ msgstr "Tento podpis není aktivní, nebude v příloze obsažen."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr ""
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+msgid "This system has already been configured."
 msgstr ""
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
@@ -23135,7 +23141,7 @@ msgstr "přiřadit tickety"
 msgid "at"
 msgstr "v"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "je vyžadováno nejméně jedno písmeno"
 
@@ -23144,7 +23150,7 @@ msgstr "je vyžadováno nejméně jedno písmeno"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "atribut není upravitelný"
 
@@ -23178,11 +23184,11 @@ msgstr "zaneprázdněn"
 msgid "camera,image,photo,picture"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr ""
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -23196,7 +23202,7 @@ msgstr "nemůže být prázdný"
 msgid "can't be empty"
 msgstr "nemůže být prázdný"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "nemůže být použito, protože *_id nebo *_ids nejsou dovoleny"
 
@@ -24101,7 +24107,7 @@ msgstr "Oznámení"
 msgid "now"
 msgstr "nyní"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "povolená jsou pouze malá písmena, čísla a '_'"
 
@@ -24381,7 +24387,7 @@ msgstr "přeskočen"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "Mezery nejsou povoleny"
 

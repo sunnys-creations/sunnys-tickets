@@ -696,11 +696,11 @@ msgstr "%s% estão sendo reabertos"
 msgid "%{model} can have full or granular access to group"
 msgstr "%{model} pode ter acesso total ou granular ao grupo"
 
-#: app/models/object_manager/attribute.rb:633
+#: app/models/object_manager/attribute.rb:635
 msgid "%{name} already exists"
 msgstr "%{name} já existe"
 
-#: app/models/object_manager/attribute.rb:617
+#: app/models/object_manager/attribute.rb:619
 msgid "%{name} is a reserved word"
 msgstr "%{name} é uma palavra reservada"
 
@@ -3043,7 +3043,7 @@ msgstr ""
 "favor, tente novamente."
 
 #: app/assets/javascripts/app/controllers/_application_controller/after_auth_modal.coffee:9
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:380
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:382
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:177
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:342
 #: app/assets/javascripts/app/views/integration/exchange_certificate_issue.jst.eco:18
@@ -3328,7 +3328,7 @@ msgstr "Checar Canais."
 msgid "Check item"
 msgstr "Verificar item"
 
-#: lib/search_index_backend.rb:439
+#: lib/search_index_backend.rb:452
 msgid "Check the response and payload for detailed information:"
 msgstr "Verifique a resposta e a carga útil para obter informações detalhadas:"
 
@@ -6636,7 +6636,7 @@ msgstr "Verificação SSL do Elasticsearch"
 msgid "Elasticsearch Total Payload Size"
 msgstr "Tamanho total da carga útil do Elasticsearch"
 
-#: lib/search_index_backend.rb:435
+#: lib/search_index_backend.rb:448
 msgid ""
 "Elasticsearch is not reachable. It's possible that it's not running. Please "
 "check whether it is installed."
@@ -7315,7 +7315,7 @@ msgstr ""
 msgid "Error"
 msgstr "Erro"
 
-#: app/services/service/system/run_auto_wizard.rb:18
+#: app/services/service/system/run_auto_wizard.rb:19
 msgid "Error during execution of auto wizard."
 msgstr "Erro durante a execução do assistente automático."
 
@@ -7597,7 +7597,7 @@ msgstr "Busca Extensa"
 msgid "External data source field"
 msgstr "Campo de fonte de dados externa"
 
-#: lib/search_index_backend.rb:743
+#: lib/search_index_backend.rb:754
 msgid "Extract zammad-attachment information from arrays"
 msgstr "Extraia informações de anexo Zammad de matrizes"
 
@@ -9450,7 +9450,7 @@ msgstr "Configuração inválida do GitLab (endpoint ou api_token ausente)."
 msgid "Invalid GitLab issue link format"
 msgstr "Link de problema de GitLab inválido para"
 
-#: app/services/service/system/run_auto_wizard.rb:10
+#: app/services/service/system/run_auto_wizard.rb:11
 msgid "Invalid auto wizard file."
 msgstr "Arquivo de assistente automático (auto wizard) inválido."
 
@@ -12237,7 +12237,7 @@ msgstr "Desconectado"
 msgid "Ok"
 msgstr "Ok"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:413
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:415
 #: app/frontend/shared/entities/ticket-article/action/plugins/email/selection.ts:32
 msgid "On %s, %s wrote:"
 msgstr "Em %s, %s escreva:"
@@ -13114,7 +13114,7 @@ msgstr ""
 "e-mail, verifique outros lugares onde ele possa estar, como suas pastas de "
 "lixo eletrônico, spam, social ou outras pastas."
 
-#: app/services/service/system/import/run.rb:32
+#: app/services/service/system/import/run.rb:33
 msgid "Please configure import source before running."
 msgstr "Por favor, configure a fonte de importação antes de executar."
 
@@ -13181,7 +13181,7 @@ msgstr ""
 msgid "Please proceed to login"
 msgstr "Por favor, prossiga para fazer login"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:383
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:385
 msgid "Please provide a recipient in \"TO\" or \"CC\"."
 msgstr "Forneça um destinatário em \"TO\" ou \"CC\"."
 
@@ -16318,7 +16318,7 @@ msgstr "Editando texto"
 msgid "Text field"
 msgstr "Campo de texto"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:379
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:381
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/twitter_reply.coffee:176
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:341
 msgid "Text missing"
@@ -16337,7 +16337,7 @@ msgstr "Modulos de texto"
 msgid "Text modules are …"
 msgstr "Módulos de texto são…"
 
-#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:397
+#: app/assets/javascripts/app/controllers/ticket_zoom/article_action/email_reply.coffee:399
 msgid "Text needed"
 msgstr "Texto necessário"
 
@@ -16979,7 +16979,7 @@ msgstr ""
 "A instalação de pacotes vem com implicações de segurança, já que códigos "
 "arbitrários serão executados dentro da sua instância do Zammad."
 
-#: lib/search_index_backend.rb:437
+#: lib/search_index_backend.rb:450
 msgid ""
 "The installed attachment plugin could not handle the request payload. Ensure "
 "that the correct attachment plugin is installed (ingest-attachment)."
@@ -17334,7 +17334,7 @@ msgstr "O parâmetro obrigatório 'group_id' está ausente."
 msgid "The required parameter 'id' is missing."
 msgstr "O parâmetro obrigatório 'id' está ausente."
 
-#: lib/search_index_backend.rb:666
+#: lib/search_index_backend.rb:677
 msgid "The required parameter 'key' is missing."
 msgstr "O parâmetro obrigatório 'chave' está ausente."
 
@@ -17398,11 +17398,11 @@ msgstr "O parâmetro necessário 'signup' está ausente."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "O parâmetro obrigatório 'ticket_number' está ausente."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:94
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
 msgid "The required parameter 'user_id' is missing."
 msgstr "O parâmetro obrigatório 'user_id' está faltando."
 
-#: lib/search_index_backend.rb:667
+#: lib/search_index_backend.rb:678
 msgid "The required parameter 'value' is missing."
 msgstr "O parâmetro obrigatório 'valor' está ausente."
 
@@ -17441,7 +17441,7 @@ msgstr "A sobreposição de segundos"
 msgid "The selected date is invalid."
 msgstr "A data selecionada é inválida."
 
-#: app/services/service/system/import/apply_configuration_base.rb:38
+#: app/services/service/system/import/apply_configuration_base.rb:40
 msgid "The server presented a certificate that could not be verified."
 msgstr "O servidor apresentou um certificado que não pôde ser verificado."
 
@@ -18303,6 +18303,17 @@ msgstr "Esta assinatura está inativa, não será incluída na resposta."
 #: app/services/service/user/add_first_admin.rb:8
 msgid ""
 "This system has already been configured and an administrator account exists."
+msgstr ""
+"Este sistema já foi configurado e uma conta de administrador já existe."
+
+#: app/services/service/system/import/apply_configuration_base.rb:46
+#: app/services/service/system/import/run.rb:28
+#: app/services/service/system/run_auto_wizard.rb:6
+#, fuzzy
+#| msgid ""
+#| "This system has already been configured and an administrator account "
+#| "exists."
+msgid "This system has already been configured."
 msgstr ""
 "Este sistema já foi configurado e uma conta de administrador já existe."
 
@@ -21568,7 +21579,7 @@ msgstr "tickets assinados"
 msgid "at"
 msgstr "no"
 
-#: app/models/object_manager/attribute.rb:613
+#: app/models/object_manager/attribute.rb:615
 msgid "at least one letter is required"
 msgstr "pelo menos uma letra é necessária"
 
@@ -21577,7 +21588,7 @@ msgstr "pelo menos uma letra é necessária"
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "anexo,anexado,incluso,inclusão"
 
-#: app/models/object_manager/attribute.rb:646
+#: app/models/object_manager/attribute.rb:648
 msgid "attribute is not editable"
 msgstr "atributo não é editável"
 
@@ -21611,11 +21622,11 @@ msgstr "ocupado"
 msgid "camera,image,photo,picture"
 msgstr "câmera,imagem,foto,imagem"
 
-#: app/models/object_manager/attribute.rb:695
+#: app/models/object_manager/attribute.rb:697
 msgid "can only be created on postgresql databases"
 msgstr "só pode ser criado em bancos de dados postgresql"
 
-#: app/models/object_manager/attribute.rb:688
+#: app/models/object_manager/attribute.rb:690
 msgid ""
 "can't be altered after creation (you can delete the attribute and create "
 "another with the desired value)"
@@ -21629,7 +21640,7 @@ msgstr "não pode estar em branco"
 msgid "can't be empty"
 msgstr "não pode estar vazio"
 
-#: app/models/object_manager/attribute.rb:604
+#: app/models/object_manager/attribute.rb:606
 msgid "can't be used because *_id and *_ids are not allowed"
 msgstr "não pode ser usado porque *_id e *_ids não são permitidos"
 
@@ -22488,7 +22499,7 @@ msgstr "notificações, tíquetes"
 msgid "now"
 msgstr "agora"
 
-#: app/models/object_manager/attribute.rb:610
+#: app/models/object_manager/attribute.rb:612
 msgid "only lowercase letters, numbers, and '_' are allowed"
 msgstr "apenas letras minúsculas, números e '_' são permitidos"
 
@@ -22748,7 +22759,7 @@ msgstr "Pulado"
 msgid "sms"
 msgstr "SMS"
 
-#: app/models/object_manager/attribute.rb:607
+#: app/models/object_manager/attribute.rb:609
 msgid "spaces are not allowed"
 msgstr "espaços não são permitidos"
 
