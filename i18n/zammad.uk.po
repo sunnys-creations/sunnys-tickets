@@ -212,8 +212,8 @@ msgstr ""
 "# #{ticket.title}\n"
 "_<#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}|Заявка "
 "№#{ticket.number}>: Буде ескальовано о #{ticket.escalation_at}_\n"
-"Заявка (#{ticket.title}) від\"#{ticket.customer.longname}"
-"\" буде ескальована о \"#{ticket.escalation_at}\"!\n"
+"Заявка (#{ticket.title}) від\"#{ticket.customer.longname}\" буде ескальована "
+"о \"#{ticket.escalation_at}\"!\n"
 "\n"
 "<% if @objects[:article] %>\n"
 "#{article.body_as_text}\n"
@@ -6321,7 +6321,8 @@ msgstr "Ви дійсно хочете видалити свій поточни�
 
 #: app/assets/javascripts/app/controllers/_application_controller/article_public_confirm.coffee:3
 msgid "Do you really want to set the visibility of this article to \"public\"?"
-msgstr "Ви дійсно хочете встановити видимість цього повідомлення як «публічне»?"
+msgstr ""
+"Ви дійсно хочете встановити видимість цього повідомлення як «публічне»?"
 
 #: app/frontend/apps/desktop/components/CommonConfirmationDialog/CommonConfirmationDialog.vue:69
 msgid "Do you want to continue?"
@@ -11554,8 +11555,8 @@ msgstr ""
 "\n"
 "<div>Вітаю #{recipient.firstname},</div>\n"
 "<br>\n"
-"<div>Нову заявку (#{ticket.title}) створив "
-"\"<b>#{current_user.longname}</b>\".</div>\n"
+"<div>Нову заявку (#{ticket.title}) створив \"<b>#{current_user.longname}</"
+"b>\".</div>\n"
 "<br>\n"
 "<div>\n"
 "Група: #{ticket.group.name}<br>\n"
@@ -11771,7 +11772,7 @@ msgstr "Файл не вибрано."
 msgid "No file formats allowed."
 msgstr "Неприпустимі формати файлів."
 
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:649
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:654
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:803
 msgid "No filter was configured."
 msgstr "Жоден фільтр не налаштовано."
@@ -13167,7 +13168,8 @@ msgstr "Будь ласка, введіть свої облікові дані E
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:19
 msgid "Please execute database changes only in a maintenance window."
-msgstr "Будь ласка, виконуйте зміни в базі даних тільки у вікні обслуговування."
+msgstr ""
+"Будь ласка, виконуйте зміни в базі даних тільки у вікні обслуговування."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/public_menu_form_item.coffee:100
 msgid "Please fill in all fields"
@@ -17390,14 +17392,14 @@ msgstr "Відсутній обов'язковий параметр \"Парол
 #: app/models/core_workflow/result.rb:15
 msgid "The required parameter 'payload->class_name' is missing."
 msgstr ""
-"Немає обов'язкового параметра «корисне_навантаження->ім'я_класу» "
-"(payload->class_name)."
+"Немає обов'язкового параметра «корисне_навантаження->ім'я_класу» (payload-"
+">class_name)."
 
 #: app/models/core_workflow/result.rb:16
 msgid "The required parameter 'payload->screen' is missing."
 msgstr ""
-"Відсутній обов'язковий параметр «корисне навантаження->екран» "
-"(payload->screen)."
+"Відсутній обов'язковий параметр «корисне навантаження->екран» (payload-"
+">screen)."
 
 #: app/assets/javascripts/app/controllers/_profile/token_access.coffee:112
 msgid "The required parameter 'permission' is missing."
@@ -17681,8 +17683,8 @@ msgstr "Токен користувача не вдалося згенерува
 #: lib/external_credential/microsoft_base.rb:75
 msgid "The user's 'preferred_username' could not be extracted from 'id_token'."
 msgstr ""
-"«Вибране ім'я_користувача» (preferred_username) не може бути витягнуте з «"
-"ідентифікатора ключа» (id_token)."
+"«Вибране ім'я_користувача» (preferred_username) не може бути витягнуте з "
+"«ідентифікатора ключа» (id_token)."
 
 #: app/controllers/sessions_controller.rb:245
 #: app/graphql/gql/mutations/two_factor_method_initiate_authentication.rb:29
@@ -19357,7 +19359,8 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/twitter/account_edit.jst.eco:5
 msgid "Tweets containing search terms are automatically turned into tickets."
-msgstr "Твіти, що містять пошукові слова, автоматично перетворюються на заявки."
+msgstr ""
+"Твіти, що містять пошукові слова, автоматично перетворюються на заявки."
 
 #: app/assets/javascripts/app/controllers/_channel/twitter.coffee:197
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:71
@@ -19872,8 +19875,8 @@ msgstr ""
 "<br>\n"
 "<div>\n"
 "  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}<% "
-"if @objects[:article] %>/#{article.id}<% end %>\" target=\"zammad_app\""
-">Переглянути в #{config.product_name}</a>\n"
+"if @objects[:article] %>/#{article.id}<% end %>\" "
+"target=\"zammad_app\">Переглянути в #{config.product_name}</a>\n"
 "</div>\n"
 
 #. This is the template file app/views/mailer/ticket_article_update_reaction/en.html.erb in ERB/HTML format.
@@ -19923,9 +19926,9 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}/#{article.id}\" target=\"zammad_app\">Переглянути в "
-"#{config.product_name}</a>\n"
+"  <a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">Переглянути в #{config.product_name}</"
+"a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
@@ -20681,7 +20684,7 @@ msgstr ""
 "Коли Ви вмикаєте відладку, встановивши для параметра §debug§ значення "
 "§true§, причина відображається на консолі javascript."
 
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:674
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:679
 msgid "Where"
 msgstr "Куди"
 
@@ -21741,13 +21744,13 @@ msgid "created %s"
 msgstr "створено %s"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:144
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:539
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:544
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:632
 msgid "current user"
 msgstr "поточний користувач"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:427
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:545
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:550
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:637
 msgid "current user organization"
 msgstr "Організація поточного користувача"
@@ -22480,7 +22483,7 @@ msgstr "не надійшло"
 msgid "not set"
 msgstr "не встановлено"
 
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:542
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:547
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:634
 msgid "not set (not defined)"
 msgstr "не задано (не визначено)"
@@ -22766,13 +22769,13 @@ msgid "spaces are not allowed"
 msgstr "пробіли не дозволені"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:428
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:546
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:551
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:638
 msgid "specific organization"
 msgstr "конкретна організація"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:417
-#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:540
+#: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:545
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector_expert.coffee:633
 msgid "specific user"
 msgstr "конкретний користувач"
