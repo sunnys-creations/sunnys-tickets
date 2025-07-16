@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-02-28 05:19+0000\n"
-"Last-Translator: Rob <robertborge@outlook.com>\n"
+"PO-Revision-Date: 2025-07-07 22:00+0000\n"
+"Last-Translator: Ruben <ruben@bibsyst.no>\n"
 "Language-Team: Norwegian Bokmål <https://translations.zammad.org/projects/"
 "zammad/zammad-stable/nb_NO/>\n"
 "Language: no-no\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -914,6 +914,9 @@ msgid ""
 "mails, e.g. when an agent is composing an email or a trigger is sending an "
 "auto-reply"
 msgstr ""
+"En gruppes e-postadresse bestemmer hvilken adresse som skal brukes for "
+"utgående e-poster, for eksempel når en agent skriver en e-post eller en "
+"utløser sender et automatisk svar"
 
 #: db/seeds/settings.rb:4013
 msgid "A list of active import backends that gets scheduled automatically."
@@ -980,6 +983,8 @@ msgid ""
 "A ticket's state is used to categorize and manage the lifecycle of a ticket "
 "or customer inquiry."
 msgstr ""
+"Statusen til en sak brukes til å kategorisere og håndtere livssyklusen til "
+"en kundehenvendelse."
 
 #: app/assets/javascripts/app/controllers/_integration/cti.coffee:215
 msgid "A user is required!"
@@ -1662,6 +1667,8 @@ msgid ""
 "After the import is completed, the account associated with the API token "
 "will become your username, and the token itself will be your password."
 msgstr ""
+"Når importen er fullført, vil kontoen knyttet til API-nøkkelen bli ditt "
+"brukernavn og API-nøkkelen ditt passord."
 
 #: app/assets/javascripts/app/views/session.jst.eco:11
 msgid "Age"
@@ -1845,6 +1852,8 @@ msgid ""
 "An email was sent to _%s_. Click the link in the email to verify your "
 "account."
 msgstr ""
+"En e-post ble sendt til _%s_. Klikk på lenken i e-posten for å bekrefte "
+"kontoen din."
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_calendar_view.coffee:50
 msgid "An error has occurred"
@@ -1951,6 +1960,8 @@ msgid ""
 "Apologies, we're unable to process this kind of message due to restrictions "
 "within WhatsApp Business."
 msgstr ""
+"Beklager, vi kan ikke behandle denne typen meldinger på grunn av "
+"restriksjoner i WhatsApp Business."
 
 #: db/seeds/settings.rb:1449
 msgid "App ID"
@@ -3232,7 +3243,7 @@ msgstr "Endre"
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_ticket.coffee:125
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketChangeCustomer/TicketChangeCustomerFlyout.vue:55
 msgid "Change Customer"
-msgstr "Endre Kunde"
+msgstr "Forandre kunde"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_idoit.coffee:17
 msgid "Change Objects"
@@ -3254,10 +3265,8 @@ msgstr "Endre ditt passord"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarInformation/TicketSidebarInformationContent.vue:80
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketAction/TicketActionChangeCustomerDialog.vue:74
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/TicketActionsDialog.vue:137
-#, fuzzy
-#| msgid "Change Customer"
 msgid "Change customer"
-msgstr "Endre Kunde"
+msgstr "Forandre kunde"
 
 #: app/frontend/shared/form/i18n/locales.ts:94
 #, fuzzy
@@ -24792,7 +24801,7 @@ msgstr "...av hele tekstområdet"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_waiting_time.jst.eco:3
 msgid "∅ Waiting time today"
-msgstr "Vente tid i dag"
+msgstr "Ventetid i dag"
 
 #, fuzzy
 #~| msgid "Failed to sent Email \"%s\". Please contact an administrator."

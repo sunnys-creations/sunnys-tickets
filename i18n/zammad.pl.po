@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-03 22:00+0000\n"
+"PO-Revision-Date: 2025-07-10 22:00+0000\n"
 "Last-Translator: MBekspert <michal.bosak@ekspert.biz>\n"
 "Language-Team: Polish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/pl/>\n"
@@ -2189,10 +2189,8 @@ msgstr ""
 "metody uwierzytelniania dwuskładnikowego."
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:71
-#, fuzzy
-#| msgid "Are you sure? You have changes that will get lost."
 msgid "Are you sure? This recent search will get lost."
-msgstr "Jesteś pewny? Masz zmiany, które zostaną utracone."
+msgstr "Jesteś pewien? To ostatnie wyszukiwanie zostanie utracone."
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleReplyDialog.vue:64
 msgid "Are you sure? You have changes that will get lost."
@@ -2214,16 +2212,12 @@ msgstr ""
 "Jesteś pewny? Twoje ustawienia powiadomień zostaną przywrócone do domyślnych."
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:88
-#, fuzzy
-#| msgid "Are you sure? You have changes that will get lost."
 msgid "Are you sure? Your recent searches will get lost."
-msgstr "Jesteś pewny? Masz zmiany, które zostaną utracone."
+msgstr "Jesteś pewien? Twoje ostatnie wyszukiwania zostaną utracone."
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:109
-#, fuzzy
-#| msgid "Are you sure? You have changes that will get lost."
 msgid "Are you sure? Your recently viewed items will get lost."
-msgstr "Jesteś pewny? Masz zmiany, które zostaną utracone."
+msgstr "Jesteś pewien? Twoje ostatnio przeglądane pozycje zostaną utracone."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:54
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:11
@@ -2239,8 +2233,6 @@ msgid "Article - visibility confirmation dialog"
 msgstr "Wpis - okno potwierdzenia widoczności"
 
 #: app/assets/javascripts/app/controllers/widget/placeholder.coffee:96
-#, fuzzy
-#| msgid "Article Type"
 msgid "Article > Text (HTML)"
 msgstr "Artykuł > Tekst (HTML)"
 
@@ -2249,10 +2241,8 @@ msgid "Article Count"
 msgstr "Liczba wpisów"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:12
-#, fuzzy
-#| msgid "Duplicate Detection"
 msgid "Article Language Detection"
-msgstr "Wykrywanie duplikatów"
+msgstr "Wykrywanie języka artykułu"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:289
 msgid "Article actions"
@@ -2264,10 +2254,8 @@ msgstr "Nie udało się usunąć wpisu."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubble.vue:128
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleHeader.vue:27
-#, fuzzy
-#| msgid "Ticket information"
 msgid "Article meta information"
-msgstr "Informacje o zgłoszeniach"
+msgstr "Metainformacje o artykule"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleSecurityBadge.vue:77
 #: app/frontend/shared/composables/useArticleSecurity.ts:93
@@ -2332,16 +2320,12 @@ msgstr ""
 "będzie oznaczone jako nieprzypisane."
 
 #: app/models/user.rb:639
-#, fuzzy
-#| msgid ""
-#| "At least one identifier (firstname, lastname, phone or email) for user is "
-#| "required."
 msgid ""
 "At least one identifier (firstname, lastname, phone, mobile or email) for "
 "user is required."
 msgstr ""
-"Wymagany jest co najmniej jeden identyfikator (imię, nazwisko, telefon lub e-"
-"mail) użytkownika."
+"Wymagany jest co najmniej jeden identyfikator użytkownika (imię, nazwisko, "
+"numer telefonu stacjonarnego, komórkowego lub adres e-mail)."
 
 #: app/models/postmaster_filter.rb:29
 msgid "At least one match rule is required, but none was provided."
@@ -2475,10 +2459,8 @@ msgid "August"
 msgstr "Sierpień"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:381
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authenticate"
-msgstr "Uwierzytelnianie"
+msgstr "Uwierzytelniać"
 
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:4
 msgid "Authentication"
@@ -2524,10 +2506,8 @@ msgid "Authenticator App"
 msgstr "Aplikacja uwierzytelniająca"
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:270
-#, fuzzy
-#| msgid "Authenticator app secret"
 msgid "Authenticator app QR code"
-msgstr "Sekret aplikacji Authenticator"
+msgstr "Kod QR aplikacji uwierzytelniającej"
 
 #: app/assets/javascripts/app/views/widget/two_factor_configuration/authenticator_app.jst.eco:24
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationAuthenticatorApp.vue:281
@@ -2540,8 +2520,9 @@ msgid "Author"
 msgstr "Autor"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBody.vue:92
+#, fuzzy
 msgid "Author name and article creation date"
-msgstr ""
+msgstr "Imię i nazwisko autora oraz data utworzenia artykułu"
 
 #: app/controllers/application_controller/handles_errors.rb:106
 msgid "Authorization failed"
@@ -2568,7 +2549,7 @@ msgstr "Wybór automatycznego przypisania"
 
 #: db/seeds/settings.rb:5973
 msgid "Auto Shutdown"
-msgstr ""
+msgstr "Automatyczne wyłączanie"
 
 #: app/assets/javascripts/app/controllers/getting_started/auto_wizard.coffee:16
 msgid "Auto Wizard"
@@ -2638,10 +2619,8 @@ msgid "Available for the following roles"
 msgstr "Dostępne dla następujących ról"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:207
-#, fuzzy
-#| msgid "Remove all methods"
 msgid "Available methods"
-msgstr "Usuń wszystkie metody"
+msgstr "Dostępne metody"
 
 #: db/seeds/settings.rb:914
 msgid "Available types for a new ticket"
@@ -2663,10 +2642,8 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingAvatarCropImageFlyout.vue:55
-#, fuzzy
-#| msgid "Preview"
 msgid "Avatar Preview"
-msgstr "Podgląd"
+msgstr "Podgląd awatara"
 
 #: app/graphql/gql/mutations/user/current/avatar/delete.rb:18
 #: app/graphql/gql/mutations/user/current/avatar/select.rb:18

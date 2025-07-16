@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-01 22:00+0000\n"
+"PO-Revision-Date: 2025-07-07 22:00+0000\n"
 "Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
@@ -1074,7 +1074,7 @@ msgstr "Bilgi Tabanı okuyucu özelliklerine erişin."
 
 #: db/seeds/permissions.rb:379
 msgid "Access the tickets as agent based on group access."
-msgstr "Grup erişimine göre temsilci olarak destek taleplerine erişim."
+msgstr "Grup erişimine dayalı temsilci destek taleplerine erişim."
 
 #: db/seeds/permissions.rb:388
 msgid "Access tickets as customer."
@@ -18264,12 +18264,8 @@ msgstr "Bu sistem zaten yapılandırılmıştır ve bir yönetici hesabı mevcut
 #: app/services/service/system/import/apply_configuration_base.rb:46
 #: app/services/service/system/import/run.rb:28
 #: app/services/service/system/run_auto_wizard.rb:6
-#, fuzzy
-#| msgid ""
-#| "This system has already been configured and an administrator account "
-#| "exists."
 msgid "This system has already been configured."
-msgstr "Bu sistem zaten yapılandırılmıştır ve bir yönetici hesabı mevcuttur."
+msgstr "Bu sistem zaten yapılandırılmıştır."
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupAutomated/GuidedSetupAutomatedInfo.vue:11
 msgid "This system is configured for automated setup."

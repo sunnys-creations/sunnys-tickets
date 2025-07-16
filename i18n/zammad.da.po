@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-29 06:48+0000\n"
-"Last-Translator: LomaxThomas <thomas.hartvig@lomax.dk>\n"
+"PO-Revision-Date: 2025-07-16 22:00+0000\n"
+"Last-Translator: Martin Bonde <martin@maboni.dk>\n"
 "Language-Team: Danish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/da/>\n"
 "Language: da\n"
@@ -1010,15 +1010,15 @@ msgstr "API Kodeord Adgang"
 
 #: app/assets/javascripts/app/views/integration/placetel.jst.eco:32
 msgid "API Token"
-msgstr "API-token"
+msgstr "API Nøgle"
 
 #: db/seeds/settings.rb:3510
 msgid "API Token Access"
-msgstr "API-token Adgang"
+msgstr "API Nøgle Adgang"
 
 #: lib/whatsapp/webhook/payload.rb:22
 msgid "API error."
-msgstr "API-fejl."
+msgstr "API fejl."
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:42
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:43
@@ -1028,7 +1028,7 @@ msgstr "API-fejl."
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceFreshdesk.vue:55
 #: app/frontend/apps/desktop/pages/guided-setup/components/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceZendesk.vue:44
 msgid "API token"
-msgstr "API-token"
+msgstr "API token"
 
 #: app/assets/javascripts/app/controllers/_channel/form.coffee:48
 #: app/assets/javascripts/app/views/channel/form.jst.eco:127
@@ -1062,7 +1062,7 @@ msgstr "Få adgang til sagerne som agent baseret på gruppeadgang."
 
 #: db/seeds/permissions.rb:388
 msgid "Access tickets as customer."
-msgstr "Få adgang til billetter som kunde."
+msgstr "Få adgang til sager som kunde."
 
 #: db/seeds/permissions.rb:312
 msgid "Access to the chat interface."
@@ -2563,7 +2563,7 @@ msgstr "Automatisk kontolink notifikation"
 
 #: app/assets/javascripts/app/controllers/_channel/whatsapp.coffee:180
 msgid "Automatic reminders"
-msgstr "Automatisk påmindelse"
+msgstr "Automatiske påmindelser"
 
 #: app/assets/javascripts/app/controllers/_integration/clearbit.coffee:6
 msgid ""
@@ -2895,6 +2895,8 @@ msgid ""
 "CSS font-size with a unit like 12px, 1.5em. If left undefined it inherits "
 "the font-size of the website."
 msgstr ""
+"CSS skriftstørrelse med en enhed som 12px, 1.5em. Hvis den ikke er "
+"defineret, arver den hjemmesidens font-size."
 
 #: app/assets/javascripts/app/controllers/cti.coffee:134
 msgid "CTI"
@@ -3001,7 +3003,7 @@ msgstr "Sletning ikke muligt, objektet har referencer."
 
 #: app/controllers/application_controller/authenticates.rb:90
 msgid "Can't find User for Token"
-msgstr ""
+msgstr "Kan ikke finde bruger til Token"
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:98
 #: app/assets/javascripts/app/controllers/password_reset_verify.coffee:79
@@ -3094,7 +3096,7 @@ msgstr "Kan ikke behandle den ekstern datakilde %s. %s"
 
 #: app/frontend/shared/entities/online-notification/composables/useOnlineNotificationActions.ts:147
 msgid "Cannot set online notifications as seen"
-msgstr ""
+msgstr "Kan ikke indstille online notifikationer som set"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_new.coffee:800
 msgid "Cannot upload file"
@@ -3320,7 +3322,7 @@ msgstr "Tjeklistepunkt"
 
 #: app/assets/javascripts/app/views/generic/checklist_item.jst.eco:10
 msgid "Checklist Item Label"
-msgstr "Tjeklistepunkt navn"
+msgstr "Tjeklistens punktmærke"
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:29
 msgid "Checklist Template"
@@ -4090,7 +4092,7 @@ msgstr "Kunne ikke generere gendannelseskoder"
 
 #: app/controllers/channels_admin/microsoft_graph_controller.rb:19
 msgid "Could not identify the channel mailbox."
-msgstr ""
+msgstr "Kunne ikke identificere kanalpostkassen."
 
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:37
 msgid ""
@@ -4101,6 +4103,8 @@ msgstr ""
 #: app/models/channel/email_parser.rb:32
 msgid "Could not parse any sender attribute from the email. Checked fields:"
 msgstr ""
+"Kunne ikke analysere nogen afsenderattribut fra e-mailen. Kontrollerede "
+"felter:"
 
 #: app/assets/javascripts/app/controllers/signup.coffee:139
 msgid "Could not process your request"

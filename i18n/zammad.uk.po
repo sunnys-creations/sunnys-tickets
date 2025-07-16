@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-02 18:07+0000\n"
+"PO-Revision-Date: 2025-07-06 13:00+0000\n"
 "Last-Translator: Anntoo <jdoomm@gmail.com>\n"
 "Language-Team: Ukrainian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/uk/>\n"
@@ -3618,7 +3618,7 @@ msgstr "Різниця закриття у хвилинах"
 
 #: lib/excel_sheet/ticket.rb:60
 msgid "Close Escalation At"
-msgstr "Закрити ескалацію в"
+msgstr "Закрити ескалацію о"
 
 #: lib/excel_sheet/ticket.rb:61
 msgid "Close In Min"
@@ -7824,7 +7824,7 @@ msgstr "Різниця між першою відповіддю у хвилин�
 
 #: lib/excel_sheet/ticket.rb:64
 msgid "First Response Escalation At"
-msgstr "Ескалація першої відповіді в"
+msgstr "Ескалація першої відповіді о"
 
 #: lib/excel_sheet/ticket.rb:65
 msgid "First Response In Min"
@@ -11946,7 +11946,7 @@ msgstr "Звичайна"
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:64
 #: app/assets/javascripts/app/views/profile/notification.jst.eco:30
 msgid "Not Assigned"
-msgstr "Не призначено"
+msgstr "Не назначено"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:247
 msgid "Not Available"
@@ -12359,7 +12359,7 @@ msgstr "Видно лише редакторам"
 #: app/assets/javascripts/app/models/user_overview_sorting_overview.coffee:19
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingOverviewOrder.vue:83
 msgid "Only when out of office replacement"
-msgstr "Тільки в разі відсутності заміни на посаді"
+msgstr "Тільки при заміні \"поза офісом\""
 
 #: app/assets/javascripts/app/models/user_overview_sorting_overview.coffee:12
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingOverviewOrder.vue:80
@@ -12654,7 +12654,7 @@ msgstr "Інші налаштування"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingOutOfOffice.vue:126
 #: db/seeds/permissions.rb:422
 msgid "Out of Office"
-msgstr "Відсутній на роботі"
+msgstr "Поза Офісом"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingOutOfOffice.vue:157
 msgid "Out of Office settings could not be saved."
@@ -12681,7 +12681,7 @@ msgstr "Поза офісом активно"
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:165
 #: app/assets/javascripts/app/controllers/_ui_element/object_selector.coffee:192
 msgid "Out of office replacement"
-msgstr "Заміна відсутнього на роботі"
+msgstr "Заміна поза офісом"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:99
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:24
@@ -13013,7 +13013,7 @@ msgstr "Дозволи"
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:12
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:214
 msgid "Personal Access Tokens"
-msgstr "Маркери персонального доступу"
+msgstr "Токени персонального доступу"
 
 #: app/assets/javascripts/app/controllers/clues/first_steps_clues.coffee:28
 msgid "Personal Settings"
@@ -13058,7 +13058,7 @@ msgstr "Номер телефону вже використовується ін
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:7
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:184
 msgid "Pick a name for the application, and we'll give you a unique token."
-msgstr "Виберіть назву для програми, щоб одержати унікальний маркер."
+msgstr "Виберіть назву для програми, щоб одержати унікальний токен."
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleReply.vue:258
 msgid "Pin this panel"
@@ -18235,8 +18235,7 @@ msgstr ""
 msgid ""
 "This overview is visible only when you are an out of office replacement."
 msgstr ""
-"Цей огляд відображається лише тоді, коли ви замінюєте співробітника, який "
-"перебуває поза офісом."
+"Це огляд видно лише в тому випадку, якщо Ви знаходитесь \"поза офісом\"."
 
 #: app/frontend/shared/router/error.ts:25
 msgid "This page doesn't exist."
@@ -18575,7 +18574,7 @@ msgstr "Розмір теми заявки"
 
 #: app/assets/javascripts/app/views/profile/calendar_subscriptions.jst.eco:7
 msgid "Ticket Subscriptions"
-msgstr "Підписки на заявки"
+msgstr "Відстеження заявок"
 
 #: db/seeds/settings.rb:2912
 msgid "Ticket Trigger Loop Protection Articles Total"
@@ -18605,7 +18604,7 @@ msgstr "Заявника успішно оновлено."
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:13
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:89
 msgid "Ticket escalation"
-msgstr "Передання заявки на вищий рівень"
+msgstr "Ескалація заявки"
 
 #: app/assets/javascripts/app/lib/mixins/ticket_mass_updatable.coffee:33
 msgid "Ticket failed to save: %s"
@@ -18640,7 +18639,7 @@ msgstr "Номер або назва заявки"
 #: app/assets/javascripts/app/controllers/_ui_element/notification_matrix.coffee:11
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:84
 msgid "Ticket reminder reached"
-msgstr "Досягнуто нагадування щодо заявки"
+msgstr "Нагадування про заявку виконано"
 
 #. This is the template file app/views/mailer/ticket_reminder_reached/en.html.erb in ERB/HTML format.
 #. Please make sure to translate it to a valid corresponding output structure.
@@ -18733,7 +18732,7 @@ msgstr "Назва заявки"
 #: app/assets/javascripts/app/controllers/_ui_element/postmaster_set.coffee:11
 #: app/frontend/apps/desktop/components/Form/fields/FieldNotifications/FieldNotificationsInput.vue:79
 msgid "Ticket update"
-msgstr "Оновлення заявки"
+msgstr "Заявку оновлено"
 
 #: app/frontend/shared/entities/ticket/composables/useTicketEdit.ts:57
 msgid "Ticket update failed."
@@ -19168,7 +19167,7 @@ msgstr "Токен"
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:56
 #: db/seeds/permissions.rb:453
 msgid "Token Access"
-msgstr "Доступ із використанням маркера"
+msgstr "Доступ із використанням токену"
 
 #: app/models/token/permissions.rb:20
 msgid "Token authorization failed."
@@ -20988,7 +20987,7 @@ msgid ""
 "You can generate a personal access token for each application you use that "
 "needs access to the Zammad API."
 msgstr ""
-"Ви можете згенерувати маркери персонального доступу для кожного програмного "
+"Ви можете згенерувати токен персонального доступу для кожного програмного "
 "додатка, який Ви використовуєте і який потребує доступу до Zammad API."
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingLocale.vue:38
@@ -21290,11 +21289,11 @@ msgstr "Ваше ім'я"
 
 #: app/assets/javascripts/app/controllers/_profile/token_access.coffee:144
 msgid "Your New Personal Access Token"
-msgstr "Ваш новий маркер персонального доступу"
+msgstr "Ваш новий токен персонального доступу"
 
 #: app/frontend/apps/desktop/pages/personal-setting/components/PersonalSettingNewAccessTokenFlyout.vue:148
 msgid "Your Personal Access Token"
-msgstr "Ваш маркер персонального доступу"
+msgstr "Ваш токен персонального доступу (Access Token)"
 
 #: app/assets/javascripts/app/views/twitter/list.jst.eco:24
 msgid ""
@@ -21926,12 +21925,12 @@ msgstr "закінчується одним з"
 
 #: app/assets/javascripts/app/models/ticket.coffee:84
 msgid "escalated"
-msgstr "передано на вищий рівень"
+msgstr "ескаловано"
 
 #: app/assets/javascripts/app/controllers/_profile/calendar_subscriptions.coffee:19
 #: app/assets/javascripts/app/views/ticket_zoom/meta.jst.eco:9
 msgid "escalation"
-msgstr "передача на вищий рівень"
+msgstr "ескалація"
 
 #: app/frontend/apps/desktop/components/CommonTicketEscalationIndicator/CommonTicketEscalationIndicator.vue:31
 #: app/frontend/apps/mobile/components/CommonTicketEscalationIndicator/CommonTicketEscalationIndicator.vue:38
@@ -22432,7 +22431,7 @@ msgstr "нова"
 
 #: app/assets/javascripts/app/controllers/_profile/calendar_subscriptions.coffee:17
 msgid "new & open"
-msgstr "новий і відкрити"
+msgstr "нові та відкриті"
 
 #: app/assets/javascripts/app/controllers/_ui_element/boolean.coffee:10
 #: app/assets/javascripts/app/controllers/time_accounting_types.coffee:23
@@ -22541,19 +22540,19 @@ msgstr "порядок, сортування, подання, заявка, со
 
 #: app/assets/javascripts/app/controllers/_profile/calendar_subscriptions.coffee:18
 msgid "pending"
-msgstr "активні"
+msgstr "очікуючі"
 
 #: db/seeds/ticket_state_types.rb:6
 msgid "pending action"
-msgstr "очікує на дію"
+msgstr "очікує рішення"
 
 #: db/seeds/ticket_states.rb:35
 msgid "pending close"
-msgstr "активні закрити"
+msgstr "очікує закриття"
 
 #: db/seeds/ticket_state_types.rb:5 db/seeds/ticket_states.rb:17
 msgid "pending reminder"
-msgstr "активне нагадування"
+msgstr "очікує нагадування"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/phone_reply.coffee:12
 #: db/seeds/ticket_article_types.rb:7
@@ -22713,12 +22712,12 @@ msgstr "встановити тільки для читання"
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/internal.coffee:14
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:41
 msgid "set to internal"
-msgstr "задано внутрішній"
+msgstr "зробити не публічним"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/article_action/internal.coffee:8
 #: app/assets/javascripts/app/views/ticket_zoom/article_new.jst.eco:38
 msgid "set to public"
-msgstr "задано публічний"
+msgstr "зробити публічним"
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_perform.coffee:40
 msgid "show"
