@@ -7939,11 +7939,11 @@ msgstr "ไม่พบ FormSchema."
 msgid "Format"
 msgstr "รูปแบบ"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "จัดรูปแบบเป็น //ขีดทับ//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "จัดรูปแบบเป็น_underlined_"
 
@@ -7953,15 +7953,15 @@ msgstr "จัดรูปแบบเป็น_underlined_"
 msgid "Format as bold"
 msgstr "จัดรูปแบบเป็น_underlined_"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "จัดรูปแบบเป็นหัวเรื่อง h3"
 
@@ -7971,7 +7971,7 @@ msgstr "จัดรูปแบบเป็นหัวเรื่อง h3"
 msgid "Format as italic"
 msgstr "จัดรูปแบบเป็น_underlined_"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr ""
 
@@ -7987,15 +7987,15 @@ msgstr "จัดรูปแบบเป็น //ขีดทับ//"
 msgid "Format as underlined"
 msgstr "จัดรูปแบบเป็น_underlined_"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "รูปแบบเป็น |ตัวหนา|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "รูปแบบเป็น || ตัวเอียง||"
 
@@ -9376,19 +9376,19 @@ msgstr ""
 "ใส่รหัสวิดเจ็ตลงในซอร์สโค้ดของทุกหน้าที่แชทจะปรากฏ "
 "ควรวางไว้ที่ส่วนท้ายของซอร์สโค้ดของหน้าก่อนแท็กปิด §</body>§"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "แทรกกฎแนวนอน"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "แทรกการกล่าวถึงสำหรับผู้ใช้"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "แทรกคำตอบศูนย์การเรียนรู้"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "แทรกโมดูลข้อความ"
 
@@ -11468,7 +11468,7 @@ msgstr ""
 msgid "Name of form submit button"
 msgstr "ชื่อปุ่มส่งแบบฟอร์ม"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr ""
 
@@ -13271,11 +13271,11 @@ msgstr "วางใบรับรอง"
 msgid "Paste Private Key"
 msgstr "วาง Private Key"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "ว่างจากคลิปบอร์ด"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "ว่างจากคลิปบอร์ด (plain text)"
 
@@ -14282,11 +14282,11 @@ msgstr "การยึนยันตน"
 msgid "Removed reaction from message %s from %s"
 msgstr "ลบปฏิกิริยาออกจากข้อความ %s จาก %s"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "ลบไฮเปอร์ลิงก์ใด ๆ"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "ลบการจัดรูปแบบ"
 
@@ -16898,7 +16898,7 @@ msgstr "ข้อความ"
 msgid "Text Modules"
 msgstr "โมดูลข้อความ"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "แก้ไขข้อความ"
 
@@ -18098,7 +18098,7 @@ msgstr ""
 msgid "The required parameter 'ticket_number' is missing."
 msgstr ""
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 #, fuzzy
 #| msgid "The required parameter 'payload->class_name' is missing."
 msgid "The required parameter 'user_id' is missing."
@@ -20822,11 +20822,11 @@ msgstr ""
 msgid "Used in object views"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr ""
 
@@ -23078,7 +23078,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr ""
 
@@ -23895,7 +23895,7 @@ msgstr "‎... เพิ่ม URL ของลิงก์ออบเจ็ก
 msgid "…add object title"
 msgstr "‎... เพิ่มชื่อวัตถุ‎"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "‎... ของพื้นที่ข้อความทั้งหมด‎"
 

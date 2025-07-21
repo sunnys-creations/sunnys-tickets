@@ -1615,8 +1615,8 @@ msgstr ""
 "<br>\n"
 "<div><a href=\"#{url}\">#{url}</a></div>\n"
 "<br>\n"
-"<div>Þessu hlekkur sendir þig á vefsíðu þar sem þú getur skráð þig inn.</div>"
-"\n"
+"<div>Þessu hlekkur sendir þig á vefsíðu þar sem þú getur skráð þig inn.</"
+"div>\n"
 "<br>\n"
 "<dev>Ef þú vilt ekki skrá þig inn, máttu hundsa þetta skeyti.</div>\n"
 "<br>\n"
@@ -7960,11 +7960,11 @@ msgstr "FormSchema fannst ekki."
 msgid "Format"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Forsníða sem //yfirstrikað//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Forsníða sem _undirstrikað_"
 
@@ -7974,15 +7974,15 @@ msgstr "Forsníða sem _undirstrikað_"
 msgid "Format as bold"
 msgstr "Forsníða sem |feitletrað|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Forsníða sem h1 titil"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Forsníða sem h2 titil"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Forsníða sem h3 titil"
 
@@ -7992,7 +7992,7 @@ msgstr "Forsníða sem h3 titil"
 msgid "Format as italic"
 msgstr "Forsníða sem ||skáletrað||"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Forsníða sem númeraðan lista"
 
@@ -8008,15 +8008,15 @@ msgstr "Forsníða sem //yfirstrikað//"
 msgid "Format as underlined"
 msgstr "Forsníða sem _undirstrikað_"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Forsníða sem lista"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Forsníða sem |feitletrað|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Forsníða sem ||skáletrað||"
 
@@ -9413,21 +9413,21 @@ msgid ""
 "the §</body>§ closing tag."
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Setur inn lárétta línu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 #, fuzzy
 #| msgid "Delete Knowledge Base"
 msgid "Inserts knowledge base answer"
 msgstr "Eyða þekkingarbrunni"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 #, fuzzy
 #| msgid "Text modules"
 msgid "Inserts text module"
@@ -11405,7 +11405,7 @@ msgstr ""
 msgid "Name of form submit button"
 msgstr "Nafn á senda takka"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Flakka um efnisgrein"
 
@@ -13185,11 +13185,11 @@ msgstr ""
 msgid "Paste Private Key"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr ""
 
@@ -14216,11 +14216,11 @@ msgstr "Auðkenning"
 msgid "Removed reaction from message %s from %s"
 msgstr "fjarlægði viðbrögð við skilaboðum frá %s '%s'"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Fjarlægir allar vefslóðir"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Fjarlægir forsnið"
 
@@ -16780,7 +16780,7 @@ msgstr "Texti"
 msgid "Text Modules"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Textaumsýsla"
 
@@ -17875,7 +17875,7 @@ msgstr ""
 msgid "The required parameter 'ticket_number' is missing."
 msgstr ""
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr ""
 
@@ -20462,11 +20462,11 @@ msgstr "Notað í listum (yfirliti og niðurstöðum)"
 msgid "Used in object views"
 msgstr "Notað í hlutasýn"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Notað við að semja texta"
 
@@ -22667,7 +22667,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr ""
 
@@ -23483,7 +23483,7 @@ msgstr ""
 msgid "…add object title"
 msgstr "...bæta við titil á hlut"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 #, fuzzy
 #| msgid "...of whole textarea"
 msgid "…of whole text area"

@@ -8341,11 +8341,11 @@ msgstr "%s Objet(s) mis à jour."
 msgid "Format"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Format tel que //barré//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Format en tant que _souligné_"
 
@@ -8355,15 +8355,15 @@ msgstr "Format en tant que _souligné_"
 msgid "Format as bold"
 msgstr "Formater en |gras|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Mettre en forme comme en-tête h1"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Format en tant que titre h2"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Formater comme en-tête h3"
 
@@ -8373,7 +8373,7 @@ msgstr "Formater comme en-tête h3"
 msgid "Format as italic"
 msgstr "Format en ||italique||"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Format comme liste ordonnée"
 
@@ -8389,15 +8389,15 @@ msgstr "Format tel que //barré//"
 msgid "Format as underlined"
 msgstr "Format en tant que _souligné_"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Format en tant que liste non ordonnée"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Formater en |gras|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Format en ||italique||"
 
@@ -9856,21 +9856,21 @@ msgstr ""
 "le clavardage doit être visible. Il doit être placé à la fin du code source "
 "de la page, avant la balise de fermeture §</body>§."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Insère une règle horizontale"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 #, fuzzy
 #| msgid "Knowledge Base Answer"
 msgid "Inserts knowledge base answer"
 msgstr "Réponse(s) base de connaissances"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 #, fuzzy
 #| msgid "New text module"
 msgid "Inserts text module"
@@ -11993,7 +11993,7 @@ msgstr ""
 msgid "Name of form submit button"
 msgstr "Nom du bouton d'envoi du formulaire"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Naviguer dans l'article"
 
@@ -13865,11 +13865,11 @@ msgstr ""
 msgid "Paste Private Key"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr ""
 
@@ -14919,11 +14919,11 @@ msgstr "Identification"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s a terminé le basculement vers |%s| !"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Supprime tout hyperlien"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Supprime le formatage"
 
@@ -17551,7 +17551,7 @@ msgstr "Texte"
 msgid "Text Modules"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Édition de texte"
 
@@ -18761,7 +18761,7 @@ msgstr ""
 msgid "The required parameter 'ticket_number' is missing."
 msgstr ""
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr ""
 
@@ -21518,11 +21518,11 @@ msgstr "Utilisé dans les listes (aperçus et résultats)"
 msgid "Used in object views"
 msgstr "Utilisé dans les aperçus d'objets"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr ""
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Utilisé lors de la composition d'un texte"
 
@@ -23834,7 +23834,7 @@ msgstr ""
 msgid "is the wrong length (should be 1 character)"
 msgstr ""
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr ""
 
@@ -24676,7 +24676,7 @@ msgstr "...ajouter un lien d'objet URL"
 msgid "…add object title"
 msgstr "...ajouter le titre de l'objet"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 #, fuzzy
 #| msgid "...of whole textarea"
 msgid "…of whole text area"

@@ -7881,11 +7881,11 @@ msgstr "Није било могуће пронаћи FormSchema."
 msgid "Format"
 msgstr "Формат"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Форматирај као //прецртано//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Форматирај као _подвучено_"
 
@@ -7893,15 +7893,15 @@ msgstr "Форматирај као _подвучено_"
 msgid "Format as bold"
 msgstr "Форматирај као подебљано"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Форматирај као h1 заглавље"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Форматирај као h2 заглавље"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Форматирај као h3 заглавље"
 
@@ -7909,7 +7909,7 @@ msgstr "Форматирај као h3 заглавље"
 msgid "Format as italic"
 msgstr "Форматирај као курзив"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Форматирај као листу са бројевима"
 
@@ -7921,15 +7921,15 @@ msgstr "Форматирај као прецртано"
 msgid "Format as underlined"
 msgstr "Форматирај као подвучено"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Форматирај као листу са тачкама"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Форматирај као |подебљано|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Форматирај као ||курзив||"
 
@@ -9246,19 +9246,19 @@ msgstr ""
 "буде видљиво. Неопходно је убацити га на крај изворног кода стране пре "
 "затвореног §</body>§ елемента."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Убацује хоризонталну линију"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "Убацује помињање корисника"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "Убацује чланак базе знања"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "Убацује текстуални исечак"
 
@@ -11143,7 +11143,7 @@ msgstr "Назив овог безбедносног кључа"
 msgid "Name of form submit button"
 msgstr "Назив дугмета за слање"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Кретање кроз чланак"
 
@@ -12803,11 +12803,11 @@ msgstr "Налепи сертификат"
 msgid "Paste Private Key"
 msgstr "Налепи тајни кључ"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "Налепи из привремене меморије"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "Налепи из привремене меморије (обичан текст)"
 
@@ -13744,11 +13744,11 @@ msgstr "Уклони двофакторску аутентификацију"
 msgid "Removed reaction from message %s from %s"
 msgstr "Уклоњена реакција на поруку %s од %s"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Уклони све линкове"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Уклања форматирање"
 
@@ -16162,7 +16162,7 @@ msgstr "Текст"
 msgid "Text Modules"
 msgstr "Текстуални исечци"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Уређивање текста"
 
@@ -17231,7 +17231,7 @@ msgstr "Није пронађен обавезни параметар ’signup�
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Није пронађен обавезни параметар ’ticket_number’."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr "Није пронађен обавезни параметар ’user_id’."
 
@@ -19828,11 +19828,11 @@ msgstr "Користи се у листама (прегледи и резулт�
 msgid "Used in object views"
 msgstr "Користи се у прегледима објекта"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr "Користи се приликом писања чланка тикета"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Користи се приликом писања текста"
 
@@ -22002,7 +22002,7 @@ msgstr "је погрешне дужине (мора бити %{count} знак/
 msgid "is the wrong length (should be 1 character)"
 msgstr "је погрешне дужине (мора бити један знак)"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr "је предугачко"
 
@@ -22766,7 +22766,7 @@ msgstr "…додај URL линк објекта"
 msgid "…add object title"
 msgstr "…додај наслов објекта"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "…целог текстуалног поља"
 

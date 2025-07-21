@@ -7950,11 +7950,11 @@ msgstr "FormSchema kon niet worden gevonden."
 msgid "Format"
 msgstr "Formaat"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Opmaken als //doorgestreept//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Opmaken als _onderstreept_"
 
@@ -7962,15 +7962,15 @@ msgstr "Opmaken als _onderstreept_"
 msgid "Format as bold"
 msgstr "Opmaken als vetgedrukt"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Opmaken als h1-rubriek"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Opmaken als h2-rubriek"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Opmaken als h3-rubriek"
 
@@ -7978,7 +7978,7 @@ msgstr "Opmaken als h3-rubriek"
 msgid "Format as italic"
 msgstr "Opmaken als cursief"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Opmaken als geordende lijst"
 
@@ -7990,15 +7990,15 @@ msgstr "Opmaken als doorgestreept"
 msgid "Format as underlined"
 msgstr "Opmaken als onderstreept"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Opmaken als ongeordende lijst"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Opmaken als |vetgedrukt|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Opmaken als ||cursief||"
 
@@ -9333,19 +9333,19 @@ msgstr ""
 "zichtbaar moet zijn. Deze moet aan het einde van de broncode van de pagina "
 "geplaatst worden voordat de §</body>§ slottag geplaatst wordt."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Een horizontale regel invoegen"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "Mention toevoegen voor een gebruiker"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "Voegt kennisbankantwoord in"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "Tekstmodule invoegen"
 
@@ -11237,7 +11237,7 @@ msgstr "Naam voor deze beveiligingssleutel"
 msgid "Name of form submit button"
 msgstr "Naam van formulier verzend knop"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Door notities navigeren"
 
@@ -12909,11 +12909,11 @@ msgstr "Plak Certificaat"
 msgid "Paste Private Key"
 msgstr "Plak Private Key"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "Plak van klembord"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "Plakken vanaf klembord (platte tekst)"
 
@@ -13853,11 +13853,11 @@ msgstr "Verwijder twee-factor-authenticatie"
 msgid "Removed reaction from message %s from %s"
 msgstr "Reactie verwijderd uit bericht %s van %s"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Verwijdert elke hyperlink"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Verwijderd de indeling"
 
@@ -16284,7 +16284,7 @@ msgstr "Tekst"
 msgid "Text Modules"
 msgstr "Tekst-modules"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Tekstbewerking"
 
@@ -17366,7 +17366,7 @@ msgstr "De vereiste parameter 'signup' ontbreekt."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "De vereiste parameter 'ticket_number' ontbreekt."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr "De vereiste parameter 'user_id' ontbreekt."
 
@@ -20014,11 +20014,11 @@ msgstr "Gebruikt in lijsten (weergaven en resultaten)"
 msgid "Used in object views"
 msgstr "Gebruikt in objectweergaven"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr "Wordt gebruikt bij het opstellen van een Ticket Notitie"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Wordt gebruikt tijdens het schrijven van een tekst"
 
@@ -22202,7 +22202,7 @@ msgstr "is de verkeerde lengte (moet %{count} tekens zijn)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "is de verkeerde lengte (moet 1 teken zijn)"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr "is te lang"
 
@@ -22971,7 +22971,7 @@ msgstr "…object link url toevoegen"
 msgid "…add object title"
 msgstr "…object link titel toevoegen"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "…van geheel tekstvak"
 

@@ -7829,11 +7829,11 @@ msgstr "Nepavyko rasti formos schemos."
 msgid "Format"
 msgstr "Formatas"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Formatuoti kaip //perbrauktą//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Formatuoti kaip _pabrauktą_"
 
@@ -7841,15 +7841,15 @@ msgstr "Formatuoti kaip _pabrauktą_"
 msgid "Format as bold"
 msgstr "Formatuoti kaip paryškintą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Formatuoti kaip h1 antraštę"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Formatuoti kaip h2 antraštę"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Formatuoti kaip h3 antraštę"
 
@@ -7857,7 +7857,7 @@ msgstr "Formatuoti kaip h3 antraštę"
 msgid "Format as italic"
 msgstr "Formatuoti kaip kursyvą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Formatuoti kaip sąrašą eilės tvarka"
 
@@ -7869,15 +7869,15 @@ msgstr "Formatuoti kaip perbrauktą"
 msgid "Format as underlined"
 msgstr "Formatuoti kaip pabrauktą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Formatuoti kaip neeiliuotą sąrašą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Formatuoti kaip |paryškintą|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Formatuoti kaip ||kursyvą||"
 
@@ -9187,19 +9187,19 @@ msgstr ""
 "pokalbio langas. Jis turėtų būti lapo apačioje prieš uždarančiąją „</body>“ "
 "žymą."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Įterpia horizontalią liniją"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "Įterpia naudotojo paminėjimą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "Įterpia žinių bazės atsakymą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "Įterpia teksto modulį"
 
@@ -11090,7 +11090,7 @@ msgstr "Šio saugumo rakto pavadinimas"
 msgid "Name of form submit button"
 msgstr "Formos pateikimo mygtuko pavadinimas"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Naršykite po įrašą"
 
@@ -12744,11 +12744,11 @@ msgstr "Įklijuokite sertifikatą"
 msgid "Paste Private Key"
 msgstr "Įklijuokite privatų raktą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "Įklijuoti iš iškarpinės"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "Įklijuoti iš iškarpinės (tekstas be formatavimo)"
 
@@ -13676,11 +13676,11 @@ msgstr "Pašalinti dviejų veiksnių autentifikavimąsi"
 msgid "Removed reaction from message %s from %s"
 msgstr "Pašalino reakciją iš žinutės %s nuo %s"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Pašalina bet kokią nuorodą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Pašalina formatavimą"
 
@@ -16091,7 +16091,7 @@ msgstr "Tekstas"
 msgid "Text Modules"
 msgstr "Teksto moduliai"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Teksto redagavimas"
 
@@ -17156,7 +17156,7 @@ msgstr "Būtinas „signup“ parametras."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Būtinas „ticket_number“ parametras."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr "Būtinas „user_id“ parametras."
 
@@ -19751,11 +19751,11 @@ msgstr "Naudojami sąrašuose (peržiūrose ir rezultatuose)"
 msgid "Used in object views"
 msgstr "Naudojami objektų peržiūrose"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr "Naudojami rašant trikčių įrašus"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Naudojami rašant tekstą"
 
@@ -21912,7 +21912,7 @@ msgstr "turi būti %{count} ilgio"
 msgid "is the wrong length (should be 1 character)"
 msgstr "turi būti 1 ženklas"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr "per ilgas"
 
@@ -22681,7 +22681,7 @@ msgstr "...pridėti objekto adresą"
 msgid "…add object title"
 msgstr "...pridėti objekto pavadinimą"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "...viso teksto laukelio"
 

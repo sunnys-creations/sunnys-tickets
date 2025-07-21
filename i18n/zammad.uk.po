@@ -7974,11 +7974,11 @@ msgstr "Не вдалося знайти FormSchema."
 msgid "Format"
 msgstr "Формат"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Форматувати як //закреслений//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Форматувати як _підкреслений_"
 
@@ -7986,15 +7986,15 @@ msgstr "Форматувати як _підкреслений_"
 msgid "Format as bold"
 msgstr "Форматувати як жирний"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Форматувати як заголовок h1"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Форматувати як заголовок h2"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Форматувати як заголовок h3"
 
@@ -8002,7 +8002,7 @@ msgstr "Форматувати як заголовок h3"
 msgid "Format as italic"
 msgstr "Форматувати як курсив"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Форматувати як упорядкований перелік"
 
@@ -8014,15 +8014,15 @@ msgstr "Форматувати як закреслений"
 msgid "Format as underlined"
 msgstr "Форматувати як підкреслений"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Форматувати як неупорядкований перелік"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Форматувати як |жирний|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Форматувати як ||курсив||"
 
@@ -9367,19 +9367,19 @@ msgstr ""
 "відображатися чат. Його потрібно розмістити в кінці вихідного коду сторінки "
 "до закриваючого тегу §</body>§."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Вставляє горизонтальну лінійку"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "Додати згадку для користувача"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "Вставити відповідь з бази знань"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "Вставити текстовий модуль"
 
@@ -11274,7 +11274,7 @@ msgstr "Ім'я для цього ключа безпеки"
 msgid "Name of form submit button"
 msgstr "Найменування кнопки при надсиланні форми"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Навігація по повідомленню"
 
@@ -12949,11 +12949,11 @@ msgstr "Вставити сертифікат"
 msgid "Paste Private Key"
 msgstr "Вставте приватний ключ"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "Вставити з буфера обміну"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "Вставити з буфера обміну (звичайний текст)"
 
@@ -13895,11 +13895,11 @@ msgstr "Вимкнути двофакторну автентифікацію"
 msgid "Removed reaction from message %s from %s"
 msgstr "Видалено реакцію з повідомлення %s від %s"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Видаляє будь-які гіперпосилання"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Видаляє форматування"
 
@@ -16322,7 +16322,7 @@ msgstr "Текст"
 msgid "Text Modules"
 msgstr "Текстові модулі"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Редагування тексту"
 
@@ -17417,7 +17417,7 @@ msgstr "Немає обов'язкового параметра «реєстра
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Немає обов'язкового параметра «номер_заявки» (ticket_number)."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr "Немає обов'язкового параметра «ідентифікатор_користувача» (user_id)."
 
@@ -20052,11 +20052,11 @@ msgstr "Використовується в переліках (перегляд
 msgid "Used in object views"
 msgstr "Використовується в переглядах об’єктів"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr "Використовується при написанні повідомлення заявки"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Використовується при написанні тексту"
 
@@ -22251,7 +22251,7 @@ msgstr "має неправильну довжину (має бути %{count} �
 msgid "is the wrong length (should be 1 character)"
 msgstr "має неправильну довжину (має бути 1 символ)"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr "занадто довгий(а)"
 
@@ -23016,7 +23016,7 @@ msgstr "…додати URL-посилання на об’єкт"
 msgid "…add object title"
 msgstr "…додати заголовок об’єкта"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "…від усієї текстової ділянки"
 

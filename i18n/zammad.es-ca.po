@@ -8778,11 +8778,11 @@ msgstr "Objecte(s) %s s'han actualitzat."
 msgid "Format"
 msgstr "Format"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Aplica format de //ratllat//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Aplica format de _subrallat_"
 
@@ -8792,15 +8792,15 @@ msgstr "Aplica format de _subrallat_"
 msgid "Format as bold"
 msgstr "Aplica format de |negreta|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Aplica format d'encapçalament h1"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Aplica format d'encapçalament h2"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Aplica format d'encapçalament h3"
 
@@ -8810,7 +8810,7 @@ msgstr "Aplica format d'encapçalament h3"
 msgid "Format as italic"
 msgstr "Aplica format de ||cursiva||"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Aplica format de llista ordenada"
 
@@ -8826,15 +8826,15 @@ msgstr "Aplica format de //ratllat//"
 msgid "Format as underlined"
 msgstr "Aplica format de _subrallat_"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Aplica format de llista desordenada"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Aplica format de |negreta|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Aplica format de ||cursiva||"
 
@@ -10397,22 +10397,22 @@ msgstr ""
 "ser visible. Hauria d'estar col·locat al final del codi font de la pàgina "
 "abans de la etiqueta de tancament §</body>§"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Inserta una línia horitzontal"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 #, fuzzy
 msgid "Inserts a mention for a user"
 msgstr "Inserts a mention for a user"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 #, fuzzy
 #| msgid "Delete Knowledge Base"
 msgid "Inserts knowledge base answer"
 msgstr "Elimina la Base de coneixement"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 #, fuzzy
 #| msgid "New text module"
 msgid "Inserts text module"
@@ -12670,7 +12670,7 @@ msgstr "Name for this security key"
 msgid "Name of form submit button"
 msgstr "Nom del botó d'enviament del formulari"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Navega a través d'un article"
 
@@ -14631,12 +14631,12 @@ msgstr "Paste Certificate"
 msgid "Paste Private Key"
 msgstr "Paste Private Key"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 #, fuzzy
 msgid "Paste from clipboard"
 msgstr "Paste from clipboard"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 #, fuzzy
 msgid "Paste from clipboard (plain text)"
 msgstr "Paste from clipboard (plain text)"
@@ -15750,11 +15750,11 @@ msgstr "Autenticació"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s canvi finalitzat a |%s|!"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Elimina qualsevol enllaç"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Elimina el format"
 
@@ -18543,7 +18543,7 @@ msgstr "Text"
 msgid "Text Modules"
 msgstr "Text Modules"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Edició de text"
 
@@ -19860,7 +19860,7 @@ msgstr "The required parameter 'signup' is missing."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "The required parameter 'ticket_number' is missing."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 #, fuzzy
 msgid "The required parameter 'user_id' is missing."
 msgstr "The required parameter 'user_id' is missing."
@@ -22771,12 +22771,12 @@ msgstr "Utilitzat en llistes (vistes i resultats)"
 msgid "Used in object views"
 msgstr "Utilitzat en vistes d'objectes"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 #, fuzzy
 msgid "Used when composing a Ticket article"
 msgstr "Used when composing a Ticket article"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Utilitzat quan compons text"
 
@@ -25217,7 +25217,7 @@ msgstr "is the wrong length (should be %{count} characters)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "is the wrong length (should be 1 character)"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 #, fuzzy
 msgid "is too long"
 msgstr "is too long"
@@ -26145,7 +26145,7 @@ msgstr "...afegeix un títol per l'objecte"
 msgid "…add object title"
 msgstr "...afegeix títol d'objecte"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 #, fuzzy
 #| msgid "...of whole textarea"
 msgid "…of whole text area"

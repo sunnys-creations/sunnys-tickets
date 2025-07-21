@@ -8374,11 +8374,11 @@ msgstr "Nepodařilo se najít FormSchema."
 msgid "Format"
 msgstr "Formát"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Formátovat jako //přešktnuté//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Formátovat jako _podtržené_"
 
@@ -8386,15 +8386,15 @@ msgstr "Formátovat jako _podtržené_"
 msgid "Format as bold"
 msgstr "Formátovat jako tučné"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Formátovat jako h1 nadpis"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Formátovat jako h2 nadpis"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Formátovat jako h3 nadpis"
 
@@ -8402,7 +8402,7 @@ msgstr "Formátovat jako h3 nadpis"
 msgid "Format as italic"
 msgstr "Formátovat jako kurzívu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Formátovat jako seřazený seznam"
 
@@ -8414,15 +8414,15 @@ msgstr "Formátovat jako přeškrtnuté"
 msgid "Format as underlined"
 msgstr "Formátovat jako podtržené"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Formátovat jako neseřazený seznam"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Formátovat jako |tučné|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Formátovat jako ||kurzívu||"
 
@@ -9832,19 +9832,19 @@ msgstr ""
 "zobrazen. Kód by měl být umístěn na konci kódu stránky před ukončovací "
 "značkou/tagem §</body>§."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Vloží horizontální čáru"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "Vloží zmínku pro uživatele"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "Vloží odpověď ze Znalostní báze"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "Vloží textový modul"
 
@@ -11949,7 +11949,7 @@ msgstr ""
 msgid "Name of form submit button"
 msgstr "Jméno tlačítka pro odeslání formuláře"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Navigace skrz položku"
 
@@ -13799,11 +13799,11 @@ msgstr "Vložit certifikát"
 msgid "Paste Private Key"
 msgstr "Vložit soukromý klíč"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "Vložit ze schránky"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "Vložit ze schránky (čistý text)"
 
@@ -14832,11 +14832,11 @@ msgstr "Autentizace"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s dokončil přepnutí na |%s|!"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Odstraní jakýkoli hypertextový odkaz"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Odstraní formátování"
 
@@ -17479,7 +17479,7 @@ msgstr "Text"
 msgid "Text Modules"
 msgstr "Textové moduly"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Editování textu"
 
@@ -18710,7 +18710,7 @@ msgstr "Chybí požadovaný parametr \"signup'."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Chybí požadovaný parametr \"ticket_number'."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 #, fuzzy
 #| msgid "The required parameter 'for_user_id' is missing."
 msgid "The required parameter 'user_id' is missing."
@@ -21542,11 +21542,11 @@ msgstr "Použito v seznamech (přehledy a výsledky)"
 msgid "Used in object views"
 msgstr "Použito v přehledu objektů"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr "Používá se při psaní článku v ticketu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Použito při sestavování textových polí"
 
@@ -23838,7 +23838,7 @@ msgstr "nemá správnou délku (mělo by být %{count} znaků)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "nemá správnou délku (měl by být 1 znak)"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr "je příliš dlouhý"
 
@@ -24651,7 +24651,7 @@ msgstr "...přidat URL adresu objektu"
 msgid "…add object title"
 msgstr "...přidat nadpis objektu"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "...celé textové oblasti"
 

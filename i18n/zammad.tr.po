@@ -7973,11 +7973,11 @@ msgstr "FormSchema bulunamadı."
 msgid "Format"
 msgstr "Biçim"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:583
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:592
 msgid "Format as //strikethrough//"
 msgstr "Format as //strikethrough//"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:574
 msgid "Format as _underlined_"
 msgstr "Format as _underlined_"
 
@@ -7985,15 +7985,15 @@ msgstr "Format as _underlined_"
 msgid "Format as bold"
 msgstr "Kalın olarak biçimlendir"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:632
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:641
 msgid "Format as h1 heading"
 msgstr "Format as h1 heading"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:638
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:647
 msgid "Format as h2 heading"
 msgstr "Format as h2 heading"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:644
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:653
 msgid "Format as h3 heading"
 msgstr "Format as h3 heading"
 
@@ -8001,7 +8001,7 @@ msgstr "Format as h3 heading"
 msgid "Format as italic"
 msgstr "İtalik olarak biçimlendir"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:626
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:635
 msgid "Format as ordered list"
 msgstr "Format as ordered list"
 
@@ -8013,15 +8013,15 @@ msgstr "Üstü çizili olarak biçimlendir"
 msgid "Format as underlined"
 msgstr "Altı çizili olarak biçimlendir"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:620
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:629
 msgid "Format as unordered list"
 msgstr "Format as unordered list"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:571
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:580
 msgid "Format as |bold|"
 msgstr "Format as |bold|"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:577
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:586
 msgid "Format as ||italic||"
 msgstr "Format as ||italic||"
 
@@ -9359,19 +9359,19 @@ msgstr ""
 "Sayfanın kaynak kodunun sonuna §</body>§ kapanış etiketinden önce "
 "yerleştirilmelidir."
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:614
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:623
 msgid "Inserts a horizontal rule"
 msgstr "Yatay bir kural ekler"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:547
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
 msgid "Inserts a mention for a user"
 msgstr "Bir kullanıcı için bir bahsetme ekler"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:541
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:550
 msgid "Inserts knowledge base answer"
 msgstr "Bilgi tabanı yanıtını ekler"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:535
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:544
 msgid "Inserts text module"
 msgstr "Metin modülü ekler"
 
@@ -11260,7 +11260,7 @@ msgstr "Bu güvenlik anahtarı için ad"
 msgid "Name of form submit button"
 msgstr "Name of form submit button"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:525
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:534
 msgid "Navigate through article"
 msgstr "Yazı içinde gezin"
 
@@ -12929,11 +12929,11 @@ msgstr "Sertifika Yapıştır"
 msgid "Paste Private Key"
 msgstr "Özel Anahtar Yapıştır"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:589
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:598
 msgid "Paste from clipboard"
 msgstr "Panodan yapıştır"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:596
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:605
 msgid "Paste from clipboard (plain text)"
 msgstr "Panodan yapıştır (düz metin)"
 
@@ -13877,11 +13877,11 @@ msgstr "İki faktörlü kimlik doğrulamayı kaldır"
 msgid "Removed reaction from message %s from %s"
 msgstr "%s iletisindeki tepki %s iletisinden kaldırıldı"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:650
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:659
 msgid "Removes any hyperlink"
 msgstr "Removes any hyperlink"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:602
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:611
 msgid "Removes the formatting"
 msgstr "Removes the formatting"
 
@@ -16303,7 +16303,7 @@ msgstr "Metin"
 msgid "Text Modules"
 msgstr "Metin Modülleri"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:556
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:565
 msgid "Text editing"
 msgstr "Text editing"
 
@@ -17370,7 +17370,7 @@ msgstr "Gerekli 'signup' parametresi eksik."
 msgid "The required parameter 'ticket_number' is missing."
 msgstr "Gerekli 'ticket_number' parametresi eksik."
 
-#: app/models/concerns/perform_changes/action/attribute_updates.rb:117
+#: app/models/concerns/perform_changes/action/attribute_updates.rb:119
 msgid "The required parameter 'user_id' is missing."
 msgstr "Gerekli parametre 'user_id' eksik."
 
@@ -19997,11 +19997,11 @@ msgstr "Used in lists (views and results)"
 msgid "Used in object views"
 msgstr "Used in object views"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:530
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:539
 msgid "Used when composing a Ticket article"
 msgstr "Destek Talebi yazısı oluştururken kullanılır"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:560
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:569
 msgid "Used when composing a text"
 msgstr "Used when composing a text"
 
@@ -22188,7 +22188,7 @@ msgstr "yanlış uzunluktadır (%{count} karakter olmalıdır)"
 msgid "is the wrong length (should be 1 character)"
 msgstr "yanlış uzunluktadır (1 karakter olmalıdır)"
 
-#: app/models/user.rb:860
+#: app/models/user.rb:852
 msgid "is too long"
 msgstr "çok uzun"
 
@@ -22956,7 +22956,7 @@ msgstr "...nesne bağlantı URL'i ekle"
 msgid "…add object title"
 msgstr "...nesne başlığı ekle"
 
-#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:608
+#: app/assets/javascripts/app/controllers/_plugin/keyboard_shortcuts.coffee:617
 msgid "…of whole text area"
 msgstr "...tüm metin alanının"
 
