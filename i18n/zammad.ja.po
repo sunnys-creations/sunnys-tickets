@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-13 22:00+0000\n"
+"PO-Revision-Date: 2025-07-23 17:58+0000\n"
 "Last-Translator: fwmats <matsunaga@fairway-corp.co.jp>\n"
 "Language-Team: Japanese <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ja/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -234,20 +234,16 @@ msgid ""
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_application_controller/form.coffee:148
-#, fuzzy
-#| msgid "Confirm"
 msgid "%s (confirm)"
-msgstr "確認"
+msgstr "%s 確認"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:108
 msgid "%s (method)"
-msgstr ""
+msgstr "%s 方法"
 
 #: app/frontend/apps/mobile/components/Form/fields/FieldSecurity/FieldSecurityInput.vue:143
-#, fuzzy
-#| msgid "add option"
 msgid "%s (option)"
-msgstr "オプションの追加"
+msgstr "%s オプション"
 
 #: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:303
 #: app/frontend/apps/desktop/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInput.vue:595
@@ -271,36 +267,32 @@ msgstr "%s API トークン"
 #: app/assets/javascripts/app/views/integration/exchange_wizard.jst.eco:144
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:179
 msgid "%s Attribute"
-msgstr ""
+msgstr "%s 属性"
 
 #: app/assets/javascripts/app/controllers/ticket_zoom/sidebar_checklist/show.coffee:34
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/title_edit.jst.eco:6
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent.vue:53
-#, fuzzy
-#| msgid "Checksum"
 msgid "%s Checklist"
-msgstr "チェックサム"
+msgstr "%s チェックリスト"
 
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:203
 msgid "%s Group"
-msgstr ""
+msgstr "%s グループ"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupImport/GuidedSetupImportSource/GuidedSetupImportSourceStatus.vue:51
-#, fuzzy
-#| msgid "Import"
 msgid "%s Import Status"
-msgstr "インポート"
+msgstr "%s インポート状況"
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:61
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:65
 #: app/assets/javascripts/app/views/import/otrs.jst.eco:46
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:62
 msgid "%s Migration"
-msgstr "%s Migration"
+msgstr "%s 移行"
 
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:204
 msgid "%s Role"
-msgstr ""
+msgstr "%s ロール"
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:5
 #: app/assets/javascripts/app/views/import/kayako.jst.eco:5
@@ -314,15 +306,13 @@ msgstr "%s 前"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleFooter.vue:31
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:224
-#, fuzzy
-#| msgid "Attached Files"
 msgid "%s attached files"
-msgstr "添付ファイル"
+msgstr "%s 添付ファイル"
 
 #: app/assets/javascripts/app/models/data_privacy_task.coffee:32
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/data-privacy-task.ts:39
 msgid "%s completed data privacy task to delete user ID |%s|"
-msgstr ""
+msgstr "%s がプライバシータスクを終了しユーザID |%s| を削除しました"
 
 #: app/assets/javascripts/app/models/ticket_article.coffee:49
 #: app/frontend/shared/composables/activity-message/activityMessageBuilder/builders/ticket-article.ts:26
@@ -406,7 +396,7 @@ msgstr "%s が |%s| への切替を完了！"
 #: app/assets/javascripts/app/views/integration/exchange_last_import.jst.eco:40
 #: app/assets/javascripts/app/views/integration/exchange_summary.jst.eco:8
 msgid "%s folders"
-msgstr ""
+msgstr "%s フォルダ"
 
 #: app/assets/javascripts/app/views/integration/ldap_last_import.jst.eco:39
 #: app/assets/javascripts/app/views/integration/ldap_summary.jst.eco:8

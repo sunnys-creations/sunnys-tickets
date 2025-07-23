@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-30 22:00+0000\n"
-"Last-Translator: engano <enoceda@puntotec.com>\n"
+"PO-Revision-Date: 2025-07-23 17:58+0000\n"
+"Last-Translator: Benjamin Scharf <bs@zammad.com>\n"
 "Language-Team: Spanish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/es/>\n"
 "Language: es-es\n"
@@ -537,10 +537,8 @@ msgid "%s months ago"
 msgstr "%s meses atrás"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearchResultList/QuickSearchResultList.vue:164
-#, fuzzy
-#| msgid "show more"
 msgid "%s more"
-msgstr "mostrar más"
+msgstr "%s más"
 
 #: app/assets/javascripts/app/views/generic/object_import/imported.jst.eco:21
 msgid "%s object(s) have been created."
@@ -925,6 +923,9 @@ msgid ""
 "mails, e.g. when an agent is composing an email or a trigger is sending an "
 "auto-reply"
 msgstr ""
+"La dirección de correo electrónico de un grupo determina qué dirección se "
+"debe utilizar para los correos salientes, por ejemplo, cuando un agente "
+"redacta un correo electrónico o un disparador envía una respuesta automática."
 
 #: db/seeds/settings.rb:4013
 msgid "A list of active import backends that gets scheduled automatically."
@@ -1974,6 +1975,8 @@ msgid ""
 "Apologies, we're unable to process this kind of message due to restrictions "
 "within WhatsApp Business."
 msgstr ""
+"Lo sentimos, no podemos procesar este tipo de mensaje debido a restricciones "
+"dentro de WhatsApp Business."
 
 #: db/seeds/settings.rb:1449
 msgid "App ID"
@@ -2080,35 +2083,29 @@ msgstr "Archivo"
 #: app/assets/javascripts/app/views/channel/email_account_wizard.jst.eco:109
 #: app/assets/javascripts/app/views/getting_started/email.jst.eco:84
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailChannelConfiguration.ts:69
-#, fuzzy
-#| msgid "Archived at"
 msgid "Archive Emails"
-msgstr "Archivado a las"
+msgstr "Archivar correos electrónicos"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:739
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:43
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:289
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:57
 msgid "Archive cut-off time"
-msgstr ""
+msgstr "Hora límite para el archivo"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:738
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:42
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:288
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:43
-#, fuzzy
-#| msgid "Archived at"
 msgid "Archive emails"
-msgstr "Archivado a las"
+msgstr "Archivar correos electrónicos"
 
 #: app/assets/javascripts/app/controllers/_channel/email.coffee:740
 #: app/assets/javascripts/app/controllers/_channel/email_archive.coffee:44
 #: app/assets/javascripts/app/controllers/getting_started/channel_email.coffee:290
 #: app/frontend/apps/desktop/entities/channel-email/composables/useEmailInboundMessagesForm.ts:66
-#, fuzzy
-#| msgid "Ticket update"
 msgid "Archive ticket target state"
-msgstr "Ticket actualizado"
+msgstr "Estado objetivo del ticket de archivo"
 
 #: app/assets/javascripts/app/controllers/knowledge_base/content_can_be_published_form.coffee:113
 msgid "Archived"
@@ -2232,10 +2229,8 @@ msgid "Are you sure? Your recent searches will get lost."
 msgstr "¿Seguro? Tiene cambios que se perderán."
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:109
-#, fuzzy
-#| msgid "Are you sure? You have changes that will get lost."
 msgid "Are you sure? Your recently viewed items will get lost."
-msgstr "¿Seguro? Tiene cambios que se perderán."
+msgstr "¿Estás seguro? Los artículos que has visto recientemente se perderán."
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:54
 #: app/assets/javascripts/app/controllers/_ui_element/_application_selector.coffee:11
@@ -2259,10 +2254,8 @@ msgid "Article Count"
 msgstr "Cuenta de artículos"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:12
-#, fuzzy
-#| msgid "Duplicate Detection"
 msgid "Article Language Detection"
-msgstr "Detección de duplicados"
+msgstr "Detección del idioma del artículo"
 
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleBubble.vue:289
 msgid "Article actions"
@@ -2481,10 +2474,8 @@ msgid "August"
 msgstr "Agosto"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:381
-#, fuzzy
-#| msgid "Authentication"
 msgid "Authenticate"
-msgstr "Autenticacion"
+msgstr "Autenticar"
 
 #: app/assets/javascripts/app/views/integration/exchange.jst.eco:4
 msgid "Authentication"
@@ -2543,7 +2534,7 @@ msgstr "Autor"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleBubble/ArticleBubbleBody.vue:92
 msgid "Author name and article creation date"
-msgstr ""
+msgstr "Nombre del autor y fecha de creación del artículo"
 
 #: app/controllers/application_controller/handles_errors.rb:106
 msgid "Authorization failed"
@@ -2570,7 +2561,7 @@ msgstr "Selector de Asignación Automática"
 
 #: db/seeds/settings.rb:5973
 msgid "Auto Shutdown"
-msgstr ""
+msgstr "Apagado automático"
 
 #: app/assets/javascripts/app/controllers/getting_started/auto_wizard.coffee:16
 msgid "Auto Wizard"
@@ -3236,16 +3227,12 @@ msgid "Change text color"
 msgstr "Cambiar el color del texto"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:36
-#, fuzzy
-#| msgid "Change %s"
 msgid "Change to %s"
-msgstr "Cambio %s"
+msgstr "Cambiar a %s"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:27
-#, fuzzy
-#| msgid "add new email address"
 msgid "Change to channel email address"
-msgstr "añadir nueva dirección de correo electrónico"
+msgstr "Cambiar a la dirección de correo electrónico del canal"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/actions/TicketHistory/HistoryEventDetails/HistoryEventDetailsReaction.vue:17
 msgid "Changed reaction on message %s from %s"
@@ -3562,16 +3549,12 @@ msgid "Clear filter"
 msgstr "Borrar filtro"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:184
-#, fuzzy
-#| msgid "Clear Search"
 msgid "Clear recent searches"
-msgstr "Limpiar Búsqueda"
+msgstr "Borrar búsquedas recientes"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:220
-#, fuzzy
-#| msgid "Recently viewed"
 msgid "Clear recently viewed"
-msgstr "Recietemente visto"
+msgstr "Borrar los elementos vistos recientemente"
 
 #: app/frontend/shared/components/Form/fields/FieldDate/useDateTime.ts:92
 msgid "Clear the value"
@@ -3749,6 +3732,10 @@ msgid ""
 "channels, we suggest using the Graph API implementation instead. More "
 "information can be found here %l."
 msgstr ""
+"En comparación con el canal de correo electrónico de la API Graph de "
+"Microsoft 365, esta es la implementación tradicional que utiliza OAuth e "
+"IMAP. Al configurar nuevos canales, recomendamos utilizar la implementación "
+"de la API Graph. Para obtener más información, consulte aquí %l."
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:11
@@ -3990,10 +3977,8 @@ msgid "Content could not be loaded."
 msgstr "No se pudo cargar el contenido."
 
 #: app/frontend/apps/desktop/components/CommonSkeleton/CommonSkeleton.vue:12
-#, fuzzy
-#| msgid "Content sidebar"
 msgid "Content loader"
-msgstr "Barra lateral de contenido"
+msgstr "Cargador de contenido"
 
 #: app/models/store.rb:82
 msgid "Content preview could not be generated."
@@ -4141,6 +4126,8 @@ msgid ""
 "Could not create user and send verification email because import_mode "
 "setting is on."
 msgstr ""
+"No se pudo crear el usuario ni enviar el correo electrónico de verificación "
+"porque la configuración import_mode está activada."
 
 #: app/services/service/channel/whatsapp/base.rb:37
 msgid "Could not fetch WhatsApp phone number details."
@@ -4151,10 +4138,8 @@ msgid "Could not fetch security keys"
 msgstr "No se pueden obtener las claves de seguridad"
 
 #: app/controllers/channels_admin/microsoft_graph_controller.rb:16
-#, fuzzy
-#| msgid "Couldn't save changes"
 msgid "Could not find the channel."
-msgstr "No se han podido guardar los cambios"
+msgstr "No se ha encontrado el canal."
 
 #: app/frontend/apps/desktop/components/TwoFactor/TwoFactorConfiguration/TwoFactorConfigurationRecoveryCodes.vue:39
 #: app/graphql/gql/mutations/user/current/two_factor/recovery_codes_generate.rb:23
@@ -4163,7 +4148,7 @@ msgstr "No se han podido generar códigos de recuperación"
 
 #: app/controllers/channels_admin/microsoft_graph_controller.rb:19
 msgid "Could not identify the channel mailbox."
-msgstr ""
+msgstr "No se pudo identificar el buzón del canal."
 
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:37
 msgid ""
@@ -4207,6 +4192,8 @@ msgstr "No se ha podido eliminar el método de autenticación de dos factores."
 msgid ""
 "Could not send user verification email because import_mode setting is on."
 msgstr ""
+"No se pudo enviar el correo electrónico de verificación del usuario porque "
+"la configuración import_mode está activada."
 
 #: app/assets/javascripts/app/controllers/_profile/password.coffee:228
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:92
@@ -4589,16 +4576,12 @@ msgstr ""
 "su administrador."
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/views/TicketOverviews.vue:129
-#, fuzzy
-#| msgid ""
-#| "Currently no overview is assigned to your roles. Please contact your "
-#| "administrator."
 msgid ""
 "Currently, no overviews are assigned to your roles. Please contact your "
 "administrator."
 msgstr ""
-"Actualmente no hay supervisión asignada a sus roles. Por favor contacte con "
-"su administrador."
+"Actualmente, no hay vistas generales asignadas a sus roles. Póngase en "
+"contacto con su administrador."
 
 #: app/assets/javascripts/app/controllers/_ui_element/core_workflow_condition.coffee:28
 msgid "Custom"
@@ -5580,11 +5563,10 @@ msgstr ""
 "organizaciones."
 
 #: db/seeds/settings.rb:186
-#, fuzzy
-#| msgid "Defines the tab behaviour after a ticket action."
 msgid "Defines the backend service for ticket article language detection."
 msgstr ""
-"Define el comportamiento de la pestaña después de una acción del ticket."
+"Define el servicio backend para la detección del idioma de los artículos de "
+"los tickets."
 
 #: db/seeds/settings.rb:2915
 msgid ""
@@ -6031,10 +6013,8 @@ msgid "Delete this link"
 msgstr "Borrar este enlace"
 
 #: app/frontend/apps/desktop/components/QuickSearch/QuickSearch.vue:165
-#, fuzzy
-#| msgid "Delete this avatar"
 msgid "Delete this recent search"
-msgstr "Eliminar este avatar"
+msgstr "Eliminar esta búsqueda reciente"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:29
 msgid "Delete:"
@@ -6148,10 +6128,8 @@ msgstr "Identificación de llamada o cola del destinatario"
 #: app/assets/javascripts/app/controllers/_channel/google.coffee:282
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:304
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:271
-#, fuzzy
-#| msgid "Destination Group"
 msgid "Destination group > Sending email address"
-msgstr "Grupo de destino"
+msgstr "Grupo de destino > Dirección de correo electrónico de envío"
 
 #: app/assets/javascripts/app/views/settings/ticket_duplicate_detection.jst.eco:7
 #: db/seeds/settings.rb:2695
@@ -6160,17 +6138,13 @@ msgstr "Detectar creación de casos duplicados"
 
 #: app/assets/javascripts/app/views/ticket_zoom/article_view.jst.eco:158
 #: db/seeds/object_manager_attributes.rb:734
-#, fuzzy
-#| msgid "Target Language"
 msgid "Detected Language"
-msgstr "Idioma de destino"
+msgstr "Idioma detectado"
 
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/ArticleMeta/useArticleMeta.ts:101
 #: app/frontend/apps/mobile/pages/ticket/components/TicketDetailView/ArticleMetadataDialog.vue:103
-#, fuzzy
-#| msgid "Target Language"
 msgid "Detected language"
-msgstr "Idioma de destino"
+msgstr "Idioma detectado"
 
 #: db/seeds/settings.rb:73
 msgid "Developer System"
@@ -6201,6 +6175,8 @@ msgid ""
 "Did you check the validity of the configured mailbox? Or consider removing "
 "this channel and switch to using a different mailbox type. %l"
 msgstr ""
+"¿Ha comprobado la validez del buzón configurado? O considere eliminar este "
+"canal y cambiar a un tipo de buzón diferente. %l"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft_graph.coffee:468
 msgid ""
@@ -6208,6 +6184,8 @@ msgid ""
 "consider removing this channel and switch to using a different mailbox type. "
 "%l"
 msgstr ""
+"¿Ha confirmado que el usuario tiene permisos de delegación para el buzón? O "
+"considere eliminar este canal y cambiar a un tipo de buzón diferente. %l"
 
 #: app/assets/javascripts/app/controllers/translation.coffee:325
 msgid ""
@@ -6237,6 +6215,8 @@ msgid ""
 "Did you verify that the user has access to the mailbox? Or consider removing "
 "this channel and switch to using a different mailbox type. %l"
 msgstr ""
+"¿Ha comprobado que el usuario tiene acceso al buzón? O considere eliminar "
+"este canal y cambiar a un tipo de buzón diferente. %l"
 
 #: db/seeds/settings.rb:2201
 msgid "Digit required"
@@ -6352,10 +6332,8 @@ msgid "Display name"
 msgstr "Nombre para mostrar"
 
 #: app/assets/javascripts/app/lib/mixins/destination_group_email_address.coffee:26
-#, fuzzy
-#| msgid "add new email address"
 msgid "Do not change email address (%s)"
-msgstr "añadir nueva dirección de correo electrónico"
+msgstr "No cambies la dirección de correo electrónico (%s)"
 
 #: app/assets/javascripts/app/controllers/_ui_element/_application_action.coffee:662
 msgid "Do not encrypt email"
@@ -6562,10 +6540,8 @@ msgid "Duplicate Detection"
 msgstr "Detección de duplicados"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:555
-#, fuzzy
-#| msgid "Email Address"
 msgid "Duplicate Email Address"
-msgstr "Dirección de correo electrónico"
+msgstr "Dirección de correo electrónico duplicada"
 
 #: app/assets/javascripts/app/views/cti/caller_log.jst.eco:34
 msgid "Duration"
@@ -6877,6 +6853,9 @@ msgid ""
 "Emails before the cut-off time are imported as archived tickets. Emails "
 "after the cut-off time are imported as regular tickets."
 msgstr ""
+"Los correos electrónicos recibidos antes de la hora límite se importan como "
+"tickets archivados. Los correos electrónicos recibidos después de la hora "
+"límite se importan como tickets normales."
 
 #: app/assets/javascripts/app/views/knowledge_base/public_menu_manager.jst.eco:21
 #: app/assets/javascripts/app/views/knowledge_base/search_field_panel.jst.eco:5
@@ -6885,10 +6864,8 @@ msgid "Empty"
 msgstr "Vacío"
 
 #: app/frontend/apps/desktop/pages/ticket-overviews/components/TicketList.vue:364
-#, fuzzy
-#| msgid "Overview"
 msgid "Empty Overview"
-msgstr "Resumen"
+msgstr "Resumen vacío"
 
 #: app/assets/javascripts/app/views/channel/email_account_overview.jst.eco:151
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:72
@@ -6992,6 +6969,10 @@ msgid ""
 "configuration changes. This should only be used if the controlling process "
 "manager like systemd or docker supports an automatic restart policy."
 msgstr ""
+"Habilita o deshabilita el apagado automático de los procesos de Zammad tras "
+"cambios significativos en la configuración. Esto solo debe utilizarse si el "
+"gestor de procesos de control, como systemd o docker, admite una política de "
+"reinicio automático."
 
 #: app/assets/javascripts/app/views/maintenance.jst.eco:16
 msgid ""
@@ -7121,10 +7102,8 @@ msgid "Enables user authentication via Microsoft 365."
 msgstr "Habilita la autenticación del usuario mediante Microsoft 365."
 
 #: db/seeds/settings.rb:2063
-#, fuzzy
-#| msgid "Enables user authentication via Weibo."
 msgid "Enables user authentication via OpenID Connect."
-msgstr "Habilita la autenticación del usuario mediante Weibo."
+msgstr "Permite la autenticación de usuarios a través de OpenID Connect."
 
 #: db/seeds/settings.rb:1905
 msgid "Enables user authentication via SAML."
