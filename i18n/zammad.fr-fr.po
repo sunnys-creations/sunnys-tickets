@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-07 07:33+0000\n"
+"PO-Revision-Date: 2025-07-26 19:00+0000\n"
 "Last-Translator: Anael Mobilia <contrib@anael.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/fr/>\n"
@@ -18594,7 +18594,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:24
 msgid "Ticket (censored):"
-msgstr "Ticket (censuré) :"
+msgstr "Ticket (obfusqué) :"
 
 #: db/seeds/permissions.rb:215
 msgid "Ticket Auto Assignment"
@@ -20271,7 +20271,7 @@ msgstr "Utilisateur"
 
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:16
 msgid "User (censored):"
-msgstr "Utilisateur (censuré) :"
+msgstr "Utilisateur (obfusqué) :"
 
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:47
 msgid "User Filter"

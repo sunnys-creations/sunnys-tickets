@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-31 05:47+0000\n"
-"Last-Translator: \"Decio E. Silva\" <decio@verinatec.com.br>\n"
+"PO-Revision-Date: 2025-07-26 19:00+0000\n"
+"Last-Translator: Fernando s Maciel <tecnobeach.itanhaem@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "zammad/zammad-stable/pt_BR/>\n"
 "Language: pt-br\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. Default date format to use for the current locale.
 #. These placeholders are supported:
@@ -17907,10 +17907,8 @@ msgstr ""
 "potencialmente desconhecido."
 
 #: app/controllers/ticket_articles_controller.rb:186
-#, fuzzy
-#| msgid "This article is not part of the ticket."
 msgid "This article does not have a raw copy available."
-msgstr "Este artigo não faz parte do ticket."
+msgstr "Não há nenhuma base de conhecimento criada."
 
 #: app/models/ticket/time_accounting.rb:44
 msgid "This article is not part of the ticket."
