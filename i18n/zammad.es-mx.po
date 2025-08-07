@@ -3988,6 +3988,7 @@ msgid "Configure your system."
 msgstr "Para configurar su sistema."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 #, fuzzy
 #| msgid "Config"
 msgid "Confirm"
@@ -12022,6 +12023,10 @@ msgstr "Plantillas"
 msgid "New Deletion Task"
 msgstr "Borrar Nueva Tarea"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Nuevo Grupo"
@@ -19533,6 +19538,12 @@ msgstr ""
 msgid "This might take some time during which the system can't be used."
 msgstr ""
 "Esto puede tomar algún tiempo durante el cual no se puede usar el sistema."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

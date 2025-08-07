@@ -3743,6 +3743,7 @@ msgid "Configure your system."
 msgstr "配置您的系统。"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "确认"
 
@@ -11277,6 +11278,10 @@ msgstr "模板"
 msgid "New Deletion Task"
 msgstr "新删除任务"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "新建组"
@@ -18447,6 +18452,12 @@ msgstr "此消息没有由发件人签署。"
 #| msgid "This might take some time where the system can't be used."
 msgid "This might take some time during which the system can't be used."
 msgstr "無法使用該系統可能需要一些時間"
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

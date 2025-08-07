@@ -3798,6 +3798,7 @@ msgid "Configure your system."
 msgstr ""
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Potvrdiť"
 
@@ -11418,6 +11419,10 @@ msgstr "Nová šablóna kontrolného zoznamu"
 msgid "New Deletion Task"
 msgstr "Nová úloha vymazávania"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Nová skupina"
@@ -18447,6 +18452,12 @@ msgstr ""
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:18
 msgid "This might take some time during which the system can't be used."
 msgstr "Môže to trvať určitý čas, počas ktorého sa systém nebude dať používať."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

@@ -3812,6 +3812,7 @@ msgid "Configure your system."
 msgstr "Настроить Вашу систему."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Подтвердить"
 
@@ -11432,6 +11433,10 @@ msgstr "Новый шаблон чек-листа"
 msgid "New Deletion Task"
 msgstr "Новая задача удаления"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Новая группа"
@@ -18291,6 +18296,12 @@ msgid "This might take some time during which the system can't be used."
 msgstr ""
 "Это может занять некоторое время, в течение которого система будет "
 "недоступна."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

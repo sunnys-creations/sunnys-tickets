@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-07 22:00+0000\n"
+"PO-Revision-Date: 2025-08-04 22:00+0000\n"
 "Last-Translator: Murat Duman <mduman@metu.edu.tr>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/tr/>\n"
@@ -3797,6 +3797,7 @@ msgid "Configure your system."
 msgstr "Sisteminizi yapılandırın."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Onayla"
 
@@ -11368,6 +11369,10 @@ msgstr "Yeni Kontrol Listesi Şablonu"
 msgid "New Deletion Task"
 msgstr "Yeni Silme Görevi"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr "Yeni Masaüstü Kullanıcı Arayüzü - Alfa Sürümü"
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "New Group"
@@ -18152,6 +18157,15 @@ msgstr "Bu mesaj göndericisi tarafından imzalanmamıştır."
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:18
 msgid "This might take some time during which the system can't be used."
 msgstr "Bu işlem, sistemin kullanılamayacağı bir süre alabilir."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
+"Bu yeni masaüstü kullanıcı arayüzü şu anda geliştirme aşamasındadır ve canlı "
+"ortam kullanımı için hazır değildir. Hatalar veya eksik özellikler "
+"içerebilir."
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

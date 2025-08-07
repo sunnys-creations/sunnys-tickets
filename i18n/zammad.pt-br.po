@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-26 19:00+0000\n"
-"Last-Translator: Fernando s Maciel <tecnobeach.itanhaem@gmail.com>\n"
+"PO-Revision-Date: 2025-07-29 22:00+0000\n"
+"Last-Translator: Mauricio Rampazo <mrampazo@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "zammad/zammad-stable/pt_BR/>\n"
 "Language: pt-br\n"
@@ -3204,7 +3204,7 @@ msgstr "Alterar data"
 #: app/assets/javascripts/app/views/generic/history.jst.eco:2
 #: app/assets/javascripts/app/views/knowledge_base/sidebar/generic_list.jst.eco:10
 msgid "Change order"
-msgstr "Ordem de Mudança"
+msgstr "Mudar Ordem"
 
 #: db/seeds/permissions.rb:433
 msgid "Change personal account password."
@@ -3797,6 +3797,7 @@ msgid "Configure your system."
 msgstr "Configure seu sistema."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -11361,6 +11362,10 @@ msgstr "Novo Modelo de Lista de Verificação"
 msgid "New Deletion Task"
 msgstr "Nova tarefa de delegação"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Novo Grupo"
@@ -18189,6 +18194,12 @@ msgstr "Esta mensagem não foi assinada pelo remetente."
 msgid "This might take some time during which the system can't be used."
 msgstr ""
 "Isto pode levar um tempo, enquanto isso o sistema não pode ser utilizado."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

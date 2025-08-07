@@ -3761,6 +3761,7 @@ msgid "Configure your system."
 msgstr "Konfigurera ditt system."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Bekräfta"
 
@@ -11280,6 +11281,10 @@ msgstr "Ny Checklistmall"
 msgid "New Deletion Task"
 msgstr "Ny Raderingsuppgift"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Ny grupp"
@@ -18047,6 +18052,12 @@ msgstr "Detta meddelande har inte signerats av avsändaren."
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:18
 msgid "This might take some time during which the system can't be used."
 msgstr "Det kan ta lite tid. Under den tiden kan systemet inte användas."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

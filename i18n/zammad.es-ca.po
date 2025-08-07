@@ -4179,6 +4179,7 @@ msgid "Configure your system."
 msgstr "Per configurar el teu sistema."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 #, fuzzy
 #| msgid "Config"
 msgid "Confirm"
@@ -12799,6 +12800,10 @@ msgstr "Plantilles"
 msgid "New Deletion Task"
 msgstr "New Deletion Task"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Nou grup"
@@ -20788,6 +20793,12 @@ msgstr "This message was not signed by its sender."
 msgid "This might take some time during which the system can't be used."
 msgstr ""
 "Això pot tardat una estona een la qual el sistema no podrà ser utilitzat."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

@@ -3853,6 +3853,7 @@ msgid "Configure your system."
 msgstr "Configurarează-ți sistemul."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Confirm"
 
@@ -11770,6 +11771,10 @@ msgstr "Templates"
 msgid "New Deletion Task"
 msgstr "Sarcină de ștergere nouă"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Grup nou"
@@ -18955,6 +18960,12 @@ msgstr "Acest mesaj nu a fost semnat de către expeditorul său."
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:18
 msgid "This might take some time during which the system can't be used."
 msgstr "Acest lucru poate dura ceva timp în care sistemul nu poate fi folosit."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

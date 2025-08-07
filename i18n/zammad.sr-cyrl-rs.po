@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-02 09:37+0000\n"
+"PO-Revision-Date: 2025-08-01 22:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (Cyrillic script) <https://translations.zammad.org/"
 "projects/zammad/zammad-stable/sr_Cyrl/>\n"
@@ -3760,6 +3760,7 @@ msgid "Configure your system."
 msgstr "Подешавање вашег система."
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_notification.coffee:45
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:54
 msgid "Confirm"
 msgstr "Потврди"
 
@@ -11251,6 +11252,10 @@ msgstr "Нови шаблон списка задатака"
 msgid "New Deletion Task"
 msgstr "Нови захтев за брисање"
 
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:47
+msgid "New Desktop UI — Alpha Version"
+msgstr "Нови основни кориснички интерфејс — алфа верзија"
+
 #: app/assets/javascripts/app/controllers/group.coffee:27
 msgid "New Group"
 msgstr "Нова група"
@@ -18001,6 +18006,14 @@ msgstr "Ова порука није потписана од стране пош
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:18
 msgid "This might take some time during which the system can't be used."
 msgstr "Ово може потрајати неко време за које се систем не може користити."
+
+#: app/frontend/apps/desktop/composables/useBetaDisclaimer.ts:49
+msgid ""
+"This new desktop UI is currently in development and not ready for production "
+"use. It may contain bugs or incomplete features."
+msgstr ""
+"Овај нови кориснички интерфејс је тренутно у развоју и није спреман за "
+"продукцију. Може садржати грешке или непотпуне функције."
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116
