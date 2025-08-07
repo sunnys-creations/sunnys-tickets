@@ -17522,7 +17522,7 @@ msgstr ""
 "Den uppladdade bilden kunde inte bearbetas. Behöver data:image in logo or "
 "logo_resize param."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr "Användarkontot finns inte. Vänligen kontakta din administratör."
 

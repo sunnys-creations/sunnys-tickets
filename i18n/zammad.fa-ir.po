@@ -17485,7 +17485,7 @@ msgstr ""
 "تصویر بارگزاری شده قابل پردازش نیست. نیازمند مولفه data:image یا logo_resize "
 "در لوگو است."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "The password could not be set. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."

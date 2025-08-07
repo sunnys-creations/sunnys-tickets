@@ -17902,7 +17902,7 @@ msgstr ""
 "Nahraný obrázok sa nepodarilo spracovať. Potrebujete data:image v parametri "
 "logo alebo logo_resize."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 "Používateľský účet neexistuje. Kontaktujte prosím svojho administrátora."

@@ -17798,7 +17798,7 @@ msgstr ""
 "Das hochgeladene Bild konnte nicht verarbeitet werden. Es wird der Parameter "
 "data:image in logo oder logo_resize benötigt."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 "Das Konto des Benutzers existiert nicht. Bitte wenden Sie sich an Ihren "

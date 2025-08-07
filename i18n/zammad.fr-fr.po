@@ -17816,7 +17816,7 @@ msgstr ""
 "Les images envoyées n'ont pas pu être traitées. data:image est requis dans "
 "le paramètre \"logo\" ou \"logo_resize\"."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 "Le compte utilisateur n'existe pas. Veuillez contacter votre administrateur."

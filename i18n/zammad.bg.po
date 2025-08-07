@@ -18028,7 +18028,7 @@ msgid ""
 "logo_resize param."
 msgstr "%s Обект(и) са създадени."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 

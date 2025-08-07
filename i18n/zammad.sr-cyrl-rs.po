@@ -17482,7 +17482,7 @@ msgstr ""
 "Није било могуће обрадити отпремљену слику. Неопходно је приложити "
 "’data:image’ за лого или ’logo_resize’ параметар."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr "Кориснички налог не постоји. Молимо контактирајте администратора."
 

@@ -19509,7 +19509,7 @@ msgid ""
 "logo_resize param."
 msgstr "Los boletos no se pueden fusionar."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "The password could not be set. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."

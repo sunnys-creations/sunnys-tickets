@@ -17658,7 +17658,7 @@ msgstr ""
 "A imagem enviada não pôde ser processada. É necessário o parâmetro "
 "\"data:image\" no logotipo ou no parâmetro \"logo_resize\"."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 "A conta de usuário não existe. Por favor, entre em contato com o "

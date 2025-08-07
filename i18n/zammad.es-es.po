@@ -17866,7 +17866,7 @@ msgstr ""
 "No se ha podido procesar la imagen cargada. Necesita data:image en el "
 "parámetro logo o logo_resize."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 "La cuenta de usuario no existe. Póngase en contacto con su administrador."

@@ -18309,7 +18309,7 @@ msgid ""
 "logo_resize param."
 msgstr ""
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "Email could not be verified. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."

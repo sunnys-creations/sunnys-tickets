@@ -18253,7 +18253,7 @@ msgid ""
 "logo_resize param."
 msgstr "% s ऑब्जेक्ट (s) बनाए जाते हैं।"
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "Unable to verify email. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."

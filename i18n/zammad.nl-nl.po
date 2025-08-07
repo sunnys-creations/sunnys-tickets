@@ -17621,7 +17621,7 @@ msgstr ""
 "De geüploade afbeelding kon niet worden verwerkt. data:image nodig in logo "
 "of logo_resize param."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr "Het gebruikersaccount bestaat niet. Neem contact op met de beheerder."
 

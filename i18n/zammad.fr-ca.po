@@ -19020,7 +19020,7 @@ msgid ""
 "logo_resize param."
 msgstr "L'image téléchargé n'a pas pu être traitée."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "Unable to verify email. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."

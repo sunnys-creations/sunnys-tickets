@@ -18404,7 +18404,7 @@ msgstr ""
 "Imaginea încărcată nu poate fi procesată. Este necesar data:image în siglă "
 "sau parametrul logo_resize."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "Unable to verify email. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."

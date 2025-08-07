@@ -17756,7 +17756,7 @@ msgstr ""
 "Загруженное изображение не может быть обработано. Необходимо указать "
 "data:image в logo или logo_resize параметрах."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 msgid "The user account does not exist. Please contact your administrator."
 msgstr ""
 "Учётная запись пользователя не существует. Пожалуйста, свяжитесь с Вашим "

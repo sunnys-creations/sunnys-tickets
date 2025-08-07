@@ -18264,7 +18264,7 @@ msgid ""
 "logo_resize param."
 msgstr "Przesłany obraz nie mógł zostać przetworzony."
 
-#: app/models/authorization/provider.rb:47
+#: app/models/authorization/provider.rb:53
 #, fuzzy
 #| msgid "The password could not be set. Please contact your administrator."
 msgid "The user account does not exist. Please contact your administrator."
@@ -19854,7 +19854,8 @@ msgstr "Token jest nieprawidłowy!"
 
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTokenAccess.vue:47
 msgid "Token-based API access has been disabled by the administrator."
-msgstr "Dostęp do API oparty na tokenach został wyłączony przez administratora."
+msgstr ""
+"Dostęp do API oparty na tokenach został wyłączony przez administratora."
 
 #: lib/user_agent.rb:239
 msgid "Too many redirections for the original URL, halting."
@@ -20624,9 +20625,9 @@ msgstr ""
 "<% end %>\n"
 "<br>\n"
 "<div>\n"
-"<a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/"
-"#{ticket.id}/#{article.id}\" target=\"zammad_app\">Zobacz to w "
-"#{config.product_name}</a>\n"
+"<a href=\"#{config.http_type}://#{config.fqdn}/#ticket/zoom/#{ticket.id}/"
+"#{article.id}\" target=\"zammad_app\">Zobacz to w #{config.product_name}</"
+"a>\n"
 "</div>\n"
 
 #: app/assets/javascripts/app/views/object_manager/index.jst.eco:45
