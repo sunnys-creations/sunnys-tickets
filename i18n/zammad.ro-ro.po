@@ -46,7 +46,7 @@ msgstr "dd.mm.yyyy"
 msgid "FORMAT_DATETIME"
 msgstr "dd.mm.yyyy HH:MM"
 
-#: db/seeds/settings.rb:367
+#: db/seeds/settings.rb:368
 msgid ""
 "\"Database\" stores all attachments in the database (not recommended for "
 "storing large amounts of data). \"Filesystem\" stores the data in the "
@@ -369,10 +369,10 @@ msgstr "%s (metodă)"
 msgid "%s (option)"
 msgstr "%s (opțiune)"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:303
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:304
 #: app/frontend/apps/desktop/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInput.vue:595
 #: app/frontend/apps/desktop/components/Form/fields/FieldSelect/FieldSelectInput.vue:270
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:374
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:375
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInput.vue:149
 #: app/frontend/apps/mobile/components/Form/fields/FieldSelect/FieldSelectInput.vue:108
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInput.vue:135
@@ -797,7 +797,7 @@ msgstr ""
 msgid "1 attached file"
 msgstr "1 fișier atașat"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "1 day"
 msgstr "1 zi"
 
@@ -805,7 +805,7 @@ msgstr "1 zi"
 msgid "1 day ago"
 msgstr "1 zi în urmă"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "1 hour"
 msgstr "o ora"
 
@@ -825,7 +825,7 @@ msgstr "acum un minut"
 msgid "1 month ago"
 msgstr "acum o lună"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "1 week"
 msgstr "o săptămână"
 
@@ -841,11 +841,11 @@ msgstr "acum un an"
 msgid "1. Ticket Create"
 msgstr "1. Creare tichet"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "2 hours"
 msgstr "2 ore"
 
-#: db/seeds/settings.rb:2175
+#: db/seeds/settings.rb:2176
 msgid "2 lower case and 2 upper case characters"
 msgstr "2 litere mici și 2 litere mari"
 
@@ -853,7 +853,7 @@ msgstr "2 litere mici și 2 litere mari"
 msgid "2 normal"
 msgstr "2 - Normală"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "2 weeks"
 msgstr "2 săptămâni"
 
@@ -865,7 +865,7 @@ msgstr "2. Actualizare tichet"
 msgid "3 high"
 msgstr "3 - Mare"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "3 weeks"
 msgstr "3 săptămâni"
 
@@ -873,7 +873,7 @@ msgstr "3 săptămâni"
 msgid "3. Ticket Reminder Reached"
 msgstr "3. Memento al tichetului atins"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "4 weeks"
 msgstr "4 săptămâni"
 
@@ -931,7 +931,7 @@ msgid ""
 "auto-reply"
 msgstr ""
 
-#: db/seeds/settings.rb:4013
+#: db/seeds/settings.rb:4014
 msgid "A list of active import backends that gets scheduled automatically."
 msgstr "O listă de back-end-uri de import active care sunt programate automat."
 
@@ -1026,7 +1026,7 @@ msgstr "API"
 msgid "API Key"
 msgstr "Cheie API"
 
-#: db/seeds/settings.rb:3535
+#: db/seeds/settings.rb:3536
 msgid "API Password Access"
 msgstr "Autentificare API cu parolă"
 
@@ -1034,7 +1034,7 @@ msgstr "Autentificare API cu parolă"
 msgid "API Token"
 msgstr "Token API"
 
-#: db/seeds/settings.rb:3510
+#: db/seeds/settings.rb:3511
 msgid "API Token Access"
 msgstr "Autentificare API cu Token"
 
@@ -1059,7 +1059,7 @@ msgstr ""
 "Accept Politica de Confidențialitate a Datelor și Politica de Utilizare "
 "Acceptabilă"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Acces interzis"
@@ -1230,7 +1230,7 @@ msgstr "Butonul de meniu pentru acțiuni al cheilor de securitate"
 msgid "Actions"
 msgstr "Acțiuni"
 
-#: db/seeds/settings.rb:2870
+#: db/seeds/settings.rb:2871
 msgid "Activate the recursive processing of ticket triggers."
 msgstr "Activează procesarea recursivă a trigger-elor de tichet."
 
@@ -1238,7 +1238,7 @@ msgstr "Activează procesarea recursivă a trigger-elor de tichet."
 msgid "Activated by"
 msgstr "Activat de"
 
-#: db/seeds/settings.rb:1106
+#: db/seeds/settings.rb:1107
 msgid ""
 "Activates lost password feature for users. This setting is only effective if "
 "the password login is enabled."
@@ -1524,7 +1524,7 @@ msgstr "Adaugă titlu de nivelul doi (h2)"
 msgid "Add selected values"
 msgstr "Adaugă valorile selectate"
 
-#: db/seeds/settings.rb:792
+#: db/seeds/settings.rb:793
 msgid "Add sender initials to end of a tweet."
 msgstr "Adaugă inițialele expeditorului la finalul tweet-ului."
 
@@ -1557,7 +1557,7 @@ msgstr ""
 msgid "Additional Channels"
 msgstr "Canale suplimentare"
 
-#: db/seeds/settings.rb:3343
+#: db/seeds/settings.rb:3344
 msgid "Additional follow-up detection"
 msgstr "Detecție suplimentară a continuărilor (follow-up)"
 
@@ -1569,7 +1569,7 @@ msgstr "Informații adiționale"
 msgid "Additional information and links"
 msgstr "Informații suplimentare și link-uri"
 
-#: db/seeds/settings.rb:871
+#: db/seeds/settings.rb:872
 msgid "Additional notes for ticket create types."
 msgstr "Note suplimentare pentru tipurile de creare a tichetelor."
 
@@ -1577,7 +1577,7 @@ msgstr "Note suplimentare pentru tipurile de creare a tichetelor."
 msgid "Address"
 msgstr "Adresă"
 
-#: db/seeds/settings.rb:506
+#: db/seeds/settings.rb:507
 msgid "Address of the proxy server for http and https resources."
 msgstr "Adresa serverului proxy pentru resursele http și https."
 
@@ -1700,11 +1700,11 @@ msgstr "Vârstă"
 msgid "Agent"
 msgstr "Agent"
 
-#: db/seeds/settings.rb:3256
+#: db/seeds/settings.rb:3257
 msgid "Agent Name"
 msgstr "Nume agent"
 
-#: db/seeds/settings.rb:3256
+#: db/seeds/settings.rb:3257
 msgid "Agent Name + FromSeparator + System Address Display Name"
 msgstr "Nume agent + Separator de la + Numele de afișare al adresei sistemului"
 
@@ -1712,7 +1712,7 @@ msgstr "Nume agent + Separator de la + Numele de afișare al adresei sistemului"
 msgid "Agent chat"
 msgstr "Chat agent"
 
-#: db/seeds/settings.rb:3610
+#: db/seeds/settings.rb:3611
 msgid "Agent idle timeout"
 msgstr "Timpul de inactivitate al agentului"
 
@@ -1829,11 +1829,11 @@ msgstr "Permite redeschiderea tichetelor într-un anumit interval de timp."
 msgid "Allow users to add new tags."
 msgstr "Permite utilizatorilor să adauge etichete noi."
 
-#: db/seeds/settings.rb:4178
+#: db/seeds/settings.rb:4179
 msgid "Allow users to create new tags."
 msgstr "Permite utilizatorilor să creeze etichete noi."
 
-#: db/seeds/settings.rb:1186
+#: db/seeds/settings.rb:1187
 msgid "Allow using one email address for multiple users."
 msgstr ""
 "Permite folosirea unei singure adrese de e-mail pentru utilizatori multiplii."
@@ -1847,7 +1847,7 @@ msgstr "Site-uri web permise (separate prin ;)"
 msgid "Also notify via email"
 msgstr "De asemenea, notifică prin e-mail"
 
-#: db/seeds/settings.rb:5206
+#: db/seeds/settings.rb:5207
 msgid ""
 "Alternative FQDN for callbacks if you operate Zammad in an internal network."
 msgstr ""
@@ -1984,15 +1984,15 @@ msgid ""
 "within WhatsApp Business."
 msgstr ""
 
-#: db/seeds/settings.rb:1449
+#: db/seeds/settings.rb:1450
 msgid "App ID"
 msgstr "ID Aplicație"
 
-#: db/seeds/settings.rb:1455
+#: db/seeds/settings.rb:1456
 msgid "App Secret"
 msgstr "Secret Aplicație"
 
-#: db/seeds/settings.rb:1788
+#: db/seeds/settings.rb:1789
 msgid "App Tenant ID"
 msgstr "ID-ul tenantului aplicației"
 
@@ -2009,11 +2009,11 @@ msgstr "Versiune aplicație"
 msgid "App could not be verified."
 msgstr "Aplicația nu a putut fi verificată."
 
-#: db/seeds/settings.rb:1445
+#: db/seeds/settings.rb:1446
 msgid "App credentials for Facebook."
 msgstr "Datele de logare pentru Facebook."
 
-#: db/seeds/settings.rb:1381
+#: db/seeds/settings.rb:1382
 msgid "App credentials for Twitter."
 msgstr "Datele de logare pentru Twitter."
 
@@ -2255,7 +2255,7 @@ msgstr "Ești sigur? Ai modificări care vor fi pierdute."
 msgid "Article"
 msgstr "Articol"
 
-#: db/seeds/settings.rb:681
+#: db/seeds/settings.rb:682
 msgid "Article - visibility confirmation dialog"
 msgstr "Articol - dialog de confirmare a vizibilității"
 
@@ -2396,7 +2396,7 @@ msgstr "Fișiere atașate"
 msgid "Attachment"
 msgstr "Atașament"
 
-#: db/seeds/settings.rb:3357
+#: db/seeds/settings.rb:3358
 msgid "Attachment - Search for follow-up also in attachments."
 msgstr "Atașament - Caută continuări (follow-up) și în atașamente."
 
@@ -2459,7 +2459,7 @@ msgstr "Atribut"
 msgid "Attribute '%s' is required in the mapping"
 msgstr "Atributul '%s' este necesar în mapare"
 
-#: db/seeds/settings.rb:1961
+#: db/seeds/settings.rb:1962
 msgid ""
 "Attribute that uniquely identifies the user. If unset, the name identifier "
 "returned by the IDP is used."
@@ -2474,7 +2474,7 @@ msgid "Attributes"
 msgstr "Atribute"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:32
-#: db/seeds/settings.rb:2721
+#: db/seeds/settings.rb:2722
 msgid "Attributes to compare"
 msgstr "Atribute de comparat"
 
@@ -2530,14 +2530,14 @@ msgstr "Autentificarea nu este posibilă (nu este oferită de serviciu)"
 msgid "Authentication required"
 msgstr "Autentificare necesară"
 
-#: db/seeds/settings.rb:1208
+#: db/seeds/settings.rb:1209
 msgid "Authentication via %s"
 msgstr "Autentificare via %s"
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/authenticator_app.coffee:4
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:5
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:9
-#: db/seeds/settings.rb:5834
+#: db/seeds/settings.rb:5835
 msgid "Authenticator App"
 msgstr "Google Authenticator"
 
@@ -2570,19 +2570,19 @@ msgstr "Authy"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:11
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:7
-#: db/seeds/settings.rb:2567
+#: db/seeds/settings.rb:2568
 msgid "Auto Assignment"
 msgstr "Atribuire automată"
 
-#: db/seeds/settings.rb:2610
+#: db/seeds/settings.rb:2611
 msgid "Auto Assignment Ignored Users"
 msgstr "Utilizatori ignorați pentru atribuire automată"
 
-#: db/seeds/settings.rb:2593
+#: db/seeds/settings.rb:2594
 msgid "Auto Assignment Selector"
 msgstr "Selector atribuire automată"
 
-#: db/seeds/settings.rb:5973
+#: db/seeds/settings.rb:5974
 msgid "Auto Shutdown"
 msgstr ""
 
@@ -2590,7 +2590,7 @@ msgstr ""
 msgid "Auto Wizard"
 msgstr "Asistent automat"
 
-#: db/seeds/settings.rb:4502
+#: db/seeds/settings.rb:4503
 msgid "Auto close"
 msgstr "Închide automat"
 
@@ -2598,7 +2598,7 @@ msgstr "Închide automat"
 msgid "Auto create"
 msgstr "Creează automat"
 
-#: db/seeds/settings.rb:4528
+#: db/seeds/settings.rb:4529
 msgid "Auto-close state"
 msgstr "Stare închidere automată"
 
@@ -2612,11 +2612,11 @@ msgstr "Asistentul automat este dezactivat"
 msgid "Automated Setup"
 msgstr "Configurare automată"
 
-#: db/seeds/settings.rb:1271
+#: db/seeds/settings.rb:1272
 msgid "Automatic account link on initial logon"
 msgstr "Link-ul automat al contului la prima autentificare"
 
-#: db/seeds/settings.rb:1297
+#: db/seeds/settings.rb:1298
 msgid "Automatic account linking notification"
 msgstr "Notificare privind legarea automată a contului"
 
@@ -2657,7 +2657,7 @@ msgstr "Disponibil pentru următoarele roluri"
 msgid "Available methods"
 msgstr "Metode disponibile"
 
-#: db/seeds/settings.rb:914
+#: db/seeds/settings.rb:915
 msgid "Available types for a new ticket"
 msgstr "Tipuri disponibile pentru crearea unui tichet nou"
 
@@ -2702,13 +2702,13 @@ msgstr "În medie: %s minute"
 msgid "Average: %s%"
 msgstr "În medie: %s%"
 
-#: db/seeds/settings.rb:3499
+#: db/seeds/settings.rb:3500
 msgid "BCC address for all outgoing emails"
 msgstr "Adresă BCC pentru toate e-mailurile trimise"
 
 #: app/assets/javascripts/app/views/generic/object_search/item_organization_members.jst.eco:5
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:438
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:457
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:439
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:458
 msgid "Back"
 msgstr "Înapoi"
 
@@ -2720,8 +2720,8 @@ msgstr "Înapoi la vizualizarea mea"
 msgid "Back to overview"
 msgstr "Înapoi la prezentare generală"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:438
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:457
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:439
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:458
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDialog.vue:197
 msgid "Back to previous page"
 msgstr "Înapoi la pagina anterioară"
@@ -2808,7 +2808,7 @@ msgstr "Legare parolă"
 msgid "Bind User"
 msgstr "Legare utilizator"
 
-#: db/seeds/settings.rb:3476
+#: db/seeds/settings.rb:3477
 msgid "Block Notifications"
 msgstr "Blochează notificările"
 
@@ -2843,7 +2843,7 @@ msgstr "Albastru"
 msgid "Body"
 msgstr "Conținut"
 
-#: db/seeds/settings.rb:3356
+#: db/seeds/settings.rb:3357
 msgid "Body - Search for follow-up also in mail body."
 msgstr ""
 "Conținut e-mailului - Caută continuări (follow-up) și în conținutul e-"
@@ -2901,7 +2901,7 @@ msgstr "Orele de lucru"
 msgid "But it's only available in these languages:"
 msgstr "Dar este disponibil doar în următoarele limbi:"
 
-#: db/seeds/settings.rb:3346
+#: db/seeds/settings.rb:3347
 msgid ""
 "By default, the follow-up check is done via the subject of an email. This "
 "setting lets you add more fields for which the follow-up check will be "
@@ -2974,19 +2974,19 @@ msgstr "CTI"
 msgid "CTI (generic)"
 msgstr "CTI (generic)"
 
-#: db/seeds/settings.rb:5265
+#: db/seeds/settings.rb:5266
 msgid "CTI Token"
 msgstr "Token CTI"
 
-#: db/seeds/settings.rb:5252
+#: db/seeds/settings.rb:5253
 msgid "CTI config"
 msgstr "Configurare CTI"
 
-#: db/seeds/settings.rb:5286
+#: db/seeds/settings.rb:5287
 msgid "CTI customer last activity"
 msgstr "Ultima activitate a clientului CTI"
 
-#: db/seeds/settings.rb:5224
+#: db/seeds/settings.rb:5225
 msgid "CTI integration"
 msgstr "Integrare CTI"
 
@@ -3091,7 +3091,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/knowledge_base/scheduled_widget.jst.eco:4
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show.jst.eco:23
 #: app/assets/javascripts/app/views/widget/invite_user.jst.eco:17
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:343
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:344
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItems.vue:202
 #: app/frontend/apps/mobile/components/CommonDialogObjectForm/CommonDialogObjectForm.vue:125
 #: app/frontend/apps/mobile/components/CommonSectionPopup/CommonSectionPopup.vue:29
@@ -3196,7 +3196,7 @@ msgstr "Aspect pagină categorie"
 msgid "Caution!"
 msgstr "Atenție!"
 
-#: db/seeds/settings.rb:1987
+#: db/seeds/settings.rb:1988
 msgid "Certificate (PEM)"
 msgstr "Certificat (PEM)"
 
@@ -3432,7 +3432,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
-#: db/seeds/permissions.rb:305 db/seeds/settings.rb:5946
+#: db/seeds/permissions.rb:305 db/seeds/settings.rb:5947
 msgid "Checklists"
 msgstr "Liste de verificare"
 
@@ -3440,15 +3440,15 @@ msgstr "Liste de verificare"
 msgid "Checkmk"
 msgstr "Checkmk"
 
-#: db/seeds/settings.rb:4649
+#: db/seeds/settings.rb:4650
 msgid "Checkmk integration"
 msgstr "Integrare Checkmk"
 
-#: db/seeds/settings.rb:4747
+#: db/seeds/settings.rb:4748
 msgid "Checkmk token"
 msgstr "Token Checkmk"
 
-#: db/seeds/settings.rb:2488
+#: db/seeds/settings.rb:2489
 msgid "Checksum"
 msgstr "Sumă de control"
 
@@ -3610,11 +3610,11 @@ msgstr "Resetează valoarea"
 msgid "Clearbit"
 msgstr "Clearbit"
 
-#: db/seeds/settings.rb:5388
+#: db/seeds/settings.rb:5389
 msgid "Clearbit config"
 msgstr "Configurare Clearbit"
 
-#: db/seeds/settings.rb:5362
+#: db/seeds/settings.rb:5363
 msgid "Clearbit integration"
 msgstr "Integrare Clearbit"
 
@@ -3631,14 +3631,14 @@ msgstr "Fă clic aici pentru a configura o metodă de autentificare în doi paș
 #: app/assets/javascripts/app/views/integration/idoit.jst.eco:21
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:9
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:9
-#: db/seeds/settings.rb:1513
+#: db/seeds/settings.rb:1514
 msgid "Client ID"
 msgstr "ID Client"
 
 #: app/assets/javascripts/app/views/exchange/app_config.jst.eco:17
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:17
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:17
-#: db/seeds/settings.rb:1519
+#: db/seeds/settings.rb:1520
 msgid "Client Secret"
 msgstr "Secret Client"
 
@@ -3698,14 +3698,14 @@ msgstr "Închide bara laterală"
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:32
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:12
-#: db/seeds/settings.rb:3040
+#: db/seeds/settings.rb:3041
 msgid "Close tab"
 msgstr "Închide tab-ul"
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:37
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:16
-#: db/seeds/settings.rb:3041
+#: db/seeds/settings.rb:3042
 msgid "Close tab on ticket close"
 msgstr "Închide tab-ul la închiderea tichetului"
 
@@ -3746,7 +3746,7 @@ msgstr "Restrânge bara laterală"
 msgid "Collapse this element"
 msgstr "Restrânge acest element"
 
-#: db/seeds/settings.rb:945
+#: db/seeds/settings.rb:946
 msgid "Color representation of the open ticket indicator in the sidebar."
 msgstr ""
 "Reprezentarea culorii indicatorului de tichete deschise în bara laterală."
@@ -3778,7 +3778,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:11
-#: db/seeds/settings.rb:5826
+#: db/seeds/settings.rb:5827
 msgid "Complete the sign-in with your security key."
 msgstr "Finalizează autentificarea cu cheia ta de securitate."
 
@@ -4144,7 +4144,7 @@ msgstr "Copiază numărul tichetului"
 msgid "Copy to clipboard"
 msgstr "Copiază în clipboard"
 
-#: db/seeds/settings.rb:600
+#: db/seeds/settings.rb:601
 msgid "Core Workflow Ajax Mode"
 msgstr "Modul Ajax pentru fluxul de lucru de bază"
 
@@ -4680,7 +4680,7 @@ msgid "Customer and agent ratio (role based user counts)"
 msgstr ""
 "Raportul dintre clienți și agenți (numărul utilizatorilor în funcție de rol)"
 
-#: db/seeds/settings.rb:3400
+#: db/seeds/settings.rb:3401
 msgid "Customer selection based on sender and receiver list"
 msgstr "Selecția clientului pe baza listei de expeditori și destinatari"
 
@@ -4754,7 +4754,7 @@ msgid "DataPrivacyTasks"
 msgstr "Sarcini de confidențialitate a datelor"
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:7
-#: db/seeds/settings.rb:376
+#: db/seeds/settings.rb:377
 msgid "Database"
 msgstr "Bază de date"
 
@@ -4772,7 +4772,7 @@ msgstr "Dată"
 msgid "Date & time field"
 msgstr "Câmpul dată și oră"
 
-#: db/seeds/settings.rb:2467
+#: db/seeds/settings.rb:2468
 msgid "Date (Year.Month.Day.SystemID.Counter)"
 msgstr "Data (Year.Month.Day.SystemID.Counter)"
 
@@ -4848,7 +4848,7 @@ msgstr "Decriptare reușită."
 #: app/assets/javascripts/app/views/object_manager/attribute/select.jst.eco:9
 #: app/assets/javascripts/app/views/profile/password.jst.eco:44
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:231
-#: db/seeds/settings.rb:886
+#: db/seeds/settings.rb:887
 msgid "Default"
 msgstr "Implicit"
 
@@ -4861,11 +4861,11 @@ msgstr "Comportament implicit"
 msgid "Default Notifications"
 msgstr "Notificări implicite"
 
-#: db/seeds/settings.rb:3632
+#: db/seeds/settings.rb:3633
 msgid "Default Screen"
 msgstr "Ecran implicit"
 
-#: db/seeds/settings.rb:2628
+#: db/seeds/settings.rb:2629
 msgid "Default Ticket Agent Notifications"
 msgstr "Notificări implicite de tichete pentru agenți"
 
@@ -4873,7 +4873,7 @@ msgstr "Notificări implicite de tichete pentru agenți"
 msgid "Default at Signup"
 msgstr "Implicit la înscriere"
 
-#: db/seeds/settings.rb:4202
+#: db/seeds/settings.rb:4203
 msgid "Default calendar tickets subscriptions"
 msgstr "Abonamente la tichete pe baza calendarului implicit"
 
@@ -4900,7 +4900,7 @@ msgstr "Diferența implicită de timp (ore)"
 msgid "Default time diff (minutes)"
 msgstr "Diferența implicită de timp (minute)"
 
-#: db/seeds/settings.rb:886
+#: db/seeds/settings.rb:887
 msgid "Default type for a new ticket"
 msgstr "Tip implicit pentru un tichet nou"
 
@@ -4909,7 +4909,7 @@ msgid "Default value is required."
 msgstr "Valoarea implicită este necesară."
 
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:15
-#: db/seeds/settings.rb:2613
+#: db/seeds/settings.rb:2614
 msgid ""
 "Define an exception of \"automatic assignment\" for certain users (e.g. "
 "executives)."
@@ -4917,24 +4917,24 @@ msgstr ""
 "Definește o excepție de „atribuire automată” pentru anumiți utilizatori (de "
 "exemplu, executivi)."
 
-#: db/seeds/settings.rb:3699
+#: db/seeds/settings.rb:3700
 msgid "Define max. attachment size for Elasticsearch."
 msgstr "Definește dimensiunea maximă a atașamentelor pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3708
+#: db/seeds/settings.rb:3709
 msgid "Define max. payload size for Elasticsearch."
 msgstr ""
 "Definește dimensiunea maximă a încărcărilor(payload) pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3726
+#: db/seeds/settings.rb:3727
 msgid "Define model configuration for Elasticsearch."
 msgstr "Definește configurația modelului pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3717
+#: db/seeds/settings.rb:3718
 msgid "Define pipeline name for Elasticsearch."
 msgstr "Definește numele pipeline-ului pentru Elasticsearch."
 
-#: db/seeds/settings.rb:4339
+#: db/seeds/settings.rb:4340
 msgid ""
 "Define postmaster filter to check if follow-ups get created (based on admin "
 "settings)."
@@ -4942,12 +4942,12 @@ msgstr ""
 "Definește filtrul postmaster pentru a verifica dacă urmărirea este creată "
 "(în funcție de setările de administrare)."
 
-#: db/seeds/settings.rb:4285
+#: db/seeds/settings.rb:4286
 msgid "Define postmaster filter to import archive mailboxes."
 msgstr ""
 "Definește filtrul postmaster pentru a importa căsuțele de e-mail arhivate."
 
-#: db/seeds/settings.rb:4282
+#: db/seeds/settings.rb:4283
 msgid "Define postmaster filter."
 msgstr "Definește filtrul postmaster."
 
@@ -4961,36 +4961,36 @@ msgstr ""
 "asociază-ți agenții cu acestea. Astfel, Zammad poate sprijini agenții tăi "
 "arătându-le doar înregistrările și notificările de apeluri relevante."
 
-#: db/seeds/settings.rb:2631
+#: db/seeds/settings.rb:2632
 msgid "Define the default agent notifications for new users."
 msgstr "Definește notificările implicite de agenți pentru utilizatorii noi."
 
-#: db/seeds/settings.rb:1027
+#: db/seeds/settings.rb:1028
 msgid "Define the maximum number of ticket shown in overviews."
 msgstr "Definește numărul maxim de tichete afișate în rezumate."
 
-#: db/seeds/settings.rb:3681
+#: db/seeds/settings.rb:3682
 msgid "Defines Elasticsearch SSL verification."
 msgstr "Definește verificarea SSL pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3672
+#: db/seeds/settings.rb:3673
 msgid "Defines Elasticsearch index name."
 msgstr "Definește numele indexului pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3939
+#: db/seeds/settings.rb:3940
 msgid "Defines Freshdesk endpoint authentication API key."
 msgstr "Definește cheia API pentru autentificarea endpoint-ului Freshdesk."
 
-#: db/seeds/settings.rb:3663
+#: db/seeds/settings.rb:3664
 msgid "Defines HTTP basic auth password of Elasticsearch."
 msgstr "Definește parola de autentificare de bază HTTP pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3654
+#: db/seeds/settings.rb:3655
 msgid "Defines HTTP basic auth user of Elasticsearch."
 msgstr ""
 "Definește utilizatorul de autentificare de bază HTTP pentru Elasticsearch."
 
-#: db/seeds/settings.rb:3846
+#: db/seeds/settings.rb:3847
 msgid ""
 "Defines HTTP basic authentication password (only if OTRS is protected via "
 "HTTP basic auth)."
@@ -4998,7 +4998,7 @@ msgstr ""
 "Definește parola de autentificare de bază HTTP (doar dacă OTRS este protejat "
 "prin autentificare de bază HTTP)."
 
-#: db/seeds/settings.rb:3827
+#: db/seeds/settings.rb:3828
 msgid ""
 "Defines HTTP basic authentication user (only if OTRS is protected via HTTP "
 "basic auth)."
@@ -5006,54 +5006,54 @@ msgstr ""
 "Definește utilizatorul de autentificare de bază HTTP (doar dacă OTRS este "
 "protejat prin autentificare de bază HTTP)."
 
-#: db/seeds/settings.rb:3994
+#: db/seeds/settings.rb:3995
 msgid "Defines Kayako endpoint authentication password."
 msgstr "Definește parola de autentificare pentru endpoint-ul Kayako."
 
-#: db/seeds/settings.rb:3976
+#: db/seeds/settings.rb:3977
 msgid "Defines Kayako endpoint authentication user."
 msgstr "Definește utilizatorul de autentificare pentru endpoint-ul Kayako."
 
-#: db/seeds/settings.rb:3808
+#: db/seeds/settings.rb:3809
 msgid "Defines OTRS endpoint authentication key."
 msgstr "Definește cheia de autentificare pentru endpoint-ul OTRS."
 
-#: db/seeds/settings.rb:3883
+#: db/seeds/settings.rb:3884
 msgid "Defines Zendesk endpoint authentication API key."
 msgstr "Definește cheia de autentificare pentru endpoint-ul Zendesk."
 
-#: db/seeds/settings.rb:3902
+#: db/seeds/settings.rb:3903
 msgid "Defines Zendesk endpoint authentication user."
 msgstr "Definește utilizatorul de autentificare pentru endpoint-ul Zendesk."
 
-#: db/seeds/settings.rb:3921
+#: db/seeds/settings.rb:3922
 msgid ""
 "Defines a Freshdesk endpoint to import users, tickets, states, and articles."
 msgstr ""
 "Definește un endpoint Freshdesk pentru importul utilizatorilor, tichetelor, "
 "stărilor și articolelor."
 
-#: db/seeds/settings.rb:3958
+#: db/seeds/settings.rb:3959
 msgid ""
 "Defines a Kayako endpoint to import users, tickets, states, and articles."
 msgstr ""
 "Definește un endpoint Kayako pentru importul utilizatorilor, tichetelor, "
 "stărilor și articolelor."
 
-#: db/seeds/settings.rb:3865
+#: db/seeds/settings.rb:3866
 msgid ""
 "Defines a Zendesk endpoint to import users, tickets, states, and articles."
 msgstr ""
 "Definește un endpoint Zendesk pentru importul utilizatorilor, tichetelor, "
 "stărilor și articolelor."
 
-#: db/seeds/settings.rb:5466
+#: db/seeds/settings.rb:5467
 msgid "Defines a dashboard stats backend that gets scheduled automatically."
 msgstr ""
 "Definește un backend pentru statisticile de tabloului de bord care este "
 "programat automat."
 
-#: db/seeds/settings.rb:3138
+#: db/seeds/settings.rb:3139
 msgid ""
 "Defines a limit for how many tickets can be created via web form from one IP "
 "address per day."
@@ -5061,7 +5061,7 @@ msgstr ""
 "Definește o limită pentru numărul de tichete care pot fi create prin "
 "formular web de la o adresă IP pe zi."
 
-#: db/seeds/settings.rb:3117
+#: db/seeds/settings.rb:3118
 msgid ""
 "Defines a limit for how many tickets can be created via web form from one IP "
 "address per hour."
@@ -5069,20 +5069,20 @@ msgstr ""
 "Definește o limită pentru numărul de tichete care pot fi create prin "
 "formular web de la o adresă IP pe oră."
 
-#: db/seeds/settings.rb:3159
+#: db/seeds/settings.rb:3160
 msgid ""
 "Defines a limit for how many tickets can be created via web form per day."
 msgstr ""
 "Definește o limită pentru numărul de tichete care pot fi create prin "
 "formular web pe zi."
 
-#: db/seeds/settings.rb:2256
+#: db/seeds/settings.rb:2257
 msgid "Defines after how many failed logins accounts will be deactivated."
 msgstr ""
 "Definește după câte încercări de autentificare eșuate, conturile vor fi "
 "dezactivate."
 
-#: db/seeds/settings.rb:3790
+#: db/seeds/settings.rb:3791
 msgid ""
 "Defines an OTRS endpoint to import users, tickets, states, and articles."
 msgstr ""
@@ -5109,16 +5109,16 @@ msgstr ""
 "tichete. Prioritatea importantă va fi afișată cu un semn de exclamare, în "
 "timp ce prioritatea mică va fi afișată cu o săgeată în jos."
 
-#: db/seeds/settings.rb:3690
+#: db/seeds/settings.rb:3691
 msgid "Defines attachment extensions which will be ignored by Elasticsearch."
 msgstr ""
 "Definește extensiile de atașamente care vor fi ignorate de Elasticsearch."
 
-#: db/seeds/settings.rb:3645
+#: db/seeds/settings.rb:3646
 msgid "Defines endpoint of Elasticsearch."
 msgstr "Definește endpoint-ul Elasticsearch."
 
-#: db/seeds/settings.rb:3006
+#: db/seeds/settings.rb:3007
 msgid ""
 "Defines groups for which a customer can create tickets via web interface. No "
 "selection means all groups are available."
@@ -5127,7 +5127,7 @@ msgstr ""
 "intermediul interfeței web. Nicio selecție înseamnă că toate grupurile sunt "
 "disponibile."
 
-#: db/seeds/settings.rb:3246
+#: db/seeds/settings.rb:3247
 msgid ""
 "Defines how the From field of emails (sent from answers and email tickets) "
 "should look like."
@@ -5135,14 +5135,14 @@ msgstr ""
 "Definește cum ar trebui să arate câmpul \"De la\" al e-mailurilor (trimise "
 "din răspunsuri și tichete prin e-mail)."
 
-#: db/seeds/settings.rb:2375
+#: db/seeds/settings.rb:2376
 msgid ""
 "Defines how the last customer contact time of tickets should be calculated."
 msgstr ""
 "Definește cum ar trebui să fie calculat timpul ultimei contactări a "
 "clientului pentru tichete."
 
-#: db/seeds/settings.rb:312
+#: db/seeds/settings.rb:313
 msgid ""
 "Defines how to reach websocket server. \"websocket\" is default on "
 "production, \"websocketPort\" is for CI"
@@ -5150,23 +5150,23 @@ msgstr ""
 "Definește cum să accesezi serverul WebSocket. „websocket” este implicit în "
 "producție, iar „websocketPort” este pentru CI"
 
-#: db/seeds/settings.rb:4652
+#: db/seeds/settings.rb:4653
 msgid "Defines if Checkmk (https://checkmk.com/) is enabled or not."
 msgstr "Definește dacă Checkmk (https://checkmk.com/) este activat sau nu."
 
-#: db/seeds/settings.rb:5365
+#: db/seeds/settings.rb:5366
 msgid "Defines if Clearbit (http://www.clearbit.com) is enabled or not."
 msgstr "Definește dacă Clearbit (http://www.clearbit.com) este activat sau nu."
 
-#: db/seeds/settings.rb:4916
+#: db/seeds/settings.rb:4917
 msgid "Defines if Exchange is enabled or not."
 msgstr "Definește dacă Exchange este activat sau nu."
 
-#: db/seeds/settings.rb:4456
+#: db/seeds/settings.rb:4457
 msgid "Defines if Icinga (http://www.icinga.org) is enabled or not."
 msgstr "Definește dacă Icinga (http://www.icinga.org) este activat sau nu."
 
-#: db/seeds/settings.rb:5576
+#: db/seeds/settings.rb:5577
 msgid ""
 "Defines if Knowledge Base navbar button is enabled for users without "
 "Knowledge Base permission."
@@ -5174,41 +5174,41 @@ msgstr ""
 "Definește dacă butonul din bara de navigare pentru baza de cunoștințe este "
 "activat pentru utilizatori fără permisiuni de acces la baza de cunoștințe."
 
-#: db/seeds/settings.rb:5561
+#: db/seeds/settings.rb:5562
 msgid "Defines if Knowledge Base navbar button is enabled."
 msgstr ""
 "Definește dacă butonul din bara de navigare pentru baza de cunoștințe este "
 "activat."
 
-#: db/seeds/settings.rb:4863
+#: db/seeds/settings.rb:4864
 msgid "Defines if LDAP is enabled or not."
 msgstr "Definește dacă LDAP este activat sau nu."
 
-#: db/seeds/settings.rb:4762
+#: db/seeds/settings.rb:4763
 msgid "Defines if Monit (https://mmonit.com/monit/) is enabled or not."
 msgstr "Definește dacă Monit (https://mmonit.com/monit/) este activat sau nu."
 
-#: db/seeds/settings.rb:4554
+#: db/seeds/settings.rb:4555
 msgid "Defines if Nagios (http://www.nagios.org) is enabled or not."
 msgstr "Definește dacă Nagios (http://www.nagios.org) este activat sau nu."
 
-#: db/seeds/settings.rb:5694
+#: db/seeds/settings.rb:5695
 msgid "Defines if PGP encryption is enabled or not."
 msgstr "Definește dacă criptarea PGP este activă sau nu."
 
-#: db/seeds/settings.rb:5302
+#: db/seeds/settings.rb:5303
 msgid "Defines if Placetel (http://www.placetel.de) is enabled or not."
 msgstr "Definește dacă Placetel (http://www.placetel.de) este activat sau nu."
 
-#: db/seeds/settings.rb:5652
+#: db/seeds/settings.rb:5653
 msgid "Defines if S/MIME encryption is enabled or not."
 msgstr "Definește dacă criptarea S/MIME este activă sau nu."
 
-#: db/seeds/settings.rb:5103
+#: db/seeds/settings.rb:5104
 msgid "Defines if Slack (http://www.slack.org) is enabled or not."
 msgstr "Definește dacă Slack (http://www.slack.org) este activat sau nu."
 
-#: db/seeds/settings.rb:2979
+#: db/seeds/settings.rb:2980
 msgid "Defines if a customer can create tickets via the web interface."
 msgstr "Definește dacă un client poate crea tichete prin interfața web."
 
@@ -5216,11 +5216,11 @@ msgstr "Definește dacă un client poate crea tichete prin interfața web."
 msgid "Defines if application is in init mode."
 msgstr "Definește dacă aplicația este în modul de inițializare."
 
-#: db/seeds/settings.rb:86
+#: db/seeds/settings.rb:87
 msgid "Defines if application is used as online service."
 msgstr "Definește dacă aplicația este folosită ca un serviciu on-line."
 
-#: db/seeds/settings.rb:5777
+#: db/seeds/settings.rb:5778
 msgid ""
 "Defines if calendar weeks are shown in the picker of date/datetime fields to "
 "easily select the correct date."
@@ -5228,11 +5228,11 @@ msgstr ""
 "Definește dacă săptămânile calendaristice sunt afișate în selectorul de "
 "câmpuri de dată/date și ora pentru a selecta ușor data corectă."
 
-#: db/seeds/settings.rb:5227
+#: db/seeds/settings.rb:5228
 msgid "Defines if generic CTI integration is enabled or not."
 msgstr "Definește dacă integrarea generică CTI este activată sau nu."
 
-#: db/seeds/settings.rb:5869
+#: db/seeds/settings.rb:5870
 msgid ""
 "Defines if recovery codes can be used by users in the event they lose access "
 "to other two-factor authentication methods."
@@ -5240,31 +5240,31 @@ msgstr ""
 "Definește dacă codurile de recuperare pot fi utilizate de utilizatori în "
 "cazul în care pierd accesul la alte metode de autentificare în doi pași."
 
-#: db/seeds/settings.rb:5144
+#: db/seeds/settings.rb:5145
 msgid "Defines if sipgate.io (http://www.sipgate.io) is enabled or not."
 msgstr "Definește dacă sipgate.io (http://www.sipgate.io) este activat sau nu."
 
-#: db/seeds/settings.rb:5025
+#: db/seeds/settings.rb:5026
 msgid ""
 "Defines if the GitHub (http://www.github.com) integration is enabled or not."
 msgstr ""
 "Definește dacă integrarea GitHub (http://www.github.com) este activată sau "
 "nu."
 
-#: db/seeds/settings.rb:4983
+#: db/seeds/settings.rb:4984
 msgid ""
 "Defines if the GitLab (http://www.gitlab.com) integration is enabled or not."
 msgstr ""
 "Definește dacă integrarea GitLab (http://www.gitlab.com) este activată sau "
 "nu."
 
-#: db/seeds/settings.rb:5736
+#: db/seeds/settings.rb:5737
 msgid "Defines if the PGP recipient alias configuration is enabled or not."
 msgstr ""
 "Definește dacă configurația aliasului destinatarului PGP este activată sau "
 "nu."
 
-#: db/seeds/settings.rb:684
+#: db/seeds/settings.rb:685
 msgid ""
 "Defines if the agent has to accept a confirmation dialog when changing the "
 "article visibility to \"public\"."
@@ -5272,7 +5272,7 @@ msgstr ""
 "Definește dacă agentul trebuie să accepte un dialog de confirmare atunci "
 "când schimbă vizibilitatea articolului la „public”."
 
-#: db/seeds/settings.rb:76
+#: db/seeds/settings.rb:77
 msgid ""
 "Defines if the application is in developer mode (all users have the same "
 "password and password reset will work without email delivery)."
@@ -5280,7 +5280,7 @@ msgstr ""
 "Definește dacă aplicația este în modul dezvoltator (toți utilizatorii au "
 "aceeași parolă și resetarea parolei va funcționa fără livrarea de e-mailuri)."
 
-#: db/seeds/settings.rb:5921
+#: db/seeds/settings.rb:5922
 msgid ""
 "Defines if the change of the primary organization of a user will update the "
 "100 most recent tickets for this user as well."
@@ -5288,7 +5288,7 @@ msgstr ""
 "Definește dacă schimbarea organizației principale a unui utilizator va "
 "actualiza și cele mai recente 100 de tichete ale acestui utilizator."
 
-#: db/seeds/settings.rb:603
+#: db/seeds/settings.rb:604
 msgid ""
 "Defines if the core workflow communication should run over ajax instead of "
 "websockets."
@@ -5296,7 +5296,7 @@ msgstr ""
 "Definește dacă comunicarea fluxului de lucru de bază ar trebui să se "
 "desfășoare prin AJAX în loc de WebSockets."
 
-#: db/seeds/settings.rb:629
+#: db/seeds/settings.rb:630
 msgid ""
 "Defines if the email should be displayed in the result of the user/"
 "organization widget."
@@ -5304,7 +5304,7 @@ msgstr ""
 "Definește dacă e-mailul ar trebui să fie afișat în rezultatul widget-ului "
 "utilizator/organizație."
 
-#: db/seeds/settings.rb:4943
+#: db/seeds/settings.rb:4944
 msgid ""
 "Defines if the i-doit (https://www.i-doit.org/) integration is enabled or "
 "not."
@@ -5312,14 +5312,14 @@ msgstr ""
 "Definește dacă integrarea i-doit (https://www.i-doit.org/) este activată sau "
 "nu."
 
-#: db/seeds/settings.rb:2402
+#: db/seeds/settings.rb:2403
 msgid ""
 "Defines if the ticket conditions editor supports complex logical expressions."
 msgstr ""
 "Definește dacă editorul de condiții pentru tichete suportă expresii logice "
 "complexe."
 
-#: db/seeds/settings.rb:2428
+#: db/seeds/settings.rb:2429
 msgid ""
 "Defines if the ticket conditions editor supports regular expression "
 "operators for triggers and ticket auto assignment."
@@ -5328,12 +5328,12 @@ msgstr ""
 "expresii regulate pentru declanșatoare (triggere) și atribuirea automată a "
 "tichetelor."
 
-#: db/seeds/settings.rb:4142
+#: db/seeds/settings.rb:4143
 msgid "Defines if the time accounting types are enabled."
 msgstr ""
 "Definește dacă tipurile de contabilizare a timpului sunt active sau nu."
 
-#: db/seeds/settings.rb:5837
+#: db/seeds/settings.rb:5838
 msgid ""
 "Defines if the two-factor authentication method authenticator app is enabled "
 "or not."
@@ -5341,7 +5341,7 @@ msgstr ""
 "Definește dacă metoda de autentificare în doi factori folosind aplicația "
 "Google Authenticator este activă sau nu."
 
-#: db/seeds/settings.rb:5805
+#: db/seeds/settings.rb:5806
 msgid ""
 "Defines if the two-factor authentication method security keys is enabled or "
 "not."
@@ -5349,22 +5349,22 @@ msgstr ""
 "Definește dacă metoda de autentificare în doi factori folosind chei de "
 "securitate este activă sau nu."
 
-#: db/seeds/settings.rb:3060
+#: db/seeds/settings.rb:3061
 msgid "Defines if tickets can be created via web form."
 msgstr "Definește dacă tichetele pot fi create folosind formularul web."
 
-#: db/seeds/settings.rb:4505
+#: db/seeds/settings.rb:4506
 msgid "Defines if tickets should be closed if service is recovered."
 msgstr ""
 "Definește dacă tichetele ar trebui închise dacă serviciul este restabilit."
 
-#: db/seeds/settings.rb:4375
+#: db/seeds/settings.rb:4376
 msgid "Defines postmaster filter for filters managed via admin interface."
 msgstr ""
 "Definește filtrul postmaster pentru filtrele gestionate prin intermediul "
 "interfeței de administrare."
 
-#: db/seeds/settings.rb:4294
+#: db/seeds/settings.rb:4295
 msgid ""
 "Defines postmaster filter to check if email has been created by Zammad "
 "itself and will set the article sender."
@@ -5372,7 +5372,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a verifica dacă e-mailul a fost creat de "
 "Zammad și va seta expeditorul articolului."
 
-#: db/seeds/settings.rb:4303
+#: db/seeds/settings.rb:4304
 msgid ""
 "Defines postmaster filter to check if the email is a self-created "
 "notification email, then ignore it to prevent email loops."
@@ -5381,19 +5381,19 @@ msgstr ""
 "de notificare creat de sine, apoi îl ignoră pentru a preveni buclele de e-"
 "mail."
 
-#: db/seeds/settings.rb:4321
+#: db/seeds/settings.rb:4322
 msgid "Defines postmaster filter to handle secure mailing."
 msgstr ""
 "Definește filtrul postmaster pentru a gestiona corespondența securizată."
 
-#: db/seeds/settings.rb:4429
+#: db/seeds/settings.rb:4430
 msgid ""
 "Defines postmaster filter to identify Jira mails for correct follow-ups."
 msgstr ""
 "Definește filtrul postmaster pentru a identifica e-mailurile Jira pentru "
 "urmăriri corecte."
 
-#: db/seeds/settings.rb:4411
+#: db/seeds/settings.rb:4412
 msgid ""
 "Defines postmaster filter to identify ServiceNow mails for correct follow-"
 "ups."
@@ -5401,7 +5401,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a identifica e-mailurile ServiceNow "
 "pentru urmăriri corecte."
 
-#: db/seeds/settings.rb:4240
+#: db/seeds/settings.rb:4241
 msgid ""
 "Defines postmaster filter to identify auto responses to prevent auto replies "
 "from Zammad."
@@ -5409,19 +5409,19 @@ msgstr ""
 "Definește filtrul postmaster pentru a identifica răspunsurile automate, "
 "pentru a preveni răspunsurile automate din partea Zammad."
 
-#: db/seeds/settings.rb:4258
+#: db/seeds/settings.rb:4259
 msgid ""
 "Defines postmaster filter to identify follow-up ticket for merged tickets."
 msgstr ""
 "Definește filtrul postmaster pentru a identifica tichetul de urmărire pentru "
 "tichetele fuziunate."
 
-#: db/seeds/settings.rb:4249
+#: db/seeds/settings.rb:4250
 msgid ""
 "Defines postmaster filter to identify follow-ups (based on admin settings)."
 msgstr ""
 
-#: db/seeds/settings.rb:4330
+#: db/seeds/settings.rb:4331
 msgid ""
 "Defines postmaster filter to identify out-of-office emails for follow-up "
 "detection and keeping current ticket state."
@@ -5430,7 +5430,7 @@ msgstr ""
 "biroului” pentru detectarea continuărilor (follow-up) și menținerea stării "
 "curente a tichetului."
 
-#: db/seeds/settings.rb:4357
+#: db/seeds/settings.rb:4358
 msgid ""
 "Defines postmaster filter to identify postmaster bounces; and disables "
 "sending notification if delivery fails permanently."
@@ -5438,7 +5438,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a identifica bouncer-urile postmaster și "
 "dezactivează trimiterea notificărilor dacă livrarea eșuează permanent."
 
-#: db/seeds/settings.rb:4348
+#: db/seeds/settings.rb:4349
 msgid ""
 "Defines postmaster filter to identify postmaster bounces; and handles them "
 "as follow-up of the original tickets"
@@ -5446,7 +5446,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a identifica bouncer-urile postmaster și "
 "a le trata ca continuări (follow-up) ale tichetelor originale"
 
-#: db/seeds/settings.rb:4366
+#: db/seeds/settings.rb:4367
 msgid ""
 "Defines postmaster filter to identify postmaster bounces; and reopens "
 "tickets if delivery fails permanently."
@@ -5454,32 +5454,32 @@ msgstr ""
 "Definește filtrul postmaster pentru a identifica bouncer-urile postmaster și "
 "a reîntoarce tichetele dacă livrarea eșuează permanent."
 
-#: db/seeds/settings.rb:4312
+#: db/seeds/settings.rb:4313
 msgid "Defines postmaster filter to identify sender user."
 msgstr "Definește filtrul postmaster pentru a identifica expeditorul."
 
-#: db/seeds/settings.rb:4384
+#: db/seeds/settings.rb:4385
 msgid ""
 "Defines postmaster filter to manage Icinga (http://www.icinga.org) emails."
 msgstr ""
 "Definește filtrul postmaster pentru a gestiona emailurile Icinga (http://"
 "www.icinga.org)."
 
-#: db/seeds/settings.rb:4402
+#: db/seeds/settings.rb:4403
 msgid ""
 "Defines postmaster filter to manage Monit (https://mmonit.com/monit/) emails."
 msgstr ""
 "Definește filtrul postmaster pentru a gestiona emailurile Monit (https://"
 "mmonit.com/monit/)."
 
-#: db/seeds/settings.rb:4393
+#: db/seeds/settings.rb:4394
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
 "Definește filtrul postmaster pentru a gestiona emailurile Nagios (http://"
 "www.nagios.org)."
 
-#: db/seeds/settings.rb:4231
+#: db/seeds/settings.rb:4232
 msgid ""
 "Defines postmaster filter to remove X-Zammad headers from untrustworthy "
 "sources."
@@ -5487,7 +5487,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a elimina anteturile X-Zammad din surse "
 "nesigure."
 
-#: db/seeds/settings.rb:4267
+#: db/seeds/settings.rb:4268
 msgid ""
 "Defines postmaster filter to set the owner (based on group follow up "
 "assignment)."
@@ -5495,7 +5495,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a seta proprietarul (pe baza atribuirii "
 "de urmărire a grupului)."
 
-#: db/seeds/settings.rb:4276
+#: db/seeds/settings.rb:4277
 msgid ""
 "Defines postmaster filter to set the sender/from of emails based on reply-to "
 "header."
@@ -5503,7 +5503,7 @@ msgstr ""
 "Definește filtrul postmaster pentru a seta expeditorul/„de la” al e-"
 "mailurilor pe baza antetului „reply-to”."
 
-#: db/seeds/settings.rb:4447
+#: db/seeds/settings.rb:4448
 msgid ""
 "Defines postmaster filter which sets the articles visibility to internal if "
 "it is a rely to an internal article or the last outgoing email is internal."
@@ -5512,71 +5512,71 @@ msgstr ""
 "intern dacă este un răspuns la un articol intern sau dacă ultimul e-mail "
 "trimis este intern."
 
-#: db/seeds/settings.rb:4228
+#: db/seeds/settings.rb:4229
 msgid "Defines postmaster filter."
 msgstr "Definește filtrul postmaster."
 
-#: db/seeds/settings.rb:230
+#: db/seeds/settings.rb:231
 msgid "Defines pretty date format."
 msgstr "Definește formatul de afișare ușor lizibilă a datei."
 
-#: db/seeds/settings.rb:5455
+#: db/seeds/settings.rb:5456
 msgid "Defines processing timeout for the html sanitizer."
 msgstr "Definește timpul de expirare al procesării pentru sanitizatorul HTML."
 
-#: db/seeds/settings.rb:5064
+#: db/seeds/settings.rb:5065
 msgid "Defines sync transaction backend."
 msgstr "Definește backend-ul pentru sincronizarea tranzacțiilor."
 
-#: db/seeds/settings.rb:5443
+#: db/seeds/settings.rb:5444
 msgid "Defines the CSS font information for HTML emails."
 msgstr "Definește informațiile despre fonturile CSS pentru e-mailurile HTML."
 
-#: db/seeds/settings.rb:5255
+#: db/seeds/settings.rb:5256
 msgid "Defines the CTI config."
 msgstr "Definește configurarea CTI."
 
-#: db/seeds/settings.rb:4750
+#: db/seeds/settings.rb:4751
 msgid "Defines the Checkmk token for allowing updates."
 msgstr "Definește token Checkmk pentru a permite actualizările."
 
-#: db/seeds/settings.rb:5391
+#: db/seeds/settings.rb:5392
 msgid "Defines the Clearbit config."
 msgstr "Definește configurarea Clearbit."
 
-#: db/seeds/settings.rb:4903
+#: db/seeds/settings.rb:4904
 msgid "Defines the Exchange OAuth config."
 msgstr "Definește configurarea OAuth pentru Exchange."
 
-#: db/seeds/settings.rb:4890
+#: db/seeds/settings.rb:4891
 msgid "Defines the Exchange config."
 msgstr "Definește configurarea Exchange."
 
-#: db/seeds/settings.rb:339
+#: db/seeds/settings.rb:340
 msgid "Defines the HTTP protocol of your instance."
 msgstr "Definește protocolul HTTP pentru instanța ta."
 
-#: db/seeds/settings.rb:5722
+#: db/seeds/settings.rb:5723
 msgid "Defines the PGP config."
 msgstr "Definește configurarea PGP."
 
-#: db/seeds/settings.rb:5330
+#: db/seeds/settings.rb:5331
 msgid "Defines the Placetel config."
 msgstr "Definește configurarea Placetel."
 
-#: db/seeds/settings.rb:5680
+#: db/seeds/settings.rb:5681
 msgid "Defines the S/MIME config."
 msgstr "Definește configurarea S/MIME."
 
-#: db/seeds/settings.rb:5129
+#: db/seeds/settings.rb:5130
 msgid "Defines the Slack config."
 msgstr "Definește configurarea Slack."
 
-#: db/seeds/settings.rb:5432
+#: db/seeds/settings.rb:5433
 msgid "Defines the agent limit."
 msgstr "Definește numărul limită de agenți."
 
-#: db/seeds/settings.rb:425
+#: db/seeds/settings.rb:426
 msgid ""
 "Defines the backend for geo IP lookups. Also shows location of an IP address "
 "if it is traceable."
@@ -5584,7 +5584,7 @@ msgstr ""
 "Definește backend-ul pentru căutările geo IP. De asemenea, afișează locația "
 "unei adrese IP dacă aceasta poate fi determinată."
 
-#: db/seeds/settings.rb:479
+#: db/seeds/settings.rb:480
 msgid ""
 "Defines the backend for geo calendar lookups. Used for initial calendar "
 "succession."
@@ -5592,7 +5592,7 @@ msgstr ""
 "Definește backend-ul pentru căutările calendar geografic. Utilizat pentru "
 "succesiunea inițială a calendarului."
 
-#: db/seeds/settings.rb:452
+#: db/seeds/settings.rb:453
 msgid ""
 "Defines the backend for geo location lookups to store geo locations for "
 "addresses."
@@ -5600,19 +5600,19 @@ msgstr ""
 "Definește backend-ul pentru căutările geografice pentru a stoca locațiile "
 "geografice pentru adrese."
 
-#: db/seeds/settings.rb:398
+#: db/seeds/settings.rb:399
 msgid "Defines the backend for user and organization image lookups."
 msgstr ""
 "Definește backend-ul pentru căutările de imagini ale utilizatorilor și "
 "organizațiilor."
 
-#: db/seeds/settings.rb:186
+#: db/seeds/settings.rb:187
 #, fuzzy
 #| msgid "Defines the tab behaviour after a ticket action."
 msgid "Defines the backend service for ticket article language detection."
 msgstr "Definește comportamentul tab-ului după o acțiune asupra unui tichet."
 
-#: db/seeds/settings.rb:2915
+#: db/seeds/settings.rb:2916
 msgid ""
 "Defines the configuration how many articles can be created in a minute range "
 "globally."
@@ -5620,7 +5620,7 @@ msgstr ""
 "Definește configurația privind numărul de articole care pot fi create într-"
 "un interval de minute la nivel global."
 
-#: db/seeds/settings.rb:2896
+#: db/seeds/settings.rb:2897
 msgid ""
 "Defines the configuration how many articles can be created in a minute range "
 "per ticket."
@@ -5628,39 +5628,39 @@ msgstr ""
 "Definește configurația privind numărul de articole care pot fi create într-"
 "un interval de minute per tichet."
 
-#: db/seeds/settings.rb:4124
+#: db/seeds/settings.rb:4125
 msgid ""
 "Defines the custom unit to be shown next to the time accounting input field."
 msgstr ""
 "Definește unitatea personalizată care va fi afișată lângă câmpul de "
 "introducere a timpului contabilizat."
 
-#: db/seeds/settings.rb:4205
+#: db/seeds/settings.rb:4206
 msgid "Defines the default calendar tickets subscription settings."
 msgstr ""
 "Definește setările implicite de calendar pentru abonamentele la tichete."
 
-#: db/seeds/settings.rb:3635
+#: db/seeds/settings.rb:3636
 msgid "Defines the default screen."
 msgstr "Definește ecranul implicit."
 
-#: db/seeds/settings.rb:166
+#: db/seeds/settings.rb:167
 msgid "Defines the default system language."
 msgstr "Definește limba implicită a sistemului."
 
-#: db/seeds/settings.rb:209
+#: db/seeds/settings.rb:210
 msgid "Defines the default system timezone."
 msgstr "Definește fusul orar implicit al sistemului."
 
-#: db/seeds/settings.rb:4160
+#: db/seeds/settings.rb:4161
 msgid "Defines the default time accounting type."
 msgstr "Definește tipul implicit de contabilizare a timpului."
 
-#: db/seeds/settings.rb:656
+#: db/seeds/settings.rb:657
 msgid "Defines the default visibility for new notes."
 msgstr "Definește vizibilitatea implicită pentru notițele noi."
 
-#: db/seeds/settings.rb:5289
+#: db/seeds/settings.rb:5290
 msgid ""
 "Defines the duration of customer activity (in seconds) on a call until the "
 "user profile dialog is shown."
@@ -5668,7 +5668,7 @@ msgstr ""
 "Definește durata activității clientului (în secunde) într-un apel până când "
 "este afișat dialogul profilului utilizatorului."
 
-#: db/seeds/settings.rb:289
+#: db/seeds/settings.rb:290
 msgid ""
 "Defines the fully qualified domain name of the system. This setting is used "
 "as a variable, #{setting.fqdn} which is found in all forms of messaging used "
@@ -5679,33 +5679,33 @@ msgstr ""
 "mesagerie utilizate de aplicație, pentru a construi linkuri către tichetele "
 "din sistemul tău."
 
-#: db/seeds/settings.rb:4678
+#: db/seeds/settings.rb:4679
 msgid "Defines the group of created tickets."
 msgstr "Definește grupul tichetelor create."
 
-#: db/seeds/settings.rb:3094
+#: db/seeds/settings.rb:3095
 msgid "Defines the group of tickets created via web form."
 msgstr "Definește grupul tichetelor create folosind formularul web."
 
-#: db/seeds/settings.rb:4970
+#: db/seeds/settings.rb:4971
 msgid "Defines the i-doit config."
 msgstr "Definește configurarea i-doit."
 
-#: db/seeds/settings.rb:4026
+#: db/seeds/settings.rb:4027
 msgid "Defines the log levels for various logging actions of the Sequencer."
 msgstr ""
 "Definește nivelurile de jurnalizare pentru diverse acțiuni de jurnalizare "
 "ale Sequencer-ului."
 
-#: db/seeds/settings.rb:120
+#: db/seeds/settings.rb:121
 msgid "Defines the logo of the application, shown in the web interface."
 msgstr "Definește logo-ul aplicației, afișat în interfața web."
 
-#: db/seeds/settings.rb:3296
+#: db/seeds/settings.rb:3297
 msgid "Defines the maximum accepted email size in MB."
 msgstr "Definește dimensiunea maximă acceptată a e-mailului în MB."
 
-#: db/seeds/settings.rb:1040
+#: db/seeds/settings.rb:1041
 msgid ""
 "Defines the maximum number of allowed open tabs before auto cleanup removes "
 "surplus tabs when creating new tabs."
@@ -5714,7 +5714,7 @@ msgstr ""
 "automată să elimine tab-urile suplimentare atunci când se creează tab-uri "
 "noi."
 
-#: db/seeds/settings.rb:96
+#: db/seeds/settings.rb:97
 msgid ""
 "Defines the name of the application, shown in the web interface, tabs, and "
 "title bar of the web browser."
@@ -5722,11 +5722,11 @@ msgstr ""
 "Definește numele aplicației, afișat în interfața web, file și bara de titlu "
 "a browserului web."
 
-#: db/seeds/settings.rb:2809
+#: db/seeds/settings.rb:2810
 msgid "Defines the permission level used for lookups."
 msgstr "Definește nivelul de permisiune utilizat pentru căutări."
 
-#: db/seeds/settings.rb:320
+#: db/seeds/settings.rb:321
 msgid "Defines the port of the websocket server."
 msgstr "Definește port-ul serverului websocket."
 
@@ -5734,24 +5734,24 @@ msgstr "Definește port-ul serverului websocket."
 msgid "Defines the random application secret."
 msgstr "Definește un secret aleator al aplicației."
 
-#: db/seeds/settings.rb:4482
+#: db/seeds/settings.rb:4483
 msgid "Defines the sender email address of Icinga emails."
 msgstr "Definește adresa de email a expeditorului pentru emailurile Icinga."
 
-#: db/seeds/settings.rb:4580
+#: db/seeds/settings.rb:4581
 msgid "Defines the sender email address of Nagios emails."
 msgstr "Definește adresa de email a expeditorului pentru emailurile Nagios."
 
-#: db/seeds/settings.rb:4788
+#: db/seeds/settings.rb:4789
 msgid "Defines the sender email address of the service emails."
 msgstr ""
 "Definește adresa de e-mail a expeditorului pentru e-mailurile de serviciu."
 
-#: db/seeds/settings.rb:3456
+#: db/seeds/settings.rb:3457
 msgid "Defines the sender of email notifications."
 msgstr "Definește adresa de e-mail a expeditorului pentru notificări."
 
-#: db/seeds/settings.rb:3274
+#: db/seeds/settings.rb:3275
 msgid ""
 "Defines the separator between the agent's real name and the given group "
 "email address."
@@ -5759,7 +5759,7 @@ msgstr ""
 "Definește separatorul dintre numele real al agentului și adresa de e-mail a "
 "grupului."
 
-#: db/seeds/settings.rb:1134
+#: db/seeds/settings.rb:1135
 msgid ""
 "Defines the session timeout for inactivity of users. Based on the assigned "
 "permissions the highest timeout value will be used, otherwise the default."
@@ -5768,15 +5768,15 @@ msgstr ""
 "utilizatorilor. În funcție de permisiunile atribuite, va fi utilizată "
 "valoarea maximă a expirării; altfel, se va folosi valoarea implicită."
 
-#: db/seeds/settings.rb:5193
+#: db/seeds/settings.rb:5194
 msgid "Defines the sipgate.io config."
 msgstr "Definește configurarea sipgate.io."
 
-#: db/seeds/settings.rb:4531
+#: db/seeds/settings.rb:4532
 msgid "Defines the state of auto-closed tickets."
 msgstr "Definește statusul tichetelor închise automat."
 
-#: db/seeds/settings.rb:264
+#: db/seeds/settings.rb:265
 msgid ""
 "Defines the system identifier. Every ticket number contains this ID. This "
 "ensures that only tickets which belong to your system will be processed as "
@@ -5786,43 +5786,43 @@ msgstr ""
 "ID. Acest lucru asigură că doar tichetele care aparțin sistemului dvs. vor "
 "fi prelucrate (este util când comunicați între două instanțe Zammad)."
 
-#: db/seeds/settings.rb:3031
+#: db/seeds/settings.rb:3032
 msgid "Defines the tab behaviour after a ticket action."
 msgstr "Definește comportamentul tab-ului după o acțiune asupra unui tichet."
 
-#: db/seeds/settings.rb:2826
+#: db/seeds/settings.rb:2827
 msgid "Defines the ticket states used for lookups."
 msgstr "Definește stările tichetelor utilizate pentru interogări."
 
-#: db/seeds/settings.rb:5588
+#: db/seeds/settings.rb:5589
 msgid "Defines the timeframe during which a self-created note can be deleted."
 msgstr ""
 "Definește intervalul de timp în care o notiță creată de sine poate fi "
 "ștearsă."
 
-#: db/seeds/settings.rb:5344
+#: db/seeds/settings.rb:5345
 msgid "Defines the token for Placetel."
 msgstr "Definește tokenul pentru Placetel."
 
-#: db/seeds/settings.rb:5085
+#: db/seeds/settings.rb:5086
 msgid ""
 "Defines the transaction backend to detect customer signatures in emails."
 msgstr ""
 "Definește backend-ul de tranzacție pentru a detecta semnăturile clienților "
 "în e-mailuri."
 
-#: db/seeds/settings.rb:5067
+#: db/seeds/settings.rb:5068
 msgid "Defines the transaction backend to execute triggers."
 msgstr ""
 "Definește backend-ul de tranzacție pentru a executa declanșatoarele (trigger-"
 "ele)."
 
-#: db/seeds/settings.rb:5076
+#: db/seeds/settings.rb:5077
 msgid "Defines the transaction backend to send agent notifications."
 msgstr ""
 "Definește backend-ul de tranzacție pentru trimite notificări agenților."
 
-#: db/seeds/settings.rb:5413
+#: db/seeds/settings.rb:5414
 msgid ""
 "Defines the transaction backend which detects caller IDs in objects and "
 "stores them for CTI lookups."
@@ -5830,13 +5830,13 @@ msgstr ""
 "Definește backend-ul de tranzacție care detectează ID-urile apelanților în "
 "obiecte și le stochează pentru căutările CTI."
 
-#: db/seeds/settings.rb:5422
+#: db/seeds/settings.rb:5423
 msgid "Defines the transaction backend which executes time based triggers."
 msgstr ""
 "Definește backend-ul de tranzacție pentru a executa declanșatoarele (trigger-"
 "ele) bazate pe timp."
 
-#: db/seeds/settings.rb:5094
+#: db/seeds/settings.rb:5095
 msgid ""
 "Defines the transaction backend which posts messages to Slack (http://"
 "www.slack.com)."
@@ -5844,7 +5844,7 @@ msgstr ""
 "Definește backend-ul de tranzacție care postează mesaje în Slack (http://"
 "www.slack.com)."
 
-#: db/seeds/settings.rb:5404
+#: db/seeds/settings.rb:5405
 msgid ""
 "Defines the transaction backend which will enrich customer and organization "
 "information from Clearbit (http://www.clearbit.com)."
@@ -5853,31 +5853,31 @@ msgstr ""
 "clienți și organizații folosind Clearbit (http://www.clearbit.com)."
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:14
-#: db/seeds/settings.rb:4106
+#: db/seeds/settings.rb:4107
 msgid "Defines the unit to be shown next to the time accounting input field."
 msgstr ""
 "Definește unitatea de măsură care va fi afișată lângă câmpul de introducere "
 "a contabilizării timpului."
 
-#: db/seeds/settings.rb:2758
+#: db/seeds/settings.rb:2759
 msgid ""
 "Defines the warning message that is shown when a matching ticket is present."
 msgstr ""
 "Definește mesajul de avertizare care este afișat atunci când există un "
 "tichet corespunzător."
 
-#: db/seeds/settings.rb:2741
+#: db/seeds/settings.rb:2742
 msgid ""
 "Defines the warning title that is shown when a matching ticket is present."
 msgstr ""
 "Definește titlul avertizării care este afișată atunci când există un tichet "
 "corespunzător."
 
-#: db/seeds/settings.rb:5073
+#: db/seeds/settings.rb:5074
 msgid "Defines transaction backend."
 msgstr "Definește backend-ul de tranzacție."
 
-#: db/seeds/settings.rb:2792
+#: db/seeds/settings.rb:2793
 msgid ""
 "Defines whether the matching tickets are shown in case of already existing "
 "tickets."
@@ -5885,13 +5885,13 @@ msgstr ""
 "Definește dacă tichetele corespunzătoare sunt afișate în cazul existenței "
 "deja a unor tichete."
 
-#: db/seeds/settings.rb:2724
+#: db/seeds/settings.rb:2725
 msgid "Defines which ticket attributes are checked before creating a ticket."
 msgstr ""
 "Definește care atribute ale tichetului sunt verificate înainte de a crea un "
 "tichet."
 
-#: db/seeds/settings.rb:2775
+#: db/seeds/settings.rb:2776
 msgid ""
 "Defines which user roles will receive a warning in case of matching tickets."
 msgstr ""
@@ -6200,7 +6200,7 @@ msgid "Destination group > Sending email address"
 msgstr "Grupul destinatar"
 
 #: app/assets/javascripts/app/views/settings/ticket_duplicate_detection.jst.eco:7
-#: db/seeds/settings.rb:2695
+#: db/seeds/settings.rb:2696
 msgid "Detect Duplicate Ticket Creation"
 msgstr "Detectează duplicarea creării tichetelor"
 
@@ -6218,7 +6218,7 @@ msgstr "Limbă țintă"
 msgid "Detected language"
 msgstr "Limbă țintă"
 
-#: db/seeds/settings.rb:73
+#: db/seeds/settings.rb:74
 msgid "Developer System"
 msgstr "Sistem dezvoltator"
 
@@ -6286,7 +6286,7 @@ msgid ""
 "this channel and switch to using a different mailbox type. %l"
 msgstr ""
 
-#: db/seeds/settings.rb:2201
+#: db/seeds/settings.rb:2202
 msgid "Digit required"
 msgstr "Este necesară introducerea unei cifre"
 
@@ -6330,7 +6330,7 @@ msgstr "Dezactivează"
 msgid "Disable Notifications"
 msgstr "Oprește notificările"
 
-#: db/seeds/settings.rb:1326
+#: db/seeds/settings.rb:1327
 msgid "Disables user creation on logon with a third-party application."
 msgstr ""
 
@@ -6398,7 +6398,7 @@ msgid "Display"
 msgstr "Afișare"
 
 #: app/assets/javascripts/app/models/email_address.coffee:32
-#: db/seeds/settings.rb:1909
+#: db/seeds/settings.rb:1910
 msgid "Display name"
 msgstr "Numele afișat"
 
@@ -6416,7 +6416,7 @@ msgstr "Nu cripta email-ul"
 msgid "Do not sign email"
 msgstr "Nu semna email-ul"
 
-#: db/seeds/settings.rb:5931
+#: db/seeds/settings.rb:5932
 msgid "Do not update any tickets."
 msgstr "Nu actualiza nici un tichet."
 
@@ -6760,43 +6760,43 @@ msgstr "Actualizare tichet"
 msgid "Editor"
 msgstr "Editează"
 
-#: db/seeds/settings.rb:3687
+#: db/seeds/settings.rb:3688
 msgid "Elasticsearch Attachment Extensions"
 msgstr "Extensii pentru atașamente Elasticsearch"
 
-#: db/seeds/settings.rb:3696
+#: db/seeds/settings.rb:3697
 msgid "Elasticsearch Attachment Size"
 msgstr "Mărime atașamente Elasticsearch"
 
-#: db/seeds/settings.rb:3669
+#: db/seeds/settings.rb:3670
 msgid "Elasticsearch Endpoint Index"
 msgstr "Index Endpoint Elasticsearch"
 
-#: db/seeds/settings.rb:3660
+#: db/seeds/settings.rb:3661
 msgid "Elasticsearch Endpoint Password"
 msgstr "Parolă Endpoint Elasticsearch"
 
-#: db/seeds/settings.rb:3642
+#: db/seeds/settings.rb:3643
 msgid "Elasticsearch Endpoint URL"
 msgstr "URL Endpoint Elasticsearch"
 
-#: db/seeds/settings.rb:3651
+#: db/seeds/settings.rb:3652
 msgid "Elasticsearch Endpoint User"
 msgstr "Utilizator Endpoint Elasticsearch"
 
-#: db/seeds/settings.rb:3723
+#: db/seeds/settings.rb:3724
 msgid "Elasticsearch Model Configuration"
 msgstr "Configurație model Elasticsearch"
 
-#: db/seeds/settings.rb:3714
+#: db/seeds/settings.rb:3715
 msgid "Elasticsearch Pipeline Name"
 msgstr "Numele pipeline-ului Elasticsearch"
 
-#: db/seeds/settings.rb:3678
+#: db/seeds/settings.rb:3679
 msgid "Elasticsearch SSL verification"
 msgstr "Verificare SSL Elasticsearch"
 
-#: db/seeds/settings.rb:3705
+#: db/seeds/settings.rb:3706
 msgid "Elasticsearch Total Payload Size"
 msgstr "Dimensiunea totală a payload-ului Elasticsearch"
 
@@ -6847,15 +6847,15 @@ msgstr "E-mail (primite)"
 msgid "Email (out)"
 msgstr "E-mail (trimise)"
 
-#: db/seeds/settings.rb:735
+#: db/seeds/settings.rb:736
 msgid "Email - full quote"
 msgstr "E-mail - citare completă"
 
-#: db/seeds/settings.rb:762
+#: db/seeds/settings.rb:763
 msgid "Email - quote header"
 msgstr "E-mail - antet citat"
 
-#: db/seeds/settings.rb:708
+#: db/seeds/settings.rb:709
 msgid "Email - subject field"
 msgstr "E-mail - câmp subiect"
 
@@ -6993,11 +6993,11 @@ msgstr "Prezentare generală"
 msgid "Enable"
 msgstr "Activează"
 
-#: db/seeds/settings.rb:3583
+#: db/seeds/settings.rb:3584
 msgid "Enable Chat"
 msgstr "Activează chatul"
 
-#: app/assets/javascripts/app/views/api.jst.eco:33 db/seeds/settings.rb:3538
+#: app/assets/javascripts/app/views/api.jst.eco:33 db/seeds/settings.rb:3539
 msgid ""
 "Enable REST API access using the username/email address and password for the "
 "authentication user."
@@ -7014,7 +7014,7 @@ msgstr ""
 "mail și parolă). Toți utilizatorii trebuie să-și creeze propriile token-uri "
 "de acces în profilul de utilizator."
 
-#: db/seeds/settings.rb:3513
+#: db/seeds/settings.rb:3514
 msgid ""
 "Enable REST API using tokens (not username/email address and password). Each "
 "user needs to create its own access tokens in user profile."
@@ -7023,11 +7023,11 @@ msgstr ""
 "mail și parolă). Fiecare utilizator trebuie să își creeze propriile token-"
 "uri de acces în profilul de utilizator."
 
-#: db/seeds/settings.rb:5866
+#: db/seeds/settings.rb:5867
 msgid "Enable Recovery Codes"
 msgstr "Activează codurile de recuperare"
 
-#: db/seeds/settings.rb:2976
+#: db/seeds/settings.rb:2977
 msgid "Enable Ticket creation"
 msgstr "Activează crearea tichetelor"
 
@@ -7040,7 +7040,7 @@ msgstr ""
 "să selecteze unul dintre tipurile de mai jos atunci când adaugă timp "
 "contabilizat."
 
-#: db/seeds/settings.rb:2596
+#: db/seeds/settings.rb:2597
 msgid "Enable auto assignment for following matching tickets."
 msgstr ""
 "Activează alocarea automată pentru următoarele tichete corespunzătoare."
@@ -7051,7 +7051,7 @@ msgstr ""
 "Activează alocarea automată la prima deschidere a unui tichet de către un "
 "agent."
 
-#: db/seeds/settings.rb:5949
+#: db/seeds/settings.rb:5950
 #, fuzzy
 #| msgid "Enable Chat"
 msgid "Enable checklists."
@@ -7061,7 +7061,7 @@ msgstr "Activează chat"
 msgid "Enable debugging for implementation."
 msgstr "Activează depanarea(debugging) pentru implementare."
 
-#: db/seeds/settings.rb:765
+#: db/seeds/settings.rb:766
 msgid ""
 "Enable if you want a timestamped reply header to be automatically inserted "
 "in front of quoted messages."
@@ -7069,7 +7069,7 @@ msgstr ""
 "Activează dacă dorești ca un antet cu marcă temporală să fie inserat automat "
 "în fața mesajelor citate."
 
-#: db/seeds/settings.rb:738
+#: db/seeds/settings.rb:739
 msgid ""
 "Enable if you want to quote the full email in your answer. The quoted email "
 "will be put at the end of your answer. If you just want to quote a certain "
@@ -7081,7 +7081,7 @@ msgstr ""
 "anumită expresie, marcați doar textul și apăsați răspuns (această "
 "caracteristică este întotdeauna disponibilă)."
 
-#: db/seeds/settings.rb:5976
+#: db/seeds/settings.rb:5977
 msgid ""
 "Enable or disable self-shutdown of Zammad processes after significant "
 "configuration changes. This should only be used if the controlling process "
@@ -7108,11 +7108,11 @@ msgstr ""
 "activat, toți utilizatorii non-administratori vor fi deconectați, iar doar "
 "administratorii pot începe o nouă sesiune."
 
-#: db/seeds/settings.rb:2570
+#: db/seeds/settings.rb:2571
 msgid "Enable ticket auto assignment."
 msgstr "Activează alocarea automată a tichetelor."
 
-#: db/seeds/settings.rb:4061
+#: db/seeds/settings.rb:4062
 msgid "Enable time accounting."
 msgstr "Activează contabilizarea timpului."
 
@@ -7120,7 +7120,7 @@ msgstr "Activează contabilizarea timpului."
 msgid "Enable/disable inline translations"
 msgstr "Activează/dezactivează traducerile inline"
 
-#: db/seeds/settings.rb:3586
+#: db/seeds/settings.rb:3587
 msgid "Enable/disable online chat."
 msgstr "Activează/dezactivează chat-ul online."
 
@@ -7128,14 +7128,14 @@ msgstr "Activează/dezactivează chat-ul online."
 msgid "Enabled"
 msgstr "Activ"
 
-#: db/seeds/settings.rb:846
+#: db/seeds/settings.rb:847
 msgid "Enables a sidebar to show an overview of all attachments."
 msgstr ""
 "Activează o bară laterală pentru a afișa o prezentare generală a tuturor "
 "atașamentelor."
 
 #: app/assets/javascripts/app/views/settings/ticket_duplicate_detection.jst.eco:12
-#: db/seeds/settings.rb:2698
+#: db/seeds/settings.rb:2699
 msgid ""
 "Enables a warning to users during ticket creation if there is an existing "
 "ticket with the same attributes."
@@ -7143,7 +7143,7 @@ msgstr ""
 "Activează un avertisment pentru utilizatori în timpul creării unui tichet "
 "dacă există un tichet existent cu aceleași atribute."
 
-#: db/seeds/settings.rb:5747
+#: db/seeds/settings.rb:5748
 msgid ""
 "Enables button for user authentication via %s. The button will redirect to /"
 "auth/sso on user interaction."
@@ -7155,15 +7155,15 @@ msgstr ""
 msgid "Enables console logging."
 msgstr "Activează logarea datelor în consola."
 
-#: db/seeds/settings.rb:999
+#: db/seeds/settings.rb:1000
 msgid "Enables display of ticket priority icons in UI."
 msgstr ""
 
-#: db/seeds/settings.rb:819
+#: db/seeds/settings.rb:820
 msgid "Enables preview of attachments."
 msgstr "Activează previzualizarea atașamentelor."
 
-#: db/seeds/settings.rb:1300
+#: db/seeds/settings.rb:1301
 msgid ""
 "Enables sending of an email notification to a user when they link their "
 "account with a third-party application."
@@ -7171,7 +7171,7 @@ msgstr ""
 "Activează trimiterea unei notificări prin e-mail către un utilizator atunci "
 "când își leagă contul de o aplicație terță."
 
-#: db/seeds/settings.rb:1274
+#: db/seeds/settings.rb:1275
 msgid ""
 "Enables the automatic linking of an existing account on initial login via a "
 "third party application. If this is disabled, an existing user must first "
@@ -7183,52 +7183,52 @@ msgstr ""
 "trebuie mai întâi să se conecteze la Zammad și apoi să își lege contul de "
 "\"Aplicație Terță\" la contul său Zammad prin Profil -> Conturi Legate."
 
-#: db/seeds/settings.rb:1211
+#: db/seeds/settings.rb:1212
 msgid "Enables user authentication via %s."
 msgstr "Activează autentificarea utilizatorului folosind %s."
 
-#: db/seeds/settings.rb:1352
+#: db/seeds/settings.rb:1353
 msgid ""
 "Enables user authentication via %s. Register your app first at [%s](%s)."
 msgstr ""
 "Activează autentificarea utilizatorului folosind %s. Înregistrează întâi "
 "aplicația la [%s](%s)."
 
-#: db/seeds/settings.rb:1637
+#: db/seeds/settings.rb:1638
 msgid "Enables user authentication via GitHub."
 msgstr "Activează autentificarea utilizatorului folosind GitHub."
 
-#: db/seeds/settings.rb:1701
+#: db/seeds/settings.rb:1702
 msgid "Enables user authentication via GitLab."
 msgstr "Activează autentificarea utilizatorului folosind GitLab."
 
-#: db/seeds/settings.rb:1509
+#: db/seeds/settings.rb:1510
 msgid "Enables user authentication via Google."
 msgstr "Activează autentificarea utilizatorului folosind Google."
 
-#: db/seeds/settings.rb:1573
+#: db/seeds/settings.rb:1574
 msgid "Enables user authentication via LinkedIn."
 msgstr "Activează autentificarea utilizatorului folosind LinkedIn."
 
-#: db/seeds/settings.rb:1772
+#: db/seeds/settings.rb:1773
 msgid "Enables user authentication via Microsoft 365."
 msgstr "Activează autentificarea utilizatorului folosind Microsoft 365."
 
-#: db/seeds/settings.rb:2063
+#: db/seeds/settings.rb:2064
 #, fuzzy
 #| msgid "Enables user authentication via Weibo."
 msgid "Enables user authentication via OpenID Connect."
 msgstr "Activează autentificarea utilizatorului folosind Weibo."
 
-#: db/seeds/settings.rb:1905
+#: db/seeds/settings.rb:1906
 msgid "Enables user authentication via SAML."
 msgstr "Activează autentificarea utilizatorului folosind SAML."
 
-#: db/seeds/settings.rb:1842
+#: db/seeds/settings.rb:1843
 msgid "Enables user authentication via Weibo."
 msgstr "Activează autentificarea utilizatorului folosind Weibo."
 
-#: db/seeds/settings.rb:1080
+#: db/seeds/settings.rb:1081
 msgid ""
 "Enables users to create their own account via web interface. This setting is "
 "only effective if the password login is enabled."
@@ -7293,11 +7293,11 @@ msgstr "Endpoint"
 msgid "Endpoint Settings"
 msgstr "Setări Endpoint"
 
-#: db/seeds/settings.rb:5893
+#: db/seeds/settings.rb:5894
 msgid "Enforce the setup of the two-factor authentication"
 msgstr "Impune configurarea autentificării cu două factori"
 
-#: db/seeds/settings.rb:5900
+#: db/seeds/settings.rb:5901
 msgid "Enforced for user roles"
 msgstr "Impus pentru rolurile utilizatorului"
 
@@ -7681,15 +7681,15 @@ msgstr "Utilizatori exceptați"
 msgid "Exchange"
 msgstr "Exchange"
 
-#: db/seeds/settings.rb:4900
+#: db/seeds/settings.rb:4901
 msgid "Exchange OAuth"
 msgstr "OAuth Exchange"
 
-#: db/seeds/settings.rb:4887
+#: db/seeds/settings.rb:4888
 msgid "Exchange config"
 msgstr "Configurare Exchange"
 
-#: db/seeds/settings.rb:4913
+#: db/seeds/settings.rb:4914
 msgid "Exchange integration"
 msgstr "Integrare Exchange"
 
@@ -7794,7 +7794,7 @@ msgstr "Extrage informațiile de tip zammad-attachment din matrici"
 #: app/controllers/first_steps_controller.rb:31
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:19
 #: app/frontend/shared/entities/ticket-article/action/plugins/facebook.ts:48
-#: db/seeds/permissions.rb:173 db/seeds/settings.rb:1433
+#: db/seeds/permissions.rb:173 db/seeds/settings.rb:1434
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -7806,7 +7806,7 @@ msgstr "ID aplicație Facebook"
 msgid "Facebook Account"
 msgstr "Cont de Facebook"
 
-#: db/seeds/settings.rb:1442
+#: db/seeds/settings.rb:1443
 msgid "Facebook App Credentials"
 msgstr "Date de autentificare ale aplicației Facebook"
 
@@ -7814,7 +7814,7 @@ msgstr "Date de autentificare ale aplicației Facebook"
 msgid "Facebook App Secret"
 msgstr "Secret aplicație Facebook"
 
-#: db/seeds/settings.rb:1434
+#: db/seeds/settings.rb:1435
 msgid "Facebook Developer Site"
 msgstr "Site dezvoltator Facebook"
 
@@ -7929,7 +7929,7 @@ msgstr "Feedback"
 msgid "Feedback Form"
 msgstr "Formular de feedback"
 
-#: db/seeds/settings.rb:2095
+#: db/seeds/settings.rb:2096
 #, fuzzy
 #| msgid ""
 #| "Attribute that uniquely identifies the user. If unset, the name "
@@ -7964,7 +7964,7 @@ msgid "Filepath to Zammad directory"
 msgstr ""
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:5
-#: db/seeds/settings.rb:377
+#: db/seeds/settings.rb:378
 msgid "Filesystem"
 msgstr "Sistem de fișiere"
 
@@ -8292,7 +8292,7 @@ msgstr "Nume complet"
 msgid "Full name"
 msgstr "Nume complet"
 
-#: db/seeds/settings.rb:286
+#: db/seeds/settings.rb:287
 msgid "Fully Qualified Domain Name"
 msgstr "Numele complet al domeniului"
 
@@ -8354,15 +8354,15 @@ msgstr ""
 "API generic pentru integrarea unui furnizor de servicii VoIP cu notificări "
 "în timp real."
 
-#: db/seeds/settings.rb:476
+#: db/seeds/settings.rb:477
 msgid "Geo Calendar Service"
 msgstr "Serviciu de Calendar Geo"
 
-#: db/seeds/settings.rb:422
+#: db/seeds/settings.rb:423
 msgid "Geo IP Service"
 msgstr "Serviciu GEO IP"
 
-#: db/seeds/settings.rb:449
+#: db/seeds/settings.rb:450
 msgid "Geo Location Service"
 msgstr "Serviciu geolocalizare"
 
@@ -8377,7 +8377,7 @@ msgstr "Primește notificări"
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:11
-#: db/seeds/settings.rb:5858
+#: db/seeds/settings.rb:5859
 msgid "Get the security code from the authenticator app on your device."
 msgstr ""
 "Obțineți codul de securitate din aplicația de autentificare de pe "
@@ -8397,23 +8397,23 @@ msgstr "Se preiau informații esențiale din browser…"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/useTicketExternalIssueTracker.ts:51
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/github.ts:11
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:40
-#: db/seeds/settings.rb:1626
+#: db/seeds/settings.rb:1627
 msgid "GitHub"
 msgstr "GitHub"
 
-#: db/seeds/settings.rb:1634
+#: db/seeds/settings.rb:1635
 msgid "GitHub App Credentials"
 msgstr "Date de autentificare pentru aplicația GitHub"
 
-#: db/seeds/settings.rb:1627
+#: db/seeds/settings.rb:1628
 msgid "GitHub OAuth Applications"
 msgstr "Aplicațiile OAuth GitHub"
 
-#: db/seeds/settings.rb:5049
+#: db/seeds/settings.rb:5050
 msgid "GitHub config"
 msgstr "Configurare GitHub"
 
-#: db/seeds/settings.rb:5022
+#: db/seeds/settings.rb:5023
 msgid "GitHub integration"
 msgstr "Integrare GitHub"
 
@@ -8437,23 +8437,23 @@ msgstr "Asociază problemă"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/useTicketExternalIssueTracker.ts:52
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/gitlab.ts:11
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:47
-#: db/seeds/settings.rb:1690
+#: db/seeds/settings.rb:1691
 msgid "GitLab"
 msgstr "GitLab"
 
-#: db/seeds/settings.rb:1698
+#: db/seeds/settings.rb:1699
 msgid "GitLab App Credentials"
 msgstr "Date de autentificare pentru aplicația GitLab"
 
-#: db/seeds/settings.rb:1691
+#: db/seeds/settings.rb:1692
 msgid "GitLab Applications"
 msgstr "Aplicații GitLab"
 
-#: db/seeds/settings.rb:5007
+#: db/seeds/settings.rb:5008
 msgid "GitLab config"
 msgstr "Configurare GitLab"
 
-#: db/seeds/settings.rb:4980
+#: db/seeds/settings.rb:4981
 msgid "GitLab integration"
 msgstr "Integrare GitLab"
 
@@ -8526,15 +8526,15 @@ msgstr "Mesaj de rămas bun"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:96
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:61
-#: db/seeds/permissions.rb:149 db/seeds/settings.rb:1498
+#: db/seeds/permissions.rb:149 db/seeds/settings.rb:1499
 msgid "Google"
 msgstr "Google"
 
-#: db/seeds/settings.rb:1499
+#: db/seeds/settings.rb:1500
 msgid "Google API Console Site"
 msgstr "Site Consolă Google API"
 
-#: db/seeds/settings.rb:1506
+#: db/seeds/settings.rb:1507
 msgid "Google App Credentials"
 msgstr "Date de autentificare pentru aplicația Google"
 
@@ -8596,7 +8596,7 @@ msgstr "Salutare"
 #: app/views/messaging/ticket_create/zh-tw.md.erb:3
 #: app/views/messaging/ticket_info/pt-br.md.erb:3
 #: app/views/messaging/ticket_info/zh-tw.md.erb:3
-#: db/seeds/object_manager_attributes.rb:162 db/seeds/settings.rb:3003
+#: db/seeds/object_manager_attributes.rb:162 db/seeds/settings.rb:3004
 #: lib/excel_sheet/ticket.rb:27
 msgid "Group"
 msgstr "Grup"
@@ -8648,11 +8648,11 @@ msgid "Group permissions"
 msgstr "Permisiuni grup"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:18
-#: db/seeds/settings.rb:3003
+#: db/seeds/settings.rb:3004
 msgid "Group selection for Ticket creation"
 msgstr "Selectarea grupului pentru crearea de tichete"
 
-#: db/seeds/settings.rb:3091
+#: db/seeds/settings.rb:3092
 msgid "Group selection for ticket creation"
 msgstr "Selectarea grupului pentru crearea de tichete"
 
@@ -8687,11 +8687,11 @@ msgstr "Grupurile sunt …"
 msgid "HMAC SHA1 Signature Token"
 msgstr "Token semnătură HMAC SHA1"
 
-#: db/seeds/settings.rb:5440
+#: db/seeds/settings.rb:5441
 msgid "HTML Email CSS Font"
 msgstr "Font CSS pentru e-mail HTML"
 
-#: db/seeds/settings.rb:5452
+#: db/seeds/settings.rb:5453
 msgid "HTML Sanitizer Processing Timeout"
 msgstr "Timeout la procesarea de către Sanitizer-ul HTML"
 
@@ -8723,7 +8723,7 @@ msgstr "Utilizator autentificare HTTP de bază"
 msgid "HTTP Log"
 msgstr "Jurnal HTTP"
 
-#: db/seeds/settings.rb:336
+#: db/seeds/settings.rb:337
 msgid "HTTP type"
 msgstr "Tip HTTP"
 
@@ -8925,12 +8925,12 @@ msgstr "Culoare evidențiere"
 msgid "Highlight icon"
 msgstr "Iconiță evidențiere"
 
-#: db/seeds/settings.rb:5604
+#: db/seeds/settings.rb:5605
 msgid "Highlights if the note a user is writing is public or private"
 msgstr ""
 "Evidențiază dacă nota pe care o scrie un utilizator este publică sau privată"
 
-#: db/seeds/settings.rb:5601
+#: db/seeds/settings.rb:5602
 msgid "Hint for adding an article to an existing ticket."
 msgstr "Sugestie pentru adăugarea unui articol la un tichet existent."
 
@@ -9046,19 +9046,19 @@ msgstr "ID"
 msgid "ID:"
 msgstr "ID:"
 
-#: db/seeds/settings.rb:1916
+#: db/seeds/settings.rb:1917
 msgid "IDP SSO target URL"
 msgstr "URL-ul țintă pentru SSO IDP"
 
-#: db/seeds/settings.rb:1924
+#: db/seeds/settings.rb:1925
 msgid "IDP Single Logout target URL"
 msgstr "URL-ul țintă pentru deconectarea unică IDP"
 
-#: db/seeds/settings.rb:1932
+#: db/seeds/settings.rb:1933
 msgid "IDP certificate"
 msgstr "Certificat IDP"
 
-#: db/seeds/settings.rb:1940
+#: db/seeds/settings.rb:1941
 msgid "IDP certificate fingerprint"
 msgstr "Amprentă certificat IDP"
 
@@ -9070,7 +9070,7 @@ msgstr "IMAP"
 msgid "Icinga"
 msgstr "Icinga"
 
-#: db/seeds/settings.rb:4453
+#: db/seeds/settings.rb:4454
 msgid "Icinga integration"
 msgstr "Integrare Icinga"
 
@@ -9090,7 +9090,7 @@ msgstr "Set iconițe"
 msgid "Icon URL"
 msgstr "URL iconiță"
 
-#: db/seeds/settings.rb:2074
+#: db/seeds/settings.rb:2075
 #, fuzzy
 #| msgid "Get notified"
 msgid "Identifier"
@@ -9100,7 +9100,7 @@ msgstr "Primește notificări"
 msgid "Identifier of the chat topic."
 msgstr "Identificatorul subiectului de chat."
 
-#: db/seeds/settings.rb:3613
+#: db/seeds/settings.rb:3614
 msgid "Idle timeout in seconds until agent is set offline automatically."
 msgstr ""
 "Timeout pentru inactivitate în secunde până când agentul este setat automat "
@@ -9140,7 +9140,7 @@ msgid ""
 msgstr ""
 "Dacă host-ul și serviciul și-au revenit, tichetul va fi închis automat."
 
-#: db/seeds/settings.rb:3403
+#: db/seeds/settings.rb:3404
 msgid ""
 "If the sender is an agent, set the first user in the recipient list as the "
 "customer."
@@ -9148,7 +9148,7 @@ msgstr ""
 "Dacă expeditorul este un agent, setați primul utilizator din lista "
 "destinatarului ca client."
 
-#: db/seeds/settings.rb:3479
+#: db/seeds/settings.rb:3480
 msgid "If this regex matches, no notification will be sent by the sender."
 msgstr ""
 "Dacă acest regex se potrivește, expeditorul nu va primi nici o notificare."
@@ -9231,7 +9231,7 @@ msgstr ""
 msgid "Ignore Escalation"
 msgstr "Ignoră escaladarea"
 
-#: db/seeds/settings.rb:3764
+#: db/seeds/settings.rb:3765
 msgid "Ignore Escalation/SLA Information"
 msgstr "Ignoră escaladarea/informațiile SLA"
 
@@ -9239,11 +9239,11 @@ msgstr "Ignoră escaladarea/informațiile SLA"
 msgid "Ignore Message"
 msgstr "Ignoră mesajul"
 
-#: db/seeds/settings.rb:3767
+#: db/seeds/settings.rb:3768
 msgid "Ignore escalation/SLA information for import."
 msgstr "Ignoră escaladarea/informațiile SLA pentru import."
 
-#: db/seeds/settings.rb:2847
+#: db/seeds/settings.rb:2848
 msgid "Ignore system_id"
 msgstr "Ignoră system_id"
 
@@ -9251,7 +9251,7 @@ msgstr "Ignoră system_id"
 msgid "Image"
 msgstr "Imagine"
 
-#: db/seeds/settings.rb:395
+#: db/seeds/settings.rb:396
 msgid "Image Service"
 msgstr "Serviciu imagini"
 
@@ -9297,51 +9297,51 @@ msgstr "Importă %s"
 msgid "Import API key could not be extracted from URL."
 msgstr "Cheia pentru API import nu a putu fi extrasă din URL."
 
-#: db/seeds/settings.rb:3936
+#: db/seeds/settings.rb:3937
 msgid "Import API key for requesting the Freshdesk API"
 msgstr "Importați cheia API pentru a solicita API-ul Freshdesk"
 
-#: db/seeds/settings.rb:3880
+#: db/seeds/settings.rb:3881
 msgid "Import API key for requesting the Zendesk API"
 msgstr "Importați cheia API pentru a solicita API-ul Zendesk"
 
-#: db/seeds/settings.rb:3755
+#: db/seeds/settings.rb:3756
 msgid "Import Backend"
 msgstr "Backend import"
 
-#: db/seeds/settings.rb:4010
+#: db/seeds/settings.rb:4011
 msgid "Import Backends"
 msgstr "Backend-uri import"
 
-#: db/seeds/settings.rb:3787
+#: db/seeds/settings.rb:3788
 msgid "Import Endpoint"
 msgstr "Endpoint import"
 
-#: db/seeds/settings.rb:3805
+#: db/seeds/settings.rb:3806
 msgid "Import Key"
 msgstr "Importa cheia"
 
-#: db/seeds/settings.rb:3733
+#: db/seeds/settings.rb:3734
 msgid "Import Mode"
 msgstr "Mod import"
 
-#: db/seeds/settings.rb:3843
+#: db/seeds/settings.rb:3844
 msgid "Import Password for HTTP basic authentication"
 msgstr "Importați parola pentru autentificarea HTTP de bază"
 
-#: db/seeds/settings.rb:3991
+#: db/seeds/settings.rb:3992
 msgid "Import Password for requesting the Kayako API"
 msgstr "Importați parola pentru a solicita API-ul Kayako"
 
-#: db/seeds/settings.rb:3824
+#: db/seeds/settings.rb:3825
 msgid "Import User for HTTP basic authentication"
 msgstr "Importați utilizatorul pentru autentificarea HTTP de bază"
 
-#: db/seeds/settings.rb:3973
+#: db/seeds/settings.rb:3974
 msgid "Import User for requesting the Kayako API"
 msgstr "Importați utilizatorul pentru a solicita API-ul Kayako"
 
-#: db/seeds/settings.rb:3899
+#: db/seeds/settings.rb:3900
 msgid "Import User for requesting the Zendesk API"
 msgstr "Importați utilizatorul pentru a solicita API-ul Zendesk"
 
@@ -9473,7 +9473,7 @@ msgstr "Creează client nou"
 msgid "Incomplete credentials"
 msgstr "Date de autentificare incomplete"
 
-#: db/seeds/settings.rb:2466
+#: db/seeds/settings.rb:2467
 msgid "Increment (SystemID.Counter)"
 msgstr "Incrementează (SystemID.Counter)"
 
@@ -9905,7 +9905,7 @@ msgstr "URL %s"
 msgid "Issue status"
 msgstr "Stare mesaj"
 
-#: db/seeds/settings.rb:2082
+#: db/seeds/settings.rb:2083
 #, fuzzy
 #| msgid "no issues"
 msgid "Issuer"
@@ -10042,7 +10042,7 @@ msgstr "Cuvinte cheie"
 #: app/assets/javascripts/app/controllers/_manage/knowledge_base.coffee:2
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:3
 #: app/assets/javascripts/app/models/knowledge_base.coffee:75
-#: app/models/knowledge_base.rb:199 db/seeds/permissions.rb:113
+#: app/models/knowledge_base.rb:218 db/seeds/permissions.rb:113
 msgid "Knowledge Base"
 msgstr "Bază de cunoștințe"
 
@@ -10062,22 +10062,22 @@ msgstr "Flux bază de cunoștințe"
 msgid "Knowledge Base Reader"
 msgstr "Cititor bază de cunoștințe"
 
-#: db/seeds/settings.rb:5558
+#: db/seeds/settings.rb:5559
 msgid "Knowledge Base active"
 msgstr "Bază de cunoștințe activă"
 
-#: db/seeds/settings.rb:5573
+#: db/seeds/settings.rb:5574
 msgid "Knowledge Base active publicly"
 msgstr "Bază de cunoștințe activă public"
 
-#: db/seeds/settings.rb:5547
+#: db/seeds/settings.rb:5548
 msgid "Knowledge Base multilingual support"
 msgstr "Suport multilingvistic bază de cunoștințe"
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:3
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:24
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:8
-#: db/seeds/settings.rb:1245
+#: db/seeds/settings.rb:1246
 msgid "LDAP"
 msgstr "LDAP"
 
@@ -10085,7 +10085,7 @@ msgstr "LDAP"
 msgid "LDAP Host"
 msgstr "Host LDAP"
 
-#: db/seeds/settings.rb:4860
+#: db/seeds/settings.rb:4861
 msgid "LDAP integration"
 msgstr "Integrare LDAP"
 
@@ -10117,7 +10117,7 @@ msgstr "Aspectul paginii de destinație"
 msgid "Language"
 msgstr "Limbă"
 
-#: db/seeds/settings.rb:183
+#: db/seeds/settings.rb:184
 #, fuzzy
 #| msgid "Geo Location Service"
 msgid "Language Detection Service"
@@ -10263,15 +10263,15 @@ msgstr "Limitare grupuri"
 msgid "Limit notifications to specific groups"
 msgstr ""
 
-#: db/seeds/settings.rb:3135
+#: db/seeds/settings.rb:3136
 msgid "Limit tickets by IP per day"
 msgstr "Limitare a tichetelor per IP pe zi"
 
-#: db/seeds/settings.rb:3114
+#: db/seeds/settings.rb:3115
 msgid "Limit tickets by IP per hour"
 msgstr "Limitare a tichetelor per IP pe oră"
 
-#: db/seeds/settings.rb:3156
+#: db/seeds/settings.rb:3157
 msgid "Limit tickets per day"
 msgstr "Limita tichetelor pe zi"
 
@@ -10415,15 +10415,15 @@ msgstr "Conturi asociate"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:76
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:33
-#: db/seeds/settings.rb:1562
+#: db/seeds/settings.rb:1563
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: db/seeds/settings.rb:1570
+#: db/seeds/settings.rb:1571
 msgid "LinkedIn App Credentials"
 msgstr "Date de autentificare pentru aplicația LinkedIn"
 
-#: db/seeds/settings.rb:1563
+#: db/seeds/settings.rb:1564
 msgid "LinkedIn Developer Site"
 msgstr "Site dezvoltator LinkedIn"
 
@@ -10487,7 +10487,7 @@ msgstr "Încărcare eșuată."
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:647
 #: app/assets/javascripts/app/views/generic/page_loading.jst.eco:3
 #: app/frontend/apps/desktop/components/CommonLoader/CommonLoader.vue:63
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:512
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:513
 #: app/frontend/shared/form/i18n/locales.ts:58
 #: app/views/init/spinner-loading.html.erb:254
 msgid "Loading…"
@@ -10498,7 +10498,7 @@ msgid "Local MTA (Sendmail/Postfix/Exim/…) - use server setup"
 msgstr "Local MTA (Sendmail/Postfix/Exim/…) - folosind setările server-ului"
 
 #: app/assets/javascripts/app/models/job.coffee:13
-#: app/assets/javascripts/app/models/trigger.coffee:12 db/seeds/settings.rb:163
+#: app/assets/javascripts/app/models/trigger.coffee:12 db/seeds/settings.rb:164
 msgid "Locale"
 msgstr "Localizare"
 
@@ -10558,7 +10558,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/getting_started/base.jst.eco:14
 #: app/frontend/apps/mobile/pages/authentication/components/LoginFooter.vue:22
-#: db/seeds/settings.rb:117
+#: db/seeds/settings.rb:118
 msgid "Logo"
 msgstr "Siglă"
 
@@ -10566,7 +10566,7 @@ msgstr "Siglă"
 msgid "Logout"
 msgstr "Deconectare"
 
-#: db/seeds/settings.rb:1103
+#: db/seeds/settings.rb:1104
 msgid "Lost Password"
 msgstr "Parolă uitată"
 
@@ -11073,7 +11073,7 @@ msgid "Match none (NOT)"
 msgstr "Potrivește niciuna (NEGARE)"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:38
-#: db/seeds/settings.rb:2823
+#: db/seeds/settings.rb:2824
 msgid "Match tickets in following states"
 msgstr "Potrivește tichetele cu următorul status"
 
@@ -11106,7 +11106,7 @@ msgstr "Nr. maxim de chat-uri concurente"
 msgid "Max. length"
 msgstr "Lungime maximă"
 
-#: db/seeds/settings.rb:3181
+#: db/seeds/settings.rb:3182
 msgid "Max. length of the subject in an email reply."
 msgstr "Lungimea maximă a subiectului în email-ul de răspuns."
 
@@ -11130,27 +11130,27 @@ msgstr ""
 msgid "Maximal value must be lower than 2147483648"
 msgstr ""
 
-#: db/seeds/settings.rb:3293
+#: db/seeds/settings.rb:3294
 msgid "Maximum Email Size"
 msgstr "Mărimea maximă a unui e-mail"
 
-#: db/seeds/settings.rb:2931
+#: db/seeds/settings.rb:2932
 msgid "Maximum Recursive Ticket Triggers Depth"
 msgstr "Adâncimea maximă a declanșatoarelor recursive de tichet"
 
-#: db/seeds/settings.rb:2253
+#: db/seeds/settings.rb:2254
 msgid "Maximum failed logins"
 msgstr "Numărul maxim de autentificări eșuate"
 
-#: db/seeds/settings.rb:1037
+#: db/seeds/settings.rb:1038
 msgid "Maximum number of open tabs."
 msgstr "Numărul maxim de tab-uri deschise."
 
-#: db/seeds/settings.rb:2934
+#: db/seeds/settings.rb:2935
 msgid "Maximum number of recursively executed triggers."
 msgstr "Numărul maxim de declanșatoare executate recursiv."
 
-#: db/seeds/settings.rb:1024
+#: db/seeds/settings.rb:1025
 msgid "Maximum number of ticket shown in overviews"
 msgstr "Numărul maxim de tichete afișate în prezentările generale"
 
@@ -11297,7 +11297,7 @@ msgstr "Metodă (endpoint AJAX)"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:91
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:54
-#: db/seeds/settings.rb:1761
+#: db/seeds/settings.rb:1762
 msgid "Microsoft"
 msgstr "Microsoft"
 
@@ -11305,7 +11305,7 @@ msgstr "Microsoft"
 msgid "Microsoft 365"
 msgstr "Microsoft 365"
 
-#: db/seeds/settings.rb:1769
+#: db/seeds/settings.rb:1770
 msgid "Microsoft 365 App Credentials"
 msgstr "Date de autentificare pentru aplicația Microsoft 365"
 
@@ -11325,7 +11325,7 @@ msgstr "Microsoft 365"
 msgid "Microsoft 365 IMAP Email"
 msgstr "Microsoft 365"
 
-#: db/seeds/settings.rb:1762
+#: db/seeds/settings.rb:1763
 msgid "Microsoft Application Registration Portal"
 msgstr "Portal înregistrare aplicație Microsoft"
 
@@ -11369,7 +11369,7 @@ msgstr "Migratorul nu poate citi ieșirea OTRS!"
 msgid "Milestone"
 msgstr "Reper"
 
-#: db/seeds/settings.rb:2498
+#: db/seeds/settings.rb:2499
 msgid "Min. size of number"
 msgstr "Mărimea minimă a numărului"
 
@@ -11389,7 +11389,7 @@ msgstr ""
 msgid "Minimal value must be lower than 2147483648"
 msgstr ""
 
-#: db/seeds/settings.rb:2135
+#: db/seeds/settings.rb:2136
 msgid "Minimum length"
 msgstr "Lungimea minimă"
 
@@ -11438,7 +11438,7 @@ msgstr "Luni"
 msgid "Monit"
 msgstr "Monit"
 
-#: db/seeds/settings.rb:4759
+#: db/seeds/settings.rb:4760
 msgid "Monit integration"
 msgstr "Integrare Monit"
 
@@ -11448,7 +11448,7 @@ msgstr "Integrare Monit"
 msgid "Monitoring"
 msgstr "Monitorizare"
 
-#: db/seeds/settings.rb:3561
+#: db/seeds/settings.rb:3562
 msgid "Monitoring Token"
 msgstr "Token monitorizare"
 
@@ -11567,7 +11567,7 @@ msgstr "Tichetele mele în procesare"
 msgid "Nagios"
 msgstr "Nagios"
 
-#: db/seeds/settings.rb:4551
+#: db/seeds/settings.rb:4552
 msgid "Nagios integration"
 msgstr "Integrare Nagios"
 
@@ -11640,7 +11640,7 @@ msgstr "Integrare Nagios"
 msgid "Name"
 msgstr "Nume"
 
-#: db/seeds/settings.rb:1948
+#: db/seeds/settings.rb:1949
 msgid "Name Identifier Format"
 msgstr "Identificator format nume"
 
@@ -11697,7 +11697,7 @@ msgstr "Este necesar session_id."
 msgid "Need user_id or organization_id as param"
 msgstr "Este necesar ca parametru user_id sau organization_id"
 
-#: db/seeds/settings.rb:2208
+#: db/seeds/settings.rb:2209
 msgid "Needed"
 msgstr "Necesar"
 
@@ -11833,7 +11833,7 @@ msgid "New Source"
 msgstr "Sursă nouă"
 
 #: app/assets/javascripts/app/views/tag/index.jst.eco:14
-#: db/seeds/settings.rb:4175
+#: db/seeds/settings.rb:4176
 msgid "New Tags"
 msgstr "Etichete noi"
 
@@ -11879,7 +11879,7 @@ msgstr "Declanșator(trigger) nou"
 msgid "New User"
 msgstr "Utilizator nou"
 
-#: db/seeds/settings.rb:1077
+#: db/seeds/settings.rb:1078
 msgid "New User Accounts"
 msgstr "Conturi de utilizator noi"
 
@@ -12002,7 +12002,7 @@ msgstr "Statusul următor"
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:43
 #: app/assets/javascripts/app/views/ticket_zoom/overview_navigator.jst.eco:12
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:21
-#: db/seeds/settings.rb:3042
+#: db/seeds/settings.rb:3043
 msgid "Next in overview"
 msgstr "Următorul în vizualizarea generală"
 
@@ -12087,7 +12087,7 @@ msgstr "Nu este configurată nici o aplicație Microsoft 365!"
 msgid "No Overviews"
 msgstr "Prezentări generale"
 
-#: db/seeds/settings.rb:576
+#: db/seeds/settings.rb:577
 msgid "No Proxy"
 msgstr "Fără proxy"
 
@@ -12232,7 +12232,7 @@ msgstr "Organizații"
 msgid "No private key found."
 msgstr "Nu a fost găsită nici o cheie privată."
 
-#: db/seeds/settings.rb:579
+#: db/seeds/settings.rb:580
 msgid "No proxy for the following hosts."
 msgstr "Nu folosi proxy pentru următoarele host-uri."
 
@@ -12259,8 +12259,8 @@ msgid "No results for this query."
 msgstr "Nu au fost găsite rezultate"
 
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:698
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:338
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:522
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:339
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:523
 #: app/frontend/apps/desktop/components/NavigationMenu/NavigationMenu.vue:90
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarIdoit/IdoitFlyout/IdoitObjectList.vue:37
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:402
@@ -12339,7 +12339,7 @@ msgstr "Nu ai notificări necitite. :)"
 msgid "No unread notifications."
 msgstr "Notificări necitite"
 
-#: db/seeds/settings.rb:1323
+#: db/seeds/settings.rb:1324
 msgid "No user creation on logon"
 msgstr ""
 
@@ -12369,7 +12369,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/knowledge_base/permissions_dialog.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_unit.coffee:55
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:65
-#: app/graphql/gql/types/ticket_type.rb:108 db/seeds/settings.rb:1980
+#: app/graphql/gql/types/ticket_type.rb:108 db/seeds/settings.rb:1981
 msgid "None"
 msgstr "Niciunul"
 
@@ -12473,7 +12473,7 @@ msgstr ""
 msgid "Note"
 msgstr "Notiță"
 
-#: db/seeds/settings.rb:653
+#: db/seeds/settings.rb:654
 msgid "Note - default visibility"
 msgstr "Notiță - vizibilitatea implicită"
 
@@ -12520,7 +12520,7 @@ msgid "Notification"
 msgstr "Notificare"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualEmailNotification.vue:42
-#: db/seeds/settings.rb:3453
+#: db/seeds/settings.rb:3454
 msgid "Notification Sender"
 msgstr "Expeditor notificare"
 
@@ -12745,7 +12745,7 @@ msgstr "Online"
 msgid "Online Forms"
 msgstr "Formulare online"
 
-#: db/seeds/settings.rb:83
+#: db/seeds/settings.rb:84
 msgid "Online Service"
 msgstr "Serviciu online"
 
@@ -12765,11 +12765,11 @@ msgstr ""
 "Doar %s% din această limbă este deja tradusă. Vă rugăm să ajutați la "
 "îmbunătățirea Zammad și să finalizați traducerea."
 
-#: db/seeds/settings.rb:1983
+#: db/seeds/settings.rb:1984
 msgid "Only Encrypting"
 msgstr "Doar criptare"
 
-#: db/seeds/settings.rb:1982
+#: db/seeds/settings.rb:1983
 msgid "Only Signing"
 msgstr "Doar semnare"
 
@@ -12868,7 +12868,7 @@ msgstr ""
 msgid "Open in new tab"
 msgstr "Deschide în tab nou"
 
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:77
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:78
 #, fuzzy
 #| msgid "Open Tickets"
 msgid "Open link"
@@ -12924,7 +12924,7 @@ msgstr "Tichete Deschise"
 msgid "Open the years overlay"
 msgstr "Deschideți nota"
 
-#: db/seeds/settings.rb:942
+#: db/seeds/settings.rb:943
 msgid "Open ticket indicator"
 msgstr "Indicator tichet deschis"
 
@@ -12940,13 +12940,13 @@ msgstr "Deschide aplicația ta Authenticator și scanează codul QR de mai jos:"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:116
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:94
-#: db/seeds/settings.rb:2052
+#: db/seeds/settings.rb:2053
 #, fuzzy
 #| msgid "Connect"
 msgid "OpenID Connect"
 msgstr "Conectează-te"
 
-#: db/seeds/settings.rb:2060
+#: db/seeds/settings.rb:2061
 #, fuzzy
 #| msgid "Test Connection"
 msgid "OpenID Connect Options"
@@ -13042,7 +13042,7 @@ msgstr "Overviews"
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/organization.ts:6
 #: app/graphql/gql/types/overview_type.rb:94
-#: db/seeds/object_manager_attributes.rb:94 db/seeds/settings.rb:140
+#: db/seeds/object_manager_attributes.rb:94 db/seeds/settings.rb:141
 #: lib/excel_sheet/ticket.rb:30
 msgid "Organization"
 msgstr "Organizație"
@@ -13291,19 +13291,19 @@ msgstr ""
 msgid "PGP"
 msgstr "PGP"
 
-#: db/seeds/settings.rb:5733
+#: db/seeds/settings.rb:5734
 msgid "PGP Recipient Alias Configuration"
 msgstr "Configurație alias destinatar PGP"
 
-#: db/seeds/settings.rb:5719
+#: db/seeds/settings.rb:5720
 msgid "PGP config"
 msgstr "Configurare PGP"
 
-#: db/seeds/settings.rb:5691
+#: db/seeds/settings.rb:5692
 msgid "PGP integration"
 msgstr "Integrare PGP"
 
-#: db/seeds/settings.rb:2106
+#: db/seeds/settings.rb:2107
 msgid "PKCE"
 msgstr ""
 
@@ -13389,7 +13389,7 @@ msgstr "Parolă & Autentificare"
 msgid "Password Access"
 msgstr "Acces cu parolă"
 
-#: db/seeds/settings.rb:1050
+#: db/seeds/settings.rb:1051
 msgid "Password Login"
 msgstr "Autentificare parolă"
 
@@ -13423,23 +13423,23 @@ msgstr "%s Obiecte sunt create."
 msgid "Password for proxy connection"
 msgstr "Parola pentru conexiunea proxy"
 
-#: db/seeds/settings.rb:555
+#: db/seeds/settings.rb:556
 msgid "Password for proxy connection."
 msgstr "Parola pentru conexiunea proxy."
 
-#: db/seeds/settings.rb:2178
+#: db/seeds/settings.rb:2179
 msgid "Password needs to contain 2 lower case and 2 upper case characters."
 msgstr "Este necesar ca parola să conțină 2 litere mici și 2 litere mari."
 
-#: db/seeds/settings.rb:2204
+#: db/seeds/settings.rb:2205
 msgid "Password needs to contain at least one digit."
 msgstr "Este necesar ca parola să conțină cel puțin o cifră."
 
-#: db/seeds/settings.rb:2230
+#: db/seeds/settings.rb:2231
 msgid "Password needs to contain at least one special character."
 msgstr "Este necesar ca parola să conțină cel un caracter special."
 
-#: db/seeds/settings.rb:2138
+#: db/seeds/settings.rb:2139
 msgid "Password needs to have at least a minimal number of characters."
 msgstr "Este necesar ca parola să aibă cel puțin numărul minim de caractere."
 
@@ -13513,7 +13513,7 @@ msgid "Permanently Delete Knowledge Base"
 msgstr "Șterge permanent baza de cunoștințe"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:37
-#: db/seeds/settings.rb:2806
+#: db/seeds/settings.rb:2807
 msgid "Permission level for looking up tickets"
 msgstr "Nivel permisiune pentru identificarea tichetelor"
 
@@ -13592,15 +13592,15 @@ msgstr "Roz"
 msgid "Placetel"
 msgstr "Placetel"
 
-#: db/seeds/settings.rb:5341
+#: db/seeds/settings.rb:5342
 msgid "Placetel Token"
 msgstr "Token Placetel"
 
-#: db/seeds/settings.rb:5327
+#: db/seeds/settings.rb:5328
 msgid "Placetel config"
 msgstr "Configurare Placetel"
 
-#: db/seeds/settings.rb:5299
+#: db/seeds/settings.rb:5300
 msgid "Placetel integration"
 msgstr "Integrare Placetel"
 
@@ -13705,7 +13705,7 @@ msgid "Please install the OTRS migrator plugin and provide a valid URL."
 msgstr ""
 "Vă rugăm să instalați plugin-ul de migrare OTRS și să furnizați un URL valid."
 
-#: db/seeds/settings.rb:1945
+#: db/seeds/settings.rb:1946
 msgid ""
 "Please note that this attribute is deprecated within one of the next "
 "versions of Zammad. Use the IDP certificate instead."
@@ -13851,7 +13851,7 @@ msgstr ""
 msgid "Press the button below to finish the setup."
 msgstr "Apasă butonul de mai jos pentru a finaliza instalarea."
 
-#: db/seeds/settings.rb:227
+#: db/seeds/settings.rb:228
 msgid "Pretty Date"
 msgstr "Dată ușor lizibilă"
 
@@ -13976,11 +13976,11 @@ msgstr "Prioritate"
 msgid "Priority Icon"
 msgstr "Prioritate"
 
-#: db/seeds/settings.rb:1994
+#: db/seeds/settings.rb:1995
 msgid "Private key (PEM)"
 msgstr "Cheie privată (PEM)"
 
-#: db/seeds/settings.rb:2001
+#: db/seeds/settings.rb:2002
 msgid "Private key secret"
 msgstr "Secret cheie privată"
 
@@ -14004,7 +14004,7 @@ msgstr "Procesează tichetele în așteptare."
 msgid "Process ticket escalations."
 msgstr "Procesează escaladările tichetelor."
 
-#: db/seeds/settings.rb:93
+#: db/seeds/settings.rb:94
 msgid "Product Name"
 msgstr "Denumire produs"
 
@@ -14035,7 +14035,7 @@ msgstr "Setările proxy"
 msgid "Profiles"
 msgstr "Profile"
 
-#: db/seeds/settings.rb:2116
+#: db/seeds/settings.rb:2117
 msgid ""
 "Proof Key for Code Exchange is currently only supporting SHA256 as code "
 "challenge method."
@@ -14054,15 +14054,15 @@ msgstr "Furnizați poziția tuturor elementelor din cadrul respectiv"
 msgid "Provider"
 msgstr "Furnizor"
 
-#: db/seeds/settings.rb:552
+#: db/seeds/settings.rb:553
 msgid "Proxy Password"
 msgstr "Parolă proxy"
 
-#: db/seeds/settings.rb:503
+#: db/seeds/settings.rb:504
 msgid "Proxy Settings"
 msgstr "Setări proxy"
 
-#: db/seeds/settings.rb:528
+#: db/seeds/settings.rb:529
 msgid "Proxy User"
 msgstr "Utilizator proxy"
 
@@ -14122,7 +14122,7 @@ msgstr ""
 "Afișați un mesaj pe pagina de autentificare. Pentru al schimba, dați clic pe "
 "zona text de mai jos și schimbați-o."
 
-#: db/seeds/settings.rb:3736
+#: db/seeds/settings.rb:3737
 msgid "Puts Zammad into import mode (disables some triggers)."
 msgstr "Pune Zammad în modul de import (dezactivează unele declanșatoare)."
 
@@ -14273,7 +14273,7 @@ msgstr ""
 "Codurile de recuperare pot fi utilizate pentru a accesa contul dvs. în cazul "
 "în care pierdeți accesul la alte metode de autentificare cu doi factori."
 
-#: db/seeds/settings.rb:2867
+#: db/seeds/settings.rb:2868
 msgid "Recursive Ticket Triggers"
 msgstr "Declanșatoare recursive pentru tichete"
 
@@ -14283,7 +14283,7 @@ msgstr "Declanșatoare recursive pentru tichete"
 msgid "Redis version"
 msgstr "Versiune nouă"
 
-#: db/seeds/settings.rb:3355
+#: db/seeds/settings.rb:3356
 msgid ""
 "References - Search for follow-up also in In-Reply-To or References headers."
 msgstr ""
@@ -14321,7 +14321,7 @@ msgstr "Răspunsuri similare"
 msgid "Relax, your system is being set up…"
 msgstr "Relaxați-vă, sistemul dvs. este configurat…"
 
-#: app/assets/javascripts/app/views/maintenance.jst.eco:52
+#: app/assets/javascripts/app/views/maintenance.jst.eco:53
 msgid "Reload application"
 msgstr "Reîncarcă aplicația"
 
@@ -14608,7 +14608,7 @@ msgstr "Parametrul necesar 'profile' lipsește."
 msgid "Requirements"
 msgstr "Cerințe"
 
-#: db/seeds/settings.rb:5896
+#: db/seeds/settings.rb:5897
 msgid ""
 "Requires the setup of the two-factor authentication for certain user roles."
 msgstr ""
@@ -14934,7 +14934,7 @@ msgstr ""
 "acceptată (sau, mai precis, un protocol) pentru trimiterea de mesaje semnate "
 "digital și criptate."
 
-#: db/seeds/settings.rb:5677
+#: db/seeds/settings.rb:5678
 msgid "S/MIME config"
 msgstr "Configurare S/MIME"
 
@@ -14942,17 +14942,17 @@ msgstr "Configurare S/MIME"
 msgid "S/MIME enables you to send digitally signed and encrypted messages."
 msgstr "S/MIME îți permite să trimiți mesaje semnate digital și criptate."
 
-#: db/seeds/settings.rb:5649
+#: db/seeds/settings.rb:5650
 msgid "S/MIME integration"
 msgstr "Integrare S/MIME"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:106
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:77
-#: db/seeds/settings.rb:1894
+#: db/seeds/settings.rb:1895
 msgid "SAML"
 msgstr "SAML"
 
-#: db/seeds/settings.rb:1902
+#: db/seeds/settings.rb:1903
 msgid "SAML App Credentials"
 msgstr "Date de autentificare pentru aplicația SAML"
 
@@ -15041,7 +15041,7 @@ msgstr "SSL/STARTTLS"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:111
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:84
-#: db/seeds/settings.rb:5765
+#: db/seeds/settings.rb:5766
 msgid "SSO"
 msgstr "SSO"
 
@@ -15130,7 +15130,7 @@ msgstr "Salvare ca"
 msgid "Save as draft"
 msgstr "Salvează ciornele"
 
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:350
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:351
 #, fuzzy
 #| msgid "Discard Changes"
 msgid "Save changes"
@@ -15172,11 +15172,11 @@ msgstr "Planificator"
 msgid "Schedulers"
 msgstr "Programatoare (Schedulers)"
 
-#: db/seeds/settings.rb:2098
+#: db/seeds/settings.rb:2099
 msgid "Scopes"
 msgstr ""
 
-#: db/seeds/settings.rb:2103
+#: db/seeds/settings.rb:2104
 msgid ""
 "Scopes that are included, separated by a single space character. If unset, "
 "\"openid email profile\" is used."
@@ -15403,7 +15403,7 @@ msgstr "Cheie de securitate"
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/security_keys.coffee:4
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:5
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:10
-#: db/seeds/settings.rb:5802
+#: db/seeds/settings.rb:5803
 msgid "Security Keys"
 msgstr "Chei de securitate"
 
@@ -15504,7 +15504,7 @@ msgstr "Selectează schița"
 msgid "Select all entries"
 msgstr "selectează toate opțiunile"
 
-#: db/seeds/settings.rb:889
+#: db/seeds/settings.rb:890
 msgid "Select default ticket type"
 msgstr "Selectează tipul de tichet implicit"
 
@@ -15567,8 +15567,8 @@ msgstr "Selector"
 msgid "Selects the ticket number generator module."
 msgstr "Selectează modulul de generare a numărului de tichete."
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:474
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:486
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:475
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:487
 #: app/frontend/apps/mobile/components/CommonSelect/CommonSelect.vue:201
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:302
 #: app/frontend/apps/mobile/components/Form/fields/FieldTags/FieldTagsDialog.vue:173
@@ -15621,17 +15621,17 @@ msgstr ""
 "Trimite mementouri automate către clienți, solicitându-le să răspundă dacă "
 "fereastra de 24 de ore este pe cale să expire."
 
-#: db/seeds/settings.rb:3426
+#: db/seeds/settings.rb:3427
 msgid "Send postmaster mail if mail too large"
 msgstr "Trimite un mesaj către postmaster dacă emailul este prea mare"
 
-#: db/seeds/settings.rb:3429
+#: db/seeds/settings.rb:3430
 msgid "Send postmaster reject mail to sender of mail if mail is too large."
 msgstr ""
 "Trimite un mesaj de respingere către expeditorul emailului dacă emailul este "
 "prea mare."
 
-#: app/assets/javascripts/app/views/maintenance.jst.eco:55
+#: app/assets/javascripts/app/views/maintenance.jst.eco:56
 msgid "Send to clients"
 msgstr "Trimite clienților"
 
@@ -15639,16 +15639,16 @@ msgstr "Trimite clienților"
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:51
 #: app/models/channel/driver/sms/massenversand.rb:45
 #: app/models/channel/driver/sms/message_bird.rb:92
-#: app/models/channel/driver/sms/twilio.rb:106 db/seeds/settings.rb:3243
+#: app/models/channel/driver/sms/twilio.rb:106 db/seeds/settings.rb:3244
 #: lib/excel_sheet/ticket.rb:32
 msgid "Sender"
 msgstr "Expeditor"
 
-#: db/seeds/settings.rb:3243
+#: db/seeds/settings.rb:3244
 msgid "Sender Format"
 msgstr "Formatul expeditorului"
 
-#: db/seeds/settings.rb:3271
+#: db/seeds/settings.rb:3272
 msgid "Sender Format Separator"
 msgstr "Separatorul formatului expeditorului"
 
@@ -15657,7 +15657,7 @@ msgstr "Separatorul formatului expeditorului"
 msgid "Sender Type"
 msgstr "Tip expeditor"
 
-#: db/seeds/settings.rb:3372
+#: db/seeds/settings.rb:3373
 msgid "Sender based on Reply-To header"
 msgstr "Expeditor bazat pe antetul Reply-To"
 
@@ -15679,7 +15679,7 @@ msgstr ""
 msgid "Sending…"
 msgstr "Se trimite…"
 
-#: app/assets/javascripts/app/controllers/maintenance.coffee:87
+#: app/assets/javascripts/app/controllers/maintenance.coffee:99
 msgid "Sent successfully!"
 msgstr "Trimis cu succes!"
 
@@ -15697,7 +15697,7 @@ msgstr "Separă valorile multiple folosind ;"
 msgid "September"
 msgstr "Septembrie"
 
-#: db/seeds/settings.rb:4023
+#: db/seeds/settings.rb:4024
 msgid "Sequencer log level"
 msgstr "Nivelul de jurnalizare al secvențatorului"
 
@@ -15727,7 +15727,7 @@ msgstr "Servicii"
 msgid "Session"
 msgstr "Sesiune"
 
-#: db/seeds/settings.rb:1131
+#: db/seeds/settings.rb:1132
 msgid "Session Timeout"
 msgstr "Expirarea sesiunii"
 
@@ -15762,7 +15762,7 @@ msgstr "Autentificare"
 msgid "Set a title for your ticket"
 msgstr "Setează un titlu pentru tichetul tău"
 
-#: db/seeds/settings.rb:5429
+#: db/seeds/settings.rb:5430
 msgid "Set agent limit"
 msgstr "Setează limita pentru agenți"
 
@@ -15786,11 +15786,11 @@ msgstr "Setează ca implicit"
 msgid "Set authenticator app as default"
 msgstr "Autentificare"
 
-#: db/seeds/settings.rb:917
+#: db/seeds/settings.rb:918
 msgid "Set available ticket types"
 msgstr "Setează tipurile de tichete disponibile"
 
-#: db/seeds/settings.rb:3758
+#: db/seeds/settings.rb:3759
 msgid "Set backend which is being used for import."
 msgstr "Setează backend-ul care este utilizat pentru import."
 
@@ -15823,7 +15823,7 @@ msgstr "Setează ID-ul apelantului pentru apelurile efectuate"
 msgid "Set security keys as default"
 msgstr "Setează ca implicit"
 
-#: db/seeds/settings.rb:5591
+#: db/seeds/settings.rb:5592
 msgid ""
 "Set timeframe in seconds. If it's set to 0 you can delete notes without time "
 "limits"
@@ -15871,7 +15871,7 @@ msgstr ""
 msgid "Set up two-factor authentication"
 msgstr "Configurează autentificarea în doi pași"
 
-#: db/seeds/settings.rb:3375
+#: db/seeds/settings.rb:3376
 msgid ""
 "Set/overwrite sender/from of email based on \"Reply-To\" header. Useful to "
 "set correct customer if email is received from a third-party system on "
@@ -16006,7 +16006,7 @@ msgstr "Afișează pictograma feed-ului"
 msgid "Show Search Details"
 msgstr "Afișează detaliile căutării"
 
-#: db/seeds/settings.rb:874
+#: db/seeds/settings.rb:875
 msgid ""
 "Show additional notes for ticket creation depending on the selected type."
 msgstr ""
@@ -16022,7 +16022,7 @@ msgstr "Afișează toate…"
 msgid "Show authenticator app secret"
 msgstr "Afișează secretul aplicației de autentificare"
 
-#: db/seeds/settings.rb:5774
+#: db/seeds/settings.rb:5775
 msgid "Show calendar weeks in the picker of date/datetime fields"
 msgstr ""
 "Afișează săptămânile din calendar în selectorul câmpurilor de dată/dată și "
@@ -16040,7 +16040,7 @@ msgstr "Afișează mai puțin"
 msgid "Show matching ticket(s) in the warning"
 msgstr "Afișează tichet(e) care se potrivesc în avertisment"
 
-#: db/seeds/settings.rb:2789
+#: db/seeds/settings.rb:2790
 msgid "Show matching tickets in the warning"
 msgstr "Afișează tichetele care se potrivesc în avertisment"
 
@@ -16058,7 +16058,7 @@ msgstr "Afișează tab-ul următor"
 msgid "Show notifications"
 msgstr "Blochează notificările"
 
-#: db/seeds/settings.rb:1053
+#: db/seeds/settings.rb:1054
 msgid ""
 "Show password login for users on login page. Disabling only takes effect if "
 "third-party authentication is enabled."
@@ -16085,7 +16085,7 @@ msgid "Show ticket viewers"
 msgstr "Afișează vizualizatorii tichetului"
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:6
-#: db/seeds/settings.rb:4088
+#: db/seeds/settings.rb:4089
 msgid "Show time accounting dialog when updating matching tickets."
 msgstr ""
 "Afișează dialogul de contabilizare a timpului atunci când actualizezi "
@@ -16095,7 +16095,7 @@ msgstr ""
 msgid "Show title in form."
 msgstr "Afișează titlul în formular."
 
-#: db/seeds/settings.rb:2772
+#: db/seeds/settings.rb:2773
 msgid "Show to user roles"
 msgstr "Afișează rolurile utilizatorilor"
 
@@ -16125,7 +16125,7 @@ msgstr "Afișează când chat-ul este închis."
 msgid "Side panel footer"
 msgstr ""
 
-#: db/seeds/settings.rb:816
+#: db/seeds/settings.rb:817
 msgid "Sidebar Attachments"
 msgstr "Atașamente bară laterală"
 
@@ -16219,7 +16219,7 @@ msgstr "Semnături"
 msgid "Signed"
 msgstr "Semnate"
 
-#: db/seeds/settings.rb:1975
+#: db/seeds/settings.rb:1976
 msgid "Signing & Encrypting"
 msgstr "Semnare & Criptare"
 
@@ -16227,7 +16227,7 @@ msgstr "Semnare & Criptare"
 msgid "Signup Screen"
 msgstr "Ecran înregistrare"
 
-#: db/seeds/settings.rb:2751
+#: db/seeds/settings.rb:2752
 msgid "Similar tickets found"
 msgstr "Tichete asemănătoare găsite"
 
@@ -16235,7 +16235,7 @@ msgstr "Tichete asemănătoare găsite"
 msgid "Simple Line Icons"
 msgstr "Simple Line Icons"
 
-#: db/seeds/settings.rb:378
+#: db/seeds/settings.rb:379
 msgid "Simple Storage (S3)"
 msgstr "Stocare simplă (S3)"
 
@@ -16260,11 +16260,11 @@ msgstr ""
 msgid "Simple Storage Service not reachable."
 msgstr "Serviciul de stocare simplă nu poate fi contactat."
 
-#: db/seeds/settings.rb:1832
+#: db/seeds/settings.rb:1833
 msgid "Sina Weibo"
 msgstr "Sina Weibo"
 
-#: db/seeds/settings.rb:1832
+#: db/seeds/settings.rb:1833
 msgid "Sina Weibo Open Portal"
 msgstr "Sina Weibo Open Portal"
 
@@ -16294,7 +16294,7 @@ msgstr "Câmp arbore de selecție unică"
 msgid "Sipgate"
 msgstr "Sipgate"
 
-#: db/seeds/settings.rb:1717
+#: db/seeds/settings.rb:1718
 msgid "Site"
 msgstr "Site"
 
@@ -16316,11 +16316,11 @@ msgstr "Slack"
 msgid "Slack Notifications"
 msgstr "Notificări Slack"
 
-#: db/seeds/settings.rb:5126
+#: db/seeds/settings.rb:5127
 msgid "Slack config"
 msgstr "Configurare Slack"
 
-#: db/seeds/settings.rb:5100
+#: db/seeds/settings.rb:5101
 msgid "Slack integration"
 msgstr "Integrare Slack"
 
@@ -16407,7 +16407,7 @@ msgstr "Sursă"
 msgid "Sources"
 msgstr "Surse"
 
-#: db/seeds/settings.rb:2227
+#: db/seeds/settings.rb:2228
 msgid "Special character required"
 msgstr "Este necesar un caracter special"
 
@@ -16431,7 +16431,7 @@ msgid "Standard Group/Pool for Tickets."
 msgstr "Grup/Coadă de așteptare standard pentru tichete."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/reader_list_controller.coffee:34
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:79
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:80
 msgid "Start Editing"
 msgstr "Începe editarea"
 
@@ -16501,7 +16501,7 @@ msgstr "Introdu numele de utilizator sau email-ul"
 msgid "Start typing to search or enter an email address…"
 msgstr "Introdu numele de utilizator sau email-ul"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:73
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:74
 #: app/frontend/apps/desktop/components/Form/fields/FieldTags/FieldTagsWrapper.vue:41
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:409
 msgid "Start typing to search…"
@@ -16547,7 +16547,7 @@ msgstr "Stare"
 msgid "State Icon"
 msgstr "Stare"
 
-#: db/seeds/settings.rb:5463
+#: db/seeds/settings.rb:5464
 msgid "Stats Backend"
 msgstr "Backend pentru statistici"
 
@@ -16579,7 +16579,7 @@ msgstr "Status:"
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:49
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:8
-#: db/seeds/settings.rb:3043
+#: db/seeds/settings.rb:3044
 msgid "Stay on tab"
 msgstr "Rămâi pe tab"
 
@@ -16613,7 +16613,7 @@ msgstr "Oprește după potrivire"
 msgid "Storage"
 msgstr "Stocare"
 
-#: db/seeds/settings.rb:364
+#: db/seeds/settings.rb:365
 msgid "Storage Method"
 msgstr "Metodă de stocare"
 
@@ -16621,11 +16621,11 @@ msgstr "Metodă de stocare"
 msgid "Store"
 msgstr "Salvează"
 
-#: db/seeds/settings.rb:5052
+#: db/seeds/settings.rb:5053
 msgid "Stores the GitHub configuration."
 msgstr "Salvează configurația GitHub."
 
-#: db/seeds/settings.rb:5010
+#: db/seeds/settings.rb:5011
 msgid "Stores the GitLab configuration."
 msgstr "Salvează configurația GitLab."
 
@@ -16649,7 +16649,7 @@ msgstr "Strada"
 msgid "Subject"
 msgstr "Subiect"
 
-#: db/seeds/settings.rb:3358
+#: db/seeds/settings.rb:3359
 msgid ""
 "Subject & References - Additional search for same article subject and same "
 "message ID in references header if no follow-up was recognized using default "
@@ -16747,7 +16747,7 @@ msgstr "Du"
 msgid "Sunday"
 msgstr "Duminică"
 
-#: db/seeds/settings.rb:5550
+#: db/seeds/settings.rb:5551
 msgid "Support of multilingual Knowledge Base."
 msgstr "Suport multilingvistic pentru baza de cunoștințe."
 
@@ -16777,7 +16777,7 @@ msgstr "Sincronizează cu calculatorul"
 msgid "System"
 msgstr "Sistem"
 
-#: db/seeds/settings.rb:3255
+#: db/seeds/settings.rb:3256
 msgid "System Address Display Name"
 msgstr "Nume afișare pentru adresa de sistem"
 
@@ -16826,17 +16826,17 @@ msgstr ""
 "platforma noastră publică %l. Aceasta oferă o interfață de utilizator foarte "
 "convenabilă bazată pe Weblate, încearcă-o!"
 
-#: db/seeds/settings.rb:5623
+#: db/seeds/settings.rb:5624
 msgid ""
 "System-wide configuration of the query polling mechanism for ticket "
 "overviews."
 msgstr ""
 
-#: db/seeds/settings.rb:261
+#: db/seeds/settings.rb:262
 msgid "SystemID"
 msgstr "ID Sistem"
 
-#: db/seeds/settings.rb:3028
+#: db/seeds/settings.rb:3029
 msgid "Tab behaviour after ticket action"
 msgstr "Comportamentul tab-ului după acțiunea tichetului"
 
@@ -16869,7 +16869,7 @@ msgstr "Eticheta \"%s\" există deja."
 msgid "Tags"
 msgstr "Etichete"
 
-#: db/seeds/settings.rb:3386
+#: db/seeds/settings.rb:3387
 msgid ""
 "Take Reply-To header as sender/from of email and use the real name of origin "
 "from."
@@ -16877,7 +16877,7 @@ msgstr ""
 "Ia antetul Reply-To ca expeditor/de la al e-mailului și folosește numele "
 "real al expeditorului din câmpul „De la”."
 
-#: db/seeds/settings.rb:3385
+#: db/seeds/settings.rb:3386
 msgid "Take Reply-To header as sender/from of email."
 msgstr "Ia antetul Reply-To ca expeditor/de la al e-mailului."
 
@@ -17498,7 +17498,7 @@ msgstr "Mărimea implicită a fontului este de 12px."
 msgid "The device could not be deleted."
 msgstr "%s Obiecte sunt create."
 
-#: db/seeds/settings.rb:2322
+#: db/seeds/settings.rb:2323
 msgid "The divider between TicketHook and ticket number. E. g. ': '."
 msgstr "Separatorul dintre TicketHook și numărul tichetului. De ex. ': '."
 
@@ -17657,7 +17657,7 @@ msgstr "Numele de gazdă (hostname) nu a fost găsit."
 msgid "The hours overlay"
 msgstr "Deschideți nota"
 
-#: db/seeds/settings.rb:2297
+#: db/seeds/settings.rb:2298
 msgid ""
 "The identifier for a ticket, e.g. Ticket#, Call#, MyTicket#. The default is "
 "Ticket#."
@@ -18315,14 +18315,14 @@ msgstr "Numărul de tichet țintă nu a fost găsit."
 msgid "The test run was successful."
 msgstr "Rularea testului a fost reușită."
 
-#: db/seeds/settings.rb:3224
+#: db/seeds/settings.rb:3225
 msgid ""
 "The text at the beginning of the subject in an email forward, e. g. FWD."
 msgstr ""
 "Textul de la începutul subiectului într-un email redirecționat, de exemplu, "
 "FWD."
 
-#: db/seeds/settings.rb:3202
+#: db/seeds/settings.rb:3203
 msgid ""
 "The text at the beginning of the subject in an email reply, e.g. RE, AW, or "
 "AS."
@@ -19215,11 +19215,11 @@ msgstr "Tichet (cenzurat):"
 msgid "Ticket Auto Assignment"
 msgstr "Atribuire automată"
 
-#: db/seeds/settings.rb:2399
+#: db/seeds/settings.rb:2400
 msgid "Ticket Conditions Expert Mode"
 msgstr "Mod expert pentru condiții tichet"
 
-#: db/seeds/settings.rb:2425
+#: db/seeds/settings.rb:2426
 msgid "Ticket Conditions Regular Expression Operators"
 msgstr "Operatori expresii regulare pentru condiții tichet"
 
@@ -19243,39 +19243,39 @@ msgstr "Detectare duplicate"
 msgid "Ticket History"
 msgstr "Client tichet"
 
-#: db/seeds/settings.rb:2294
+#: db/seeds/settings.rb:2295
 msgid "Ticket Hook"
 msgstr "Hook tichet"
 
-#: db/seeds/settings.rb:2319
+#: db/seeds/settings.rb:2320
 msgid "Ticket Hook Divider"
 msgstr "Separator hook tichet"
 
-#: db/seeds/settings.rb:2340
+#: db/seeds/settings.rb:2341
 msgid "Ticket Hook Position"
 msgstr "Poziție hook tichet"
 
-#: db/seeds/settings.rb:2372
+#: db/seeds/settings.rb:2373
 msgid "Ticket Last Contact Behaviour"
 msgstr "Comportamentul ultimei interacțiuni a tichetului"
 
-#: db/seeds/settings.rb:2451
+#: db/seeds/settings.rb:2452
 msgid "Ticket Number Format"
 msgstr "Formatul numărului tichetului"
 
-#: db/seeds/settings.rb:2481
+#: db/seeds/settings.rb:2482
 msgid "Ticket Number Increment"
 msgstr "Incrementarea numărului tichetului"
 
-#: db/seeds/settings.rb:2538
+#: db/seeds/settings.rb:2539
 msgid "Ticket Number Increment Date"
 msgstr "Data incrementării numărului tichetului"
 
-#: db/seeds/settings.rb:2840
+#: db/seeds/settings.rb:2841
 msgid "Ticket Number ignore system_id"
 msgstr "Ignoră system_id în numărul tichetului"
 
-#: db/seeds/settings.rb:5918
+#: db/seeds/settings.rb:5919
 msgid "Ticket Organization Reassignment"
 msgstr "Reatribuirea organizației tichetului"
 
@@ -19285,7 +19285,7 @@ msgstr "Reatribuirea organizației tichetului"
 msgid "Ticket Overview"
 msgstr "Prezentare generală tichet"
 
-#: db/seeds/settings.rb:5620
+#: db/seeds/settings.rb:5621
 #, fuzzy
 #| msgid "Ticket Overview"
 msgid "Ticket Overview Query Polling"
@@ -19312,7 +19312,7 @@ msgstr "Priorități tichet"
 msgid "Ticket Priority"
 msgstr "Prioritate tichet"
 
-#: db/seeds/settings.rb:996
+#: db/seeds/settings.rb:997
 #, fuzzy
 #| msgid "Priority"
 msgid "Ticket Priority Icons"
@@ -19335,15 +19335,15 @@ msgstr "Stare tichet"
 msgid "Ticket States"
 msgstr "Stări tichet"
 
-#: db/seeds/settings.rb:3221
+#: db/seeds/settings.rb:3222
 msgid "Ticket Subject Forward"
 msgstr "Subiectul redirecționării tichetului"
 
-#: db/seeds/settings.rb:3199
+#: db/seeds/settings.rb:3200
 msgid "Ticket Subject Reply"
 msgstr "Subiectul răspunsului tichetului"
 
-#: db/seeds/settings.rb:3178
+#: db/seeds/settings.rb:3179
 msgid "Ticket Subject Size"
 msgstr "Mărimea subiectului tichetului"
 
@@ -19351,11 +19351,11 @@ msgstr "Mărimea subiectului tichetului"
 msgid "Ticket Subscriptions"
 msgstr "Abonări tichet"
 
-#: db/seeds/settings.rb:2912
+#: db/seeds/settings.rb:2913
 msgid "Ticket Trigger Loop Protection Articles Total"
 msgstr "Total articole pentru protecția buclelor declanșatorului tichetului"
 
-#: db/seeds/settings.rb:2893
+#: db/seeds/settings.rb:2894
 msgid "Ticket Trigger Loop Protection Articles per Ticket"
 msgstr ""
 "Total articole pentru protecția buclelor declanșatorului tichetului per "
@@ -19670,7 +19670,7 @@ msgstr "Tichetele utilizatorului"
 msgid "Tickets with \"%s\""
 msgstr "Tichetele cu \"%s\""
 
-#: db/seeds/settings.rb:2768
+#: db/seeds/settings.rb:2769
 msgid "Tickets with the same attributes were found."
 msgstr "Au fost găsite tichete cu aceleași atribute."
 
@@ -19690,27 +19690,27 @@ msgstr "Timp"
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_accounting_modal.coffee:12
 #: app/assets/javascripts/app/controllers/time_accounting.coffee:3
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:145
-#: db/seeds/permissions.rb:107 db/seeds/settings.rb:4058
+#: db/seeds/permissions.rb:107 db/seeds/settings.rb:4059
 msgid "Time Accounting"
 msgstr "Contabilizarea timpului"
 
-#: db/seeds/settings.rb:4121
+#: db/seeds/settings.rb:4122
 msgid "Time Accounting Custom Unit"
 msgstr "Unitate personalizată pentru contabilizarea timpului"
 
-#: db/seeds/settings.rb:4157
+#: db/seeds/settings.rb:4158
 msgid "Time Accounting Default Type"
 msgstr "Tip implicit pentru contabilizarea timpului"
 
-#: db/seeds/settings.rb:4085
+#: db/seeds/settings.rb:4086
 msgid "Time Accounting Selector"
 msgstr "Selector pentru contabilizarea timpului"
 
-#: db/seeds/settings.rb:4139
+#: db/seeds/settings.rb:4140
 msgid "Time Accounting Types"
 msgstr "Tipuri de contabilizare a timpului"
 
-#: db/seeds/settings.rb:4103
+#: db/seeds/settings.rb:4104
 msgid "Time Accounting Unit"
 msgstr "Unitate de contabilizare a timpului"
 
@@ -19763,7 +19763,7 @@ msgid "Timeframe for the first response."
 msgstr "Intervalul de timp pentru primul răspuns."
 
 #: app/assets/javascripts/app/models/job.coffee:14
-#: app/assets/javascripts/app/models/trigger.coffee:13 db/seeds/settings.rb:206
+#: app/assets/javascripts/app/models/trigger.coffee:13 db/seeds/settings.rb:207
 #: lib/excel_sheet.rb:116
 msgid "Timezone"
 msgstr "Fus orar"
@@ -19809,7 +19809,7 @@ msgstr "Titlul formularului"
 msgid "To"
 msgstr "Către"
 
-#: db/seeds/settings.rb:3502
+#: db/seeds/settings.rb:3503
 msgid ""
 "To archive all outgoing emails from Zammad to external, you can store a BCC "
 "email address here."
@@ -19982,15 +19982,15 @@ msgstr "Access cu token"
 msgid "Token authorization failed."
 msgstr "Autentificare"
 
-#: db/seeds/settings.rb:5268
+#: db/seeds/settings.rb:5269
 msgid "Token for CTI."
 msgstr "Token pentru CTI."
 
-#: db/seeds/settings.rb:5172
+#: db/seeds/settings.rb:5173
 msgid "Token for Sipgate."
 msgstr "Token pentru Sipgate."
 
-#: db/seeds/settings.rb:3564
+#: db/seeds/settings.rb:3565
 msgid "Token for monitoring."
 msgstr "Token pentru monitorizare."
 
@@ -20027,7 +20027,7 @@ msgstr "Total"
 msgid "Total Accounted Time"
 msgstr "Total timp contabilizat"
 
-#: db/seeds/settings.rb:972
+#: db/seeds/settings.rb:973
 msgid "Total display of the number of objects in a grouping."
 msgstr "Afișarea totală a numărului de obiecte într-un grup."
 
@@ -20190,7 +20190,7 @@ msgstr ""
 #: app/controllers/first_steps_controller.rb:27
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:26
 #: app/frontend/shared/entities/ticket-article/action/plugins/twitter.ts:124
-#: db/seeds/permissions.rb:167 db/seeds/settings.rb:789
+#: db/seeds/permissions.rb:167 db/seeds/settings.rb:790
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -20202,7 +20202,7 @@ msgstr "Twitter (intrare)"
 msgid "Twitter (out)"
 msgstr "Twitter (ieșire)"
 
-#: db/seeds/settings.rb:789
+#: db/seeds/settings.rb:790
 msgid "Twitter - tweet initials"
 msgstr "Twitter - inițiale tweet"
 
@@ -20218,7 +20218,7 @@ msgstr "Secret token acces Twitter"
 msgid "Twitter Account"
 msgstr "Cont Twitter"
 
-#: db/seeds/settings.rb:1378
+#: db/seeds/settings.rb:1379
 msgid "Twitter App Credentials"
 msgstr "Date de autentificare pentru aplicația Twitter"
 
@@ -20234,7 +20234,7 @@ msgstr "Secret Consumer Twitter"
 msgid "Twitter Dev environment label"
 msgstr "Eticheta de mediu pentru dezvoltatori Twitter"
 
-#: db/seeds/settings.rb:1371
+#: db/seeds/settings.rb:1372
 msgid "Twitter Developer Site"
 msgstr "Site dezvoltator Twitter"
 
@@ -20244,11 +20244,11 @@ msgstr "Site dezvoltator Twitter"
 msgid "Twitter Direct Message"
 msgstr "mesaj direct twitter"
 
-#: db/seeds/settings.rb:1385
+#: db/seeds/settings.rb:1386
 msgid "Twitter Key"
 msgstr "Cheie Twitter"
 
-#: db/seeds/settings.rb:1391
+#: db/seeds/settings.rb:1392
 msgid "Twitter Secret"
 msgstr "Secret Twitter"
 
@@ -20350,11 +20350,11 @@ msgstr "Tip:"
 msgid "UID"
 msgstr "UID"
 
-#: db/seeds/settings.rb:1956
+#: db/seeds/settings.rb:1957
 msgid "UID Attribute Name"
 msgstr "Nume atribut UID"
 
-#: db/seeds/settings.rb:2090
+#: db/seeds/settings.rb:2091
 #, fuzzy
 #| msgid "Date field"
 msgid "UID Field"
@@ -20579,7 +20579,7 @@ msgstr ""
 msgid "Update successful."
 msgstr "Actualizare reușită."
 
-#: db/seeds/settings.rb:5930
+#: db/seeds/settings.rb:5931
 msgid "Update the most recent tickets."
 msgstr "Actualizează cele mai recente tichete."
 
@@ -20853,7 +20853,7 @@ msgstr "Folosește o singură linie per URI"
 msgid "Use one of your safely stored recovery codes."
 msgstr "Folosește unul dintre codurile de recuperare stocate în siguranță."
 
-#: db/seeds/settings.rb:711
+#: db/seeds/settings.rb:712
 msgid ""
 "Use subject field for emails. If disabled, the ticket title will be used as "
 "subject."
@@ -20865,7 +20865,7 @@ msgstr ""
 msgid "Use the camera to take a photo for the avatar."
 msgstr ""
 
-#: db/seeds/settings.rb:2386
+#: db/seeds/settings.rb:2387
 msgid ""
 "Use the start time of the last customer thread (which may consist of "
 "multiple articles)."
@@ -20873,7 +20873,7 @@ msgstr ""
 "Folosește timpul de început al ultimei interacțiuni cu clientul (care poate "
 "consta din mai multe articole)."
 
-#: db/seeds/settings.rb:2385
+#: db/seeds/settings.rb:2386
 msgid "Use the time of the very last customer article."
 msgstr "Folosește timpul ultimului articol al clientului."
 
@@ -20967,7 +20967,7 @@ msgstr "Filtru utilizatori"
 msgid "User Mismatch"
 msgstr "Neconcordanță a utilizatorului"
 
-#: db/seeds/settings.rb:626
+#: db/seeds/settings.rb:627
 msgid "User Organization Selector - email"
 msgstr "Selector organizație utilizator - email"
 
@@ -20991,7 +20991,7 @@ msgstr "Utilizatorul nu a putut fi actualizat."
 msgid "User email could not be extracted from 'id_token'."
 msgstr "Emailul utilizatorului nu a putut fi extras din 'id_token'."
 
-#: db/seeds/settings.rb:1183
+#: db/seeds/settings.rb:1184
 msgid "User email for multiple users"
 msgstr "Emailul utilizatorului pentru utilizatori multiplii"
 
@@ -21114,7 +21114,7 @@ msgstr "Nume utilizator / E-mail"
 msgid "Username for proxy connection"
 msgstr "Numele de utilizator pentru conexiunea proxy"
 
-#: db/seeds/settings.rb:531
+#: db/seeds/settings.rb:532
 msgid "Username for proxy connection."
 msgstr "Numele de utilizator pentru conexiunea proxy."
 
@@ -21216,7 +21216,7 @@ msgstr "Emailul de verificare nu a fost găsit în căsuța de email."
 msgid "Verification email could not be sent."
 msgstr "Emailul de verificare nu a putut fi trimis."
 
-#: db/seeds/settings.rb:1972
+#: db/seeds/settings.rb:1973
 msgid ""
 "Verification of the TLS connection to the IDP SSO target URL. Only relevant "
 "during setting up SAML authentication."
@@ -21344,12 +21344,12 @@ msgid "Warning"
 msgstr "Atenție"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:34
-#: db/seeds/settings.rb:2755
+#: db/seeds/settings.rb:2756
 msgid "Warning message"
 msgstr "Mesaj atenționare"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:33
-#: db/seeds/settings.rb:2738
+#: db/seeds/settings.rb:2739
 msgid "Warning title"
 msgstr "Titlu atenționare"
 
@@ -21423,11 +21423,11 @@ msgstr "Link web"
 msgid "Website"
 msgstr "Site web"
 
-#: db/seeds/settings.rb:309
+#: db/seeds/settings.rb:310
 msgid "Websocket backend"
 msgstr "Backend Websocket"
 
-#: db/seeds/settings.rb:317
+#: db/seeds/settings.rb:318
 msgid "Websocket port"
 msgstr "Port Websocket"
 
@@ -21452,11 +21452,11 @@ msgstr "Săptămân(a)/(i)"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:101
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:68
-#: db/seeds/settings.rb:1831
+#: db/seeds/settings.rb:1832
 msgid "Weibo"
 msgstr "Weibo"
 
-#: db/seeds/settings.rb:1839
+#: db/seeds/settings.rb:1840
 msgid "Weibo App Credentials"
 msgstr "Date de autentificare pentru aplicația Weibo"
 
@@ -21586,7 +21586,7 @@ msgstr "Va fi publicat"
 msgid "Will be published on"
 msgstr "Va fi publicat pe"
 
-#: db/seeds/settings.rb:143
+#: db/seeds/settings.rb:144
 msgid "Will be shown in the app and is included in email footers."
 msgstr "Va fi afișat în aplicație și este inclus în subsolul e-mailului."
 
@@ -22232,7 +22232,7 @@ msgstr "%s Obiecte sunt create."
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:31
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:31
 #: app/assets/javascripts/app/views/twitter/app_config.jst.eco:47
-#: db/seeds/settings.rb:1397
+#: db/seeds/settings.rb:1398
 msgid "Your callback URL"
 msgstr "URL-ul tău de callback"
 
@@ -22296,7 +22296,7 @@ msgstr ""
 msgid "Zammad Foundation"
 msgstr "Fundația Zammad"
 
-#: db/seeds/settings.rb:113
+#: db/seeds/settings.rb:114
 msgid "Zammad Helpdesk"
 msgstr "Zammad Helpdesk"
 
@@ -22390,7 +22390,7 @@ msgstr ""
 "\n"
 "Postmaster-ul #{config.fqdn}\n"
 
-#: db/seeds/settings.rb:240
+#: db/seeds/settings.rb:241
 msgid "absolute - e. g. \"Monday 09:30\" or \"Tuesday 23. Feb 14:20\""
 msgstr "absolut - de ex. \"Luni 09:30\" or \"Marți 23. Feb 14:20\""
 
@@ -22485,7 +22485,7 @@ msgstr "la"
 msgid "at least one letter is required"
 msgstr "este necesară cel puțin o literă"
 
-#: app/assets/javascripts/app/lib/app_post/utils.coffee:1058
+#: app/assets/javascripts/app/lib/app_post/utils.coffee:1063
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:9
 msgid "attachment,attached,enclosed,enclosure"
 msgstr ""
@@ -22675,11 +22675,11 @@ msgstr "unitate de măsură personalizată"
 msgid "d"
 msgstr "z"
 
-#: app/models/concerns/can_be_published.rb:101
+#: app/models/concerns/can_be_published.rb:133
 msgid "date must be no earlier than internal date"
 msgstr "data nu poate să fie mai devreme decât data internă"
 
-#: app/models/concerns/can_be_published.rb:107
+#: app/models/concerns/can_be_published.rb:139
 msgid "date must be no earlier than published date"
 msgstr "data nu poate să fie mai devreme decât data publicării"
 
@@ -22724,7 +22724,7 @@ msgstr "descendent"
 msgid "detailed search"
 msgstr "Căutare extinsă"
 
-#: db/seeds/settings.rb:1229
+#: db/seeds/settings.rb:1230
 msgid "developer password"
 msgstr "parolă dezvoltator"
 
@@ -22947,7 +22947,7 @@ msgstr "oră(e)"
 msgid "hours"
 msgstr "ore"
 
-#: db/seeds/settings.rb:2086
+#: db/seeds/settings.rb:2087
 #, fuzzy
 #| msgid "support@example.com"
 msgid "https://example.com"
@@ -22967,11 +22967,11 @@ msgstr ""
 msgid "i-doit"
 msgstr "i-doit"
 
-#: db/seeds/settings.rb:4967
+#: db/seeds/settings.rb:4968
 msgid "i-doit config"
 msgstr "configurare i-doit"
 
-#: db/seeds/settings.rb:4940
+#: db/seeds/settings.rb:4941
 msgid "i-doit integration"
 msgstr "integrare i-doit"
 
@@ -23046,7 +23046,7 @@ msgid "in process"
 msgstr "în procesare"
 
 #: app/assets/javascripts/app/controllers/_ui_element/active.coffee:5
-#: app/assets/javascripts/app/lib/app_post/utils.coffee:1433
+#: app/assets/javascripts/app/lib/app_post/utils.coffee:1438
 #: app/assets/javascripts/app/models/webhook.coffee:34
 #: app/assets/javascripts/app/views/generic/object_search/item_object.jst.eco:16
 #: app/assets/javascripts/app/views/generic/object_search/item_organization.jst.eco:4
@@ -23058,7 +23058,7 @@ msgstr "inactiv"
 msgid "internal"
 msgstr "intern"
 
-#: db/seeds/settings.rb:1213
+#: db/seeds/settings.rb:1214
 msgid "internal database"
 msgstr "bază de date internă"
 
@@ -23137,6 +23137,7 @@ msgstr "nu este în timpul programului"
 msgid "is not included in the list"
 msgstr "nu este inclus in listă"
 
+#: app/assets/javascripts/app/controllers/maintenance.coffee:84
 #: app/assets/javascripts/app/models/_application_model.coffee:63
 msgid "is required"
 msgstr "este obligatoriu"
@@ -23201,7 +23202,7 @@ msgstr "Schimbat"
 msgid "just now"
 msgstr "chiar acum"
 
-#: db/seeds/settings.rb:2356
+#: db/seeds/settings.rb:2357
 msgid "left"
 msgstr "stânga"
 
@@ -23281,7 +23282,7 @@ msgstr "minut(e)"
 msgid "minutes"
 msgstr "minute"
 
-#: app/models/knowledge_base.rb:225
+#: app/models/knowledge_base.rb:244
 msgid "must be a valid path or domain"
 msgstr "trebuie să fie o cale sau un domeniu valid"
 
@@ -23321,18 +23322,18 @@ msgstr "trebuie să fie un număr impar"
 msgid "must be other than %{count}"
 msgstr "trebuie să fie diferit de %{count}"
 
-#: app/models/knowledge_base.rb:213
+#: app/models/knowledge_base.rb:232
 msgid "must begin with a slash (\"/\")"
 msgstr "trebuie să înceapă cu slash (\"/\")"
 
 msgid "must exist"
 msgstr "trebuie să existe"
 
-#: app/models/knowledge_base.rb:221
+#: app/models/knowledge_base.rb:240
 msgid "must not end with a slash (\"/\")"
 msgstr "nu trebuie să se termine cu slash (\"/\")"
 
-#: app/models/knowledge_base.rb:217
+#: app/models/knowledge_base.rb:236
 msgid "must not include a protocol (e.g., \"http://\" or \"https://\")"
 msgstr "trebuie să includă un protocol (de ex. \"http://\" sau \"https://\")"
 
@@ -23362,7 +23363,7 @@ msgstr "noi și deschise"
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:91
 #: app/frontend/shared/components/ObjectAttributes/attributes/AttributeBoolean/AttributeBoolean.vue:14
 #: app/frontend/shared/entities/object-attributes/form/resolver/fields/active.ts:16
-#: db/seeds/settings.rb:613
+#: db/seeds/settings.rb:614
 msgid "no"
 msgstr "nu"
 
@@ -23386,7 +23387,7 @@ msgstr "fără unitate de măsură"
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:106
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:27
 #: app/assets/javascripts/app/views/widget/ticket_stats_list.jst.eco:7
-#: db/seeds/settings.rb:2358
+#: db/seeds/settings.rb:2359
 msgid "none"
 msgstr "niciunul"
 
@@ -23533,7 +23534,7 @@ msgstr ""
 msgid "relative"
 msgstr "relativ"
 
-#: db/seeds/settings.rb:239
+#: db/seeds/settings.rb:240
 msgid "relative - e. g. \"2 hours ago\" or \"2 days and 15 minutes ago\""
 msgstr "relativ - de ex. \"acum 2 ore\" sau \"acum 2 zile și 15 minute\""
 
@@ -23575,7 +23576,7 @@ msgstr "răspunde tuturor"
 msgid "required"
 msgstr "obligatoriu"
 
-#: db/seeds/settings.rb:2357
+#: db/seeds/settings.rb:2358
 msgid "right"
 msgstr "dreapta"
 
@@ -23600,8 +23601,8 @@ msgstr ""
 msgid "select"
 msgstr "selectează"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:352
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:481
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:353
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:482
 msgid "select all options"
 msgstr "selectează toate opțiunile"
 
@@ -23610,7 +23611,7 @@ msgstr "selectează toate opțiunile"
 msgid "select attachment…"
 msgstr "selectează atașamentul…"
 
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:480
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:481
 msgid "select visible options"
 msgstr "selectează opțiunile vizibile"
 
@@ -23666,19 +23667,19 @@ msgstr "afișează mai multe"
 msgid "shown"
 msgstr "afișat"
 
-#: db/seeds/settings.rb:5169
+#: db/seeds/settings.rb:5170
 msgid "sipgate.io Token"
 msgstr "token sipgate.io"
 
-#: db/seeds/settings.rb:5203
+#: db/seeds/settings.rb:5204
 msgid "sipgate.io alternative FQDN"
 msgstr "FQDN alternativ sipgate.io"
 
-#: db/seeds/settings.rb:5190
+#: db/seeds/settings.rb:5191
 msgid "sipgate.io config"
 msgstr "configurare sipgate.io"
 
-#: db/seeds/settings.rb:5141
+#: db/seeds/settings.rb:5142
 msgid "sipgate.io integration"
 msgstr "integrare sipgate.io"
 
@@ -23756,11 +23757,11 @@ msgstr "tichet"
 msgid "ticket %s was merged into this ticket"
 msgstr "tichetul %s a fuzionat cu acest tichet"
 
-#: db/seeds/settings.rb:1154
+#: db/seeds/settings.rb:1155
 msgid "ticket.agent"
 msgstr "tichet.agent"
 
-#: db/seeds/settings.rb:1162
+#: db/seeds/settings.rb:1163
 msgid "ticket.customer"
 msgstr "tichet.client"
 
@@ -23771,7 +23772,7 @@ msgstr "tichet.client"
 msgid "till (relative)"
 msgstr "până la (relativ)"
 
-#: db/seeds/settings.rb:241
+#: db/seeds/settings.rb:242
 msgid "timestamp - e. g. \"2018-08-30 14:30\""
 msgstr "marcaj temporal - de ex. \"2018-08-30 14:30\""
 
@@ -23916,7 +23917,7 @@ msgstr "în următoarele (relativ)"
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:90
 #: app/frontend/shared/components/ObjectAttributes/attributes/AttributeBoolean/AttributeBoolean.vue:14
 #: app/frontend/shared/entities/object-attributes/form/resolver/fields/active.ts:15
-#: db/seeds/object_manager_attributes.rb:1498 db/seeds/settings.rb:612
+#: db/seeds/object_manager_attributes.rb:1498 db/seeds/settings.rb:613
 msgid "yes"
 msgstr "da"
 

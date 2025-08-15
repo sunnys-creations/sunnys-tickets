@@ -46,7 +46,7 @@ msgstr "dd.mm.yyyy"
 msgid "FORMAT_DATETIME"
 msgstr "dd.mm.yyyy HH:MM"
 
-#: db/seeds/settings.rb:367
+#: db/seeds/settings.rb:368
 msgid ""
 "\"Database\" stores all attachments in the database (not recommended for "
 "storing large amounts of data). \"Filesystem\" stores the data in the "
@@ -368,10 +368,10 @@ msgstr "%s (metoda)"
 msgid "%s (option)"
 msgstr "%s (opcija)"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:303
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:304
 #: app/frontend/apps/desktop/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInput.vue:595
 #: app/frontend/apps/desktop/components/Form/fields/FieldSelect/FieldSelectInput.vue:270
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:374
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:375
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInput.vue:149
 #: app/frontend/apps/mobile/components/Form/fields/FieldSelect/FieldSelectInput.vue:108
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInput.vue:135
@@ -787,7 +787,7 @@ msgstr ""
 msgid "1 attached file"
 msgstr "1 priložena datoteka"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "1 day"
 msgstr "1 dan"
 
@@ -795,7 +795,7 @@ msgstr "1 dan"
 msgid "1 day ago"
 msgstr "prije jednog dana"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "1 hour"
 msgstr "1 sat"
 
@@ -815,7 +815,7 @@ msgstr "prije jednu minutu"
 msgid "1 month ago"
 msgstr "prije mjesec dana"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "1 week"
 msgstr "1 tjedan"
 
@@ -831,11 +831,11 @@ msgstr "prije godinu dana"
 msgid "1. Ticket Create"
 msgstr "1. Kreiranje ticketa"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "2 hours"
 msgstr "2 sata"
 
-#: db/seeds/settings.rb:2175
+#: db/seeds/settings.rb:2176
 msgid "2 lower case and 2 upper case characters"
 msgstr "2 mala i 2 velika slova"
 
@@ -843,7 +843,7 @@ msgstr "2 mala i 2 velika slova"
 msgid "2 normal"
 msgstr "2 srednji"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "2 weeks"
 msgstr "2 tjedna"
 
@@ -855,7 +855,7 @@ msgstr "2. Ažuriranje ticketa"
 msgid "3 high"
 msgstr "3 visok"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "3 weeks"
 msgstr "3 tjedna"
 
@@ -863,7 +863,7 @@ msgstr "3 tjedna"
 msgid "3. Ticket Reminder Reached"
 msgstr "3. Dosegnuto vrijeme podsjetnika na ticket"
 
-#: db/seeds/settings.rb:1129
+#: db/seeds/settings.rb:1130
 msgid "4 weeks"
 msgstr "4 tjedna"
 
@@ -917,7 +917,7 @@ msgid ""
 "auto-reply"
 msgstr ""
 
-#: db/seeds/settings.rb:4013
+#: db/seeds/settings.rb:4014
 msgid "A list of active import backends that gets scheduled automatically."
 msgstr "Popis aktivnih pozadinskih sustava uvoza koji se automatski zakazuju."
 
@@ -1003,7 +1003,7 @@ msgstr "API"
 msgid "API Key"
 msgstr "API ključ"
 
-#: db/seeds/settings.rb:3535
+#: db/seeds/settings.rb:3536
 msgid "API Password Access"
 msgstr "API pristupna lozinka"
 
@@ -1011,7 +1011,7 @@ msgstr "API pristupna lozinka"
 msgid "API Token"
 msgstr "API token"
 
-#: db/seeds/settings.rb:3510
+#: db/seeds/settings.rb:3511
 msgid "API Token Access"
 msgstr "API pristup tokenom"
 
@@ -1035,7 +1035,7 @@ msgid "Accept Data Privacy Policy & Acceptable Use Policy"
 msgstr ""
 "Prihvatite politiku privatnosti podataka i politiku prihvatljive upotrebe"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Pristup je odbijen"
@@ -1206,7 +1206,7 @@ msgstr "Akcijski gumb izbornika za sigurnosne ključeve"
 msgid "Actions"
 msgstr "Akcije"
 
-#: db/seeds/settings.rb:2870
+#: db/seeds/settings.rb:2871
 msgid "Activate the recursive processing of ticket triggers."
 msgstr "Aktivirajte ponavljajuću obradu ticket triggera."
 
@@ -1214,7 +1214,7 @@ msgstr "Aktivirajte ponavljajuću obradu ticket triggera."
 msgid "Activated by"
 msgstr "Aktivirano kroz"
 
-#: db/seeds/settings.rb:1106
+#: db/seeds/settings.rb:1107
 msgid ""
 "Activates lost password feature for users. This setting is only effective if "
 "the password login is enabled."
@@ -1500,7 +1500,7 @@ msgstr "Dodaj naslov druge razine"
 msgid "Add selected values"
 msgstr "Dodaj odabrane vrijednosti"
 
-#: db/seeds/settings.rb:792
+#: db/seeds/settings.rb:793
 msgid "Add sender initials to end of a tweet."
 msgstr "Dodaj inicijale pošiljaoca na kraj tweeta."
 
@@ -1529,7 +1529,7 @@ msgstr "Dodaj ovu razinu gumbu na stranici koji bi trebao otvoriti chat."
 msgid "Additional Channels"
 msgstr "Dodatni kanali"
 
-#: db/seeds/settings.rb:3343
+#: db/seeds/settings.rb:3344
 msgid "Additional follow-up detection"
 msgstr "Napredno praćenje odgovora"
 
@@ -1541,7 +1541,7 @@ msgstr "Dodatne informacije"
 msgid "Additional information and links"
 msgstr "Dodatne informacije i linkovi"
 
-#: db/seeds/settings.rb:871
+#: db/seeds/settings.rb:872
 msgid "Additional notes for ticket create types."
 msgstr "Dodatne bilješke za vrste stvorenih ticketa."
 
@@ -1549,7 +1549,7 @@ msgstr "Dodatne bilješke za vrste stvorenih ticketa."
 msgid "Address"
 msgstr "Adresa"
 
-#: db/seeds/settings.rb:506
+#: db/seeds/settings.rb:507
 msgid "Address of the proxy server for http and https resources."
 msgstr "Adresa proxy poslužitelja za http i https resurse."
 
@@ -1669,11 +1669,11 @@ msgstr "Starost"
 msgid "Agent"
 msgstr "Agent"
 
-#: db/seeds/settings.rb:3256
+#: db/seeds/settings.rb:3257
 msgid "Agent Name"
 msgstr "Ime agenta"
 
-#: db/seeds/settings.rb:3256
+#: db/seeds/settings.rb:3257
 msgid "Agent Name + FromSeparator + System Address Display Name"
 msgstr "Ime agenta + od + ime adrese sustava"
 
@@ -1681,7 +1681,7 @@ msgstr "Ime agenta + od + ime adrese sustava"
 msgid "Agent chat"
 msgstr "Chat agenta"
 
-#: db/seeds/settings.rb:3610
+#: db/seeds/settings.rb:3611
 msgid "Agent idle timeout"
 msgstr "Prekoračenje vremena mirovanja agenta"
 
@@ -1794,11 +1794,11 @@ msgstr "Dozvoli ponovno otvaranje ticketa unutar određenog vremena."
 msgid "Allow users to add new tags."
 msgstr "Dopusti dodavanje novih tagova."
 
-#: db/seeds/settings.rb:4178
+#: db/seeds/settings.rb:4179
 msgid "Allow users to create new tags."
 msgstr "Dopusti stvaranje novih tagova."
 
-#: db/seeds/settings.rb:1186
+#: db/seeds/settings.rb:1187
 msgid "Allow using one email address for multiple users."
 msgstr "Dopusti korištenje jedne e-mail adrese za više korisnika."
 
@@ -1811,7 +1811,7 @@ msgstr "Dopusti web stranice (odvojeno sa ;)"
 msgid "Also notify via email"
 msgstr "Također obavijesti putem e-maila"
 
-#: db/seeds/settings.rb:5206
+#: db/seeds/settings.rb:5207
 msgid ""
 "Alternative FQDN for callbacks if you operate Zammad in an internal network."
 msgstr ""
@@ -1948,15 +1948,15 @@ msgid ""
 "within WhatsApp Business."
 msgstr ""
 
-#: db/seeds/settings.rb:1449
+#: db/seeds/settings.rb:1450
 msgid "App ID"
 msgstr "App-ID"
 
-#: db/seeds/settings.rb:1455
+#: db/seeds/settings.rb:1456
 msgid "App Secret"
 msgstr "App tajna"
 
-#: db/seeds/settings.rb:1788
+#: db/seeds/settings.rb:1789
 msgid "App Tenant ID"
 msgstr "Tenant ID (App)"
 
@@ -1973,11 +1973,11 @@ msgstr "Verzija aplikacije"
 msgid "App could not be verified."
 msgstr "Aplikacija nije mogla biti verificirana."
 
-#: db/seeds/settings.rb:1445
+#: db/seeds/settings.rb:1446
 msgid "App credentials for Facebook."
 msgstr "Korisnički podaci aplikacije za Facebook."
 
-#: db/seeds/settings.rb:1381
+#: db/seeds/settings.rb:1382
 msgid "App credentials for Twitter."
 msgstr "Twitter prijavni podaci."
 
@@ -2220,7 +2220,7 @@ msgstr "Jeste li sigurni? Imate nespremljene promjene koje će biti izgubljene."
 msgid "Article"
 msgstr "Članak"
 
-#: db/seeds/settings.rb:681
+#: db/seeds/settings.rb:682
 msgid "Article - visibility confirmation dialog"
 msgstr "Članak - dijaloški okvir za potvrdu vidljivosti"
 
@@ -2359,7 +2359,7 @@ msgstr "Priložene datoteke"
 msgid "Attachment"
 msgstr "Privitak"
 
-#: db/seeds/settings.rb:3357
+#: db/seeds/settings.rb:3358
 msgid "Attachment - Search for follow-up also in attachments."
 msgstr "Privitak - potraži ponavljanja u prilozima."
 
@@ -2421,7 +2421,7 @@ msgstr "Atributi"
 msgid "Attribute '%s' is required in the mapping"
 msgstr "Atribut '%s' je potreban u mapiranju"
 
-#: db/seeds/settings.rb:1961
+#: db/seeds/settings.rb:1962
 msgid ""
 "Attribute that uniquely identifies the user. If unset, the name identifier "
 "returned by the IDP is used."
@@ -2436,7 +2436,7 @@ msgid "Attributes"
 msgstr "Atributi"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:32
-#: db/seeds/settings.rb:2721
+#: db/seeds/settings.rb:2722
 msgid "Attributes to compare"
 msgstr "Atributi za usporedbu"
 
@@ -2492,14 +2492,14 @@ msgstr "Autentifikacija nije moguća (nije ponuđena)"
 msgid "Authentication required"
 msgstr "Autentifikacija obavezna"
 
-#: db/seeds/settings.rb:1208
+#: db/seeds/settings.rb:1209
 msgid "Authentication via %s"
 msgstr "Autentifikacija putem %s"
 
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/authenticator_app.coffee:4
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:5
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:9
-#: db/seeds/settings.rb:5834
+#: db/seeds/settings.rb:5835
 msgid "Authenticator App"
 msgstr "Autentifikacijska aplikacija"
 
@@ -2532,19 +2532,19 @@ msgstr "Authy"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket.coffee:11
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:7
-#: db/seeds/settings.rb:2567
+#: db/seeds/settings.rb:2568
 msgid "Auto Assignment"
 msgstr "Automatska dodjela"
 
-#: db/seeds/settings.rb:2610
+#: db/seeds/settings.rb:2611
 msgid "Auto Assignment Ignored Users"
 msgstr "Ignoriraj korisnika kod automatske dodjele"
 
-#: db/seeds/settings.rb:2593
+#: db/seeds/settings.rb:2594
 msgid "Auto Assignment Selector"
 msgstr "Automatski odabir dodjele"
 
-#: db/seeds/settings.rb:5973
+#: db/seeds/settings.rb:5974
 msgid "Auto Shutdown"
 msgstr ""
 
@@ -2552,7 +2552,7 @@ msgstr ""
 msgid "Auto Wizard"
 msgstr "Automatski asistent"
 
-#: db/seeds/settings.rb:4502
+#: db/seeds/settings.rb:4503
 msgid "Auto close"
 msgstr "Automatsko zatvaranje"
 
@@ -2560,7 +2560,7 @@ msgstr "Automatsko zatvaranje"
 msgid "Auto create"
 msgstr "Automatsko stvaranje"
 
-#: db/seeds/settings.rb:4528
+#: db/seeds/settings.rb:4529
 msgid "Auto-close state"
 msgstr "Status automatskog zatvaranja"
 
@@ -2574,11 +2574,11 @@ msgstr "Automatski asistent je deaktiviran"
 msgid "Automated Setup"
 msgstr "Automatsko postavljanje"
 
-#: db/seeds/settings.rb:1271
+#: db/seeds/settings.rb:1272
 msgid "Automatic account link on initial logon"
 msgstr "Automatsko povezivanje računa pri prvoj prijavi"
 
-#: db/seeds/settings.rb:1297
+#: db/seeds/settings.rb:1298
 msgid "Automatic account linking notification"
 msgstr "Automatska obavijest prilikom povezivanja računa"
 
@@ -2619,7 +2619,7 @@ msgstr "Dostupno za sljedeće uloge"
 msgid "Available methods"
 msgstr "Dostupne metode"
 
-#: db/seeds/settings.rb:914
+#: db/seeds/settings.rb:915
 msgid "Available types for a new ticket"
 msgstr "Mogući tipovi za novi ticket"
 
@@ -2664,13 +2664,13 @@ msgstr "Prosjek: %s minuta"
 msgid "Average: %s%"
 msgstr "Prosjek: %s%"
 
-#: db/seeds/settings.rb:3499
+#: db/seeds/settings.rb:3500
 msgid "BCC address for all outgoing emails"
 msgstr "BCC adresa za sve izlazne mailove"
 
 #: app/assets/javascripts/app/views/generic/object_search/item_organization_members.jst.eco:5
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:438
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:457
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:439
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:458
 msgid "Back"
 msgstr "Povratak"
 
@@ -2682,8 +2682,8 @@ msgstr "Povratak na moj pregled"
 msgid "Back to overview"
 msgstr "Povratak na pregled"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:438
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:457
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:439
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:458
 #: app/frontend/apps/mobile/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDialog.vue:197
 msgid "Back to previous page"
 msgstr "Natrag na prethodnu stranicu"
@@ -2769,7 +2769,7 @@ msgstr "Bind lozinka"
 msgid "Bind User"
 msgstr "Bind korisnik"
 
-#: db/seeds/settings.rb:3476
+#: db/seeds/settings.rb:3477
 msgid "Block Notifications"
 msgstr "Blokiraj obavijesti"
 
@@ -2803,7 +2803,7 @@ msgstr "Plavo"
 msgid "Body"
 msgstr "Sadržaj"
 
-#: db/seeds/settings.rb:3356
+#: db/seeds/settings.rb:3357
 msgid "Body - Search for follow-up also in mail body."
 msgstr "Sadržaj -potraži ponavljanja u tekstu maila."
 
@@ -2858,7 +2858,7 @@ msgstr "Radno vrijeme"
 msgid "But it's only available in these languages:"
 msgstr "Sljedeći jezici su podržani:"
 
-#: db/seeds/settings.rb:3346
+#: db/seeds/settings.rb:3347
 msgid ""
 "By default, the follow-up check is done via the subject of an email. This "
 "setting lets you add more fields for which the follow-up check will be "
@@ -2928,19 +2928,19 @@ msgstr "CTI"
 msgid "CTI (generic)"
 msgstr "CTI (generički)"
 
-#: db/seeds/settings.rb:5265
+#: db/seeds/settings.rb:5266
 msgid "CTI Token"
 msgstr "CTI token"
 
-#: db/seeds/settings.rb:5252
+#: db/seeds/settings.rb:5253
 msgid "CTI config"
 msgstr "CTI konfiguracija"
 
-#: db/seeds/settings.rb:5286
+#: db/seeds/settings.rb:5287
 msgid "CTI customer last activity"
 msgstr "CTI zadnja aktivnost klijenta"
 
-#: db/seeds/settings.rb:5224
+#: db/seeds/settings.rb:5225
 msgid "CTI integration"
 msgstr "CTI integracija"
 
@@ -3044,7 +3044,7 @@ msgstr ""
 #: app/assets/javascripts/app/views/knowledge_base/scheduled_widget.jst.eco:4
 #: app/assets/javascripts/app/views/ticket_zoom/sidebar_checklist/show.jst.eco:23
 #: app/assets/javascripts/app/views/widget/invite_user.jst.eco:17
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:343
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:344
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarChecklist/TicketSidebarChecklistContent/ChecklistItems.vue:202
 #: app/frontend/apps/mobile/components/CommonDialogObjectForm/CommonDialogObjectForm.vue:125
 #: app/frontend/apps/mobile/components/CommonSectionPopup/CommonSectionPopup.vue:29
@@ -3146,7 +3146,7 @@ msgstr "Izgled stranice kategorija"
 msgid "Caution!"
 msgstr "Oprez!"
 
-#: db/seeds/settings.rb:1987
+#: db/seeds/settings.rb:1988
 msgid "Certificate (PEM)"
 msgstr "Certifikat (PEM)"
 
@@ -3377,7 +3377,7 @@ msgstr "Predlošci liste zadataka su limitirani na 100 elementa po listi."
 
 #: app/assets/javascripts/app/controllers/checklist_template.coffee:3
 #: app/assets/javascripts/app/views/checklist_template/index.jst.eco:7
-#: db/seeds/permissions.rb:305 db/seeds/settings.rb:5946
+#: db/seeds/permissions.rb:305 db/seeds/settings.rb:5947
 msgid "Checklists"
 msgstr "Liste zadataka"
 
@@ -3385,15 +3385,15 @@ msgstr "Liste zadataka"
 msgid "Checkmk"
 msgstr "Checkmk"
 
-#: db/seeds/settings.rb:4649
+#: db/seeds/settings.rb:4650
 msgid "Checkmk integration"
 msgstr "Checkmk integracija"
 
-#: db/seeds/settings.rb:4747
+#: db/seeds/settings.rb:4748
 msgid "Checkmk token"
 msgstr "Checkmk token"
 
-#: db/seeds/settings.rb:2488
+#: db/seeds/settings.rb:2489
 msgid "Checksum"
 msgstr "Checksum"
 
@@ -3550,11 +3550,11 @@ msgstr "Obriši vrijednost"
 msgid "Clearbit"
 msgstr "Clearbit"
 
-#: db/seeds/settings.rb:5388
+#: db/seeds/settings.rb:5389
 msgid "Clearbit config"
 msgstr "Clearbit konfiguracija"
 
-#: db/seeds/settings.rb:5362
+#: db/seeds/settings.rb:5363
 msgid "Clearbit integration"
 msgstr "Clearbit integracija"
 
@@ -3571,14 +3571,14 @@ msgstr "Kliknite ovdje za postavljanje dvofaktorske autentifikacijske metode."
 #: app/assets/javascripts/app/views/integration/idoit.jst.eco:21
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:9
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:9
-#: db/seeds/settings.rb:1513
+#: db/seeds/settings.rb:1514
 msgid "Client ID"
 msgstr "Client ID"
 
 #: app/assets/javascripts/app/views/exchange/app_config.jst.eco:17
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:17
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:17
-#: db/seeds/settings.rb:1519
+#: db/seeds/settings.rb:1520
 msgid "Client Secret"
 msgstr "Client zaporka"
 
@@ -3638,14 +3638,14 @@ msgstr "Zatvori bočnu ploču"
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:32
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:12
-#: db/seeds/settings.rb:3040
+#: db/seeds/settings.rb:3041
 msgid "Close tab"
 msgstr "Zatvori karticu"
 
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:37
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:16
-#: db/seeds/settings.rb:3041
+#: db/seeds/settings.rb:3042
 msgid "Close tab on ticket close"
 msgstr "Zatvori karticu prilikom zatvaranja ticketa"
 
@@ -3686,7 +3686,7 @@ msgstr "Sažmi bočnu traku"
 msgid "Collapse this element"
 msgstr "Sažmi ovaj element"
 
-#: db/seeds/settings.rb:945
+#: db/seeds/settings.rb:946
 msgid "Color representation of the open ticket indicator in the sidebar."
 msgstr "Prikaz boje otvorenog ticketa u bočnoj traci."
 
@@ -3717,7 +3717,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:11
-#: db/seeds/settings.rb:5826
+#: db/seeds/settings.rb:5827
 msgid "Complete the sign-in with your security key."
 msgstr "Dovršite prijavu svojim sigurnosnim ključem."
 
@@ -4079,7 +4079,7 @@ msgstr "Kopiraj broj ticketa"
 msgid "Copy to clipboard"
 msgstr "Kopiraj u međuspremnik"
 
-#: db/seeds/settings.rb:600
+#: db/seeds/settings.rb:601
 msgid "Core Workflow Ajax Mode"
 msgstr "Core Workflow Ajax način rada"
 
@@ -4615,7 +4615,7 @@ msgstr "Chat s kupcima"
 msgid "Customer and agent ratio (role based user counts)"
 msgstr "Omjer klijenata i agenata (broj korisnika na temelju uloge)"
 
-#: db/seeds/settings.rb:3400
+#: db/seeds/settings.rb:3401
 msgid "Customer selection based on sender and receiver list"
 msgstr "Odabir kupaca na temelju popisa pošiljatelja i primatelja"
 
@@ -4687,7 +4687,7 @@ msgid "DataPrivacyTasks"
 msgstr "Zadaci zaštite podataka"
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:7
-#: db/seeds/settings.rb:376
+#: db/seeds/settings.rb:377
 msgid "Database"
 msgstr "Baza podataka"
 
@@ -4705,7 +4705,7 @@ msgstr "Datum"
 msgid "Date & time field"
 msgstr "Polje datuma & vremena"
 
-#: db/seeds/settings.rb:2467
+#: db/seeds/settings.rb:2468
 msgid "Date (Year.Month.Day.SystemID.Counter)"
 msgstr "Datum (Godina.Mjesec.Dan.SystemID.brojač)"
 
@@ -4781,7 +4781,7 @@ msgstr "Dešifriranje je bilo uspješno."
 #: app/assets/javascripts/app/views/object_manager/attribute/select.jst.eco:9
 #: app/assets/javascripts/app/views/profile/password.jst.eco:44
 #: app/frontend/apps/desktop/pages/personal-setting/views/PersonalSettingTwoFactorAuth.vue:231
-#: db/seeds/settings.rb:886
+#: db/seeds/settings.rb:887
 msgid "Default"
 msgstr "Standard"
 
@@ -4794,11 +4794,11 @@ msgstr "Zadano ponašanje"
 msgid "Default Notifications"
 msgstr "Standardne obavijesti"
 
-#: db/seeds/settings.rb:3632
+#: db/seeds/settings.rb:3633
 msgid "Default Screen"
 msgstr "Zadani zaslon"
 
-#: db/seeds/settings.rb:2628
+#: db/seeds/settings.rb:2629
 msgid "Default Ticket Agent Notifications"
 msgstr "Standardne ticket obavijesti agenata"
 
@@ -4806,7 +4806,7 @@ msgstr "Standardne ticket obavijesti agenata"
 msgid "Default at Signup"
 msgstr "Aktivno prilikom registracije"
 
-#: db/seeds/settings.rb:4202
+#: db/seeds/settings.rb:4203
 msgid "Default calendar tickets subscriptions"
 msgstr "Zadane pretplate na tickete u kalendaru"
 
@@ -4833,7 +4833,7 @@ msgstr "Zadana vremenska razlika (sati)"
 msgid "Default time diff (minutes)"
 msgstr "Zadana vremenska razlika (minute)"
 
-#: db/seeds/settings.rb:886
+#: db/seeds/settings.rb:887
 msgid "Default type for a new ticket"
 msgstr "Zadana vrsta novog ticketa"
 
@@ -4842,7 +4842,7 @@ msgid "Default value is required."
 msgstr "Zadana vrijednost je obavezna."
 
 #: app/assets/javascripts/app/views/settings/ticket_auto_assignment.jst.eco:15
-#: db/seeds/settings.rb:2613
+#: db/seeds/settings.rb:2614
 msgid ""
 "Define an exception of \"automatic assignment\" for certain users (e.g. "
 "executives)."
@@ -4850,23 +4850,23 @@ msgstr ""
 "Kreirajte iznimku od \"automatskog dodjeljivanja\" za određene korisnike "
 "(npr. rukovoditelje)."
 
-#: db/seeds/settings.rb:3699
+#: db/seeds/settings.rb:3700
 msgid "Define max. attachment size for Elasticsearch."
 msgstr "Odredite maksimalnu veličinu privitka za Elasticsearch."
 
-#: db/seeds/settings.rb:3708
+#: db/seeds/settings.rb:3709
 msgid "Define max. payload size for Elasticsearch."
 msgstr "Odredite maksimalnu veličinu payloada za Elasticsearch."
 
-#: db/seeds/settings.rb:3726
+#: db/seeds/settings.rb:3727
 msgid "Define model configuration for Elasticsearch."
 msgstr "Postavite model konfiguracije za Elasticsearch."
 
-#: db/seeds/settings.rb:3717
+#: db/seeds/settings.rb:3718
 msgid "Define pipeline name for Elasticsearch."
 msgstr "Uredite naziv Pipelinea za Elasticsearch."
 
-#: db/seeds/settings.rb:4339
+#: db/seeds/settings.rb:4340
 msgid ""
 "Define postmaster filter to check if follow-ups get created (based on admin "
 "settings)."
@@ -4874,11 +4874,11 @@ msgstr ""
 "Uredite postmaster filter da biste provjerili stvaraju li se naknadni upiti "
 "(na temelju administratorskih postavki)."
 
-#: db/seeds/settings.rb:4285
+#: db/seeds/settings.rb:4286
 msgid "Define postmaster filter to import archive mailboxes."
 msgstr "Kreirajte postmaster filter za uvoz arhivskih sandučića."
 
-#: db/seeds/settings.rb:4282
+#: db/seeds/settings.rb:4283
 msgid "Define postmaster filter."
 msgstr "Kreirajte postmaster filter."
 
@@ -4892,42 +4892,42 @@ msgstr ""
 "i mapirajte svoje agente na njega. Na taj način Zammad može pomoći Vašim "
 "agentima pokazujući im samo relevantne unose poziva i obavijesti."
 
-#: db/seeds/settings.rb:2631
+#: db/seeds/settings.rb:2632
 msgid "Define the default agent notifications for new users."
 msgstr "Određuje zadane obavijesti agenata za nove korisnike."
 
-#: db/seeds/settings.rb:1027
+#: db/seeds/settings.rb:1028
 msgid "Define the maximum number of ticket shown in overviews."
 msgstr "Određuje maksimalan broj ticketa u pregledima."
 
-#: db/seeds/settings.rb:3681
+#: db/seeds/settings.rb:3682
 msgid "Defines Elasticsearch SSL verification."
 msgstr "Određuje Elasticsearch SSL verifikaciju."
 
-#: db/seeds/settings.rb:3672
+#: db/seeds/settings.rb:3673
 msgid "Defines Elasticsearch index name."
 msgstr "Odredite ime Elasticsearch indeksa."
 
-#: db/seeds/settings.rb:3939
+#: db/seeds/settings.rb:3940
 msgid "Defines Freshdesk endpoint authentication API key."
 msgstr "Odredite API ključ za autentificiranje krajnje točke Freshdeska."
 
-#: db/seeds/settings.rb:3663
+#: db/seeds/settings.rb:3664
 msgid "Defines HTTP basic auth password of Elasticsearch."
 msgstr "Odredite HTTP basic auth lozinku Elasticsearcha."
 
-#: db/seeds/settings.rb:3654
+#: db/seeds/settings.rb:3655
 msgid "Defines HTTP basic auth user of Elasticsearch."
 msgstr "Odredite HTTP basic auth korisnika Elasticsearcha."
 
-#: db/seeds/settings.rb:3846
+#: db/seeds/settings.rb:3847
 msgid ""
 "Defines HTTP basic authentication password (only if OTRS is protected via "
 "HTTP basic auth)."
 msgstr ""
 "Određuje lozinku HTTP BasicAuth (samo ako je OTRS zaštićen HTTP BasicAuthom)."
 
-#: db/seeds/settings.rb:3827
+#: db/seeds/settings.rb:3828
 msgid ""
 "Defines HTTP basic authentication user (only if OTRS is protected via HTTP "
 "basic auth)."
@@ -4935,52 +4935,52 @@ msgstr ""
 "Određuje HTTP basic autentifikaciju korisnika (ako je OTRS zaštićen HTTP "
 "basic authom)."
 
-#: db/seeds/settings.rb:3994
+#: db/seeds/settings.rb:3995
 msgid "Defines Kayako endpoint authentication password."
 msgstr "Određivanje lozinke za Kayako krajnju točku."
 
-#: db/seeds/settings.rb:3976
+#: db/seeds/settings.rb:3977
 msgid "Defines Kayako endpoint authentication user."
 msgstr "Određuje autentificiranje korisnika krajnje točke Kayaka."
 
-#: db/seeds/settings.rb:3808
+#: db/seeds/settings.rb:3809
 msgid "Defines OTRS endpoint authentication key."
 msgstr "Određuje ključ za OTRS autentificiranje krajnje točke."
 
-#: db/seeds/settings.rb:3883
+#: db/seeds/settings.rb:3884
 msgid "Defines Zendesk endpoint authentication API key."
 msgstr "Određuje API ključ za autentificiranje krajnje točke Zendeska."
 
-#: db/seeds/settings.rb:3902
+#: db/seeds/settings.rb:3903
 msgid "Defines Zendesk endpoint authentication user."
 msgstr "Određuje korisničko ime za autentificiranje krajnje točke Zendeska."
 
-#: db/seeds/settings.rb:3921
+#: db/seeds/settings.rb:3922
 msgid ""
 "Defines a Freshdesk endpoint to import users, tickets, states, and articles."
 msgstr ""
 "Određuje krajnju točku Freshdeska za uvoz korisnika, ticketa, statusa i "
 "članaka."
 
-#: db/seeds/settings.rb:3958
+#: db/seeds/settings.rb:3959
 msgid ""
 "Defines a Kayako endpoint to import users, tickets, states, and articles."
 msgstr "Određuje putanju Kayaka za uvoz korisnika, ticketa, statusa i članaka."
 
-#: db/seeds/settings.rb:3865
+#: db/seeds/settings.rb:3866
 msgid ""
 "Defines a Zendesk endpoint to import users, tickets, states, and articles."
 msgstr ""
 "Određuje krajnju točku Zendeska za uvoz korisnika, ticketa, statusa i "
 "članaka."
 
-#: db/seeds/settings.rb:5466
+#: db/seeds/settings.rb:5467
 msgid "Defines a dashboard stats backend that gets scheduled automatically."
 msgstr ""
 "Određuje pozadinski sustav statistike nadzorne ploče koji se automatski "
 "pokreće."
 
-#: db/seeds/settings.rb:3138
+#: db/seeds/settings.rb:3139
 msgid ""
 "Defines a limit for how many tickets can be created via web form from one IP "
 "address per day."
@@ -4988,7 +4988,7 @@ msgstr ""
 "Određuje limit koliko se ticketa dnevno može izraditi s jedne IP adrese "
 "putem mrežnog obrasca."
 
-#: db/seeds/settings.rb:3117
+#: db/seeds/settings.rb:3118
 msgid ""
 "Defines a limit for how many tickets can be created via web form from one IP "
 "address per hour."
@@ -4996,19 +4996,19 @@ msgstr ""
 "Određuje limit koliko se ticketa na sat može izraditi sa jedne IP adrese "
 "putem mrežnog obrasca."
 
-#: db/seeds/settings.rb:3159
+#: db/seeds/settings.rb:3160
 msgid ""
 "Defines a limit for how many tickets can be created via web form per day."
 msgstr ""
 "Određuje limit koliko se ticketa dnevno može izraditi putem mrežnog obrasca."
 
-#: db/seeds/settings.rb:2256
+#: db/seeds/settings.rb:2257
 msgid "Defines after how many failed logins accounts will be deactivated."
 msgstr ""
 "Određuje nakon koliko će neuspjelih pokušaja prijave računi biti "
 "deaktivirani."
 
-#: db/seeds/settings.rb:3790
+#: db/seeds/settings.rb:3791
 msgid ""
 "Defines an OTRS endpoint to import users, tickets, states, and articles."
 msgstr "Određuje putanju OTRS-a za uvoz korisnika, ticketa, statusa i članaka."
@@ -5033,16 +5033,16 @@ msgstr ""
 "prikazano sa uskličnikom, dok će niskoprioritetno biti prikazano strelicom "
 "prema dolje."
 
-#: db/seeds/settings.rb:3690
+#: db/seeds/settings.rb:3691
 msgid "Defines attachment extensions which will be ignored by Elasticsearch."
 msgstr ""
 "Određuje datotečne nastavke privitaka koje će Elasticsearch zanemariti."
 
-#: db/seeds/settings.rb:3645
+#: db/seeds/settings.rb:3646
 msgid "Defines endpoint of Elasticsearch."
 msgstr "Određuje krajnju točku Elasticsearcha."
 
-#: db/seeds/settings.rb:3006
+#: db/seeds/settings.rb:3007
 msgid ""
 "Defines groups for which a customer can create tickets via web interface. No "
 "selection means all groups are available."
@@ -5050,7 +5050,7 @@ msgstr ""
 "Određuje grupe u kojima klijent može kreirati tickete putem mrežnog sučelja. "
 "\"-\" (bez odabranog) znači da su sve grupe dostupne."
 
-#: db/seeds/settings.rb:3246
+#: db/seeds/settings.rb:3247
 msgid ""
 "Defines how the From field of emails (sent from answers and email tickets) "
 "should look like."
@@ -5058,13 +5058,13 @@ msgstr ""
 "Određuje kako bi trebalo izgledati polje pošiljatelja maila (poslano putem "
 "odgovora e-maila i putem e-mail ticketa)."
 
-#: db/seeds/settings.rb:2375
+#: db/seeds/settings.rb:2376
 msgid ""
 "Defines how the last customer contact time of tickets should be calculated."
 msgstr ""
 "Određuje kako računati vrijeme posljednjeg kontakta sa ticketom klijenta."
 
-#: db/seeds/settings.rb:312
+#: db/seeds/settings.rb:313
 msgid ""
 "Defines how to reach websocket server. \"websocket\" is default on "
 "production, \"websocketPort\" is for CI"
@@ -5072,23 +5072,23 @@ msgstr ""
 "Određuje kako kontaktirati sa websocket serverom. \"websocket\" je zadana "
 "vrijednost, \"websocketPort\" je za CI"
 
-#: db/seeds/settings.rb:4652
+#: db/seeds/settings.rb:4653
 msgid "Defines if Checkmk (https://checkmk.com/) is enabled or not."
 msgstr "Određuje da li se checkmk (https://checkmk.com/) koristi."
 
-#: db/seeds/settings.rb:5365
+#: db/seeds/settings.rb:5366
 msgid "Defines if Clearbit (http://www.clearbit.com) is enabled or not."
 msgstr "Određuje da li se Clearbit (http://www.clearbit.com) koristi."
 
-#: db/seeds/settings.rb:4916
+#: db/seeds/settings.rb:4917
 msgid "Defines if Exchange is enabled or not."
 msgstr "Određuje da li se Exchange koristi."
 
-#: db/seeds/settings.rb:4456
+#: db/seeds/settings.rb:4457
 msgid "Defines if Icinga (http://www.icinga.org) is enabled or not."
 msgstr "Određuje da li se Icinga (http://www.icinga.org) koristi."
 
-#: db/seeds/settings.rb:5576
+#: db/seeds/settings.rb:5577
 msgid ""
 "Defines if Knowledge Base navbar button is enabled for users without "
 "Knowledge Base permission."
@@ -5096,39 +5096,39 @@ msgstr ""
 "Određuje je li tipka navigacije u bazi podataka dostupna za korisnike bez "
 "prava u bazi podataka."
 
-#: db/seeds/settings.rb:5561
+#: db/seeds/settings.rb:5562
 msgid "Defines if Knowledge Base navbar button is enabled."
 msgstr "Određuje je li tipka navigacije u bazi podataka aktivna."
 
-#: db/seeds/settings.rb:4863
+#: db/seeds/settings.rb:4864
 msgid "Defines if LDAP is enabled or not."
 msgstr "Određuje koristi li se LDAP."
 
-#: db/seeds/settings.rb:4762
+#: db/seeds/settings.rb:4763
 msgid "Defines if Monit (https://mmonit.com/monit/) is enabled or not."
 msgstr "Određuje koristi li se Monit (https://mmonit.com/monit/)."
 
-#: db/seeds/settings.rb:4554
+#: db/seeds/settings.rb:4555
 msgid "Defines if Nagios (http://www.nagios.org) is enabled or not."
 msgstr "Određuje koristi li se Nagios (http://www.nagios.org)."
 
-#: db/seeds/settings.rb:5694
+#: db/seeds/settings.rb:5695
 msgid "Defines if PGP encryption is enabled or not."
 msgstr "Određuje je li PGP šifriranje aktivno."
 
-#: db/seeds/settings.rb:5302
+#: db/seeds/settings.rb:5303
 msgid "Defines if Placetel (http://www.placetel.de) is enabled or not."
 msgstr "Određuje koristi li se Placetel (http://www.placetel.de)."
 
-#: db/seeds/settings.rb:5652
+#: db/seeds/settings.rb:5653
 msgid "Defines if S/MIME encryption is enabled or not."
 msgstr "Određuje je li S/MIME šifriranje aktivno."
 
-#: db/seeds/settings.rb:5103
+#: db/seeds/settings.rb:5104
 msgid "Defines if Slack (http://www.slack.org) is enabled or not."
 msgstr "Određuje koristi li se Slack (http://www.slack.org)."
 
-#: db/seeds/settings.rb:2979
+#: db/seeds/settings.rb:2980
 msgid "Defines if a customer can create tickets via the web interface."
 msgstr "Određuje može li klijent kreirati tickete putem mrežnog sučelja."
 
@@ -5136,11 +5136,11 @@ msgstr "Određuje može li klijent kreirati tickete putem mrežnog sučelja."
 msgid "Defines if application is in init mode."
 msgstr "Određuje rad aplikacije u načinu rada \"init\"."
 
-#: db/seeds/settings.rb:86
+#: db/seeds/settings.rb:87
 msgid "Defines if application is used as online service."
 msgstr "Određuje koristi li se aplikacija kao internetska usluga."
 
-#: db/seeds/settings.rb:5777
+#: db/seeds/settings.rb:5778
 msgid ""
 "Defines if calendar weeks are shown in the picker of date/datetime fields to "
 "easily select the correct date."
@@ -5148,11 +5148,11 @@ msgstr ""
 "Određuje da li su brojevi tjedana prikazani u prozoru polja datuma (i "
 "vremena) za lak odabir točnog datuma."
 
-#: db/seeds/settings.rb:5227
+#: db/seeds/settings.rb:5228
 msgid "Defines if generic CTI integration is enabled or not."
 msgstr "Određuje da li je generička CTI integracija omogućena."
 
-#: db/seeds/settings.rb:5869
+#: db/seeds/settings.rb:5870
 msgid ""
 "Defines if recovery codes can be used by users in the event they lose access "
 "to other two-factor authentication methods."
@@ -5160,25 +5160,25 @@ msgstr ""
 "Određuje da li korisnici mogu koristiti kodove oporavka u slučaju da izgube "
 "pristup drugim dvofaktorskim autentifikacijskim metodama."
 
-#: db/seeds/settings.rb:5144
+#: db/seeds/settings.rb:5145
 msgid "Defines if sipgate.io (http://www.sipgate.io) is enabled or not."
 msgstr "Određuje koristi li se sipgate.io (http://www.sipgate.io)."
 
-#: db/seeds/settings.rb:5025
+#: db/seeds/settings.rb:5026
 msgid ""
 "Defines if the GitHub (http://www.github.com) integration is enabled or not."
 msgstr "Određuje koristi li se integracija GitHuba (http://www.github.com)."
 
-#: db/seeds/settings.rb:4983
+#: db/seeds/settings.rb:4984
 msgid ""
 "Defines if the GitLab (http://www.gitlab.com) integration is enabled or not."
 msgstr "Određuje koristi li se integracija GitHuba (http://www.github.com)."
 
-#: db/seeds/settings.rb:5736
+#: db/seeds/settings.rb:5737
 msgid "Defines if the PGP recipient alias configuration is enabled or not."
 msgstr "Određuje je li za PGP omogućena konfiguracija pseudonima primatelja."
 
-#: db/seeds/settings.rb:684
+#: db/seeds/settings.rb:685
 msgid ""
 "Defines if the agent has to accept a confirmation dialog when changing the "
 "article visibility to \"public\"."
@@ -5186,7 +5186,7 @@ msgstr ""
 "Određuje da li agent mora prihvatiti/potvrditi promjenu vidljivosti članka u "
 "\"javno\"."
 
-#: db/seeds/settings.rb:76
+#: db/seeds/settings.rb:77
 msgid ""
 "Defines if the application is in developer mode (all users have the same "
 "password and password reset will work without email delivery)."
@@ -5194,7 +5194,7 @@ msgstr ""
 "Određuje je li aplikacija u programerskom načinu rada (svi korisnici imaju "
 "istu lozinku, a resetiranje lozinke raditi će bez isporuke e-maila)."
 
-#: db/seeds/settings.rb:5921
+#: db/seeds/settings.rb:5922
 msgid ""
 "Defines if the change of the primary organization of a user will update the "
 "100 most recent tickets for this user as well."
@@ -5202,7 +5202,7 @@ msgstr ""
 "Određuje hoće li prilikom promjene primarne organizacije korisnika 100 "
 "najnovijih ticketa spomenutog korisnika biti ažurirano."
 
-#: db/seeds/settings.rb:603
+#: db/seeds/settings.rb:604
 msgid ""
 "Defines if the core workflow communication should run over ajax instead of "
 "websockets."
@@ -5210,7 +5210,7 @@ msgstr ""
 "Određuje treba li se komunikacija core workflowa izvoditi preko ajaxa "
 "umjesto putem websocketa."
 
-#: db/seeds/settings.rb:629
+#: db/seeds/settings.rb:630
 msgid ""
 "Defines if the email should be displayed in the result of the user/"
 "organization widget."
@@ -5218,19 +5218,19 @@ msgstr ""
 "Određuje treba li e-mail biti prikazan u rezultatu widgeta korisnika/"
 "organizacije."
 
-#: db/seeds/settings.rb:4943
+#: db/seeds/settings.rb:4944
 msgid ""
 "Defines if the i-doit (https://www.i-doit.org/) integration is enabled or "
 "not."
 msgstr "Određuje koristi li se integracija i-doit (https://www.i-doit.org/)."
 
-#: db/seeds/settings.rb:2402
+#: db/seeds/settings.rb:2403
 msgid ""
 "Defines if the ticket conditions editor supports complex logical expressions."
 msgstr ""
 "Određuje podržava li urednik postavki ticketa kompleksne logičke izraze."
 
-#: db/seeds/settings.rb:2428
+#: db/seeds/settings.rb:2429
 msgid ""
 "Defines if the ticket conditions editor supports regular expression "
 "operators for triggers and ticket auto assignment."
@@ -5238,18 +5238,18 @@ msgstr ""
 "Određuje podržava li urednik postavki ticketa kompleksne logičke izraze u "
 "triggerima i automatskom dodjeljivanju ticketa."
 
-#: db/seeds/settings.rb:4142
+#: db/seeds/settings.rb:4143
 msgid "Defines if the time accounting types are enabled."
 msgstr "Određuje jesu li vrste vremenskih jedinica aktivne."
 
-#: db/seeds/settings.rb:5837
+#: db/seeds/settings.rb:5838
 msgid ""
 "Defines if the two-factor authentication method authenticator app is enabled "
 "or not."
 msgstr ""
 "Određuje je li metoda dvofaktorske autentifikacijske aplikacije aktivna."
 
-#: db/seeds/settings.rb:5805
+#: db/seeds/settings.rb:5806
 msgid ""
 "Defines if the two-factor authentication method security keys is enabled or "
 "not."
@@ -5257,21 +5257,21 @@ msgstr ""
 "Određuje jesu li sigurnosni ključevi dvofaktorske autentifikacijske metode "
 "aktivni."
 
-#: db/seeds/settings.rb:3060
+#: db/seeds/settings.rb:3061
 msgid "Defines if tickets can be created via web form."
 msgstr "Određuje mogu li se ticketi izraditi putem mrežnog obrasca."
 
-#: db/seeds/settings.rb:4505
+#: db/seeds/settings.rb:4506
 msgid "Defines if tickets should be closed if service is recovered."
 msgstr "Određuje treba li ticket zatvoriti prilikom oporavka."
 
-#: db/seeds/settings.rb:4375
+#: db/seeds/settings.rb:4376
 msgid "Defines postmaster filter for filters managed via admin interface."
 msgstr ""
 "Određuje postmaster filter za filtre kojima se upravlja putem "
 "administratorskog sučelja."
 
-#: db/seeds/settings.rb:4294
+#: db/seeds/settings.rb:4295
 msgid ""
 "Defines postmaster filter to check if email has been created by Zammad "
 "itself and will set the article sender."
@@ -5279,7 +5279,7 @@ msgstr ""
 "Određuje postmaster filter koji provjerava je li e-mail stvorio Zammad i "
 "sukladno tome postavlja pošiljatelja članka."
 
-#: db/seeds/settings.rb:4303
+#: db/seeds/settings.rb:4304
 msgid ""
 "Defines postmaster filter to check if the email is a self-created "
 "notification email, then ignore it to prevent email loops."
@@ -5287,18 +5287,18 @@ msgstr ""
 "Određuje postmaster filter koji provjerava je li e-mail samostvoreni "
 "obavijesni mail a zatim ignorira mail kako bi spriječio e-mail petlje."
 
-#: db/seeds/settings.rb:4321
+#: db/seeds/settings.rb:4322
 msgid "Defines postmaster filter to handle secure mailing."
 msgstr "Određuje postmaster filter za sigurno slanje mailova."
 
-#: db/seeds/settings.rb:4429
+#: db/seeds/settings.rb:4430
 msgid ""
 "Defines postmaster filter to identify Jira mails for correct follow-ups."
 msgstr ""
 "Određuje postmaster filter za identifikaciju Jira mailova radi ispravnog "
 "sortiranja naknadnih upita."
 
-#: db/seeds/settings.rb:4411
+#: db/seeds/settings.rb:4412
 msgid ""
 "Defines postmaster filter to identify ServiceNow mails for correct follow-"
 "ups."
@@ -5306,7 +5306,7 @@ msgstr ""
 "Određuje postmaster filter za identificiranje ServiceNow mailova radi "
 "kategorizacije naknadnih upita."
 
-#: db/seeds/settings.rb:4240
+#: db/seeds/settings.rb:4241
 msgid ""
 "Defines postmaster filter to identify auto responses to prevent auto replies "
 "from Zammad."
@@ -5314,21 +5314,21 @@ msgstr ""
 "Određuje postmaster filter za prepoznavanje automatskih odgovora te "
 "spriječavanju automatskih odgovora na iste od Zammada."
 
-#: db/seeds/settings.rb:4258
+#: db/seeds/settings.rb:4259
 msgid ""
 "Defines postmaster filter to identify follow-up ticket for merged tickets."
 msgstr ""
 "Određuje postmaster filter za identifikaciju naknadnih upita kod spojenih "
 "ticketa."
 
-#: db/seeds/settings.rb:4249
+#: db/seeds/settings.rb:4250
 msgid ""
 "Defines postmaster filter to identify follow-ups (based on admin settings)."
 msgstr ""
 "Određuje postmaster filter za prepoznavanje naknadnih upita (na temelju "
 "administratorskih postavki)."
 
-#: db/seeds/settings.rb:4330
+#: db/seeds/settings.rb:4331
 msgid ""
 "Defines postmaster filter to identify out-of-office emails for follow-up "
 "detection and keeping current ticket state."
@@ -5336,7 +5336,7 @@ msgstr ""
 "Određuje postmaster filter za identifikaciju mailova o odsutnosti za "
 "otkrivanje naknadnih upita i zadržavanje trenutnog statusa ticketa."
 
-#: db/seeds/settings.rb:4357
+#: db/seeds/settings.rb:4358
 msgid ""
 "Defines postmaster filter to identify postmaster bounces; and disables "
 "sending notification if delivery fails permanently."
@@ -5344,7 +5344,7 @@ msgstr ""
 "Određuje postmaster filter za identifikaciju bounceova; i onemogućuje slanje "
 "obavijesti ako isporuku trajno nije moguće izvršiti."
 
-#: db/seeds/settings.rb:4348
+#: db/seeds/settings.rb:4349
 msgid ""
 "Defines postmaster filter to identify postmaster bounces; and handles them "
 "as follow-up of the original tickets"
@@ -5352,7 +5352,7 @@ msgstr ""
 "Određuje postmaster filter za identifikaciju bounceova; i tretira ih kao "
 "nastavak izvornih ticketa"
 
-#: db/seeds/settings.rb:4366
+#: db/seeds/settings.rb:4367
 msgid ""
 "Defines postmaster filter to identify postmaster bounces; and reopens "
 "tickets if delivery fails permanently."
@@ -5360,32 +5360,32 @@ msgstr ""
 "Određuje postmaster filter za identifikaciju bounceova; i ponovno otvara "
 "tickete ukoliko isporuka ne uspije."
 
-#: db/seeds/settings.rb:4312
+#: db/seeds/settings.rb:4313
 msgid "Defines postmaster filter to identify sender user."
 msgstr "Određuje postmaster filter za identifikaciju pošiljatelja."
 
-#: db/seeds/settings.rb:4384
+#: db/seeds/settings.rb:4385
 msgid ""
 "Defines postmaster filter to manage Icinga (http://www.icinga.org) emails."
 msgstr ""
 "Određuje postmaster filter za upravljanje Icinga (http://www.icinga.org) "
 "mailovima."
 
-#: db/seeds/settings.rb:4402
+#: db/seeds/settings.rb:4403
 msgid ""
 "Defines postmaster filter to manage Monit (https://mmonit.com/monit/) emails."
 msgstr ""
 "Određuje postmaster filter za upravljanje Monit (https://mmonit.com/monit/) "
 "mailovima."
 
-#: db/seeds/settings.rb:4393
+#: db/seeds/settings.rb:4394
 msgid ""
 "Defines postmaster filter to manage Nagios (http://www.nagios.org) emails."
 msgstr ""
 "Određuje postmaster filter za upravljanje Nagiosovim (http://www.nagios.org) "
 "mailovima."
 
-#: db/seeds/settings.rb:4231
+#: db/seeds/settings.rb:4232
 msgid ""
 "Defines postmaster filter to remove X-Zammad headers from untrustworthy "
 "sources."
@@ -5393,7 +5393,7 @@ msgstr ""
 "Određuje postmaster filter za uklanjanje X-Zammad zaglavlja od nepouzdanih "
 "izvora."
 
-#: db/seeds/settings.rb:4267
+#: db/seeds/settings.rb:4268
 msgid ""
 "Defines postmaster filter to set the owner (based on group follow up "
 "assignment)."
@@ -5401,7 +5401,7 @@ msgstr ""
 "Određuje postmaster filter za postavljanje vlasnika (na temelju postavki "
 "dodjele naknadnih upita u grupi)."
 
-#: db/seeds/settings.rb:4276
+#: db/seeds/settings.rb:4277
 msgid ""
 "Defines postmaster filter to set the sender/from of emails based on reply-to "
 "header."
@@ -5409,7 +5409,7 @@ msgstr ""
 "Određuje postmaster filter za određivanje pošiljatelja mailova na temelju "
 "zaglavlja odgovora."
 
-#: db/seeds/settings.rb:4447
+#: db/seeds/settings.rb:4448
 msgid ""
 "Defines postmaster filter which sets the articles visibility to internal if "
 "it is a rely to an internal article or the last outgoing email is internal."
@@ -5418,71 +5418,71 @@ msgstr ""
 "se radi o referenci na interni članak ili ako je posljednji odlazni mail "
 "postavljen na interno."
 
-#: db/seeds/settings.rb:4228
+#: db/seeds/settings.rb:4229
 msgid "Defines postmaster filter."
 msgstr "Određuje postmaster filter."
 
-#: db/seeds/settings.rb:230
+#: db/seeds/settings.rb:231
 msgid "Defines pretty date format."
 msgstr "Određuje ljepši format datuma."
 
-#: db/seeds/settings.rb:5455
+#: db/seeds/settings.rb:5456
 msgid "Defines processing timeout for the html sanitizer."
 msgstr "Određuje vremenski okvir za HTML obradu."
 
-#: db/seeds/settings.rb:5064
+#: db/seeds/settings.rb:5065
 msgid "Defines sync transaction backend."
 msgstr "Određuje pozadinski sustav sinkronizacijske transakcije."
 
-#: db/seeds/settings.rb:5443
+#: db/seeds/settings.rb:5444
 msgid "Defines the CSS font information for HTML emails."
 msgstr "Određuje informacije o CSS fontu za HTML mailove."
 
-#: db/seeds/settings.rb:5255
+#: db/seeds/settings.rb:5256
 msgid "Defines the CTI config."
 msgstr "Određuje CTI konfiguraciju."
 
-#: db/seeds/settings.rb:4750
+#: db/seeds/settings.rb:4751
 msgid "Defines the Checkmk token for allowing updates."
 msgstr "Određuje Checkmk token koji dopušta ažuriranja."
 
-#: db/seeds/settings.rb:5391
+#: db/seeds/settings.rb:5392
 msgid "Defines the Clearbit config."
 msgstr "Određuje Clearbit konfiguraciju."
 
-#: db/seeds/settings.rb:4903
+#: db/seeds/settings.rb:4904
 msgid "Defines the Exchange OAuth config."
 msgstr "Određuje Exchange OAuth konfiguraciju."
 
-#: db/seeds/settings.rb:4890
+#: db/seeds/settings.rb:4891
 msgid "Defines the Exchange config."
 msgstr "Određuje konfiguraciju sustava Exchange."
 
-#: db/seeds/settings.rb:339
+#: db/seeds/settings.rb:340
 msgid "Defines the HTTP protocol of your instance."
 msgstr "Određuje HTTP protokol Vaše instance."
 
-#: db/seeds/settings.rb:5722
+#: db/seeds/settings.rb:5723
 msgid "Defines the PGP config."
 msgstr "Određuje PGP konfiguraciju."
 
-#: db/seeds/settings.rb:5330
+#: db/seeds/settings.rb:5331
 msgid "Defines the Placetel config."
 msgstr "Određuje Placetel konfiguraciju."
 
-#: db/seeds/settings.rb:5680
+#: db/seeds/settings.rb:5681
 msgid "Defines the S/MIME config."
 msgstr "Određuje S/MIME konfiguraciju."
 
-#: db/seeds/settings.rb:5129
+#: db/seeds/settings.rb:5130
 msgid "Defines the Slack config."
 msgstr "Određuje Slack konfiguraciju."
 
-#: db/seeds/settings.rb:5432
+#: db/seeds/settings.rb:5433
 msgid "Defines the agent limit."
 msgstr "Određuje ograničenje broja agenata."
 
-#: db/seeds/settings.rb:425
+#: db/seeds/settings.rb:426
 msgid ""
 "Defines the backend for geo IP lookups. Also shows location of an IP address "
 "if it is traceable."
@@ -5490,7 +5490,7 @@ msgstr ""
 "Određuje pozadinski sustav za geo IP pretraživanja. Također prikazuje "
 "lokaciju IP adrese, ako se može pratiti."
 
-#: db/seeds/settings.rb:479
+#: db/seeds/settings.rb:480
 msgid ""
 "Defines the backend for geo calendar lookups. Used for initial calendar "
 "succession."
@@ -5498,7 +5498,7 @@ msgstr ""
 "Određuje pozadinski sustav za pretraživanja geo kalendara. Koristi se za "
 "prvi slijed kalendara."
 
-#: db/seeds/settings.rb:452
+#: db/seeds/settings.rb:453
 msgid ""
 "Defines the backend for geo location lookups to store geo locations for "
 "addresses."
@@ -5506,19 +5506,19 @@ msgstr ""
 "Određuje pozadinski sustav za pretraživanja geolokacije radi pohrane adresa "
 "geolokacije."
 
-#: db/seeds/settings.rb:398
+#: db/seeds/settings.rb:399
 msgid "Defines the backend for user and organization image lookups."
 msgstr ""
 "Određuje pozadinski sustav za pretraživanje korisničkih i organizacijskih "
 "slika."
 
-#: db/seeds/settings.rb:186
+#: db/seeds/settings.rb:187
 #, fuzzy
 #| msgid "Defines the tab behaviour after a ticket action."
 msgid "Defines the backend service for ticket article language detection."
 msgstr "Određuje ponašanje kartice nakon radnji u ticketu."
 
-#: db/seeds/settings.rb:2915
+#: db/seeds/settings.rb:2916
 msgid ""
 "Defines the configuration how many articles can be created in a minute range "
 "globally."
@@ -5526,7 +5526,7 @@ msgstr ""
 "Određuje limit koliko se članaka maksimalno može stvoriti unutar jedne "
 "minute u sustavu."
 
-#: db/seeds/settings.rb:2896
+#: db/seeds/settings.rb:2897
 msgid ""
 "Defines the configuration how many articles can be created in a minute range "
 "per ticket."
@@ -5534,38 +5534,38 @@ msgstr ""
 "Određuje limit, koliko se članaka unutar jedne minute u ticketu može "
 "stvoriti."
 
-#: db/seeds/settings.rb:4124
+#: db/seeds/settings.rb:4125
 msgid ""
 "Defines the custom unit to be shown next to the time accounting input field."
 msgstr ""
 "Određuje prilagođenu jedinicu koja se prikazuje pored polja za unos praćenja "
 "utrošenog vremena."
 
-#: db/seeds/settings.rb:4205
+#: db/seeds/settings.rb:4206
 msgid "Defines the default calendar tickets subscription settings."
 msgstr "Određuje zadane postavke pretplate na tickete u kalendaru."
 
-#: db/seeds/settings.rb:3635
+#: db/seeds/settings.rb:3636
 msgid "Defines the default screen."
 msgstr "Određuje zadani prikaz."
 
-#: db/seeds/settings.rb:166
+#: db/seeds/settings.rb:167
 msgid "Defines the default system language."
 msgstr "Određuje standardni jezik sustava."
 
-#: db/seeds/settings.rb:209
+#: db/seeds/settings.rb:210
 msgid "Defines the default system timezone."
 msgstr "Određuje standardnu vremensku zonu sustava."
 
-#: db/seeds/settings.rb:4160
+#: db/seeds/settings.rb:4161
 msgid "Defines the default time accounting type."
 msgstr "Određuje standardnu vrstu jedinice utrošenog vremena."
 
-#: db/seeds/settings.rb:656
+#: db/seeds/settings.rb:657
 msgid "Defines the default visibility for new notes."
 msgstr "Određuje standardnu vidljivost za nove bilješke."
 
-#: db/seeds/settings.rb:5289
+#: db/seeds/settings.rb:5290
 msgid ""
 "Defines the duration of customer activity (in seconds) on a call until the "
 "user profile dialog is shown."
@@ -5573,7 +5573,7 @@ msgstr ""
 "Određuje trajanje aktivnosti korisnika (u sekundama) u pozivu dok se ne "
 "prikaže dijaloški okvir korisničkog profila."
 
-#: db/seeds/settings.rb:289
+#: db/seeds/settings.rb:290
 msgid ""
 "Defines the fully qualified domain name of the system. This setting is used "
 "as a variable, #{setting.fqdn} which is found in all forms of messaging used "
@@ -5584,31 +5584,31 @@ msgstr ""
 "poruka koje aplikacija koristi za izgradnju poveznica do ticketa unutar "
 "Vašeg sustava."
 
-#: db/seeds/settings.rb:4678
+#: db/seeds/settings.rb:4679
 msgid "Defines the group of created tickets."
 msgstr "Određuje grupu kreiranih ticketa."
 
-#: db/seeds/settings.rb:3094
+#: db/seeds/settings.rb:3095
 msgid "Defines the group of tickets created via web form."
 msgstr "Određuje grupu ticketa kreiranih putem mrežnog obrasca."
 
-#: db/seeds/settings.rb:4970
+#: db/seeds/settings.rb:4971
 msgid "Defines the i-doit config."
 msgstr "Određuje i-doit konfiguraciju."
 
-#: db/seeds/settings.rb:4026
+#: db/seeds/settings.rb:4027
 msgid "Defines the log levels for various logging actions of the Sequencer."
 msgstr "Određuje razine zapisnika za različite zabilježene radnje sekvencera."
 
-#: db/seeds/settings.rb:120
+#: db/seeds/settings.rb:121
 msgid "Defines the logo of the application, shown in the web interface."
 msgstr "Određuje logotip aplikacije prikazan u mrežnom sučelju."
 
-#: db/seeds/settings.rb:3296
+#: db/seeds/settings.rb:3297
 msgid "Defines the maximum accepted email size in MB."
 msgstr "Određuje maksimalnu prihvaćenu veličinu mailova u MB."
 
-#: db/seeds/settings.rb:1040
+#: db/seeds/settings.rb:1041
 msgid ""
 "Defines the maximum number of allowed open tabs before auto cleanup removes "
 "surplus tabs when creating new tabs."
@@ -5616,7 +5616,7 @@ msgstr ""
 "Određuje maksimalan dozvoljeni broj otvorenih kartica prije nego što "
 "automatsko čišćenje ukloni višak kartica pri kreiranju novih."
 
-#: db/seeds/settings.rb:96
+#: db/seeds/settings.rb:97
 msgid ""
 "Defines the name of the application, shown in the web interface, tabs, and "
 "title bar of the web browser."
@@ -5624,11 +5624,11 @@ msgstr ""
 "Određuje naziv aplikacije prikazan u mrežnom-sučelju, karticama i naslovnoj "
 "traci preglednika."
 
-#: db/seeds/settings.rb:2809
+#: db/seeds/settings.rb:2810
 msgid "Defines the permission level used for lookups."
 msgstr "Određuje razinu ovlaštenja potrebnih za pretraživanje."
 
-#: db/seeds/settings.rb:320
+#: db/seeds/settings.rb:321
 msgid "Defines the port of the websocket server."
 msgstr "Određuje port websocket servera."
 
@@ -5636,23 +5636,23 @@ msgstr "Određuje port websocket servera."
 msgid "Defines the random application secret."
 msgstr "Određuje nasumičnu tajnu aplikacije."
 
-#: db/seeds/settings.rb:4482
+#: db/seeds/settings.rb:4483
 msgid "Defines the sender email address of Icinga emails."
 msgstr "Određuje adresu pošiljatelja Icinga mailova."
 
-#: db/seeds/settings.rb:4580
+#: db/seeds/settings.rb:4581
 msgid "Defines the sender email address of Nagios emails."
 msgstr "Određuje adresu pošiljatelja Nagiosovih mailova."
 
-#: db/seeds/settings.rb:4788
+#: db/seeds/settings.rb:4789
 msgid "Defines the sender email address of the service emails."
 msgstr "Određuje e-mail adresu pošiljatelja."
 
-#: db/seeds/settings.rb:3456
+#: db/seeds/settings.rb:3457
 msgid "Defines the sender of email notifications."
 msgstr "Određuje pošiljatelja e-mail obavijesti."
 
-#: db/seeds/settings.rb:3274
+#: db/seeds/settings.rb:3275
 msgid ""
 "Defines the separator between the agent's real name and the given group "
 "email address."
@@ -5660,7 +5660,7 @@ msgstr ""
 "Određuje razdjelnik između stvarnog imena agenta i korištene e-mail adrese "
 "grupe."
 
-#: db/seeds/settings.rb:1134
+#: db/seeds/settings.rb:1135
 msgid ""
 "Defines the session timeout for inactivity of users. Based on the assigned "
 "permissions the highest timeout value will be used, otherwise the default."
@@ -5669,15 +5669,15 @@ msgstr ""
 "dodijeljenih dozvola koristiti će se najviša vrijednost prekoračenja "
 "vremena, u suprotnom je to standardna vrijednost."
 
-#: db/seeds/settings.rb:5193
+#: db/seeds/settings.rb:5194
 msgid "Defines the sipgate.io config."
 msgstr "Određuje sipgate.io konfiguraciju."
 
-#: db/seeds/settings.rb:4531
+#: db/seeds/settings.rb:4532
 msgid "Defines the state of auto-closed tickets."
 msgstr "Određuje status automatski zatvorenih ticketa."
 
-#: db/seeds/settings.rb:264
+#: db/seeds/settings.rb:265
 msgid ""
 "Defines the system identifier. Every ticket number contains this ID. This "
 "ensures that only tickets which belong to your system will be processed as "
@@ -5687,39 +5687,39 @@ msgstr ""
 "osigurava da se samo ticketi koji pripadaju Vašem sustavu dodatno obrađuju "
 "(korisno u komunikaciji između dvije instance Zammada)."
 
-#: db/seeds/settings.rb:3031
+#: db/seeds/settings.rb:3032
 msgid "Defines the tab behaviour after a ticket action."
 msgstr "Određuje ponašanje kartice nakon radnji u ticketu."
 
-#: db/seeds/settings.rb:2826
+#: db/seeds/settings.rb:2827
 msgid "Defines the ticket states used for lookups."
 msgstr "Određuje status ticketa za pretraživanje."
 
-#: db/seeds/settings.rb:5588
+#: db/seeds/settings.rb:5589
 msgid "Defines the timeframe during which a self-created note can be deleted."
 msgstr ""
 "Određuje vremenski okvir tijekom kojeg se može obrisati vlastita bilješka."
 
-#: db/seeds/settings.rb:5344
+#: db/seeds/settings.rb:5345
 msgid "Defines the token for Placetel."
 msgstr "Određuje token za Placetel."
 
-#: db/seeds/settings.rb:5085
+#: db/seeds/settings.rb:5086
 msgid ""
 "Defines the transaction backend to detect customer signatures in emails."
 msgstr ""
 "Određuje pozadinski sustav transakcije za otkrivanje potpisa klijenata u "
 "mailovima."
 
-#: db/seeds/settings.rb:5067
+#: db/seeds/settings.rb:5068
 msgid "Defines the transaction backend to execute triggers."
 msgstr "Određuje pozadinski sustav transakcije za izvršavanje triggera."
 
-#: db/seeds/settings.rb:5076
+#: db/seeds/settings.rb:5077
 msgid "Defines the transaction backend to send agent notifications."
 msgstr "Određuje pozadinski sustav transakcije za slanje obavijesti agentima."
 
-#: db/seeds/settings.rb:5413
+#: db/seeds/settings.rb:5414
 msgid ""
 "Defines the transaction backend which detects caller IDs in objects and "
 "stores them for CTI lookups."
@@ -5727,11 +5727,11 @@ msgstr ""
 "Određuje pozadinski sustav transakcije koji otkriva ID-ove pozivatelja u "
 "objektima i pohranjuje ih za CTI pretraživanja."
 
-#: db/seeds/settings.rb:5422
+#: db/seeds/settings.rb:5423
 msgid "Defines the transaction backend which executes time based triggers."
 msgstr "Određuje pozadinski sustav za izvršavanje zakazanih triggera."
 
-#: db/seeds/settings.rb:5094
+#: db/seeds/settings.rb:5095
 msgid ""
 "Defines the transaction backend which posts messages to Slack (http://"
 "www.slack.com)."
@@ -5739,7 +5739,7 @@ msgstr ""
 "Određuje pozadinski sustav transakcije koji objavljuje poruke na Slacku "
 "(http://www.slack.com)."
 
-#: db/seeds/settings.rb:5404
+#: db/seeds/settings.rb:5405
 msgid ""
 "Defines the transaction backend which will enrich customer and organization "
 "information from Clearbit (http://www.clearbit.com)."
@@ -5748,43 +5748,43 @@ msgstr ""
 "klijentima i organizacijama pomoću Clearbita (http://www.clearbit.com)."
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:14
-#: db/seeds/settings.rb:4106
+#: db/seeds/settings.rb:4107
 msgid "Defines the unit to be shown next to the time accounting input field."
 msgstr ""
 "Određuje jedinicu koja će biti prikazana pored polja za unos utrošenog "
 "vremena."
 
-#: db/seeds/settings.rb:2758
+#: db/seeds/settings.rb:2759
 msgid ""
 "Defines the warning message that is shown when a matching ticket is present."
 msgstr ""
 "Određuje poruku upozorenja koja se prikazuje kada je pronađen odgovarajući "
 "ticket."
 
-#: db/seeds/settings.rb:2741
+#: db/seeds/settings.rb:2742
 msgid ""
 "Defines the warning title that is shown when a matching ticket is present."
 msgstr ""
 "Određuje naslov upozorenja koji se prikazuje kada je pronađen odgovarajući "
 "ticket."
 
-#: db/seeds/settings.rb:5073
+#: db/seeds/settings.rb:5074
 msgid "Defines transaction backend."
 msgstr "Određuje pozadinski sustav transakcije."
 
-#: db/seeds/settings.rb:2792
+#: db/seeds/settings.rb:2793
 msgid ""
 "Defines whether the matching tickets are shown in case of already existing "
 "tickets."
 msgstr ""
 "Određuje prikazuju li se slični ticketi u slučaju već postojećih ticketa."
 
-#: db/seeds/settings.rb:2724
+#: db/seeds/settings.rb:2725
 msgid "Defines which ticket attributes are checked before creating a ticket."
 msgstr ""
 "Određuje koji se ticket atributi provjeravaju prije stvaranja novog ticketa."
 
-#: db/seeds/settings.rb:2775
+#: db/seeds/settings.rb:2776
 msgid ""
 "Defines which user roles will receive a warning in case of matching tickets."
 msgstr ""
@@ -6073,7 +6073,7 @@ msgid "Destination group > Sending email address"
 msgstr "Odredišna grupa"
 
 #: app/assets/javascripts/app/views/settings/ticket_duplicate_detection.jst.eco:7
-#: db/seeds/settings.rb:2695
+#: db/seeds/settings.rb:2696
 msgid "Detect Duplicate Ticket Creation"
 msgstr "Prepoznavanje stvaranja duplih ticketa"
 
@@ -6091,7 +6091,7 @@ msgstr "Ciljani jezik"
 msgid "Detected language"
 msgstr "Ciljani jezik"
 
-#: db/seeds/settings.rb:73
+#: db/seeds/settings.rb:74
 msgid "Developer System"
 msgstr "Razvojni sustav"
 
@@ -6157,7 +6157,7 @@ msgid ""
 "this channel and switch to using a different mailbox type. %l"
 msgstr ""
 
-#: db/seeds/settings.rb:2201
+#: db/seeds/settings.rb:2202
 msgid "Digit required"
 msgstr "Potrebna je znamenka"
 
@@ -6199,7 +6199,7 @@ msgstr "Deaktiviraj"
 msgid "Disable Notifications"
 msgstr "Deaktiviraj obavijesti"
 
-#: db/seeds/settings.rb:1326
+#: db/seeds/settings.rb:1327
 msgid "Disables user creation on logon with a third-party application."
 msgstr ""
 "Onemogućuje stvaranje korisnika prilikom prijave s aplikacijom treće strane."
@@ -6264,7 +6264,7 @@ msgid "Display"
 msgstr "Prikaz"
 
 #: app/assets/javascripts/app/models/email_address.coffee:32
-#: db/seeds/settings.rb:1909
+#: db/seeds/settings.rb:1910
 msgid "Display name"
 msgstr "Prikazano ime"
 
@@ -6282,7 +6282,7 @@ msgstr "Ne šifriraj e-mail"
 msgid "Do not sign email"
 msgstr "Ne potpisuj e-mail"
 
-#: db/seeds/settings.rb:5931
+#: db/seeds/settings.rb:5932
 msgid "Do not update any tickets."
 msgstr "Nemoj ažurirati tickete."
 
@@ -6586,43 +6586,43 @@ msgstr "Uredi naslov ticketa"
 msgid "Editor"
 msgstr "Urednik"
 
-#: db/seeds/settings.rb:3687
+#: db/seeds/settings.rb:3688
 msgid "Elasticsearch Attachment Extensions"
 msgstr "Elasticsearch dodaci privitka"
 
-#: db/seeds/settings.rb:3696
+#: db/seeds/settings.rb:3697
 msgid "Elasticsearch Attachment Size"
 msgstr "Elasticsearch veličina privitka"
 
-#: db/seeds/settings.rb:3669
+#: db/seeds/settings.rb:3670
 msgid "Elasticsearch Endpoint Index"
 msgstr "Elasticsearch Endpoint indeks"
 
-#: db/seeds/settings.rb:3660
+#: db/seeds/settings.rb:3661
 msgid "Elasticsearch Endpoint Password"
 msgstr "Elasticsearch Endpoint lozinka"
 
-#: db/seeds/settings.rb:3642
+#: db/seeds/settings.rb:3643
 msgid "Elasticsearch Endpoint URL"
 msgstr "Elasticsearch Endpoint URL"
 
-#: db/seeds/settings.rb:3651
+#: db/seeds/settings.rb:3652
 msgid "Elasticsearch Endpoint User"
 msgstr "Elasticsearch Endpoint korisnik"
 
-#: db/seeds/settings.rb:3723
+#: db/seeds/settings.rb:3724
 msgid "Elasticsearch Model Configuration"
 msgstr "Elasticsearch model konfiguracije"
 
-#: db/seeds/settings.rb:3714
+#: db/seeds/settings.rb:3715
 msgid "Elasticsearch Pipeline Name"
 msgstr "Ime Elasticsearch pipelinea"
 
-#: db/seeds/settings.rb:3678
+#: db/seeds/settings.rb:3679
 msgid "Elasticsearch SSL verification"
 msgstr "Elasticsearch SSL provjera"
 
-#: db/seeds/settings.rb:3705
+#: db/seeds/settings.rb:3706
 msgid "Elasticsearch Total Payload Size"
 msgstr "Ukupna veličina Elasticsearch payloada"
 
@@ -6671,15 +6671,15 @@ msgstr "E-pošta (dolazna)"
 msgid "Email (out)"
 msgstr "E-pošta (odlazna)"
 
-#: db/seeds/settings.rb:735
+#: db/seeds/settings.rb:736
 msgid "Email - full quote"
 msgstr "E-pošta - cijeli citat"
 
-#: db/seeds/settings.rb:762
+#: db/seeds/settings.rb:763
 msgid "Email - quote header"
 msgstr "E-pošta - citat zaglavlja"
 
-#: db/seeds/settings.rb:708
+#: db/seeds/settings.rb:709
 msgid "Email - subject field"
 msgstr "E-pošta - predmet"
 
@@ -6810,11 +6810,11 @@ msgstr "Pregled"
 msgid "Enable"
 msgstr "Aktiviraj"
 
-#: db/seeds/settings.rb:3583
+#: db/seeds/settings.rb:3584
 msgid "Enable Chat"
 msgstr "Aktiviraj chat"
 
-#: app/assets/javascripts/app/views/api.jst.eco:33 db/seeds/settings.rb:3538
+#: app/assets/javascripts/app/views/api.jst.eco:33 db/seeds/settings.rb:3539
 msgid ""
 "Enable REST API access using the username/email address and password for the "
 "authentication user."
@@ -6831,7 +6831,7 @@ msgstr ""
 "lozinka). Svi korisnici trebaju stvoriti vlastite pristupne tokene u "
 "korisničkom profilu."
 
-#: db/seeds/settings.rb:3513
+#: db/seeds/settings.rb:3514
 msgid ""
 "Enable REST API using tokens (not username/email address and password). Each "
 "user needs to create its own access tokens in user profile."
@@ -6840,11 +6840,11 @@ msgstr ""
 "lozinka). Svi korisnici trebaju stvoriti vlastite pristupne tokene u "
 "korisničkom profilu."
 
-#: db/seeds/settings.rb:5866
+#: db/seeds/settings.rb:5867
 msgid "Enable Recovery Codes"
 msgstr "Omogući kodove oporavka"
 
-#: db/seeds/settings.rb:2976
+#: db/seeds/settings.rb:2977
 msgid "Enable Ticket creation"
 msgstr "Omogući kreiranje ticketa"
 
@@ -6856,7 +6856,7 @@ msgstr ""
 "Omogućite odabir vrste aktivnosti. To bi omogućilo agentima da odaberu jednu "
 "od vrsta u nastavku prilikom dodavanja utrošenog vremena."
 
-#: db/seeds/settings.rb:2596
+#: db/seeds/settings.rb:2597
 msgid "Enable auto assignment for following matching tickets."
 msgstr "Omogući automatsku dodjelu za sljedeće odgovarajuće tickete."
 
@@ -6864,7 +6864,7 @@ msgstr "Omogući automatsku dodjelu za sljedeće odgovarajuće tickete."
 msgid "Enable automatic assignment the first time an agent opens a ticket."
 msgstr "Omogući automatsku dodjelu kada agent prvi put otvori ticket."
 
-#: db/seeds/settings.rb:5949
+#: db/seeds/settings.rb:5950
 #, fuzzy
 #| msgid "Enable Chat"
 msgid "Enable checklists."
@@ -6874,7 +6874,7 @@ msgstr "Omogući chat"
 msgid "Enable debugging for implementation."
 msgstr "Omogući debugging za implementaciju."
 
-#: db/seeds/settings.rb:765
+#: db/seeds/settings.rb:766
 msgid ""
 "Enable if you want a timestamped reply header to be automatically inserted "
 "in front of quoted messages."
@@ -6882,7 +6882,7 @@ msgstr ""
 "Omogući ako želite automatsko umetanje zaglavlje odgovora s vremenskom "
 "oznakom ispred citiranih poruka."
 
-#: db/seeds/settings.rb:738
+#: db/seeds/settings.rb:739
 msgid ""
 "Enable if you want to quote the full email in your answer. The quoted email "
 "will be put at the end of your answer. If you just want to quote a certain "
@@ -6893,7 +6893,7 @@ msgstr ""
 "će stavljen na kraj Vašeg odgovora. Ako samo želite citirati određenu frazu, "
 "označite tekst i pritisnite odgovor (ova je značajka uvijek dostupna)."
 
-#: db/seeds/settings.rb:5976
+#: db/seeds/settings.rb:5977
 msgid ""
 "Enable or disable self-shutdown of Zammad processes after significant "
 "configuration changes. This should only be used if the controlling process "
@@ -6920,11 +6920,11 @@ msgstr ""
 "nisu administratori će biti izlogirani, a samo administratori mogu započeti "
 "novu sesiju."
 
-#: db/seeds/settings.rb:2570
+#: db/seeds/settings.rb:2571
 msgid "Enable ticket auto assignment."
 msgstr "Omogući automatsku dodjelu ticketa."
 
-#: db/seeds/settings.rb:4061
+#: db/seeds/settings.rb:4062
 msgid "Enable time accounting."
 msgstr "Omogući računanje utrošenog vremena."
 
@@ -6932,7 +6932,7 @@ msgstr "Omogući računanje utrošenog vremena."
 msgid "Enable/disable inline translations"
 msgstr "Omogući/onemogući usporedne prijevode"
 
-#: db/seeds/settings.rb:3586
+#: db/seeds/settings.rb:3587
 msgid "Enable/disable online chat."
 msgstr "Omogući/onemogući mrežni chat."
 
@@ -6940,12 +6940,12 @@ msgstr "Omogući/onemogući mrežni chat."
 msgid "Enabled"
 msgstr "Aktiviran"
 
-#: db/seeds/settings.rb:846
+#: db/seeds/settings.rb:847
 msgid "Enables a sidebar to show an overview of all attachments."
 msgstr "Aktivira bočnu traku za prikaz svih privitaka."
 
 #: app/assets/javascripts/app/views/settings/ticket_duplicate_detection.jst.eco:12
-#: db/seeds/settings.rb:2698
+#: db/seeds/settings.rb:2699
 msgid ""
 "Enables a warning to users during ticket creation if there is an existing "
 "ticket with the same attributes."
@@ -6953,7 +6953,7 @@ msgstr ""
 "Aktivira upozorenje korisnicima prilikom stvaranja ticketa ukoliko postoji "
 "drugi ticket sa istim atributima."
 
-#: db/seeds/settings.rb:5747
+#: db/seeds/settings.rb:5748
 msgid ""
 "Enables button for user authentication via %s. The button will redirect to /"
 "auth/sso on user interaction."
@@ -6965,15 +6965,15 @@ msgstr ""
 msgid "Enables console logging."
 msgstr "Omogućava zapisivanje konzole."
 
-#: db/seeds/settings.rb:999
+#: db/seeds/settings.rb:1000
 msgid "Enables display of ticket priority icons in UI."
 msgstr "Omogućava prikaz prioritetnih ikona u pregledima ticketa."
 
-#: db/seeds/settings.rb:819
+#: db/seeds/settings.rb:820
 msgid "Enables preview of attachments."
 msgstr "Omogućava pretpregled privitaka."
 
-#: db/seeds/settings.rb:1300
+#: db/seeds/settings.rb:1301
 msgid ""
 "Enables sending of an email notification to a user when they link their "
 "account with a third-party application."
@@ -6981,7 +6981,7 @@ msgstr ""
 "Aktivira slanje e-mail obavijesti korisnicima kad spoje svoj račun sa "
 "aplikacijom treće strane."
 
-#: db/seeds/settings.rb:1274
+#: db/seeds/settings.rb:1275
 msgid ""
 "Enables the automatic linking of an existing account on initial login via a "
 "third party application. If this is disabled, an existing user must first "
@@ -6993,52 +6993,52 @@ msgstr ""
 "prvo mora prijaviti u Zammad, a zatim povezati svoj račun kod \"treće "
 "osobe\" sa svojim Zammad računom putem profila -> povezani računi."
 
-#: db/seeds/settings.rb:1211
+#: db/seeds/settings.rb:1212
 msgid "Enables user authentication via %s."
 msgstr "Omogućava autentifikaciju korisnika putem %s."
 
-#: db/seeds/settings.rb:1352
+#: db/seeds/settings.rb:1353
 msgid ""
 "Enables user authentication via %s. Register your app first at [%s](%s)."
 msgstr ""
 "Omogućava autentifikaciju korisnika putem %s. Prvo registrirajte svoju "
 "aplikaciju na [%s](%s)."
 
-#: db/seeds/settings.rb:1637
+#: db/seeds/settings.rb:1638
 msgid "Enables user authentication via GitHub."
 msgstr "Omogućava autentifikaciju korisnika putem GitHuba."
 
-#: db/seeds/settings.rb:1701
+#: db/seeds/settings.rb:1702
 msgid "Enables user authentication via GitLab."
 msgstr "Omogućava autentifikaciju korisnika putem GitLaba."
 
-#: db/seeds/settings.rb:1509
+#: db/seeds/settings.rb:1510
 msgid "Enables user authentication via Google."
 msgstr "Omogućava autentifikaciju korisnika putem Googlea."
 
-#: db/seeds/settings.rb:1573
+#: db/seeds/settings.rb:1574
 msgid "Enables user authentication via LinkedIn."
 msgstr "Omogućava autentifikaciju korisnika putem LinkedIna."
 
-#: db/seeds/settings.rb:1772
+#: db/seeds/settings.rb:1773
 msgid "Enables user authentication via Microsoft 365."
 msgstr "Omogućava autentifikaciju korisnika putem Microsoft 365."
 
-#: db/seeds/settings.rb:2063
+#: db/seeds/settings.rb:2064
 #, fuzzy
 #| msgid "Enables user authentication via Weibo."
 msgid "Enables user authentication via OpenID Connect."
 msgstr "Omogućava autentifikaciju korisnika putem Weibo-a."
 
-#: db/seeds/settings.rb:1905
+#: db/seeds/settings.rb:1906
 msgid "Enables user authentication via SAML."
 msgstr "Omogućava autentifikaciju korisnika putem SAML-a."
 
-#: db/seeds/settings.rb:1842
+#: db/seeds/settings.rb:1843
 msgid "Enables user authentication via Weibo."
 msgstr "Omogućava autentifikaciju korisnika putem Weibo-a."
 
-#: db/seeds/settings.rb:1080
+#: db/seeds/settings.rb:1081
 msgid ""
 "Enables users to create their own account via web interface. This setting is "
 "only effective if the password login is enabled."
@@ -7102,11 +7102,11 @@ msgstr "Krajnja točka"
 msgid "Endpoint Settings"
 msgstr "Postavke krajnje točke"
 
-#: db/seeds/settings.rb:5893
+#: db/seeds/settings.rb:5894
 msgid "Enforce the setup of the two-factor authentication"
 msgstr "Postavite dvofaktorsku autentifikaciju kao obavezno"
 
-#: db/seeds/settings.rb:5900
+#: db/seeds/settings.rb:5901
 msgid "Enforced for user roles"
 msgstr "Obavezno za korisničke uloge"
 
@@ -7472,15 +7472,15 @@ msgstr "Izuzeti korisnici"
 msgid "Exchange"
 msgstr "Exchange"
 
-#: db/seeds/settings.rb:4900
+#: db/seeds/settings.rb:4901
 msgid "Exchange OAuth"
 msgstr "Exchange OAuth"
 
-#: db/seeds/settings.rb:4887
+#: db/seeds/settings.rb:4888
 msgid "Exchange config"
 msgstr "Exchange konfiguracija"
 
-#: db/seeds/settings.rb:4913
+#: db/seeds/settings.rb:4914
 msgid "Exchange integration"
 msgstr "Exchange integracija"
 
@@ -7581,7 +7581,7 @@ msgstr "Izdvoji informacije o Zammad privicima iz polja"
 #: app/controllers/first_steps_controller.rb:31
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:19
 #: app/frontend/shared/entities/ticket-article/action/plugins/facebook.ts:48
-#: db/seeds/permissions.rb:173 db/seeds/settings.rb:1433
+#: db/seeds/permissions.rb:173 db/seeds/settings.rb:1434
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -7593,7 +7593,7 @@ msgstr "Facebook APP ID"
 msgid "Facebook Account"
 msgstr "Facebook račun"
 
-#: db/seeds/settings.rb:1442
+#: db/seeds/settings.rb:1443
 msgid "Facebook App Credentials"
 msgstr "Facebook prijavni podaci"
 
@@ -7601,7 +7601,7 @@ msgstr "Facebook prijavni podaci"
 msgid "Facebook App Secret"
 msgstr "Facebook App prijavni podaci"
 
-#: db/seeds/settings.rb:1434
+#: db/seeds/settings.rb:1435
 msgid "Facebook Developer Site"
 msgstr "Facebook programerska stranica"
 
@@ -7705,7 +7705,7 @@ msgstr "Povratna informacija"
 msgid "Feedback Form"
 msgstr "Obrazac za povratne informacije"
 
-#: db/seeds/settings.rb:2095
+#: db/seeds/settings.rb:2096
 #, fuzzy
 #| msgid ""
 #| "Attribute that uniquely identifies the user. If unset, the name "
@@ -7740,7 +7740,7 @@ msgid "Filepath to Zammad directory"
 msgstr "Putanja datoteke do Zammad mape"
 
 #: app/assets/javascripts/app/views/settings/storage_provider.jst.eco:5
-#: db/seeds/settings.rb:377
+#: db/seeds/settings.rb:378
 msgid "Filesystem"
 msgstr "Datotečni sustav"
 
@@ -8066,7 +8066,7 @@ msgstr "Puno ime"
 msgid "Full name"
 msgstr "Puno ime"
 
-#: db/seeds/settings.rb:286
+#: db/seeds/settings.rb:287
 msgid "Fully Qualified Domain Name"
 msgstr "Potpuno definirano ime domene"
 
@@ -8122,15 +8122,15 @@ msgstr ""
 "Generički API za integraciju pružatelja VoIP usluga sa obavijestima u "
 "stvarnom vremenu."
 
-#: db/seeds/settings.rb:476
+#: db/seeds/settings.rb:477
 msgid "Geo Calendar Service"
 msgstr "Usluga geo kalendara"
 
-#: db/seeds/settings.rb:422
+#: db/seeds/settings.rb:423
 msgid "Geo IP Service"
 msgstr "Geo IP usluga"
 
-#: db/seeds/settings.rb:449
+#: db/seeds/settings.rb:450
 msgid "Geo Location Service"
 msgstr "Usluga geolokacije"
 
@@ -8145,7 +8145,7 @@ msgstr "Primaj obavijesti"
 
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/authenticator_app.coffee:6
 #: app/frontend/shared/entities/two-factor/plugins/authenticator-app.ts:11
-#: db/seeds/settings.rb:5858
+#: db/seeds/settings.rb:5859
 msgid "Get the security code from the authenticator app on your device."
 msgstr ""
 "Primite sigurnosni kod u autentifikacijskoj aplikaciji na Vašem uređaju."
@@ -8164,23 +8164,23 @@ msgstr "Dohvaćanje ključnih informacija iz preglednika…"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/useTicketExternalIssueTracker.ts:51
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/github.ts:11
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:40
-#: db/seeds/settings.rb:1626
+#: db/seeds/settings.rb:1627
 msgid "GitHub"
 msgstr "GitHub"
 
-#: db/seeds/settings.rb:1634
+#: db/seeds/settings.rb:1635
 msgid "GitHub App Credentials"
 msgstr "GitHub prijavni podaci"
 
-#: db/seeds/settings.rb:1627
+#: db/seeds/settings.rb:1628
 msgid "GitHub OAuth Applications"
 msgstr "GitHub OAuth aplikacije"
 
-#: db/seeds/settings.rb:5049
+#: db/seeds/settings.rb:5050
 msgid "GitHub config"
 msgstr "GitHub konfiguracija"
 
-#: db/seeds/settings.rb:5022
+#: db/seeds/settings.rb:5023
 msgid "GitHub integration"
 msgstr "GitHub integracija"
 
@@ -8202,23 +8202,23 @@ msgstr "Poveži bug"
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarExternalIssueTracker/useTicketExternalIssueTracker.ts:52
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/plugins/gitlab.ts:11
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:47
-#: db/seeds/settings.rb:1690
+#: db/seeds/settings.rb:1691
 msgid "GitLab"
 msgstr "GitLab"
 
-#: db/seeds/settings.rb:1698
+#: db/seeds/settings.rb:1699
 msgid "GitLab App Credentials"
 msgstr "GitLab prijavni podaci"
 
-#: db/seeds/settings.rb:1691
+#: db/seeds/settings.rb:1692
 msgid "GitLab Applications"
 msgstr "GitLab aplikacije"
 
-#: db/seeds/settings.rb:5007
+#: db/seeds/settings.rb:5008
 msgid "GitLab config"
 msgstr "GitLab konfiguracija"
 
-#: db/seeds/settings.rb:4980
+#: db/seeds/settings.rb:4981
 msgid "GitLab integration"
 msgstr "GitLab integracija"
 
@@ -8289,15 +8289,15 @@ msgstr "Odjavna poruka"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:96
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:61
-#: db/seeds/permissions.rb:149 db/seeds/settings.rb:1498
+#: db/seeds/permissions.rb:149 db/seeds/settings.rb:1499
 msgid "Google"
 msgstr "Google"
 
-#: db/seeds/settings.rb:1499
+#: db/seeds/settings.rb:1500
 msgid "Google API Console Site"
 msgstr "Google API konzolna stranica"
 
-#: db/seeds/settings.rb:1506
+#: db/seeds/settings.rb:1507
 msgid "Google App Credentials"
 msgstr "Google prijavni podaci"
 
@@ -8359,7 +8359,7 @@ msgstr "Pozdrav"
 #: app/views/messaging/ticket_create/zh-tw.md.erb:3
 #: app/views/messaging/ticket_info/pt-br.md.erb:3
 #: app/views/messaging/ticket_info/zh-tw.md.erb:3
-#: db/seeds/object_manager_attributes.rb:162 db/seeds/settings.rb:3003
+#: db/seeds/object_manager_attributes.rb:162 db/seeds/settings.rb:3004
 #: lib/excel_sheet/ticket.rb:27
 msgid "Group"
 msgstr "Grupa"
@@ -8411,11 +8411,11 @@ msgid "Group permissions"
 msgstr "Grupne ovlasti"
 
 #: app/assets/javascripts/app/views/channel/form.jst.eco:18
-#: db/seeds/settings.rb:3003
+#: db/seeds/settings.rb:3004
 msgid "Group selection for Ticket creation"
 msgstr "Odabir grupa za kreiranje ticketa"
 
-#: db/seeds/settings.rb:3091
+#: db/seeds/settings.rb:3092
 msgid "Group selection for ticket creation"
 msgstr "Odabir grupa za kreiranje ticketa"
 
@@ -8450,11 +8450,11 @@ msgstr "Grupe su …"
 msgid "HMAC SHA1 Signature Token"
 msgstr "HMAC SHA1 potpisni token"
 
-#: db/seeds/settings.rb:5440
+#: db/seeds/settings.rb:5441
 msgid "HTML Email CSS Font"
 msgstr "HTML mail CSS font"
 
-#: db/seeds/settings.rb:5452
+#: db/seeds/settings.rb:5453
 msgid "HTML Sanitizer Processing Timeout"
 msgstr "Vremensko ograničenje HTML obrade"
 
@@ -8486,7 +8486,7 @@ msgstr "HTTP osnovno autentifikacijsko korisničko ime"
 msgid "HTTP Log"
 msgstr "HTTP zapisnik"
 
-#: db/seeds/settings.rb:336
+#: db/seeds/settings.rb:337
 msgid "HTTP type"
 msgstr "HTTP tip"
 
@@ -8684,11 +8684,11 @@ msgstr "Boja oznake"
 msgid "Highlight icon"
 msgstr "Označi simbol"
 
-#: db/seeds/settings.rb:5604
+#: db/seeds/settings.rb:5605
 msgid "Highlights if the note a user is writing is public or private"
 msgstr "Označi ako je bilješka koju korisnik piše javna ili interna"
 
-#: db/seeds/settings.rb:5601
+#: db/seeds/settings.rb:5602
 msgid "Hint for adding an article to an existing ticket."
 msgstr "Savjet za dodavanje članka postojećem ticketu."
 
@@ -8803,19 +8803,19 @@ msgstr "ID"
 msgid "ID:"
 msgstr "ID:"
 
-#: db/seeds/settings.rb:1916
+#: db/seeds/settings.rb:1917
 msgid "IDP SSO target URL"
 msgstr "IDP SSO odredišni URL"
 
-#: db/seeds/settings.rb:1924
+#: db/seeds/settings.rb:1925
 msgid "IDP Single Logout target URL"
 msgstr "IDP Single Logout odredišni link"
 
-#: db/seeds/settings.rb:1932
+#: db/seeds/settings.rb:1933
 msgid "IDP certificate"
 msgstr "IDP certifikat"
 
-#: db/seeds/settings.rb:1940
+#: db/seeds/settings.rb:1941
 msgid "IDP certificate fingerprint"
 msgstr "IDP certifikat otiska"
 
@@ -8827,7 +8827,7 @@ msgstr "IMAP"
 msgid "Icinga"
 msgstr "Icinga"
 
-#: db/seeds/settings.rb:4453
+#: db/seeds/settings.rb:4454
 msgid "Icinga integration"
 msgstr "Icinga integracija"
 
@@ -8847,7 +8847,7 @@ msgstr "Skup ikona"
 msgid "Icon URL"
 msgstr "URL ikone"
 
-#: db/seeds/settings.rb:2074
+#: db/seeds/settings.rb:2075
 #, fuzzy
 #| msgid "Get notified"
 msgid "Identifier"
@@ -8857,7 +8857,7 @@ msgstr "Primaj obavijesti"
 msgid "Identifier of the chat topic."
 msgstr "Identifikator teme chata."
 
-#: db/seeds/settings.rb:3613
+#: db/seeds/settings.rb:3614
 msgid "Idle timeout in seconds until agent is set offline automatically."
 msgstr ""
 "Vremensko ograničenje neaktivnosti u sekundama dok se agenta automatski ne "
@@ -8897,7 +8897,7 @@ msgid ""
 msgstr ""
 "Ako host i usluga ponovno funkcioniraju, ticket se može automatski zatvoriti."
 
-#: db/seeds/settings.rb:3403
+#: db/seeds/settings.rb:3404
 msgid ""
 "If the sender is an agent, set the first user in the recipient list as the "
 "customer."
@@ -8905,7 +8905,7 @@ msgstr ""
 "Ako je pošiljatelj agent, postavlja prvog korisnika na popisu primatelja kao "
 "klijenta."
 
-#: db/seeds/settings.rb:3479
+#: db/seeds/settings.rb:3480
 msgid "If this regex matches, no notification will be sent by the sender."
 msgstr "Ako se regex podudara, obavijest neće biti poslana pošiljatelju."
 
@@ -8985,7 +8985,7 @@ msgstr ""
 msgid "Ignore Escalation"
 msgstr "Ignoriraj eskalaciju"
 
-#: db/seeds/settings.rb:3764
+#: db/seeds/settings.rb:3765
 msgid "Ignore Escalation/SLA Information"
 msgstr "Zanemari eskalaciju/SLA informaciju"
 
@@ -8993,11 +8993,11 @@ msgstr "Zanemari eskalaciju/SLA informaciju"
 msgid "Ignore Message"
 msgstr "Zanemari poruku"
 
-#: db/seeds/settings.rb:3767
+#: db/seeds/settings.rb:3768
 msgid "Ignore escalation/SLA information for import."
 msgstr "Zanemari informacije o eskalaciji/SLA-u tijekom uvoza."
 
-#: db/seeds/settings.rb:2847
+#: db/seeds/settings.rb:2848
 msgid "Ignore system_id"
 msgstr "Zanemari ID sustava"
 
@@ -9005,7 +9005,7 @@ msgstr "Zanemari ID sustava"
 msgid "Image"
 msgstr "Slika"
 
-#: db/seeds/settings.rb:395
+#: db/seeds/settings.rb:396
 msgid "Image Service"
 msgstr "Slikovna usluga"
 
@@ -9053,51 +9053,51 @@ msgstr "Uvoz %s"
 msgid "Import API key could not be extracted from URL."
 msgstr "API ključ za uvoz nije moguće prepoznati iz URL-a."
 
-#: db/seeds/settings.rb:3936
+#: db/seeds/settings.rb:3937
 msgid "Import API key for requesting the Freshdesk API"
 msgstr "API ključ za uvoz putem Freshdesk API-ja"
 
-#: db/seeds/settings.rb:3880
+#: db/seeds/settings.rb:3881
 msgid "Import API key for requesting the Zendesk API"
 msgstr "API ključ za uvoz putem Zendesk API-ja"
 
-#: db/seeds/settings.rb:3755
+#: db/seeds/settings.rb:3756
 msgid "Import Backend"
 msgstr "Pozadinski modul uvoza"
 
-#: db/seeds/settings.rb:4010
+#: db/seeds/settings.rb:4011
 msgid "Import Backends"
 msgstr "Pozadinski moduli uvoza"
 
-#: db/seeds/settings.rb:3787
+#: db/seeds/settings.rb:3788
 msgid "Import Endpoint"
 msgstr "Odredište uvoza"
 
-#: db/seeds/settings.rb:3805
+#: db/seeds/settings.rb:3806
 msgid "Import Key"
 msgstr "Ključ uvoza"
 
-#: db/seeds/settings.rb:3733
+#: db/seeds/settings.rb:3734
 msgid "Import Mode"
 msgstr "Način uvoza"
 
-#: db/seeds/settings.rb:3843
+#: db/seeds/settings.rb:3844
 msgid "Import Password for HTTP basic authentication"
 msgstr "Lozinka za uvoz putem HTTP-BasicAutha"
 
-#: db/seeds/settings.rb:3991
+#: db/seeds/settings.rb:3992
 msgid "Import Password for requesting the Kayako API"
 msgstr "Lozinka za uvoz putem Kayako API-ja"
 
-#: db/seeds/settings.rb:3824
+#: db/seeds/settings.rb:3825
 msgid "Import User for HTTP basic authentication"
 msgstr "Korisničko ime za uvoz putem HTTP basic auth"
 
-#: db/seeds/settings.rb:3973
+#: db/seeds/settings.rb:3974
 msgid "Import User for requesting the Kayako API"
 msgstr "Korisničko ime za uvoz putem Kayako API-ja"
 
-#: db/seeds/settings.rb:3899
+#: db/seeds/settings.rb:3900
 msgid "Import User for requesting the Zendesk API"
 msgstr "Korisničko ime za uvoz putem Zendesk API-ja"
 
@@ -9224,7 +9224,7 @@ msgstr "Nepotpune stavke liste zadataka"
 msgid "Incomplete credentials"
 msgstr "Nepotpuni pristupni podaci"
 
-#: db/seeds/settings.rb:2466
+#: db/seeds/settings.rb:2467
 msgid "Increment (SystemID.Counter)"
 msgstr "Povećanje (SystemID.brojač)"
 
@@ -9638,7 +9638,7 @@ msgstr "%s linka"
 msgid "Issue status"
 msgstr "Status poruke"
 
-#: db/seeds/settings.rb:2082
+#: db/seeds/settings.rb:2083
 #, fuzzy
 #| msgid "no issues"
 msgid "Issuer"
@@ -9769,7 +9769,7 @@ msgstr "Ključne riječi"
 #: app/assets/javascripts/app/controllers/_manage/knowledge_base.coffee:2
 #: app/assets/javascripts/app/controllers/knowledge_base/agent_controller.coffee:3
 #: app/assets/javascripts/app/models/knowledge_base.coffee:75
-#: app/models/knowledge_base.rb:199 db/seeds/permissions.rb:113
+#: app/models/knowledge_base.rb:218 db/seeds/permissions.rb:113
 msgid "Knowledge Base"
 msgstr "Baza znanja"
 
@@ -9789,22 +9789,22 @@ msgstr "Sažetak baze podataka"
 msgid "Knowledge Base Reader"
 msgstr "Čitatelj baze podataka"
 
-#: db/seeds/settings.rb:5558
+#: db/seeds/settings.rb:5559
 msgid "Knowledge Base active"
 msgstr "Baza podataka aktivna"
 
-#: db/seeds/settings.rb:5573
+#: db/seeds/settings.rb:5574
 msgid "Knowledge Base active publicly"
 msgstr "Baza podataka javno dostupna"
 
-#: db/seeds/settings.rb:5547
+#: db/seeds/settings.rb:5548
 msgid "Knowledge Base multilingual support"
 msgstr "Višejezična podrška u bazi podataka"
 
 #: app/assets/javascripts/app/controllers/_integration/ldap.coffee:3
 #: app/assets/javascripts/app/views/integration/ldap.jst.eco:24
 #: app/assets/javascripts/app/views/integration/ldap_wizard.jst.eco:8
-#: db/seeds/settings.rb:1245
+#: db/seeds/settings.rb:1246
 msgid "LDAP"
 msgstr "LDAP"
 
@@ -9812,7 +9812,7 @@ msgstr "LDAP"
 msgid "LDAP Host"
 msgstr "LDAP server"
 
-#: db/seeds/settings.rb:4860
+#: db/seeds/settings.rb:4861
 msgid "LDAP integration"
 msgstr "LDAP integracija"
 
@@ -9844,7 +9844,7 @@ msgstr "Izgled početne stranice"
 msgid "Language"
 msgstr "Jezik"
 
-#: db/seeds/settings.rb:183
+#: db/seeds/settings.rb:184
 #, fuzzy
 #| msgid "Geo Location Service"
 msgid "Language Detection Service"
@@ -9988,15 +9988,15 @@ msgstr "Ograniči na grupe"
 msgid "Limit notifications to specific groups"
 msgstr "Ograničavanje obavijesti na određene grupe"
 
-#: db/seeds/settings.rb:3135
+#: db/seeds/settings.rb:3136
 msgid "Limit tickets by IP per day"
 msgstr "Ograniči dnevni broj ticketa po IP adresi"
 
-#: db/seeds/settings.rb:3114
+#: db/seeds/settings.rb:3115
 msgid "Limit tickets by IP per hour"
 msgstr "Ograniči broj ticketa sa jedne IP adrese u satu"
 
-#: db/seeds/settings.rb:3156
+#: db/seeds/settings.rb:3157
 msgid "Limit tickets per day"
 msgstr "Ograniči dnevni broj ticketa"
 
@@ -10138,15 +10138,15 @@ msgstr "Povezani računi"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:76
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:33
-#: db/seeds/settings.rb:1562
+#: db/seeds/settings.rb:1563
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: db/seeds/settings.rb:1570
+#: db/seeds/settings.rb:1571
 msgid "LinkedIn App Credentials"
 msgstr "Prijavni podaci LinkedIn aplikacije"
 
-#: db/seeds/settings.rb:1563
+#: db/seeds/settings.rb:1564
 msgid "LinkedIn Developer Site"
 msgstr "LinkedIn programerska stranica"
 
@@ -10212,7 +10212,7 @@ msgstr "Učitavanje nije uspjelo."
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:647
 #: app/assets/javascripts/app/views/generic/page_loading.jst.eco:3
 #: app/frontend/apps/desktop/components/CommonLoader/CommonLoader.vue:63
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:512
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:513
 #: app/frontend/shared/form/i18n/locales.ts:58
 #: app/views/init/spinner-loading.html.erb:254
 msgid "Loading…"
@@ -10223,7 +10223,7 @@ msgid "Local MTA (Sendmail/Postfix/Exim/…) - use server setup"
 msgstr "Lokalni MTA (Sendmail/Postfix/Exim/…) - koristi postavke servera"
 
 #: app/assets/javascripts/app/models/job.coffee:13
-#: app/assets/javascripts/app/models/trigger.coffee:12 db/seeds/settings.rb:163
+#: app/assets/javascripts/app/models/trigger.coffee:12 db/seeds/settings.rb:164
 msgid "Locale"
 msgstr "Jezik"
 
@@ -10283,7 +10283,7 @@ msgstr ""
 
 #: app/assets/javascripts/app/views/getting_started/base.jst.eco:14
 #: app/frontend/apps/mobile/pages/authentication/components/LoginFooter.vue:22
-#: db/seeds/settings.rb:117
+#: db/seeds/settings.rb:118
 msgid "Logo"
 msgstr "Logo"
 
@@ -10291,7 +10291,7 @@ msgstr "Logo"
 msgid "Logout"
 msgstr "Odjava"
 
-#: db/seeds/settings.rb:1103
+#: db/seeds/settings.rb:1104
 msgid "Lost Password"
 msgstr "Izgubljena lozinka"
 
@@ -10707,7 +10707,7 @@ msgid "Match none (NOT)"
 msgstr "Podudaranje sa nijednim (NE)"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:38
-#: db/seeds/settings.rb:2823
+#: db/seeds/settings.rb:2824
 msgid "Match tickets in following states"
 msgstr "Usporedi tickete u sljedećim statusima"
 
@@ -10740,7 +10740,7 @@ msgstr "Maksimalan broj istovremenih chatova"
 msgid "Max. length"
 msgstr "Maksimalna dužina"
 
-#: db/seeds/settings.rb:3181
+#: db/seeds/settings.rb:3182
 msgid "Max. length of the subject in an email reply."
 msgstr "Maksimalna dužina predmeta e-mail odgovora."
 
@@ -10765,27 +10765,27 @@ msgstr ""
 msgid "Maximal value must be lower than 2147483648"
 msgstr "Maksimalna vrijednost mora biti niža od 2147483648"
 
-#: db/seeds/settings.rb:3293
+#: db/seeds/settings.rb:3294
 msgid "Maximum Email Size"
 msgstr "Maksimalna veličina e-maila"
 
-#: db/seeds/settings.rb:2931
+#: db/seeds/settings.rb:2932
 msgid "Maximum Recursive Ticket Triggers Depth"
 msgstr "Maksimalna dubina rekurzivnih triggera ticketa"
 
-#: db/seeds/settings.rb:2253
+#: db/seeds/settings.rb:2254
 msgid "Maximum failed logins"
 msgstr "Maksimalan broj neuspjelih prijava"
 
-#: db/seeds/settings.rb:1037
+#: db/seeds/settings.rb:1038
 msgid "Maximum number of open tabs."
 msgstr "Maksimalan broj otvorenih kartica."
 
-#: db/seeds/settings.rb:2934
+#: db/seeds/settings.rb:2935
 msgid "Maximum number of recursively executed triggers."
 msgstr "Maksimalan broj rekurzivno izvršenih triggera."
 
-#: db/seeds/settings.rb:1024
+#: db/seeds/settings.rb:1025
 msgid "Maximum number of ticket shown in overviews"
 msgstr "Maksimalan broj ticketa prikazanih u pregledima"
 
@@ -10931,7 +10931,7 @@ msgstr "Metoda (AJAX putanja)"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:91
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:54
-#: db/seeds/settings.rb:1761
+#: db/seeds/settings.rb:1762
 msgid "Microsoft"
 msgstr "Microsoft"
 
@@ -10939,7 +10939,7 @@ msgstr "Microsoft"
 msgid "Microsoft 365"
 msgstr "Microsoft 365"
 
-#: db/seeds/settings.rb:1769
+#: db/seeds/settings.rb:1770
 msgid "Microsoft 365 App Credentials"
 msgstr "Prijavni podaci Microsoft 365 aplikacije"
 
@@ -10959,7 +10959,7 @@ msgstr "Microsoft 365"
 msgid "Microsoft 365 IMAP Email"
 msgstr "Microsoft 365"
 
-#: db/seeds/settings.rb:1762
+#: db/seeds/settings.rb:1763
 msgid "Microsoft Application Registration Portal"
 msgstr "Microsoftov portal za registraciju aplikacija"
 
@@ -11003,7 +11003,7 @@ msgstr "Migrator ne može pročitati OTRS podatke!"
 msgid "Milestone"
 msgstr "Značajan događaj"
 
-#: db/seeds/settings.rb:2498
+#: db/seeds/settings.rb:2499
 msgid "Min. size of number"
 msgstr "Minimalna vrijednost broja"
 
@@ -11023,7 +11023,7 @@ msgstr "Minimalna vrijednost mora biti veća od -2147483648"
 msgid "Minimal value must be lower than 2147483648"
 msgstr "Minimalna vrijednost mora biti manja od 2147483648"
 
-#: db/seeds/settings.rb:2135
+#: db/seeds/settings.rb:2136
 msgid "Minimum length"
 msgstr "Minimalna duljina"
 
@@ -11072,7 +11072,7 @@ msgstr "ponedjeljak"
 msgid "Monit"
 msgstr "Monit"
 
-#: db/seeds/settings.rb:4759
+#: db/seeds/settings.rb:4760
 msgid "Monit integration"
 msgstr "Monit integracija"
 
@@ -11082,7 +11082,7 @@ msgstr "Monit integracija"
 msgid "Monitoring"
 msgstr "Nadzor"
 
-#: db/seeds/settings.rb:3561
+#: db/seeds/settings.rb:3562
 msgid "Monitoring Token"
 msgstr "Token za nadzor"
 
@@ -11199,7 +11199,7 @@ msgstr "Moji ticketi u obradi"
 msgid "Nagios"
 msgstr "Nagios"
 
-#: db/seeds/settings.rb:4551
+#: db/seeds/settings.rb:4552
 msgid "Nagios integration"
 msgstr "Nagios integracija"
 
@@ -11272,7 +11272,7 @@ msgstr "Nagios integracija"
 msgid "Name"
 msgstr "Ime"
 
-#: db/seeds/settings.rb:1948
+#: db/seeds/settings.rb:1949
 msgid "Name Identifier Format"
 msgstr "Format identifikacije imenom"
 
@@ -11327,7 +11327,7 @@ msgstr "Session_id je potreban."
 msgid "Need user_id or organization_id as param"
 msgstr "Potreban user_id ili organization_id kao parametar"
 
-#: db/seeds/settings.rb:2208
+#: db/seeds/settings.rb:2209
 msgid "Needed"
 msgstr "obavezan"
 
@@ -11451,7 +11451,7 @@ msgid "New Source"
 msgstr "Novi izvor"
 
 #: app/assets/javascripts/app/views/tag/index.jst.eco:14
-#: db/seeds/settings.rb:4175
+#: db/seeds/settings.rb:4176
 msgid "New Tags"
 msgstr "Nove oznake"
 
@@ -11495,7 +11495,7 @@ msgstr "Novi okidač"
 msgid "New User"
 msgstr "Novi korisnik"
 
-#: db/seeds/settings.rb:1077
+#: db/seeds/settings.rb:1078
 msgid "New User Accounts"
 msgstr "Novi korisnički račun"
 
@@ -11616,7 +11616,7 @@ msgstr "Idući status"
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:43
 #: app/assets/javascripts/app/views/ticket_zoom/overview_navigator.jst.eco:12
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:21
-#: db/seeds/settings.rb:3042
+#: db/seeds/settings.rb:3043
 msgid "Next in overview"
 msgstr "Sljedeći pregled"
 
@@ -11695,7 +11695,7 @@ msgstr "Microsoft 365 aplikacija nije konfigurirana!"
 msgid "No Overviews"
 msgstr "Pregledi"
 
-#: db/seeds/settings.rb:576
+#: db/seeds/settings.rb:577
 msgid "No Proxy"
 msgstr "Nema proxy-a"
 
@@ -11830,7 +11830,7 @@ msgstr "Nema pronađenih organizacija"
 msgid "No private key found."
 msgstr "Privatni ključ nije pronađen."
 
-#: db/seeds/settings.rb:579
+#: db/seeds/settings.rb:580
 msgid "No proxy for the following hosts."
 msgstr "Bez proxy-a za sljedeće servere."
 
@@ -11855,8 +11855,8 @@ msgid "No results for this query."
 msgstr "Nema pronađenih rezultata"
 
 #: app/assets/javascripts/app/lib/base/jquery.textmodule.js:698
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:338
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:522
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:339
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:523
 #: app/frontend/apps/desktop/components/NavigationMenu/NavigationMenu.vue:90
 #: app/frontend/apps/desktop/pages/ticket/components/TicketSidebar/TicketSidebarExternalReferences/TicketSidebarIdoit/IdoitFlyout/IdoitObjectList.vue:37
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:402
@@ -11931,7 +11931,7 @@ msgstr "Trenutno nemate nepročitanih obavijesti. :)"
 msgid "No unread notifications."
 msgstr "Nepročitane obavijesti"
 
-#: db/seeds/settings.rb:1323
+#: db/seeds/settings.rb:1324
 msgid "No user creation on logon"
 msgstr "Nema stvaranja korisnika prilikom prijave"
 
@@ -11959,7 +11959,7 @@ msgstr "Ne, hvala"
 #: app/assets/javascripts/app/controllers/knowledge_base/permissions_dialog.coffee:9
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_unit.coffee:55
 #: app/assets/javascripts/app/views/data_privacy/tasks.jst.eco:65
-#: app/graphql/gql/types/ticket_type.rb:108 db/seeds/settings.rb:1980
+#: app/graphql/gql/types/ticket_type.rb:108 db/seeds/settings.rb:1981
 msgid "None"
 msgstr "Prazno"
 
@@ -12061,7 +12061,7 @@ msgstr ""
 msgid "Note"
 msgstr "Bilješka"
 
-#: db/seeds/settings.rb:653
+#: db/seeds/settings.rb:654
 msgid "Note - default visibility"
 msgstr "Bilješka - standardna vidljivost"
 
@@ -12112,7 +12112,7 @@ msgid "Notification"
 msgstr "Obavijest"
 
 #: app/frontend/apps/desktop/pages/guided-setup/views/GuidedSetupManual/GuidedSetupManualEmailNotification.vue:42
-#: db/seeds/settings.rb:3453
+#: db/seeds/settings.rb:3454
 msgid "Notification Sender"
 msgstr "Pošiljatelj obavijesti"
 
@@ -12318,7 +12318,7 @@ msgstr "Dostupan(a)"
 msgid "Online Forms"
 msgstr "Online formulari"
 
-#: db/seeds/settings.rb:83
+#: db/seeds/settings.rb:84
 msgid "Online Service"
 msgstr "Internetska usluga"
 
@@ -12338,11 +12338,11 @@ msgstr ""
 "Prevedeno je samo %s% ovog jezika. Molimo Vas, pomozite nam poboljšati "
 "Zammad i dovršiti prijevod."
 
-#: db/seeds/settings.rb:1983
+#: db/seeds/settings.rb:1984
 msgid "Only Encrypting"
 msgstr "Samo šifriranje"
 
-#: db/seeds/settings.rb:1982
+#: db/seeds/settings.rb:1983
 msgid "Only Signing"
 msgstr "Samo potpisivanje"
 
@@ -12437,7 +12437,7 @@ msgstr "Omjer otvorenih i zatvorenih ticketa (broj ticketa na osnovu statusa)"
 msgid "Open in new tab"
 msgstr "Otvori u novoj kartici"
 
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:77
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:78
 msgid "Open link"
 msgstr "Otvori poveznicu"
 
@@ -12479,7 +12479,7 @@ msgstr "Otvori alat za odabir vremena"
 msgid "Open the years overlay"
 msgstr "Otvori godišnji pregled"
 
-#: db/seeds/settings.rb:942
+#: db/seeds/settings.rb:943
 msgid "Open ticket indicator"
 msgstr "Pokazatelj otvorenog ticketa"
 
@@ -12496,13 +12496,13 @@ msgstr ""
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:116
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:94
-#: db/seeds/settings.rb:2052
+#: db/seeds/settings.rb:2053
 #, fuzzy
 #| msgid "Connect"
 msgid "OpenID Connect"
 msgstr "Poveži"
 
-#: db/seeds/settings.rb:2060
+#: db/seeds/settings.rb:2061
 #, fuzzy
 #| msgid "Test Connection"
 msgid "OpenID Connect Options"
@@ -12594,7 +12594,7 @@ msgstr "Poredak pregleda ticketa"
 #: app/frontend/apps/mobile/pages/organization/views/OrganizationDetailView.vue:30
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/plugins/organization.ts:6
 #: app/graphql/gql/types/overview_type.rb:94
-#: db/seeds/object_manager_attributes.rb:94 db/seeds/settings.rb:140
+#: db/seeds/object_manager_attributes.rb:94 db/seeds/settings.rb:141
 #: lib/excel_sheet/ticket.rb:30
 msgid "Organization"
 msgstr "Organizacija"
@@ -12833,19 +12833,19 @@ msgstr ""
 msgid "PGP"
 msgstr "PGP"
 
-#: db/seeds/settings.rb:5733
+#: db/seeds/settings.rb:5734
 msgid "PGP Recipient Alias Configuration"
 msgstr "Konfiguracija PGP pseudonima primatelja"
 
-#: db/seeds/settings.rb:5719
+#: db/seeds/settings.rb:5720
 msgid "PGP config"
 msgstr "PGP konfiguracija"
 
-#: db/seeds/settings.rb:5691
+#: db/seeds/settings.rb:5692
 msgid "PGP integration"
 msgstr "PGP integracija"
 
-#: db/seeds/settings.rb:2106
+#: db/seeds/settings.rb:2107
 msgid "PKCE"
 msgstr ""
 
@@ -12931,7 +12931,7 @@ msgstr "Lozinka & autentifikacija"
 msgid "Password Access"
 msgstr "Pristup lozinkom"
 
-#: db/seeds/settings.rb:1050
+#: db/seeds/settings.rb:1051
 msgid "Password Login"
 msgstr "Prijava lozinkom"
 
@@ -12959,23 +12959,23 @@ msgstr "Lozinku nije moguće provjeriti"
 msgid "Password for proxy connection"
 msgstr "Lozinka za povezivanje s proxyjem"
 
-#: db/seeds/settings.rb:555
+#: db/seeds/settings.rb:556
 msgid "Password for proxy connection."
 msgstr "Lozinka za povezivanje s proxyjem."
 
-#: db/seeds/settings.rb:2178
+#: db/seeds/settings.rb:2179
 msgid "Password needs to contain 2 lower case and 2 upper case characters."
 msgstr "Lozinka mora sadržavati dva mala i dva velika slova."
 
-#: db/seeds/settings.rb:2204
+#: db/seeds/settings.rb:2205
 msgid "Password needs to contain at least one digit."
 msgstr "Lozinka mora sadržavati najmanje jednu znamenku."
 
-#: db/seeds/settings.rb:2230
+#: db/seeds/settings.rb:2231
 msgid "Password needs to contain at least one special character."
 msgstr "Lozinka mora sadržavati barem jedan poseban znak."
 
-#: db/seeds/settings.rb:2138
+#: db/seeds/settings.rb:2139
 msgid "Password needs to have at least a minimal number of characters."
 msgstr "Lozinka mora imati barem minimalan broj znakova."
 
@@ -13046,7 +13046,7 @@ msgid "Permanently Delete Knowledge Base"
 msgstr "Trajno brisanje baze podataka"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:37
-#: db/seeds/settings.rb:2806
+#: db/seeds/settings.rb:2807
 msgid "Permission level for looking up tickets"
 msgstr "Razina ovlasti za pretraživanje ticketa"
 
@@ -13124,15 +13124,15 @@ msgstr "Ružičasto"
 msgid "Placetel"
 msgstr "Placetel"
 
-#: db/seeds/settings.rb:5341
+#: db/seeds/settings.rb:5342
 msgid "Placetel Token"
 msgstr "Placetel token"
 
-#: db/seeds/settings.rb:5327
+#: db/seeds/settings.rb:5328
 msgid "Placetel config"
 msgstr "Placetel konfiguracija"
 
-#: db/seeds/settings.rb:5299
+#: db/seeds/settings.rb:5300
 msgid "Placetel integration"
 msgstr "Placetel integracija"
 
@@ -13231,7 +13231,7 @@ msgstr "Molimo, unesite ispravan URL."
 msgid "Please install the OTRS migrator plugin and provide a valid URL."
 msgstr "Molimo instalirajte OTRS dodatak za migraciju i dodajte ispravan URL."
 
-#: db/seeds/settings.rb:1945
+#: db/seeds/settings.rb:1946
 msgid ""
 "Please note that this attribute is deprecated within one of the next "
 "versions of Zammad. Use the IDP certificate instead."
@@ -13373,7 +13373,7 @@ msgstr "Upotrijebi shemu boja predlozenu od sustava."
 msgid "Press the button below to finish the setup."
 msgstr "Pritisnite donju tipku da biste dovršili postavljanje."
 
-#: db/seeds/settings.rb:227
+#: db/seeds/settings.rb:228
 msgid "Pretty Date"
 msgstr "Ljepši oblik datuma"
 
@@ -13488,11 +13488,11 @@ msgstr "Prioritet"
 msgid "Priority Icon"
 msgstr "Ikone prioriteta ticketa"
 
-#: db/seeds/settings.rb:1994
+#: db/seeds/settings.rb:1995
 msgid "Private key (PEM)"
 msgstr "Privatni ključ (PEM)"
 
-#: db/seeds/settings.rb:2001
+#: db/seeds/settings.rb:2002
 msgid "Private key secret"
 msgstr "Tajna privatnog ključa"
 
@@ -13516,7 +13516,7 @@ msgstr "Obradite tickete na čekanju."
 msgid "Process ticket escalations."
 msgstr "Obradite eskalirane tickete."
 
-#: db/seeds/settings.rb:93
+#: db/seeds/settings.rb:94
 msgid "Product Name"
 msgstr "Naziv proizvoda"
 
@@ -13543,7 +13543,7 @@ msgstr "Postavke profila"
 msgid "Profiles"
 msgstr "Profili"
 
-#: db/seeds/settings.rb:2116
+#: db/seeds/settings.rb:2117
 msgid ""
 "Proof Key for Code Exchange is currently only supporting SHA256 as code "
 "challenge method."
@@ -13562,15 +13562,15 @@ msgstr "Postavite pozicije za sve unose u kontekstu"
 msgid "Provider"
 msgstr "Provider"
 
-#: db/seeds/settings.rb:552
+#: db/seeds/settings.rb:553
 msgid "Proxy Password"
 msgstr "Proxy lozinka"
 
-#: db/seeds/settings.rb:503
+#: db/seeds/settings.rb:504
 msgid "Proxy Settings"
 msgstr "Proxy postavke"
 
-#: db/seeds/settings.rb:528
+#: db/seeds/settings.rb:529
 msgid "Proxy User"
 msgstr "Proxy korisnik"
 
@@ -13630,7 +13630,7 @@ msgstr ""
 "Postavite poruku na prijavnu stranicu. Jednostavno kliknite na tekst kako "
 "biste ga izravno uredili."
 
-#: db/seeds/settings.rb:3736
+#: db/seeds/settings.rb:3737
 msgid "Puts Zammad into import mode (disables some triggers)."
 msgstr "Aktivira uvoz u Zammad (onemogućuje određene okidače)."
 
@@ -13779,7 +13779,7 @@ msgstr ""
 "Kodovi za oporavak mogu se koristiti za pristup Vašem računu, u slučaju da "
 "izgubite pristup drugim dvofaktorskim metodama autentifikacije."
 
-#: db/seeds/settings.rb:2867
+#: db/seeds/settings.rb:2868
 msgid "Recursive Ticket Triggers"
 msgstr "Rekurzivni okidači ticketa"
 
@@ -13787,7 +13787,7 @@ msgstr "Rekurzivni okidači ticketa"
 msgid "Redis version"
 msgstr "Redis verzija"
 
-#: db/seeds/settings.rb:3355
+#: db/seeds/settings.rb:3356
 msgid ""
 "References - Search for follow-up also in In-Reply-To or References headers."
 msgstr "Reference – pretražite zaglavlje In-Reply-To i References."
@@ -13822,7 +13822,7 @@ msgstr "Povezani odgovori"
 msgid "Relax, your system is being set up…"
 msgstr "Opustite se, postavljamo Vaš sustav…"
 
-#: app/assets/javascripts/app/views/maintenance.jst.eco:52
+#: app/assets/javascripts/app/views/maintenance.jst.eco:53
 msgid "Reload application"
 msgstr "Ponovno učitaj aplikaciju"
 
@@ -14089,7 +14089,7 @@ msgstr "Nedostaje obavezan parametar ’profile’."
 msgid "Requirements"
 msgstr "Preduvjeti"
 
-#: db/seeds/settings.rb:5896
+#: db/seeds/settings.rb:5897
 msgid ""
 "Requires the setup of the two-factor authentication for certain user roles."
 msgstr ""
@@ -14407,7 +14407,7 @@ msgstr ""
 "S/MIME (Secure/Multipurpose Internet Mail Extensions) je nadaleko korištena "
 "metoda (točnije protokol) za slanje digitalno potpisanih i šifriranih poruka."
 
-#: db/seeds/settings.rb:5677
+#: db/seeds/settings.rb:5678
 msgid "S/MIME config"
 msgstr "S/MIME konfiguracija"
 
@@ -14415,17 +14415,17 @@ msgstr "S/MIME konfiguracija"
 msgid "S/MIME enables you to send digitally signed and encrypted messages."
 msgstr "Uz S/MIME možete slati digitalno potpisane i šifrirane poruke."
 
-#: db/seeds/settings.rb:5649
+#: db/seeds/settings.rb:5650
 msgid "S/MIME integration"
 msgstr "S/MIME integracija"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:106
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:77
-#: db/seeds/settings.rb:1894
+#: db/seeds/settings.rb:1895
 msgid "SAML"
 msgstr "SAML"
 
-#: db/seeds/settings.rb:1902
+#: db/seeds/settings.rb:1903
 msgid "SAML App Credentials"
 msgstr "Prijavni podaci SAML aplikacije"
 
@@ -14514,7 +14514,7 @@ msgstr "SSL/STARTTLS"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:111
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:84
-#: db/seeds/settings.rb:5765
+#: db/seeds/settings.rb:5766
 msgid "SSO"
 msgstr "SSO"
 
@@ -14597,7 +14597,7 @@ msgstr "Spremi kao"
 msgid "Save as draft"
 msgstr "Spremi kao skicu"
 
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:350
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:351
 msgid "Save changes"
 msgstr "Spremi promjene"
 
@@ -14637,11 +14637,11 @@ msgstr "Automatizacija"
 msgid "Schedulers"
 msgstr "Automatizacije"
 
-#: db/seeds/settings.rb:2098
+#: db/seeds/settings.rb:2099
 msgid "Scopes"
 msgstr ""
 
-#: db/seeds/settings.rb:2103
+#: db/seeds/settings.rb:2104
 msgid ""
 "Scopes that are included, separated by a single space character. If unset, "
 "\"openid email profile\" is used."
@@ -14867,7 +14867,7 @@ msgstr "Sigurnosni ključ"
 #: app/assets/javascripts/app/controllers/widget/two_factor_configuration/modal/security_keys.coffee:4
 #: app/assets/javascripts/app/lib/app_post/two_factor_methods/security_keys.coffee:5
 #: app/frontend/shared/entities/two-factor/plugins/security-keys.ts:10
-#: db/seeds/settings.rb:5802
+#: db/seeds/settings.rb:5803
 msgid "Security Keys"
 msgstr "Sigurnosni ključevi"
 
@@ -14964,7 +14964,7 @@ msgstr "Odaberi predložak"
 msgid "Select all entries"
 msgstr "označi sve opcije"
 
-#: db/seeds/settings.rb:889
+#: db/seeds/settings.rb:890
 msgid "Select default ticket type"
 msgstr "Odabir zadane vrste ticketa"
 
@@ -15025,8 +15025,8 @@ msgstr "Kriteriji"
 msgid "Selects the ticket number generator module."
 msgstr "Odabire način generiranja broja ticketa."
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:474
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:486
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:475
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:487
 #: app/frontend/apps/mobile/components/CommonSelect/CommonSelect.vue:201
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:302
 #: app/frontend/apps/mobile/components/Form/fields/FieldTags/FieldTagsDialog.vue:173
@@ -15075,16 +15075,16 @@ msgstr ""
 "Pošaljite automatske podsjetnike klijentima tražeći od njih odgovor, ako je "
 "rok od 24 sata blizu isteka."
 
-#: db/seeds/settings.rb:3426
+#: db/seeds/settings.rb:3427
 msgid "Send postmaster mail if mail too large"
 msgstr "Pošalji postmaster e-mail, ukoliko je e-mail prevelik"
 
-#: db/seeds/settings.rb:3429
+#: db/seeds/settings.rb:3430
 msgid "Send postmaster reject mail to sender of mail if mail is too large."
 msgstr ""
 "Pošalji postmaster e-mail odbijanja pošiljatelju, ukoliko je e-mail prevelik."
 
-#: app/assets/javascripts/app/views/maintenance.jst.eco:55
+#: app/assets/javascripts/app/views/maintenance.jst.eco:56
 msgid "Send to clients"
 msgstr "Pošalji klijentima"
 
@@ -15092,16 +15092,16 @@ msgstr "Pošalji klijentima"
 #: app/assets/javascripts/app/views/channel/sms_account_overview.jst.eco:51
 #: app/models/channel/driver/sms/massenversand.rb:45
 #: app/models/channel/driver/sms/message_bird.rb:92
-#: app/models/channel/driver/sms/twilio.rb:106 db/seeds/settings.rb:3243
+#: app/models/channel/driver/sms/twilio.rb:106 db/seeds/settings.rb:3244
 #: lib/excel_sheet/ticket.rb:32
 msgid "Sender"
 msgstr "Pošiljatelj"
 
-#: db/seeds/settings.rb:3243
+#: db/seeds/settings.rb:3244
 msgid "Sender Format"
 msgstr "Format pošiljatelja"
 
-#: db/seeds/settings.rb:3271
+#: db/seeds/settings.rb:3272
 msgid "Sender Format Separator"
 msgstr "Razdjelnik formata pošiljatelja"
 
@@ -15110,7 +15110,7 @@ msgstr "Razdjelnik formata pošiljatelja"
 msgid "Sender Type"
 msgstr "Vrsta pošiljatelja"
 
-#: db/seeds/settings.rb:3372
+#: db/seeds/settings.rb:3373
 msgid "Sender based on Reply-To header"
 msgstr "Pošiljatelj na temelju \"Odgovori na\" zaglavlja"
 
@@ -15132,7 +15132,7 @@ msgstr "Slanje maila bez ispravnog primatelja nije moguće."
 msgid "Sending…"
 msgstr "Slanje…"
 
-#: app/assets/javascripts/app/controllers/maintenance.coffee:87
+#: app/assets/javascripts/app/controllers/maintenance.coffee:99
 msgid "Sent successfully!"
 msgstr "Uspješno poslano!"
 
@@ -15150,7 +15150,7 @@ msgstr "Odvojite višestruke vrijednosti sa ;"
 msgid "September"
 msgstr "Rujan"
 
-#: db/seeds/settings.rb:4023
+#: db/seeds/settings.rb:4024
 msgid "Sequencer log level"
 msgstr "Razina evidencije sekvencera"
 
@@ -15180,7 +15180,7 @@ msgstr "Usluge"
 msgid "Session"
 msgstr "Sesija"
 
-#: db/seeds/settings.rb:1131
+#: db/seeds/settings.rb:1132
 msgid "Session Timeout"
 msgstr "Prekoračenje vremena sesije"
 
@@ -15211,7 +15211,7 @@ msgstr "Postavi dvofaktorsku autentifikaciju: %s"
 msgid "Set a title for your ticket"
 msgstr "Upišite naslov svog ticketa"
 
-#: db/seeds/settings.rb:5429
+#: db/seeds/settings.rb:5430
 msgid "Set agent limit"
 msgstr "Postavi ograničenje broja agenta"
 
@@ -15233,11 +15233,11 @@ msgstr "Postavi kao zadano"
 msgid "Set authenticator app as default"
 msgstr "Postavi autentifikacijsku aplikaciju kao zadanu"
 
-#: db/seeds/settings.rb:917
+#: db/seeds/settings.rb:918
 msgid "Set available ticket types"
 msgstr "Postavljanje mogućih vrsta ticketa"
 
-#: db/seeds/settings.rb:3758
+#: db/seeds/settings.rb:3759
 msgid "Set backend which is being used for import."
 msgstr "Navedite koji će se pozadinski sustav koristiti za uvoz podataka."
 
@@ -15266,7 +15266,7 @@ msgstr "Postavljanje ID-a izlaznog pozivatelja"
 msgid "Set security keys as default"
 msgstr "Postavi sigurnosne ključeve kao zadane"
 
-#: db/seeds/settings.rb:5591
+#: db/seeds/settings.rb:5592
 msgid ""
 "Set timeframe in seconds. If it's set to 0 you can delete notes without time "
 "limits"
@@ -15309,7 +15309,7 @@ msgstr "Postavite komunikacijske kanale koje želite koristiti u Zammad-u."
 msgid "Set up two-factor authentication"
 msgstr "Postavi dvofaktorsku autentifikaciju"
 
-#: db/seeds/settings.rb:3375
+#: db/seeds/settings.rb:3376
 msgid ""
 "Set/overwrite sender/from of email based on \"Reply-To\" header. Useful to "
 "set correct customer if email is received from a third-party system on "
@@ -15439,7 +15439,7 @@ msgstr "Pokaži ikonu sažetka"
 msgid "Show Search Details"
 msgstr "Pokaži detalje pretraživanja"
 
-#: db/seeds/settings.rb:874
+#: db/seeds/settings.rb:875
 msgid ""
 "Show additional notes for ticket creation depending on the selected type."
 msgstr "Pokaži dodatne bilješke za kreiranje ticketa, ovisno o odabranom tipu."
@@ -15453,7 +15453,7 @@ msgstr "Pokaži sve…"
 msgid "Show authenticator app secret"
 msgstr "Pokaži tajnu autentifikacijske aplikacije"
 
-#: db/seeds/settings.rb:5774
+#: db/seeds/settings.rb:5775
 msgid "Show calendar weeks in the picker of date/datetime fields"
 msgstr "Prikaz tjedana kalendara u polju za odabir datuma (i vremena)"
 
@@ -15469,7 +15469,7 @@ msgstr "Pokaži manje"
 msgid "Show matching ticket(s) in the warning"
 msgstr "Pokaži pronađene tickete u upozorenju"
 
-#: db/seeds/settings.rb:2789
+#: db/seeds/settings.rb:2790
 msgid "Show matching tickets in the warning"
 msgstr "Pokaži pronađene tickete u upozorenju"
 
@@ -15487,7 +15487,7 @@ msgstr "Pokaži sljedeću karticu"
 msgid "Show notifications"
 msgstr "Spremi obavijesti"
 
-#: db/seeds/settings.rb:1053
+#: db/seeds/settings.rb:1054
 msgid ""
 "Show password login for users on login page. Disabling only takes effect if "
 "third-party authentication is enabled."
@@ -15513,7 +15513,7 @@ msgid "Show ticket viewers"
 msgstr "Prikaz gledatelja ticketa"
 
 #: app/assets/javascripts/app/views/time_accounting/settings.jst.eco:6
-#: db/seeds/settings.rb:4088
+#: db/seeds/settings.rb:4089
 msgid "Show time accounting dialog when updating matching tickets."
 msgstr ""
 "Prikaži dijaloški okvir utrošenog vremena prilikom ažuriranja odgovarajućih "
@@ -15523,7 +15523,7 @@ msgstr ""
 msgid "Show title in form."
 msgstr "Pokaži naslov u obrascu."
 
-#: db/seeds/settings.rb:2772
+#: db/seeds/settings.rb:2773
 msgid "Show to user roles"
 msgstr "Pokaži korisničkim ulogama"
 
@@ -15549,7 +15549,7 @@ msgstr "Pokazuje se kada je chat zatvoren."
 msgid "Side panel footer"
 msgstr "Podnožje bočnog polja"
 
-#: db/seeds/settings.rb:816
+#: db/seeds/settings.rb:817
 msgid "Sidebar Attachments"
 msgstr "Privici bočne trake"
 
@@ -15643,7 +15643,7 @@ msgstr "Potpisi"
 msgid "Signed"
 msgstr "Potpisano"
 
-#: db/seeds/settings.rb:1975
+#: db/seeds/settings.rb:1976
 msgid "Signing & Encrypting"
 msgstr "Potpisivanje & šifriranje"
 
@@ -15651,7 +15651,7 @@ msgstr "Potpisivanje & šifriranje"
 msgid "Signup Screen"
 msgstr "Zaslon za registraciju"
 
-#: db/seeds/settings.rb:2751
+#: db/seeds/settings.rb:2752
 msgid "Similar tickets found"
 msgstr "Slični ticketi pronađeni"
 
@@ -15659,7 +15659,7 @@ msgstr "Slični ticketi pronađeni"
 msgid "Simple Line Icons"
 msgstr "Jednostavne ikone"
 
-#: db/seeds/settings.rb:378
+#: db/seeds/settings.rb:379
 msgid "Simple Storage (S3)"
 msgstr "Simple Storage (S3)"
 
@@ -15681,11 +15681,11 @@ msgstr ""
 msgid "Simple Storage Service not reachable."
 msgstr "Simple Storage usluga nije dostupna."
 
-#: db/seeds/settings.rb:1832
+#: db/seeds/settings.rb:1833
 msgid "Sina Weibo"
 msgstr "Sina Weibo"
 
-#: db/seeds/settings.rb:1832
+#: db/seeds/settings.rb:1833
 msgid "Sina Weibo Open Portal"
 msgstr "Sina Weibo otvoreni portal"
 
@@ -15715,7 +15715,7 @@ msgstr "Polje jednostrukog granajućeg izbora"
 msgid "Sipgate"
 msgstr "Sipgate"
 
-#: db/seeds/settings.rb:1717
+#: db/seeds/settings.rb:1718
 msgid "Site"
 msgstr "Stranica"
 
@@ -15737,11 +15737,11 @@ msgstr "Slack"
 msgid "Slack Notifications"
 msgstr "Slack obavijesti"
 
-#: db/seeds/settings.rb:5126
+#: db/seeds/settings.rb:5127
 msgid "Slack config"
 msgstr "Slack konfiguracija"
 
-#: db/seeds/settings.rb:5100
+#: db/seeds/settings.rb:5101
 msgid "Slack integration"
 msgstr "Slack integracija"
 
@@ -15828,7 +15828,7 @@ msgstr "Izvor"
 msgid "Sources"
 msgstr "Izvori"
 
-#: db/seeds/settings.rb:2227
+#: db/seeds/settings.rb:2228
 msgid "Special character required"
 msgstr "Potreban je poseban znak"
 
@@ -15850,7 +15850,7 @@ msgid "Standard Group/Pool for Tickets."
 msgstr "Standardna grupa za tickete."
 
 #: app/assets/javascripts/app/controllers/knowledge_base/reader_list_controller.coffee:34
-#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:79
+#: app/frontend/apps/desktop/components/CommonInlineEdit/CommonInlineEdit.vue:80
 msgid "Start Editing"
 msgstr "Započni uređivanje"
 
@@ -15913,7 +15913,7 @@ msgstr "Započnite pisanje kako biste potražili ili dodali telefonski broj…"
 msgid "Start typing to search or enter an email address…"
 msgstr "Započnite pisanje kako biste potražili ili dodali e-mail adresu…"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:73
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:74
 #: app/frontend/apps/desktop/components/Form/fields/FieldTags/FieldTagsWrapper.vue:41
 #: app/frontend/apps/mobile/components/Form/fields/FieldAutoComplete/FieldAutoCompleteInputDialog.vue:409
 msgid "Start typing to search…"
@@ -15959,7 +15959,7 @@ msgstr "Status"
 msgid "State Icon"
 msgstr "Status"
 
-#: db/seeds/settings.rb:5463
+#: db/seeds/settings.rb:5464
 msgid "Stats Backend"
 msgstr "Statistika pozadinskog sustava"
 
@@ -15991,7 +15991,7 @@ msgstr "Status:"
 #: app/assets/javascripts/app/models/macro.coffee:9
 #: app/assets/javascripts/app/views/ticket_zoom/attribute_bar.jst.eco:49
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TicketScreenBehavior/behaviorOptions.ts:8
-#: db/seeds/settings.rb:3043
+#: db/seeds/settings.rb:3044
 msgid "Stay on tab"
 msgstr "Ostani unutar kartice"
 
@@ -16025,7 +16025,7 @@ msgstr "Zaustavi nakon poklapanja"
 msgid "Storage"
 msgstr "Spremanje"
 
-#: db/seeds/settings.rb:364
+#: db/seeds/settings.rb:365
 msgid "Storage Method"
 msgstr "Metoda spremanja"
 
@@ -16033,11 +16033,11 @@ msgstr "Metoda spremanja"
 msgid "Store"
 msgstr "Spremište"
 
-#: db/seeds/settings.rb:5052
+#: db/seeds/settings.rb:5053
 msgid "Stores the GitHub configuration."
 msgstr "Sprema GitHub konfiguraciju."
 
-#: db/seeds/settings.rb:5010
+#: db/seeds/settings.rb:5011
 msgid "Stores the GitLab configuration."
 msgstr "Sprema GitLab konfiguraciju."
 
@@ -16061,7 +16061,7 @@ msgstr "Ulica"
 msgid "Subject"
 msgstr "Predmet"
 
-#: db/seeds/settings.rb:3358
+#: db/seeds/settings.rb:3359
 msgid ""
 "Subject & References - Additional search for same article subject and same "
 "message ID in references header if no follow-up was recognized using default "
@@ -16158,7 +16158,7 @@ msgstr "Ned"
 msgid "Sunday"
 msgstr "Nedjelja"
 
-#: db/seeds/settings.rb:5550
+#: db/seeds/settings.rb:5551
 msgid "Support of multilingual Knowledge Base."
 msgstr "Podržava višejezičnu bazu podataka."
 
@@ -16188,7 +16188,7 @@ msgstr "Sinkroniziraj sa računalom"
 msgid "System"
 msgstr "Sustav"
 
-#: db/seeds/settings.rb:3255
+#: db/seeds/settings.rb:3256
 msgid "System Address Display Name"
 msgstr "Naziv adrese sustava"
 
@@ -16235,17 +16235,17 @@ msgstr ""
 "javnoj platformi %l. Ima vrlo praktično korisničko sučelje temeljeno na "
 "Weblate-u, isprobajte!"
 
-#: db/seeds/settings.rb:5623
+#: db/seeds/settings.rb:5624
 msgid ""
 "System-wide configuration of the query polling mechanism for ticket "
 "overviews."
 msgstr ""
 
-#: db/seeds/settings.rb:261
+#: db/seeds/settings.rb:262
 msgid "SystemID"
 msgstr "ID sustava"
 
-#: db/seeds/settings.rb:3028
+#: db/seeds/settings.rb:3029
 msgid "Tab behaviour after ticket action"
 msgstr "Ponašanje kartice nakon izvršene radnje u ticketu"
 
@@ -16278,7 +16278,7 @@ msgstr "Oznaka \"%s\" već postoji."
 msgid "Tags"
 msgstr "Oznake"
 
-#: db/seeds/settings.rb:3386
+#: db/seeds/settings.rb:3387
 msgid ""
 "Take Reply-To header as sender/from of email and use the real name of origin "
 "from."
@@ -16286,7 +16286,7 @@ msgstr ""
 "Koristi polje \"Odgovori na\" kao pošiljatelja e-maila, ali prikaži ime "
 "polja \"Šalje\"."
 
-#: db/seeds/settings.rb:3385
+#: db/seeds/settings.rb:3386
 msgid "Take Reply-To header as sender/from of email."
 msgstr "Koristi polje \"Odgovori na\" kao pošiljatelja e-maila."
 
@@ -16877,7 +16877,7 @@ msgstr "Zadana veličina fonta je 12px."
 msgid "The device could not be deleted."
 msgstr "Uređaj nije moguće obrisati."
 
-#: db/seeds/settings.rb:2322
+#: db/seeds/settings.rb:2323
 msgid "The divider between TicketHook and ticket number. E. g. ': '."
 msgstr "Razdjelnik između TicketHook-a i broja ticketa. Npr. ’: ’."
 
@@ -17026,7 +17026,7 @@ msgstr "Ime servera nije pronađeno."
 msgid "The hours overlay"
 msgstr "Pregled sati"
 
-#: db/seeds/settings.rb:2297
+#: db/seeds/settings.rb:2298
 msgid ""
 "The identifier for a ticket, e.g. Ticket#, Call#, MyTicket#. The default is "
 "Ticket#."
@@ -17658,12 +17658,12 @@ msgstr "Traženi broj ticketa nije moguće pronaći."
 msgid "The test run was successful."
 msgstr "Probni pokušaj je bio uspješan."
 
-#: db/seeds/settings.rb:3224
+#: db/seeds/settings.rb:3225
 msgid ""
 "The text at the beginning of the subject in an email forward, e. g. FWD."
 msgstr "Početni tekst predmeta u proslijeđenom e-mailu, kao što je FWD."
 
-#: db/seeds/settings.rb:3202
+#: db/seeds/settings.rb:3203
 msgid ""
 "The text at the beginning of the subject in an email reply, e.g. RE, AW, or "
 "AS."
@@ -18516,11 +18516,11 @@ msgstr "Ticket (cenzuriran):"
 msgid "Ticket Auto Assignment"
 msgstr "Automatska dodjela ticketa"
 
-#: db/seeds/settings.rb:2399
+#: db/seeds/settings.rb:2400
 msgid "Ticket Conditions Expert Mode"
 msgstr "Napredni uvjeti ticketa"
 
-#: db/seeds/settings.rb:2425
+#: db/seeds/settings.rb:2426
 msgid "Ticket Conditions Regular Expression Operators"
 msgstr "Regex operatori u uvjetima ticketa"
 
@@ -18542,39 +18542,39 @@ msgstr "Prepoznavanje duplih ticketa"
 msgid "Ticket History"
 msgstr "Ticket.Klijent"
 
-#: db/seeds/settings.rb:2294
+#: db/seeds/settings.rb:2295
 msgid "Ticket Hook"
 msgstr "Identifikator ticketa"
 
-#: db/seeds/settings.rb:2319
+#: db/seeds/settings.rb:2320
 msgid "Ticket Hook Divider"
 msgstr "Razdjelnik identifikatora ticketa"
 
-#: db/seeds/settings.rb:2340
+#: db/seeds/settings.rb:2341
 msgid "Ticket Hook Position"
 msgstr "Položaj identifikatora ticketa"
 
-#: db/seeds/settings.rb:2372
+#: db/seeds/settings.rb:2373
 msgid "Ticket Last Contact Behaviour"
 msgstr "Ponašanje posljednjeg ažuriranja ticketa prilikom kontakta"
 
-#: db/seeds/settings.rb:2451
+#: db/seeds/settings.rb:2452
 msgid "Ticket Number Format"
 msgstr "Oblik broja ticketa"
 
-#: db/seeds/settings.rb:2481
+#: db/seeds/settings.rb:2482
 msgid "Ticket Number Increment"
 msgstr "Uvećanje broja ticketa"
 
-#: db/seeds/settings.rb:2538
+#: db/seeds/settings.rb:2539
 msgid "Ticket Number Increment Date"
 msgstr "Datum uvećanja broja ticketa"
 
-#: db/seeds/settings.rb:2840
+#: db/seeds/settings.rb:2841
 msgid "Ticket Number ignore system_id"
 msgstr "Ignoriranje system_id iz broja ticketa"
 
-#: db/seeds/settings.rb:5918
+#: db/seeds/settings.rb:5919
 msgid "Ticket Organization Reassignment"
 msgstr "Ponovna dodjela organizacije ticketa"
 
@@ -18584,7 +18584,7 @@ msgstr "Ponovna dodjela organizacije ticketa"
 msgid "Ticket Overview"
 msgstr "Pregled ticketa"
 
-#: db/seeds/settings.rb:5620
+#: db/seeds/settings.rb:5621
 #, fuzzy
 #| msgid "Ticket Overview"
 msgid "Ticket Overview Query Polling"
@@ -18611,7 +18611,7 @@ msgstr "Prioriteti ticketa"
 msgid "Ticket Priority"
 msgstr "Prioritet ticketa"
 
-#: db/seeds/settings.rb:996
+#: db/seeds/settings.rb:997
 msgid "Ticket Priority Icons"
 msgstr "Ikone prioriteta ticketa"
 
@@ -18632,15 +18632,15 @@ msgstr "Status ticketa"
 msgid "Ticket States"
 msgstr "Statusi ticketa"
 
-#: db/seeds/settings.rb:3221
+#: db/seeds/settings.rb:3222
 msgid "Ticket Subject Forward"
 msgstr "Predmet proslijeđenih ticketa"
 
-#: db/seeds/settings.rb:3199
+#: db/seeds/settings.rb:3200
 msgid "Ticket Subject Reply"
 msgstr "Predmet odgovora ticketa"
 
-#: db/seeds/settings.rb:3178
+#: db/seeds/settings.rb:3179
 msgid "Ticket Subject Size"
 msgstr "Veličina predmeta ticketa"
 
@@ -18648,11 +18648,11 @@ msgstr "Veličina predmeta ticketa"
 msgid "Ticket Subscriptions"
 msgstr "Pretplate ticketa"
 
-#: db/seeds/settings.rb:2912
+#: db/seeds/settings.rb:2913
 msgid "Ticket Trigger Loop Protection Articles Total"
 msgstr "Ukupan broj članaka zaštićenih od petlje okidača"
 
-#: db/seeds/settings.rb:2893
+#: db/seeds/settings.rb:2894
 msgid "Ticket Trigger Loop Protection Articles per Ticket"
 msgstr "Članci zaštićeni od petlje okidača po ticketu"
 
@@ -18953,7 +18953,7 @@ msgstr "Ticketi korisnika"
 msgid "Tickets with \"%s\""
 msgstr "Ticketi sa „%s”"
 
-#: db/seeds/settings.rb:2768
+#: db/seeds/settings.rb:2769
 msgid "Tickets with the same attributes were found."
 msgstr "Pronađeni su ticketi s istim atributima."
 
@@ -18973,27 +18973,27 @@ msgstr "Vrijeme"
 #: app/assets/javascripts/app/controllers/ticket_zoom/time_accounting_modal.coffee:12
 #: app/assets/javascripts/app/controllers/time_accounting.coffee:3
 #: app/frontend/apps/desktop/pages/ticket/components/TicketDetailView/TimeAccountingFlyout.vue:145
-#: db/seeds/permissions.rb:107 db/seeds/settings.rb:4058
+#: db/seeds/permissions.rb:107 db/seeds/settings.rb:4059
 msgid "Time Accounting"
 msgstr "Utrošeno vrijeme"
 
-#: db/seeds/settings.rb:4121
+#: db/seeds/settings.rb:4122
 msgid "Time Accounting Custom Unit"
 msgstr "Vlastita jedinica za utrošeno vrijeme"
 
-#: db/seeds/settings.rb:4157
+#: db/seeds/settings.rb:4158
 msgid "Time Accounting Default Type"
 msgstr "Standardna jedinica utrošenog vremena"
 
-#: db/seeds/settings.rb:4085
+#: db/seeds/settings.rb:4086
 msgid "Time Accounting Selector"
 msgstr "Odabir uvjeta utrošenog vremena"
 
-#: db/seeds/settings.rb:4139
+#: db/seeds/settings.rb:4140
 msgid "Time Accounting Types"
 msgstr "Vrste jedinica utrošenog vremena"
 
-#: db/seeds/settings.rb:4103
+#: db/seeds/settings.rb:4104
 msgid "Time Accounting Unit"
 msgstr "Jedinica utrošenog vremena"
 
@@ -19044,7 +19044,7 @@ msgid "Timeframe for the first response."
 msgstr "Vremenski okvir do prvog odgovora."
 
 #: app/assets/javascripts/app/models/job.coffee:14
-#: app/assets/javascripts/app/models/trigger.coffee:13 db/seeds/settings.rb:206
+#: app/assets/javascripts/app/models/trigger.coffee:13 db/seeds/settings.rb:207
 #: lib/excel_sheet.rb:116
 msgid "Timezone"
 msgstr "Vremenska zona"
@@ -19090,7 +19090,7 @@ msgstr "Naziv obrasca"
 msgid "To"
 msgstr "Za"
 
-#: db/seeds/settings.rb:3502
+#: db/seeds/settings.rb:3503
 msgid ""
 "To archive all outgoing emails from Zammad to external, you can store a BCC "
 "email address here."
@@ -19246,15 +19246,15 @@ msgstr "Pristup putem tokena"
 msgid "Token authorization failed."
 msgstr "Autorizacija tokena nije uspjela."
 
-#: db/seeds/settings.rb:5268
+#: db/seeds/settings.rb:5269
 msgid "Token for CTI."
 msgstr "CTI token."
 
-#: db/seeds/settings.rb:5172
+#: db/seeds/settings.rb:5173
 msgid "Token for Sipgate."
 msgstr "Sipgate token."
 
-#: db/seeds/settings.rb:3564
+#: db/seeds/settings.rb:3565
 msgid "Token for monitoring."
 msgstr "Token za nadgledanje."
 
@@ -19291,7 +19291,7 @@ msgstr "Ukupno"
 msgid "Total Accounted Time"
 msgstr "Ukupno obračunato vrijeme"
 
-#: db/seeds/settings.rb:972
+#: db/seeds/settings.rb:973
 msgid "Total display of the number of objects in a grouping."
 msgstr "Ukupan prikaz broja objekata u grupiranju."
 
@@ -19449,7 +19449,7 @@ msgstr ""
 #: app/controllers/first_steps_controller.rb:27
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:26
 #: app/frontend/shared/entities/ticket-article/action/plugins/twitter.ts:124
-#: db/seeds/permissions.rb:167 db/seeds/settings.rb:789
+#: db/seeds/permissions.rb:167 db/seeds/settings.rb:790
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -19461,7 +19461,7 @@ msgstr "Twitter (dolazno)"
 msgid "Twitter (out)"
 msgstr "Twitter (odlazno)"
 
-#: db/seeds/settings.rb:789
+#: db/seeds/settings.rb:790
 msgid "Twitter - tweet initials"
 msgstr "Twitter - inicijali tweeta"
 
@@ -19477,7 +19477,7 @@ msgstr "Lozinka tokena za pristup Twitteru"
 msgid "Twitter Account"
 msgstr "Twitter račun"
 
-#: db/seeds/settings.rb:1378
+#: db/seeds/settings.rb:1379
 msgid "Twitter App Credentials"
 msgstr "Prijavni podaci Twitter aplikacije"
 
@@ -19493,7 +19493,7 @@ msgstr "Lozinka za korisnički ključ Twittera"
 msgid "Twitter Dev environment label"
 msgstr "Naziv razvojnog okruženja Twittera"
 
-#: db/seeds/settings.rb:1371
+#: db/seeds/settings.rb:1372
 msgid "Twitter Developer Site"
 msgstr "Twitter programerska stranica"
 
@@ -19501,11 +19501,11 @@ msgstr "Twitter programerska stranica"
 msgid "Twitter Direct Message"
 msgstr "Direktna Twitter poruka"
 
-#: db/seeds/settings.rb:1385
+#: db/seeds/settings.rb:1386
 msgid "Twitter Key"
 msgstr "Twitter ključ"
 
-#: db/seeds/settings.rb:1391
+#: db/seeds/settings.rb:1392
 msgid "Twitter Secret"
 msgstr "Twitter šifra (tajna)"
 
@@ -19601,11 +19601,11 @@ msgstr "Tip:"
 msgid "UID"
 msgstr "UID"
 
-#: db/seeds/settings.rb:1956
+#: db/seeds/settings.rb:1957
 msgid "UID Attribute Name"
 msgstr "UID ime atributa"
 
-#: db/seeds/settings.rb:2090
+#: db/seeds/settings.rb:2091
 #, fuzzy
 #| msgid "Date field"
 msgid "UID Field"
@@ -19822,7 +19822,7 @@ msgstr "Ažurirajte postojeće zapise atributima navedenim u uvezenim podacima."
 msgid "Update successful."
 msgstr "Ažuriranje je uspješno."
 
-#: db/seeds/settings.rb:5930
+#: db/seeds/settings.rb:5931
 msgid "Update the most recent tickets."
 msgstr "Ažurirajte najnovije tickete."
 
@@ -20091,7 +20091,7 @@ msgstr "Koristi jedan redak po URI-ju"
 msgid "Use one of your safely stored recovery codes."
 msgstr "Koristite jedan od sigurno pohranjenih kodova za oporavak."
 
-#: db/seeds/settings.rb:711
+#: db/seeds/settings.rb:712
 msgid ""
 "Use subject field for emails. If disabled, the ticket title will be used as "
 "subject."
@@ -20103,7 +20103,7 @@ msgstr ""
 msgid "Use the camera to take a photo for the avatar."
 msgstr "Upotrijebite kameru za snimanje fotografije za avatar."
 
-#: db/seeds/settings.rb:2386
+#: db/seeds/settings.rb:2387
 msgid ""
 "Use the start time of the last customer thread (which may consist of "
 "multiple articles)."
@@ -20111,7 +20111,7 @@ msgstr ""
 "Koristite vrijeme početka posljednje teme klijenta (koja se može sastojati "
 "od više članaka)."
 
-#: db/seeds/settings.rb:2385
+#: db/seeds/settings.rb:2386
 msgid "Use the time of the very last customer article."
 msgstr "Koristi vrijeme posljednjeg članka klijenta."
 
@@ -20204,7 +20204,7 @@ msgstr "Korisnički filter"
 msgid "User Mismatch"
 msgstr "Korisnik se ne podudara"
 
-#: db/seeds/settings.rb:626
+#: db/seeds/settings.rb:627
 msgid "User Organization Selector - email"
 msgstr "Odabir korisničke organizacije - e-mail"
 
@@ -20226,7 +20226,7 @@ msgstr "Nije moguće ažurirati korisnika."
 msgid "User email could not be extracted from 'id_token'."
 msgstr "Korisnički e-mail se ne može prepoznati iz 'id_token'."
 
-#: db/seeds/settings.rb:1183
+#: db/seeds/settings.rb:1184
 msgid "User email for multiple users"
 msgstr "Korisnički e-mail za više korisnika"
 
@@ -20343,7 +20343,7 @@ msgstr "Korisničko ime / e-mail"
 msgid "Username for proxy connection"
 msgstr "Korisničko ime za proxy vezu"
 
-#: db/seeds/settings.rb:531
+#: db/seeds/settings.rb:532
 msgid "Username for proxy connection."
 msgstr "Korisničko ime za proxy vezu."
 
@@ -20444,7 +20444,7 @@ msgstr "Potvrdni e-mail nije moguće pronaći u e-pretincu."
 msgid "Verification email could not be sent."
 msgstr "Nije moguće poslati potvrdni e-mail."
 
-#: db/seeds/settings.rb:1972
+#: db/seeds/settings.rb:1973
 msgid ""
 "Verification of the TLS connection to the IDP SSO target URL. Only relevant "
 "during setting up SAML authentication."
@@ -20572,12 +20572,12 @@ msgid "Warning"
 msgstr "Upozorenje"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:34
-#: db/seeds/settings.rb:2755
+#: db/seeds/settings.rb:2756
 msgid "Warning message"
 msgstr "Poruka upozorenja"
 
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee:33
-#: db/seeds/settings.rb:2738
+#: db/seeds/settings.rb:2739
 msgid "Warning title"
 msgstr "Naslov upozorenja"
 
@@ -20651,11 +20651,11 @@ msgstr "Poveznica"
 msgid "Website"
 msgstr "Mrežna stranica"
 
-#: db/seeds/settings.rb:309
+#: db/seeds/settings.rb:310
 msgid "Websocket backend"
 msgstr "Websocket pozadinski modul"
 
-#: db/seeds/settings.rb:317
+#: db/seeds/settings.rb:318
 msgid "Websocket port"
 msgstr "Websocket priključak"
 
@@ -20680,11 +20680,11 @@ msgstr "Tjedan(a)"
 
 #: app/assets/javascripts/app/controllers/_profile/linked_accounts.coffee:101
 #: app/frontend/shared/composables/authentication/useThirdPartyAuthentication.ts:68
-#: db/seeds/settings.rb:1831
+#: db/seeds/settings.rb:1832
 msgid "Weibo"
 msgstr "Weibo"
 
-#: db/seeds/settings.rb:1839
+#: db/seeds/settings.rb:1840
 msgid "Weibo App Credentials"
 msgstr "Weibo prijavni podaci"
 
@@ -20811,7 +20811,7 @@ msgstr "Objavljuje se"
 msgid "Will be published on"
 msgstr "Bit će objavljeno u"
 
-#: db/seeds/settings.rb:143
+#: db/seeds/settings.rb:144
 msgid "Will be shown in the app and is included in email footers."
 msgstr "Prikazati će se u aplikaciji i uključeno je u podnožju e-maila."
 
@@ -21433,7 +21433,7 @@ msgstr "Vaš avatar je učitan."
 #: app/assets/javascripts/app/views/microsoft365/app_config.jst.eco:31
 #: app/assets/javascripts/app/views/microsoft_graph/app_config.jst.eco:31
 #: app/assets/javascripts/app/views/twitter/app_config.jst.eco:47
-#: db/seeds/settings.rb:1397
+#: db/seeds/settings.rb:1398
 msgid "Your callback URL"
 msgstr "Vaš callback URL"
 
@@ -21491,7 +21491,7 @@ msgstr ""
 msgid "Zammad Foundation"
 msgstr "Zammad zaklada"
 
-#: db/seeds/settings.rb:113
+#: db/seeds/settings.rb:114
 msgid "Zammad Helpdesk"
 msgstr "Zammad služba za pomoć"
 
@@ -21583,7 +21583,7 @@ msgstr ""
 "\n"
 "Postmaster #{config.fqdn}\n"
 
-#: db/seeds/settings.rb:240
+#: db/seeds/settings.rb:241
 msgid "absolute - e. g. \"Monday 09:30\" or \"Tuesday 23. Feb 14:20\""
 msgstr ""
 "apsolutno - npr. \"ponedjeljak 09:30\" ili \"utorak, 23. veljače 14:20\""
@@ -21669,7 +21669,7 @@ msgstr "u"
 msgid "at least one letter is required"
 msgstr "Potrebno je barem jedno slovo"
 
-#: app/assets/javascripts/app/lib/app_post/utils.coffee:1058
+#: app/assets/javascripts/app/lib/app_post/utils.coffee:1063
 #: app/frontend/shared/composables/form/useCheckBodyAttachmentReference.ts:9
 msgid "attachment,attached,enclosed,enclosure"
 msgstr "Privitak, priloženo, u prilogu, prikvačeno"
@@ -21855,11 +21855,11 @@ msgstr "prilagođena jedinica"
 msgid "d"
 msgstr "d"
 
-#: app/models/concerns/can_be_published.rb:101
+#: app/models/concerns/can_be_published.rb:133
 msgid "date must be no earlier than internal date"
 msgstr "datum ne smije biti raniji od internog datuma"
 
-#: app/models/concerns/can_be_published.rb:107
+#: app/models/concerns/can_be_published.rb:139
 msgid "date must be no earlier than published date"
 msgstr "datum ne smije biti raniji od datuma objavljivanja"
 
@@ -21904,7 +21904,7 @@ msgstr "silazno"
 msgid "detailed search"
 msgstr "Prošireno pretraživanje"
 
-#: db/seeds/settings.rb:1229
+#: db/seeds/settings.rb:1230
 msgid "developer password"
 msgstr "programerska lozinka"
 
@@ -22125,7 +22125,7 @@ msgstr "sat(i)"
 msgid "hours"
 msgstr "sati"
 
-#: db/seeds/settings.rb:2086
+#: db/seeds/settings.rb:2087
 #, fuzzy
 #| msgid "support@example.com"
 msgid "https://example.com"
@@ -22145,11 +22145,11 @@ msgstr ""
 msgid "i-doit"
 msgstr "i-doit"
 
-#: db/seeds/settings.rb:4967
+#: db/seeds/settings.rb:4968
 msgid "i-doit config"
 msgstr "i-doit konfiguracija"
 
-#: db/seeds/settings.rb:4940
+#: db/seeds/settings.rb:4941
 msgid "i-doit integration"
 msgstr "i-doit integracija"
 
@@ -22224,7 +22224,7 @@ msgid "in process"
 msgstr "u tijeku"
 
 #: app/assets/javascripts/app/controllers/_ui_element/active.coffee:5
-#: app/assets/javascripts/app/lib/app_post/utils.coffee:1433
+#: app/assets/javascripts/app/lib/app_post/utils.coffee:1438
 #: app/assets/javascripts/app/models/webhook.coffee:34
 #: app/assets/javascripts/app/views/generic/object_search/item_object.jst.eco:16
 #: app/assets/javascripts/app/views/generic/object_search/item_organization.jst.eco:4
@@ -22236,7 +22236,7 @@ msgstr "nije aktivno"
 msgid "internal"
 msgstr "interno"
 
-#: db/seeds/settings.rb:1213
+#: db/seeds/settings.rb:1214
 msgid "internal database"
 msgstr "interna baza podataka"
 
@@ -22313,6 +22313,7 @@ msgstr "je izvan radnog vremena"
 msgid "is not included in the list"
 msgstr "nije uključen u popis"
 
+#: app/assets/javascripts/app/controllers/maintenance.coffee:84
 #: app/assets/javascripts/app/models/_application_model.coffee:63
 msgid "is required"
 msgstr "je potrebno"
@@ -22374,7 +22375,7 @@ msgstr "upravo promijenjeno u"
 msgid "just now"
 msgstr "upravo sada"
 
-#: db/seeds/settings.rb:2356
+#: db/seeds/settings.rb:2357
 msgid "left"
 msgstr "lijevo"
 
@@ -22455,7 +22456,7 @@ msgstr "minuta(e)"
 msgid "minutes"
 msgstr "minute"
 
-#: app/models/knowledge_base.rb:225
+#: app/models/knowledge_base.rb:244
 msgid "must be a valid path or domain"
 msgstr "unesite ispravnu putanju ili domenu"
 
@@ -22495,18 +22496,18 @@ msgstr "mora biti neparan broj"
 msgid "must be other than %{count}"
 msgstr "mora se razlikovati od %{count}"
 
-#: app/models/knowledge_base.rb:213
+#: app/models/knowledge_base.rb:232
 msgid "must begin with a slash (\"/\")"
 msgstr "mora započeti kosom crtom (\"/\")"
 
 msgid "must exist"
 msgstr "mora postojati"
 
-#: app/models/knowledge_base.rb:221
+#: app/models/knowledge_base.rb:240
 msgid "must not end with a slash (\"/\")"
 msgstr "ne smije završiti kosom crtom (\"/\")"
 
-#: app/models/knowledge_base.rb:217
+#: app/models/knowledge_base.rb:236
 msgid "must not include a protocol (e.g., \"http://\" or \"https://\")"
 msgstr "ne smije sadržavati protokol (npr. \"http://\" ili \"https://\")"
 
@@ -22536,7 +22537,7 @@ msgstr "novo i otvoreno"
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:91
 #: app/frontend/shared/components/ObjectAttributes/attributes/AttributeBoolean/AttributeBoolean.vue:14
 #: app/frontend/shared/entities/object-attributes/form/resolver/fields/active.ts:16
-#: db/seeds/settings.rb:613
+#: db/seeds/settings.rb:614
 msgid "no"
 msgstr "ne"
 
@@ -22560,7 +22561,7 @@ msgstr "nema jedinice"
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:106
 #: app/assets/javascripts/app/views/profile/token_access.jst.eco:27
 #: app/assets/javascripts/app/views/widget/ticket_stats_list.jst.eco:7
-#: db/seeds/settings.rb:2358
+#: db/seeds/settings.rb:2359
 msgid "none"
 msgstr "nema"
 
@@ -22699,7 +22700,7 @@ msgstr "referenca ne smije biti ticket popisa zadataka."
 msgid "relative"
 msgstr "relativno"
 
-#: db/seeds/settings.rb:239
+#: db/seeds/settings.rb:240
 msgid "relative - e. g. \"2 hours ago\" or \"2 days and 15 minutes ago\""
 msgstr "relativno - npr. \"prije 2 sata\" ili \"prije 2 dana i 15 minuta\""
 
@@ -22739,7 +22740,7 @@ msgstr "odgovori svima"
 msgid "required"
 msgstr "obavezno"
 
-#: db/seeds/settings.rb:2357
+#: db/seeds/settings.rb:2358
 msgid "right"
 msgstr "desno"
 
@@ -22764,8 +22765,8 @@ msgstr ""
 msgid "select"
 msgstr "odaberi"
 
-#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:352
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:481
+#: app/frontend/apps/desktop/components/CommonSelect/CommonSelect.vue:353
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:482
 msgid "select all options"
 msgstr "označi sve opcije"
 
@@ -22774,7 +22775,7 @@ msgstr "označi sve opcije"
 msgid "select attachment…"
 msgstr "odaberi privitak…"
 
-#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:480
+#: app/frontend/apps/desktop/components/Form/fields/FieldTreeSelect/FieldTreeSelectInputDropdown.vue:481
 msgid "select visible options"
 msgstr "odaberi vidljive opcije"
 
@@ -22830,19 +22831,19 @@ msgstr "pokaži više"
 msgid "shown"
 msgstr "pokaži"
 
-#: db/seeds/settings.rb:5169
+#: db/seeds/settings.rb:5170
 msgid "sipgate.io Token"
 msgstr "sipgate.io token"
 
-#: db/seeds/settings.rb:5203
+#: db/seeds/settings.rb:5204
 msgid "sipgate.io alternative FQDN"
 msgstr "sipgate.io alternativni FQDN"
 
-#: db/seeds/settings.rb:5190
+#: db/seeds/settings.rb:5191
 msgid "sipgate.io config"
 msgstr "sipgate.io konfiguracija"
 
-#: db/seeds/settings.rb:5141
+#: db/seeds/settings.rb:5142
 msgid "sipgate.io integration"
 msgstr "sipgate.io integracija"
 
@@ -22921,11 +22922,11 @@ msgstr "ticket"
 msgid "ticket %s was merged into this ticket"
 msgstr "Ticket %s je spojen u ovaj ticket"
 
-#: db/seeds/settings.rb:1154
+#: db/seeds/settings.rb:1155
 msgid "ticket.agent"
 msgstr "ticket.agent"
 
-#: db/seeds/settings.rb:1162
+#: db/seeds/settings.rb:1163
 msgid "ticket.customer"
 msgstr "ticket.customer"
 
@@ -22936,7 +22937,7 @@ msgstr "ticket.customer"
 msgid "till (relative)"
 msgstr "do (relativno)"
 
-#: db/seeds/settings.rb:241
+#: db/seeds/settings.rb:242
 msgid "timestamp - e. g. \"2018-08-30 14:30\""
 msgstr "vremenska oznaka - npr. \"2018-08-30 14:30\""
 
@@ -23077,7 +23078,7 @@ msgstr "unutar sljedećih (relativno)"
 #: app/frontend/apps/mobile/pages/ticket/views/TicketInformation/TicketInformationDetails.vue:90
 #: app/frontend/shared/components/ObjectAttributes/attributes/AttributeBoolean/AttributeBoolean.vue:14
 #: app/frontend/shared/entities/object-attributes/form/resolver/fields/active.ts:15
-#: db/seeds/object_manager_attributes.rb:1498 db/seeds/settings.rb:612
+#: db/seeds/object_manager_attributes.rb:1498 db/seeds/settings.rb:613
 msgid "yes"
 msgstr "da"
 
