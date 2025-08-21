@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-07-21 06:18+0000\n"
-"Last-Translator: JackYeah <jack11070@gmail.com>\n"
+"PO-Revision-Date: 2025-08-21 09:25+0000\n"
+"Last-Translator: mathew-uems <mathew.chen@edgentauems.com.tw>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translations.zammad.org/projects/zammad/zammad-stable/zh_Hant/>\n"
 "Language: zh-tw\n"
@@ -713,10 +713,8 @@ msgid "%s of my tickets are currently in process."
 msgstr "您正在處理的工單有 %s。"
 
 #: app/assets/javascripts/app/views/dashboard/stats/ticket_escalation.jst.eco:11
-#, fuzzy
-#| msgid "%s of my tickets escalated."
 msgid "%s of my tickets escalated"
-msgstr "我有 %s 工單被提升層級。"
+msgstr "我有 %s 工單被提升層級"
 
 #: app/assets/javascripts/app/views/ticket_overview/batch_overlay_user_group.jst.eco:11
 #: app/graphql/gql/queries/autocomplete_search/generic.rb:61
@@ -885,12 +883,13 @@ msgid ""
 "activity type will be rendered for an entry in the **Activity** table under "
 "the **Accounted Time** tab."
 msgstr ""
-"活動類型（Activity Types） 可用來將不同的工單工時紀錄分類。例如，與「計費」相"
-"關的紀錄可歸類為「付費」類型。\n"
+"活動類型（Activity Types） "
+"可用來將不同的工單工時紀錄分類。例如，與「計費」相關的紀錄可歸類為「付費」類"
+"型。\n"
 "\n"
-"啟用活動類型紀錄功能後，使用者將能從此清單中選擇對應的類型。此外，在 已計入時"
-"間（Accounted Time） 分頁中的 活動（Activity） 表格中，會為每筆紀錄顯示一個對"
-"應的活動類型欄位"
+"啟用活動類型紀錄功能後，使用者將能從此清單中選擇對應的類型。此外，在 "
+"已計入時間（Accounted Time） 分頁中的 活動（Activity） "
+"表格中，會為每筆紀錄顯示一個對應的活動類型欄位。"
 
 #: app/assets/javascripts/app/models/data_privacy_task.coffee
 msgid ""
@@ -1155,10 +1154,8 @@ msgid ""
 msgstr "測試工單已建立，您可以在工單總覽 “%s” ％l 中找到它。"
 
 #: app/models/ticket.rb:279
-#, fuzzy
-#| msgid "Retweets are converted to Tickets"
 msgid "A ticket cannot be merged into itself."
-msgstr "轉推 Retweets 將轉換為工單"
+msgstr "工單不能併入到本身工單中。"
 
 #: app/assets/javascripts/app/models/ticket_priority.coffee
 msgid ""
@@ -1206,10 +1203,8 @@ msgid "API Token Access"
 msgstr "API Token 存取"
 
 #: lib/whatsapp/webhook/payload.rb:22
-#, fuzzy
-#| msgid "Sign out"
 msgid "API error."
-msgstr "登出"
+msgstr "API 錯誤"
 
 #: app/assets/javascripts/app/views/import/freshdesk.jst.eco:42
 #: app/assets/javascripts/app/views/import/zendesk.jst.eco:43
@@ -1226,7 +1221,7 @@ msgstr "API token"
 msgid "Accept Data Privacy Policy & Acceptable Use Policy"
 msgstr "接受資料隱私政策 & 合理使用政策"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 #, fuzzy
 #| msgid "Access to %s"
@@ -1250,28 +1245,20 @@ msgid "Access the knowledge base reader features."
 msgstr "授予知識庫閱讀功能。"
 
 #: db/seeds/permissions.rb:379
-#, fuzzy
-#| msgid "Access to Agent Tickets based on Group Access"
 msgid "Access the tickets as agent based on group access."
-msgstr "根據所屬群組可以存取不同的工單權限"
+msgstr "根據客服人員所屬群組可以存取不同的工單權限。"
 
 #: db/seeds/permissions.rb:388
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access tickets as customer."
-msgstr "最近的客戶工單"
+msgstr "以客戶身分存取工單。"
 
 #: db/seeds/permissions.rb:312
-#, fuzzy
-#| msgid "Recent Customer Tickets"
 msgid "Access to the chat interface."
-msgstr "最近的客戶工單"
+msgstr "存取聊天介面"
 
 #: db/seeds/permissions.rb:342
-#, fuzzy
-#| msgid "Delete Knowledge Base"
 msgid "Access to the knowledge base interface."
-msgstr "刪除知識庫"
+msgstr "存取知識庫介面"
 
 #: db/seeds/permissions.rb:327
 #, fuzzy

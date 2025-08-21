@@ -1051,7 +1051,7 @@ msgstr ""
 "Veri Gizliliği Politikası ve Kabul Edilebilir Kullanım Politikasını Kabul "
 "Ediyorum"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Erişim reddedildi"

@@ -1035,7 +1035,7 @@ msgid "Accept Data Privacy Policy & Acceptable Use Policy"
 msgstr ""
 "Prihvatite politiku privatnosti podataka i politiku prihvatljive upotrebe"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Pristup je odbijen"

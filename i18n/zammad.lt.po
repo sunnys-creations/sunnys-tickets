@@ -1031,7 +1031,7 @@ msgstr "API žetonas"
 msgid "Accept Data Privacy Policy & Acceptable Use Policy"
 msgstr "Sutinku su duomenų privatumo ir priimtino naudojimo taisyklėmis"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Prieigos nėra"

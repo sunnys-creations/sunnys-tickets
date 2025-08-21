@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zammad\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-08-15 22:00+0000\n"
+"PO-Revision-Date: 2025-08-20 22:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/zammad/"
 "zammad-stable/ru/>\n"
@@ -1059,7 +1059,7 @@ msgstr ""
 "Принять Политику конфиденциальности данных и Политику допустимого "
 "использования"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Доступ запрещён"
@@ -8378,7 +8378,7 @@ msgstr "Пароль клиента Google"
 #: app/assets/javascripts/app/views/google/index.jst.eco:3
 #: app/assets/javascripts/app/views/google/list.jst.eco:3
 msgid "Google Email"
-msgstr "Электронная почта Google"
+msgstr "Эл. почта Google"
 
 #: app/assets/javascripts/app/views/clues/clues_content.jst.eco:17
 msgid "Got it!"
@@ -10991,13 +10991,13 @@ msgstr "Учётные данные приложения Microsoft 365"
 #: app/assets/javascripts/app/views/microsoft_graph/index.jst.eco:4
 #: app/assets/javascripts/app/views/microsoft_graph/list.jst.eco:3
 msgid "Microsoft 365 Graph Email"
-msgstr "Электронная почта Microsoft 365 Graph"
+msgstr "Эл. почта Microsoft 365 Graph"
 
 #: app/assets/javascripts/app/controllers/_channel/microsoft365.coffee:3
 #: app/assets/javascripts/app/views/microsoft365/index.jst.eco:3
 #: app/assets/javascripts/app/views/microsoft365/list.jst.eco:3
 msgid "Microsoft 365 IMAP Email"
-msgstr "Электронная почта Microsoft 365 IMAP"
+msgstr "Эл. почта Microsoft 365 IMAP"
 
 #: db/seeds/settings.rb:1763
 msgid "Microsoft Application Registration Portal"
@@ -18302,6 +18302,9 @@ msgid ""
 "This new desktop UI is currently in development and not ready for production "
 "use. It may contain bugs or incomplete features."
 msgstr ""
+"Этот новый пользовательский интерфейс для рабочего стола находится в стадии "
+"разработки и не готов к использованию в производстве. Он может содержать "
+"ошибки или недоработанные функции."
 
 #: app/controllers/application_controller/handles_errors.rb:99
 #: app/graphql/gql/zammad_schema.rb:116

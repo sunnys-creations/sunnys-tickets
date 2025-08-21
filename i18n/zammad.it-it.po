@@ -1052,7 +1052,7 @@ msgstr "Token API"
 msgid "Accept Data Privacy Policy & Acceptable Use Policy"
 msgstr "Accetta la politica di gestione dei dati e la politica di utilizzo"
 
-#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:36
+#: app/frontend/apps/desktop/components/CommonTicketLabel/CommonTicketLabel.vue:37
 #: app/frontend/apps/desktop/components/UserTaskbarTabs/UserTaskbarTabForbidden.vue:42
 msgid "Access denied"
 msgstr "Accesso negato"
