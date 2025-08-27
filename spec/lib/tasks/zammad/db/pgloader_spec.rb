@@ -38,7 +38,9 @@ RSpec.describe Tasks::Zammad::DB::Pgloader do
             AFTER LOAD DO
               $$ alter table smime_certificates alter column email_addresses type varchar[] using translate(email_addresses::varchar, '[]', '{}')::varchar[] $$,
               $$ alter table pgp_keys alter column email_addresses type varchar[] using translate(email_addresses::varchar, '[]', '{}')::varchar[] $$,
-              $$ alter table public_links alter column screen type varchar[] using translate(screen::varchar, '[]', '{}')::varchar[] $$
+              $$ alter table public_links alter column screen type varchar[] using translate(screen::varchar, '[]', '{}')::varchar[] $$,
+              $$ alter table checklists alter column sorted_item_ids type varchar[] using translate(sorted_item_ids::varchar, '[]', '{}')::varchar[] $$,
+              $$ alter table checklist_templates alter column sorted_item_ids type varchar[] using translate(sorted_item_ids::varchar, '[]', '{}')::varchar[] $$
           PGLOADER
         end
 
@@ -52,6 +54,8 @@ RSpec.describe Tasks::Zammad::DB::Pgloader do
               $$ alter table smime_certificates alter column email_addresses type varchar[] using translate(email_addresses::varchar, '[]', '{}')::varchar[] $$,
               $$ alter table pgp_keys alter column email_addresses type varchar[] using translate(email_addresses::varchar, '[]', '{}')::varchar[] $$,
               $$ alter table public_links alter column screen type varchar[] using translate(screen::varchar, '[]', '{}')::varchar[] $$,
+              $$ alter table checklists alter column sorted_item_ids type varchar[] using translate(sorted_item_ids::varchar, '[]', '{}')::varchar[] $$,
+              $$ alter table checklist_templates alter column sorted_item_ids type varchar[] using translate(sorted_item_ids::varchar, '[]', '{}')::varchar[] $$,
               $$ alter table #{object.table_name} alter column multi_select type varchar[] using translate(multi_select::varchar, '[]', '{}')::varchar[] $$,
               $$ alter table #{object.table_name} alter column multi_tree_select type varchar[] using translate(multi_tree_select::varchar, '[]', '{}')::varchar[] $$
           PGLOADER
