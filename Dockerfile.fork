@@ -1,17 +1,21 @@
-# Build your productized Zammad from your forked source,
-# while keeping the official entrypoints and runtime layout.
+# Build your productized Zammad from your fork while keeping the official entrypoints
 FROM zammad/zammad:stable
 
-# Put your forked app code where Zammad expects it
+USER root
 WORKDIR /opt/zammad
+
+# Copy your forked code over the app directory
 COPY . /opt/zammad
 
-# Make sure ownership is correct
-RUN chown -R zammad:zammad /opt/zammad
+# Ensure the app tree is owned by the zammad user inside the base image
+# If the user exists, chown will work. If not, create it and then chown.
+RUN if ! id -u zammad >/dev/null 2>&1; then useradd -m -s /bin/bash zammad; fi \
+ && chown -R zammad:zammad /opt/zammad
 
-# Install production dependencies and compile assets as the zammad user
-# Tip: this works with the official image toolchain. If your fork
-# adds gems or frontend packages, this ensures they are installed.
-RUN zammad run bundle config set without 'development test' && \
-    zammad run bundle install --jobs 4 && \
-    zammad run rake assets:precompile
+# Install prod gems and JS deps, then build assets - all as the zammad user
+# pnpm is provided through corepack in the base image, enable it first
+RUN zammad run bundle config set without 'development test' \
+ && zammad run bundle install --jobs 4 \
+ && zammad run corepack enable \
+ && zammad run pnpm install --frozen-lockfile \
+ && zammad run rake assets:precompile
