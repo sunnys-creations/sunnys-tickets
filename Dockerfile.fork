@@ -1,21 +1,23 @@
-# Build your productized Zammad from your fork while keeping the official entrypoints
+# Build your productized Zammad from your fork while keeping official entrypoints
 FROM zammad/zammad:stable
 
 USER root
 WORKDIR /opt/zammad
 
-# Copy your forked code over the app directory
-COPY . /opt/zammad
+# Copy your forked source into the image
+COPY . .
 
-# Ensure the app tree is owned by the zammad user inside the base image
-# If the user exists, chown will work. If not, create it and then chown.
-RUN if ! id -u zammad >/dev/null 2>&1; then useradd -m -s /bin/bash zammad; fi \
- && chown -R zammad:zammad /opt/zammad
+# Ensure the zammad user exists and owns the app tree
+RUN set -eux; \
+  if ! id -u zammad >/dev/null 2>&1; then useradd -m -s /bin/bash zammad; fi; \
+  chown -R zammad:zammad /opt/zammad
 
-# Install prod gems and JS deps, then build assets - all as the zammad user
-# pnpm is provided through corepack in the base image, enable it first
-RUN zammad run bundle config set without 'development test' \
- && zammad run bundle install --jobs 4 \
- && zammad run corepack enable \
- && zammad run pnpm install --frozen-lockfile \
- && zammad run rake assets:precompile
+# Install prod deps and precompile assets as the zammad user
+ENV RAILS_ENV=production
+RUN set -eux; \
+  export HOME=/home/zammad; \
+  runuser -u zammad -- bash -lc "bundle config set without 'development test'"; \
+  runuser -u zammad -- bash -lc "bundle install --jobs 4"; \
+  runuser -u zammad -- bash -lc "corepack enable || true"; \
+  runuser -u zammad -- bash -lc "if [ -f pnpm-lock.yaml ]; then pnpm install --frozen-lockfile; elif [ -f yarn.lock ]; then yarn install --frozen-lockfile; fi"; \
+  runuser -u zammad -- bash -lc "bundle exec rake assets:precompile"
