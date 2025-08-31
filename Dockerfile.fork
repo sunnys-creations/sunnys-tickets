@@ -1,0 +1,17 @@
+# Build your productized Zammad from your forked source,
+# while keeping the official entrypoints and runtime layout.
+FROM zammad/zammad:stable
+
+# Put your forked app code where Zammad expects it
+WORKDIR /opt/zammad
+COPY . /opt/zammad
+
+# Make sure ownership is correct
+RUN chown -R zammad:zammad /opt/zammad
+
+# Install production dependencies and compile assets as the zammad user
+# Tip: this works with the official image toolchain. If your fork
+# adds gems or frontend packages, this ensures they are installed.
+RUN zammad run bundle config set without 'development test' && \
+    zammad run bundle install --jobs 4 && \
+    zammad run rake assets:precompile
